@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-ft.alt2" format="1">
+  <advance width="1841"/>
+  <outline>
+    <component base="_Plus" xOffset="889" yOffset="315"/>
+    <component base="TifLtrYaf"/>
+  </outline>
+</glyph>

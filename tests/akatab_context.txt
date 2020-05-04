@@ -1,0 +1,46 @@
+----------------------------------------------
+Contextual substitutions (raised variants)
+----------------------------------------------
+(v) = any unwritten vowel
+ⵏⵏ    N(v)N
+ⵏⵍ    N(v)L
+ⵍⵍ    L(v)L
+ⵍⵏ    L(v)N
+***
+ⵏⵏⵏ    N(v)N(v)N
+ⵏⵍⵏ    N(v)L(v)N
+ⵍⵍⵍ    L(v)L(v)L
+ⵍⵏⵍ    L(v)N(v)L
+***
+Anywhere an N or L is at the beginning of a ligature lookup, 
+a raised N or L needs to be accounted for in ligature rules.
+ⵏⵏⵙ    N(v)N(v)S
+ⵏⵏ⵿ⵙ    N(v)[NS]
+----------------
+N plus ligature
+----------------
+ⵏⵏ⵿ⵙ    N[NS]
+ⵏⵏ⵿ⴷ    N[ND]
+ⵏⵏ⵿ⴸ    N[NDH]
+ⵏⵏ⵿ⴼ    N[NF]
+ⵏⵏ⵿ⴴ    N[NGHH]
+ⵏⵏ⵿ⴶ    N[NJ]
+ⵏⵏ⵿ⴾ    N[NK]
+ⵏⵏ⵿ⵜ    N[NT]
+ⵏⵏ⵿ⵛ    N[NSH]
+ⵏⵍ⵿ⴾ    N[LK]
+ⵏⵍ⵿ⵜ    N[LT]
+----------------
+L plus ligature
+----------------
+ⵍⵏ⵿ⵙ    L[NS]
+ⵍⵏ⵿ⴷ    L[ND]
+ⵍⵏ⵿ⴸ    L[NDH]
+ⵍⵏ⵿ⴼ    L[NF]
+ⵍⵏ⵿ⴴ    L[NGHH]
+ⵍⵏ⵿ⴶ    L[NJ]
+ⵍⵏ⵿ⴾ    L[NK]
+ⵍⵏ⵿ⵜ    L[NT]
+ⵍⵏ⵿ⵛ    L[NSH]
+ⵍⵍ⵿ⴾ    L[LK]
+ⵍⵍ⵿ⵜ    L[LT]

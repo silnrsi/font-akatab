@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="HairSpace" format="2">
+  <advance width="205"/>
+  <unicode hex="200A"/>
+  <anchor x="102" y="0" name="H"/>
+  <anchor x="102" y="-100" name="L"/>
+  <anchor x="153" y="0" name="O"/>
+  <anchor x="205" y="1000" name="R"/>
+  <anchor x="102" y="1530" name="U"/>
+  <outline/>
+</glyph>

@@ -1,0 +1,465 @@
+/***************************************************************************
+
+	Akatab.gdl
+	Graphite source code for Akatab
+
+***************************************************************************/
+
+#include "stddef.gdh"
+
+/////////////////////////////////
+//
+//  Features
+//
+/////////////////////////////////
+
+#define bool default = ffalse; \
+    settings { \
+        ffalse { \
+            value = 0; \
+            name.1033 = string("False"); \
+        } \
+        ftrue { \
+            value = 1; \
+            name.1033 = string("True"); \
+        } \
+    }
+
+#define boolWDefTrue default = ftrue; \
+    settings { \
+        ftrue { \
+            value = 0; \
+            name.1033 = string("True"); \
+        } \
+        ffalse { \
+            value = 1; \
+            name.1033 = string("False"); \
+        } \
+    }
+
+table(feature)
+
+f_2D30 {
+	id = "cv01";
+	name.1033 = string("Alternate YA (empty circle)");  // A
+	bool
+}
+
+f_2D3C {
+	id = "cv02";
+	name.1033 = string("Alternate YAF (I-bar)");  // F
+	bool
+}
+
+f_2D34 {
+	id = "cv03";
+	name.1033 = string("Alternate YAGHH (square bottomed)");  // GHH
+	bool
+}
+
+f_2D50 {
+	id = "cv04";
+	name.1033 = string("Alternate YAGN (lowered bottom stroke)");  // GN
+	bool
+}
+
+f_2D53 {
+	id = "cv05";
+	name.1033 = string("Alternate YU (hyphens)");  // W
+	bool
+}
+
+f_2D63 {
+	id = "cv06";
+	name.1033 = string("Alternate AHAGGAR YAZ (squared)");  // Z
+	bool
+}
+
+f_2D4B {
+	id = "cv07";
+	name.1033 = string("Alternate YAZH (squared)");  // ZH
+	bool
+}
+
+
+// Biconsonant features
+
+f_2D31_2D5C {
+	id = "cv31";
+	name.1033 = string("Alternate YABH YAT");  // BT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (exterior +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (interior +)");
+		}
+	}
+}
+
+f_2D54_2D5C {
+	id = "cv32";
+	name.1033 = string("Alternate YAR YAT");  // RT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (exterior +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (large interior +)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (small interior +)");
+		}
+	}
+}
+
+f_2D59_2D5C {
+	id = "cv33";
+	name.1033 = string("Alternate YAS YAT");  // ST
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (exterior +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (large interior +)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (small interior +)");
+		}
+	}
+}
+
+f_2D4E_2D5C {
+	id = "cv34";
+	name.1033 = string("Alternate YAM YAT");  // MT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (lowered +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (raised +)");
+		}
+	}
+}
+
+f_2D3C_2D5C {
+	id = "cv35";
+	name.1033 = string("Alternate YAF YAT");  // FT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (lowered +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (raised +)");
+		}
+	}
+}
+
+f_2D4F_2D3E {
+	id = "cv36";
+	name.1033 = string("Alternate YAM YAK");  // NK
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (single dot cluster)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (double dot cluster)");
+		}
+	}
+}
+
+f_2D4F_2D5C {
+	id = "cv37";
+	name.1033 = string("Alternate YAN YAT");  // NT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (+)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (-)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (T-form)");
+		}
+	}
+}
+
+f_2D4D_2D5C {
+	id = "cv38";
+	name.1033 = string("Alternate YAL YAT");  // LT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (external +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (internal +)");
+		}
+	}
+}
+
+f_2D53_2D5C {
+	id = "cv39";
+	name.1033 = string("Alternate YU YAT");  // WT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (short)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (tall)");
+		}
+	}
+}
+
+f_2D4C_2D5C {
+	id = "cv40";
+	name.1033 = string("Alternate YAZH YAT");  // ZZHT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (lower-right +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (right +)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (centered +)");
+		}
+	}
+}
+
+endtable; // feature
+
+/////////////////////////////////
+//
+//  Subsitutions
+//
+/////////////////////////////////
+
+table(glyph)
+
+// Biconsonant ligatures
+
+c_2d4f_cons = (g2d34  g2d36  g2d37  g2d38  g2d3c  g2d3e  g2d59  g2d5b  g2d5c
+	g2d34_alt  g2d3c_alt);
+c_2d4f_cons_lig = (
+	g2d4f_2d7f_2d34  g2d4f_2d7f_2d36  g2d4f_2d7f_2d37  g2d4f_2d7f_2d38
+	g2d4f_2d7f_2d3c  g2d4f_2d7f_2d3e  g2d4f_2d7f_2d59  g2d4f_2d7f_2d5b  g2d4f_2d7f_2d5c
+	g2d4f_2d7f_2d34_aalt  g2d4f_2d7f_2d3c_aalt);
+
+c_cons_2d3e = (g2d4d  g2d4d_slant  g2d54  g2d59  g2d5b);
+c_cons_2d3e_lig = (g2d4d_2d7f_2d3e  g2d4d_2d7f_2d3e  g2d54_2d7f_2d3e  g2d59_2d7f_2d3e  g2d5b_2d7f_2d3e);
+
+c_cons_2d5c = (
+	g2d31  g2d34  g2d36  g2d3c  g2d40
+	g2d49  g2d4b  g2d4c  g2d4d  g2d4d_slant 
+	g2d4e  g2d53  g2d54  g2d59  g2d5b  g2d63
+	g2d34_alt  g2d3c_alt  g2d4b_alt  g2d53_alt  g2d63_alt  );
+c_cons_2d5c_lig = (
+	g2d31_2d7f_2d5c  g2d34_2d7f_2d5c  g2d36_2d7f_2d5c  g2d3c_2d7f_2d5c  g2d40_2d7f_2d5c
+	g2d49_2d7f_2d5c  g2d4b_2d7f_2d5c  g2d4c_2d7f_2d5c  g2d4d_2d7f_2d5c  g2d4d_2d7f_2d5c
+	g2d4e_2d7f_2d5c  g2d53_2d7f_2d5c  g2d54_2d7f_2d5c  g2d59_2d7f_2d5c  g2d5b_2d7f_2d5c  g2d63_2d7f_2d5c
+	g2d34_2d7f_2d5c_aalt  g2d3c_2d7f_2d5c_aalt  g2d4b_2d7f_2d5c_aalt  g2d53_2d7f_2d5c_aalt  
+	g2d63_2d7f_2d5c_aalt);
+
+
+// Tifinagh characters that take the acute/dot diacritics
+
+cTakesTDia_base = (g2d57, g2d3e, g2d48, g2d46, g2d42, g2d31, g2d40, g2d54, g2d59, g2d37, g2d38,
+	g2d39, g2d4e, g2d5f, g2d3c, g2d3c_alt, g2d62, g2d49, g2d34, g2d34_alt, g2d36, g2d51, g2d4f, 
+	g2d4f_slant, g2d4d, g2d4d_slant, g2d50, g2d50_alt, g2d5b, g2d5c, g2d53, g2d53_alt, g2d4c, g2d63, 
+	g2d63_alt, g2d4b, g2d4b_alt);
+
+cTDia_roman = (g_acutecomb, g0307);
+
+endtable;  // glyph
+
+
+table(sub)
+
+pass(1)
+
+// Slanted vertical-bar characters:
+cno_slant  >  cslant  /  (g2d4f g2d4d)  _ ;
+
+
+// Use Tif version of diacs when they attach to Tif characters:
+cTDia_roman  >  cTDia  /  cTakesTDia_base  _;
+
+
+// Alternate character forms
+
+if (f_2D30)
+g2d30  >  g2d30_alt;
+endif;
+
+if (f_2D3C)
+g2d3c  >  g2d3c_alt;
+endif;
+
+if (f_2D34)
+g2d34  >  g2d34_alt;
+endif;
+
+if (f_2D50)
+g2d50  >  g2d50_alt;
+endif;
+
+if (f_2D53)
+g2d53  >  g2d53_alt;
+endif;
+
+if (f_2D63)
+g2d63  >  g2d63_alt;
+endif;
+
+if (f_2D4B)
+g2d4b  >  g2d4b_alt;
+endif;
+
+endpass; // 1
+
+
+pass(2);
+
+// Biconsonant ligatures
+
+(g2d4f  g2d4f_slant)  g2d7f  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+
+c_cons_2d3e  g2d7f  g2d3e  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c  g2d7f  g2d5c  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+
+endpass;  // 2
+
+
+pass(3)
+
+if (f_2D31_2D5C)
+g2d31_2d7f_2d5c  >  g2d31_2d7f_2d5c_alt;
+endif;
+
+if (f_2D54_2D5C == 1)
+g2d54_2d7f_2d5c  >  g2d54_2d7f_2d5c_alt;
+endif;
+if (f_2D54_2D5C == 2)
+g2d54_2d7f_2d5c  >  g2d54_2d7f_2d5c_alt2;
+endif;
+
+if (f_2D59_2D5C == 1)
+g2d59_2d7f_2d5c  >  g2d59_2d7f_2d5c_alt;
+endif;
+if (f_2D59_2D5C == 2)
+g2d59_2d7f_2d5c  >  g2d59_2d7f_2d5c_alt2;
+endif;
+
+if (f_2D4E_2D5C)
+g2d4e_2d7f_2d5c  >  g2d4e_2d7f_2d5c_alt;
+endif;
+
+if (f_2D3C_2D5C)
+g2d3c_2d7f_2d5c  >  g2d3c_2d7f_2d5c_alt;
+endif;
+
+if (f_2D4F_2D3E)
+g2d4f_2d7f_2d3e  >  g2d4f_2d7f_2d3e_alt;
+endif;
+
+if (f_2D4F_2D5C == 1)
+g2d4f_2d7f_2d5c  >  g2d4f_2d7f_2d5c_alt;
+endif;
+if (f_2D4F_2D5C == 2)
+g2d4f_2d7f_2d5c  >  g2d4f_2d7f_2d5c_alt2;
+endif;
+
+if (f_2D4D_2D5C)
+g2d4d_2d7f_2d5c  >  g2d4d_2d7f_2d5c_alt;
+endif;
+
+if (f_2D53_2D5C)
+g2d53_2d7f_2d5c  >  g2d53_2d7f_2d5c_alt;
+endif;
+
+if (f_2D4C_2D5C == 1)
+g2d4c_2d7f_2d5c  >  g2d4c_2d7f_2d5c_alt;
+endif;
+if (f_2D4C_2D5C == 2)
+g2d4c_2d7f_2d5c  >  g2d4c_2d7f_2d5c_alt2;
+endif;
+
+endpass;  // 3
+
+endtable;  // substitution
+
+
+/////////////////////////////////
+//
+//  Diacritic attachments
+//
+/////////////////////////////////
+
+#define attached	user1
+#define DIASTR4(x) [ x [ x [ x x?]?]?]?
+
+table(glyph)
+
+cnHDiaX = (cLDia cUDia cTDia);		// Not Cedilla
+cnLDiaX = (cHDia cUDia cTDia);		// Not Lower
+cnUDiaX = (cHDia cLDia cTDia);		// Not Upper
+cnTDiaX = (cHDia cLDia cUDia);		// Not Tifinagh acute/dot
+cDia =  (cHDia cLDia cUDia cTDia);	// Any (but not double dias)
+
+endtable;
+
+
+table(pos)
+
+//#define pos_rule(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
+#define pos_ruleSD(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; insert = 1; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
+
+
+//if (select_diac)
+	pos_ruleSD(cTakesHDia, cHDia, HS, HM, cnHDiaX);
+	pos_ruleSD(cTakesLDia, cLDia, LS, LM, cnLDiaX);
+	pos_ruleSD(cTakesUDia, cUDia, US, UM, cnUDiaX);
+	pos_ruleSD(cTakesTDia_base, cTDia, TS, TM, cnTDiaX);
+//else
+//	pos_rule(cTakesHDia, cHDia, HS, HM, cnHDiaX);
+//	pos_rule(cTakesLDia, cLDia, LS, LM, cnLDiaX);
+//	pos_rule(cTakesUDia, cUDia, US, UM, cnUDiaX);
+//	pos_rule(cTakesTDia_base, cTDia, TS, TM, cnTDiaX);
+//endif;
+
+
+endtable; // positioning

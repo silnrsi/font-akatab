@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrYal.slant" format="2">
+  <advance width="1291"/>
+  <anchor x="487" y="1393" name="T"/>
+  <outline>
+    <component base="TifLtrYan.slant"/>
+    <component base="TifLtrYan.slant" xOffset="400"/>
+  </outline>
+</glyph>

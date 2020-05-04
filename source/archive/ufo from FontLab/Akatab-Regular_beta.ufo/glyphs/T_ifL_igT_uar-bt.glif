@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLigTuar-bt" format="1">
+  <advance width="1438"/>
+  <outline>
+    <component base="_VerticalOval" xOffset="-24"/>
+    <component base="_VerticalBarJoining" xOffset="-23"/>
+    <component base="_Plus" xOffset="1252" yOffset="313"/>
+  </outline>
+</glyph>

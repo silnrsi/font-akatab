@@ -1,0 +1,943 @@
+table(glyph) {MUnits = 2048};
+g_notdef = glyphid(0);
+g_null = postscript(".null");
+gnonmarkingreturn = postscript("nonmarkingreturn");
+g_space = postscript("space");
+g_exclam = postscript("exclam");
+g_quotedbl = postscript("quotedbl");
+g_numbersign = postscript("numbersign");
+g_dollar = postscript("dollar");
+g_percent = postscript("percent");
+g_ampersand = postscript("ampersand");
+g_quotesingle = postscript("quotesingle");
+g_parenleft = postscript("parenleft");
+g_parenright = postscript("parenright");
+g_asterisk = postscript("asterisk");
+g_plus = postscript("plus");
+g_comma = postscript("comma");
+g_hyphen = postscript("hyphen") {US=point(430m, 1100m)};
+g_period = postscript("period");
+g_slash = postscript("slash");
+g_zero = postscript("zero") {LS=point(605m, -100m); US=point(605m, 1530m)};
+g_one = postscript("one") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_two = postscript("two") {LS=point(600m, -100m); US=point(560m, 1530m)};
+g_three = postscript("three") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_four = postscript("four") {LS=point(607m, -100m); US=point(607m, 1530m)};
+g_five = postscript("five") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_six = postscript("six") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_seven = postscript("seven") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_eight = postscript("eight") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_nine = postscript("nine") {LS=point(600m, -100m); US=point(600m, 1530m)};
+g_colon = postscript("colon");
+g_semicolon = postscript("semicolon");
+g_less = postscript("less");
+g_equal = postscript("equal");
+g_greater = postscript("greater");
+g_question = postscript("question");
+g_at = postscript("at");
+g__a = postscript("A") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 1530m)};
+g__b = postscript("B") {LS=point(615m, -100m); US=point(615m, 1530m)};
+g__c = postscript("C") {HS=point(750m, 0m); LS=point(750m, -100m); US=point(750m, 1530m)};
+g__d = postscript("D") {LS=point(715m, -100m); US=point(715m, 1530m)};
+g__e = postscript("E") {HS=point(600m, 0m); OS=point(917m, 0m); LS=point(600m, -100m); US=point(600m, 1530m); RS=point(1160m, 1200m)};
+g__f = postscript("F") {LS=point(595m, -100m); US=point(595m, 1530m)};
+g__g = postscript("G") {HS=point(745m, 0m); LS=point(745m, -100m); US=point(745m, 1530m)};
+g__h = postscript("H") {HS=point(285m, 0m); LS=point(725m, -100m); US=point(725m, 1530m)};
+g__i = postscript("I") {HS=point(477m, 0m); OS=point(673m, 0m); LS=point(477m, -100m); US=point(477m, 1530m); RS=point(975m, 1200m)};
+g__j = postscript("J") {LS=point(410m, -100m); US=point(675m, 1530m)};
+g__k = postscript("K") {HS=point(270m, 0m); LS=point(695m, -100m); US=point(650m, 1530m)};
+g__l = postscript("L") {HS=point(592m, 0m); LS=point(592m, -100m); US=point(592m, 1530m); RS=point(540m, 1200m)};
+g__m = postscript("M") {LS=point(885m, -100m); US=point(885m, 1530m)};
+g__n = postscript("N") {HS=point(1230m, 0m); LS=point(737m, -100m); US=point(737m, 1530m)};
+g__o = postscript("O") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 1530m); RS=point(1460m, 1200m)};
+g__p = postscript("P") {LS=point(637m, -100m); US=point(637m, 1530m)};
+g__q = postscript("Q") {LS=point(717m, -270m); US=point(717m, 1530m)};
+g__r = postscript("R") {HS=point(650m, 0m); LS=point(610m, -100m); US=point(610m, 1530m)};
+g__s = postscript("S") {HS=point(580m, 0m); LS=point(580m, -100m); US=point(580m, 1530m)};
+g__t = postscript("T") {HS=point(622m, 0m); LS=point(622m, -100m); US=point(622m, 1530m)};
+g__u = postscript("U") {HS=point(707m, 0m); OS=point(925m, 0m); LS=point(707m, -100m); US=point(707m, 1530m); RS=point(1400m, 1200m)};
+g__v = postscript("V") {HS=point(680m, 0m); OS=point(880m, 0m); LS=point(672m, -100m); US=point(672m, 1530m)};
+g__w = postscript("W") {LS=point(1027m, -100m); US=point(1027m, 1530m)};
+g__x = postscript("X") {LS=point(650m, -100m); US=point(650m, 1530m)};
+g__y = postscript("Y") {LS=point(650m, -100m); US=point(650m, 1530m)};
+g__z = postscript("Z") {LS=point(605m, -100m); US=point(605m, 1530m)};
+g_bracketleft = postscript("bracketleft");
+g_backslash = postscript("backslash");
+g_bracketright = postscript("bracketright");
+g_asciicircum = postscript("asciicircum") {US=point(425m, 1635m)};
+g_underscore = postscript("underscore");
+g_grave = postscript("grave") {US=point(390m, 1635m)};
+g_a = postscript("a") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1100m); RS=point(1150m, 1000m)};
+g_b = postscript("b") {HS=point(590m, 0m); LS=point(590m, -100m); US=point(590m, 1635m); RS=point(1155m, 1000m)};
+g_c = postscript("c") {HS=point(580m, 0m); LS=point(580m, -100m); US=point(570m, 1100m); RS=point(1020m, 1000m)};
+g_d = postscript("d") {HS=point(605m, 0m); LS=point(605m, -100m); US=point(605m, 1635m); RS=point(1190m, 1000m)};
+g_e = postscript("e") {HS=point(545m, 0m); OS=point(900m, 0m); LS=point(569m, -100m); US=point(569m, 1100m); RS=point(1095m, 1000m)};
+g_f = postscript("f") {HS=point(370m, 0m); LS=point(335m, -100m); US=point(560m, 1635m)};
+g_g = postscript("g") {LS=point(555m, -500m); US=point(595m, 1100m); RS=point(1125m, 1000m)};
+g_h = postscript("h") {HS=point(250m, 0m); LS=point(585m, -100m); US=point(585m, 1635m)};
+g_i = postscript("i") {HS=point(282m, 0m); OS=point(500m, 0m); LS=point(285m, -100m); US=point(282m, 1100m); RS=point(555m, 1000m)};
+g_j = postscript("j") {LS=point(125m, -500m); US=point(313m, 1100m)};
+g_k = postscript("k") {HS=point(880m, 0m); LS=point(572m, -100m); US=point(572m, 1635m); RS=point(1035m, 1000m)};
+g_l = postscript("l") {HS=point(290m, 0m); LS=point(290m, -100m); US=point(282m, 1635m); RS=point(550m, 1000m)};
+g_m = postscript("m") {HS=point(865m, 0m); LS=point(865m, -100m); US=point(865m, 1100m)};
+g_n = postscript("n") {HS=point(600m, 0m); LS=point(600m, -100m); US=point(600m, 1100m)};
+g_o = postscript("o") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1100m); RS=point(1140m, 1000m)};
+g_p = postscript("p") {HS=point(265m, -435m); LS=point(590m, -500m); US=point(590m, 1100m); RS=point(1170m, 1000m)};
+g_q = postscript("q") {LS=point(555m, -500m); US=point(555m, 1100m); RS=point(1130m, 1000m)};
+g_r = postscript("r") {HS=point(270m, 0m); LS=point(255m, -100m); US=point(455m, 1100m)};
+g_s = postscript("s") {HS=point(495m, 0m); LS=point(495m, -100m); US=point(495m, 1100m)};
+g_t = postscript("t") {HS=point(475m, 0m); LS=point(475m, -100m); US=point(325m, 1360m); RS=point(835m, 1000m)};
+g_u = postscript("u") {HS=point(525m, 0m); OS=point(700m, 0m); LS=point(589m, -100m); US=point(589m, 1100m); RS=point(1185m, 1000m)};
+g_v = postscript("v") {HS=point(549m, 0m); OS=point(725m, 0m); LS=point(535m, -100m); US=point(535m, 1100m)};
+g_w = postscript("w") {LS=point(775m, -100m); US=point(775m, 1100m)};
+g_x = postscript("x") {HS=point(900m, 0m); LS=point(542m, -100m); US=point(542m, 1100m)};
+g_y = postscript("y") {LS=point(795m, -100m); US=point(535m, 1100m); RS=point(1120m, 1000m)};
+g_z = postscript("z") {HS=point(525m, 0m); LS=point(525m, -100m); US=point(525m, 1100m)};
+g_braceleft = postscript("braceleft");
+g_bar = postscript("bar");
+g_braceright = postscript("braceright");
+g_asciitilde = postscript("asciitilde");
+g__euro = postscript("Euro");
+g_quotesinglbase = postscript("quotesinglbase");
+g_quotedblbase = postscript("quotedblbase");
+g_florin = postscript("florin") {LS=point(297m, -500m); US=point(540m, 1635m)};
+g_ellipsis = postscript("ellipsis");
+g_dagger = postscript("dagger");
+g_daggerdbl = postscript("daggerdbl");
+g_circumflex = postscript("circumflex");
+g_perthousand = postscript("perthousand");
+g__scaron = postscript("Scaron") {HS=point(580m, 0m); LS=point(580m, -100m); US=point(580m, 2065m)};
+g_guilsinglleft = postscript("guilsinglleft");
+g_guilsinglright = postscript("guilsinglright");
+g__o_e = postscript("OE") {LS=point(962m, -100m); US=point(962m, 1530m)};
+g_quoteleft = postscript("quoteleft");
+g_quoteright = postscript("quoteright");
+g_quotedblleft = postscript("quotedblleft");
+g_quotedblright = postscript("quotedblright");
+g_bullet = postscript("bullet");
+g_endash = postscript("endash");
+g_emdash = postscript("emdash");
+g_tilde = postscript("tilde");
+g_trademark = postscript("trademark");
+g_scaron = postscript("scaron") {HS=point(495m, 0m); LS=point(495m, -100m); US=point(495m, 1635m)};
+g_oe = postscript("oe") {HS=point(1320m, 0m); OS=point(1590m, 0m); LS=point(955m, -100m); US=point(955m, 1100m); RS=point(1860m, 1000m)};
+g0308 = postscript("u0308") {UM=point(-570m, 1100m); US=point(-570m, 1505m)};
+g__ydieresis = postscript("Ydieresis") {LS=point(650m, -100m); US=point(650m, 1935m)};
+g00a0 = postscript("u00A0") {HS=point(512m, 0m); OS=point(562m, 0m); LS=point(512m, -100m); US=point(512m, 1500m); RS=point(1024m, 1000m)};
+g_exclamdown = postscript("exclamdown");
+g__abreve = postscript("Abreve") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 2065m)};
+g_gravecomb = postscript("gravecomb") {UM=point(-550m, 1100m); US=point(-550m, 1635m)};
+g_acutecomb = postscript("acutecomb") {UM=point(-570m, 1100m); US=point(-570m, 1635m)};
+g0302 = postscript("u0302") {UM=point(-570m, 1100m); US=point(-570m, 1635m)};
+g_tildecomb = postscript("tildecomb") {UM=point(-575m, 1100m); US=point(-575m, 1475m)};
+g0304 = postscript("u0304") {UM=point(-570m, 1100m); US=point(-570m, 1450m)};
+g0306 = postscript("u0306") {UM=point(-570m, 1100m); US=point(-570m, 1635m)};
+g0307 = postscript("u0307") {UM=point(-570m, 1100m); US=point(-570m, 1505m)};
+g_dotbelowcomb = postscript("dotbelowcomb") {LM=point(-575m, -100m); LS=point(-575m, -500m)};
+g_cent = postscript("cent");
+g_sterling = postscript("sterling");
+g_currency = postscript("currency");
+g_yen = postscript("yen");
+g_brokenbar = postscript("brokenbar");
+g_section = postscript("section");
+g_dieresis = postscript("dieresis") {US=point(340m, 1505m)};
+g_copyright = postscript("copyright");
+g_ordfeminine = postscript("ordfeminine");
+g_guillemotleft = postscript("guillemotleft");
+g_logicalnot = postscript("logicalnot");
+g00ad = postscript("u00AD") {US=point(430m, 1100m)};
+g_registered = postscript("registered");
+g_macron = postscript("macron");
+g_degree = postscript("degree");
+g_plusminus = postscript("plusminus");
+g_twosuperior = postscript("twosuperior") {LS=point(420m, 615m); US=point(420m, 1675m)};
+g_threesuperior = postscript("threesuperior") {LS=point(420m, 615m); US=point(420m, 1675m)};
+g_acute = postscript("acute") {US=point(180m, 1635m)};
+g_mu = postscript("mu");
+g_paragraph = postscript("paragraph");
+g_periodcentered = postscript("periodcentered");
+g_cedilla = postscript("cedilla") {LS=point(105m, -520m)};
+g_onesuperior = postscript("onesuperior") {LS=point(419m, 615m); US=point(419m, 1675m)};
+g_ordmasculine = postscript("ordmasculine");
+g_guillemotright = postscript("guillemotright");
+g_onequarter = postscript("onequarter");
+g_onehalf = postscript("onehalf");
+g_threequarters = postscript("threequarters");
+g_questiondown = postscript("questiondown");
+g__agrave = postscript("Agrave") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 2065m)};
+g__aacute = postscript("Aacute") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 2065m)};
+g__acircumflex = postscript("Acircumflex") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 2065m)};
+g__atilde = postscript("Atilde") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 1905m)};
+g__adieresis = postscript("Adieresis") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(687m, 1935m)};
+g__aring = postscript("Aring") {HS=point(1230m, 0m); OS=point(1450m, 0m); LS=point(687m, -100m); US=point(689m, 2065m)};
+g__a_e = postscript("AE") {LS=point(1015m, -100m); US=point(1015m, 1530m)};
+g__ccedilla = postscript("Ccedilla") {LS=point(720m, -520m); US=point(750m, 1530m)};
+g__egrave = postscript("Egrave") {HS=point(600m, 0m); OS=point(917m, 0m); LS=point(600m, -100m); US=point(600m, 2065m); RS=point(1160m, 1200m)};
+g__eacute = postscript("Eacute") {HS=point(600m, 0m); OS=point(917m, 0m); LS=point(600m, -100m); US=point(600m, 2065m); RS=point(1160m, 1200m)};
+g__ecircumflex = postscript("Ecircumflex") {HS=point(600m, 0m); OS=point(917m, 0m); LS=point(600m, -100m); US=point(600m, 2065m); RS=point(1160m, 1200m)};
+g__edieresis = postscript("Edieresis") {HS=point(600m, 0m); OS=point(917m, 0m); LS=point(600m, -100m); US=point(600m, 1935m); RS=point(1160m, 1200m)};
+g__igrave = postscript("Igrave") {HS=point(477m, 0m); OS=point(673m, 0m); LS=point(477m, -100m); US=point(477m, 2065m); RS=point(975m, 1200m)};
+g__iacute = postscript("Iacute") {HS=point(477m, 0m); OS=point(673m, 0m); LS=point(477m, -100m); US=point(477m, 2065m); RS=point(975m, 1200m)};
+g__icircumflex = postscript("Icircumflex") {HS=point(477m, 0m); OS=point(673m, 0m); LS=point(477m, -100m); US=point(477m, 2065m); RS=point(975m, 1200m)};
+g__idieresis = postscript("Idieresis") {HS=point(477m, 0m); OS=point(673m, 0m); LS=point(477m, -100m); US=point(477m, 1935m); RS=point(975m, 1200m)};
+g__eth = postscript("Eth") {LS=point(715m, -100m); US=point(715m, 1530m)};
+g__ntilde = postscript("Ntilde") {HS=point(1230m, 0m); LS=point(737m, -100m); US=point(737m, 1905m)};
+g__ograve = postscript("Ograve") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 2065m); RS=point(1460m, 1200m)};
+g__oacute = postscript("Oacute") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 2065m); RS=point(1460m, 1200m)};
+g__ocircumflex = postscript("Ocircumflex") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 2065m); RS=point(1460m, 1200m)};
+g__otilde = postscript("Otilde") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 1905m); RS=point(1460m, 1200m)};
+g__odieresis = postscript("Odieresis") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 1935m); RS=point(1460m, 1200m)};
+g_multiply = postscript("multiply");
+g__oslash = postscript("Oslash") {LS=point(717m, -100m); US=point(717m, 1530m)};
+g__ugrave = postscript("Ugrave") {HS=point(707m, 0m); OS=point(925m, 0m); LS=point(707m, -100m); US=point(707m, 2065m); RS=point(1400m, 1200m)};
+g__uacute = postscript("Uacute") {HS=point(707m, 0m); OS=point(925m, 0m); LS=point(707m, -100m); US=point(707m, 2065m); RS=point(1400m, 1200m)};
+g__ucircumflex = postscript("Ucircumflex") {HS=point(707m, 0m); OS=point(925m, 0m); LS=point(707m, -100m); US=point(707m, 2065m); RS=point(1400m, 1200m)};
+g__udieresis = postscript("Udieresis") {HS=point(707m, 0m); OS=point(925m, 0m); LS=point(707m, -100m); US=point(707m, 1935m); RS=point(1400m, 1200m)};
+g__yacute = postscript("Yacute") {LS=point(650m, -100m); US=point(650m, 2065m)};
+g__thorn = postscript("Thorn") {LS=point(638m, -100m); US=point(638m, 1530m)};
+g_germandbls = postscript("germandbls") {LS=point(590m, -100m); US=point(590m, 1635m)};
+g_agrave = postscript("agrave") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1635m); RS=point(1150m, 1000m)};
+g_aacute = postscript("aacute") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1635m); RS=point(1150m, 1000m)};
+g_acircumflex = postscript("acircumflex") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1635m); RS=point(1150m, 1000m)};
+g_atilde = postscript("atilde") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1475m); RS=point(1150m, 1000m)};
+g_adieresis = postscript("adieresis") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1505m); RS=point(1150m, 1000m)};
+g_aring = postscript("aring") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(597m, 1635m); RS=point(1150m, 1000m)};
+g_ae = postscript("ae") {HS=point(1215m, 0m); OS=point(1465m, 0m); LS=point(865m, -100m); US=point(865m, 1100m); RS=point(1745m, 1000m)};
+g_ccedilla = postscript("ccedilla") {LS=point(550m, -520m); US=point(570m, 1100m); RS=point(1020m, 1000m)};
+g_egrave = postscript("egrave") {HS=point(545m, 0m); OS=point(900m, 0m); LS=point(569m, -100m); US=point(569m, 1635m); RS=point(1095m, 1000m)};
+g_eacute = postscript("eacute") {HS=point(545m, 0m); OS=point(900m, 0m); LS=point(569m, -100m); US=point(569m, 1635m); RS=point(1095m, 1000m)};
+g_ecircumflex = postscript("ecircumflex") {HS=point(545m, 0m); OS=point(900m, 0m); LS=point(569m, -100m); US=point(569m, 1635m); RS=point(1095m, 1000m)};
+g_edieresis = postscript("edieresis") {HS=point(545m, 0m); OS=point(900m, 0m); LS=point(569m, -100m); US=point(569m, 1505m); RS=point(1095m, 1000m)};
+g_igrave = postscript("igrave") {HS=point(285m, 0m); OS=point(520m, 0m); LS=point(285m, -100m); US=point(285m, 1635m); RS=point(550m, 1000m)};
+g_iacute = postscript("iacute") {HS=point(285m, 0m); OS=point(520m, 0m); LS=point(285m, -100m); US=point(285m, 1635m); RS=point(550m, 1000m)};
+g_icircumflex = postscript("icircumflex") {HS=point(285m, 0m); OS=point(520m, 0m); LS=point(285m, -100m); US=point(285m, 1635m); RS=point(550m, 1000m)};
+g_idieresis = postscript("idieresis") {HS=point(285m, 0m); OS=point(520m, 0m); LS=point(285m, -100m); US=point(285m, 1505m); RS=point(550m, 1000m)};
+g_eth = postscript("eth") {LS=point(572m, -100m); US=point(572m, 1635m)};
+g_ntilde = postscript("ntilde") {HS=point(600m, 0m); LS=point(600m, -100m); US=point(600m, 1475m)};
+g_ograve = postscript("ograve") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1635m); RS=point(1140m, 1000m)};
+g_oacute = postscript("oacute") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1635m); RS=point(1140m, 1000m)};
+g_ocircumflex = postscript("ocircumflex") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1635m); RS=point(1140m, 1000m)};
+g_otilde = postscript("otilde") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1475m); RS=point(1140m, 1000m)};
+g_odieresis = postscript("odieresis") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1505m); RS=point(1140m, 1000m)};
+g_divide = postscript("divide");
+g_oslash = postscript("oslash") {HS=point(570m, 0m); OS=point(820m, 0m); LS=point(570m, -100m); US=point(570m, 1100m); RS=point(1140m, 1000m)};
+g_ugrave = postscript("ugrave") {HS=point(525m, 0m); OS=point(700m, 0m); LS=point(589m, -100m); US=point(589m, 1635m); RS=point(1185m, 1000m)};
+g_uacute = postscript("uacute") {HS=point(525m, 0m); OS=point(700m, 0m); LS=point(589m, -100m); US=point(589m, 1635m); RS=point(1185m, 1000m)};
+g_ucircumflex = postscript("ucircumflex") {HS=point(525m, 0m); OS=point(700m, 0m); LS=point(589m, -100m); US=point(589m, 1635m); RS=point(1185m, 1000m)};
+g_udieresis = postscript("udieresis") {HS=point(525m, 0m); OS=point(700m, 0m); LS=point(589m, -100m); US=point(589m, 1505m); RS=point(1185m, 1000m)};
+g_yacute = postscript("yacute") {LS=point(795m, -100m); US=point(535m, 1635m); RS=point(1120m, 1000m)};
+g_thorn = postscript("thorn") {LS=point(590m, -500m); US=point(620m, 1635m)};
+g_ydieresis = postscript("ydieresis") {LS=point(795m, -100m); US=point(535m, 1505m); RS=point(1120m, 1000m)};
+g0327 = postscript("u0327") {LS=point(-460m, -520m); HM=point(-430m, 0m)};
+g_abreve = postscript("abreve") {HS=point(980m, 0m); OS=point(1180m, 0m); LS=point(595m, -100m); US=point(595m, 1635m); RS=point(1150m, 1000m)};
+g__ebreve = postscript("Ebreve") {HS=point(600m, 0m); OS=point(917m, 0m); LS=point(600m, -100m); US=point(600m, 2065m); RS=point(1160m, 1200m)};
+g_ebreve = postscript("ebreve") {HS=point(545m, 0m); OS=point(900m, 0m); LS=point(569m, -100m); US=point(569m, 1635m); RS=point(1095m, 1000m)};
+g__ibreve = postscript("Ibreve") {HS=point(477m, 0m); OS=point(673m, 0m); LS=point(477m, -100m); US=point(477m, 2065m); RS=point(975m, 1200m)};
+g_ibreve = postscript("ibreve") {HS=point(285m, 0m); OS=point(520m, 0m); LS=point(285m, -100m); US=point(285m, 1635m); RS=point(550m, 1000m)};
+g__obreve = postscript("Obreve") {HS=point(717m, 0m); OS=point(956m, 0m); LS=point(717m, -100m); US=point(717m, 2065m); RS=point(1460m, 1200m)};
+g_obreve = postscript("obreve") {HS=point(570m, 0m); OS=point(790m, 0m); LS=point(570m, -100m); US=point(570m, 1635m); RS=point(1140m, 1000m)};
+g__ubreve = postscript("Ubreve") {HS=point(707m, 0m); OS=point(925m, 0m); LS=point(707m, -100m); US=point(707m, 2065m); RS=point(1400m, 1200m)};
+g_ubreve = postscript("ubreve") {HS=point(525m, 0m); OS=point(700m, 0m); LS=point(589m, -100m); US=point(589m, 1635m); RS=point(1185m, 1000m)};
+g018e = postscript("u018E") {LS=point(560m, -100m); US=point(560m, 1530m)};
+g01dd = postscript("u01DD") {HS=point(541m, 0m); OS=point(598m, 0m); LS=point(541m, -100m); US=point(541m, 1100m)};
+g0194 = postscript("u0194") {LS=point(670m, -100m); US=point(670m, 1530m)};
+g0263 = postscript("u0263") {LS=point(585m, -500m); US=point(585m, 1100m)};
+g__eng_ucstyle = postscript("Eng.UCStyle") {LS=point(740m, -500m); US=point(740m, 1530m)};
+g_eng = postscript("eng") {LS=point(605m, -500m); US=point(605m, 1100m)};
+g__zcaron = postscript("Zcaron") {LS=point(605m, -100m); US=point(605m, 2065m)};
+g_zcaron = postscript("zcaron") {HS=point(525m, 0m); LS=point(525m, -100m); US=point(525m, 1635m)};
+g1e04 = postscript("u1E04") {LS=point(615m, -500m); US=point(615m, 1530m)};
+g1e05 = postscript("u1E05") {HS=point(590m, 0m); LS=point(590m, -500m); US=point(590m, 1635m); RS=point(1155m, 1000m)};
+g1e0c = postscript("u1E0C") {LS=point(715m, -500m); US=point(715m, 1530m)};
+g1e0d = postscript("u1E0D") {HS=point(605m, 0m); LS=point(605m, -500m); US=point(605m, 1635m); RS=point(1190m, 1000m)};
+g1e24 = postscript("u1E24") {HS=point(285m, 0m); LS=point(725m, -500m); US=point(725m, 1530m)};
+g1e25 = postscript("u1E25") {HS=point(250m, 0m); LS=point(585m, -500m); US=point(585m, 1635m)};
+g1e32 = postscript("u1E32") {HS=point(270m, 0m); LS=point(695m, -500m); US=point(650m, 1530m)};
+g1e33 = postscript("u1E33") {HS=point(880m, 0m); LS=point(572m, -500m); US=point(572m, 1635m); RS=point(1035m, 1000m)};
+g1e36 = postscript("u1E36") {HS=point(592m, 0m); LS=point(592m, -500m); US=point(592m, 1530m); RS=point(540m, 1200m)};
+g1e37 = postscript("u1E37") {HS=point(290m, 0m); LS=point(290m, -500m); US=point(282m, 1635m); RS=point(550m, 1000m)};
+g1e42 = postscript("u1E42") {LS=point(885m, -500m); US=point(885m, 1530m)};
+g1e43 = postscript("u1E43") {HS=point(865m, 0m); LS=point(865m, -500m); US=point(865m, 1100m)};
+g1e46 = postscript("u1E46") {HS=point(1230m, 0m); LS=point(737m, -500m); US=point(737m, 1530m)};
+g1e47 = postscript("u1E47") {HS=point(600m, 0m); LS=point(600m, -500m); US=point(600m, 1100m)};
+g1e5a = postscript("u1E5A") {HS=point(650m, 0m); LS=point(610m, -500m); US=point(610m, 1530m)};
+g1e5b = postscript("u1E5B") {HS=point(270m, 0m); LS=point(255m, -500m); US=point(455m, 1100m)};
+g1e62 = postscript("u1E62") {HS=point(580m, 0m); LS=point(580m, -500m); US=point(580m, 1530m)};
+g1e63 = postscript("u1E63") {HS=point(495m, 0m); LS=point(495m, -500m); US=point(495m, 1100m)};
+g1e6c = postscript("u1E6C") {HS=point(622m, 0m); LS=point(622m, -500m); US=point(622m, 1530m)};
+g1e6d = postscript("u1E6D") {HS=point(475m, 0m); LS=point(475m, -500m); US=point(325m, 1360m); RS=point(835m, 1000m)};
+g1e88 = postscript("u1E88") {LS=point(1027m, -500m); US=point(1027m, 1530m)};
+g1e89 = postscript("u1E89") {LS=point(775m, -500m); US=point(775m, 1100m)};
+g1ef4 = postscript("u1EF4") {LS=point(650m, -500m); US=point(650m, 1530m)};
+g1ef5 = postscript("u1EF5") {LS=point(795m, -500m); US=point(535m, 1100m); RS=point(1120m, 1000m)};
+g1e92 = postscript("u1E92") {LS=point(605m, -500m); US=point(605m, 1530m)};
+g1e93 = postscript("u1E93") {HS=point(525m, 0m); LS=point(525m, -500m); US=point(525m, 1100m)};
+g030a = postscript("u030A") {UM=point(-572m, 1100m); US=point(-570m, 1635m)};
+g030c = postscript("u030C") {UM=point(-570m, 1100m); US=point(-570m, 1635m)};
+g0305 = postscript("u0305") {UM=point(-570m, 1100m); US=point(-570m, 1450m)};
+g007f = postscript("u007F");
+g_dotlessi = postscript("dotlessi") {HS=point(285m, 0m); OS=point(520m, 0m); LS=point(285m, -100m); US=point(285m, 1100m); RS=point(550m, 1000m)};
+g_caron = postscript("caron") {US=point(425m, 1635m)};
+g02d0 = postscript("u02D0") {LS=point(223m, -100m); US=point(223m, 1091m)};
+g_breve = postscript("breve") {US=point(375m, 1635m)};
+g_dotaccent = postscript("dotaccent");
+g_ring = postscript("ring");
+g_ogonek = postscript("ogonek") {LS=point(355m, -400m)};
+g034f = postscript("u034F") {UM=point(0m, 0m); LM=point(0m, 0m); LS=point(0m, 0m); US=point(0m, 0m)};
+g_pi = postscript("pi") {LS=point(650m, -100m); US=point(650m, 1100m)};
+g2000 = postscript("u2000") {HS=point(512m, 0m); OS=point(562m, 0m); LS=point(512m, -100m); US=point(512m, 1530m); RS=point(1024m, 1000m)};
+g2001 = postscript("u2001") {HS=point(1024m, 0m); OS=point(1074m, 0m); LS=point(1024m, -100m); US=point(1024m, 1530m); RS=point(2048m, 1000m)};
+g2002 = postscript("u2002") {HS=point(512m, 0m); OS=point(562m, 0m); LS=point(512m, -100m); US=point(512m, 1530m); RS=point(1024m, 1000m)};
+g2003 = postscript("u2003") {HS=point(1024m, 0m); OS=point(1074m, 0m); LS=point(1024m, -100m); US=point(1024m, 1530m); RS=point(2048m, 1000m)};
+g2004 = postscript("u2004") {HS=point(341m, 0m); OS=point(392m, 0m); LS=point(341m, -100m); US=point(341m, 1530m); RS=point(683m, 1000m)};
+g2005 = postscript("u2005") {HS=point(256m, 0m); OS=point(306m, 0m); LS=point(256m, -100m); US=point(256m, 1530m); RS=point(512m, 1000m)};
+g2006 = postscript("u2006") {HS=point(170m, 0m); OS=point(220m, 0m); LS=point(170m, -100m); US=point(170m, 1530m); RS=point(341m, 1000m)};
+g2007 = postscript("u2007") {HS=point(600m, 0m); OS=point(650m, 0m); LS=point(600m, -100m); US=point(600m, 1530m); RS=point(1200m, 1000m)};
+g2008 = postscript("u2008") {HS=point(322m, 0m); OS=point(372m, 0m); LS=point(322m, -100m); US=point(322m, 1530m); RS=point(645m, 1000m)};
+g2009 = postscript("u2009") {HS=point(205m, 0m); OS=point(255m, 0m); LS=point(205m, -100m); US=point(205m, 1530m); RS=point(410m, 1000m)};
+g200a = postscript("u200A") {HS=point(102m, 0m); OS=point(153m, 0m); LS=point(102m, -100m); US=point(102m, 1530m); RS=point(205m, 1000m)};
+g200b = postscript("u200B");
+g200c = postscript("uni200C");
+g200d = postscript("uni200D");
+g200e = postscript("uni200E");
+g200f = postscript("uni200F");
+g2010 = postscript("u2010") {US=point(430m, 1100m)};
+g2011 = postscript("u2011") {US=point(430m, 1100m)};
+g_figuredash = postscript("figuredash");
+g_afii00208 = postscript("uni2015");
+g2027 = postscript("u2027");
+g2028 = postscript("u2028");
+g2029 = postscript("u2029");
+g202a = postscript("u202A");
+g202b = postscript("u202B");
+g_afii61573 = postscript("uni202C");
+g_afii61574 = postscript("uni202D");
+g_afii61575 = postscript("uni202E");
+g202f = postscript("u202F") {HS=point(205m, 0m); OS=point(255m, 0m); LS=point(205m, -100m); US=point(205m, 1530m); RS=point(410m, 1000m)};
+g_fraction = postscript("fraction");
+g2060 = postscript("u2060");
+g__omega = postscript("Omega");
+g_partialdiff = postscript("partialdiff");
+g__delta = postscript("Delta");
+g_product = postscript("product");
+g_summation = postscript("summation") {LS=point(605m, -100m); US=point(605m, 1530m)};
+g2219 = postscript("u2219");
+g_radical = postscript("radical");
+g_infinity = postscript("infinity");
+g_integral = postscript("integral");
+g_approxequal = postscript("approxequal");
+g_notequal = postscript("notequal");
+g_lessequal = postscript("lessequal");
+g_greaterequal = postscript("greaterequal");
+g_lozenge = postscript("lozenge");
+g_circledash = postscript("u25CC") {HS=point(553m, 0m); OS=point(810m, 0m); LS=point(553m, -100m); US=point(553m, 1000m)};
+g2d30 = postscript("u2D30");
+g2d30_alt = postscript("u2D30.alt");
+g2d57 = postscript("u2D57") {TS=point(345m, 1233m)};
+g2d3e = postscript("u2D3E") {TS=point(578m, 1100m)};
+g2d48 = postscript("u2D48") {TS=point(758m, 820m)};
+g2d46 = postscript("u2D46") {TS=point(661m, 1171m)};
+g2d42 = postscript("u2D42") {TS=point(344m, 1458m)};
+g2d31 = postscript("u2D31") {TS=point(720m, 1393m)};
+g2d31_2d7f_2d5c = postscript("u2D31_u2D7F_u2D5C");
+g2d31_2d7f_2d5c_alt = postscript("u2D31_u2D7F_u2D5C.alt");
+g2d40 = postscript("u2D40") {TS=point(720m, 1393m)};
+g2d40_2d7f_2d5c = postscript("u2D40_u2D7F_u2D5C");
+g2d54 = postscript("u2D54") {TS=point(718m, 1393m)};
+g2d54_2d7f_2d3e = postscript("u2D54_u2D7F_u2D3E");
+g2d54_2d7f_2d5c = postscript("u2D54_u2D7F_u2D5C");
+g2d54_2d7f_2d5c_alt = postscript("u2D54_u2D7F_u2D5C.alt");
+g2d54_2d7f_2d5c_alt2 = postscript("u2D54_u2D7F_u2D5C.alt2");
+g2d59 = postscript("u2D59") {TS=point(720m, 1393m)};
+g2d59_2d7f_2d3e = postscript("u2D59_u2D7F_u2D3E");
+g2d4f_2d7f_2d59 = postscript("u2D4F_u2D7F_u2D59");
+g2d59_2d7f_2d5c = postscript("u2D59_u2D7F_u2D5C");
+g2d59_2d7f_2d5c_alt = postscript("u2D59_u2D7F_u2D5C.alt");
+g2d59_2d7f_2d5c_alt2 = postscript("u2D59_u2D7F_u2D5C.alt2");
+g2d37 = postscript("u2D37") {TS=point(699m, 1393m)};
+g2d4f_2d7f_2d37 = postscript("u2D4F_u2D7F_u2D37");
+g2d38 = postscript("u2D38") {TS=point(702m, 1393m)};
+g2d4f_2d7f_2d38 = postscript("u2D4F_u2D7F_u2D38");
+g2d39 = postscript("u2D39") {TS=point(653m, 1393m)};
+g2d4e = postscript("u2D4E") {TS=point(670m, 1393m)};
+g2d4e_2d7f_2d5c = postscript("u2D4E_u2D7F_u2D5C");
+g2d4e_2d7f_2d5c_alt = postscript("u2D4E_u2D7F_u2D5C.alt");
+g2d5f = postscript("u2D5F") {TS=point(670m, 1393m)};
+g2d3c = postscript("u2D3C") {TS=point(655m, 1393m)};
+g2d4f_2d7f_2d3c = postscript("u2D4F_u2D7F_u2D3C");
+g2d3c_2d7f_2d5c = postscript("u2D3C_u2D7F_u2D5C");
+g2d3c_2d7f_2d5c_alt = postscript("u2D3C_u2D7F_u2D5C.alt");
+g2d3c_alt = postscript("u2D3C.alt") {TS=point(569m, 1393m)};
+g2d4f_2d7f_2d3c_aalt = postscript("u2D4F_u2D7F_u2D3C.aalt");
+g2d3c_2d7f_2d5c_aalt = postscript("u2D3C_u2D7F_u2D5C.aalt");
+g2d62 = postscript("u2D62") {TS=point(536m, 1393m)};
+g2d49 = postscript("u2D49") {TS=point(580m, 1393m)};
+g2d49_2d7f_2d5c = postscript("u2D49_u2D7F_u2D5C");
+g2d34 = postscript("u2D34") {TS=point(518m, 1393m)};
+g2d34_2d7f_2d5c = postscript("u2D34_u2D7F_u2D5C");
+g2d4f_2d7f_2d34 = postscript("u2D4F_u2D7F_u2D34");
+g2d34_alt = postscript("u2D34.alt") {TS=point(538m, 1393m)};
+g2d34_2d7f_2d5c_aalt = postscript("u2D34_u2D7F_u2D5C.aalt");
+g2d4f_2d7f_2d34_aalt = postscript("u2D4F_u2D7F_u2D34.aalt");
+g2d36 = postscript("u2D36") {TS=point(499m, 1393m)};
+g2d4f_2d7f_2d36 = postscript("u2D4F_u2D7F_u2D36");
+g2d36_2d7f_2d5c = postscript("u2D36_u2D7F_u2D5C");
+g2d51 = postscript("u2D51") {TS=point(297m, 1393m)};
+g2d4f = postscript("u2D4F") {TS=point(297m, 1393m)};
+g2d4f_slant = postscript("u2D4F.slant") {TS=point(325m, 1393m)};
+g2d4f_2d7f_2d3e = postscript("u2D4F_u2D7F_u2D3E");
+g2d4f_2d7f_2d3e_alt = postscript("u2D4F_u2D7F_u2D3E.alt");
+g2d4f_2d7f_2d5c = postscript("u2D4F_u2D7F_u2D5C");
+g2d4f_2d7f_2d5c_alt = postscript("u2D4F_u2D7F_u2D5C.alt");
+g2d4f_2d7f_2d5c_alt2 = postscript("u2D4F_u2D7F_u2D5C.alt2");
+g2d4d = postscript("u2D4D") {TS=point(479m, 1393m)};
+g2d4d_slant = postscript("u2D4D.slant") {TS=point(487m, 1393m)};
+g2d4d_2d7f_2d3e = postscript("u2D4D_u2D7F_u2D3E");
+g2d4d_2d7f_2d5c = postscript("u2D4D_u2D7F_u2D5C");
+g2d4d_2d7f_2d5c_alt = postscript("u2D4D_u2D7F_u2D5C.alt");
+g2d50 = postscript("u2D50") {TS=point(601m, 1393m)};
+g2d50_alt = postscript("u2D50.alt") {TS=point(601m, 1393m)};
+g2d5b = postscript("u2D5B") {TS=point(601m, 1393m)};
+g2d5b_2d7f_2d3e = postscript("u2D5B_u2D7F_u2D3E");
+g2d4f_2d7f_2d5b = postscript("u2D4F_u2D7F_u2D5B");
+g2d5b_2d7f_2d5c = postscript("u2D5B_u2D7F_u2D5C");
+g2d5c = postscript("u2D5C") {TS=point(711m, 1393m)};
+g2d53 = postscript("u2D53") {TS=point(345m, 1027m)};
+g2d53_2d7f_2d5c = postscript("u2D53_u2D7F_u2D5C");
+g2d53_2d7f_2d5c_alt = postscript("u2D53_u2D7F_u2D5C.alt");
+g2d53_alt = postscript("u2D53.alt") {TS=point(377m, 984m)};
+g2d53_2d7f_2d5c_aalt = postscript("u2D53_u2D7F_u2D5C.aalt");
+g2d4c = postscript("u2D4C") {TS=point(705m, 1393m)};
+g2d4c_2d7f_2d5c = postscript("u2D4C_u2D7F_u2D5C");
+g2d4c_2d7f_2d5c_alt = postscript("u2D4C_u2D7F_u2D5C.alt");
+g2d4c_2d7f_2d5c_alt2 = postscript("u2D4C_u2D7F_u2D5C.alt2");
+g2d63 = postscript("u2D63") {TS=point(564m, 1393m)};
+g2d63_2d7f_2d5c = postscript("u2D63_u2D7F_u2D5C");
+g2d63_alt = postscript("u2D63.alt") {TS=point(564m, 1393m)};
+g2d63_2d7f_2d5c_aalt = postscript("u2D63_u2D7F_u2D5C.aalt");
+g2d4b = postscript("u2D4B") {TS=point(576m, 1393m)};
+g2d4b_2d7f_2d5c = postscript("u2D4B_u2D7F_u2D5C");
+g2d4b_alt = postscript("u2D4B.alt") {TS=point(564m, 1393m)};
+g2d4b_2d7f_2d5c_aalt = postscript("u2D4B_u2D7F_u2D5C.aalt");
+g2d70 = postscript("u2D70");
+g2d7f = postscript("u2D7F");
+g_acutecomb_alt = postscript("u0301.alt") {TM=point(675m, 1393m)};
+g0307_alt = postscript("u0307.alt") {TM=point(722m, 1393m)};
+gfe00 = postscript("uFE00");
+gfe01 = postscript("uFE01");
+gfe02 = postscript("uFE02");
+gfe03 = postscript("uFE03");
+gfe04 = postscript("uFE04");
+gfe05 = postscript("uFE05");
+gfe06 = postscript("uFE06");
+gfe07 = postscript("uFE07");
+gfe08 = postscript("uFE08");
+gfe09 = postscript("uFE09");
+gfe0a = postscript("uFE0A");
+gfe0b = postscript("uFE0B");
+gfe0c = postscript("uFE0C");
+gfe0d = postscript("uFE0D");
+gfe0e = postscript("uFE0E");
+gfe0f = postscript("uFE0F");
+gfeff = postscript("uFEFF");
+gfffc = postscript("uFFFC");
+gfffd = postscript("uFFFD");
+
+
+/* Point Classes */
+cHDia = (g0327);
+
+cTakesHDia = (g__a, g__c, g__e, g__g, g__h, g__i, g__k, g__l,
+         g__n, g__o, g__r, g__s, g__t, g__u, g__v, g_a,
+         g_b, g_c, g_d, g_e, g_f, g_h, g_i, g_k,
+         g_l, g_m, g_n, g_o, g_p, g_r, g_s, g_t,
+         g_u, g_v, g_x, g_z, g__scaron, g_scaron, g_oe, g00a0,
+         g__abreve, g__agrave, g__aacute, g__acircumflex, g__atilde, g__adieresis, g__aring, g__egrave,
+         g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__ntilde,
+         g__ograve, g__oacute, g__ocircumflex, g__otilde, g__odieresis, g__ugrave, g__uacute, g__ucircumflex,
+         g__udieresis, g_agrave, g_aacute, g_acircumflex, g_atilde, g_adieresis, g_aring, g_ae,
+         g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis,
+         g_ntilde, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_odieresis, g_oslash, g_ugrave,
+         g_uacute, g_ucircumflex, g_udieresis, g_abreve, g__ebreve, g_ebreve, g__ibreve, g_ibreve,
+         g__obreve, g_obreve, g__ubreve, g_ubreve, g01dd, g_zcaron, g1e05, g1e0d,
+         g1e24, g1e25, g1e32, g1e33, g1e36, g1e37, g1e43, g1e46,
+         g1e47, g1e5a, g1e5b, g1e62, g1e63, g1e6c, g1e6d, g1e93,
+         g_dotlessi, g2000, g2001, g2002, g2003, g2004, g2005, g2006,
+         g2007, g2008, g2009, g200a, g202f, g_circledash);
+
+cnHDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_zero, g_one, g_two, g_three, g_four,
+         g_five, g_six, g_seven, g_eight, g_nine, g_colon, g_semicolon, g_less,
+         g_equal, g_greater, g_question, g_at, g__a, g__b, g__c, g__d,
+         g__e, g__f, g__g, g__h, g__i, g__j, g__k, g__l,
+         g__m, g__n, g__o, g__p, g__q, g__r, g__s, g__t,
+         g__u, g__v, g__w, g__x, g__y, g__z, g_bracketleft, g_backslash,
+         g_bracketright, g_asciicircum, g_underscore, g_grave, g_a, g_b, g_c, g_d,
+         g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t,
+         g_u, g_v, g_w, g_x, g_y, g_z, g_braceleft, g_bar,
+         g_braceright, g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_florin, g_ellipsis, g_dagger,
+         g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g_guilsinglright, g__o_e, g_quoteleft,
+         g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark,
+         g_scaron, g_oe, g0308, g__ydieresis, g00a0, g_exclamdown, g__abreve, g_gravecomb,
+         g_acutecomb, g0302, g_tildecomb, g0304, g0306, g0307, g_dotbelowcomb, g_cent,
+         g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine,
+         g_guillemotleft, g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior,
+         g_threesuperior, g_acute, g_mu, g_paragraph, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine,
+         g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex,
+         g__atilde, g__adieresis, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
+         g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ntilde, g__ograve,
+         g__oacute, g__ocircumflex, g__otilde, g__odieresis, g_multiply, g__oslash, g__ugrave, g__uacute,
+         g__ucircumflex, g__udieresis, g__yacute, g__thorn, g_germandbls, g_agrave, g_aacute, g_acircumflex,
+         g_atilde, g_adieresis, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
+         g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ntilde, g_ograve,
+         g_oacute, g_ocircumflex, g_otilde, g_odieresis, g_divide, g_oslash, g_ugrave, g_uacute,
+         g_ucircumflex, g_udieresis, g_yacute, g_thorn, g_ydieresis, g_abreve, g__ebreve, g_ebreve,
+         g__ibreve, g_ibreve, g__obreve, g_obreve, g__ubreve, g_ubreve, g018e, g01dd,
+         g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron, g_zcaron, g1e04, g1e05,
+         g1e0c, g1e0d, g1e24, g1e25, g1e32, g1e33, g1e36, g1e37,
+         g1e42, g1e43, g1e46, g1e47, g1e5a, g1e5b, g1e62, g1e63,
+         g1e6c, g1e6d, g1e88, g1e89, g1ef4, g1ef5, g1e92, g1e93,
+         g030a, g030c, g0305, g007f, g_dotlessi, g_caron, g02d0, g_breve,
+         g_dotaccent, g_ring, g_ogonek, g034f, g_pi, g2000, g2001, g2002,
+         g2003, g2004, g2005, g2006, g2007, g2008, g2009, g200a,
+         g200b, g200c, g200d, g200e, g200f, g2010, g2011, g_figuredash,
+         g_afii00208, g2027, g2028, g2029, g202a, g202b, g_afii61573, g_afii61574,
+         g_afii61575, g202f, g_fraction, g2060, g__omega, g_partialdiff, g__delta, g_product,
+         g_summation, g2219, g_radical, g_infinity, g_integral, g_approxequal, g_notequal, g_lessequal,
+         g_greaterequal, g_lozenge, g_circledash, g2d30, g2d30_alt, g2d57, g2d3e, g2d48,
+         g2d46, g2d42, g2d31, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40, g2d40_2d7f_2d5c, g2d54,
+         g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59, g2d59_2d7f_2d5c,
+         g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d37, g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38, g2d39, g2d4e,
+         g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d5f, g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c, g2d3c_2d7f_2d5c_alt, g2d3c_alt,
+         g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d62, g2d49, g2d49_2d7f_2d5c, g2d34, g2d34_2d7f_2d5c, g2d4f_2d7f_2d34,
+         g2d34_alt, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d51, g2d4f,
+         g2d4f_slant, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d, g2d4d_slant,
+         g2d4d_2d7f_2d3e, g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d50, g2d50_alt, g2d5b, g2d5b_2d7f_2d3e, g2d4f_2d7f_2d5b,
+         g2d5b_2d7f_2d5c, g2d5c, g2d53, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt, g2d53_2d7f_2d5c_aalt, g2d4c,
+         g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63, g2d63_2d7f_2d5c, g2d63_alt, g2d63_2d7f_2d5c_aalt, g2d4b,
+         g2d4b_2d7f_2d5c, g2d4b_alt, g2d4b_2d7f_2d5c_aalt, g2d70, g2d7f, g_acutecomb_alt, g0307_alt, gfe00,
+         gfe01, gfe02, gfe03, gfe04, gfe05, gfe06, gfe07, gfe08,
+         gfe09, gfe0a, gfe0b, gfe0c, gfe0d, gfe0e, gfe0f, gfeff,
+         gfffc, gfffd);
+
+cnTakesHDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_zero, g_one, g_two, g_three, g_four,
+         g_five, g_six, g_seven, g_eight, g_nine, g_colon, g_semicolon, g_less,
+         g_equal, g_greater, g_question, g_at, g__b, g__d, g__f, g__j,
+         g__m, g__p, g__q, g__w, g__x, g__y, g__z, g_bracketleft,
+         g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_g, g_j, g_q,
+         g_w, g_y, g_braceleft, g_bar, g_braceright, g_asciitilde, g__euro, g_quotesinglbase,
+         g_quotedblbase, g_florin, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g_guilsinglleft,
+         g_guilsinglright, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash,
+         g_emdash, g_tilde, g_trademark, g0308, g__ydieresis, g_exclamdown, g_gravecomb, g_acutecomb,
+         g0302, g_tildecomb, g0304, g0306, g0307, g_dotbelowcomb, g_cent, g_sterling,
+         g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
+         g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
+         g_acute, g_mu, g_paragraph, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright,
+         g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__a_e, g__ccedilla, g__eth, g_multiply,
+         g__oslash, g__yacute, g__thorn, g_germandbls, g_ccedilla, g_eth, g_divide, g_yacute,
+         g_thorn, g_ydieresis, g018e, g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron,
+         g1e04, g1e0c, g1e42, g1e88, g1e89, g1ef4, g1ef5, g1e92,
+         g030a, g030c, g0305, g007f, g_caron, g02d0, g_breve, g_dotaccent,
+         g_ring, g_ogonek, g034f, g_pi, g200b, g200c, g200d, g200e,
+         g200f, g2010, g2011, g_figuredash, g_afii00208, g2027, g2028, g2029,
+         g202a, g202b, g_afii61573, g_afii61574, g_afii61575, g_fraction, g2060, g__omega,
+         g_partialdiff, g__delta, g_product, g_summation, g2219, g_radical, g_infinity, g_integral,
+         g_approxequal, g_notequal, g_lessequal, g_greaterequal, g_lozenge, g2d30, g2d30_alt, g2d57,
+         g2d3e, g2d48, g2d46, g2d42, g2d31, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40,
+         g2d40_2d7f_2d5c, g2d54, g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e,
+         g2d4f_2d7f_2d59, g2d59_2d7f_2d5c, g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d37, g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38,
+         g2d39, g2d4e, g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d5f, g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c,
+         g2d3c_2d7f_2d5c_alt, g2d3c_alt, g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d62, g2d49, g2d49_2d7f_2d5c, g2d34,
+         g2d34_2d7f_2d5c, g2d4f_2d7f_2d34, g2d34_alt, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c,
+         g2d51, g2d4f, g2d4f_slant, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2,
+         g2d4d, g2d4d_slant, g2d4d_2d7f_2d3e, g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d50, g2d50_alt, g2d5b,
+         g2d5b_2d7f_2d3e, g2d4f_2d7f_2d5b, g2d5b_2d7f_2d5c, g2d5c, g2d53, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt,
+         g2d53_2d7f_2d5c_aalt, g2d4c, g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63, g2d63_2d7f_2d5c, g2d63_alt,
+         g2d63_2d7f_2d5c_aalt, g2d4b, g2d4b_2d7f_2d5c, g2d4b_alt, g2d4b_2d7f_2d5c_aalt, g2d70, g2d7f, g_acutecomb_alt,
+         g0307_alt, gfe00, gfe01, gfe02, gfe03, gfe04, gfe05, gfe06,
+         gfe07, gfe08, gfe09, gfe0a, gfe0b, gfe0c, gfe0d, gfe0e,
+         gfe0f, gfeff, gfffc, gfffd);
+
+cLDia = (g_dotbelowcomb, g034f);
+
+cTakesLDia = (g_zero, g_one, g_two, g_three, g_four, g_five, g_six, g_seven,
+         g_eight, g_nine, g__a, g__b, g__c, g__d, g__e, g__f,
+         g__g, g__h, g__i, g__j, g__k, g__l, g__m, g__n,
+         g__o, g__p, g__q, g__r, g__s, g__t, g__u, g__v,
+         g__w, g__x, g__y, g__z, g_a, g_b, g_c, g_d,
+         g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t,
+         g_u, g_v, g_w, g_x, g_y, g_z, g_florin, g__scaron,
+         g__o_e, g_scaron, g_oe, g__ydieresis, g00a0, g__abreve, g_dotbelowcomb, g_twosuperior,
+         g_threesuperior, g_cedilla, g_onesuperior, g__agrave, g__aacute, g__acircumflex, g__atilde, g__adieresis,
+         g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave,
+         g__iacute, g__icircumflex, g__idieresis, g__eth, g__ntilde, g__ograve, g__oacute, g__ocircumflex,
+         g__otilde, g__odieresis, g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__udieresis, g__yacute,
+         g__thorn, g_germandbls, g_agrave, g_aacute, g_acircumflex, g_atilde, g_adieresis, g_aring,
+         g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute,
+         g_icircumflex, g_idieresis, g_eth, g_ntilde, g_ograve, g_oacute, g_ocircumflex, g_otilde,
+         g_odieresis, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_udieresis, g_yacute, g_thorn,
+         g_ydieresis, g0327, g_abreve, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__obreve,
+         g_obreve, g__ubreve, g_ubreve, g018e, g01dd, g0194, g0263, g__eng_ucstyle,
+         g_eng, g__zcaron, g_zcaron, g1e04, g1e05, g1e0c, g1e0d, g1e24,
+         g1e25, g1e32, g1e33, g1e36, g1e37, g1e42, g1e43, g1e46,
+         g1e47, g1e5a, g1e5b, g1e62, g1e63, g1e6c, g1e6d, g1e88,
+         g1e89, g1ef4, g1ef5, g1e92, g1e93, g_dotlessi, g02d0, g_ogonek,
+         g034f, g_pi, g2000, g2001, g2002, g2003, g2004, g2005,
+         g2006, g2007, g2008, g2009, g200a, g202f, g_summation, g_circledash);
+
+cnLDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_zero, g_one, g_two, g_three, g_four,
+         g_five, g_six, g_seven, g_eight, g_nine, g_colon, g_semicolon, g_less,
+         g_equal, g_greater, g_question, g_at, g__a, g__b, g__c, g__d,
+         g__e, g__f, g__g, g__h, g__i, g__j, g__k, g__l,
+         g__m, g__n, g__o, g__p, g__q, g__r, g__s, g__t,
+         g__u, g__v, g__w, g__x, g__y, g__z, g_bracketleft, g_backslash,
+         g_bracketright, g_asciicircum, g_underscore, g_grave, g_a, g_b, g_c, g_d,
+         g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t,
+         g_u, g_v, g_w, g_x, g_y, g_z, g_braceleft, g_bar,
+         g_braceright, g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_florin, g_ellipsis, g_dagger,
+         g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g_guilsinglright, g__o_e, g_quoteleft,
+         g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark,
+         g_scaron, g_oe, g0308, g__ydieresis, g00a0, g_exclamdown, g__abreve, g_gravecomb,
+         g_acutecomb, g0302, g_tildecomb, g0304, g0306, g0307, g_cent, g_sterling,
+         g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
+         g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
+         g_acute, g_mu, g_paragraph, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright,
+         g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde,
+         g__adieresis, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis,
+         g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ntilde, g__ograve, g__oacute,
+         g__ocircumflex, g__otilde, g__odieresis, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex,
+         g__udieresis, g__yacute, g__thorn, g_germandbls, g_agrave, g_aacute, g_acircumflex, g_atilde,
+         g_adieresis, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis,
+         g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ntilde, g_ograve, g_oacute,
+         g_ocircumflex, g_otilde, g_odieresis, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex,
+         g_udieresis, g_yacute, g_thorn, g_ydieresis, g0327, g_abreve, g__ebreve, g_ebreve,
+         g__ibreve, g_ibreve, g__obreve, g_obreve, g__ubreve, g_ubreve, g018e, g01dd,
+         g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron, g_zcaron, g1e04, g1e05,
+         g1e0c, g1e0d, g1e24, g1e25, g1e32, g1e33, g1e36, g1e37,
+         g1e42, g1e43, g1e46, g1e47, g1e5a, g1e5b, g1e62, g1e63,
+         g1e6c, g1e6d, g1e88, g1e89, g1ef4, g1ef5, g1e92, g1e93,
+         g030a, g030c, g0305, g007f, g_dotlessi, g_caron, g02d0, g_breve,
+         g_dotaccent, g_ring, g_ogonek, g_pi, g2000, g2001, g2002, g2003,
+         g2004, g2005, g2006, g2007, g2008, g2009, g200a, g200b,
+         g200c, g200d, g200e, g200f, g2010, g2011, g_figuredash, g_afii00208,
+         g2027, g2028, g2029, g202a, g202b, g_afii61573, g_afii61574, g_afii61575,
+         g202f, g_fraction, g2060, g__omega, g_partialdiff, g__delta, g_product, g_summation,
+         g2219, g_radical, g_infinity, g_integral, g_approxequal, g_notequal, g_lessequal, g_greaterequal,
+         g_lozenge, g_circledash, g2d30, g2d30_alt, g2d57, g2d3e, g2d48, g2d46,
+         g2d42, g2d31, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40, g2d40_2d7f_2d5c, g2d54, g2d54_2d7f_2d3e,
+         g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59, g2d59_2d7f_2d5c, g2d59_2d7f_2d5c_alt,
+         g2d59_2d7f_2d5c_alt2, g2d37, g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38, g2d39, g2d4e, g2d4e_2d7f_2d5c,
+         g2d4e_2d7f_2d5c_alt, g2d5f, g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c, g2d3c_2d7f_2d5c_alt, g2d3c_alt, g2d4f_2d7f_2d3c_aalt,
+         g2d3c_2d7f_2d5c_aalt, g2d62, g2d49, g2d49_2d7f_2d5c, g2d34, g2d34_2d7f_2d5c, g2d4f_2d7f_2d34, g2d34_alt,
+         g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d51, g2d4f, g2d4f_slant,
+         g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d, g2d4d_slant, g2d4d_2d7f_2d3e,
+         g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d50, g2d50_alt, g2d5b, g2d5b_2d7f_2d3e, g2d4f_2d7f_2d5b, g2d5b_2d7f_2d5c,
+         g2d5c, g2d53, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt, g2d53_2d7f_2d5c_aalt, g2d4c, g2d4c_2d7f_2d5c,
+         g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63, g2d63_2d7f_2d5c, g2d63_alt, g2d63_2d7f_2d5c_aalt, g2d4b, g2d4b_2d7f_2d5c,
+         g2d4b_alt, g2d4b_2d7f_2d5c_aalt, g2d70, g2d7f, g_acutecomb_alt, g0307_alt, gfe00, gfe01,
+         gfe02, gfe03, gfe04, gfe05, gfe06, gfe07, gfe08, gfe09,
+         gfe0a, gfe0b, gfe0c, gfe0d, gfe0e, gfe0f, gfeff, gfffc,
+         gfffd);
+
+cnTakesLDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater,
+         g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave,
+         g_braceleft, g_bar, g_braceright, g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_ellipsis,
+         g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g_guilsinglleft, g_guilsinglright, g_quoteleft, g_quoteright,
+         g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g0308,
+         g_exclamdown, g_gravecomb, g_acutecomb, g0302, g_tildecomb, g0304, g0306, g0307,
+         g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright,
+         g_ordfeminine, g_guillemotleft, g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus,
+         g_acute, g_mu, g_paragraph, g_periodcentered, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf,
+         g_threequarters, g_questiondown, g_multiply, g_divide, g030a, g030c, g0305, g007f,
+         g_caron, g_breve, g_dotaccent, g_ring, g200b, g200c, g200d, g200e,
+         g200f, g2010, g2011, g_figuredash, g_afii00208, g2027, g2028, g2029,
+         g202a, g202b, g_afii61573, g_afii61574, g_afii61575, g_fraction, g2060, g__omega,
+         g_partialdiff, g__delta, g_product, g2219, g_radical, g_infinity, g_integral, g_approxequal,
+         g_notequal, g_lessequal, g_greaterequal, g_lozenge, g2d30, g2d30_alt, g2d57, g2d3e,
+         g2d48, g2d46, g2d42, g2d31, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40, g2d40_2d7f_2d5c,
+         g2d54, g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59,
+         g2d59_2d7f_2d5c, g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d37, g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38, g2d39,
+         g2d4e, g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d5f, g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c, g2d3c_2d7f_2d5c_alt,
+         g2d3c_alt, g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d62, g2d49, g2d49_2d7f_2d5c, g2d34, g2d34_2d7f_2d5c,
+         g2d4f_2d7f_2d34, g2d34_alt, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d51,
+         g2d4f, g2d4f_slant, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d,
+         g2d4d_slant, g2d4d_2d7f_2d3e, g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d50, g2d50_alt, g2d5b, g2d5b_2d7f_2d3e,
+         g2d4f_2d7f_2d5b, g2d5b_2d7f_2d5c, g2d5c, g2d53, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt, g2d53_2d7f_2d5c_aalt,
+         g2d4c, g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63, g2d63_2d7f_2d5c, g2d63_alt, g2d63_2d7f_2d5c_aalt,
+         g2d4b, g2d4b_2d7f_2d5c, g2d4b_alt, g2d4b_2d7f_2d5c_aalt, g2d70, g2d7f, g_acutecomb_alt, g0307_alt,
+         gfe00, gfe01, gfe02, gfe03, gfe04, gfe05, gfe06, gfe07,
+         gfe08, gfe09, gfe0a, gfe0b, gfe0c, gfe0d, gfe0e, gfe0f,
+         gfeff, gfffc, gfffd);
+
+cUDia = (g0308, g_gravecomb, g_acutecomb, g0302, g_tildecomb, g0304, g0306, g0307,
+         g030a, g030c, g0305, g034f);
+
+cTakesUDia = (g_hyphen, g_zero, g_one, g_two, g_three, g_four, g_five, g_six,
+         g_seven, g_eight, g_nine, g__a, g__b, g__c, g__d, g__e,
+         g__f, g__g, g__h, g__i, g__j, g__k, g__l, g__m,
+         g__n, g__o, g__p, g__q, g__r, g__s, g__t, g__u,
+         g__v, g__w, g__x, g__y, g__z, g_asciicircum, g_grave, g_a,
+         g_b, g_c, g_d, g_e, g_f, g_g, g_h, g_i,
+         g_j, g_k, g_l, g_m, g_n, g_o, g_p, g_q,
+         g_r, g_s, g_t, g_u, g_v, g_w, g_x, g_y,
+         g_z, g_florin, g__scaron, g__o_e, g_scaron, g_oe, g0308, g__ydieresis,
+         g00a0, g__abreve, g_gravecomb, g_acutecomb, g0302, g_tildecomb, g0304, g0306,
+         g0307, g_dieresis, g00ad, g_twosuperior, g_threesuperior, g_acute, g_onesuperior, g__agrave,
+         g__aacute, g__acircumflex, g__atilde, g__adieresis, g__aring, g__a_e, g__ccedilla, g__egrave,
+         g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth,
+         g__ntilde, g__ograve, g__oacute, g__ocircumflex, g__otilde, g__odieresis, g__oslash, g__ugrave,
+         g__uacute, g__ucircumflex, g__udieresis, g__yacute, g__thorn, g_germandbls, g_agrave, g_aacute,
+         g_acircumflex, g_atilde, g_adieresis, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute,
+         g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ntilde,
+         g_ograve, g_oacute, g_ocircumflex, g_otilde, g_odieresis, g_oslash, g_ugrave, g_uacute,
+         g_ucircumflex, g_udieresis, g_yacute, g_thorn, g_ydieresis, g_abreve, g__ebreve, g_ebreve,
+         g__ibreve, g_ibreve, g__obreve, g_obreve, g__ubreve, g_ubreve, g018e, g01dd,
+         g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron, g_zcaron, g1e04, g1e05,
+         g1e0c, g1e0d, g1e24, g1e25, g1e32, g1e33, g1e36, g1e37,
+         g1e42, g1e43, g1e46, g1e47, g1e5a, g1e5b, g1e62, g1e63,
+         g1e6c, g1e6d, g1e88, g1e89, g1ef4, g1ef5, g1e92, g1e93,
+         g030a, g030c, g0305, g_dotlessi, g_caron, g02d0, g_breve, g034f,
+         g_pi, g2000, g2001, g2002, g2003, g2004, g2005, g2006,
+         g2007, g2008, g2009, g200a, g2010, g2011, g202f, g_summation,
+         g_circledash);
+
+cnUDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_zero, g_one, g_two, g_three, g_four,
+         g_five, g_six, g_seven, g_eight, g_nine, g_colon, g_semicolon, g_less,
+         g_equal, g_greater, g_question, g_at, g__a, g__b, g__c, g__d,
+         g__e, g__f, g__g, g__h, g__i, g__j, g__k, g__l,
+         g__m, g__n, g__o, g__p, g__q, g__r, g__s, g__t,
+         g__u, g__v, g__w, g__x, g__y, g__z, g_bracketleft, g_backslash,
+         g_bracketright, g_asciicircum, g_underscore, g_grave, g_a, g_b, g_c, g_d,
+         g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t,
+         g_u, g_v, g_w, g_x, g_y, g_z, g_braceleft, g_bar,
+         g_braceright, g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_florin, g_ellipsis, g_dagger,
+         g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g_guilsinglright, g__o_e, g_quoteleft,
+         g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark,
+         g_scaron, g_oe, g__ydieresis, g00a0, g_exclamdown, g__abreve, g_dotbelowcomb, g_cent,
+         g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine,
+         g_guillemotleft, g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior,
+         g_threesuperior, g_acute, g_mu, g_paragraph, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine,
+         g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex,
+         g__atilde, g__adieresis, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
+         g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ntilde, g__ograve,
+         g__oacute, g__ocircumflex, g__otilde, g__odieresis, g_multiply, g__oslash, g__ugrave, g__uacute,
+         g__ucircumflex, g__udieresis, g__yacute, g__thorn, g_germandbls, g_agrave, g_aacute, g_acircumflex,
+         g_atilde, g_adieresis, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
+         g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ntilde, g_ograve,
+         g_oacute, g_ocircumflex, g_otilde, g_odieresis, g_divide, g_oslash, g_ugrave, g_uacute,
+         g_ucircumflex, g_udieresis, g_yacute, g_thorn, g_ydieresis, g0327, g_abreve, g__ebreve,
+         g_ebreve, g__ibreve, g_ibreve, g__obreve, g_obreve, g__ubreve, g_ubreve, g018e,
+         g01dd, g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron, g_zcaron, g1e04,
+         g1e05, g1e0c, g1e0d, g1e24, g1e25, g1e32, g1e33, g1e36,
+         g1e37, g1e42, g1e43, g1e46, g1e47, g1e5a, g1e5b, g1e62,
+         g1e63, g1e6c, g1e6d, g1e88, g1e89, g1ef4, g1ef5, g1e92,
+         g1e93, g007f, g_dotlessi, g_caron, g02d0, g_breve, g_dotaccent, g_ring,
+         g_ogonek, g_pi, g2000, g2001, g2002, g2003, g2004, g2005,
+         g2006, g2007, g2008, g2009, g200a, g200b, g200c, g200d,
+         g200e, g200f, g2010, g2011, g_figuredash, g_afii00208, g2027, g2028,
+         g2029, g202a, g202b, g_afii61573, g_afii61574, g_afii61575, g202f, g_fraction,
+         g2060, g__omega, g_partialdiff, g__delta, g_product, g_summation, g2219, g_radical,
+         g_infinity, g_integral, g_approxequal, g_notequal, g_lessequal, g_greaterequal, g_lozenge, g_circledash,
+         g2d30, g2d30_alt, g2d57, g2d3e, g2d48, g2d46, g2d42, g2d31,
+         g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40, g2d40_2d7f_2d5c, g2d54, g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt,
+         g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59, g2d59_2d7f_2d5c, g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d37,
+         g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38, g2d39, g2d4e, g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d5f,
+         g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c, g2d3c_2d7f_2d5c_alt, g2d3c_alt, g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d62,
+         g2d49, g2d49_2d7f_2d5c, g2d34, g2d34_2d7f_2d5c, g2d4f_2d7f_2d34, g2d34_alt, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt,
+         g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d51, g2d4f, g2d4f_slant, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt,
+         g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d, g2d4d_slant, g2d4d_2d7f_2d3e, g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt,
+         g2d50, g2d50_alt, g2d5b, g2d5b_2d7f_2d3e, g2d4f_2d7f_2d5b, g2d5b_2d7f_2d5c, g2d5c, g2d53,
+         g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt, g2d53_2d7f_2d5c_aalt, g2d4c, g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2,
+         g2d63, g2d63_2d7f_2d5c, g2d63_alt, g2d63_2d7f_2d5c_aalt, g2d4b, g2d4b_2d7f_2d5c, g2d4b_alt, g2d4b_2d7f_2d5c_aalt,
+         g2d70, g2d7f, g_acutecomb_alt, g0307_alt, gfe00, gfe01, gfe02, gfe03,
+         gfe04, gfe05, gfe06, gfe07, gfe08, gfe09, gfe0a, gfe0b,
+         gfe0c, gfe0d, gfe0e, gfe0f, gfeff, gfffc, gfffd);
+
+cnTakesUDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question,
+         g_at, g_bracketleft, g_backslash, g_bracketright, g_underscore, g_braceleft, g_bar, g_braceright,
+         g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex,
+         g_perthousand, g_guilsinglleft, g_guilsinglright, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet,
+         g_endash, g_emdash, g_tilde, g_trademark, g_exclamdown, g_dotbelowcomb, g_cent, g_sterling,
+         g_currency, g_yen, g_brokenbar, g_section, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot,
+         g_registered, g_macron, g_degree, g_plusminus, g_mu, g_paragraph, g_periodcentered, g_cedilla,
+         g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g_multiply, g_divide,
+         g0327, g007f, g_dotaccent, g_ring, g_ogonek, g200b, g200c, g200d,
+         g200e, g200f, g_figuredash, g_afii00208, g2027, g2028, g2029, g202a,
+         g202b, g_afii61573, g_afii61574, g_afii61575, g_fraction, g2060, g__omega, g_partialdiff,
+         g__delta, g_product, g2219, g_radical, g_infinity, g_integral, g_approxequal, g_notequal,
+         g_lessequal, g_greaterequal, g_lozenge, g2d30, g2d30_alt, g2d57, g2d3e, g2d48,
+         g2d46, g2d42, g2d31, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40, g2d40_2d7f_2d5c, g2d54,
+         g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59, g2d59_2d7f_2d5c,
+         g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d37, g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38, g2d39, g2d4e,
+         g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d5f, g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c, g2d3c_2d7f_2d5c_alt, g2d3c_alt,
+         g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d62, g2d49, g2d49_2d7f_2d5c, g2d34, g2d34_2d7f_2d5c, g2d4f_2d7f_2d34,
+         g2d34_alt, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d51, g2d4f,
+         g2d4f_slant, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d, g2d4d_slant,
+         g2d4d_2d7f_2d3e, g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d50, g2d50_alt, g2d5b, g2d5b_2d7f_2d3e, g2d4f_2d7f_2d5b,
+         g2d5b_2d7f_2d5c, g2d5c, g2d53, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt, g2d53_2d7f_2d5c_aalt, g2d4c,
+         g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63, g2d63_2d7f_2d5c, g2d63_alt, g2d63_2d7f_2d5c_aalt, g2d4b,
+         g2d4b_2d7f_2d5c, g2d4b_alt, g2d4b_2d7f_2d5c_aalt, g2d70, g2d7f, g_acutecomb_alt, g0307_alt, gfe00,
+         gfe01, gfe02, gfe03, gfe04, gfe05, gfe06, gfe07, gfe08,
+         gfe09, gfe0a, gfe0b, gfe0c, gfe0d, gfe0e, gfe0f, gfeff,
+         gfffc, gfffd);
+
+cTDia = (g_acutecomb_alt, g0307_alt);
+
+cTakesTDia = (g2d57, g2d3e, g2d48, g2d46, g2d42, g2d31, g2d40, g2d54,
+         g2d59, g2d37, g2d38, g2d39, g2d4e, g2d5f, g2d3c, g2d3c_alt,
+         g2d62, g2d49, g2d34, g2d34_alt, g2d36, g2d51, g2d4f, g2d4f_slant,
+         g2d4d, g2d4d_slant, g2d50, g2d50_alt, g2d5b, g2d5c, g2d53, g2d53_alt,
+         g2d4c, g2d63, g2d63_alt, g2d4b, g2d4b_alt);
+
+cnTDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_zero, g_one, g_two, g_three, g_four,
+         g_five, g_six, g_seven, g_eight, g_nine, g_colon, g_semicolon, g_less,
+         g_equal, g_greater, g_question, g_at, g__a, g__b, g__c, g__d,
+         g__e, g__f, g__g, g__h, g__i, g__j, g__k, g__l,
+         g__m, g__n, g__o, g__p, g__q, g__r, g__s, g__t,
+         g__u, g__v, g__w, g__x, g__y, g__z, g_bracketleft, g_backslash,
+         g_bracketright, g_asciicircum, g_underscore, g_grave, g_a, g_b, g_c, g_d,
+         g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t,
+         g_u, g_v, g_w, g_x, g_y, g_z, g_braceleft, g_bar,
+         g_braceright, g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_florin, g_ellipsis, g_dagger,
+         g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g_guilsinglright, g__o_e, g_quoteleft,
+         g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark,
+         g_scaron, g_oe, g0308, g__ydieresis, g00a0, g_exclamdown, g__abreve, g_gravecomb,
+         g_acutecomb, g0302, g_tildecomb, g0304, g0306, g0307, g_dotbelowcomb, g_cent,
+         g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine,
+         g_guillemotleft, g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior,
+         g_threesuperior, g_acute, g_mu, g_paragraph, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine,
+         g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex,
+         g__atilde, g__adieresis, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
+         g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ntilde, g__ograve,
+         g__oacute, g__ocircumflex, g__otilde, g__odieresis, g_multiply, g__oslash, g__ugrave, g__uacute,
+         g__ucircumflex, g__udieresis, g__yacute, g__thorn, g_germandbls, g_agrave, g_aacute, g_acircumflex,
+         g_atilde, g_adieresis, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
+         g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ntilde, g_ograve,
+         g_oacute, g_ocircumflex, g_otilde, g_odieresis, g_divide, g_oslash, g_ugrave, g_uacute,
+         g_ucircumflex, g_udieresis, g_yacute, g_thorn, g_ydieresis, g0327, g_abreve, g__ebreve,
+         g_ebreve, g__ibreve, g_ibreve, g__obreve, g_obreve, g__ubreve, g_ubreve, g018e,
+         g01dd, g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron, g_zcaron, g1e04,
+         g1e05, g1e0c, g1e0d, g1e24, g1e25, g1e32, g1e33, g1e36,
+         g1e37, g1e42, g1e43, g1e46, g1e47, g1e5a, g1e5b, g1e62,
+         g1e63, g1e6c, g1e6d, g1e88, g1e89, g1ef4, g1ef5, g1e92,
+         g1e93, g030a, g030c, g0305, g007f, g_dotlessi, g_caron, g02d0,
+         g_breve, g_dotaccent, g_ring, g_ogonek, g034f, g_pi, g2000, g2001,
+         g2002, g2003, g2004, g2005, g2006, g2007, g2008, g2009,
+         g200a, g200b, g200c, g200d, g200e, g200f, g2010, g2011,
+         g_figuredash, g_afii00208, g2027, g2028, g2029, g202a, g202b, g_afii61573,
+         g_afii61574, g_afii61575, g202f, g_fraction, g2060, g__omega, g_partialdiff, g__delta,
+         g_product, g_summation, g2219, g_radical, g_infinity, g_integral, g_approxequal, g_notequal,
+         g_lessequal, g_greaterequal, g_lozenge, g_circledash, g2d30, g2d30_alt, g2d57, g2d3e,
+         g2d48, g2d46, g2d42, g2d31, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt, g2d40, g2d40_2d7f_2d5c,
+         g2d54, g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59,
+         g2d59_2d7f_2d5c, g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d37, g2d4f_2d7f_2d37, g2d38, g2d4f_2d7f_2d38, g2d39,
+         g2d4e, g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d5f, g2d3c, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c, g2d3c_2d7f_2d5c_alt,
+         g2d3c_alt, g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d62, g2d49, g2d49_2d7f_2d5c, g2d34, g2d34_2d7f_2d5c,
+         g2d4f_2d7f_2d34, g2d34_alt, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d36, g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d51,
+         g2d4f, g2d4f_slant, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d,
+         g2d4d_slant, g2d4d_2d7f_2d3e, g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d50, g2d50_alt, g2d5b, g2d5b_2d7f_2d3e,
+         g2d4f_2d7f_2d5b, g2d5b_2d7f_2d5c, g2d5c, g2d53, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_alt, g2d53_2d7f_2d5c_aalt,
+         g2d4c, g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63, g2d63_2d7f_2d5c, g2d63_alt, g2d63_2d7f_2d5c_aalt,
+         g2d4b, g2d4b_2d7f_2d5c, g2d4b_alt, g2d4b_2d7f_2d5c_aalt, g2d70, g2d7f, gfe00, gfe01,
+         gfe02, gfe03, gfe04, gfe05, gfe06, gfe07, gfe08, gfe09,
+         gfe0a, gfe0b, gfe0c, gfe0d, gfe0e, gfe0f, gfeff, gfffc,
+         gfffd);
+
+cnTakesTDia = (g_notdef, g_null, gnonmarkingreturn, g_space, g_exclam, g_quotedbl, g_numbersign, g_dollar,
+         g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
+         g_hyphen, g_period, g_slash, g_zero, g_one, g_two, g_three, g_four,
+         g_five, g_six, g_seven, g_eight, g_nine, g_colon, g_semicolon, g_less,
+         g_equal, g_greater, g_question, g_at, g__a, g__b, g__c, g__d,
+         g__e, g__f, g__g, g__h, g__i, g__j, g__k, g__l,
+         g__m, g__n, g__o, g__p, g__q, g__r, g__s, g__t,
+         g__u, g__v, g__w, g__x, g__y, g__z, g_bracketleft, g_backslash,
+         g_bracketright, g_asciicircum, g_underscore, g_grave, g_a, g_b, g_c, g_d,
+         g_e, g_f, g_g, g_h, g_i, g_j, g_k, g_l,
+         g_m, g_n, g_o, g_p, g_q, g_r, g_s, g_t,
+         g_u, g_v, g_w, g_x, g_y, g_z, g_braceleft, g_bar,
+         g_braceright, g_asciitilde, g__euro, g_quotesinglbase, g_quotedblbase, g_florin, g_ellipsis, g_dagger,
+         g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g_guilsinglright, g__o_e, g_quoteleft,
+         g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark,
+         g_scaron, g_oe, g0308, g__ydieresis, g00a0, g_exclamdown, g__abreve, g_gravecomb,
+         g_acutecomb, g0302, g_tildecomb, g0304, g0306, g0307, g_dotbelowcomb, g_cent,
+         g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine,
+         g_guillemotleft, g_logicalnot, g00ad, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior,
+         g_threesuperior, g_acute, g_mu, g_paragraph, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine,
+         g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex,
+         g__atilde, g__adieresis, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
+         g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ntilde, g__ograve,
+         g__oacute, g__ocircumflex, g__otilde, g__odieresis, g_multiply, g__oslash, g__ugrave, g__uacute,
+         g__ucircumflex, g__udieresis, g__yacute, g__thorn, g_germandbls, g_agrave, g_aacute, g_acircumflex,
+         g_atilde, g_adieresis, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
+         g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ntilde, g_ograve,
+         g_oacute, g_ocircumflex, g_otilde, g_odieresis, g_divide, g_oslash, g_ugrave, g_uacute,
+         g_ucircumflex, g_udieresis, g_yacute, g_thorn, g_ydieresis, g0327, g_abreve, g__ebreve,
+         g_ebreve, g__ibreve, g_ibreve, g__obreve, g_obreve, g__ubreve, g_ubreve, g018e,
+         g01dd, g0194, g0263, g__eng_ucstyle, g_eng, g__zcaron, g_zcaron, g1e04,
+         g1e05, g1e0c, g1e0d, g1e24, g1e25, g1e32, g1e33, g1e36,
+         g1e37, g1e42, g1e43, g1e46, g1e47, g1e5a, g1e5b, g1e62,
+         g1e63, g1e6c, g1e6d, g1e88, g1e89, g1ef4, g1ef5, g1e92,
+         g1e93, g030a, g030c, g0305, g007f, g_dotlessi, g_caron, g02d0,
+         g_breve, g_dotaccent, g_ring, g_ogonek, g034f, g_pi, g2000, g2001,
+         g2002, g2003, g2004, g2005, g2006, g2007, g2008, g2009,
+         g200a, g200b, g200c, g200d, g200e, g200f, g2010, g2011,
+         g_figuredash, g_afii00208, g2027, g2028, g2029, g202a, g202b, g_afii61573,
+         g_afii61574, g_afii61575, g202f, g_fraction, g2060, g__omega, g_partialdiff, g__delta,
+         g_product, g_summation, g2219, g_radical, g_infinity, g_integral, g_approxequal, g_notequal,
+         g_lessequal, g_greaterequal, g_lozenge, g_circledash, g2d30, g2d30_alt, g2d31_2d7f_2d5c, g2d31_2d7f_2d5c_alt,
+         g2d40_2d7f_2d5c, g2d54_2d7f_2d3e, g2d54_2d7f_2d5c, g2d54_2d7f_2d5c_alt, g2d54_2d7f_2d5c_alt2, g2d59_2d7f_2d3e, g2d4f_2d7f_2d59, g2d59_2d7f_2d5c,
+         g2d59_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt2, g2d4f_2d7f_2d37, g2d4f_2d7f_2d38, g2d4e_2d7f_2d5c, g2d4e_2d7f_2d5c_alt, g2d4f_2d7f_2d3c, g2d3c_2d7f_2d5c,
+         g2d3c_2d7f_2d5c_alt, g2d4f_2d7f_2d3c_aalt, g2d3c_2d7f_2d5c_aalt, g2d49_2d7f_2d5c, g2d34_2d7f_2d5c, g2d4f_2d7f_2d34, g2d34_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt,
+         g2d4f_2d7f_2d36, g2d36_2d7f_2d5c, g2d4f_2d7f_2d3e, g2d4f_2d7f_2d3e_alt, g2d4f_2d7f_2d5c, g2d4f_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt2, g2d4d_2d7f_2d3e,
+         g2d4d_2d7f_2d5c, g2d4d_2d7f_2d5c_alt, g2d5b_2d7f_2d3e, g2d4f_2d7f_2d5b, g2d5b_2d7f_2d5c, g2d53_2d7f_2d5c, g2d53_2d7f_2d5c_alt, g2d53_2d7f_2d5c_aalt,
+         g2d4c_2d7f_2d5c, g2d4c_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt2, g2d63_2d7f_2d5c, g2d63_2d7f_2d5c_aalt, g2d4b_2d7f_2d5c, g2d4b_2d7f_2d5c_aalt, g2d70,
+         g2d7f, gfe00, gfe01, gfe02, gfe03, gfe04, gfe05, gfe06,
+         gfe07, gfe08, gfe09, gfe0a, gfe0b, gfe0c, gfe0d, gfe0e,
+         gfe0f, gfeff, gfffc, gfffd);
+
+
+/* Classes */
+cno_alt = (g2d31_2d7f_2d5c, g2d4c_2d7f_2d5c, g2d4f_2d7f_2d3e, g2d53, g2d3c, g2d4d_2d7f_2d5c, g2d59_2d7f_2d5c, g2d4b,
+         g2d34, g2d54_2d7f_2d5c, g2d3c_2d7f_2d5c, g2d4e_2d7f_2d5c, g2d30, g2d50, g2d63, g_acutecomb,
+         g2d53_2d7f_2d5c, g2d4f_2d7f_2d5c, g0307);
+
+calt = (g2d31_2d7f_2d5c_alt, g2d4c_2d7f_2d5c_alt, g2d4f_2d7f_2d3e_alt, g2d53_alt, g2d3c_alt, g2d4d_2d7f_2d5c_alt, g2d59_2d7f_2d5c_alt, g2d4b_alt,
+         g2d34_alt, g2d54_2d7f_2d5c_alt, g2d3c_2d7f_2d5c_alt, g2d4e_2d7f_2d5c_alt, g2d30_alt, g2d50_alt, g2d63_alt, g_acutecomb_alt,
+         g2d53_2d7f_2d5c_alt, g2d4f_2d7f_2d5c_alt, g0307_alt);
+
+cno_alt2 = (g2d54_2d7f_2d5c, g2d4f_2d7f_2d5c, g2d59_2d7f_2d5c, g2d4c_2d7f_2d5c);
+
+calt2 = (g2d54_2d7f_2d5c_alt2, g2d4f_2d7f_2d5c_alt2, g2d59_2d7f_2d5c_alt2, g2d4c_2d7f_2d5c_alt2);
+
+cno_aalt = (g2d63_2d7f_2d5c, g2d4f_2d7f_2d3c, g2d4b_2d7f_2d5c, g2d34_2d7f_2d5c, g2d53_2d7f_2d5c, g2d4f_2d7f_2d34, g2d3c_2d7f_2d5c);
+
+caalt = (g2d63_2d7f_2d5c_aalt, g2d4f_2d7f_2d3c_aalt, g2d4b_2d7f_2d5c_aalt, g2d34_2d7f_2d5c_aalt, g2d53_2d7f_2d5c_aalt, g2d4f_2d7f_2d34_aalt, g2d3c_2d7f_2d5c_aalt);
+
+cno_slant = (g2d4d, g2d4f);
+
+cslant = (g2d4d_slant, g2d4f_slant);
+
+/* Ligature Classes */
+
+endtable;
+#define MAXGLYPH 442
+
+#include "akatab.gdl"

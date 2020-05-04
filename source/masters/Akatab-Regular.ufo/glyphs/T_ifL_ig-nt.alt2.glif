@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-nt.alt2" format="2">
+  <advance width="1192"/>
+  <outline>
+    <component base="_HorizontalBarMed" xOffset="100" yOffset="1245"/>
+    <component base="_VerticalBar" xOffset="-155"/>
+  </outline>
+</glyph>

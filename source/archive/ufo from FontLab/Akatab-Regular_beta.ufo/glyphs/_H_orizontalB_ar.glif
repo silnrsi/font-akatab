@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_HorizontalBar" format="1">
+  <advance width="1470"/>
+  <outline>
+    <contour>
+      <point x="1349" y="682" type="curve" smooth="yes"/>
+      <point x="1349" y="736"/>
+      <point x="1308" y="759"/>
+      <point x="1260" y="763" type="curve" smooth="yes"/>
+      <point x="1182" y="770"/>
+      <point x="1081" y="770"/>
+      <point x="969" y="770" type="curve" smooth="yes"/>
+      <point x="729" y="770"/>
+      <point x="716" y="761"/>
+      <point x="496" y="761" type="curve" smooth="yes"/>
+      <point x="332" y="761"/>
+      <point x="303" y="762"/>
+      <point x="264" y="762" type="curve" smooth="yes"/>
+      <point x="216" y="762"/>
+      <point x="215" y="772"/>
+      <point x="182" y="772" type="curve" smooth="yes"/>
+      <point x="152" y="772"/>
+      <point x="136" y="745"/>
+      <point x="136" y="709" type="curve" smooth="yes"/>
+      <point x="136" y="655"/>
+      <point x="177" y="632"/>
+      <point x="225" y="628" type="curve" smooth="yes"/>
+      <point x="303" y="621"/>
+      <point x="384" y="621"/>
+      <point x="496" y="621" type="curve" smooth="yes"/>
+      <point x="716" y="621"/>
+      <point x="729" y="630"/>
+      <point x="969" y="630" type="curve" smooth="yes"/>
+      <point x="1133" y="630"/>
+      <point x="1182" y="629"/>
+      <point x="1221" y="629" type="curve" smooth="yes"/>
+      <point x="1269" y="629"/>
+      <point x="1270" y="619"/>
+      <point x="1303" y="619" type="curve" smooth="yes"/>
+      <point x="1333" y="619"/>
+      <point x="1349" y="646"/>
+    </contour>
+  </outline>
+</glyph>

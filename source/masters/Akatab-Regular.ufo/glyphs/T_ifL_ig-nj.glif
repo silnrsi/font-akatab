@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-nj" format="2">
+  <advance width="978"/>
+  <outline>
+    <contour>
+      <point x="875" y="505"/>
+      <point x="875" y="541" type="curve" smooth="yes"/>
+      <point x="875" y="595"/>
+      <point x="834" y="618"/>
+      <point x="786" y="622" type="curve" smooth="yes"/>
+      <point x="708" y="629"/>
+      <point x="707" y="629"/>
+      <point x="595" y="629" type="curve" smooth="yes"/>
+      <point x="515" y="629"/>
+      <point x="556" y="626"/>
+      <point x="476" y="626" type="curve" smooth="yes"/>
+      <point x="312" y="626"/>
+      <point x="283" y="627"/>
+      <point x="244" y="627" type="curve" smooth="yes"/>
+      <point x="196" y="627"/>
+      <point x="195" y="637"/>
+      <point x="162" y="637" type="curve" smooth="yes"/>
+      <point x="132" y="637"/>
+      <point x="116" y="610"/>
+      <point x="116" y="574" type="curve" smooth="yes"/>
+      <point x="116" y="520"/>
+      <point x="157" y="497"/>
+      <point x="205" y="493" type="curve" smooth="yes"/>
+      <point x="283" y="486"/>
+      <point x="364" y="486"/>
+      <point x="476" y="486" type="curve" smooth="yes"/>
+      <point x="556" y="486"/>
+      <point x="515" y="489"/>
+      <point x="595" y="489" type="curve" smooth="yes"/>
+      <point x="759" y="489"/>
+      <point x="708" y="488"/>
+      <point x="747" y="488" type="curve" smooth="yes"/>
+      <point x="795" y="488"/>
+      <point x="796" y="478"/>
+      <point x="829" y="478" type="curve" smooth="yes"/>
+      <point x="859" y="478"/>
+    </contour>
+    <component base="_VerticalBarShortForTopDots" xOffset="-257"/>
+    <component base="_Dot" xOffset="-425" yOffset="595"/>
+    <component base="_Dot" xOffset="87" yOffset="595"/>
+  </outline>
+</glyph>

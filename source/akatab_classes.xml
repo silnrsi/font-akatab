@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<classes>
+  <class name="cNoTif">
+    AcuteAccent AlmostEqTo Ampersand Apos Asterisk AtSgn Breve BrokenBar Bullet BulletOperator 
+    Caron Cedilla CentSgn CircumAccent Colon Comma.latin CopyrightSgn CurrSgn Dagger DblAcuteAccent 
+    DblDagger DblLow9QuotMrk DegreeSgn Diaer DigitEight DigitFive DigitFour DigitNine DigitOne 
+    DigitSeven DigitSix DigitThree DigitTwo DigitZero DivSgn DollarSgn DotAbv DottedCirc 
+    EmDash EmQuad EmSpace EnDash EnQuad EnSpace EqSgn EuroSgn ExclamationMrk.latin 
+    FemOrdIndicator FigureDash FigureSpace FourPerEmSpace FracSlash FullStop.latin GTOrEqTo GTSgn GrSmPi GraveAccent 
+    HairSpace HorizBar HorizEllipsis Hyphen HyphenMinus Hyphen_Soft HyphenationPt Increment Infinity Integral 
+    InvExclamationMrk InvQstnMrk LTOrEqTo LTSgn LftCurlyBrac LftDblQuotMrk LftParen LftPtngDblAngQuotMrk 
+    LftSglQuotMrk LftSqrBrac LftToRtEmbedding LftToRtMrk LftToRtOverride LineSep LowLine Lozenge 
+    LtnCapA LtnCapAAcute LtnCapABreve LtnCapACircum LtnCapADiaer LtnCapAGrave LtnCapARingAbv LtnCapATilde 
+    LtnCapAe LtnCapB LtnCapBDotBlw LtnCapC LtnCapCCedilla LtnCapD LtnCapDDotBlw 
+    LtnCapE LtnCapEAcute LtnCapEBreve LtnCapECircum LtnCapEDiaer LtnCapEGrave LtnCapEng.UCStyle LtnCapEth 
+    LtnCapF LtnCapG LtnCapGamma LtnCapH LtnCapHDotBlw LtnCapI LtnCapIAcute LtnCapIBreve LtnCapICircum LtnCapIDiaer LtnCapIGrave 
+    LtnCapJ LtnCapK LtnCapKDotBlw LtnCapL LtnCapLDotBlw LtnCapLigOe LtnCapM LtnCapMDotBlw LtnCapN LtnCapNDotBlw LtnCapNTilde 
+    LtnCapO LtnCapOAcute LtnCapOBreve LtnCapOCircum LtnCapODiaer LtnCapOGrave LtnCapOStrk LtnCapOTilde 
+    LtnCapP LtnCapQ LtnCapR LtnCapRDotBlw LtnCapRevE LtnCapS LtnCapSCaron LtnCapSDotBlw LtnCapT LtnCapTDotBlw LtnCapThorn 
+    LtnCapU LtnCapUAcute LtnCapUBreve LtnCapUCircum LtnCapUDiaer LtnCapUGrave LtnCapV LtnCapW LtnCapWDotBlw LtnCapX 
+    LtnCapY LtnCapYAcute LtnCapYDiaer LtnCapYDotBlw LtnCapZ LtnCapZCaron LtnCapZDotBlw 
+    LtnSmA LtnSmAAcute LtnSmABreve LtnSmACircum LtnSmADiaer LtnSmAGrave LtnSmARingAbv LtnSmATilde LtnSmAe 
+    LtnSmB LtnSmBDotBlw LtnSmC LtnSmCCedilla LtnSmD LtnSmDDotBlw LtnSmDotlessI 
+    LtnSmE LtnSmEAcute LtnSmEBreve LtnSmECircum LtnSmEDiaer LtnSmEGrave LtnSmEng LtnSmEth 
+    LtnSmF LtnSmFHook LtnSmG LtnSmGamma LtnSmH LtnSmHDotBlw 
+    LtnSmI LtnSmIAcute LtnSmIBreve LtnSmICircum LtnSmIDiaer LtnSmIGrave LtnSmJ LtnSmK LtnSmKDotBlw 
+    LtnSmL LtnSmLDotBlw LtnSmLigFi LtnSmLigFl LtnSmLigOe LtnSmM LtnSmMDotBlw LtnSmN LtnSmNDotBlw LtnSmNTilde 
+    LtnSmO LtnSmOAcute LtnSmOBreve LtnSmOCircum LtnSmODiaer LtnSmOGrave LtnSmOStrk LtnSmOTilde LtnSmP LtnSmQ 
+    LtnSmR LtnSmRDotBlw LtnSmS LtnSmSCaron LtnSmSDotBlw LtnSmSharpS LtnSmT LtnSmTDotBlw LtnSmThorn LtnSmTurnedE 
+    LtnSmU LtnSmUAcute LtnSmUBreve LtnSmUCircum LtnSmUDiaer LtnSmUGrave LtnSmV LtnSmW LtnSmWDotBlw LtnSmX 
+    LtnSmY LtnSmYAcute LtnSmYDiaer LtnSmYDotBlw LtnSmZ LtnSmZCaron LtnSmZDotBlw 
+    Macron MascOrdIndicator MicroSgn MiddleDot ModCircumAccent ModTriangularColon MultSgn 
+    NAryProduct NArySummation NarrowNoBreakSpace NoBreakSpace NonBreakingHyphen NotEqTo NotSgn NumSgn 
+    ObjectReplChar Ogonek OhmSgn 
+    ParagraphSeparator PartialDiff PerMilleSgn PercentSgn PilcrowSgn PlusMinusSgn PlusSgn PopDirFormatting PoundSgn PuncSpace 
+    QstnMrk QuotMrk RegisteredSgn ReplChar ReverseSolidus RingAbv 
+    RtCurlyBrac RtDblQuotMrk RtParen RtPtngDblAngQuotMrk RtSglQuotMrk RtSqrBrac RtToLftEmbedding RtToLftMrk RtToLftOverride 
+    SectionSgn Semicolon SglLftPtngAngQuotMrk SglLow9QuotMrk SglRtPtngAngQuotMrk SixPerEmSpace SmTilde 
+    Solidus SqrRoot SupOne SupThree SupTwo ThinSpace ThreePerEmSpace Tilde TradeMrkSgn 
+    VertLine VulgFracOneHalf VulgFracOneQuarter VulgFracThreeQuarters YenSgn 
+    ZeroWidthJoiner ZeroWidthNoBreakSpace ZeroWidthNonJoiner ZeroWidthSpace uni007F
+  </class>
+  <class name="cTakesTDia_base">
+    TifLtrTuarYagh TifLtrTuarYak TifLtrTuarYaq TifLtrTuarYakh TifLtrTuarYah TifLtrYab TifLtrTuarYab 
+    TifLtrYar TifLtrYas TifLtrYad TifLtrYadh TifLtrYadd TifLtrYam TifLtrYatt TifLtrYaf TifLtrYaf.alt 
+    TifLtrYay TifLtrYi TifLtrYaghh TifLtrYaghh.alt TifLtrYaj TifLtrTuarYang TifLtrYan TifLtrYan.slant 
+    TifLtrYal TifLtrYal.slant TifLtrTuarYagn TifLtrTuarYagn.alt TifLtrYash TifLtrYat TifLtrTuarYaw 
+    TifLtrTuarYaw.alt TifLtrTuarYazh TifLtrYaz TifLtrYaz.alt TifLtrYazh TifLtrYazh.alt
+	TifLtrYadd.rtl TifLtrTuarYak.rtl TifLtrYi.rtl TifLtrYam.rtl TifLtrYash.rtl TifLtrYatt.rtl TifLtrYay.rtl
+  </class>
+  <class name="cTDia_comb">
+    CombAcute tildenosp CombRingAbv
+  </class>
+    <class name="c_TDia">
+    TifShadda.alt TifShadda TifSukun
+  </class>
+</classes>

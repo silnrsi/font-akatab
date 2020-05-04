@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrTuarYaq" format="1">
+  <advance width="1510"/>
+  <unicode hex="2D48"/>
+  <outline>
+    <component base="_Dot" xOffset="-320" yOffset="-11"/>
+    <component base="_Dot" xOffset="92" yOffset="-11"/>
+    <component base="_Dot" xOffset="504" yOffset="-11"/>
+    <contour>
+      <point x="758" y="820" type="move" name="T"/>
+    </contour>
+  </outline>
+</glyph>

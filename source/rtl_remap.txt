@@ -1,0 +1,11 @@
+n, uni2D39.rtl, 2D39
+n, uni2D3E.rtl, 2D3E
+n, uni2D49.rtl, 2D49
+n, uni2D4E.rtl, 2D4E
+n, uni2D5B.rtl, 2D5B
+n, uni2D5F.rtl, 2D5F
+n, uni2D62.rtl, 2D62
+n, uni2D70.rtl, 2D70
+n, uni2D7F.rtl, 2D7F
+n, uniE302.rtl, E302
+n, uniE303.rtl, E303

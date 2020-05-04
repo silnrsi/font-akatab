@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrTuarYagn" format="1">
+  <advance width="1193"/>
+  <unicode hex="2D50"/>
+  <outline>
+    <component base="_VerticalBar" xOffset="-140"/>
+    <component base="_HorizontalBarMed" xOffset="100" yOffset="970"/>
+    <component base="_HorizontalBarMed" xOffset="100" yOffset="675"/>
+    <contour>
+      <point x="601" y="1393" type="move" name="T"/>
+    </contour>
+  </outline>
+</glyph>

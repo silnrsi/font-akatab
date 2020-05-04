@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmYDotBlw" format="2">
+  <advance width="1060"/>
+  <unicode hex="1EF5"/>
+  <anchor x="795" y="-500" name="L"/>
+  <anchor x="1120" y="1000" name="R"/>
+  <anchor x="535" y="1100" name="U"/>
+  <outline>
+    <component base="LtnSmY"/>
+    <component base="CombDotBlw" xOffset="1365"/>
+  </outline>
+</glyph>

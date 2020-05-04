@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-ghht" format="2">
+  <advance width="1495"/>
+  <outline>
+    <contour>
+      <point x="168" y="0" type="curve" smooth="yes"/>
+      <point x="925" y="0" type="line" smooth="yes"/>
+      <point x="981" y="0"/>
+      <point x="993" y="24"/>
+      <point x="993" y="75" type="curve" smooth="yes"/>
+      <point x="993" y="376"/>
+      <point x="403" y="1044"/>
+      <point x="323" y="1363" type="curve" smooth="yes"/>
+      <point x="314" y="1400"/>
+      <point x="302" y="1404"/>
+      <point x="276" y="1404" type="curve" smooth="yes"/>
+      <point x="220" y="1404"/>
+      <point x="157" y="1349"/>
+      <point x="157" y="1309" type="curve" smooth="yes"/>
+      <point x="157" y="1072"/>
+      <point x="750" y="365"/>
+      <point x="802" y="138" type="curve"/>
+      <point x="625" y="138"/>
+      <point x="449" y="138"/>
+      <point x="272" y="138" type="curve"/>
+      <point x="314" y="469"/>
+      <point x="917" y="1081"/>
+      <point x="917" y="1360" type="curve" smooth="yes"/>
+      <point x="917" y="1389"/>
+      <point x="904" y="1405"/>
+      <point x="862" y="1405" type="curve" smooth="yes"/>
+      <point x="820" y="1405"/>
+      <point x="757" y="1376"/>
+      <point x="749" y="1327" type="curve" smooth="yes"/>
+      <point x="679" y="918"/>
+      <point x="100" y="466"/>
+      <point x="100" y="58" type="curve" smooth="yes"/>
+      <point x="100" y="26"/>
+      <point x="115" y="0"/>
+    </contour>
+    <component base="_Plus" xOffset="643" yOffset="420"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-sk" format="2">
+  <advance width="1438"/>
+  <outline>
+    <component base="_VerticalOval" xOffset="-24"/>
+    <component base="_Dot" xOffset="48" yOffset="-13"/>
+    <component base="_k" xOffset="227"/>
+  </outline>
+</glyph>

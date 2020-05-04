@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-rt.alt" format="2">
+  <advance width="1438"/>
+  <outline>
+    <component base="_VerticalOval" xOffset="-24"/>
+    <component base="_VerticalBarJoining" xOffset="-23"/>
+    <component base="_HorizontalBar" xOffset="-24"/>
+  </outline>
+</glyph>

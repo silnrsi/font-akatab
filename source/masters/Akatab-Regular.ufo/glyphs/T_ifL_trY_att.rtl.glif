@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrYatt.rtl" format="2">
+  <advance width="1258"/>
+  <anchor x="588" y="0" name="T"/>
+  <outline>
+    <contour>
+      <point x="590" y="721"/>
+      <point x="590" y="804" type="curve" smooth="yes"/>
+      <point x="590" y="966"/>
+      <point x="599" y="945"/>
+      <point x="599" y="984" type="curve" smooth="yes"/>
+      <point x="599" y="1009"/>
+      <point x="576" y="1023"/>
+      <point x="546" y="1023" type="curve" smooth="yes"/>
+      <point x="455" y="1022"/>
+      <point x="445" y="948"/>
+      <point x="445" y="847" type="curve" smooth="yes"/>
+      <point x="445" y="730"/>
+      <point x="453" y="661"/>
+      <point x="453" y="578" type="curve" smooth="yes"/>
+      <point x="453" y="416"/>
+      <point x="444" y="450"/>
+      <point x="444" y="411" type="curve" smooth="yes"/>
+      <point x="444" y="386"/>
+      <point x="467" y="372"/>
+      <point x="497" y="372" type="curve" smooth="yes"/>
+      <point x="588" y="373"/>
+      <point x="598" y="447"/>
+      <point x="598" y="548" type="curve" smooth="yes"/>
+      <point x="598" y="665"/>
+    </contour>
+    <component base="TifLtrYam" xScale="-1" yScale="-1" xOffset="1258" yOffset="1393"/>
+    <component base="_HorizontalBarMedShort1.5" xScale="-1" yScale="-1" xOffset="960" yOffset="779"/>
+  </outline>
+</glyph>

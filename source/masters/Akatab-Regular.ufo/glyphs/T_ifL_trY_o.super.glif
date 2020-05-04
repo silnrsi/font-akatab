@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrYo.super" format="2">
+  <advance width="747"/>
+  <unicode hex="E304"/>
+  <outline>
+    <component base="_Dot" xScale="0.76923" yScale="0.76923" xOffset="-295" yOffset="957"/>
+    <component base="_Dot" xScale="0.76923" yScale="0.76923" xOffset="22" yOffset="957"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

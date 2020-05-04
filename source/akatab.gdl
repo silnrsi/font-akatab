@@ -1,0 +1,499 @@
+/***************************************************************************
+
+	Akatab.gdl
+	Graphite source code for Akatab
+
+***************************************************************************/
+
+#include "stddef.gdh"
+ScriptDirection = HORIZONTAL_LEFT_TO_RIGHT;
+Bidi = true;
+
+/////////////////////////////////
+//
+//  Features
+//
+/////////////////////////////////
+
+#define bool default = ffalse; \
+    settings { \
+        ffalse { \
+            value = 0; \
+            name.1033 = string("False"); \
+        } \
+        ftrue { \
+            value = 1; \
+            name.1033 = string("True"); \
+        } \
+    }
+
+#define boolWDefTrue default = ftrue; \
+    settings { \
+        ftrue { \
+            value = 0; \
+            name.1033 = string("True"); \
+        } \
+        ffalse { \
+            value = 1; \
+            name.1033 = string("False"); \
+        } \
+    }
+
+table(feature)
+
+f_2D30 {
+	id = "cv01";
+	name.1033 = string("Alternate YA (empty circle)");  // A
+	bool
+}
+
+f_2D3C {
+	id = "cv02";
+	name.1033 = string("Alternate YAF (I-shape)");  // F
+	bool
+}
+
+f_2D34 {
+	id = "cv03";
+	name.1033 = string("Alternate YAGHH (round bottom)");  // GHH
+	bool
+}
+
+f_2D50 {
+	id = "cv04";
+	name.1033 = string("Alternate YAGN (lowered bottom stroke)");  // GN
+	bool
+}
+
+f_2D53 {
+	id = "cv05";
+	name.1033 = string("Alternate YU (short strokes)");  // W
+	bool
+}
+
+f_2D63 {
+	id = "cv06";
+	name.1033 = string("Alternate YAZ (squared)");  // Z
+	bool
+}
+
+f_2D4B {
+	id = "cv07";
+	name.1033 = string("Alternate AHAGGAR YAZH (squared)");  // ZH
+	bool
+}
+
+
+// Biconsonant features
+
+f_2D31_2D5C {
+	id = "cv31";
+	name.1033 = string("Alternate YAB YAT");  // BT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (exterior +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (interior +)");
+		}
+	}
+}
+
+f_2D54_2D5C {
+	id = "cv32";
+	name.1033 = string("Alternate YAR YAT");  // RT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (exterior +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (large interior +)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (small interior +)");
+		}
+	}
+}
+
+f_2D59_2D5C {
+	id = "cv33";
+	name.1033 = string("Alternate YAS YAT");  // ST
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (exterior +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (large interior +)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (small interior +)");
+		}
+	}
+}
+
+f_2D4E_2D5C {
+	id = "cv34";
+	name.1033 = string("Alternate YAM YAT");  // MT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (low +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (middle +)");
+		}
+	}
+}
+
+f_2D3C_2D5C {
+	id = "cv35";
+	name.1033 = string("Alternate YAF YAT");  // FT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (low +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (middle +)");
+		}
+	}
+}
+
+f_2D4F_2D3E {
+	id = "cv36";
+	name.1033 = string("Alternate YAM YAK");  // NK
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (single dot cluster)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (double dot cluster)");
+		}
+	}
+}
+
+f_2D4F_2D5C {
+	id = "cv37";
+	name.1033 = string("Alternate YAN YAT");  // NT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (+)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (side bar)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (top bar)");
+		}
+	}
+}
+
+f_2D4D_2D5C {
+	id = "cv38";
+	name.1033 = string("Alternate YAL YAT");  // LT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (external +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (internal +)");
+		}
+	}
+}
+
+f_2D53_2D5C {
+	id = "cv39";
+	name.1033 = string("Alternate YU YAT");  // WT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (short)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate (tall)");
+		}
+	}
+}
+
+f_2D4C_2D5C {
+	id = "cv40";
+	name.1033 = string("Alternate Tuareg YAZH YAT");  // ZZHT
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard (lower-right +)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1 (mid-right +)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (centered +)");
+		}
+	}
+}
+
+endtable; // feature
+
+/////////////////////////////////
+//
+//  Subsitutions
+//
+/////////////////////////////////
+
+table(glyph)
+
+// Biconsonant ligatures
+
+c_2d4f_cons = (TifLtrYaghh  TifLtrYaj  TifLtrYad  TifLtrYadh  TifLtrYaf  TifLtrTuarYak  TifLtrYas  TifLtrYash  TifLtrYat
+	TifLtrYaghh_alt  TifLtrYaf_alt);
+c_2d4f_cons_lig = (
+	TifLig_nghh  TifLig_nj  TifLig_nd  TifLig_ndh
+	TifLig_nf  TifLig_nk  TifLig_ns  TifLig_nsh  TifLig_nt
+	TifLig_nghh_alt  TifLig_nf_alt);
+
+c_cons_2d3e = (TifLtrYal  TifLtrYal_slant  TifLtrYal_raised  TifLtrYar  TifLtrYas  TifLtrYash);
+c_cons_2d3e_lig = (TifLig_lk  TifLig_lk  TifLig_lk  TifLig_rk  TifLig_sk  TifLig_shk);
+
+c_cons_2d5c = (
+	TifLtrYab  TifLtrYaghh  TifLtrYaj  TifLtrYaf  TifLtrTuarYab
+	TifLtrYi  TifLtrYazh  TifLtrTuarYazh  TifLtrYal  TifLtrYal_slant  TifLtrYal_raised 
+	TifLtrYam  TifLtrTuarYaw  TifLtrYar  TifLtrYas  TifLtrYash  TifLtrYaz
+	TifLtrYaghh_alt  TifLtrYaf_alt  TifLtrYazh_alt  TifLtrTuarYaw_alt  TifLtrYaz_alt  );
+c_cons_2d5c_lig = (
+	TifLig_bt  TifLig_ghht  TifLig_jt  TifLig_ft  TifLigTuar_bt
+	TifLig_yt  TifLig_zht  TifLig_zzt  TifLig_lt  TifLig_lt  TifLig_lt 
+	TifLig_mt  TifLig_wt  TifLig_rt  TifLig_st  TifLig_sht  TifLig_zt
+	TifLig_ghht_alt  TifLig_ft_alt  TifLig_zht_alt  TifLig_wt_alt2  
+	TifLig_zt_alt);
+
+
+endtable;  // glyph
+
+
+table(sub)
+
+pass(1)
+
+// Raised vertical-bar characters:
+// prevent substitution of third in sequence
+cno_raised  >  craised  /  (TifLtrYan TifLtrYal)  _  (TifLtrYan TifLtrYal) {directionality == 1};  // RTL
+
+endpass; // 1
+
+
+pass(2)
+
+// Latin punctuation for Latin characters
+cno_latin  >  clatin  /  cNoTif  _ ;
+
+// Raised vertical-bar characters:
+cno_raised  >  craised  /  _  (TifLtrYan TifLtrYal) {directionality == 1};  // RTL
+cno_raised  >  craised  /  (TifLtrYan TifLtrYal)  _ ;
+
+// Slanted vertical-bar characters:
+// cno_slant  >  cslant  /  (TifLtrYan TifLtrYal)  _ ;
+
+// Use Tif version of diacs when they attach to Tif characters:
+g__comb_acute     >  TifConsLengthMark_alt  /  cTakesTDia_base  _;
+g_tildenosp       >  TifConsLengthMark      /  cTakesTDia_base  _;
+(g__comb_dot_abv g__comb_ring_abv)  >  TifVowelMark  /  cTakesTDia_base  _;
+
+
+// Alternate character forms
+
+if (f_2D30)
+TifLtrYa  >  TifLtrYa_alt;
+endif;
+
+if (f_2D3C)
+TifLtrYaf  >  TifLtrYaf_alt;
+endif;
+
+if (f_2D34)
+TifLtrYaghh  >  TifLtrYaghh_alt;
+endif;
+
+if (f_2D50)
+TifLtrTuarYagn  >  TifLtrTuarYagn_alt;
+endif;
+
+if (f_2D53)
+TifLtrTuarYaw  >  TifLtrTuarYaw_alt;
+endif;
+
+if (f_2D63)
+TifLtrYaz  >  TifLtrYaz_alt;
+endif;
+
+if (f_2D4B)
+TifLtrYazh  >  TifLtrYazh_alt;
+endif;
+
+endpass; // 2
+
+
+pass(3)   { Direction = RIGHT_TO_LEFT }
+
+// Biconsonant ligatures
+
+(TifLtrYan  TifLtrYan_raised)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(TifLtrYan  TifLtrYan_slant)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(TifLtrYan  TifLtrYan_slant_rtl)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+
+c_cons_2d3e  TifConsJoiner  TifLtrTuarYak  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c  TifConsJoiner  TifLtrYat  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+
+endpass;  // 3
+
+
+pass(4) 
+
+// Biconsonant ligatures
+
+(TifLtrYan  TifLtrYan_raised)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(TifLtrYan  TifLtrYan_slant)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(TifLtrYan  TifLtrYan_slant_rtl)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+
+c_cons_2d3e  TifConsJoiner  TifLtrTuarYak  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c  TifConsJoiner  TifLtrYat  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+
+endpass;  // 4
+
+
+pass(5)
+
+if (f_2D31_2D5C)
+TifLig_bt  >  TifLig_bt_alt;
+endif;
+
+if (f_2D54_2D5C == 1)
+TifLig_rt  >  TifLig_rt_alt;
+endif;
+if (f_2D54_2D5C == 2)
+TifLig_rt  >  TifLig_rt_alt2;
+endif;
+
+if (f_2D59_2D5C == 1)
+TifLig_st  >  TifLig_st_alt;
+endif;
+if (f_2D59_2D5C == 2)
+TifLig_st  >  TifLig_st_alt2;
+endif;
+
+if (f_2D4E_2D5C)
+TifLig_mt  >  TifLig_mt_alt;
+endif;
+
+if (f_2D3C_2D5C)
+TifLig_ft  >  TifLig_ft_alt2;
+endif;
+
+if (f_2D4F_2D3E)
+TifLig_nk  >  TifLig_nk_alt;
+endif;
+
+if (f_2D4F_2D5C == 1)
+TifLig_nt  >  TifLig_nt_alt;
+endif;
+if (f_2D4F_2D5C == 2)
+TifLig_nt  >  TifLig_nt_alt2;
+endif;
+
+if (f_2D4D_2D5C)
+TifLig_lt  >  TifLig_lt_alt;
+endif;
+
+if (f_2D53_2D5C)
+TifLig_wt  >  TifLig_wt_alt;
+endif;
+
+if (f_2D4C_2D5C == 1)
+TifLig_zzt  >  TifLig_zzt_alt;
+endif;
+if (f_2D4C_2D5C == 2)
+TifLig_zzt  >  TifLig_zzt_alt2;
+endif;
+
+endpass;  // 5
+
+
+pass(6) 
+
+cno_rtl	>	crtl / _ {directionality == 1};  // sub LTR with RTL glyphs
+
+endpass;  // 6
+
+
+endtable;  // substitution
+
+
+/////////////////////////////////
+//
+//  Diacritic attachments
+//
+/////////////////////////////////
+
+#define attached	user1
+#define DIASTR4(x) [ x [ x [ x x?]?]?]?
+
+table(glyph)
+
+cnHDiaX = (cLDia cUDia cTDia);		// Not Cedilla
+cnLDiaX = (cHDia cUDia cTDia);		// Not Lower
+cnUDiaX = (cHDia cLDia cTDia);		// Not Upper
+cnTDiaX = (cHDia cLDia cUDia);		// Not Tifinagh acute/dot
+cDia =  (cHDia cLDia cUDia cTDia);	// Any (but not double dias)
+
+endtable;
+
+
+table(pos)
+
+//#define pos_rule(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
+#define pos_ruleSD(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; insert = 1; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
+
+
+//if (select_diac)
+	pos_ruleSD(cTakesHDia, cHDia, HS, HM, cnHDiaX);
+	pos_ruleSD(cTakesLDia, cLDia, LS, LM, cnLDiaX);
+	pos_ruleSD(cTakesUDia, cUDia, US, UM, cnUDiaX);
+	pos_ruleSD(cTakesTDia_base, cTDia, TS, TM, cnTDiaX);
+//else
+//	pos_rule(cTakesHDia, cHDia, HS, HM, cnHDiaX);
+//	pos_rule(cTakesLDia, cLDia, LS, LM, cnLDiaX);
+//	pos_rule(cTakesUDia, cUDia, US, UM, cnUDiaX);
+//	pos_rule(cTakesTDia_base, cTDia, TS, TM, cnTDiaX);
+//endif;
+
+
+endtable; // positioning

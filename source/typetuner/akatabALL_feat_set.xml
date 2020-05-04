@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE features_set SYSTEM "feat_set.dtd">
+<features_set version="1.0">
+	<feature name="Directionality" value="Right to left">
+		<value name="Left to right Standard"/>
+		<value name="Right to left"/>
+	</feature>
+	<feature name="Alternate YA (circle)" value="Circle">
+		<value name="Dot"/>
+		<value name="Circle"/>
+	</feature>
+	<feature name="Alternate YAF (one part)" value="One part">
+		<value name="Two part"/>
+		<value name="One part"/>
+	</feature>
+	<feature name="Alternate YAGHH (round bottom)" value="Round bottom">
+		<value name="Flat bottom"/>
+		<value name="Round bottom"/>
+	</feature>
+	<feature name="Alternate YAGN (lowered bottom stroke)" value="Lowered bottom stroke">
+		<value name="Standard"/>
+		<value name="Lowered bottom stroke"/>
+	</feature>
+	<feature name="Alternate YU (short strokes)" value="Short strokes">
+		<value name="Standard"/>
+		<value name="Short strokes"/>
+	</feature>
+	<feature name="Alternate YAZ (squared)" value="Squared">
+		<value name="Standard"/>
+		<value name="Squared"/>
+	</feature>
+	<feature name="Alternate AHAGGAR YAZH (squared)" value="Squared">
+		<value name="Standard"/>
+		<value name="Squared"/>
+	</feature>
+	<feature name="Alternate YAB YAT" value="Alternate (interior +)">
+		<value name="Standard (exterior +)"/>
+		<value name="Alternate (interior +)"/>
+	</feature>
+	<feature name="Alternate YAR YAT" value="Alternate 1 (large interior +)">
+		<value name="Standard (exterior +)"/>
+		<value name="Alternate 1 (large interior +)"/>
+		<value name="Alternate 2 (small interior +)"/>
+	</feature>
+	<feature name="Alternate YAS YAT" value="Alternate 1 (large interior +)">
+		<value name="Standard (exterior +)"/>
+		<value name="Alternate 1 (large interior +)"/>
+		<value name="Alternate 2 (small interior +)"/>
+	</feature>
+	<feature name="Alternate YAM YAT" value="Alternate (middle +)">
+		<value name="Standard (low +)"/>
+		<value name="Alternate (middle +)"/>
+	</feature>
+	<feature name="Alternate YAF YAT" value="Alternate (middle +)">
+		<value name="Standard (low +)"/>
+		<value name="Alternate (middle +)"/>
+	</feature>
+	<feature name="Alternate YAM YAK" value="Alternate (double dot cluster)">
+		<value name="Standard (single dot cluster)"/>
+		<value name="Alternate (double dot cluster)"/>
+	</feature>
+	<feature name="Alternate YAN YAT" value="Alternate 1 (side bar)">
+		<value name="Standard (+)"/>
+		<value name="Alternate 1 (side bar)"/>
+		<value name="Alternate 2 (top bar)"/>
+	</feature>
+	<feature name="Alternate YAL YAT" value="Alternate (interior +)">
+		<value name="Standard (exterior +)"/>
+		<value name="Alternate (interior +)"/>
+	</feature>
+	<feature name="Alternate YU YAT" value="Alternate (tall)">
+		<value name="Standard (short)"/>
+		<value name="Alternate (tall)"/>
+	</feature>
+	<feature name="Alternate Tuareg YAZH YAT" value="Alternate 1 (mid-right +)">
+		<value name="Standard (lower-right +)"/>
+		<value name="Alternate 1 (mid-right +)"/>
+		<value name="Alternate 2 (centered +)"/>
+	</feature>
+</features_set>

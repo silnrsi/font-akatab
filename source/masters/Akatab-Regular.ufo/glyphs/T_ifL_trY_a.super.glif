@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrYa.super" format="2">
+  <advance width="428"/>
+  <unicode hex="E300"/>
+  <outline>
+    <contour>
+      <point x="214" y="1593" type="curve"/>
+      <point x="162" y="1593"/>
+      <point x="120" y="1551"/>
+      <point x="120" y="1499" type="curve" smooth="yes"/>
+      <point x="120" y="1447"/>
+      <point x="162" y="1405"/>
+      <point x="214" y="1405" type="curve" smooth="yes"/>
+      <point x="266" y="1405"/>
+      <point x="308" y="1447"/>
+      <point x="308" y="1499" type="curve" smooth="yes"/>
+      <point x="308" y="1551"/>
+      <point x="266" y="1593"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

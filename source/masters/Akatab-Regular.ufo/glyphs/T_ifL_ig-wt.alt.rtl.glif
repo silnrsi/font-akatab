@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLig-wt.alt.rtl" format="2">
+  <advance width="1413"/>
+  <outline>
+    <component base="_VerticalBar" xScale="-1" yScale="-1" xOffset="1449" yOffset="1393"/>
+    <component base="_HorizontalBar" xScale="-1" yScale="-1" xOffset="1449" yOffset="1393"/>
+    <component base="_Dot" xScale="-1" yScale="-1" xOffset="1723" yOffset="1079"/>
+    <component base="_Dot" xScale="-1" yScale="-1" xOffset="1723" yOffset="1729"/>
+  </outline>
+</glyph>

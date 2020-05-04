@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CircumAccent" format="1">
+  <advance width="850"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="1634" y="1128" type="line"/>
+      <point x="1388" y="1459" type="line"/>
+      <point x="1241" y="1459" type="line"/>
+      <point x="995" y="1128" type="line"/>
+      <point x="1112" y="1128" type="line"/>
+      <point x="1316" y="1322" type="line"/>
+      <point x="1517" y="1128" type="line"/>
+    </contour>
+    <contour>
+      <point x="425" y="1635" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

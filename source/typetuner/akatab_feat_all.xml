@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE all_features SYSTEM "feat_all.dtd">
+<all_features version="1.0">
+
+    <feature name="Directionality" value="Left to right Standard" tag="Dir">
+        <value name="Left to right Standard" tag="Std">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Right to left" tag="RTL">
+            <cmd name="encode" args="2D39 uni2D39.rtl"/>
+            <cmd name="encode" args="2D3E uni2D3E.rtl"/>
+            <cmd name="encode" args="2D49 uni2D49.rtl"/>
+            <cmd name="encode" args="2D4E uni2D4E.rtl"/>
+            <cmd name="encode" args="2D5B uni2D5B.rtl"/>
+            <cmd name="encode" args="2D5F uni2D5F.rtl"/>
+            <cmd name="encode" args="2D62 uni2D62.rtl"/>
+            <cmd name="encode" args="2D70 uni2D70.rtl"/>
+            <cmd name="encode" args="2D7F uni2D7F.rtl"/>
+            <cmd name="encode" args="E302 uniE302.rtl"/>
+            <cmd name="encode" args="E303 uniE303.rtl"/>
+        </value>
+    </feature>
+
+    <!-- Character variant section -->
+    <!-- Same as cv01 -->
+    <feature name="Alternate YA (circle)" value="Dot" tag="altA">
+        <value name="Dot" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Circle" tag="True">
+            <cmd name="encode" args="2D30 uni2D30.alt"/>
+        </value>
+    </feature>
+
+    <!-- Same as cv02 -->
+    <feature name="Alternate YAF (one part)" value="Two part" tag="altF">
+        <value name="Two part" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="One part" tag="True">
+            <cmd name="encode" args="2D3C uni2D3C.alt"/>
+        </value>
+    </feature>
+
+    <!-- Same as cv03 -->
+    <feature name="Alternate YAGHH (round bottom)" value="Flat bottom" tag="altGHH">
+        <value name="Flat bottom" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Round bottom" tag="True">
+            <cmd name="encode" args="2D34 uni2D34.alt"/>
+        </value>
+    </feature>
+
+    <!-- Same as cv04 -->
+    <feature name="Alternate YAGN (lowered bottom stroke)" value="Standard" tag="altGN">
+        <value name="Standard" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Lowered bottom stroke" tag="True">
+            <cmd name="encode" args="2D50 uni2D50.alt"/>
+        </value>
+    </feature>
+
+    <!-- Same as cv05 -->
+    <feature name="Alternate YU (short strokes)" value="Standard" tag="altU">
+        <value name="Standard" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Short strokes" tag="True">
+            <cmd name="encode" args="2D53 uni2D53.alt"/>
+        </value>
+    </feature>
+
+    <!-- Same as cv06 -->
+    <feature name="Alternate YAZ (squared)" value="Standard" tag="altZ">
+        <value name="Standard" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Squared" tag="True">
+            <cmd name="encode" args="2D63 uni2D63.alt"/>
+        </value>
+    </feature>
+
+    <!-- Same as cv07 -->
+    <feature name="Alternate AHAGGAR YAZH (squared)" value="Standard" tag="altZH">
+        <value name="Standard" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Squared" tag="True">
+            <cmd name="encode" args="2D4B uni2D4B.alt"/>
+        </value>
+    </feature>
+
+    <!-- Ligature variant section -->
+    <feature name="Alternate YAB YAT" value="Standard (exterior +)" tag="altBT">
+        <value name="Standard (exterior +)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate (interior +)" tag="True">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant31}"/>    
+            <cmd name="gr_feat" args="{gr_cv31} 1"/>
+        </value>
+    </feature>
+ 
+    <feature name="Alternate YAR YAT" value="Standard (exterior +)" tag="altRT">
+        <value name="Standard (exterior +)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate 1 (large interior +)" tag="1">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant32_1}"/>    
+            <cmd name="gr_feat" args="{gr_cv32} 1"/>
+        </value>
+        <value name="Alternate 2 (small interior +)" tag="2">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant32_2}"/>    
+            <cmd name="gr_feat" args="{gr_cv32} 2"/>
+        </value>
+    </feature>
+
+    <feature name="Alternate YAS YAT" value="Standard (exterior +)" tag="altST">
+        <value name="Standard (exterior +)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate 1 (large interior +)" tag="1">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant33_1}"/>    
+            <cmd name="gr_feat" args="{gr_cv33} 1"/>
+        </value>
+        <value name="Alternate 2 (small interior +)" tag="2">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant33_2}"/>    
+            <cmd name="gr_feat" args="{gr_cv33} 2"/>
+        </value>
+    </feature>
+
+    <feature name="Alternate YAM YAT" value="Standard (low +)" tag="altMT">
+        <value name="Standard (low +)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate (middle +)" tag="True">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant34}"/>    
+            <cmd name="gr_feat" args="{gr_cv34} 1"/>
+        </value>
+    </feature>
+
+    <feature name="Alternate YAF YAT" value="Standard (low +)" tag="altFT">
+        <value name="Standard (low +)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate (middle +)" tag="True">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant35}"/>    
+            <cmd name="gr_feat" args="{gr_cv35} 1"/>
+        </value>
+    </feature>
+
+    <feature name="Alternate YAM YAK" value="Standard (single dot cluster)" tag="altMK">
+        <value name="Standard (single dot cluster)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate (double dot cluster)" tag="True">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant36}"/>    
+            <cmd name="gr_feat" args="{gr_cv36} 1"/>
+        </value>
+    </feature>
+ 
+    <feature name="Alternate YAN YAT" value="Standard (+)" tag="altNT">
+        <value name="Standard (+)" tag="0">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate 1 (side bar)" tag="1">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant37_1}"/>    
+            <cmd name="gr_feat" args="{gr_cv37} 1"/>
+        </value>
+        <value name="Alternate 2 (top bar)" tag="2">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant37_2}"/>    
+            <cmd name="gr_feat" args="{gr_cv37} 2"/>
+        </value>
+    </feature>
+
+    <feature name="Alternate YAL YAT" value="Standard (exterior +)" tag="altLT">
+        <value name="Standard (exterior +)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate (interior +)" tag="True">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant38}"/>    
+            <cmd name="gr_feat" args="{gr_cv38} 1"/>
+        </value>
+    </feature>
+
+    <feature name="Alternate YU YAT" value="Standard (short)" tag="altUT">
+        <value name="Standard (short)" tag="False">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate (tall)" tag="True">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant39}"/>    
+            <cmd name="gr_feat" args="{gr_cv39} 1"/>
+        </value>
+    </feature>
+ 
+    <feature name="Alternate Tuareg YAZH YAT" value="Standard (lower-right +)" tag="altZZT">
+        <value name="Standard (lower-right +)" tag="0">
+            <cmd name="null" args="null"/>
+        </value>
+        <value name="Alternate 1 (mid-right +)" tag="1">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant40_1}"/>    
+            <cmd name="gr_feat" args="{gr_cv40} 1"/>
+        </value>
+        <value name="Alternate 2 (centered +)" tag="2">
+            <cmd name="lookup_add" args="GSUB {calt_tfng_dflt} {TfnCharacterVariant40_2}"/>    
+            <cmd name="gr_feat" args="{gr_cv40} 2"/>
+        </value>
+    </feature>
+
+
+    <interactions>
+    
+    </interactions>
+
+
+    <cmd_blocks>
+    
+    </cmd_blocks>
+
+
+    <!-- Alias definitions will be inserted by smith (using psftuneraliases) -->
+    <aliases>
+    
+    </aliases>
+
+
+    <old_names>
+    
+    </old_names>
+
+</all_features>

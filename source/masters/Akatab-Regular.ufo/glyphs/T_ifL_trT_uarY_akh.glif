@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrTuarYakh" format="2">
+  <advance width="1286"/>
+  <unicode hex="2D46"/>
+  <anchor x="661" y="1171" name="T"/>
+  <outline>
+    <component base="_Dot" xOffset="-320" yOffset="340"/>
+    <component base="_Dot" xOffset="-320" yOffset="-360"/>
+    <component base="_Dot" xOffset="280" yOffset="340"/>
+    <component base="_Dot" xOffset="280" yOffset="-360"/>
+  </outline>
+</glyph>

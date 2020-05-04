@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TifLtrYat" format="1">
+  <advance width="1413"/>
+  <unicode hex="2D5C"/>
+  <outline>
+    <component base="_VerticalBar" xOffset="-36"/>
+    <component base="_HorizontalBar" xOffset="-36"/>
+    <contour>
+      <point x="711" y="1393" type="move" name="T"/>
+    </contour>
+  </outline>
+</glyph>

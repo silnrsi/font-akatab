@@ -1,0 +1,63 @@
+FONTLOG
+Akatab
+========================
+
+This file provides detailed information on the Akatab family of fonts.
+This information should be distributed along with the Akatab fonts and
+any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Akatab is a TrueType font with smart font capabilities added using 
+state-of-the-art font technologies. This means that complex typographic 
+issues such as the placement of combining marks or the formation of ligatures 
+are handled by the font, provided you are running an application that provides 
+an adequate level of support for one of these smart font technologies.
+
+
+A Note Regarding the Open Font License
+----------------------------------------------------
+
+The OFL prohibits the use of Reserved Font Names "Akatab" in the name of 
+any font that is derived from the Original Version of Akatab.
+
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+20 December 2019  Akatab Beta2 version 0.910
+- Added right to left glyphs
+- Enhanced right to left behaviour
+- Added raised (instead of slanted) characters for N and L 
+- Added TifLtrYass (U+2D5A) and superscript vowels (U+E300 - U+E303)
+- Other enhancements and, of course, bug fixes
+
+31 March 2014  Akatab Beta version 0.900
+- First version released under the SIL Open Font License
+
+
+Information
+-----------------
+
+The release of Akatab Beta version 0.9.0.0 (Version 0.900) (and any subsequent 
+versions) under the OFL license provides a means for people to make their own 
+modified version of Akatab (using a different name),  For information on what 
+you're allowed to change or modify, consult the OFL and OFL-FAQ.
+
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: SIL font designers and engineers
+E: http://scripts.sil.org/support
+W: http://scripts.sil.org/
+D: Graphite, OpenType, and TypeTuner code, and build support
+
+N: Andrew Savage
+D: Research, design guidance, and user testing

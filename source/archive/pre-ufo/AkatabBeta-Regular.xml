@@ -1,0 +1,3467 @@
+<?xml version="1.0"?>
+<font name="AkatabBeta" upem="2048">
+    <glyph GID="0" PSName=".notdef">
+    </glyph>
+    <glyph GID="1" PSName=".null">
+    </glyph>
+    <glyph GID="2" PSName="CR">
+    </glyph>
+    <glyph GID="3" UID="0020" PSName="space">
+    </glyph>
+    <glyph GID="4" UID="0021" PSName="exclam">
+    </glyph>
+    <glyph GID="5" UID="0022" PSName="quotedbl">
+    </glyph>
+    <glyph GID="6" UID="0023" PSName="numbersign">
+    </glyph>
+    <glyph GID="7" UID="0024" PSName="dollar">
+    </glyph>
+    <glyph GID="8" UID="0025" PSName="percent">
+    </glyph>
+    <glyph GID="9" UID="0026" PSName="ampersand">
+    </glyph>
+    <glyph GID="10" UID="0027" PSName="quotesingle">
+    </glyph>
+    <glyph GID="11" UID="0028" PSName="parenleft">
+    </glyph>
+    <glyph GID="12" UID="0029" PSName="parenright">
+    </glyph>
+    <glyph GID="13" UID="002A" PSName="asterisk">
+    </glyph>
+    <glyph GID="14" UID="002B" PSName="plus">
+    </glyph>
+    <glyph GID="15" UID="002C" PSName="comma">
+    </glyph>
+    <glyph GID="16" UID="002D" PSName="hyphen">
+        <point type="U">
+            <location x="430" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="17" UID="002E" PSName="period">
+    </glyph>
+    <glyph GID="18" UID="002F" PSName="slash">
+    </glyph>
+    <glyph GID="19" UID="0030" PSName="zero">
+        <point type="U">
+            <location x="605" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="20" UID="0031" PSName="one">
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+    </glyph>
+    <glyph GID="21" UID="0032" PSName="two">
+        <point type="U">
+            <location x="560" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="22" UID="0033" PSName="three">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="23" UID="0034" PSName="four">
+        <point type="U">
+            <location x="607" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="607" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="24" UID="0035" PSName="five">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="25" UID="0036" PSName="six">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="26" UID="0037" PSName="seven">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="27" UID="0038" PSName="eight">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="28" UID="0039" PSName="nine">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="29" UID="003A" PSName="colon">
+    </glyph>
+    <glyph GID="30" UID="003B" PSName="semicolon">
+    </glyph>
+    <glyph GID="31" UID="003C" PSName="less">
+    </glyph>
+    <glyph GID="32" UID="003D" PSName="equal">
+    </glyph>
+    <glyph GID="33" UID="003E" PSName="greater">
+    </glyph>
+    <glyph GID="34" UID="003F" PSName="question">
+    </glyph>
+    <glyph GID="35" UID="0040" PSName="at">
+    </glyph>
+    <glyph GID="36" UID="0041" PSName="A">
+        <point type="U">
+            <location x="687" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="37" UID="0042" PSName="B">
+        <point type="U">
+            <location x="615" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="615" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="38" UID="0043" PSName="C">
+        <point type="U">
+            <location x="750" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="750" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="750" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="39" UID="0044" PSName="D">
+        <point type="U">
+            <location x="715" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="715" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="40" UID="0045" PSName="E">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="917" y="0"/>
+        </point>
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1160" y="1200"/>
+        </point>
+    </glyph>
+    <glyph GID="41" UID="0046" PSName="F">
+        <point type="U">
+            <location x="595" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="42" UID="0047" PSName="G">
+        <point type="U">
+            <location x="745" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="745" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="745" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="43" UID="0048" PSName="H">
+        <point type="U">
+            <location x="725" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="725" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="44" UID="0049" PSName="I">
+        <point type="U">
+            <location x="477" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="477" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="673" y="0"/>
+        </point>
+        <point type="H">
+            <location x="477" y="0"/>
+        </point>
+        <point type="R">
+            <location x="975" y="1200"/>
+        </point>
+    </glyph>
+    <glyph GID="45" UID="004A" PSName="J">
+        <point type="U">
+            <location x="675" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="410" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="46" UID="004B" PSName="K">
+        <point type="U">
+            <location x="650" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="695" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="270" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="47" UID="004C" PSName="L">
+        <point type="U">
+            <location x="592" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="592" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="540" y="1200"/>
+        </point>
+        <point type="H">
+            <location x="592" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="48" UID="004D" PSName="M">
+        <point type="U">
+            <location x="885" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="885" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="49" UID="004E" PSName="N">
+        <point type="U">
+            <location x="737" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="737" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="50" UID="004F" PSName="O">
+        <point type="U">
+            <location x="717" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="51" UID="0050" PSName="P">
+        <point type="U">
+            <location x="637" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="637" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="52" UID="0051" PSName="Q">
+        <point type="U">
+            <location x="717" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-270"/>
+        </point>
+    </glyph>
+    <glyph GID="53" UID="0052" PSName="R">
+        <point type="U">
+            <location x="610" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="610" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="650" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="54" UID="0053" PSName="S">
+        <point type="U">
+            <location x="580" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="580" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="580" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="55" UID="0054" PSName="T">
+        <point type="U">
+            <location x="622" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="622" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="622" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="56" UID="0055" PSName="U">
+        <point type="U">
+            <location x="707" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="707" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1400" y="1200"/>
+        </point>
+        <point type="O">
+            <location x="925" y="0"/>
+        </point>
+        <point type="H">
+            <location x="707" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="57" UID="0056" PSName="V">
+        <point type="U">
+            <location x="672" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="672" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="880" y="0"/>
+        </point>
+        <point type="H">
+            <location x="680" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="58" UID="0057" PSName="W">
+        <point type="U">
+            <location x="1027" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="1027" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="59" UID="0058" PSName="X">
+        <point type="U">
+            <location x="650" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="650" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="60" UID="0059" PSName="Y">
+        <point type="U">
+            <location x="650" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="650" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="61" UID="005A" PSName="Z">
+        <point type="U">
+            <location x="605" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="62" UID="005B" PSName="bracketleft">
+    </glyph>
+    <glyph GID="63" UID="005C" PSName="backslash">
+    </glyph>
+    <glyph GID="64" UID="005D" PSName="bracketright">
+    </glyph>
+    <glyph GID="65" UID="005E" PSName="asciicircum">
+        <point type="U">
+            <location x="425" y="1635"/>
+        </point>
+    </glyph>
+    <glyph GID="66" UID="005F" PSName="underscore">
+    </glyph>
+    <glyph GID="67" UID="0060" PSName="grave">
+        <point type="U">
+            <location x="390" y="1635"/>
+        </point>
+    </glyph>
+    <glyph GID="68" UID="0061" PSName="a">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="69" UID="0062" PSName="b">
+        <point type="U">
+            <location x="590" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="590" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1155" y="1000"/>
+        </point>
+        <point type="H">
+            <location x="590" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="70" UID="0063" PSName="c">
+        <point type="U">
+            <location x="570" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="580" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="580" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1020" y="1000"/>
+        </point>
+    </glyph>
+    <glyph GID="71" UID="0064" PSName="d">
+        <point type="U">
+            <location x="605" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1190" y="1000"/>
+        </point>
+        <point type="H">
+            <location x="605" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="72" UID="0065" PSName="e">
+        <point type="U">
+            <location x="569" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="569" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1095" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="900" y="0"/>
+        </point>
+        <point type="H">
+            <location x="545" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="73" UID="0066" PSName="f">
+        <point type="U">
+            <location x="560" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="335" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="370" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="74" UID="0067" PSName="g">
+        <point type="U">
+            <location x="595" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="555" y="-500"/>
+        </point>
+        <point type="R">
+            <location x="1125" y="1000"/>
+        </point>
+    </glyph>
+    <glyph GID="75" UID="0068" PSName="h">
+        <point type="U">
+            <location x="585" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="585" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="250" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="76" UID="0069" PSName="i">
+        <point type="U">
+            <location x="282" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="555" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="500" y="0"/>
+        </point>
+        <point type="H">
+            <location x="282" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="77" UID="006A" PSName="j">
+        <point type="L">
+            <location x="125" y="-500"/>
+        </point>
+        <point type="U">
+            <location x="313" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="78" UID="006B" PSName="k">
+        <point type="U">
+            <location x="572" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="572" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1035" y="1000"/>
+        </point>
+        <point type="H">
+            <location x="880" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="79" UID="006C" PSName="l">
+        <point type="U">
+            <location x="282" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="290" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="H">
+            <location x="290" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="80" UID="006D" PSName="m">
+        <point type="U">
+            <location x="865" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="865" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="865" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="81" UID="006E" PSName="n">
+        <point type="U">
+            <location x="600" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="82" UID="006F" PSName="o">
+        <point type="U">
+            <location x="570" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="83" UID="0070" PSName="p">
+        <point type="U">
+            <location x="590" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="590" y="-500"/>
+        </point>
+        <point type="R">
+            <location x="1170" y="1000"/>
+        </point>
+        <point type="H">
+            <location x="265" y="-435"/>
+        </point>
+    </glyph>
+    <glyph GID="84" UID="0071" PSName="q">
+        <point type="U">
+            <location x="555" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="555" y="-500"/>
+        </point>
+        <point type="R">
+            <location x="1130" y="1000"/>
+        </point>
+    </glyph>
+    <glyph GID="85" UID="0072" PSName="r">
+        <point type="U">
+            <location x="455" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="255" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="270" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="86" UID="0073" PSName="s">
+        <point type="U">
+            <location x="495" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="495" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="495" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="87" UID="0074" PSName="t">
+        <point type="U">
+            <location x="325" y="1360"/>
+        </point>
+        <point type="L">
+            <location x="475" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="835" y="1000"/>
+        </point>
+        <point type="H">
+            <location x="475" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="88" UID="0075" PSName="u">
+        <point type="U">
+            <location x="589" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="589" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1185" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="700" y="0"/>
+        </point>
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="89" UID="0076" PSName="v">
+        <point type="U">
+            <location x="535" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="535" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="725" y="0"/>
+        </point>
+        <point type="H">
+            <location x="549" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="90" UID="0077" PSName="w">
+        <point type="U">
+            <location x="775" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="775" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="91" UID="0078" PSName="x">
+        <point type="U">
+            <location x="542" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="542" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="900" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="92" UID="0079" PSName="y">
+        <point type="U">
+            <location x="535" y="1100"/>
+        </point>
+        <point type="R">
+            <location x="1120" y="1000"/>
+        </point>
+        <point type="L">
+            <location x="795" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="93" UID="007A" PSName="z">
+        <point type="U">
+            <location x="525" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="525" y="-100"/>
+        </point>
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="94" UID="007B" PSName="braceleft">
+    </glyph>
+    <glyph GID="95" UID="007C" PSName="bar">
+    </glyph>
+    <glyph GID="96" UID="007D" PSName="braceright">
+    </glyph>
+    <glyph GID="97" UID="007E" PSName="asciitilde">
+    </glyph>
+    <glyph GID="98" UID="20AC" PSName="Euro">
+    </glyph>
+    <glyph GID="99" UID="201A" PSName="quotesinglbase">
+    </glyph>
+    <glyph GID="100" UID="201E" PSName="quotedblbase">
+    </glyph>
+    <glyph GID="101" UID="0192" PSName="florin">
+        <point type="U">
+            <location x="540" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="297" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="102" UID="2026" PSName="ellipsis">
+    </glyph>
+    <glyph GID="103" UID="2020" PSName="dagger">
+    </glyph>
+    <glyph GID="104" UID="2021" PSName="daggerdbl">
+    </glyph>
+    <glyph GID="105" UID="02C6" PSName="circumflex">
+    </glyph>
+    <glyph GID="106" UID="2030" PSName="perthousand">
+    </glyph>
+    <glyph GID="107" UID="0160" PSName="Scaron">
+        <point type="H">
+            <location x="580" y="0"/>
+        </point>
+        <point type="U">
+            <location x="580" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="580" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="108" UID="2039" PSName="guilsinglleft">
+    </glyph>
+    <glyph GID="109" UID="203A" PSName="guilsinglright">
+    </glyph>
+    <glyph GID="110" UID="0152" PSName="OE">
+        <point type="U">
+            <location x="962" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="962" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="111" UID="2018" PSName="quoteleft">
+    </glyph>
+    <glyph GID="112" UID="2019" PSName="quoteright">
+    </glyph>
+    <glyph GID="113" UID="201C" PSName="quotedblleft">
+    </glyph>
+    <glyph GID="114" UID="201D" PSName="quotedblright">
+    </glyph>
+    <glyph GID="115" UID="2022" PSName="bullet">
+    </glyph>
+    <glyph GID="116" UID="2013" PSName="endash">
+    </glyph>
+    <glyph GID="117" UID="2014" PSName="emdash">
+    </glyph>
+    <glyph GID="118" UID="02DC" PSName="tilde">
+    </glyph>
+    <glyph GID="119" UID="2122" PSName="trademark">
+    </glyph>
+    <glyph GID="120" UID="0161" PSName="scaron">
+        <point type="H">
+            <location x="495" y="0"/>
+        </point>
+        <point type="U">
+            <location x="495" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="495" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="121" UID="0153" PSName="oe">
+        <point type="U">
+            <location x="955" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="955" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1860" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="1590" y="0"/>
+        </point>
+        <point type="H">
+            <location x="1320" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="122" UID="0308" PSName="u0308">
+        <point type="U">
+            <location x="-570" y="1505"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="123" UID="0178" PSName="Ydieresis">
+        <point type="U">
+            <location x="650" y="1935"/>
+        </point>
+        <point type="L">
+            <location x="650" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="124" UID="00A0" PSName="u00A0">
+        <point type="U">
+            <location x="512" y="1500"/>
+        </point>
+        <point type="L">
+            <location x="512" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1024" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="562" y="0"/>
+        </point>
+        <point type="H">
+            <location x="512" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="125" UID="00A1" PSName="exclamdown">
+    </glyph>
+    <glyph GID="126" UID="0102" PSName="Abreve">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="687" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="127" UID="0300" PSName="gravecomb">
+        <point type="U">
+            <location x="-550" y="1635"/>
+        </point>
+        <point type="_U">
+            <location x="-550" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="128" UID="0301" PSName="acutecomb">
+        <point type="U">
+            <location x="-570" y="1635"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="129" UID="0302" PSName="u0302">
+        <point type="U">
+            <location x="-570" y="1635"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="130" UID="0303" PSName="tildecomb">
+        <point type="U">
+            <location x="-575" y="1475"/>
+        </point>
+        <point type="_U">
+            <location x="-575" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="131" UID="0304" PSName="u0304">
+        <point type="U">
+            <location x="-570" y="1450"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="132" UID="0306" PSName="u0306">
+        <point type="U">
+            <location x="-570" y="1635"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="133" UID="0307" PSName="u0307">
+        <point type="U">
+            <location x="-570" y="1505"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="134" UID="0323" PSName="dotbelowcomb">
+        <point type="L">
+            <location x="-575" y="-500"/>
+        </point>
+        <point type="_L">
+            <location x="-575" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="135" UID="00A2" PSName="cent">
+    </glyph>
+    <glyph GID="136" UID="00A3" PSName="sterling">
+    </glyph>
+    <glyph GID="137" UID="00A4" PSName="currency">
+    </glyph>
+    <glyph GID="138" UID="00A5" PSName="yen">
+    </glyph>
+    <glyph GID="139" UID="00A6" PSName="brokenbar">
+    </glyph>
+    <glyph GID="140" UID="00A7" PSName="section">
+    </glyph>
+    <glyph GID="141" UID="00A8" PSName="dieresis">
+        <point type="U">
+            <location x="340" y="1505"/>
+        </point>
+    </glyph>
+    <glyph GID="142" UID="00A9" PSName="copyright">
+    </glyph>
+    <glyph GID="143" UID="00AA" PSName="ordfeminine">
+    </glyph>
+    <glyph GID="144" UID="00AB" PSName="guillemotleft">
+    </glyph>
+    <glyph GID="145" UID="00AC" PSName="logicalnot">
+    </glyph>
+    <glyph GID="146" UID="00AD" PSName="u00AD">
+        <point type="U">
+            <location x="430" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="147" UID="00AE" PSName="registered">
+    </glyph>
+    <glyph GID="148" UID="00AF" PSName="macron">
+    </glyph>
+    <glyph GID="149" UID="00B0" PSName="degree">
+    </glyph>
+    <glyph GID="150" UID="00B1" PSName="plusminus">
+    </glyph>
+    <glyph GID="151" UID="00B2" PSName="twosuperior">
+        <point type="U">
+            <location x="420" y="1675"/>
+        </point>
+        <point type="L">
+            <location x="420" y="615"/>
+        </point>
+    </glyph>
+    <glyph GID="152" UID="00B3" PSName="threesuperior">
+        <point type="U">
+            <location x="420" y="1675"/>
+        </point>
+        <point type="L">
+            <location x="420" y="615"/>
+        </point>
+    </glyph>
+    <glyph GID="153" UID="00B4" PSName="acute">
+        <point type="U">
+            <location x="180" y="1635"/>
+        </point>
+    </glyph>
+    <glyph GID="154" UID="00B5" PSName="mu">
+    </glyph>
+    <glyph GID="155" UID="00B6" PSName="paragraph">
+    </glyph>
+    <glyph GID="156" UID="00B7" PSName="periodcentered">
+    </glyph>
+    <glyph GID="157" UID="00B8" PSName="cedilla">
+        <point type="L">
+            <location x="105" y="-520"/>
+        </point>
+    </glyph>
+    <glyph GID="158" UID="00B9" PSName="onesuperior">
+        <point type="U">
+            <location x="419" y="1675"/>
+        </point>
+        <point type="L">
+            <location x="419" y="615"/>
+        </point>
+    </glyph>
+    <glyph GID="159" UID="00BA" PSName="ordmasculine">
+    </glyph>
+    <glyph GID="160" UID="00BB" PSName="guillemotright">
+    </glyph>
+    <glyph GID="161" UID="00BC" PSName="onequarter">
+    </glyph>
+    <glyph GID="162" UID="00BD" PSName="onehalf">
+    </glyph>
+    <glyph GID="163" UID="00BE" PSName="threequarters">
+    </glyph>
+    <glyph GID="164" UID="00BF" PSName="questiondown">
+    </glyph>
+    <glyph GID="165" UID="00C0" PSName="Agrave">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="687" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="166" UID="00C1" PSName="Aacute">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="687" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="167" UID="00C2" PSName="Acircumflex">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="687" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="168" UID="00C3" PSName="Atilde">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="687" y="1905"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="169" UID="00C4" PSName="Adieresis">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="687" y="1935"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="170" UID="00C5" PSName="Aring">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="689" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="687" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1450" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="171" UID="00C6" PSName="AE">
+        <point type="U">
+            <location x="1015" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="1015" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="172" UID="00C7" PSName="Ccedilla">
+        <point type="U">
+            <location x="750" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="720" y="-520"/>
+        </point>
+    </glyph>
+    <glyph GID="173" UID="00C8" PSName="Egrave">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1160" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="600" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="917" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="174" UID="00C9" PSName="Eacute">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1160" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="600" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="917" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="175" UID="00CA" PSName="Ecircumflex">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1160" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="600" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="917" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="176" UID="00CB" PSName="Edieresis">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1160" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="600" y="1935"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="917" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="177" UID="00CC" PSName="Igrave">
+        <point type="H">
+            <location x="477" y="0"/>
+        </point>
+        <point type="R">
+            <location x="975" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="477" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="477" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="673" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="178" UID="00CD" PSName="Iacute">
+        <point type="H">
+            <location x="477" y="0"/>
+        </point>
+        <point type="R">
+            <location x="975" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="477" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="477" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="673" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="179" UID="00CE" PSName="Icircumflex">
+        <point type="H">
+            <location x="477" y="0"/>
+        </point>
+        <point type="R">
+            <location x="975" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="477" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="477" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="673" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="180" UID="00CF" PSName="Idieresis">
+        <point type="H">
+            <location x="477" y="0"/>
+        </point>
+        <point type="R">
+            <location x="975" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="477" y="1935"/>
+        </point>
+        <point type="L">
+            <location x="477" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="673" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="181" UID="00D0" PSName="Eth">
+        <point type="U">
+            <location x="715" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="715" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="182" UID="00D1" PSName="Ntilde">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="737" y="1905"/>
+        </point>
+        <point type="L">
+            <location x="737" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="183" UID="00D2" PSName="Ograve">
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="717" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="184" UID="00D3" PSName="Oacute">
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="717" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="185" UID="00D4" PSName="Ocircumflex">
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="717" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="186" UID="00D5" PSName="Otilde">
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="717" y="1905"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="187" UID="00D6" PSName="Odieresis">
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="717" y="1935"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="188" UID="00D7" PSName="multiply">
+    </glyph>
+    <glyph GID="189" UID="00D8" PSName="Oslash">
+        <point type="U">
+            <location x="717" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="190" UID="00D9" PSName="Ugrave">
+        <point type="H">
+            <location x="707" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1400" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="707" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="707" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="925" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="191" UID="00DA" PSName="Uacute">
+        <point type="H">
+            <location x="707" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1400" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="707" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="707" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="925" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="192" UID="00DB" PSName="Ucircumflex">
+        <point type="H">
+            <location x="707" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1400" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="707" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="707" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="925" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="193" UID="00DC" PSName="Udieresis">
+        <point type="H">
+            <location x="707" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1400" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="707" y="1935"/>
+        </point>
+        <point type="L">
+            <location x="707" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="925" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="194" UID="00DD" PSName="Yacute">
+        <point type="U">
+            <location x="650" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="650" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="195" UID="00DE" PSName="Thorn">
+        <point type="U">
+            <location x="638" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="638" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="196" UID="00DF" PSName="germandbls">
+        <point type="U">
+            <location x="590" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="590" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="197" UID="00E0" PSName="agrave">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="198" UID="00E1" PSName="aacute">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="199" UID="00E2" PSName="acircumflex">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="200" UID="00E3" PSName="atilde">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1475"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="201" UID="00E4" PSName="adieresis">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1505"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="202" UID="00E5" PSName="aring">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="597" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="203" UID="00E6" PSName="ae">
+        <point type="U">
+            <location x="865" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="865" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1745" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="1465" y="0"/>
+        </point>
+        <point type="H">
+            <location x="1215" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="204" UID="00E7" PSName="ccedilla">
+        <point type="R">
+            <location x="1020" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="550" y="-520"/>
+        </point>
+    </glyph>
+    <glyph GID="205" UID="00E8" PSName="egrave">
+        <point type="H">
+            <location x="545" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1095" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="569" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="569" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="900" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="206" UID="00E9" PSName="eacute">
+        <point type="H">
+            <location x="545" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1095" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="569" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="569" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="900" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="207" UID="00EA" PSName="ecircumflex">
+        <point type="H">
+            <location x="545" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1095" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="569" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="569" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="900" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="208" UID="00EB" PSName="edieresis">
+        <point type="H">
+            <location x="545" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1095" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="569" y="1505"/>
+        </point>
+        <point type="L">
+            <location x="569" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="900" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="209" UID="00EC" PSName="igrave">
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="285" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="520" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="210" UID="00ED" PSName="iacute">
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="285" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="520" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="211" UID="00EE" PSName="icircumflex">
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="285" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="520" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="212" UID="00EF" PSName="idieresis">
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="285" y="1505"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="520" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="213" UID="00F0" PSName="eth">
+        <point type="U">
+            <location x="572" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="572" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="214" UID="00F1" PSName="ntilde">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="U">
+            <location x="600" y="1475"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="215" UID="00F2" PSName="ograve">
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="216" UID="00F3" PSName="oacute">
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="217" UID="00F4" PSName="ocircumflex">
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="218" UID="00F5" PSName="otilde">
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1475"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="219" UID="00F6" PSName="odieresis">
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1505"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="220" UID="00F7" PSName="divide">
+    </glyph>
+    <glyph GID="221" UID="00F8" PSName="oslash">
+        <point type="U">
+            <location x="570" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="820" y="0"/>
+        </point>
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="222" UID="00F9" PSName="ugrave">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1185" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="589" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="589" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="700" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="223" UID="00FA" PSName="uacute">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1185" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="589" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="589" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="700" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="224" UID="00FB" PSName="ucircumflex">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1185" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="589" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="589" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="700" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="225" UID="00FC" PSName="udieresis">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1185" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="589" y="1505"/>
+        </point>
+        <point type="L">
+            <location x="589" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="700" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="226" UID="00FD" PSName="yacute">
+        <point type="R">
+            <location x="1120" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="535" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="795" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="227" UID="00FE" PSName="thorn">
+        <point type="U">
+            <location x="620" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="590" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="228" UID="00FF" PSName="ydieresis">
+        <point type="R">
+            <location x="1120" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="535" y="1505"/>
+        </point>
+        <point type="L">
+            <location x="795" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="229" UID="0327" PSName="u0327">
+        <point type="L">
+            <location x="-460" y="-520"/>
+        </point>
+        <point type="_H">
+            <location x="-430" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="230" UID="0103" PSName="abreve">
+        <point type="H">
+            <location x="980" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1150" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="595" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="595" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="1180" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="231" UID="0114" PSName="Ebreve">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1160" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="600" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="917" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="232" UID="0115" PSName="ebreve">
+        <point type="H">
+            <location x="545" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1095" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="569" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="569" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="900" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="233" UID="012C" PSName="Ibreve">
+        <point type="H">
+            <location x="477" y="0"/>
+        </point>
+        <point type="R">
+            <location x="975" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="477" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="477" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="673" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="234" UID="012D" PSName="ibreve">
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="285" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="520" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="235" UID="014E" PSName="Obreve">
+        <point type="H">
+            <location x="717" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1460" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="717" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="717" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="956" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="236" UID="014F" PSName="obreve">
+        <point type="H">
+            <location x="570" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1140" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="570" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="570" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="790" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="237" UID="016C" PSName="Ubreve">
+        <point type="H">
+            <location x="707" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1400" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="707" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="707" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="925" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="238" UID="016D" PSName="ubreve">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1185" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="589" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="589" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="700" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="239" UID="018E" PSName="u018E">
+        <point type="U">
+            <location x="560" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="560" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="240" UID="01DD" PSName="u01DD">
+        <point type="H">
+            <location x="541" y="0"/>
+        </point>
+        <point type="U">
+            <location x="541" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="541" y="-100"/>
+        </point>
+        <point type="O">
+            <location x="598" y="0"/>
+        </point>
+    </glyph>
+    <glyph GID="241" UID="0194" PSName="u0194">
+        <point type="U">
+            <location x="670" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="670" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="242" UID="0263" PSName="u0263">
+        <point type="U">
+            <location x="585" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="585" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="243" UID="014A" PSName="Eng.UCStyle">
+        <point type="U">
+            <location x="740" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="740" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="244" UID="014B" PSName="eng">
+        <point type="U">
+            <location x="605" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="245" UID="017D" PSName="Zcaron">
+        <point type="U">
+            <location x="605" y="2065"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="246" UID="017E" PSName="zcaron">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="U">
+            <location x="525" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="525" y="-100"/>
+        </point>
+    </glyph>
+    <glyph GID="247" UID="1E04" PSName="u1E04">
+        <point type="U">
+            <location x="615" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="615" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="248" UID="1E05" PSName="u1E05">
+        <point type="H">
+            <location x="590" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1155" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="590" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="590" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="249" UID="1E0C" PSName="u1E0C">
+        <point type="U">
+            <location x="715" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="715" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="250" UID="1E0D" PSName="u1E0D">
+        <point type="H">
+            <location x="605" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1190" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="605" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="251" UID="1E24" PSName="u1E24">
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        <point type="U">
+            <location x="725" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="725" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="252" UID="1E25" PSName="u1E25">
+        <point type="H">
+            <location x="250" y="0"/>
+        </point>
+        <point type="U">
+            <location x="585" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="585" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="253" UID="1E32" PSName="u1E32">
+        <point type="H">
+            <location x="270" y="0"/>
+        </point>
+        <point type="U">
+            <location x="650" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="695" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="254" UID="1E33" PSName="u1E33">
+        <point type="H">
+            <location x="880" y="0"/>
+        </point>
+        <point type="R">
+            <location x="1035" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="572" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="572" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="255" UID="1E36" PSName="u1E36">
+        <point type="H">
+            <location x="592" y="0"/>
+        </point>
+        <point type="R">
+            <location x="540" y="1200"/>
+        </point>
+        <point type="U">
+            <location x="592" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="592" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="256" UID="1E37" PSName="u1E37">
+        <point type="H">
+            <location x="290" y="0"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="282" y="1635"/>
+        </point>
+        <point type="L">
+            <location x="290" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="257" UID="1E42" PSName="u1E42">
+        <point type="U">
+            <location x="885" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="885" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="258" UID="1E43" PSName="u1E43">
+        <point type="H">
+            <location x="865" y="0"/>
+        </point>
+        <point type="U">
+            <location x="865" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="865" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="259" UID="1E46" PSName="u1E46">
+        <point type="H">
+            <location x="1230" y="0"/>
+        </point>
+        <point type="U">
+            <location x="737" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="737" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="260" UID="1E47" PSName="u1E47">
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        <point type="U">
+            <location x="600" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="261" UID="1E5A" PSName="u1E5A">
+        <point type="H">
+            <location x="650" y="0"/>
+        </point>
+        <point type="U">
+            <location x="610" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="610" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="262" UID="1E5B" PSName="u1E5B">
+        <point type="H">
+            <location x="270" y="0"/>
+        </point>
+        <point type="U">
+            <location x="455" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="255" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="263" UID="1E62" PSName="u1E62">
+        <point type="H">
+            <location x="580" y="0"/>
+        </point>
+        <point type="U">
+            <location x="580" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="580" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="264" UID="1E63" PSName="u1E63">
+        <point type="H">
+            <location x="495" y="0"/>
+        </point>
+        <point type="U">
+            <location x="495" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="495" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="265" UID="1E6C" PSName="u1E6C">
+        <point type="H">
+            <location x="622" y="0"/>
+        </point>
+        <point type="U">
+            <location x="622" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="622" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="266" UID="1E6D" PSName="u1E6D">
+        <point type="H">
+            <location x="475" y="0"/>
+        </point>
+        <point type="R">
+            <location x="835" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="325" y="1360"/>
+        </point>
+        <point type="L">
+            <location x="475" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="267" UID="1E88" PSName="u1E88">
+        <point type="U">
+            <location x="1027" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="1027" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="268" UID="1E89" PSName="u1E89">
+        <point type="U">
+            <location x="775" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="775" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="269" UID="1EF4" PSName="u1EF4">
+        <point type="U">
+            <location x="650" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="650" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="270" UID="1EF5" PSName="u1EF5">
+        <point type="R">
+            <location x="1120" y="1000"/>
+        </point>
+        <point type="U">
+            <location x="535" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="795" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="271" UID="1E92" PSName="u1E92">
+        <point type="U">
+            <location x="605" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="272" UID="1E93" PSName="u1E93">
+        <point type="H">
+            <location x="525" y="0"/>
+        </point>
+        <point type="U">
+            <location x="525" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="525" y="-500"/>
+        </point>
+    </glyph>
+    <glyph GID="273" UID="030A" PSName="u030A">
+        <point type="U">
+            <location x="-570" y="1635"/>
+        </point>
+        <point type="_U">
+            <location x="-572" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="274" UID="030C" PSName="u030C">
+        <point type="U">
+            <location x="-570" y="1635"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="275" UID="0305" PSName="u0305">
+        <point type="U">
+            <location x="-570" y="1450"/>
+        </point>
+        <point type="_U">
+            <location x="-570" y="1100"/>
+        </point>
+    </glyph>
+    <glyph GID="276" UID="007F" PSName="u007F">
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="277" UID="0131" PSName="dotlessi">
+        <point type="U">
+            <location x="285" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="285" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="550" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="520" y="0"/>
+        </point>
+        <point type="H">
+            <location x="285" y="0"/>
+        </point>
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="278" UID="02C7" PSName="caron">
+        <point type="U">
+            <location x="425" y="1635"/>
+        </point>
+        2013-01-22 pkm Created Added to Tifinagh font.
+2011-01-31 ao: made spacing w/0 l and r sidebearings dereferenced from CombCaron; removed _U AP.
+    </glyph>
+    <glyph GID="279" UID="02D0" PSName="u02D0">
+        <point type="U">
+            <location x="223" y="1091"/>
+        </point>
+        <point type="L">
+            <location x="223" y="-100"/>
+        </point>
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="280" UID="02D8" PSName="breve">
+        <point type="U">
+            <location x="375" y="1635"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="281" UID="02D9" PSName="dotaccent">
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="282" UID="02DA" PSName="ring">
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="283" UID="02DB" PSName="ogonek">
+        <point type="L">
+            <location x="355" y="-400"/>
+        </point>
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="284" UID="034F" PSName="u034F">
+        <point type="U">
+            <location x="0" y="0"/>
+        </point>
+        <point type="L">
+            <location x="0" y="0"/>
+        </point>
+        <point type="_U">
+            <location x="0" y="0"/>
+        </point>
+        <point type="_L">
+            <location x="0" y="0"/>
+        </point>
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="285" UID="03C0" PSName="pi">
+        <point type="U">
+            <location x="650" y="1100"/>
+        </point>
+        <point type="L">
+            <location x="650" y="-100"/>
+        </point>
+        2013-01-22 pkm Created Added to Tifinagh font.
+    </glyph>
+    <glyph GID="286" UID="2000" PSName="u2000">
+        <point type="U">
+            <location x="512" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="512" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1024" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="562" y="0"/>
+        </point>
+        <point type="H">
+            <location x="512" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="287" UID="2001" PSName="u2001">
+        <point type="U">
+            <location x="1024" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="1024" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="2048" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="1074" y="0"/>
+        </point>
+        <point type="H">
+            <location x="1024" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="288" UID="2002" PSName="u2002">
+        <point type="U">
+            <location x="512" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="512" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1024" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="562" y="0"/>
+        </point>
+        <point type="H">
+            <location x="512" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="289" UID="2003" PSName="u2003">
+        <point type="U">
+            <location x="1024" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="1024" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="2048" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="1074" y="0"/>
+        </point>
+        <point type="H">
+            <location x="1024" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="290" UID="2004" PSName="u2004">
+        <point type="U">
+            <location x="341" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="341" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="683" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="392" y="0"/>
+        </point>
+        <point type="H">
+            <location x="341" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="291" UID="2005" PSName="u2005">
+        <point type="U">
+            <location x="256" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="256" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="512" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="306" y="0"/>
+        </point>
+        <point type="H">
+            <location x="256" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="292" UID="2006" PSName="u2006">
+        <point type="U">
+            <location x="170" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="170" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="341" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="220" y="0"/>
+        </point>
+        <point type="H">
+            <location x="170" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="293" UID="2007" PSName="u2007">
+        <point type="U">
+            <location x="600" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="600" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="1200" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="650" y="0"/>
+        </point>
+        <point type="H">
+            <location x="600" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="294" UID="2008" PSName="u2008">
+        <point type="U">
+            <location x="322" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="322" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="645" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="372" y="0"/>
+        </point>
+        <point type="H">
+            <location x="322" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="295" UID="2009" PSName="u2009">
+        <point type="U">
+            <location x="205" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="205" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="410" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="255" y="0"/>
+        </point>
+        <point type="H">
+            <location x="205" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="296" UID="200A" PSName="u200A">
+        <point type="U">
+            <location x="102" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="102" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="205" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="153" y="0"/>
+        </point>
+        <point type="H">
+            <location x="102" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="297" UID="200B" PSName="u200B">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="298" UID="200C" PSName="uni200C">
+    </glyph>
+    <glyph GID="299" UID="200D" PSName="uni200D">
+    </glyph>
+    <glyph GID="300" UID="200E" PSName="uni200E">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="301" UID="200F" PSName="uni200F">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="302" UID="2010" PSName="u2010">
+        <point type="U">
+            <location x="430" y="1100"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="303" UID="2011" PSName="u2011">
+        <point type="U">
+            <location x="430" y="1100"/>
+        </point>
+        <property name="mark" value="64"/>
+        2013-01-22 pkm des Added to Tifinagh font.
+2007-11-23 jvg des Added
+    </glyph>
+    <glyph GID="304" UID="2012" PSName="figuredash">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="305" UID="2015" PSName="uni2015">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="306" UID="2027" PSName="u2027">
+        <property name="mark" value="64"/>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="307" UID="2028" PSName="u2028">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="308" UID="2029" PSName="u2029">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="309" UID="202A" PSName="u202A">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="310" UID="202B" PSName="u202B">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="311" UID="202C" PSName="uni202C">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="312" UID="202D" PSName="uni202D">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="313" UID="202E" PSName="uni202E">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="314" UID="202F" PSName="u202F">
+        <point type="U">
+            <location x="205" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="205" y="-100"/>
+        </point>
+        <point type="R">
+            <location x="410" y="1000"/>
+        </point>
+        <point type="O">
+            <location x="255" y="0"/>
+        </point>
+        <point type="H">
+            <location x="205" y="0"/>
+        </point>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="315" UID="2044" PSName="fraction">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="316" UID="2060" PSName="u2060">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="317" UID="2126" PSName="Omega">
+        <property name="mark" value="64"/>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="318" UID="2202" PSName="partialdiff">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="319" UID="2206" PSName="Delta">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="320" UID="220F" PSName="product">
+        <property name="mark" value="64"/>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="321" UID="2211" PSName="summation">
+        <point type="U">
+            <location x="605" y="1530"/>
+        </point>
+        <point type="L">
+            <location x="605" y="-100"/>
+        </point>
+        <property name="mark" value="64"/>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="322" UID="2219" PSName="u2219">
+        <property name="mark" value="64"/>
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="323" UID="221A" PSName="radical">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="324" UID="221E" PSName="infinity">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="325" UID="222B" PSName="integral">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="326" UID="2248" PSName="approxequal">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="327" UID="2260" PSName="notequal">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="328" UID="2264" PSName="lessequal">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="329" UID="2265" PSName="greaterequal">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="330" UID="25CA" PSName="lozenge">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="331" UID="25CC" PSName="u25CC">
+        <point type="O">
+            <location x="810" y="0"/>
+        </point>
+        <point type="H">
+            <location x="553" y="0"/>
+        </point>
+        <point type="U">
+            <location x="553" y="1000"/>
+        </point>
+        <point type="L">
+            <location x="553" y="-100"/>
+        </point>
+        2008-1-18 ao added glyph and APs fr DoulosSIL, but w/larger sbearings
+    </glyph>
+    <glyph GID="332" UID="2D30" PSName="u2D30">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="333" PSName="u2D30.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="334" UID="2D57" PSName="u2D57">
+        <point type="T">
+            <location x="345" y="1233"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="335" UID="2D3E" PSName="u2D3E">
+        <point type="T">
+            <location x="578" y="1100"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="336" UID="2D48" PSName="u2D48">
+        <point type="T">
+            <location x="758" y="820"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="337" UID="2D46" PSName="u2D46">
+        <point type="T">
+            <location x="661" y="1171"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="338" UID="2D42" PSName="u2D42">
+        <point type="T">
+            <location x="344" y="1458"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="339" UID="2D31" PSName="u2D31">
+        <point type="T">
+            <location x="720" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP. original name TifLtrTuarYab
+    </glyph>
+    <glyph GID="340" PSName="u2D31_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="341" PSName="u2D31_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="342" UID="2D40" PSName="u2D40">
+        <point type="T">
+            <location x="720" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP. original TifLtrTuarYab.alt jdc 2013-11-22
+    </glyph>
+    <glyph GID="343" PSName="u2D40_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+        2013-11-22 jdc original name TifLig-bt.alt2
+    </glyph>
+    <glyph GID="344" UID="2D54" PSName="u2D54">
+        <point type="T">
+            <location x="718" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="345" PSName="u2D54_u2D7F_u2D3E">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="346" PSName="u2D54_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="347" PSName="u2D54_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="348" PSName="u2D54_u2D7F_u2D5C.alt2">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="349" UID="2D59" PSName="u2D59">
+        <point type="T">
+            <location x="720" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="350" PSName="u2D59_u2D7F_u2D3E">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="351" PSName="u2D4F_u2D7F_u2D59">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="352" PSName="u2D59_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="353" PSName="u2D59_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+        2013-11-22 jdc original name TifLig-st.alt2
+    </glyph>
+    <glyph GID="354" PSName="u2D59_u2D7F_u2D5C.alt2">
+        <property name="mark" value="80"/>
+        2013-11-22 jdc original name TifLig-st.alt
+    </glyph>
+    <glyph GID="355" UID="2D37" PSName="u2D37">
+        <point type="T">
+            <location x="699" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="356" PSName="u2D4F_u2D7F_u2D37">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="357" UID="2D38" PSName="u2D38">
+        <point type="T">
+            <location x="702" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="358" PSName="u2D4F_u2D7F_u2D38">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="359" UID="2D39" PSName="u2D39">
+        <point type="T">
+            <location x="653" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="360" UID="2D4E" PSName="u2D4E">
+        <point type="T">
+            <location x="670" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="361" PSName="u2D4E_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="362" PSName="u2D4E_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="363" UID="2D5F" PSName="u2D5F">
+        <point type="T">
+            <location x="670" y="1393"/>
+        </point>
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="364" UID="2D3C" PSName="u2D3C">
+        <point type="T">
+            <location x="655" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="365" PSName="u2D4F_u2D7F_u2D3C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="366" PSName="u2D3C_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="367" PSName="u2D3C_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="368" PSName="u2D3C.alt">
+        <point type="T">
+            <location x="569" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="369" PSName="u2D4F_u2D7F_u2D3C.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="370" PSName="u2D3C_u2D7F_u2D5C.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="371" UID="2D62" PSName="u2D62">
+        <point type="T">
+            <location x="536" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="372" UID="2D49" PSName="u2D49">
+        <point type="T">
+            <location x="580" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-12 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="373" PSName="u2D49_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="374" UID="2D34" PSName="u2D34">
+        <point type="T">
+            <location x="518" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="375" PSName="u2D34_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="376" PSName="u2D4F_u2D7F_u2D34">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="377" PSName="u2D34.alt">
+        <point type="T">
+            <location x="538" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="378" PSName="u2D34_u2D7F_u2D5C.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="379" PSName="u2D4F_u2D7F_u2D34.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="380" UID="2D36" PSName="u2D36">
+        <point type="T">
+            <location x="499" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="381" PSName="u2D4F_u2D7F_u2D36">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="382" PSName="u2D36_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="383" UID="2D51" PSName="u2D51">
+        <point type="T">
+            <location x="297" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="384" UID="2D4F" PSName="u2D4F">
+        <point type="T">
+            <location x="297" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+    </glyph>
+    <glyph GID="385" PSName="u2D4F.slant">
+        <point type="T">
+            <location x="325" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-04-30 pkm mod Moved AP from x=211 to 325
+2013-02-26 pkm mod Added T AP.
+2013-02-26 pkm mod Cleaned up points to eliminate audit warnings.
+    </glyph>
+    <glyph GID="386" PSName="u2D4F_u2D7F_u2D3E">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="387" PSName="u2D4F_u2D7F_u2D3E.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="388" PSName="u2D4F_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="389" PSName="u2D4F_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="390" PSName="u2D4F_u2D7F_u2D5C.alt2">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="391" UID="2D4D" PSName="u2D4D">
+        <point type="T">
+            <location x="479" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-04-30 pkm mod Moved AP from x=465 to 479
+2013-02-26 pkm mod Adde T AP.
+    </glyph>
+    <glyph GID="392" PSName="u2D4D.slant">
+        <point type="T">
+            <location x="487" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-04-30 pkm mod Moved AP from x=329 to 487
+    </glyph>
+    <glyph GID="393" PSName="u2D4D_u2D7F_u2D3E">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="394" PSName="u2D4D_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="395" PSName="u2D4D_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="396" UID="2D50" PSName="u2D50">
+        <point type="T">
+            <location x="601" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+    </glyph>
+    <glyph GID="397" PSName="u2D50.alt">
+        <point type="T">
+            <location x="601" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+    </glyph>
+    <glyph GID="398" UID="2D5B" PSName="u2D5B">
+        <point type="T">
+            <location x="601" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="399" PSName="u2D5B_u2D7F_u2D3E">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="400" PSName="u2D4F_u2D7F_u2D5B">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="401" PSName="u2D5B_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="402" UID="2D5C" PSName="u2D5C">
+        <point type="T">
+            <location x="711" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="403" UID="2D53" PSName="u2D53">
+        <point type="T">
+            <location x="345" y="1027"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="404" PSName="u2D53_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="405" PSName="u2D53_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="406" PSName="u2D53.alt">
+        <point type="T">
+            <location x="377" y="984"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-01-29 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="407" PSName="u2D53_u2D7F_u2D5C.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="408" UID="2D4C" PSName="u2D4C">
+        <point type="T">
+            <location x="705" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="409" PSName="u2D4C_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="410" PSName="u2D4C_u2D7F_u2D5C.alt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="411" PSName="u2D4C_u2D7F_u2D5C.alt2">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="412" UID="2D63" PSName="u2D63">
+        <point type="T">
+            <location x="564" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="413" PSName="u2D63_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="414" PSName="u2D63.alt">
+        <point type="T">
+            <location x="564" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="415" PSName="u2D63_u2D7F_u2D5C.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="416" UID="2D4B" PSName="u2D4B">
+        <point type="T">
+            <location x="576" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="417" PSName="u2D4B_u2D7F_u2D5C">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="418" PSName="u2D4B.alt">
+        <point type="T">
+            <location x="564" y="1393"/>
+        </point>
+        <property name="mark" value="130"/>
+        2013-02-26 pkm mod Added T AP.
+    </glyph>
+    <glyph GID="419" PSName="u2D4B_u2D7F_u2D5C.aalt">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="420" UID="2D70" PSName="u2D70">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="421" UID="2D7F" PSName="u2D7F">
+        <property name="mark" value="80"/>
+    </glyph>
+    <glyph GID="422" PSName="u0301.alt">
+        <point type="_T">
+            <location x="675" y="1393"/>
+        </point>
+        <property name="mark" value="80"/>
+        2013-02-05 pkm mod Redesigned for more consistent stroke appearance.
+    </glyph>
+    <glyph GID="423" PSName="u0307.alt">
+        <point type="_T">
+            <location x="722" y="1393"/>
+        </point>
+        <property name="mark" value="80"/>
+        2013-01-29 pkm mod Added _T AP.
+    </glyph>
+    <glyph GID="424" UID="FE00" PSName="uFE00">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="425" UID="FE01" PSName="uFE01">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="426" UID="FE02" PSName="uFE02">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="427" UID="FE03" PSName="uFE03">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="428" UID="FE04" PSName="uFE04">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="429" UID="FE05" PSName="uFE05">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="430" UID="FE06" PSName="uFE06">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="431" UID="FE07" PSName="uFE07">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="432" UID="FE08" PSName="uFE08">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="433" UID="FE09" PSName="uFE09">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="434" UID="FE0A" PSName="uFE0A">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="435" UID="FE0B" PSName="uFE0B">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="436" UID="FE0C" PSName="uFE0C">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="437" UID="FE0D" PSName="uFE0D">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="438" UID="FE0E" PSName="uFE0E">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="439" UID="FE0F" PSName="uFE0F">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="440" UID="FEFF" PSName="uFEFF">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="441" UID="FFFC" PSName="uFFFC">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+    <glyph GID="442" UID="FFFD" PSName="uFFFD">
+        2013-01-22 pkm des Added to Tifinagh font.
+    </glyph>
+</font>

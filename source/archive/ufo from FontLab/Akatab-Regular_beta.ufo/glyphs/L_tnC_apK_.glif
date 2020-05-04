@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapK" format="1">
+  <advance width="1310"/>
+  <unicode hex="004B"/>
+  <outline>
+    <contour>
+      <point x="890" y="1393" type="line"/>
+      <point x="289" y="671" type="line"/>
+      <point x="413" y="711" type="line"/>
+      <point x="513" y="706" type="line"/>
+      <point x="1119" y="1393" type="line"/>
+    </contour>
+    <contour>
+      <point x="341" y="701" type="line"/>
+      <point x="947" y="0" type="line"/>
+      <point x="1181" y="0" type="line"/>
+      <point x="470" y="820" type="line"/>
+    </contour>
+    <contour>
+      <point x="356" y="1393" type="line"/>
+      <point x="160" y="1393" type="line"/>
+      <point x="174" y="1317"/>
+      <point x="174" y="1166"/>
+      <point x="174" y="978" type="curve" smooth="yes"/>
+      <point x="174" y="415" type="line" smooth="yes"/>
+      <point x="174" y="227"/>
+      <point x="174" y="76"/>
+      <point x="160" y="0" type="curve"/>
+      <point x="356" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="0" type="move" name="H"/>
+    </contour>
+    <contour>
+      <point x="695" y="-100" type="move" name="L"/>
+    </contour>
+    <contour>
+      <point x="650" y="1530" type="move" name="U"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LftSglQuotMrk" format="1">
+  <advance width="530"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="422" y="1256" type="line"/>
+      <point x="289" y="1256" type="line"/>
+      <point x="289" y="1352"/>
+      <point x="362" y="1468"/>
+      <point x="417" y="1523" type="curve"/>
+      <point x="322" y="1561" type="line"/>
+      <point x="210" y="1456"/>
+      <point x="155" y="1339"/>
+      <point x="155" y="1222" type="curve" smooth="yes"/>
+      <point x="155" y="1126"/>
+      <point x="217" y="1065"/>
+      <point x="293" y="1065" type="curve" smooth="yes"/>
+      <point x="348" y="1065"/>
+      <point x="410" y="1100"/>
+      <point x="422" y="1160" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
