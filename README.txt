@@ -10,6 +10,11 @@ See the FONTLOG for information on this and previous releases.
 
 TIPS
 ====
+As this font is distributed at no cost, we are unable to provide a commercial 
+level of personal technical support. The font has, however, been through some 
+testing on various platforms to be sure it works in most situations. In 
+particular, it has been tested and shown to work on Windows 10. Graphite 
+capabilities have been tested on Graphite-supported platforms.
 
 Many problems can be solved, or at least explained, through an understanding
 of the encoding and use of the fonts. Here are some basic hints:
@@ -21,22 +26,20 @@ Most Windows applications provide basic Unicode support. You will, however,
 need some way of entering Unicode text into your document.
 
 Keyboarding: 
-If you cannot use the built-in keyboards of the operating system, you will 
-need to install the appropriate keyboard and input method for the characters 
-of the language you wish to use. A Windows keyboard installer and 
-documentation for Tifinagh is found in the keyboards folder. If you want to 
-enter characters that are not supported by any system keyboard, the Keyman 
-program (www.tavultesoft.com) can be helpful on Windows systems. Also available 
-for Windows is MSKLC (http://www.microsoft.com/globaldev/tools/msklc.mspx). For 
-other platforms, KMFL (http://kmfl.sourceforge.net/), 
-XKB (http://www.x.org/wiki/XKB) or Ukelele (http://scripts.sil.org/ukelele) 
-can be helpful.
+This font does not include any keyboarding helps or utilities. You may use the
+built-in keyboards of the operating system. You may also need to install an
+appropriate keyboard and input method for the characters of the language you
+wish to use. If you want to enter characters that are not supported by any
+system keyboard, the Keyman program (www.keyman.com) can be helpful
+on Windows, macOS, and Linux systems. 
 
-If you want to enter characters that are not supported by any system keyboard, 
-and to access the full Unicode range, we suggest you use gucharmap, kcharselect 
-on Ubuntu or similar software. Another method of entering some symbols is 
-provided by a few applications such as Adobe InDesign. They can display a glyph 
-palette that shows all the glyphs (symbols) in a font and allow you to enter 
+If you want to enter characters that are not supported by any system
+keyboard, and to access the full Unicode range, you might try charmap.exe
+on Windows or, on Ubuntu or similar software, gucharmap or kcharselect.
+
+Another method of entering some symbols is provided by a few applications such
+as Adobe InDesign or LibreOffice.org. They can display a glyph palette or input
+dialog that shows all the glyphs (symbols) in a font and allow you to enter
 them by clicking on the glyph you want.
 
 Rendering:
