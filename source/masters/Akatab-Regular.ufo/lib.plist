@@ -30,7 +30,8 @@
   <string>1286</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/TifLtrYo/TifLtrYo.super/TifLtrYa.super/TifLtrYi.super</string>
+    <string>/TifLtrYa/TifLtrYa.alt/TifLtrTuarYak/TifLtrTuarYah/_VerticalOval/TifLtrYar/TifLtrYam/_HorizontalBarMedShort1.5/TifLtrYadd/TifLtrYi/TifLtrYaghh.alt/TifLtrYan/TifLig-zzt.alt2/TifLig-zt.rtl/TifPuncTazarast</string>
+    <string>/TifLigTuar-bt</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -494,9 +495,9 @@
     <string>TifLig-zht.alt</string>
     <string>TifPuncTazarast</string>
     <string>TifConsJoiner</string>
-    <string>TifConsLengthMark</string>
-    <string>TifConsLengthMark.alt</string>
-    <string>TifVowelMark</string>
+    <string>TifShadda</string>
+    <string>TifShadda.alt</string>
+    <string>TifSukun</string>
     <string>TifLtrYa.super</string>
     <string>TifLtrTuarYaw.super</string>
     <string>TifLtrYay.super</string>
@@ -1253,10 +1254,6 @@
     <string>uni2D7F</string>
     <key>TifConsJoiner.rtl</key>
     <string>uni2D7F.rtl</string>
-    <key>TifConsLengthMark</key>
-    <string>uni0303.alt</string>
-    <key>TifConsLengthMark.alt</key>
-    <string>uni0301.alt</string>
     <key>TifLig-bt</key>
     <string>uni2D31_uni2D7F_uni2D5C</string>
     <key>TifLig-bt.alt</key>
@@ -1551,7 +1548,11 @@
     <string>uni2D70</string>
     <key>TifPuncTazarast.rtl</key>
     <string>uni2D70.rtl</string>
-    <key>TifVowelMark</key>
+    <key>TifShadda</key>
+    <string>uni0303.alt</string>
+    <key>TifShadda.alt</key>
+    <string>uni0301.alt</string>
+    <key>TifSukun</key>
     <string>uni0307.alt</string>
     <key>Tilde</key>
     <string>asciitilde</string>

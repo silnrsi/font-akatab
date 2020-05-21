@@ -8,18 +8,34 @@
   <string>E_xclamationM_rk.glif</string>
   <key>FullStop</key>
   <string>F_ullS_top.glif</string>
+  <key>Increment</key>
+  <string>I_ncrement.glif</string>
+  <key>LtnCapAe</key>
+  <string>L_tnC_apA_e.glif</string>
   <key>TifConsLengthMark</key>
   <string>T_ifC_onsL_engthM_ark.glif</string>
+  <key>TifLig-bt</key>
+  <string>T_ifL_ig-bt.glif</string>
+  <key>TifLig-bt.alt</key>
+  <string>T_ifL_ig-bt.alt.glif</string>
   <key>TifLig-ghht.alt.rtl</key>
   <string>T_ifL_ig-ghht.alt.rtl.glif</string>
   <key>TifLig-ghht.rtl</key>
   <string>T_ifL_ig-ghht.rtl.glif</string>
+  <key>TifLig-rt.alt</key>
+  <string>T_ifL_ig-rt.alt.glif</string>
+  <key>TifLig-st.alt</key>
+  <string>T_ifL_ig-st.alt.glif</string>
   <key>TifLig-yt</key>
   <string>T_ifL_ig-yt.glif</string>
   <key>TifLig-yt.rtl</key>
   <string>T_ifL_ig-yt.rtl.glif</string>
+  <key>TifLigTuar-bt</key>
+  <string>T_ifL_igT_uar-bt.glif</string>
   <key>TifLtrTuarYaw.super</key>
   <string>T_ifL_trT_uarY_aw.super.glif</string>
+  <key>TifLtrYab</key>
+  <string>T_ifL_trY_ab.glif</string>
   <key>TifLtrYaghh</key>
   <string>T_ifL_trY_aghh.glif</string>
   <key>TifLtrYaghh.alt.unused</key>

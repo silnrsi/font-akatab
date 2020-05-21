@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>TifConsLengthMark.alt</key>
+  <dict>
+    <key>TifLig-rt</key>
+    <integer>-61</integer>
+  </dict>
   <key>TifLig-nf</key>
   <dict>
     <key>TifLig-nk</key>
@@ -52,12 +57,7 @@
     <key>TifLtrTuarYah</key>
     <integer>-82</integer>
   </dict>
-  <key>TifShadda.alt</key>
-  <dict>
-    <key>TifLig-rt</key>
-    <integer>-61</integer>
-  </dict>
-  <key>TifSukun</key>
+  <key>TifVowelMark</key>
   <dict>
     <key>TifLig-rt</key>
     <integer>-61</integer>
