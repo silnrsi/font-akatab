@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # script to convert UFOs to glyphs file for editing
 DESIGNSPACE=source/akatab.designspace
 OUTPUT=source/masters/Akatab.glyphs

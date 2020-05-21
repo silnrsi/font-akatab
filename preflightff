@@ -15,3 +15,4 @@ psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/
 # psfsyncmasters -q source/Akatab.designspace
 
 echo "-----Preflight completed!"
+
