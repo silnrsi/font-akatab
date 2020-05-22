@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2020/05/21 16:55:04</string>
+  <string>2020/05/22 10:00:49</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -87,7 +87,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Akatab Regular: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.933</string>
+  <string>Version 0.937</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -221,7 +221,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>933</integer>
+  <integer>937</integer>
   <key>xHeight</key>
   <integer>1024</integer>
 </dict>

@@ -5,7 +5,7 @@
 set -e
 
 echo "-----Update version number..."
-#psfsetversion source/masters/Akatab-Regular.ufo "0.933" -l source/logs/setversionR.log
+#psfsetversion source/masters/Akatab-Regular.ufo "0.937" -l source/logs/setversionR.log
 
 echo "-----Updating production names in Regular..."
 psfsetpsnames -q -i source/glyph_data.csv source/masters/Akatab-Regular.ufo -p backup=False

@@ -430,6 +430,7 @@
     <string>TifLig-nd</string>
     <string>TifLtrYadh</string>
     <string>TifLig-ndh</string>
+    <string>TifLtrYadh.alt</string>
     <string>TifLtrYadd</string>
     <string>TifLtrYam</string>
     <string>TifLig-mt</string>
@@ -496,9 +497,9 @@
     <string>TifLig-zht.alt</string>
     <string>TifPuncTazarast</string>
     <string>TifConsJoiner</string>
-    <string>TifShadda</string>
-    <string>TifShadda.alt</string>
-    <string>TifSukun</string>
+    <string>TifConsLengthMark</string>
+    <string>TifConsLengthMark.alt</string>
+    <string>TifVowelMark</string>
     <string>TifLtrYa.super</string>
     <string>TifLtrTuarYaw.super</string>
     <string>TifLtrYay.super</string>
@@ -572,7 +573,7 @@
     <string>TifLig-zht.alt.rtl</string>
     <string>TifLig-ghht.rtl</string>
     <string>TifLig-ghht.alt.rtl</string>
-    <string>TifLtrYaghh.unused</string>
+    <string>TifLtrYaghh.alt.unused</string>
     <string>TifLtrYadh.unused</string>
     <string>TifLtrTuarYak.orig</string>
     <string>TifLtrTuarYak.unused.001</string>
@@ -1255,6 +1256,10 @@
     <string>uni2D7F</string>
     <key>TifConsJoiner.rtl</key>
     <string>uni2D7F.rtl</string>
+    <key>TifConsLengthMark</key>
+    <string>uni0303.alt</string>
+    <key>TifConsLengthMark.alt</key>
+    <string>uni0301.alt</string>
     <key>TifLig-bt</key>
     <string>uni2D31_uni2D7F_uni2D5C</string>
     <key>TifLig-bt.alt</key>
@@ -1467,6 +1472,8 @@
     <string>uni2D39.rtl</string>
     <key>TifLtrYadh</key>
     <string>uni2D38</string>
+    <key>TifLtrYadh.alt</key>
+    <string>uni2D38.alt</string>
     <key>TifLtrYadh.unused</key>
     <string>uni2D38.unused</string>
     <key>TifLtrYaf</key>
@@ -1477,8 +1484,8 @@
     <string>uni2D34</string>
     <key>TifLtrYaghh.alt</key>
     <string>uni2D34.alt</string>
-    <key>TifLtrYaghh.unused</key>
-    <string>uni2D34.unused</string>
+    <key>TifLtrYaghh.alt.unused</key>
+    <string>uni2D34.alt.unused</string>
     <key>TifLtrYaj</key>
     <string>uni2D36</string>
     <key>TifLtrYal</key>
@@ -1549,11 +1556,7 @@
     <string>uni2D70</string>
     <key>TifPuncTazarast.rtl</key>
     <string>uni2D70.rtl</string>
-    <key>TifShadda</key>
-    <string>uni0303.alt</string>
-    <key>TifShadda.alt</key>
-    <string>uni0301.alt</string>
-    <key>TifSukun</key>
+    <key>TifVowelMark</key>
     <string>uni0307.alt</string>
     <key>Tilde</key>
     <string>asciitilde</string>

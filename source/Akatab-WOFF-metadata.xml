@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Akatab.0.933" />
+  <uniqueid id="org.sil.fonts.Akatab.0.937" />
   <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
       name="SIL font designers and engineers"
-      url="http://scripts.sil.org/"
+      url="http://scripts.sil.org/support"
       role="Graphite, OpenType, and TypeTuner code, and build support"
     />
   </credits>
@@ -17,12 +17,6 @@
       are handled by the font, provided you are running an application that provides
       an adequate level of support for one of these smart font technologies.
       
-      
-      A Note Regarding the Open Font License
-      ----------------------------------------------------
-      
-      The OFL prohibits the use of Reserved Font Names "Akatab" in the name of
-      any font that is derived from the Original Version of Akatab.
       
       
       ChangeLog
@@ -43,10 +37,9 @@
       Information
       -----------------
       
-      The release of Akatab Beta version 0.9.0.0 (Version 0.900) (and any subsequent
-      versions) under the OFL license provides a means for people to make their own
-      modified version of Akatab (using a different name),  For information on what
-      you're allowed to change or modify, consult the OFL and OFL-FAQ.
+      The release of Akatab under the OFL license provides a means for people to make their own
+      modified version of Akatab (using a different name). For information on what
+      you're allowed to change or modify, consult the OFL.txt and OFL-FAQ.txt files.
     </text>
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
