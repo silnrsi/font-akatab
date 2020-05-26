@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="TifLtrYatt.rtl" format="2">
   <advance width="1258"/>
-  <anchor x="588" y="0" name="T"/>
+  <anchor x="587" y="1393" name="T"/>
   <outline>
     <contour>
       <point x="590" y="721"/>
