@@ -74,8 +74,7 @@ $RECYCLE.BIN/
 # Proprietary formats to keep out of git
 *.fog
 *.vfc
-# Allow Glyphs sources until we are building from UFOs
-# *.glyphs
+*.glyphs
 
 # generated releases
 *.zip
