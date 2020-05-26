@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Akatab.0.937" />
+  <uniqueid id="org.sil.fonts.Akatab.1.000" />
   <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
@@ -11,17 +11,24 @@
   </credits>
   <description>
     <text lang="en">
-      Akatab is a TrueType font with smart font capabilities added using
-      state-of-the-art font technologies. This means that complex typographic
-      issues such as the placement of combining marks or the formation of ligatures
-      are handled by the font, provided you are running an application that provides
-      an adequate level of support for one of these smart font technologies.
+      Akatab is a TrueType font for the Tifinagh script with smart font capabilities
+      added using state-of-the-art font technologies. This means that complex
+      typographic issues such as the placement of combining marks or the formation
+      of ligatures are handled by the font, provided you are running an application
+      that provides an adequate level of support for one of these smart font
+      technologies.
       
       
       
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      
+      26 May 2020 (SIL WSTech team) Akatab version 1.000 (production release)
+      - Added TifLtrYo (U+2D67) and superscript vowel TifLtrYo.super (U+E304)
+      - Added a tilde-like character for use as a consonant length mark
+      - Fixed misoriented contours on some glyphs
+      - Other enhancements and bug fixes
       
       20 December 2019  Akatab Beta2 version 0.910
       - Added right to left glyphs
