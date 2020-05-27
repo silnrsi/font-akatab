@@ -4,11 +4,9 @@
 
 # set the default input/output folders
 DOCDIR = ["documentation", "web"]
-STANDARDS = 'tests/reference'
 
 # set package name
 APPNAME = "Akatab"
-#BUILDLABEL = "Beta"
 
 # retrieve all the authorship and other information from one of the master UFOs
 getufoinfo('source/masters/Akatab-Regular.ufo')

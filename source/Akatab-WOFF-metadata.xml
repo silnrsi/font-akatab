@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Akatab.1.000" />
+  <uniqueid id="org.sil.fonts.Akatab.1.001" />
   <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
@@ -24,7 +24,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      26 May 2020 (SIL WSTech team) Akatab version 1.000 (production release)
+      27 May 2020 (SIL WSTech team) Akatab version 1.000 (production release)
       - Added TifLtrYo (U+2D67) and superscript vowel TifLtrYo.super (U+E304)
       - Added a tilde-like character for use as a consonant length mark
       - Fixed misoriented contours on some glyphs
