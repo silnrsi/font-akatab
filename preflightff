@@ -2,17 +2,17 @@
 
 echo "-----Fixing FontForge debris and normalizing UFOs..."
 psffixffglifs source/masters/Akatab-Regular.ufo -p checkfix=fix     &
-# psffixffglifs source/Akatab-Bold.ufo -p checkfix=fix        &
+psffixffglifs source/Akatab-Black.ufo -p checkfix=fix        &
 wait
 
 echo "-----Updating production names in Regular..."
 psfsetpsnames -q -i source/glyph_data.csv source/masters/Akatab-Regular.ufo -p backup=False -x
 
 echo "-----Updating glyph orders in Regular..."
-psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/Akatab.ufo -p backup=False -x
+psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/Akatab-Regular.ufo -p backup=False -x
 
-# echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-# psfsyncmasters -q source/Akatab.designspace
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters -q source/akatab.designspace
 
 echo "-----Preflight completed!"
 

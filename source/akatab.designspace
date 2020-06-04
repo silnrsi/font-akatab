@@ -27,6 +27,15 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
+/*
+        <source familyname="Akatab" filename="masters/Akatab-Black.ufo" name="Akatab-Black" stylename="Black">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </source>
+*/
     </sources>
     <instances>
         <instance       familyname="Akatab" 
@@ -44,5 +53,37 @@
             <info />
             <kerning />
         </instance>
+/*
+        <instance       familyname="Akatab"
+                              name="Akatab Bold"
+                stylemapfamilyname="Akatab"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="Akatab-Bold"
+                filename="instances/Akatab-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+        <instance       familyname="Akatab Black"
+                              name="Akatab Black Regular"
+                stylemapfamilyname="Akatab Black"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="AkatabBlack-Regular"
+                filename="instances/AkatabBlack-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+*/
     </instances>
 </designspace>

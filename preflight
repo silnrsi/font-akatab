@@ -5,7 +5,7 @@
 set -e
 
 echo "-----Update version number..."
-psfsetversion source/masters/Akatab-Regular.ufo "1.001" -l source/logs/setversionR.log
+#psfsetversion source/masters/Akatab-Regular.ufo "1.001" -l source/logs/setversionR.log
 
 echo "-----Updating production names in Regular..."
 psfsetpsnames -q -i source/glyph_data.csv source/masters/Akatab-Regular.ufo -p backup=False
@@ -13,8 +13,14 @@ psfsetpsnames -q -i source/glyph_data.csv source/masters/Akatab-Regular.ufo -p b
 echo "-----Updating glyph orders in Regular..."
 psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/Akatab-Regular.ufo -p backup=False
 
-echo "-----Normalising UFO..."
-psfnormalize -p checkfix=fix source/masters/Akatab-Regular.ufo -l source/masters/logs/normR.log
+echo "-----Check and normalize Regular..."
+psfnormalize -p checkfix=fix source/masters/Akatab-Regular.ufo -l source/masters/logs/normReg.log
+
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters source/*.designspace -l source/logs/sync.log
+
+echo "-----Check and normalize Black..."
+psfnormalize -p checkfix=fix source/masters/Akatab-Black.ufo -l source/logs/normBlack.log
 
 echo "-----Updating woff metadata file..."
 psfmakewoffmetadata -n Akatab -i org.sil.fonts -o source/Akatab-WOFF-metadata.xml source/masters/Akatab-Regular.ufo -l source/masters/logs/makewoff.log
