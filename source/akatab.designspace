@@ -27,7 +27,6 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-/*
         <source familyname="Akatab" filename="masters/Akatab-Black.ufo" name="Akatab-Black" stylename="Black">
             <location>
                 <dimension name="weight" xvalue="800" />
@@ -35,7 +34,6 @@
                 <dimension name="custom" xvalue="0" />
             </location>
         </source>
-*/
     </sources>
     <instances>
         <instance       familyname="Akatab" 
