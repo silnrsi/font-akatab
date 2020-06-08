@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="CombCircum" format="2">
+  <unicode hex="0302"/>
+  <anchor x="-570" y="1635" name="U"/>
+  <anchor x="-570" y="1100" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-995" y="1170" type="line"/>
+      <point x="-852" y="1170" type="line"/>
+      <point x="-590" y="1437" type="line"/>
+      <point x="-327" y="1170" type="line"/>
+      <point x="-184" y="1170" type="line"/>
+      <point x="-508" y="1580" type="line"/>
+      <point x="-671" y="1580" type="line"/>
+    </contour>
+  </outline>
+</glyph>

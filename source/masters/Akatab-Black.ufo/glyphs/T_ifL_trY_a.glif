@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="TifLtrYa" format="2">
+  <advance width="756"/>
+  <unicode hex="2D30"/>
+  <outline>
+    <contour>
+      <point x="220" y="785"/>
+      <point x="220" y="697" type="curve" smooth="yes"/>
+      <point x="220" y="609"/>
+      <point x="290" y="539"/>
+      <point x="378" y="539" type="curve" smooth="yes"/>
+      <point x="466" y="539"/>
+      <point x="536" y="609"/>
+      <point x="536" y="697" type="curve" smooth="yes"/>
+      <point x="536" y="785"/>
+      <point x="466" y="855"/>
+      <point x="378" y="855" type="curve" smooth="yes"/>
+      <point x="290" y="855"/>
+    </contour>
+  </outline>
+</glyph>

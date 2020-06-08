@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="TifLtrTuarYaw" format="2">
+  <advance width="686"/>
+  <unicode hex="2D53"/>
+  <anchor x="345" y="1027" name="T"/>
+  <outline>
+    <component base="_Dot" xOffset="-320" yOffset="195"/>
+    <component base="_Dot" xOffset="-320" yOffset="-217"/>
+  </outline>
+</glyph>

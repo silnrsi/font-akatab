@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="TifLtrYan" format="2">
+  <advance width="585"/>
+  <unicode hex="2D4F"/>
+  <anchor x="297" y="1393" name="T"/>
+  <outline>
+    <component base="_VerticalBar" xOffset="-450"/>
+  </outline>
+</glyph>

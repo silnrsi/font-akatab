@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="RtPtngDblAngQuotMrk" format="2">
+  <advance width="1300"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="582" y="0" type="line"/>
+      <point x="756" y="0" type="line"/>
+      <point x="1174" y="488" type="line"/>
+      <point x="759" y="973" type="line"/>
+      <point x="582" y="973" type="line"/>
+      <point x="955" y="488" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="0" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="706" y="488" type="line"/>
+      <point x="291" y="973" type="line"/>
+      <point x="115" y="973" type="line"/>
+      <point x="487" y="488" type="line"/>
+    </contour>
+  </outline>
+</glyph>

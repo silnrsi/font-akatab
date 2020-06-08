@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="TifLtrYat" format="2">
+  <advance width="1413"/>
+  <unicode hex="2D5C"/>
+  <anchor x="711" y="1393" name="T"/>
+  <outline>
+    <component base="_VerticalBar" xOffset="-36"/>
+    <component base="_HorizontalBar" xOffset="-36"/>
+  </outline>
+</glyph>

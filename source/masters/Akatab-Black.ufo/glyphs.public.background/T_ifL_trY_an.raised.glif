@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="TifLtrYan.raised" format="2">
+  <outline>
+    <component base="_VerticalBar" xOffset="-449"/>
+  </outline>
+</glyph>

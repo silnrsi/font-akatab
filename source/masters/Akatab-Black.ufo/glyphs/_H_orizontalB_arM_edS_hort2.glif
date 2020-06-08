@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_HorizontalBarMedShort2" format="2">
+  <advance width="1470"/>
+  <outline>
+    <contour>
+      <point x="627" y="0" type="curve" smooth="yes"/>
+      <point x="657" y="0"/>
+      <point x="673" y="27"/>
+      <point x="673" y="63" type="curve" smooth="yes"/>
+      <point x="673" y="117"/>
+      <point x="632" y="140"/>
+      <point x="584" y="144" type="curve" smooth="yes"/>
+      <point x="506" y="151"/>
+      <point x="445" y="151"/>
+      <point x="333" y="151" type="curve" smooth="yes"/>
+      <point x="320" y="151" type="line" smooth="yes"/>
+      <point x="156" y="151"/>
+      <point x="167" y="152"/>
+      <point x="128" y="152" type="curve" smooth="yes"/>
+      <point x="80" y="152"/>
+      <point x="79" y="162"/>
+      <point x="46" y="162" type="curve" smooth="yes"/>
+      <point x="16" y="162"/>
+      <point x="0" y="135"/>
+      <point x="0" y="99" type="curve" smooth="yes"/>
+      <point x="0" y="45"/>
+      <point x="41" y="22"/>
+      <point x="89" y="18" type="curve" smooth="yes"/>
+      <point x="167" y="11"/>
+      <point x="208" y="11"/>
+      <point x="320" y="11" type="curve" smooth="yes"/>
+      <point x="333" y="11" type="line" smooth="yes"/>
+      <point x="497" y="11"/>
+      <point x="506" y="10"/>
+      <point x="545" y="10" type="curve" smooth="yes"/>
+      <point x="593" y="10"/>
+      <point x="594" y="0"/>
+    </contour>
+  </outline>
+</glyph>
