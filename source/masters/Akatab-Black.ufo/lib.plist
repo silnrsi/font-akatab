@@ -32,9 +32,10 @@
     <string>Black</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
-      <string>/TifLtrYa/TifLtrYa.alt/_Dot/TifLtrTuarYak/TifLtrTuarYah/_VerticalOval/TifLtrYar/TifLtrYam/_HorizontalBarMedShort1.5/TifLtrYadd/TifLtrYi/TifLtrYaghh.alt/_VerticalBar/TifLtrYan/_HorizontalBar/_Plus/TifLig-zzt.alt2/TifLig-zt.rtl/TifPuncTazarast</string>
-      <string>/TifLtrYash/TifLtrYash.rtl/TifLtrTuarYak.rtl/TifLtrYadd.rtl/TifLtrYam.rtl/TifLtrYam/TifLtrYatt.rtl</string>
+      <string>/TifLtrYa/TifLtrYa.alt/_Dot/TifLtrTuarYak/TifLtrTuarYah/_VerticalOval/TifLtrYar/TifLtrYam/_HorizontalBarMedShort1.5/TifLtrYadd/TifLtrYi/TifLtrYaghh.alt/TifLtrYan/_VerticalBar/_HorizontalBar/_Plus/TifLig-zzt.alt2/TifLig-zt.rtl/TifPuncTazarast</string>
       <string>/_Plus/_PlusLong/_PlusVeryLong/_PlusHorizontal/_PlusVertical/_PlusMedium/_PlusMediumHorizontal/_PlusMediumExtended/_PlusSmall</string>
+      <string>/_VerticalBar/_VerticalBarJoining/_VerticalBarShortTop/_VerticalBarShortForTopDots/_VerticalBarShort/_VerticalBarMedLong/_VerticalBarMedium/_VerticalBarSmall</string>
+      <string>/TifLtrYaz/TifLig-zt/TifLtrYazh/TifLig-zht/_VerticalBar/_VerticalBar/TifLig-zt.rtl/TifLig-zht.rtl</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
