@@ -26,6 +26,8 @@
   <string>T_ifL_ig-rt.alt.glif</string>
   <key>TifLig-st.alt</key>
   <string>T_ifL_ig-st.alt.glif</string>
+  <key>TifLig-st.alt.rtl</key>
+  <string>T_ifL_ig-st.alt.rtl.glif</string>
   <key>TifLig-yt</key>
   <string>T_ifL_ig-yt.glif</string>
   <key>TifLig-yt.rtl</key>
@@ -60,5 +62,7 @@
   <string>T_ifL_trY_i.super.rtl.glif</string>
   <key>TifPuncTazarast</key>
   <string>T_ifP_uncT_azarast.glif</string>
+  <key>_VerticalBarMedLong</key>
+  <string>_V_erticalB_arM_edL_ong.glif</string>
 </dict>
 </plist>

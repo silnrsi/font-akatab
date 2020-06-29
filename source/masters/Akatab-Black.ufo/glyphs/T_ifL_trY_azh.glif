@@ -5,32 +5,6 @@
   <anchor x="576" y="1393" name="T"/>
   <outline>
     <contour>
-      <point x="262" y="65" type="curve" smooth="yes"/>
-      <point x="276" y="117"/>
-      <point x="370" y="355"/>
-      <point x="545" y="355" type="curve" smooth="yes"/>
-      <point x="707" y="355"/>
-      <point x="828" y="200"/>
-      <point x="828" y="37" type="curve" smooth="yes"/>
-      <point x="828" y="22"/>
-      <point x="840" y="0"/>
-      <point x="885" y="0" type="curve" smooth="yes"/>
-      <point x="961" y="0"/>
-      <point x="998" y="61"/>
-      <point x="998" y="100" type="curve" smooth="yes"/>
-      <point x="998" y="319"/>
-      <point x="821" y="493"/>
-      <point x="611" y="493" type="curve" smooth="yes"/>
-      <point x="277" y="493"/>
-      <point x="100" y="124"/>
-      <point x="100" y="47" type="curve" smooth="yes"/>
-      <point x="100" y="25"/>
-      <point x="113" y="0"/>
-      <point x="168" y="0" type="curve" smooth="yes"/>
-      <point x="196" y="0"/>
-      <point x="251" y="23"/>
-    </contour>
-    <contour>
       <point x="576" y="1118" type="curve" smooth="yes"/>
       <point x="474" y="1118"/>
       <point x="373" y="1233"/>
@@ -55,6 +29,32 @@
       <point x="766" y="1283" type="curve" smooth="yes"/>
       <point x="743" y="1197"/>
       <point x="681" y="1118"/>
+    </contour>
+    <contour>
+      <point x="568" y="275" type="curve" smooth="yes"/>
+      <point x="670" y="275"/>
+      <point x="771" y="160"/>
+      <point x="771" y="67" type="curve" smooth="yes"/>
+      <point x="771" y="22"/>
+      <point x="813" y="0"/>
+      <point x="858" y="0" type="curve" smooth="yes"/>
+      <point x="984" y="0"/>
+      <point x="1061" y="71"/>
+      <point x="1061" y="150" type="curve" smooth="yes"/>
+      <point x="1061" y="349"/>
+      <point x="894" y="533"/>
+      <point x="634" y="533" type="curve" smooth="yes"/>
+      <point x="270" y="533"/>
+      <point x="83" y="154"/>
+      <point x="83" y="77" type="curve" smooth="yes"/>
+      <point x="83" y="25"/>
+      <point x="116" y="0"/>
+      <point x="191" y="0" type="curve" smooth="yes"/>
+      <point x="269" y="0"/>
+      <point x="359" y="42"/>
+      <point x="378" y="110" type="curve" smooth="yes"/>
+      <point x="402" y="196"/>
+      <point x="463" y="275"/>
     </contour>
     <component base="_VerticalBarMedium" xOffset="472" yOffset="359"/>
   </outline>
