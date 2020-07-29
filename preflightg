@@ -8,7 +8,4 @@ echo
 echo "Converting Glyphs to UFO3..."
 psfglyphs2ufo source/masters/Akatab.glyphs source/masters
 
-echo
-echo "Normalising UFO..."
-psfnormalize -p checkfix=fix source/masters/Akatab-Regular.ufo
-
+./preflight
