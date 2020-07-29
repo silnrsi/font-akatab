@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="1391"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="56" y="610" type="line"/>
+      <point x="787" y="610" type="line"/>
+      <point x="787" y="812" type="line"/>
+      <point x="219" y="812" type="line"/>
+      <point x="56" y="802" type="line"/>
+    </contour>
+    <component base="D" xOffset="52"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u" format="2">
+  <advance width="1196"/>
+  <unicode hex="0075"/>
+  <anchor x="599" y="1093" name="aboveLC"/>
+  <anchor x="531" y="0" name="baseLC"/>
+  <anchor x="586" y="-46" name="belowLC"/>
+  <anchor x="907" y="1068" name="hornLC"/>
+  <anchor x="867" y="0" name="ogonekLC"/>
+  <outline>
+    <contour>
+      <point x="451" y="-25" type="curve" smooth="yes"/>
+      <point x="595" y="-25"/>
+      <point x="694" y="42"/>
+      <point x="781" y="145" type="curve"/>
+      <point x="789" y="145" type="line"/>
+      <point x="810" y="0" type="line"/>
+      <point x="1059" y="0" type="line"/>
+      <point x="1059" y="1047" type="line"/>
+      <point x="755" y="1047" type="line"/>
+      <point x="755" y="352" type="line"/>
+      <point x="692" y="268"/>
+      <point x="643" y="234"/>
+      <point x="565" y="234" type="curve" smooth="yes"/>
+      <point x="472" y="234"/>
+      <point x="432" y="282"/>
+      <point x="432" y="434" type="curve" smooth="yes"/>
+      <point x="432" y="1047" type="line"/>
+      <point x="128" y="1047" type="line"/>
+      <point x="128" y="396" type="line" smooth="yes"/>
+      <point x="128" y="135"/>
+      <point x="225" y="-25"/>
+    </contour>
+  </outline>
+</glyph>

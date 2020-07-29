@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.dnom" format="2">
+  <advance width="774"/>
+  <outline>
+    <contour>
+      <point x="111" y="0" type="line"/>
+      <point x="673" y="0" type="line"/>
+      <point x="673" y="109" type="line"/>
+      <point x="316" y="109" type="line"/>
+      <point x="498" y="293"/>
+      <point x="629" y="422"/>
+      <point x="629" y="582" type="curve" smooth="yes"/>
+      <point x="629" y="757"/>
+      <point x="521" y="848"/>
+      <point x="358" y="848" type="curve" smooth="yes"/>
+      <point x="246" y="848"/>
+      <point x="147" y="781"/>
+      <point x="86" y="690" type="curve"/>
+      <point x="162" y="620" type="line"/>
+      <point x="208" y="688"/>
+      <point x="270" y="740"/>
+      <point x="341" y="740" type="curve" smooth="yes"/>
+      <point x="441" y="740"/>
+      <point x="504" y="673"/>
+      <point x="504" y="563" type="curve" smooth="yes"/>
+      <point x="504" y="439"/>
+      <point x="371" y="308"/>
+      <point x="111" y="73" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
