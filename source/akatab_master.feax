@@ -4,21 +4,21 @@
 #  Glyphs
 #**********************************
 
-@GDEF_bases = [ LtnCapA LtnCapAe LtnCapAAcute LtnCapABreve LtnCapACircum LtnCapADiaer LtnCapAGrave LtnCapARingAbv LtnCapATilde LtnCapB LtnCapC LtnCapCCedilla LtnCapD LtnCapE LtnCapEAcute LtnCapEBreve LtnCapECircum LtnCapEDiaer		
-    LtnCapEGrave LtnCapEng.UCStyle LtnCapEth LtnCapF LtnCapG LtnCapH LtnCapI LtnCapIAcute LtnCapIBreve LtnCapICircum LtnCapIDiaer LtnCapIGrave LtnCapJ LtnCapK LtnCapL LtnCapM LtnCapN LtnCapNTilde LtnCapO LtnCapLigOe LtnCapOAcute LtnCapOBreve LtnCapOCircum		
-    LtnCapODiaer LtnCapOGrave LtnCapOStrk LtnCapOTilde LtnCapP LtnCapQ LtnCapR LtnCapS LtnCapSCaron LtnCapT LtnCapThorn LtnCapU LtnCapUAcute LtnCapUBreve LtnCapUCircum LtnCapUDiaer LtnCapUGrave LtnCapV LtnCapW LtnCapX LtnCapY LtnCapYAcute LtnCapYDiaer LtnCapZ		
-    LtnCapZCaron LtnSmA LtnSmAAcute LtnSmABreve LtnSmACircum AcuteAccent LtnSmADiaer LtnSmAe LtnSmAGrave LtnSmARingAbv CircumAccent LtnSmATilde LtnSmB Breve LtnSmC Caron LtnSmCCedilla Cedilla LtnSmD		
-    Diaer LtnSmDotlessI LtnSmE LtnSmEAcute LtnSmEBreve LtnSmECircum LtnSmEDiaer LtnSmEGrave DigitEight LtnSmEng LtnSmEth LtnSmF DigitFive LtnSmFHook DigitFour LtnSmG LtnSmSharpS GraveAccent LtnSmH HyphenMinus LtnSmI		
-    LtnSmIAcute LtnSmIBreve LtnSmICircum LtnSmIDiaer LtnSmIGrave LtnSmJ LtnSmK LtnSmL LtnSmM LtnSmN DigitNine LtnSmNTilde LtnSmO LtnSmOAcute LtnSmOBreve LtnSmOCircum LtnSmODiaer LtnSmLigOe Ogonek LtnSmOGrave DigitOne		
-    SupOne LtnSmOStrk LtnSmOTilde LtnSmP GrSmPi LtnSmQ LtnSmR LtnSmS LtnSmSCaron DigitSeven DigitSix NArySummation LtnSmT LtnSmThorn DigitThree SupThree DigitTwo SupTwo LtnSmU NoBreakSpace Hyphen_Soft LtnCapRevE		
-    LtnCapGamma LtnSmTurnedE LtnSmGamma ModTriangularColon LtnCapBDotBlw LtnSmBDotBlw LtnCapDDotBlw LtnSmDDotBlw LtnCapHDotBlw LtnSmHDotBlw LtnCapKDotBlw LtnSmKDotBlw LtnCapLDotBlw LtnSmLDotBlw LtnCapMDotBlw LtnSmMDotBlw LtnCapNDotBlw LtnSmNDotBlw LtnCapRDotBlw LtnSmRDotBlw LtnCapSDotBlw		
-    LtnSmSDotBlw LtnCapTDotBlw LtnSmTDotBlw LtnCapWDotBlw LtnSmWDotBlw LtnCapZDotBlw LtnSmZDotBlw LtnCapYDotBlw LtnSmYDotBlw EnQuad EmQuad EnSpace EmSpace ThreePerEmSpace FourPerEmSpace SixPerEmSpace FigureSpace PuncSpace ThinSpace HairSpace Hyphen		
-    NonBreakingHyphen NarrowNoBreakSpace DottedCirc TifLtrYab TifLtrYaghh TifLtrYaghh.alt TifLtrYaj TifLtrYad TifLtrYadh TifLtrYadd TifLtrYaf TifLtrYaf.alt TifLtrTuarYak TifLtrTuarYab TifLtrTuarYah TifLtrTuarYakh TifLtrTuarYaq TifLtrYi TifLtrYazh		
-    TifLtrYazh.alt TifLtrTuarYazh TifLtrYal TifLtrYal.slant TifLtrYam TifLtrYan TifLtrYan.slant TifLtrTuarYagn TifLtrTuarYagn.alt TifLtrTuarYang TifLtrTuarYaw TifLtrTuarYaw.alt TifLtrYar TifLtrTuarYagh TifLtrYas TifLtrYash TifLtrYat		
-    TifLtrYatt TifLtrYay TifLtrYaz TifLtrYaz.alt LtnSmUAcute LtnSmUBreve LtnSmUCircum LtnSmUDiaer LtnSmUGrave LtnSmV LtnSmW LtnSmX LtnSmY LtnSmYAcute LtnSmYDiaer LtnSmZ LtnSmZCaron DigitZero ] ;	
+@GDEF_bases = [ A Ae AAcute Abreve ACircum Adieresis AGrave Aring Aasciitilde B C Ccedilla D E EAcute Ebreve ECircum Edieresis		
+    EGrave Eng.UCStyle Eth F G H I IAcute Ibreve ICircum Idieresis IGrave J K L M N Nasciitilde O LigOe OAcute Obreve OCircum		
+    Odieresis OGrave OStrk Oasciitilde P Q R S Scaron T Thorn U UAcute Ubreve UCircum Udieresis UGrave V W X Y YAcute Ydieresis Z		
+    Zcaron a aAcute abreve aCircum acute adieresis ae aGrave aring asciicircum aasciitilde b breve c caron ccedilla cedilla d		
+    dieresis dotlessI e eAcute ebreve eCircum edieresis eGrave eight eng eth f five fHook four g sharpS grave h hyphen i		
+    iAcute ibreve iCircum idieresis iGrave j k l m n nine nasciitilde o oAcute obreve oCircum odieresis ligOe ogonek oGrave one		
+    onesuperior oStrk oasciitilde p pi q r s scaron seven six summation t thorn three threesuperior two twosuperior u nbspace softhyphen RevE		
+    Gamma turnedE gamma ModTriangularcolon BDotBlw bDotBlw DDotBlw dDotBlw HDotBlw hDotBlw KDotBlw kDotBlw LDotBlw lDotBlw MDotBlw mDotBlw NDotBlw nDotBlw RDotBlw rDotBlw SDotBlw		
+    sDotBlw TDotBlw tDotBlw WDotBlw wDotBlw ZDotBlw zDotBlw YDotBlw yDotBlw uni2000 uni2001 uni2002 uni2003 ThreePeruni2003 FourPeruni2003 SixPeruni2003 uni2007 uni2008 uni2009 uni200A hyphentwo		
+    NonBreakinghyphentwo Narrownbspace dottedcircle ya-tifib ya-tifighh ya-tifighh.alt ya-tifij ya-tifid ya-tifidh ya-tifidd ya-tifif ya-tifif.alt yakTuareg-tifi yah-tifi yahTuareg-tifi yakTuareg-tifih yaqTuareg-tifi yi-tifi ya-tifizh		
+    ya-tifizh.alt yazhTuareg-tifi ya-tifil ya-tifil.slant ya-tifim ya-tifin ya-tifin.slant yagnTuareg-tifi yagnTuareg-tifi.alt yangTuareg-tifi yu-tifi yu-tifi.alt ya-tifir yaghTuareg-tifi ya-tifis ya-tifish ya-tifit		
+    ya-tifitt ya-tifiy ya-tifiz ya-tifiz.alt uAcute ubreve uCircum udieresis uGrave v w x y yAcute ydieresis z zcaron zero ] ;	
 
-@GDEF_marks = [ CombAcute CombDotBlw CombGrave tildenosp TifConsLengthMark CombCircum CombMacron CombOverline CombBreve CombDotAbv TifVowelMark CombDiaer CombRingAbv haceknosp		
-    CombCedilla CombGraphemeJoiner ] ;	
+@GDEF_marks = [ acutecomb dotbelowcmb gravecomb tildecomb TifConsLengthMark circumflexcmb Combmacron overlinecmb Combbreve Combdotaccent TifVowelMark Combdieresis Combring caroncmb		
+    Combcedilla uni034F ] ;	
 
 table GDEF {
 GlyphClassDef
@@ -32,27 +32,27 @@ GlyphClassDef
 #**********************************
 #  Mark Classes
 #**********************************
-    markClass CombAcute <anchor 675 1393> @MARK_T ;
-    markClass CombAcute <anchor -570 1100> @MARK_U ;
-    markClass CombDotBlw <anchor -575 -100> @MARK_L ;
-    markClass CombGrave <anchor -550 1100> @MARK_U ;
-    markClass tildenosp <anchor -575 1100> @MARK_U ;
+    markClass acutecomb <anchor 675 1393> @MARK_T ;
+    markClass acutecomb <anchor -570 1100> @MARK_U ;
+    markClass dotbelowcmb <anchor -575 -100> @MARK_L ;
+    markClass gravecomb <anchor -550 1100> @MARK_U ;
+    markClass tildecomb <anchor -575 1100> @MARK_U ;
     markClass TifConsLengthMark <anchor 675 1393> @MARK_T ;
     markClass TifConsLengthMark <anchor -570 1100> @MARK_U ;
-    markClass CombCircum <anchor -570 1100> @MARK_U ;
-    markClass CombMacron <anchor -570 1100> @MARK_U ;
-    markClass CombOverline <anchor -570 1100> @MARK_U ;
-    markClass CombBreve <anchor -570 1100> @MARK_U ;
-    markClass CombDotAbv <anchor 722 1393> @MARK_T ;
-    markClass CombDotAbv <anchor -570 1100> @MARK_U ;
+    markClass circumflexcmb <anchor -570 1100> @MARK_U ;
+    markClass Combmacron <anchor -570 1100> @MARK_U ;
+    markClass overlinecmb <anchor -570 1100> @MARK_U ;
+    markClass Combbreve <anchor -570 1100> @MARK_U ;
+    markClass Combdotaccent <anchor 722 1393> @MARK_T ;
+    markClass Combdotaccent <anchor -570 1100> @MARK_U ;
     markClass TifVowelMark <anchor 722 1393> @MARK_T ;
     markClass TifVowelMark <anchor -570 1100> @MARK_U ;
-    markClass CombDiaer <anchor -570 1100> @MARK_U ;
-    markClass CombRingAbv <anchor -572 1100> @MARK_U ;
-    markClass haceknosp <anchor -570 1100> @MARK_U ;
-    markClass CombCedilla <anchor -430 0> @MARK_H ;
-    markClass CombGraphemeJoiner <anchor 0 0> @MARK_L ;
-    markClass CombGraphemeJoiner <anchor 0 0> @MARK_U ;
+    markClass Combdieresis <anchor -570 1100> @MARK_U ;
+    markClass Combring <anchor -572 1100> @MARK_U ;
+    markClass caroncmb <anchor -570 1100> @MARK_U ;
+    markClass Combcedilla <anchor -430 0> @MARK_H ;
+    markClass uni034F <anchor 0 0> @MARK_L ;
+    markClass uni034F <anchor 0 0> @MARK_U ;
 
 
 #**********************************
@@ -70,97 +70,97 @@ languagesystem tfng dflt ;
 
 lookup TfnCharacterVariant01 {
   lookupflag 0 ;
-    sub TifLtrYa by TifLtrYa.alt ;
+    sub ya-tifi by ya-tifi.alt ;
 } TfnCharacterVariant01;
 
 lookup TfnCharacterVariant02 {
   lookupflag 0 ;
-    sub TifLtrYaf by TifLtrYaf.alt ;
+    sub ya-tifif by ya-tifif.alt ;
 } TfnCharacterVariant02;
 
 lookup TfnCharacterVariant03 {
   lookupflag 0 ;
-    sub TifLtrYaghh by TifLtrYaghh.alt ;
+    sub ya-tifighh by ya-tifighh.alt ;
 } TfnCharacterVariant03;
 
 lookup TfnCharacterVariant04 {
   lookupflag 0 ;
-    sub TifLtrTuarYagn by TifLtrTuarYagn.alt ;
+    sub yagnTuareg-tifi by yagnTuareg-tifi.alt ;
 } TfnCharacterVariant04;
 
 lookup TfnCharacterVariant05 {
   lookupflag 0 ;
-    sub TifLtrTuarYaw by TifLtrTuarYaw.alt ;
+    sub yu-tifi by yu-tifi.alt ;
 } TfnCharacterVariant05;
 
 lookup TfnCharacterVariant06 {
   lookupflag 0 ;
-    sub TifLtrYaz by TifLtrYaz.alt ;
+    sub ya-tifiz by ya-tifiz.alt ;
 } TfnCharacterVariant06;
 
 lookup TfnCharacterVariant07 {
   lookupflag 0 ;
-    sub TifLtrYazh by TifLtrYazh.alt ;
+    sub ya-tifizh by ya-tifizh.alt ;
 } TfnCharacterVariant07;
 
 # this lookup is used by Harfbuzz for right to left glyph substitution 
 #      when the string is preceded by a U+202E character
 lookup TfnRTLalt {
   lookupflag RightToLeft ;
-    sub TifLtrYadd      by TifLtrYadd.rtl ;      #uni2D39
-    sub TifLtrTuarYak   by TifLtrTuarYak.rtl ;   #uni2D3E
-    sub TifLtrYi        by TifLtrYi.rtl ;        #uni2D49
-    sub TifLtrYam       by TifLtrYam.rtl ;       #uni2D4E
-    sub TifLtrYash      by TifLtrYash.rtl ;      #uni2D5B
-    sub TifLtrYatt      by TifLtrYatt.rtl ;      #uni2D5F
-    sub TifLtrYay       by TifLtrYay.rtl ;       #uni2D62
-    sub TifPuncTazarast by TifPuncTazarast.rtl ; #uni2D70
-    sub TifConsJoiner   by TifConsJoiner.rtl ;   #uni2D7F
-    sub TifLtrYay.super by TifLtrYay.super.rtl ; #uniE302
-    sub TifLtrYi.super  by TifLtrYi.super.rtl ;  #uniE303
-    sub TifLtrYal.slant by TifLtrYal.slant.rtl ; #uni2D4D
-    sub TifLtrYan.slant by TifLtrYan.slant.rtl ; #uni2D4F
+    sub ya-tifidd      by ya-tifidd.rtl ;      #uni2D39
+    sub yakTuareg-tifi   by yakTuareg-tifi.rtl ;   #uni2D3E
+    sub yi-tifi        by yi-tifi.rtl ;        #uni2D49
+    sub ya-tifim       by ya-tifim.rtl ;       #uni2D4E
+    sub ya-tifish      by ya-tifish.rtl ;      #uni2D5B
+    sub ya-tifitt      by ya-tifitt.rtl ;      #uni2D5F
+    sub ya-tifiy       by ya-tifiy.rtl ;       #uni2D62
+    sub separator-tifi by separator-tifi.rtl ; #uni2D70
+    sub consonantjoiner-tifi   by consonantjoiner-tifi.rtl ;   #uni2D7F
+    sub ya-tifiy.super by ya-tifiy.super.rtl ; #uniE302
+    sub yi-tifi.super  by yi-tifi.super.rtl ;  #uniE303
+    sub ya-tifil.slant by ya-tifil.slant.rtl ; #uni2D4D
+    sub ya-tifin.slant by ya-tifin.slant.rtl ; #uni2D4F
 } TfnRTLalt;
 
 # this lookup is used by Harfbuzz for right to left ligatures
 # NB: Last character in ligature comes first in the rule.
 lookup TfnBiconsonants_RTL {
   lookupflag RightToLeft ;
-    sub TifLtrYat         TifLtrYab         TifConsJoiner.rtl by TifLig-bt.rtl ;
-    sub TifLtrYat         TifLtrTuarYab     TifConsJoiner.rtl by TifLigTuar-bt.rtl ;
-    sub TifLtrYat         TifLtrYar         TifConsJoiner.rtl by TifLig-rt.rtl ;
-    sub TifLtrYat         TifLtrYas         TifConsJoiner.rtl by TifLig-st.rtl ;
-    sub TifLtrYat         TifLtrYam.rtl     TifConsJoiner.rtl by TifLig-mt.rtl ;
-    sub TifLtrYat         TifLtrYaf         TifConsJoiner.rtl by TifLig-ft.rtl ;
-    sub TifLtrYat         TifLtrYaf.alt     TifConsJoiner.rtl by TifLig-ft.alt.rtl ;
-    sub TifLtrYat         TifLtrYi.rtl      TifConsJoiner.rtl by TifLig-yt.rtl ;
-    sub TifLtrYat         TifLtrYaghh       TifConsJoiner.rtl by TifLig-ghht.rtl ;
-    sub TifLtrYat         TifLtrYaghh.alt   TifConsJoiner.rtl by TifLig-ghht.alt.rtl ;
-    sub TifLtrYat         TifLtrYaj         TifConsJoiner.rtl by TifLig-jt.rtl ;
-    sub TifLtrYat         TifLtrYan         TifConsJoiner.rtl by TifLig-nt.rtl ;
-    sub TifLtrYat         TifLtrYal         TifConsJoiner.rtl by TifLig-lt.rtl ;
-    sub TifLtrYat         TifLtrYash.rtl    TifConsJoiner.rtl by TifLig-sht.rtl ;
-    sub TifLtrYat         TifLtrTuarYaw     TifConsJoiner.rtl by TifLig-wt.rtl ;
-    sub TifLtrYat         TifLtrTuarYaw.alt TifConsJoiner.rtl by TifLig-wt.alt2.rtl ;
-    sub TifLtrYat         TifLtrTuarYazh    TifConsJoiner.rtl by TifLig-zzt.rtl ;
-    sub TifLtrYat         TifLtrYaz.alt     TifConsJoiner.rtl by TifLig-zt.alt.rtl ;
-    sub TifLtrYat         TifLtrYaz         TifConsJoiner.rtl by TifLig-zt.rtl ;
-    sub TifLtrYat         TifLtrYazh        TifConsJoiner.rtl by TifLig-zht.rtl ;
-    sub TifLtrYat         TifLtrYazh.alt    TifConsJoiner.rtl by TifLig-zht.alt.rtl ;
-    sub TifLtrTuarYak.rtl TifLtrYar         TifConsJoiner.rtl by TifLig-rk ;
-    sub TifLtrTuarYak.rtl TifLtrYas         TifConsJoiner.rtl by TifLig-sk ;
-    sub TifLtrTuarYak.rtl TifLtrYan         TifConsJoiner.rtl by TifLig-nk ;
-    sub TifLtrTuarYak.rtl TifLtrYash.rtl    TifConsJoiner.rtl by TifLig-shk.rtl ;
-    sub TifLtrTuarYak.rtl TifLtrYal         TifConsJoiner.rtl by TifLig-lk ;
-    sub TifLtrYas         TifLtrYan         TifConsJoiner.rtl by TifLig-ns.rtl ;
-    sub TifLtrYad         TifLtrYan         TifConsJoiner.rtl by TifLig-nd ;
-    sub TifLtrYadh        TifLtrYan         TifConsJoiner.rtl by TifLig-ndh ;
-    sub TifLtrYaf         TifLtrYan         TifConsJoiner.rtl by TifLig-nf ;
-    sub TifLtrYaf.alt     TifLtrYan         TifConsJoiner.rtl by TifLig-nf.alt ;
-    sub TifLtrYaghh       TifLtrYan         TifConsJoiner.rtl by TifLig-nghh ;
-    sub TifLtrYaghh.alt   TifLtrYan         TifConsJoiner.rtl by TifLig-nghh.alt ;
-    sub TifLtrYaj         TifLtrYan         TifConsJoiner.rtl by TifLig-nj ;
-    sub TifLtrYash.rtl    TifLtrYan         TifConsJoiner.rtl by TifLig-nsh.rtl ;
+    sub ya-tifit         ya-tifib         consonantjoiner-tifi.rtl by yabyatLig-tifi.rtl ;
+    sub ya-tifit         yah-tifi     consonantjoiner-tifi.rtl by yahyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifir         consonantjoiner-tifi.rtl by yaryatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifis         consonantjoiner-tifi.rtl by yasyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifim.rtl     consonantjoiner-tifi.rtl by yamyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifif         consonantjoiner-tifi.rtl by yafyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifif.alt     consonantjoiner-tifi.rtl by yafyatLig-tifi.alt.rtl ;
+    sub ya-tifit         yi-tifi.rtl      consonantjoiner-tifi.rtl by yiyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifighh       consonantjoiner-tifi.rtl by yaghhyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifighh.alt   consonantjoiner-tifi.rtl by yaghhyatLig-tifi.alt.rtl ;
+    sub ya-tifit         ya-tifij         consonantjoiner-tifi.rtl by yajyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifin         consonantjoiner-tifi.rtl by yanyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifil         consonantjoiner-tifi.rtl by yalyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifish.rtl    consonantjoiner-tifi.rtl by yashyatLig-tifi.rtl ;
+    sub ya-tifit         yu-tifi     consonantjoiner-tifi.rtl by yuyatLig-tifi.rtl ;
+    sub ya-tifit         yu-tifi.alt consonantjoiner-tifi.rtl by yuyatLig-tifi.alt2.rtl ;
+    sub ya-tifit         yazhTuareg-tifi    consonantjoiner-tifi.rtl by yazhyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifiz.alt     consonantjoiner-tifi.rtl by yazyatLig-tifi.alt.rtl ;
+    sub ya-tifit         ya-tifiz         consonantjoiner-tifi.rtl by yazyatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifizh        consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.rtl ;
+    sub ya-tifit         ya-tifizh.alt    consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.alt.rtl ;
+    sub yakTuareg-tifi.rtl ya-tifir         consonantjoiner-tifi.rtl by yaryakTuaregLig-tifi ;
+    sub yakTuareg-tifi.rtl ya-tifis         consonantjoiner-tifi.rtl by yasyakTuaregLig-tifi ;
+    sub yakTuareg-tifi.rtl ya-tifin         consonantjoiner-tifi.rtl by yanyakTuaregLig-tifi ;
+    sub yakTuareg-tifi.rtl ya-tifish.rtl    consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.rtl ;
+    sub yakTuareg-tifi.rtl ya-tifil         consonantjoiner-tifi.rtl by yalyakTuaregLig-tifi ;
+    sub ya-tifis         ya-tifin         consonantjoiner-tifi.rtl by yanyasLig-tifi.rtl ;
+    sub ya-tifid         ya-tifin         consonantjoiner-tifi.rtl by yanyadLig-tifi ;
+    sub ya-tifidh        ya-tifin         consonantjoiner-tifi.rtl by yanyadLig-tifih ;
+    sub ya-tifif         ya-tifin         consonantjoiner-tifi.rtl by yanyafLig-tifi ;
+    sub ya-tifif.alt     ya-tifin         consonantjoiner-tifi.rtl by yanyafLig-tifi.alt ;
+    sub ya-tifighh       ya-tifin         consonantjoiner-tifi.rtl by yanyaghhLig-tif ;
+    sub ya-tifighh.alt   ya-tifin         consonantjoiner-tifi.rtl by yanyaghhLig-tif.alt ;
+    sub ya-tifij         ya-tifin         consonantjoiner-tifi.rtl by yanyajLig-tifi ;
+    sub ya-tifish.rtl    ya-tifin         consonantjoiner-tifi.rtl by yanyasLig-tifih.rtl ;
 } TfnBiconsonants_RTL;
 
 # as of Jan. 2020 - this lookup is used by DirectWrite for right to left ligatures
@@ -168,256 +168,256 @@ lookup TfnBiconsonants_RTL {
 #     for this to work
 lookup TfnBiconsonants_RTL_DW {
   lookupflag 0 ;
-    sub TifLtrYab         TifConsJoiner.rtl TifLtrYat         by TifLig-bt.rtl ;
-    sub TifLtrTuarYab     TifConsJoiner.rtl TifLtrYat         by TifLigTuar-bt.rtl ;
-    sub TifLtrYar         TifConsJoiner.rtl TifLtrYat         by TifLig-rt.rtl ;
-    sub TifLtrYas         TifConsJoiner.rtl TifLtrYat         by TifLig-st.rtl ;
-    sub TifLtrYam.rtl     TifConsJoiner.rtl TifLtrYat         by TifLig-mt.rtl ;
-    sub TifLtrYaf         TifConsJoiner.rtl TifLtrYat         by TifLig-ft.rtl ;
-    sub TifLtrYaf.alt     TifConsJoiner.rtl TifLtrYat         by TifLig-ft.alt.rtl ;
-    sub TifLtrYi.rtl      TifConsJoiner.rtl TifLtrYat         by TifLig-yt.rtl ;
-    sub TifLtrYaghh       TifConsJoiner.rtl TifLtrYat         by TifLig-ghht.rtl ;
-    sub TifLtrYaghh.alt   TifConsJoiner.rtl TifLtrYat         by TifLig-ghht.alt.rtl ;
-    sub TifLtrYaj         TifConsJoiner.rtl TifLtrYat         by TifLig-jt.rtl ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYat         by TifLig-nt.rtl ;
-    sub TifLtrYal         TifConsJoiner.rtl TifLtrYat         by TifLig-lt.rtl ;
-    sub TifLtrYash.rtl    TifConsJoiner.rtl TifLtrYat         by TifLig-sht.rtl ;
-    sub TifLtrTuarYaw     TifConsJoiner.rtl TifLtrYat         by TifLig-wt.rtl ;
-    sub TifLtrTuarYaw.alt TifConsJoiner.rtl TifLtrYat         by TifLig-wt.alt2.rtl ;
-    sub TifLtrTuarYazh    TifConsJoiner.rtl TifLtrYat         by TifLig-zzt.rtl ;
-    sub TifLtrYaz.alt     TifConsJoiner.rtl TifLtrYat         by TifLig-zt.alt.rtl ;
-    sub TifLtrYaz         TifConsJoiner.rtl TifLtrYat         by TifLig-zt.rtl ;
-    sub TifLtrYazh        TifConsJoiner.rtl TifLtrYat         by TifLig-zht.rtl ;
-    sub TifLtrYazh.alt    TifConsJoiner.rtl TifLtrYat         by TifLig-zht.alt.rtl ;
-    sub TifLtrYar         TifConsJoiner.rtl TifLtrTuarYak.rtl by TifLig-rk ;
-    sub TifLtrYas         TifConsJoiner.rtl TifLtrTuarYak.rtl by TifLig-sk ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrTuarYak.rtl by TifLig-nk ;
-    sub TifLtrYash.rtl    TifConsJoiner.rtl TifLtrTuarYak.rtl by TifLig-shk.rtl ;
-    sub TifLtrYal         TifConsJoiner.rtl TifLtrTuarYak.rtl by TifLig-lk ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYas         by TifLig-ns.rtl ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYad         by TifLig-nd ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYadh        by TifLig-ndh ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYaf         by TifLig-nf ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYaf.alt     by TifLig-nf.alt ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYaghh       by TifLig-nghh ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYaghh.alt   by TifLig-nghh.alt ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYaj         by TifLig-nj ;
-    sub TifLtrYan         TifConsJoiner.rtl TifLtrYash.rtl    by TifLig-nsh.rtl ;
+    sub ya-tifib         consonantjoiner-tifi.rtl ya-tifit         by yabyatLig-tifi.rtl ;
+    sub yah-tifi     consonantjoiner-tifi.rtl ya-tifit         by yahyatLig-tifi.rtl ;
+    sub ya-tifir         consonantjoiner-tifi.rtl ya-tifit         by yaryatLig-tifi.rtl ;
+    sub ya-tifis         consonantjoiner-tifi.rtl ya-tifit         by yasyatLig-tifi.rtl ;
+    sub ya-tifim.rtl     consonantjoiner-tifi.rtl ya-tifit         by yamyatLig-tifi.rtl ;
+    sub ya-tifif         consonantjoiner-tifi.rtl ya-tifit         by yafyatLig-tifi.rtl ;
+    sub ya-tifif.alt     consonantjoiner-tifi.rtl ya-tifit         by yafyatLig-tifi.alt.rtl ;
+    sub yi-tifi.rtl      consonantjoiner-tifi.rtl ya-tifit         by yiyatLig-tifi.rtl ;
+    sub ya-tifighh       consonantjoiner-tifi.rtl ya-tifit         by yaghhyatLig-tifi.rtl ;
+    sub ya-tifighh.alt   consonantjoiner-tifi.rtl ya-tifit         by yaghhyatLig-tifi.alt.rtl ;
+    sub ya-tifij         consonantjoiner-tifi.rtl ya-tifit         by yajyatLig-tifi.rtl ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifit         by yanyatLig-tifi.rtl ;
+    sub ya-tifil         consonantjoiner-tifi.rtl ya-tifit         by yalyatLig-tifi.rtl ;
+    sub ya-tifish.rtl    consonantjoiner-tifi.rtl ya-tifit         by yashyatLig-tifi.rtl ;
+    sub yu-tifi     consonantjoiner-tifi.rtl ya-tifit         by yuyatLig-tifi.rtl ;
+    sub yu-tifi.alt consonantjoiner-tifi.rtl ya-tifit         by yuyatLig-tifi.alt2.rtl ;
+    sub yazhTuareg-tifi    consonantjoiner-tifi.rtl ya-tifit         by yazhyatLig-tifi.rtl ;
+    sub ya-tifiz.alt     consonantjoiner-tifi.rtl ya-tifit         by yazyatLig-tifi.alt.rtl ;
+    sub ya-tifiz         consonantjoiner-tifi.rtl ya-tifit         by yazyatLig-tifi.rtl ;
+    sub ya-tifizh        consonantjoiner-tifi.rtl ya-tifit         by yazhAhaggaryatLig-tifi.rtl ;
+    sub ya-tifizh.alt    consonantjoiner-tifi.rtl ya-tifit         by yazhAhaggaryatLig-tifi.alt.rtl ;
+    sub ya-tifir         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yaryakTuaregLig-tifi ;
+    sub ya-tifis         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yasyakTuaregLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yanyakTuaregLig-tifi ;
+    sub ya-tifish.rtl    consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yashyakTuaregLig-tifi.rtl ;
+    sub ya-tifil         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yalyakTuaregLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifis         by yanyasLig-tifi.rtl ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifid         by yanyadLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifidh        by yanyadLig-tifih ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifif         by yanyafLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifif.alt     by yanyafLig-tifi.alt ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifighh       by yanyaghhLig-tif ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifighh.alt   by yanyaghhLig-tif.alt ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifij         by yanyajLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi.rtl ya-tifish.rtl    by yanyasLig-tifih.rtl ;
 } TfnBiconsonants_RTL_DW;
 
 lookup TfnBiconsonants {
   lookupflag 0 ;
-    sub TifLtrYab         TifConsJoiner TifLtrYat by TifLig-bt ;
-    sub TifLtrTuarYab     TifConsJoiner TifLtrYat by TifLigTuar-bt ;
-    sub TifLtrYar         TifConsJoiner TifLtrTuarYak by TifLig-rk ;
-    sub TifLtrYar         TifConsJoiner TifLtrYat by TifLig-rt ;
-    sub TifLtrYas         TifConsJoiner TifLtrTuarYak by TifLig-sk ;
-    sub TifLtrYan         TifConsJoiner TifLtrYas by TifLig-ns ;
-    sub TifLtrYas         TifConsJoiner TifLtrYat by TifLig-st ;
-    sub TifLtrYan         TifConsJoiner TifLtrYad by TifLig-nd ;
-    sub TifLtrYan         TifConsJoiner TifLtrYadh by TifLig-ndh ;
-    sub TifLtrYam         TifConsJoiner TifLtrYat by TifLig-mt ;
-    sub TifLtrYan         TifConsJoiner TifLtrYaf by TifLig-nf ;
-    sub TifLtrYan         TifConsJoiner TifLtrYaf.alt by TifLig-nf.alt ;
-    sub TifLtrYaf         TifConsJoiner TifLtrYat by TifLig-ft ;
-    sub TifLtrYaf.alt     TifConsJoiner TifLtrYat by TifLig-ft.alt ;
-    sub TifLtrYi          TifConsJoiner TifLtrYat by TifLig-yt ;
-    sub TifLtrYaghh       TifConsJoiner TifLtrYat by TifLig-ghht ;
-    sub TifLtrYaghh.alt   TifConsJoiner TifLtrYat by TifLig-ghht.alt ;
-    sub TifLtrYan         TifConsJoiner TifLtrYaghh by TifLig-nghh ;
-    sub TifLtrYan         TifConsJoiner TifLtrYaghh.alt by TifLig-nghh.alt ;
-    sub TifLtrYan         TifConsJoiner TifLtrYaj by TifLig-nj ;
-    sub TifLtrYaj         TifConsJoiner TifLtrYat by TifLig-jt ;
-    sub TifLtrYan         TifConsJoiner TifLtrTuarYak by TifLig-nk ;
-    sub TifLtrYan         TifConsJoiner TifLtrYat by TifLig-nt ;
-    sub TifLtrYal         TifConsJoiner TifLtrTuarYak by TifLig-lk ;
-    sub TifLtrYal         TifConsJoiner TifLtrYat by TifLig-lt ;
-    sub TifLtrYash        TifConsJoiner TifLtrTuarYak by TifLig-shk ;
-    sub TifLtrYan         TifConsJoiner TifLtrYash by TifLig-nsh ;
-    sub TifLtrYash        TifConsJoiner TifLtrYat by TifLig-sht ;
-    sub TifLtrTuarYaw     TifConsJoiner TifLtrYat by TifLig-wt ;
-    sub TifLtrTuarYaw.alt TifConsJoiner TifLtrYat by TifLig-wt.alt2 ;
-    sub TifLtrTuarYazh    TifConsJoiner TifLtrYat by TifLig-zzt ;
-    sub TifLtrYaz         TifConsJoiner TifLtrYat by TifLig-zt ;
-    sub TifLtrYaz.alt     TifConsJoiner TifLtrYat by TifLig-zt.alt ;
-    sub TifLtrYazh        TifConsJoiner TifLtrYat by TifLig-zht ;
-    sub TifLtrYazh.alt    TifConsJoiner TifLtrYat by TifLig-zht.alt ;
+    sub ya-tifib         consonantjoiner-tifi ya-tifit by yabyatLig-tifi ;
+    sub yah-tifi     consonantjoiner-tifi ya-tifit by yahyatLig-tifi ;
+    sub ya-tifir         consonantjoiner-tifi yakTuareg-tifi by yaryakTuaregLig-tifi ;
+    sub ya-tifir         consonantjoiner-tifi ya-tifit by yaryatLig-tifi ;
+    sub ya-tifis         consonantjoiner-tifi yakTuareg-tifi by yasyakTuaregLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifis by yanyasLig-tifi ;
+    sub ya-tifis         consonantjoiner-tifi ya-tifit by yasyatLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifid by yanyadLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifidh by yanyadLig-tifih ;
+    sub ya-tifim         consonantjoiner-tifi ya-tifit by yamyatLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifif by yanyafLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifif.alt by yanyafLig-tifi.alt ;
+    sub ya-tifif         consonantjoiner-tifi ya-tifit by yafyatLig-tifi ;
+    sub ya-tifif.alt     consonantjoiner-tifi ya-tifit by yafyatLig-tifi.alt ;
+    sub yi-tifi          consonantjoiner-tifi ya-tifit by yiyatLig-tifi ;
+    sub ya-tifighh       consonantjoiner-tifi ya-tifit by yaghhyatLig-tifi ;
+    sub ya-tifighh.alt   consonantjoiner-tifi ya-tifit by yaghhyatLig-tifi.alt ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifighh by yanyaghhLig-tif ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifighh.alt by yanyaghhLig-tif.alt ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifij by yanyajLig-tifi ;
+    sub ya-tifij         consonantjoiner-tifi ya-tifit by yajyatLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi yakTuareg-tifi by yanyakTuaregLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifit by yanyatLig-tifi ;
+    sub ya-tifil         consonantjoiner-tifi yakTuareg-tifi by yalyakTuaregLig-tifi ;
+    sub ya-tifil         consonantjoiner-tifi ya-tifit by yalyatLig-tifi ;
+    sub ya-tifish        consonantjoiner-tifi yakTuareg-tifi by yashyakTuaregLig-tifi ;
+    sub ya-tifin         consonantjoiner-tifi ya-tifish by yanyasLig-tifih ;
+    sub ya-tifish        consonantjoiner-tifi ya-tifit by yashyatLig-tifi ;
+    sub yu-tifi     consonantjoiner-tifi ya-tifit by yuyatLig-tifi ;
+    sub yu-tifi.alt consonantjoiner-tifi ya-tifit by yuyatLig-tifi.alt2 ;
+    sub yazhTuareg-tifi    consonantjoiner-tifi ya-tifit by yazhyatLig-tifi ;
+    sub ya-tifiz         consonantjoiner-tifi ya-tifit by yazyatLig-tifi ;
+    sub ya-tifiz.alt     consonantjoiner-tifi ya-tifit by yazyatLig-tifi.alt ;
+    sub ya-tifizh        consonantjoiner-tifi ya-tifit by yazhAhaggaryatLig-tifi ;
+    sub ya-tifizh.alt    consonantjoiner-tifi ya-tifit by yazhAhaggaryatLig-tifi.alt ;
 } TfnBiconsonants;
 
 # lookup TfnSlant_target {
 #   lookupflag 0 ;
-#     sub TifLtrYan by TifLtrYan.slant ;
-#     sub TifLtrYal by TifLtrYal.slant ;
+#     sub ya-tifin by ya-tifin.slant ;
+#     sub ya-tifil by ya-tifil.slant ;
 # } TfnSlant_target ;
 # 
 # lookup TfnSlant {
 #   lookupflag 0 ;
-#     sub @cno_slant [ TifLtrYan TifLtrYal ]' lookup TfnSlant_target ;
+#     sub @cno_slant [ ya-tifin ya-tifil ]' lookup TfnSlant_target ;
 # } TfnSlant;
 
 lookup TfnRaisedRTL_target {
   lookupflag RightToLeft ;
-    sub TifLtrYan by TifLtrYan.raised ;
-    sub TifLtrYal by TifLtrYal.raised ;
+    sub ya-tifin by ya-tifin.raised ;
+    sub ya-tifil by ya-tifil.raised ;
 } TfnRaisedRTL_target ;
 
 lookup TfnRaisedRTL {
   lookupflag RightToLeft ;
-    ignore sub [ TifLtrYan TifLtrYal ]' [ TifLtrYan TifLtrYal ] [ TifLtrYan TifLtrYal ] ; # prevent substitution of third in sequence
-    sub [ TifLtrYan TifLtrYal ]' lookup TfnRaisedRTL_target [ TifLtrYan TifLtrYal ] ;
+    ignore sub [ ya-tifin ya-tifil ]' [ ya-tifin ya-tifil ] [ ya-tifin ya-tifil ] ; # prevent substitution of third in sequence
+    sub [ ya-tifin ya-tifil ]' lookup TfnRaisedRTL_target [ ya-tifin ya-tifil ] ;
 } TfnRaisedRTL;
 
 lookup TfnRaised_target {
   lookupflag 0 ;
-    sub TifLtrYan by TifLtrYan.raised ;
-    sub TifLtrYal by TifLtrYal.raised ;
+    sub ya-tifin by ya-tifin.raised ;
+    sub ya-tifil by ya-tifil.raised ;
 } TfnRaised_target ;
 
 lookup TfnRaised {
   lookupflag 0 ;
-    sub [ TifLtrYan TifLtrYal ] [ TifLtrYan TifLtrYal ]' lookup TfnRaised_target ;
+    sub [ ya-tifin ya-tifil ] [ ya-tifin ya-tifil ]' lookup TfnRaised_target ;
 } TfnRaised;
 
 lookup TfnCharacterVariant31 {
   lookupflag 0 ;
-    sub TifLig-bt     by TifLig-bt.alt ;
-    sub TifLig-bt.rtl by TifLig-bt.alt ;
+    sub yabyatLig-tifi     by yabyatLig-tifi.alt ;
+    sub yabyatLig-tifi.rtl by yabyatLig-tifi.alt ;
 } TfnCharacterVariant31;
 
 lookup TfnCharacterVariant32 {
   lookupflag 0 ;
-    sub TifLig-rt     from [ TifLig-rt.alt TifLig-rt.alt2 ] ;
-    sub TifLig-rt.rtl from [ TifLig-rt.alt TifLig-rt.alt2 ] ;
+    sub yaryatLig-tifi     from [ yaryatLig-tifi.alt yaryatLig-tifi.alt2 ] ;
+    sub yaryatLig-tifi.rtl from [ yaryatLig-tifi.alt yaryatLig-tifi.alt2 ] ;
 } TfnCharacterVariant32;
 
 lookup TfnCharacterVariant32_1 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-rt     by TifLig-rt.alt ;
-    sub TifLig-rt.rtl by TifLig-rt.alt ;
+    sub yaryatLig-tifi     by yaryatLig-tifi.alt ;
+    sub yaryatLig-tifi.rtl by yaryatLig-tifi.alt ;
 } TfnCharacterVariant32_1;
 
 lookup TfnCharacterVariant32_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-rt     by TifLig-rt.alt2 ;
-    sub TifLig-rt.rtl by TifLig-rt.alt2 ;
+    sub yaryatLig-tifi     by yaryatLig-tifi.alt2 ;
+    sub yaryatLig-tifi.rtl by yaryatLig-tifi.alt2 ;
 } TfnCharacterVariant32_2;
 
 lookup TfnCharacterVariant33 {
   lookupflag 0 ;
-    sub TifLig-st     from [ TifLig-st.alt     TifLig-st.alt2 ] ;
-    sub TifLig-st.rtl from [ TifLig-st.alt.rtl TifLig-st.alt2.rtl ] ;
+    sub yasyatLig-tifi     from [ yasyatLig-tifi.alt     yasyatLig-tifi.alt2 ] ;
+    sub yasyatLig-tifi.rtl from [ yasyatLig-tifi.alt.rtl yasyatLig-tifi.alt2.rtl ] ;
 } TfnCharacterVariant33;
 
 lookup TfnCharacterVariant33_1 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-st     by TifLig-st.alt ;
-    sub TifLig-st.rtl by TifLig-st.alt.rtl ;
+    sub yasyatLig-tifi     by yasyatLig-tifi.alt ;
+    sub yasyatLig-tifi.rtl by yasyatLig-tifi.alt.rtl ;
 } TfnCharacterVariant33_1;
 
 lookup TfnCharacterVariant33_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-st     by TifLig-st.alt2 ;
-    sub TifLig-st.rtl by TifLig-st.alt2.rtl ;
+    sub yasyatLig-tifi     by yasyatLig-tifi.alt2 ;
+    sub yasyatLig-tifi.rtl by yasyatLig-tifi.alt2.rtl ;
 } TfnCharacterVariant33_2;
 
 
 lookup TfnCharacterVariant34 {
   lookupflag 0 ;
-    sub TifLig-mt     by TifLig-mt.alt ;
-    sub TifLig-mt.rtl by TifLig-mt.alt.rtl ;
+    sub yamyatLig-tifi     by yamyatLig-tifi.alt ;
+    sub yamyatLig-tifi.rtl by yamyatLig-tifi.alt.rtl ;
 } TfnCharacterVariant34;
 
 lookup TfnCharacterVariant35 {
   lookupflag 0 ;
-    sub TifLig-ft     by TifLig-ft.alt2 ;
-    sub TifLig-ft.rtl by TifLig-ft.alt2.rtl ;
+    sub yafyatLig-tifi     by yafyatLig-tifi.alt2 ;
+    sub yafyatLig-tifi.rtl by yafyatLig-tifi.alt2.rtl ;
 } TfnCharacterVariant35;
 
 lookup TfnCharacterVariant36 {
   lookupflag 0 ;
-    sub TifLig-nk by TifLig-nk.alt ;
+    sub yanyakTuaregLig-tifi by yanyakTuaregLig-tifi.alt ;
 } TfnCharacterVariant36;
 
 lookup TfnCharacterVariant37 {
   lookupflag 0 ;
-    sub TifLig-nt     from [ TifLig-nt.alt     TifLig-nt.alt2 ] ;
-    sub TifLig-nt.rtl from [ TifLig-nt.alt.rtl TifLig-nt.alt2 ] ;
+    sub yanyatLig-tifi     from [ yanyatLig-tifi.alt     yanyatLig-tifi.alt2 ] ;
+    sub yanyatLig-tifi.rtl from [ yanyatLig-tifi.alt.rtl yanyatLig-tifi.alt2 ] ;
 } TfnCharacterVariant37;
 
 lookup TfnCharacterVariant37_1 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-nt     by TifLig-nt.alt ;
-    sub TifLig-nt.rtl by TifLig-nt.alt.rtl ;
+    sub yanyatLig-tifi     by yanyatLig-tifi.alt ;
+    sub yanyatLig-tifi.rtl by yanyatLig-tifi.alt.rtl ;
 } TfnCharacterVariant37_1;
 
 lookup TfnCharacterVariant37_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-nt     by TifLig-nt.alt2 ;
-    sub TifLig-nt.rtl by TifLig-nt.alt2 ;
+    sub yanyatLig-tifi     by yanyatLig-tifi.alt2 ;
+    sub yanyatLig-tifi.rtl by yanyatLig-tifi.alt2 ;
 } TfnCharacterVariant37_2;
 
 lookup TfnCharacterVariant38 {
   lookupflag 0 ;
-    sub TifLig-lt     by TifLig-lt.alt ;
-    sub TifLig-lt.rtl by TifLig-lt.alt ;
+    sub yalyatLig-tifi     by yalyatLig-tifi.alt ;
+    sub yalyatLig-tifi.rtl by yalyatLig-tifi.alt ;
 } TfnCharacterVariant38;
 
 lookup TfnCharacterVariant39 {
   lookupflag 0 ;
-    sub TifLig-wt     by TifLig-wt.alt ;
-    sub TifLig-wt.rtl by TifLig-wt.alt.rtl ;
+    sub yuyatLig-tifi     by yuyatLig-tifi.alt ;
+    sub yuyatLig-tifi.rtl by yuyatLig-tifi.alt.rtl ;
 } TfnCharacterVariant39;
 
 lookup TfnCharacterVariant40 {
   lookupflag 0 ;
-    sub TifLig-zzt     from [ TifLig-zzt.alt     TifLig-zzt.alt2 ] ;
-    sub TifLig-zzt.rtl from [ TifLig-zzt.alt.rtl TifLig-zzt.alt2 ] ;
+    sub yazhyatLig-tifi     from [ yazhyatLig-tifi.alt     yazhyatLig-tifi.alt2 ] ;
+    sub yazhyatLig-tifi.rtl from [ yazhyatLig-tifi.alt.rtl yazhyatLig-tifi.alt2 ] ;
 } TfnCharacterVariant40;
 
 lookup TfnCharacterVariant40_1 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-zzt     by TifLig-zzt.alt ;
-    sub TifLig-zzt.rtl by TifLig-zzt.alt.rtl ;
+    sub yazhyatLig-tifi     by yazhyatLig-tifi.alt ;
+    sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.alt.rtl ;
 } TfnCharacterVariant40_1;
 
 lookup TfnCharacterVariant40_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub TifLig-zzt     by TifLig-zzt.alt2 ;
-    sub TifLig-zzt.rtl by TifLig-zzt.alt2 ;
+    sub yazhyatLig-tifi     by yazhyatLig-tifi.alt2 ;
+    sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.alt2 ;
 } TfnCharacterVariant40_2;
 
 lookup TfnAllAlternates {
   lookupflag 0 ;
-    sub TifLtrYa       from [ TifLtrYa.alt ] ;
-    sub TifLig-bt      from [ TifLig-bt.alt ] ;
-    sub TifLtrYaghh    from [ TifLtrYaghh.alt ] ;
-    sub TifLig-ghht    from [ TifLig-ghht.alt ] ;
-    sub TifLtrYaf      from [ TifLtrYaf.alt ] ;
-    sub TifLig-ft      from [ TifLig-ft.alt2 TifLig-ft.alt ] ;
-    sub TifLtrYazh     from [ TifLtrYazh.alt ] ;
-    sub TifLig-zht     from [ TifLig-zht.alt ] ;
-    sub TifLig-zzt     from [ TifLig-zzt.alt TifLig-zzt.alt2 ] ;
-    sub TifLig-lt      from [ TifLig-lt.alt ] ;
-    sub TifLig-mt      from [ TifLig-mt.alt ] ;
-    sub TifLig-nghh    from [ TifLig-nghh.alt ] ;
-    sub TifLig-nf      from [ TifLig-nf.alt ] ;
-    sub TifLig-nk      from [ TifLig-nk.alt ] ;
-    sub TifLig-nt      from [ TifLig-nt.alt TifLig-nt.alt2 ] ;
-    sub TifLtrTuarYagn from [ TifLtrTuarYagn.alt ] ;
-    sub TifLtrTuarYaw  from [ TifLtrTuarYaw.alt ] ;
-    sub TifLig-wt      from [ TifLig-wt.alt TifLig-wt.alt2 ] ;
-    sub TifLig-rt      from [ TifLig-rt.alt TifLig-rt.alt2 ] ;
-    sub TifLig-st      from [ TifLig-st.alt TifLig-st.alt2 ] ;
-    sub TifLtrYaz      from [ TifLtrYaz.alt ] ;
-    sub TifLig-zt      from [ TifLig-zt.alt ] ;
+    sub ya-tifi       from [ ya-tifi.alt ] ;
+    sub yabyatLig-tifi      from [ yabyatLig-tifi.alt ] ;
+    sub ya-tifighh    from [ ya-tifighh.alt ] ;
+    sub yaghhyatLig-tifi    from [ yaghhyatLig-tifi.alt ] ;
+    sub ya-tifif      from [ ya-tifif.alt ] ;
+    sub yafyatLig-tifi      from [ yafyatLig-tifi.alt2 yafyatLig-tifi.alt ] ;
+    sub ya-tifizh     from [ ya-tifizh.alt ] ;
+    sub yazhAhaggaryatLig-tifi     from [ yazhAhaggaryatLig-tifi.alt ] ;
+    sub yazhyatLig-tifi     from [ yazhyatLig-tifi.alt yazhyatLig-tifi.alt2 ] ;
+    sub yalyatLig-tifi      from [ yalyatLig-tifi.alt ] ;
+    sub yamyatLig-tifi      from [ yamyatLig-tifi.alt ] ;
+    sub yanyaghhLig-tif    from [ yanyaghhLig-tif.alt ] ;
+    sub yanyafLig-tifi      from [ yanyafLig-tifi.alt ] ;
+    sub yanyakTuaregLig-tifi      from [ yanyakTuaregLig-tifi.alt ] ;
+    sub yanyatLig-tifi      from [ yanyatLig-tifi.alt yanyatLig-tifi.alt2 ] ;
+    sub yagnTuareg-tifi from [ yagnTuareg-tifi.alt ] ;
+    sub yu-tifi  from [ yu-tifi.alt ] ;
+    sub yuyatLig-tifi      from [ yuyatLig-tifi.alt yuyatLig-tifi.alt2 ] ;
+    sub yaryatLig-tifi      from [ yaryatLig-tifi.alt yaryatLig-tifi.alt2 ] ;
+    sub yasyatLig-tifi      from [ yasyatLig-tifi.alt yasyatLig-tifi.alt2 ] ;
+    sub ya-tifiz      from [ ya-tifiz.alt ] ;
+    sub yazyatLig-tifi      from [ yazyatLig-tifi.alt ] ;
 } TfnAllAlternates;
 
 lookup TfnDiacriticSub {
   lookupflag 0 ;
-    sub @cTakesTDia_base CombAcute'   by TifConsLengthMark.alt ;
-    sub @cTakesTDia_base tildenosp'   by TifConsLengthMark ;
-    sub @cTakesTDia_base CombDotAbv'  by TifVowelMark ; #backward compatibility with beta version
-    sub @cTakesTDia_base CombRingAbv' by TifVowelMark ;
+    sub @cTakesTDia_base acutecomb'   by TifConsLengthMark.alt ;
+    sub @cTakesTDia_base tildecomb'   by TifConsLengthMark ;
+    sub @cTakesTDia_base Combdotaccent'  by TifVowelMark ; #backward compatibility with beta version
+    sub @cTakesTDia_base Combring' by TifVowelMark ;
 } TfnDiacriticSub;
 
 lookup LatnPunct {
