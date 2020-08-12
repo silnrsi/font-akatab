@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TifLig-st.alt2" format="2">
-  <advance width="1438"/>
-  <outline>
-    <component base="_VerticalOval" xOffset="-24"/>
-    <component base="_Dot" xScale="0.7" yScale="0.7" xOffset="358" yOffset="1"/>
-    <component base="_PlusMedium" xScale="0.7" yScale="0.7" xOffset="450" yOffset="590"/>
-  </outline>
-</glyph>

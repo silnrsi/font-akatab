@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yas-tifi" format="2">
+  <advance width="1438"/>
+  <unicode hex="2D59"/>
+  <anchor x="720" y="1393" name="T"/>
+  <outline>
+    <component base="_VerticalOval" xOffset="-24"/>
+    <component base="_Dot" xOffset="48" yOffset="-13"/>
+  </outline>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yazhAhaggaryatLig-tifi" format="2">
+  <advance width="1517"/>
+  <outline>
+    <contour>
+      <point x="751" y="1038"/>
+      <point x="576" y="1038" type="curve" smooth="yes"/>
+      <point x="414" y="1038"/>
+      <point x="293" y="1193"/>
+      <point x="293" y="1356" type="curve" smooth="yes"/>
+      <point x="293" y="1371"/>
+      <point x="281" y="1393"/>
+      <point x="236" y="1393" type="curve" smooth="yes"/>
+      <point x="160" y="1393"/>
+      <point x="123" y="1332"/>
+      <point x="123" y="1293" type="curve" smooth="yes"/>
+      <point x="123" y="1074"/>
+      <point x="300" y="900"/>
+      <point x="510" y="900" type="curve" smooth="yes"/>
+      <point x="844" y="900"/>
+      <point x="1021" y="1269"/>
+      <point x="1021" y="1346" type="curve" smooth="yes"/>
+      <point x="1021" y="1368"/>
+      <point x="1008" y="1393"/>
+      <point x="953" y="1393" type="curve" smooth="yes"/>
+      <point x="925" y="1393"/>
+      <point x="870" y="1370"/>
+      <point x="859" y="1328" type="curve" smooth="yes"/>
+      <point x="845" y="1276"/>
+    </contour>
+    <contour>
+      <point x="370" y="355"/>
+      <point x="545" y="355" type="curve" smooth="yes"/>
+      <point x="707" y="355"/>
+      <point x="828" y="200"/>
+      <point x="828" y="37" type="curve" smooth="yes"/>
+      <point x="828" y="22"/>
+      <point x="840" y="0"/>
+      <point x="885" y="0" type="curve" smooth="yes"/>
+      <point x="961" y="0"/>
+      <point x="998" y="61"/>
+      <point x="998" y="100" type="curve" smooth="yes"/>
+      <point x="998" y="319"/>
+      <point x="821" y="493"/>
+      <point x="611" y="493" type="curve" smooth="yes"/>
+      <point x="277" y="493"/>
+      <point x="100" y="124"/>
+      <point x="100" y="47" type="curve" smooth="yes"/>
+      <point x="100" y="25"/>
+      <point x="113" y="0"/>
+      <point x="168" y="0" type="curve" smooth="yes"/>
+      <point x="196" y="0"/>
+      <point x="251" y="23"/>
+      <point x="262" y="65" type="curve" smooth="yes"/>
+      <point x="276" y="117"/>
+    </contour>
+    <component base="_VerticalBarMedium" xOffset="472" yOffset="359"/>
+    <component base="_Plus" xOffset="677" yOffset="317"/>
+  </outline>
+</glyph>

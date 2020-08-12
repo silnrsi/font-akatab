@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yajyatLig-tifi.rtl" format="2">
+  <advance width="978"/>
+  <outline>
+    <component base="_VerticalBarShortForTopDots" xScale="-1" yScale="-1" xOffset="1904" yOffset="1100"/>
+    <component base="_Dot" xOffset="235" yOffset="595"/>
+    <component base="_Dot" xOffset="747" yOffset="595"/>
+    <component base="_Plus" xScale="-1" yScale="-1" xOffset="1149" yOffset="919"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yaj-tifi" format="2">
+  <advance width="978"/>
+  <unicode hex="2D36"/>
+  <anchor x="499" y="1393" name="T"/>
+  <outline>
+    <component base="_VerticalBarShortForTopDots" xOffset="-257"/>
+    <component base="_Dot" xOffset="-425" yOffset="595"/>
+    <component base="_Dot" xOffset="87" yOffset="595"/>
+  </outline>
+</glyph>

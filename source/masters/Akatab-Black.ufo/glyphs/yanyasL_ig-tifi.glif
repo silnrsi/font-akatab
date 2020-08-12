@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yanyasLig-tifi" format="2">
+  <advance width="1688"/>
+  <outline>
+    <component base="_VerticalOval" xOffset="226"/>
+    <component base="_Dot" xOffset="298" yOffset="-13"/>
+    <component base="_PlusMediumHorizontal" xOffset="85" yOffset="363"/>
+  </outline>
+</glyph>

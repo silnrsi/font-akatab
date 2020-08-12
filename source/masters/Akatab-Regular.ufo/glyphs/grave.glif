@@ -3,13 +3,20 @@
   <advance width="1142"/>
   <unicode hex="0060"/>
   <outline>
-    <component base="gravecmb" xOffset="569"/>
+    <component base="gravecomb" xOffset="569"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>gravecomb</string>
+        </dict>
       </array>
     </dict>
   </lib>

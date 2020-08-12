@@ -140,308 +140,10 @@
   <string>T_dotbelow.glif</string>
   <key>Thorn</key>
   <string>T_horn.glif</string>
-  <key>TifConsJoiner</key>
-  <string>T_ifC_onsJ_oiner.glif</string>
-  <key>TifConsJoiner.rtl</key>
-  <string>T_ifC_onsJ_oiner.rtl.glif</string>
   <key>TifConsLengthMark</key>
   <string>T_ifC_onsL_engthM_ark.glif</string>
   <key>TifConsLengthMark.alt</key>
   <string>T_ifC_onsL_engthM_ark.alt.glif</string>
-  <key>TifLig-bt</key>
-  <string>T_ifL_ig-bt.glif</string>
-  <key>TifLig-bt.alt</key>
-  <string>T_ifL_ig-bt.alt.glif</string>
-  <key>TifLig-bt.rtl</key>
-  <string>T_ifL_ig-bt.rtl.glif</string>
-  <key>TifLig-ft</key>
-  <string>T_ifL_ig-ft.glif</string>
-  <key>TifLig-ft.alt</key>
-  <string>T_ifL_ig-ft.alt.glif</string>
-  <key>TifLig-ft.alt.rtl</key>
-  <string>T_ifL_ig-ft.alt.rtl.glif</string>
-  <key>TifLig-ft.alt2</key>
-  <string>T_ifL_ig-ft.alt2.glif</string>
-  <key>TifLig-ft.alt2.rtl</key>
-  <string>T_ifL_ig-ft.alt2.rtl.glif</string>
-  <key>TifLig-ft.rtl</key>
-  <string>T_ifL_ig-ft.rtl.glif</string>
-  <key>TifLig-ghht</key>
-  <string>T_ifL_ig-ghht.glif</string>
-  <key>TifLig-ghht.alt</key>
-  <string>T_ifL_ig-ghht.alt.glif</string>
-  <key>TifLig-ghht.alt.rtl</key>
-  <string>T_ifL_ig-ghht.alt.rtl.glif</string>
-  <key>TifLig-ghht.rtl</key>
-  <string>T_ifL_ig-ghht.rtl.glif</string>
-  <key>TifLig-jt</key>
-  <string>T_ifL_ig-jt.glif</string>
-  <key>TifLig-jt.rtl</key>
-  <string>T_ifL_ig-jt.rtl.glif</string>
-  <key>TifLig-lk</key>
-  <string>T_ifL_ig-lk.glif</string>
-  <key>TifLig-lt</key>
-  <string>T_ifL_ig-lt.glif</string>
-  <key>TifLig-lt.alt</key>
-  <string>T_ifL_ig-lt.alt.glif</string>
-  <key>TifLig-lt.rtl</key>
-  <string>T_ifL_ig-lt.rtl.glif</string>
-  <key>TifLig-mt</key>
-  <string>T_ifL_ig-mt.glif</string>
-  <key>TifLig-mt.alt</key>
-  <string>T_ifL_ig-mt.alt.glif</string>
-  <key>TifLig-mt.alt.rtl</key>
-  <string>T_ifL_ig-mt.alt.rtl.glif</string>
-  <key>TifLig-mt.rtl</key>
-  <string>T_ifL_ig-mt.rtl.glif</string>
-  <key>TifLig-nd</key>
-  <string>T_ifL_ig-nd.glif</string>
-  <key>TifLig-ndh</key>
-  <string>T_ifL_ig-ndh.glif</string>
-  <key>TifLig-nf</key>
-  <string>T_ifL_ig-nf.glif</string>
-  <key>TifLig-nf.alt</key>
-  <string>T_ifL_ig-nf.alt.glif</string>
-  <key>TifLig-nghh</key>
-  <string>T_ifL_ig-nghh.glif</string>
-  <key>TifLig-nghh.alt</key>
-  <string>T_ifL_ig-nghh.alt.glif</string>
-  <key>TifLig-nj</key>
-  <string>T_ifL_ig-nj.glif</string>
-  <key>TifLig-nk</key>
-  <string>T_ifL_ig-nk.glif</string>
-  <key>TifLig-nk.alt</key>
-  <string>T_ifL_ig-nk.alt.glif</string>
-  <key>TifLig-ns</key>
-  <string>T_ifL_ig-ns.glif</string>
-  <key>TifLig-ns.rtl</key>
-  <string>T_ifL_ig-ns.rtl.glif</string>
-  <key>TifLig-nsh</key>
-  <string>T_ifL_ig-nsh.glif</string>
-  <key>TifLig-nsh.rtl</key>
-  <string>T_ifL_ig-nsh.rtl.glif</string>
-  <key>TifLig-nt</key>
-  <string>T_ifL_ig-nt.glif</string>
-  <key>TifLig-nt.alt</key>
-  <string>T_ifL_ig-nt.alt.glif</string>
-  <key>TifLig-nt.alt.rtl</key>
-  <string>T_ifL_ig-nt.alt.rtl.glif</string>
-  <key>TifLig-nt.alt2</key>
-  <string>T_ifL_ig-nt.alt2.glif</string>
-  <key>TifLig-nt.rtl</key>
-  <string>T_ifL_ig-nt.rtl.glif</string>
-  <key>TifLig-rk</key>
-  <string>T_ifL_ig-rk.glif</string>
-  <key>TifLig-rt</key>
-  <string>T_ifL_ig-rt.glif</string>
-  <key>TifLig-rt.alt</key>
-  <string>T_ifL_ig-rt.alt.glif</string>
-  <key>TifLig-rt.alt2</key>
-  <string>T_ifL_ig-rt.alt2.glif</string>
-  <key>TifLig-rt.rtl</key>
-  <string>T_ifL_ig-rt.rtl.glif</string>
-  <key>TifLig-shk</key>
-  <string>T_ifL_ig-shk.glif</string>
-  <key>TifLig-shk.rtl</key>
-  <string>T_ifL_ig-shk.rtl.glif</string>
-  <key>TifLig-sht</key>
-  <string>T_ifL_ig-sht.glif</string>
-  <key>TifLig-sht.rtl</key>
-  <string>T_ifL_ig-sht.rtl.glif</string>
-  <key>TifLig-sk</key>
-  <string>T_ifL_ig-sk.glif</string>
-  <key>TifLig-st</key>
-  <string>T_ifL_ig-st.glif</string>
-  <key>TifLig-st.alt</key>
-  <string>T_ifL_ig-st.alt.glif</string>
-  <key>TifLig-st.alt.rtl</key>
-  <string>T_ifL_ig-st.alt.rtl.glif</string>
-  <key>TifLig-st.alt2</key>
-  <string>T_ifL_ig-st.alt2.glif</string>
-  <key>TifLig-st.alt2.rtl</key>
-  <string>T_ifL_ig-st.alt2.rtl.glif</string>
-  <key>TifLig-st.rtl</key>
-  <string>T_ifL_ig-st.rtl.glif</string>
-  <key>TifLig-wt</key>
-  <string>T_ifL_ig-wt.glif</string>
-  <key>TifLig-wt.alt</key>
-  <string>T_ifL_ig-wt.alt.glif</string>
-  <key>TifLig-wt.alt.rtl</key>
-  <string>T_ifL_ig-wt.alt.rtl.glif</string>
-  <key>TifLig-wt.alt2</key>
-  <string>T_ifL_ig-wt.alt2.glif</string>
-  <key>TifLig-wt.alt2.rtl</key>
-  <string>T_ifL_ig-wt.alt2.rtl.glif</string>
-  <key>TifLig-wt.rtl</key>
-  <string>T_ifL_ig-wt.rtl.glif</string>
-  <key>TifLig-yt</key>
-  <string>T_ifL_ig-yt.glif</string>
-  <key>TifLig-yt.rtl</key>
-  <string>T_ifL_ig-yt.rtl.glif</string>
-  <key>TifLig-zht</key>
-  <string>T_ifL_ig-zht.glif</string>
-  <key>TifLig-zht.alt</key>
-  <string>T_ifL_ig-zht.alt.glif</string>
-  <key>TifLig-zht.alt.rtl</key>
-  <string>T_ifL_ig-zht.alt.rtl.glif</string>
-  <key>TifLig-zht.rtl</key>
-  <string>T_ifL_ig-zht.rtl.glif</string>
-  <key>TifLig-zt</key>
-  <string>T_ifL_ig-zt.glif</string>
-  <key>TifLig-zt.alt</key>
-  <string>T_ifL_ig-zt.alt.glif</string>
-  <key>TifLig-zt.alt.rtl</key>
-  <string>T_ifL_ig-zt.alt.rtl.glif</string>
-  <key>TifLig-zt.rtl</key>
-  <string>T_ifL_ig-zt.rtl.glif</string>
-  <key>TifLig-zzt</key>
-  <string>T_ifL_ig-zzt.glif</string>
-  <key>TifLig-zzt.alt</key>
-  <string>T_ifL_ig-zzt.alt.glif</string>
-  <key>TifLig-zzt.alt.rtl</key>
-  <string>T_ifL_ig-zzt.alt.rtl.glif</string>
-  <key>TifLig-zzt.alt2</key>
-  <string>T_ifL_ig-zzt.alt2.glif</string>
-  <key>TifLig-zzt.rtl</key>
-  <string>T_ifL_ig-zzt.rtl.glif</string>
-  <key>TifLigTuar-bt</key>
-  <string>T_ifL_igT_uar-bt.glif</string>
-  <key>TifLigTuar-bt.rtl</key>
-  <string>T_ifL_igT_uar-bt.rtl.glif</string>
-  <key>TifLtrTuarYab</key>
-  <string>T_ifL_trT_uarY_ab.glif</string>
-  <key>TifLtrTuarYagh</key>
-  <string>T_ifL_trT_uarY_agh.glif</string>
-  <key>TifLtrTuarYagn</key>
-  <string>T_ifL_trT_uarY_agn.glif</string>
-  <key>TifLtrTuarYagn.alt</key>
-  <string>T_ifL_trT_uarY_agn.alt.glif</string>
-  <key>TifLtrTuarYah</key>
-  <string>T_ifL_trT_uarY_ah.glif</string>
-  <key>TifLtrTuarYak</key>
-  <string>T_ifL_trT_uarY_ak.glif</string>
-  <key>TifLtrTuarYak.orig</key>
-  <string>T_ifL_trT_uarY_ak.orig.glif</string>
-  <key>TifLtrTuarYak.rtl</key>
-  <string>T_ifL_trT_uarY_ak.rtl.glif</string>
-  <key>TifLtrTuarYak.unused.001</key>
-  <string>T_ifL_trT_uarY_ak.unused.001.glif</string>
-  <key>TifLtrTuarYak.unused.002</key>
-  <string>T_ifL_trT_uarY_ak.unused.002.glif</string>
-  <key>TifLtrTuarYakh</key>
-  <string>T_ifL_trT_uarY_akh.glif</string>
-  <key>TifLtrTuarYang</key>
-  <string>T_ifL_trT_uarY_ang.glif</string>
-  <key>TifLtrTuarYaq</key>
-  <string>T_ifL_trT_uarY_aq.glif</string>
-  <key>TifLtrTuarYaw</key>
-  <string>T_ifL_trT_uarY_aw.glif</string>
-  <key>TifLtrTuarYaw.alt</key>
-  <string>T_ifL_trT_uarY_aw.alt.glif</string>
-  <key>TifLtrTuarYaw.super</key>
-  <string>T_ifL_trT_uarY_aw.super.glif</string>
-  <key>TifLtrTuarYazh</key>
-  <string>T_ifL_trT_uarY_azh.glif</string>
-  <key>TifLtrYa</key>
-  <string>T_ifL_trY_a.glif</string>
-  <key>TifLtrYa.alt</key>
-  <string>T_ifL_trY_a.alt.glif</string>
-  <key>TifLtrYa.super</key>
-  <string>T_ifL_trY_a.super.glif</string>
-  <key>TifLtrYab</key>
-  <string>T_ifL_trY_ab.glif</string>
-  <key>TifLtrYad</key>
-  <string>T_ifL_trY_ad.glif</string>
-  <key>TifLtrYadd</key>
-  <string>T_ifL_trY_add.glif</string>
-  <key>TifLtrYadd.rtl</key>
-  <string>T_ifL_trY_add.rtl.glif</string>
-  <key>TifLtrYadh</key>
-  <string>T_ifL_trY_adh.glif</string>
-  <key>TifLtrYadh.alt</key>
-  <string>T_ifL_trY_adh.alt.glif</string>
-  <key>TifLtrYadh.unused</key>
-  <string>T_ifL_trY_adh.unused.glif</string>
-  <key>TifLtrYaf</key>
-  <string>T_ifL_trY_af.glif</string>
-  <key>TifLtrYaf.alt</key>
-  <string>T_ifL_trY_af.alt.glif</string>
-  <key>TifLtrYaghh</key>
-  <string>T_ifL_trY_aghh.glif</string>
-  <key>TifLtrYaghh.alt</key>
-  <string>T_ifL_trY_aghh.alt.glif</string>
-  <key>TifLtrYaghh.alt.unused</key>
-  <string>T_ifL_trY_aghh.alt.unused.glif</string>
-  <key>TifLtrYaj</key>
-  <string>T_ifL_trY_aj.glif</string>
-  <key>TifLtrYal</key>
-  <string>T_ifL_trY_al.glif</string>
-  <key>TifLtrYal.raised</key>
-  <string>T_ifL_trY_al.raised.glif</string>
-  <key>TifLtrYal.slant</key>
-  <string>T_ifL_trY_al.slant.glif</string>
-  <key>TifLtrYal.slant.rtl</key>
-  <string>T_ifL_trY_al.slant.rtl.glif</string>
-  <key>TifLtrYam</key>
-  <string>T_ifL_trY_am.glif</string>
-  <key>TifLtrYam.rtl</key>
-  <string>T_ifL_trY_am.rtl.glif</string>
-  <key>TifLtrYan</key>
-  <string>T_ifL_trY_an.glif</string>
-  <key>TifLtrYan.raised</key>
-  <string>T_ifL_trY_an.raised.glif</string>
-  <key>TifLtrYan.slant</key>
-  <string>T_ifL_trY_an.slant.glif</string>
-  <key>TifLtrYan.slant.rtl</key>
-  <string>T_ifL_trY_an.slant.rtl.glif</string>
-  <key>TifLtrYar</key>
-  <string>T_ifL_trY_ar.glif</string>
-  <key>TifLtrYas</key>
-  <string>T_ifL_trY_as.glif</string>
-  <key>TifLtrYash</key>
-  <string>T_ifL_trY_ash.glif</string>
-  <key>TifLtrYash.rtl</key>
-  <string>T_ifL_trY_ash.rtl.glif</string>
-  <key>TifLtrYass</key>
-  <string>T_ifL_trY_ass.glif</string>
-  <key>TifLtrYat</key>
-  <string>T_ifL_trY_at.glif</string>
-  <key>TifLtrYatt</key>
-  <string>T_ifL_trY_att.glif</string>
-  <key>TifLtrYatt.rtl</key>
-  <string>T_ifL_trY_att.rtl.glif</string>
-  <key>TifLtrYay</key>
-  <string>T_ifL_trY_ay.glif</string>
-  <key>TifLtrYay.rtl</key>
-  <string>T_ifL_trY_ay.rtl.glif</string>
-  <key>TifLtrYay.super</key>
-  <string>T_ifL_trY_ay.super.glif</string>
-  <key>TifLtrYay.super.rtl</key>
-  <string>T_ifL_trY_ay.super.rtl.glif</string>
-  <key>TifLtrYaz</key>
-  <string>T_ifL_trY_az.glif</string>
-  <key>TifLtrYaz.alt</key>
-  <string>T_ifL_trY_az.alt.glif</string>
-  <key>TifLtrYazh</key>
-  <string>T_ifL_trY_azh.glif</string>
-  <key>TifLtrYazh.alt</key>
-  <string>T_ifL_trY_azh.alt.glif</string>
-  <key>TifLtrYi</key>
-  <string>T_ifL_trY_i.glif</string>
-  <key>TifLtrYi.rtl</key>
-  <string>T_ifL_trY_i.rtl.glif</string>
-  <key>TifLtrYi.super</key>
-  <string>T_ifL_trY_i.super.glif</string>
-  <key>TifLtrYi.super.rtl</key>
-  <string>T_ifL_trY_i.super.rtl.glif</string>
-  <key>TifLtrYo</key>
-  <string>T_ifL_trY_o.glif</string>
-  <key>TifLtrYo.super</key>
-  <string>T_ifL_trY_o.super.glif</string>
-  <key>TifPuncTazarast</key>
-  <string>T_ifP_uncT_azarast.glif</string>
-  <key>TifPuncTazarast.rtl</key>
-  <string>T_ifP_uncT_azarast.rtl.glif</string>
   <key>TifVowelMark</key>
   <string>T_ifV_owelM_ark.glif</string>
   <key>U</key>
@@ -458,8 +160,6 @@
   <string>U_grave.glif</string>
   <key>V</key>
   <string>V_.glif</string>
-  <key>VS15</key>
-  <string>V_S_15.glif</string>
   <key>W</key>
   <string>W_.glif</string>
   <key>X</key>
@@ -480,8 +180,6 @@
   <string>Z_caron.glif</string>
   <key>Zdotbelow</key>
   <string>Z_dotbelow.glif</string>
-  <key>ZeroWidthNoBreakSpace</key>
-  <string>Z_eroW_idthN_oB_reakS_pace.glif</string>
   <key>_AltIndicator</key>
   <string>_A_ltI_ndicator.glif</string>
   <key>_Circle_Small</key>
@@ -560,10 +258,10 @@
   <string>acircumflex.glif</string>
   <key>acute</key>
   <string>acute.glif</string>
-  <key>acutecmb</key>
-  <string>acutecmb.glif</string>
   <key>acutecmb.cap</key>
   <string>acutecmb.cap.glif</string>
+  <key>acutecomb</key>
+  <string>acutecomb.glif</string>
   <key>adieresis</key>
   <string>adieresis.glif</string>
   <key>ae</key>
@@ -646,6 +344,10 @@
   <string>comma.glif</string>
   <key>comma.latin</key>
   <string>comma.latin.glif</string>
+  <key>consonantjoiner-tifi</key>
+  <string>consonantjoiner-tifi.glif</string>
+  <key>consonantjoiner-tifi.rtl</key>
+  <string>consonantjoiner-tifi.rtl.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
   <key>currency</key>
@@ -752,10 +454,10 @@
   <string>germandbls.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
-  <key>gravecmb</key>
-  <string>gravecmb.glif</string>
   <key>gravecmb.cap</key>
   <string>gravecmb.cap.glif</string>
+  <key>gravecomb</key>
+  <string>gravecomb.glif</string>
   <key>greater</key>
   <string>greater.glif</string>
   <key>greaterequal</key>
@@ -884,12 +586,12 @@
   <string>one.glif</string>
   <key>one.dnom</key>
   <string>one.dnom.glif</string>
-  <key>one.sups</key>
-  <string>one.sups.glif</string>
   <key>onehalf</key>
   <string>onehalf.glif</string>
   <key>onequarter</key>
   <string>onequarter.glif</string>
+  <key>onesuperior</key>
+  <string>onesuperior.glif</string>
   <key>ordfeminine</key>
   <string>ordfeminine.glif</string>
   <key>ordmasculine</key>
@@ -988,6 +690,10 @@
   <string>section.glif</string>
   <key>semicolon</key>
   <string>semicolon.glif</string>
+  <key>separator-tifi</key>
+  <string>separator-tifi.glif</string>
+  <key>separator-tifi.rtl</key>
+  <string>separator-tifi.rtl.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
   <key>six</key>
@@ -1016,26 +722,26 @@
   <string>three.glif</string>
   <key>three.dnom</key>
   <string>three.dnom.glif</string>
-  <key>three.sups</key>
-  <string>three.sups.glif</string>
   <key>threeperemspace</key>
   <string>threeperemspace.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
+  <key>threesuperior</key>
+  <string>threesuperior.glif</string>
   <key>tilde</key>
   <string>tilde.glif</string>
-  <key>tildecmb</key>
-  <string>tildecmb.glif</string>
   <key>tildecmb.cap</key>
   <string>tildecmb.cap.glif</string>
+  <key>tildecomb</key>
+  <string>tildecomb.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>two</key>
   <string>two.glif</string>
   <key>two.dnom</key>
   <string>two.dnom.glif</string>
-  <key>two.sups</key>
-  <string>two.sups.glif</string>
+  <key>twosuperior</key>
+  <string>twosuperior.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>uacute</key>
@@ -1086,8 +792,12 @@
   <string>uniF_E_0C_.glif</string>
   <key>uniFE0D</key>
   <string>uniF_E_0D_.glif</string>
+  <key>uniFE0E</key>
+  <string>uniF_E_0E_.glif</string>
   <key>uniFE0F</key>
   <string>uniF_E_0F_.glif</string>
+  <key>uniFEFF</key>
+  <string>uniF_E_F_F_.glif</string>
   <key>uniFFFC</key>
   <string>uniF_F_F_C_.glif</string>
   <key>uniFFFD</key>
@@ -1102,14 +812,304 @@
   <string>x.glif</string>
   <key>y</key>
   <string>y.glif</string>
+  <key>ya-tifi</key>
+  <string>ya-tifi.glif</string>
+  <key>ya-tifi.alt</key>
+  <string>ya-tifi.alt.glif</string>
+  <key>ya-tifi.super</key>
+  <string>ya-tifi.super.glif</string>
+  <key>yab-tifi</key>
+  <string>yab-tifi.glif</string>
+  <key>yabyatLig-tifi</key>
+  <string>yabyatL_ig-tifi.glif</string>
+  <key>yabyatLig-tifi.alt</key>
+  <string>yabyatL_ig-tifi.alt.glif</string>
+  <key>yabyatLig-tifi.rtl</key>
+  <string>yabyatL_ig-tifi.rtl.glif</string>
   <key>yacute</key>
   <string>yacute.glif</string>
+  <key>yad-tifi</key>
+  <string>yad-tifi.glif</string>
+  <key>yadd-tifi</key>
+  <string>yadd-tifi.glif</string>
+  <key>yadd-tifi.rtl</key>
+  <string>yadd-tifi.rtl.glif</string>
+  <key>yadh-tifi</key>
+  <string>yadh-tifi.glif</string>
+  <key>yadh-tifi.alt</key>
+  <string>yadh-tifi.alt.glif</string>
+  <key>yadh-tifi.unused</key>
+  <string>yadh-tifi.unused.glif</string>
+  <key>yaf-tifi</key>
+  <string>yaf-tifi.glif</string>
+  <key>yaf-tifi.alt</key>
+  <string>yaf-tifi.alt.glif</string>
+  <key>yafyatLig-tifi</key>
+  <string>yafyatL_ig-tifi.glif</string>
+  <key>yafyatLig-tifi.alt</key>
+  <string>yafyatL_ig-tifi.alt.glif</string>
+  <key>yafyatLig-tifi.alt.rtl</key>
+  <string>yafyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yafyatLig-tifi.alt2</key>
+  <string>yafyatL_ig-tifi.alt2.glif</string>
+  <key>yafyatLig-tifi.alt2.rtl</key>
+  <string>yafyatL_ig-tifi.alt2.rtl.glif</string>
+  <key>yafyatLig-tifi.rtl</key>
+  <string>yafyatL_ig-tifi.rtl.glif</string>
+  <key>yaghTuareg-tifi</key>
+  <string>yaghT_uareg-tifi.glif</string>
+  <key>yaghh-tifi</key>
+  <string>yaghh-tifi.glif</string>
+  <key>yaghh-tifi.alt</key>
+  <string>yaghh-tifi.alt.glif</string>
+  <key>yaghh-tifi.alt.unused</key>
+  <string>yaghh-tifi.alt.unused.glif</string>
+  <key>yaghhyatLig-tifi</key>
+  <string>yaghhyatL_ig-tifi.glif</string>
+  <key>yaghhyatLig-tifi.alt</key>
+  <string>yaghhyatL_ig-tifi.alt.glif</string>
+  <key>yaghhyatLig-tifi.alt.rtl</key>
+  <string>yaghhyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yaghhyatLig-tifi.rtl</key>
+  <string>yaghhyatL_ig-tifi.rtl.glif</string>
+  <key>yagnTuareg-tifi</key>
+  <string>yagnT_uareg-tifi.glif</string>
+  <key>yagnTuareg-tifi.alt</key>
+  <string>yagnT_uareg-tifi.alt.glif</string>
+  <key>yah-tifi</key>
+  <string>yah-tifi.glif</string>
+  <key>yahTuareg-tifi</key>
+  <string>yahT_uareg-tifi.glif</string>
+  <key>yahyatLig-tifi</key>
+  <string>yahyatL_ig-tifi.glif</string>
+  <key>yahyatLig-tifi.rtl</key>
+  <string>yahyatL_ig-tifi.rtl.glif</string>
+  <key>yaj-tifi</key>
+  <string>yaj-tifi.glif</string>
+  <key>yajyatLig-tifi</key>
+  <string>yajyatL_ig-tifi.glif</string>
+  <key>yajyatLig-tifi.rtl</key>
+  <string>yajyatL_ig-tifi.rtl.glif</string>
+  <key>yakTuareg-tifi</key>
+  <string>yakT_uareg-tifi.glif</string>
+  <key>yakTuareg-tifi.orig</key>
+  <string>yakT_uareg-tifi.orig.glif</string>
+  <key>yakTuareg-tifi.rtl</key>
+  <string>yakT_uareg-tifi.rtl.glif</string>
+  <key>yakTuareg-tifi.unused.001</key>
+  <string>yakT_uareg-tifi.unused.001.glif</string>
+  <key>yakTuareg-tifi.unused.002</key>
+  <string>yakT_uareg-tifi.unused.002.glif</string>
+  <key>yakhTuareg-tifi</key>
+  <string>yakhT_uareg-tifi.glif</string>
+  <key>yal-tifi</key>
+  <string>yal-tifi.glif</string>
+  <key>yal-tifi.raised</key>
+  <string>yal-tifi.raised.glif</string>
+  <key>yal-tifi.slant</key>
+  <string>yal-tifi.slant.glif</string>
+  <key>yal-tifi.slant.rtl</key>
+  <string>yal-tifi.slant.rtl.glif</string>
+  <key>yalyakTuaregLig-tifi</key>
+  <string>yalyakT_uaregL_ig-tifi.glif</string>
+  <key>yalyatLig-tifi</key>
+  <string>yalyatL_ig-tifi.glif</string>
+  <key>yalyatLig-tifi.alt</key>
+  <string>yalyatL_ig-tifi.alt.glif</string>
+  <key>yalyatLig-tifi.rtl</key>
+  <string>yalyatL_ig-tifi.rtl.glif</string>
+  <key>yam-tifi</key>
+  <string>yam-tifi.glif</string>
+  <key>yam-tifi.rtl</key>
+  <string>yam-tifi.rtl.glif</string>
+  <key>yamyatLig-tifi</key>
+  <string>yamyatL_ig-tifi.glif</string>
+  <key>yamyatLig-tifi.alt</key>
+  <string>yamyatL_ig-tifi.alt.glif</string>
+  <key>yamyatLig-tifi.alt.rtl</key>
+  <string>yamyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yamyatLig-tifi.rtl</key>
+  <string>yamyatL_ig-tifi.rtl.glif</string>
+  <key>yan-tifi</key>
+  <string>yan-tifi.glif</string>
+  <key>yan-tifi.raised</key>
+  <string>yan-tifi.raised.glif</string>
+  <key>yan-tifi.slant</key>
+  <string>yan-tifi.slant.glif</string>
+  <key>yan-tifi.slant.rtl</key>
+  <string>yan-tifi.slant.rtl.glif</string>
+  <key>yangTuareg-tifi</key>
+  <string>yangT_uareg-tifi.glif</string>
+  <key>yanyadLig-tifi</key>
+  <string>yanyadL_ig-tifi.glif</string>
+  <key>yanyadhLig-tifi</key>
+  <string>yanyadhL_ig-tifi.glif</string>
+  <key>yanyafLig-tifi</key>
+  <string>yanyafL_ig-tifi.glif</string>
+  <key>yanyafLig-tifi.alt</key>
+  <string>yanyafL_ig-tifi.alt.glif</string>
+  <key>yanyaghhLig-tif</key>
+  <string>yanyaghhL_ig-tif.glif</string>
+  <key>yanyaghhLig-tif.alt</key>
+  <string>yanyaghhL_ig-tif.alt.glif</string>
+  <key>yanyajLig-tifi</key>
+  <string>yanyajL_ig-tifi.glif</string>
+  <key>yanyakTuaregLig-tifi</key>
+  <string>yanyakT_uaregL_ig-tifi.glif</string>
+  <key>yanyakTuaregLig-tifi.alt</key>
+  <string>yanyakT_uaregL_ig-tifi.alt.glif</string>
+  <key>yanyasLig-tifi</key>
+  <string>yanyasL_ig-tifi.glif</string>
+  <key>yanyasLig-tifi.rtl</key>
+  <string>yanyasL_ig-tifi.rtl.glif</string>
+  <key>yanyashLig-tifi</key>
+  <string>yanyashL_ig-tifi.glif</string>
+  <key>yanyashLig-tifi.rtl</key>
+  <string>yanyashL_ig-tifi.rtl.glif</string>
+  <key>yanyatLig-tifi</key>
+  <string>yanyatL_ig-tifi.glif</string>
+  <key>yanyatLig-tifi.alt</key>
+  <string>yanyatL_ig-tifi.alt.glif</string>
+  <key>yanyatLig-tifi.alt.rtl</key>
+  <string>yanyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yanyatLig-tifi.alt2</key>
+  <string>yanyatL_ig-tifi.alt2.glif</string>
+  <key>yanyatLig-tifi.rtl</key>
+  <string>yanyatL_ig-tifi.rtl.glif</string>
+  <key>yaqTuareg-tifi</key>
+  <string>yaqT_uareg-tifi.glif</string>
+  <key>yar-tifi</key>
+  <string>yar-tifi.glif</string>
+  <key>yaryakTuaregLig-tifi</key>
+  <string>yaryakT_uaregL_ig-tifi.glif</string>
+  <key>yaryatLig-tifi</key>
+  <string>yaryatL_ig-tifi.glif</string>
+  <key>yaryatLig-tifi.alt</key>
+  <string>yaryatL_ig-tifi.alt.glif</string>
+  <key>yaryatLig-tifi.alt2</key>
+  <string>yaryatL_ig-tifi.alt2.glif</string>
+  <key>yaryatLig-tifi.rtl</key>
+  <string>yaryatL_ig-tifi.rtl.glif</string>
+  <key>yas-tifi</key>
+  <string>yas-tifi.glif</string>
+  <key>yash-tifi</key>
+  <string>yash-tifi.glif</string>
+  <key>yash-tifi.rtl</key>
+  <string>yash-tifi.rtl.glif</string>
+  <key>yashyakTuaregLig-tifi</key>
+  <string>yashyakT_uaregL_ig-tifi.glif</string>
+  <key>yashyakTuaregLig-tifi.rtl</key>
+  <string>yashyakT_uaregL_ig-tifi.rtl.glif</string>
+  <key>yashyatLig-tifi</key>
+  <string>yashyatL_ig-tifi.glif</string>
+  <key>yashyatLig-tifi.rtl</key>
+  <string>yashyatL_ig-tifi.rtl.glif</string>
+  <key>yass-tifi</key>
+  <string>yass-tifi.glif</string>
+  <key>yasyakTuaregLig-tifi</key>
+  <string>yasyakT_uaregL_ig-tifi.glif</string>
+  <key>yasyatLig-tifi</key>
+  <string>yasyatL_ig-tifi.glif</string>
+  <key>yasyatLig-tifi.alt</key>
+  <string>yasyatL_ig-tifi.alt.glif</string>
+  <key>yasyatLig-tifi.alt.rtl</key>
+  <string>yasyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yasyatLig-tifi.alt2</key>
+  <string>yasyatL_ig-tifi.alt2.glif</string>
+  <key>yasyatLig-tifi.alt2.rtl</key>
+  <string>yasyatL_ig-tifi.alt2.rtl.glif</string>
+  <key>yasyatLig-tifi.rtl</key>
+  <string>yasyatL_ig-tifi.rtl.glif</string>
+  <key>yat-tifi</key>
+  <string>yat-tifi.glif</string>
+  <key>yatt-tifi</key>
+  <string>yatt-tifi.glif</string>
+  <key>yatt-tifi.rtl</key>
+  <string>yatt-tifi.rtl.glif</string>
+  <key>yay-tifi</key>
+  <string>yay-tifi.glif</string>
+  <key>yay-tifi.rtl</key>
+  <string>yay-tifi.rtl.glif</string>
+  <key>yay-tifi.super</key>
+  <string>yay-tifi.super.glif</string>
+  <key>yay-tifi.super.rtl</key>
+  <string>yay-tifi.super.rtl.glif</string>
+  <key>yaz-tifi</key>
+  <string>yaz-tifi.glif</string>
+  <key>yaz-tifi.alt</key>
+  <string>yaz-tifi.alt.glif</string>
+  <key>yazhAhaggar-tifi</key>
+  <string>yazhA_haggar-tifi.glif</string>
+  <key>yazhAhaggar-tifi.alt</key>
+  <string>yazhA_haggar-tifi.alt.glif</string>
+  <key>yazhAhaggaryatLig-tifi</key>
+  <string>yazhA_haggaryatL_ig-tifi.glif</string>
+  <key>yazhAhaggaryatLig-tifi.alt</key>
+  <string>yazhA_haggaryatL_ig-tifi.alt.glif</string>
+  <key>yazhAhaggaryatLig-tifi.alt.rtl</key>
+  <string>yazhA_haggaryatL_ig-tifi.alt.rtl.glif</string>
+  <key>yazhAhaggaryatLig-tifi.rtl</key>
+  <string>yazhA_haggaryatL_ig-tifi.rtl.glif</string>
+  <key>yazhTuareg-tifi</key>
+  <string>yazhT_uareg-tifi.glif</string>
+  <key>yazhyatLig-tifi</key>
+  <string>yazhyatL_ig-tifi.glif</string>
+  <key>yazhyatLig-tifi.alt</key>
+  <string>yazhyatL_ig-tifi.alt.glif</string>
+  <key>yazhyatLig-tifi.alt.rtl</key>
+  <string>yazhyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yazhyatLig-tifi.alt2</key>
+  <string>yazhyatL_ig-tifi.alt2.glif</string>
+  <key>yazhyatLig-tifi.rtl</key>
+  <string>yazhyatL_ig-tifi.rtl.glif</string>
+  <key>yazyatLig-tifi</key>
+  <string>yazyatL_ig-tifi.glif</string>
+  <key>yazyatLig-tifi.alt</key>
+  <string>yazyatL_ig-tifi.alt.glif</string>
+  <key>yazyatLig-tifi.alt.rtl</key>
+  <string>yazyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yazyatLig-tifi.rtl</key>
+  <string>yazyatL_ig-tifi.rtl.glif</string>
   <key>ydieresis</key>
   <string>ydieresis.glif</string>
   <key>ydotbelow</key>
   <string>ydotbelow.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
+  <key>yi-tifi</key>
+  <string>yi-tifi.glif</string>
+  <key>yi-tifi.rtl</key>
+  <string>yi-tifi.rtl.glif</string>
+  <key>yi-tifi.super</key>
+  <string>yi-tifi.super.glif</string>
+  <key>yi-tifi.super.rtl</key>
+  <string>yi-tifi.super.rtl.glif</string>
+  <key>yiyatLig-tifi</key>
+  <string>yiyatL_ig-tifi.glif</string>
+  <key>yiyatLig-tifi.rtl</key>
+  <string>yiyatL_ig-tifi.rtl.glif</string>
+  <key>yo-tifi</key>
+  <string>yo-tifi.glif</string>
+  <key>yo-tifi.super</key>
+  <string>yo-tifi.super.glif</string>
+  <key>yu-tifi</key>
+  <string>yu-tifi.glif</string>
+  <key>yu-tifi.alt</key>
+  <string>yu-tifi.alt.glif</string>
+  <key>yu-tifi.super</key>
+  <string>yu-tifi.super.glif</string>
+  <key>yuyatLig-tifi</key>
+  <string>yuyatL_ig-tifi.glif</string>
+  <key>yuyatLig-tifi.alt</key>
+  <string>yuyatL_ig-tifi.alt.glif</string>
+  <key>yuyatLig-tifi.alt.rtl</key>
+  <string>yuyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yuyatLig-tifi.alt2</key>
+  <string>yuyatL_ig-tifi.alt2.glif</string>
+  <key>yuyatLig-tifi.alt2.rtl</key>
+  <string>yuyatL_ig-tifi.alt2.rtl.glif</string>
+  <key>yuyatLig-tifi.rtl</key>
+  <string>yuyatL_ig-tifi.rtl.glif</string>
   <key>z</key>
   <string>z.glif</string>
   <key>zcaron</key>

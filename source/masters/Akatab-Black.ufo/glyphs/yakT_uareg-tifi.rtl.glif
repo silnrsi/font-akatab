@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yakTuareg-tifi.rtl" format="2">
+  <advance width="956"/>
+  <anchor x="398" y="1100" name="T"/>
+  <outline>
+    <component base="_Dot" xScale="-1" yScale="-1" xOffset="1276" yOffset="1105"/>
+    <component base="_Dot" xScale="-1" yScale="-1" xOffset="1276" yOffset="1665"/>
+    <component base="_Dot" xScale="-1" yScale="-1" xOffset="1006" yOffset="1365"/>
+  </outline>
+</glyph>

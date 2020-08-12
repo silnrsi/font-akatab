@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yasyatLig-tifi.alt2.rtl" format="2">
+  <advance width="1438"/>
+  <outline>
+    <component base="_VerticalOval" xOffset="-24"/>
+    <component base="_Dot" xOffset="-125" yOffset="-285"/>
+    <component base="_PlusMedium" xOffset="455" yOffset="470"/>
+  </outline>
+</glyph>

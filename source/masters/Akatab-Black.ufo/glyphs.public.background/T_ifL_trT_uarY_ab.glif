@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TifLtrTuarYab" format="2">
-  <outline>
-    <component base="_VerticalOval" xOffset="-24"/>
-    <component base="_VerticalBarJoining" xScale="0.8" yScale="0.8" xOffset="118" yOffset="130"/>
-  </outline>
-</glyph>

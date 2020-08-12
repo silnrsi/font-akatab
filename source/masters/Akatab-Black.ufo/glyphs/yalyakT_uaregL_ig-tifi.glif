@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yalyakTuaregLig-tifi" format="2">
+  <advance width="929"/>
+  <outline>
+    <component base="_VerticalBarShortForTopDots" xOffset="-450"/>
+    <component base="_Dot" xOffset="-445" yOffset="595"/>
+    <component base="_Dot" xOffset="67" yOffset="595"/>
+    <component base="_Dot" xOffset="-199" yOffset="872"/>
+    <component base="_VerticalBarShortForTopDots" xOffset="-107"/>
+  </outline>
+</glyph>

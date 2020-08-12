@@ -3,13 +3,20 @@
   <advance width="1142"/>
   <unicode hex="02DC"/>
   <outline>
-    <component base="tildecmb" xOffset="569"/>
+    <component base="tildecomb" xOffset="569"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
       </array>
     </dict>
   </lib>

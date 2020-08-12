@@ -3,22 +3,22 @@
 #**********************************
 #  Glyphs
 #**********************************
-
+# Temp removal of: Bdotbelow bdotbelow Wdotbelow wdotbelow 
 @GDEF_bases = [ A Ae AAcute Abreve ACircum Adieresis AGrave Aring Aasciitilde B C Ccedilla D E EAcute Ebreve ECircum Edieresis		
-    EGrave Eng.UCStyle Eth F G H I IAcute Ibreve ICircum Idieresis IGrave J K L M N Nasciitilde O LigOe OAcute Obreve OCircum		
+    EGrave Eng Eth F G H I IAcute Ibreve ICircum Idieresis IGrave J K L M N Nasciitilde O LigOe OAcute Obreve OCircum		
     Odieresis OGrave OStrk Oasciitilde P Q R S Scaron T Thorn U UAcute Ubreve UCircum Udieresis UGrave V W X Y YAcute Ydieresis Z		
     Zcaron a aAcute abreve aCircum acute adieresis ae aGrave aring asciicircum aasciitilde b breve c caron ccedilla cedilla d		
     dieresis dotlessI e eAcute ebreve eCircum edieresis eGrave eight eng eth f five fHook four g sharpS grave h hyphen i		
     iAcute ibreve iCircum idieresis iGrave j k l m n nine nasciitilde o oAcute obreve oCircum odieresis ligOe ogonek oGrave one		
     onesuperior oStrk oasciitilde p pi q r s scaron seven six summation t thorn three threesuperior two twosuperior u nbspace softhyphen RevE		
-    Gamma turnedE gamma ModTriangularcolon BDotBlw bDotBlw DDotBlw dDotBlw HDotBlw hDotBlw KDotBlw kDotBlw LDotBlw lDotBlw MDotBlw mDotBlw NDotBlw nDotBlw RDotBlw rDotBlw SDotBlw		
-    sDotBlw TDotBlw tDotBlw WDotBlw wDotBlw ZDotBlw zDotBlw YDotBlw yDotBlw uni2000 uni2001 uni2002 uni2003 ThreePeruni2003 FourPeruni2003 SixPeruni2003 uni2007 uni2008 uni2009 uni200A hyphentwo		
-    NonBreakinghyphentwo Narrownbspace dottedcircle ya-tifib ya-tifighh ya-tifighh.alt ya-tifij ya-tifid ya-tifidh ya-tifidd ya-tifif ya-tifif.alt yakTuareg-tifi yah-tifi yahTuareg-tifi yakTuareg-tifih yaqTuareg-tifi yi-tifi ya-tifizh		
+    uni0194 turnedE gammalatin ModTriangularcolon  Ddotbelow ddotbelow Hdotbelow hdotbelow Kdotbelow kdotbelow Ldotbelow ldotbelow Mdotbelow mdotbelow Ndotbelow ndotbelow Rdotbelow rdotbelow Sdotbelow		
+    sdotbelow Tdotbelow tdotbelow Zdotbelow zdotbelow Ydotbelow ydotbelow enquad emquad enspace emspace threeperemspace fourperemspace sixperemspace figurespace punctuationspace thinspace hairspace hyphentwo		
+    NonBreakinghyphentwo narrownbspace circledotted ya-tifib ya-tifighh ya-tifighh.alt ya-tifij ya-tifid ya-tifidh ya-tifidd ya-tifif ya-tifif.alt yakTuareg-tifi yah-tifi yahTuareg-tifi yakTuareg-tifih yaqTuareg-tifi yi-tifi ya-tifizh		
     ya-tifizh.alt yazhTuareg-tifi ya-tifil ya-tifil.slant ya-tifim ya-tifin ya-tifin.slant yagnTuareg-tifi yagnTuareg-tifi.alt yangTuareg-tifi yu-tifi yu-tifi.alt ya-tifir yaghTuareg-tifi ya-tifis ya-tifish ya-tifit		
     ya-tifitt ya-tifiy ya-tifiz ya-tifiz.alt uAcute ubreve uCircum udieresis uGrave v w x y yAcute ydieresis z zcaron zero ] ;	
 
 @GDEF_marks = [ acutecomb dotbelowcmb gravecomb tildecomb TifConsLengthMark circumflexcmb Combmacron overlinecmb Combbreve Combdotaccent TifVowelMark Combdieresis Combring caroncmb		
-    Combcedilla uni034F ] ;	
+    Combcedilla CGJ ] ;	
 
 table GDEF {
 GlyphClassDef
@@ -51,8 +51,8 @@ GlyphClassDef
     markClass Combring <anchor -572 1100> @MARK_U ;
     markClass caroncmb <anchor -570 1100> @MARK_U ;
     markClass Combcedilla <anchor -430 0> @MARK_H ;
-    markClass uni034F <anchor 0 0> @MARK_L ;
-    markClass uni034F <anchor 0 0> @MARK_U ;
+    markClass CGJ <anchor 0 0> @MARK_L ;
+    markClass CGJ <anchor 0 0> @MARK_U ;
 
 
 #**********************************

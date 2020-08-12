@@ -1,55 +1,54 @@
-<?xml version="1.0"?>
 <classes>
   <class name="cNoTif">
-    AcuteAccent AlmostEqTo Ampersand Apos Asterisk AtSgn Breve BrokenBar Bullet BulletOperator 
-    Caron Cedilla CentSgn CircumAccent Colon Comma.latin CopyrightSgn CurrSgn Dagger DblAcuteAccent 
-    DblDagger DblLow9QuotMrk DegreeSgn Diaer DigitEight DigitFive DigitFour DigitNine DigitOne 
-    DigitSeven DigitSix DigitThree DigitTwo DigitZero DivSgn DollarSgn DotAbv DottedCirc 
-    EmDash EmQuad EmSpace EnDash EnQuad EnSpace EqSgn EuroSgn ExclamationMrk.latin 
-    FemOrdIndicator FigureDash FigureSpace FourPerEmSpace FracSlash FullStop.latin GTOrEqTo GTSgn GrSmPi GraveAccent 
-    HairSpace HorizBar HorizEllipsis Hyphen HyphenMinus Hyphen_Soft HyphenationPt Increment Infinity Integral 
-    InvExclamationMrk InvQstnMrk LTOrEqTo LTSgn LftCurlyBrac LftDblQuotMrk LftParen LftPtngDblAngQuotMrk 
-    LftSglQuotMrk LftSqrBrac LftToRtEmbedding LftToRtMrk LftToRtOverride LineSep LowLine Lozenge 
-    LtnCapA LtnCapAAcute LtnCapABreve LtnCapACircum LtnCapADiaer LtnCapAGrave LtnCapARingAbv LtnCapATilde 
-    LtnCapAe LtnCapB LtnCapBDotBlw LtnCapC LtnCapCCedilla LtnCapD LtnCapDDotBlw 
-    LtnCapE LtnCapEAcute LtnCapEBreve LtnCapECircum LtnCapEDiaer LtnCapEGrave LtnCapEng.UCStyle LtnCapEth 
-    LtnCapF LtnCapG LtnCapGamma LtnCapH LtnCapHDotBlw LtnCapI LtnCapIAcute LtnCapIBreve LtnCapICircum LtnCapIDiaer LtnCapIGrave 
-    LtnCapJ LtnCapK LtnCapKDotBlw LtnCapL LtnCapLDotBlw LtnCapLigOe LtnCapM LtnCapMDotBlw LtnCapN LtnCapNDotBlw LtnCapNTilde 
-    LtnCapO LtnCapOAcute LtnCapOBreve LtnCapOCircum LtnCapODiaer LtnCapOGrave LtnCapOStrk LtnCapOTilde 
-    LtnCapP LtnCapQ LtnCapR LtnCapRDotBlw LtnCapRevE LtnCapS LtnCapSCaron LtnCapSDotBlw LtnCapT LtnCapTDotBlw LtnCapThorn 
-    LtnCapU LtnCapUAcute LtnCapUBreve LtnCapUCircum LtnCapUDiaer LtnCapUGrave LtnCapV LtnCapW LtnCapWDotBlw LtnCapX 
-    LtnCapY LtnCapYAcute LtnCapYDiaer LtnCapYDotBlw LtnCapZ LtnCapZCaron LtnCapZDotBlw 
-    LtnSmA LtnSmAAcute LtnSmABreve LtnSmACircum LtnSmADiaer LtnSmAGrave LtnSmARingAbv LtnSmATilde LtnSmAe 
-    LtnSmB LtnSmBDotBlw LtnSmC LtnSmCCedilla LtnSmD LtnSmDDotBlw LtnSmDotlessI 
-    LtnSmE LtnSmEAcute LtnSmEBreve LtnSmECircum LtnSmEDiaer LtnSmEGrave LtnSmEng LtnSmEth 
-    LtnSmF LtnSmFHook LtnSmG LtnSmGamma LtnSmH LtnSmHDotBlw 
-    LtnSmI LtnSmIAcute LtnSmIBreve LtnSmICircum LtnSmIDiaer LtnSmIGrave LtnSmJ LtnSmK LtnSmKDotBlw 
-    LtnSmL LtnSmLDotBlw LtnSmLigFi LtnSmLigFl LtnSmLigOe LtnSmM LtnSmMDotBlw LtnSmN LtnSmNDotBlw LtnSmNTilde 
-    LtnSmO LtnSmOAcute LtnSmOBreve LtnSmOCircum LtnSmODiaer LtnSmOGrave LtnSmOStrk LtnSmOTilde LtnSmP LtnSmQ 
-    LtnSmR LtnSmRDotBlw LtnSmS LtnSmSCaron LtnSmSDotBlw LtnSmSharpS LtnSmT LtnSmTDotBlw LtnSmThorn LtnSmTurnedE 
-    LtnSmU LtnSmUAcute LtnSmUBreve LtnSmUCircum LtnSmUDiaer LtnSmUGrave LtnSmV LtnSmW LtnSmWDotBlw LtnSmX 
-    LtnSmY LtnSmYAcute LtnSmYDiaer LtnSmYDotBlw LtnSmZ LtnSmZCaron LtnSmZDotBlw 
-    Macron MascOrdIndicator MicroSgn MiddleDot ModCircumAccent ModTriangularColon MultSgn 
-    NAryProduct NArySummation NarrowNoBreakSpace NoBreakSpace NonBreakingHyphen NotEqTo NotSgn NumSgn 
-    ObjectReplChar Ogonek OhmSgn 
-    ParagraphSeparator PartialDiff PerMilleSgn PercentSgn PilcrowSgn PlusMinusSgn PlusSgn PopDirFormatting PoundSgn PuncSpace 
-    QstnMrk QuotMrk RegisteredSgn ReplChar ReverseSolidus RingAbv 
-    RtCurlyBrac RtDblQuotMrk RtParen RtPtngDblAngQuotMrk RtSglQuotMrk RtSqrBrac RtToLftEmbedding RtToLftMrk RtToLftOverride 
-    SectionSgn Semicolon SglLftPtngAngQuotMrk SglLow9QuotMrk SglRtPtngAngQuotMrk SixPerEmSpace SmTilde 
-    Solidus SqrRoot SupOne SupThree SupTwo ThinSpace ThreePerEmSpace Tilde TradeMrkSgn 
-    VertLine VulgFracOneHalf VulgFracOneQuarter VulgFracThreeQuarters YenSgn 
-    ZeroWidthJoiner ZeroWidthNoBreakSpace ZeroWidthNonJoiner ZeroWidthSpace uni007F
+    acute approxequal ampersand quotesingle asterisk at breve brokenbar bullet bulletoperator 
+    caron cedilla cent asciicircum colon Comma.latin copyright currency dagger hungarumlaut 
+    daggerdbl quotedblbase degree dieresis eight five four nine one 
+    seven six three two zero divide dollar dotaccent circledotted 
+    emdash emquad emspace endash enquad enspace equal Euro ExclamationMrk.latin 
+    ordfeminine figuredash figurespace fourperemspace fraction FullStop.latin greaterequal greater pi grave 
+    hairspace horizontalbar ellipsis hyphentwo hyphen softhyphen hyphenationpoint Delta infinity integral 
+    exclamdown questiondown lessequal less braceleft quotedblleft parenleft guillemotleft 
+    quoteleft bracketleft lefttorightembedding lefttorightmark lefttorightoverride lineseparator underscore lozenge 
+    A Aacute Abreve Acircumflex Adieresis Agrave Aring Atilde 
+    AE B Bdotbelow C Ccedilla D Ddotbelow 
+    E Eacute Ebreve Ecircumflex Edieresis Egrave Eng Eth 
+    F G Gammaafrican H Hdotbelow I Iacute Ibreve Icircumflex Idieresis Igrave 
+    J K Kdotbelow L Ldotbelow OE M Mdotbelow N Ndotbelow Ntilde 
+    O Oacute Obreve Ocircumflex Odieresis Ograve Oslash Otilde 
+    P Q R Rdotbelow Ereversed S Scaron Sdotbelow T Tdotbelow Thorn 
+    U Uacute Ubreve Ucircumflex Udieresis Ugrave V W Wdotbelow X 
+    Y Yacute Ydieresis Ydotbelow Z Zcaron Zdotbelow 
+    a aacute abreve acircumflex adieresis agrave aring atilde ae 
+    b bdotbelow c ccedilla d ddotbelow dotlessi 
+    e eacute ebreve ecircumflex edieresis egrave eng eth 
+    f florin g gammalatin h hdotbelow 
+    i iacute ibreve icircumflex idieresis igrave j k kdotbelow 
+    l ldotbelow fi fl oe m mdotbelow n ndotbelow ntilde 
+    o oacute obreve ocircumflex odieresis ograve oslash otilde p q 
+    r rdotbelow s scaron sdotbelow germandbls t tdotbelow thorn eturned 
+    u uacute ubreve ucircumflex udieresis ugrave v w wdotbelow x 
+    y yacute ydieresis ydotbelow z zcaron zdotbelow 
+    macron ordmasculine mu periodcentered circumflex colontriangularmod multiply 
+    product summation narrownbspace nbspace nonbreakinghyphen notequal logicalnot numbersign 
+    uniFFFC ogonek Omega 
+    paragraphseparator partialdiff perthousand percent paragraph plusminus plus popdirectionalformatting sterling punctuationspace 
+    question quotedbl registered uniFFFD backslash ring 
+    braceright quotedblright parenright guillemotright quoteright bracketright righttoleftembedding righttoleftmark righttoleftoverride 
+    section semicolon guilsinglleft quotesinglbase guilsinglright sixperemspace tilde 
+    slash radical onesuperior threesuperior twosuperior thinspace threeperemspace asciitilde trademark 
+    bar onehalf onequarter threequarters yen 
+    zerowidthjoiner uniFEFF zerowidthnonjoiner zerowidthspace uni007F
   </class>
   <class name="cTakesTDia_base">
-    TifLtrTuarYagh TifLtrTuarYak TifLtrTuarYaq TifLtrTuarYakh TifLtrTuarYah TifLtrYab TifLtrTuarYab 
-    TifLtrYar TifLtrYas TifLtrYad TifLtrYadh TifLtrYadd TifLtrYam TifLtrYatt TifLtrYaf TifLtrYaf.alt 
-    TifLtrYay TifLtrYi TifLtrYaghh TifLtrYaghh.alt TifLtrYaj TifLtrTuarYang TifLtrYan TifLtrYan.slant 
-    TifLtrYal TifLtrYal.slant TifLtrTuarYagn TifLtrTuarYagn.alt TifLtrYash TifLtrYat TifLtrTuarYaw 
-    TifLtrTuarYaw.alt TifLtrTuarYazh TifLtrYaz TifLtrYaz.alt TifLtrYazh TifLtrYazh.alt
-	TifLtrYadd.rtl TifLtrTuarYak.rtl TifLtrYi.rtl TifLtrYam.rtl TifLtrYash.rtl TifLtrYatt.rtl TifLtrYay.rtl
+    yaghTuareg-tifi yakTuareg-tifi yaqTuareg-tifi yakhTuareg-tifi yahTuareg-tifi yab-tifi yah-tifi 
+    yar-tifi yas-tifi yad-tifi yadh-tifi yadd-tifi yam-tifi yatt-tifi yaf-tifi yaf-tifi.alt 
+    yay-tifi yi-tifi yaghh-tifi yaghh-tifi.alt yaj-tifi yangTuareg-tifi yan-tifi yan-tifi.slant 
+    yal-tifi yal-tifi.slant yagnTuareg-tifi yagnTuareg-tifi.alt yash-tifi yat-tifi yu-tifi 
+    yu-tifi.alt yazhTuareg-tifi yaz-tifi yaz-tifi.alt yazhAhaggar-tifi yazhAhaggar-tifi.alt
+	yadd-tifi.rtl yakTuareg-tifi.rtl yi-tifi.rtl yam-tifi.rtl yash-tifi.rtl yatt-tifi.rtl yay-tifi.rtl
   </class>
   <class name="cTDia_comb">
-    CombAcute tildenosp CombRingAbv
+    acutecomb tildecomb ringcmb
   </class>
     <class name="c_TDia">
     TifShadda.alt TifShadda TifSukun
