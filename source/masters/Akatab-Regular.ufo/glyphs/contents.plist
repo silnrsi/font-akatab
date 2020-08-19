@@ -26,6 +26,8 @@
   <string>A_tilde.glif</string>
   <key>B</key>
   <string>B_.glif</string>
+  <key>Bdotbelow</key>
+  <string>B_dotbelow.glif</string>
   <key>C</key>
   <string>C_.glif</string>
   <key>CGJ</key>
@@ -162,6 +164,8 @@
   <string>V_.glif</string>
   <key>W</key>
   <string>W_.glif</string>
+  <key>Wdotbelow</key>
+  <string>W_dotbelow.glif</string>
   <key>X</key>
   <string>X_.glif</string>
   <key>Y</key>
@@ -290,6 +294,8 @@
   <string>backslash.glif</string>
   <key>bar</key>
   <string>bar.glif</string>
+  <key>bdotbelow</key>
+  <string>bdotbelow.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -806,6 +812,8 @@
   <string>v.glif</string>
   <key>w</key>
   <string>w.glif</string>
+  <key>wdotbelow</key>
+  <string>wdotbelow.glif</string>
   <key>wordjoiner</key>
   <string>wordjoiner.glif</string>
   <key>x</key>
