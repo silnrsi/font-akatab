@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Eng</key>
-  <string>E_ng.glif</string>
   <key>TifConsLengthMark</key>
   <string>T_ifC_onsL_engthM_ark.glif</string>
   <key>_VerticalBarMedLong</key>
