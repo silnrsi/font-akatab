@@ -3,8 +3,8 @@
   <advance width="629"/>
   <unicode hex="003B"/>
   <outline>
-    <component base="period" yOffset="688"/>
-    <component base="comma"/>
+    <component base="period.latin" yOffset="688"/>
+    <component base="comma.latin"/>
   </outline>
   <lib>
     <dict>
@@ -16,7 +16,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>period</string>
+          <string>period.latin</string>
         </dict>
         <dict>
           <key>alignment</key>
@@ -24,7 +24,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>comma</string>
+          <string>comma.latin</string>
         </dict>
       </array>
     </dict>

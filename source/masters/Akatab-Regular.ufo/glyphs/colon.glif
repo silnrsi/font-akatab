@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon" format="2">
-  <advance width="517"/>
+  <advance width="516"/>
   <unicode hex="003A"/>
   <outline>
-    <component base="period" yOffset="768"/>
-    <component base="period"/>
+    <component base="period.latin" yOffset="768"/>
+    <component base="period.latin"/>
   </outline>
   <lib>
     <dict>
@@ -16,7 +16,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>period</string>
+          <string>period.latin</string>
         </dict>
         <dict>
           <key>alignment</key>
@@ -24,7 +24,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>period</string>
+          <string>period.latin</string>
         </dict>
       </array>
     </dict>

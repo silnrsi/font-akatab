@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="2">
-  <advance width="517"/>
+  <advance width="516"/>
   <unicode hex="00B7"/>
   <outline>
-    <component base="period" yOffset="578"/>
+    <component base="period.latin" yOffset="578"/>
   </outline>
   <lib>
     <dict>
@@ -15,7 +15,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>period</string>
+          <string>period.latin</string>
         </dict>
       </array>
     </dict>
