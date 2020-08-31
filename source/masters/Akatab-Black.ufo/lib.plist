@@ -33,9 +33,6 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/ya-tifi/ya-tifi.alt/_Dot/yakTuareg-tifi/yahTuareg-tifi/_VerticalOval/yar-tifi/yam-tifi/_HorizontalBarMedShort1.5/yadd-tifi/yi-tifi/yaghh-tifi.alt/yan-tifi/_VerticalBar/_HorizontalBar/_Plus/yazhyatLig-tifi.alt2/yazyatLig-tifi.rtl/separator-tifi</string>
-    <string>/_Plus/_PlusLong/_PlusVeryLong/_PlusHorizontal/_PlusVertical/_PlusMedium/_PlusMediumHorizontal/_PlusMediumExtended/_PlusSmall</string>
-    <string>/yab-tifi/yabyatLig-tifi/yabyatLig-tifi.alt/yah-tifi/yahyatLig-tifi/yar-tifi/yaryakTuaregLig-tifi/yaryatLig-tifi/yaryatLig-tifi.alt/yaryatLig-tifi.alt2/yas-tifi/yasyakTuaregLig-tifi/yanyasLig-tifi/yasyatLig-tifi/yasyatLig-tifi.alt/yasyatLig-tifi.alt2/yabyatLig-tifi.rtl/yahyatLig-tifi.rtl/yaryatLig-tifi.rtl/yanyasLig-tifi.rtl/yasyatLig-tifi.rtl/yasyatLig-tifi.alt/yasyatLig-tifi.alt.rtl/yasyatLig-tifi.alt2/yasyatLig-tifi.alt2.rtl/_VerticalOval</string>
-    <string>/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -506,9 +503,9 @@
     <string>yay-tifi.super</string>
     <string>yi-tifi.super</string>
     <string>yo-tifi.super</string>
-    <string>Comma.latin</string>
-    <string>ExclamationMrk.latin</string>
-    <string>FullStop.latin</string>
+    <string>comma.latin</string>
+    <string>exclam.latin</string>
+    <string>period.latin</string>
     <string>fi</string>
     <string>fl</string>
     <string>uniFE00</string>
