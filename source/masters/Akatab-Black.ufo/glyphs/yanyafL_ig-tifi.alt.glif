@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yanyafLig-tifi.alt" format="2">
-  <advance width="1193"/>
+  <advance width="1173"/>
   <outline>
     <contour>
-      <point x="970" y="645"/>
-      <point x="970" y="681" type="curve" smooth="yes"/>
-      <point x="970" y="735"/>
-      <point x="929" y="758"/>
-      <point x="881" y="762" type="curve" smooth="yes"/>
-      <point x="803" y="769"/>
-      <point x="802" y="769"/>
-      <point x="690" y="769" type="curve" smooth="yes"/>
-      <point x="610" y="769"/>
-      <point x="651" y="766"/>
-      <point x="571" y="766" type="curve" smooth="yes"/>
-      <point x="407" y="766"/>
-      <point x="378" y="767"/>
-      <point x="339" y="767" type="curve" smooth="yes"/>
-      <point x="291" y="767"/>
-      <point x="290" y="777"/>
-      <point x="257" y="777" type="curve" smooth="yes"/>
-      <point x="227" y="777"/>
-      <point x="211" y="750"/>
-      <point x="211" y="714" type="curve" smooth="yes"/>
-      <point x="211" y="660"/>
-      <point x="252" y="637"/>
-      <point x="300" y="633" type="curve" smooth="yes"/>
-      <point x="378" y="626"/>
-      <point x="459" y="626"/>
-      <point x="571" y="626" type="curve" smooth="yes"/>
-      <point x="651" y="626"/>
-      <point x="610" y="629"/>
-      <point x="690" y="629" type="curve" smooth="yes"/>
-      <point x="854" y="629"/>
-      <point x="803" y="628"/>
-      <point x="842" y="628" type="curve" smooth="yes"/>
-      <point x="890" y="628"/>
-      <point x="891" y="618"/>
-      <point x="924" y="618" type="curve" smooth="yes"/>
-      <point x="954" y="618"/>
+      <point x="884" y="558" type="curve" smooth="yes"/>
+      <point x="944" y="558"/>
+      <point x="960" y="605"/>
+      <point x="960" y="681" type="curve" smooth="yes"/>
+      <point x="960" y="745"/>
+      <point x="919" y="813"/>
+      <point x="871" y="820" type="curve" smooth="yes"/>
+      <point x="813" y="828"/>
+      <point x="772" y="829"/>
+      <point x="680" y="829" type="curve" smooth="yes"/>
+      <point x="600" y="829"/>
+      <point x="641" y="827"/>
+      <point x="561" y="827" type="curve" smooth="yes"/>
+      <point x="437" y="827"/>
+      <point x="398" y="827"/>
+      <point x="359" y="827" type="curve" smooth="yes"/>
+      <point x="331" y="827"/>
+      <point x="310" y="837"/>
+      <point x="277" y="837" type="curve" smooth="yes"/>
+      <point x="217" y="837"/>
+      <point x="201" y="790"/>
+      <point x="201" y="714" type="curve" smooth="yes"/>
+      <point x="201" y="650"/>
+      <point x="242" y="582"/>
+      <point x="290" y="575" type="curve" smooth="yes"/>
+      <point x="348" y="567"/>
+      <point x="449" y="566"/>
+      <point x="561" y="566" type="curve" smooth="yes"/>
+      <point x="641" y="566"/>
+      <point x="600" y="569"/>
+      <point x="680" y="569" type="curve" smooth="yes"/>
+      <point x="714" y="569"/>
+      <point x="763" y="568"/>
+      <point x="802" y="568" type="curve" smooth="yes"/>
+      <point x="850" y="568"/>
+      <point x="851" y="558"/>
     </contour>
-    <component base="_VerticalBarShortTop" xOffset="-155" yOffset="60"/>
-    <component base="_HorizontalBarMed" xOffset="100" yOffset="-10"/>
-    <component base="_HorizontalBarMed" xOffset="100" yOffset="1245"/>
+    <component base="_VerticalBarShortTop" xOffset="-165" yOffset="60"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="55"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="1191"/>
   </outline>
 </glyph>
