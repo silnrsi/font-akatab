@@ -274,27 +274,27 @@ table(glyph)
 
 // Biconsonant ligatures
 
-c_2d4f_cons = (TifLtrYaghh  TifLtrYaj  TifLtrYad  TifLtrYadh  TifLtrYaf  TifLtrTuarYak  TifLtrYas  TifLtrYash  TifLtrYat
-	TifLtrYaghh_alt  TifLtrYaf_alt);
+c_2d4f_cons = (g_yaghh_tifi  g_yaj_tifi  g_yad_tifi  g_yadh_tifi  g_yaf_tifi  g_yak_tuareg_tifi  g_yas_tifi  g_yash_tifi  g_yat_tifi
+	g_yaghh_tifi_alt  g_yaf_tifi_alt);
 c_2d4f_cons_lig = (
-	TifLig_nghh  TifLig_nj  TifLig_nd  TifLig_ndh
-	TifLig_nf  TifLig_nk  TifLig_ns  TifLig_nsh  TifLig_nt
-	TifLig_nghh_alt  TifLig_nf_alt);
+	g_yanyaghh_lig_tif  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi
+	g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  g_yanyas_lig_tifi  g_yanyash_lig_tifi  g_yanyat_lig_tifi
+	g_yanyaghh_lig_tif_alt  g_yanyaf_lig_tifi_alt);
 
-c_cons_2d3e = (TifLtrYal  TifLtrYal_slant  TifLtrYal_raised  TifLtrYar  TifLtrYas  TifLtrYash);
-c_cons_2d3e_lig = (TifLig_lk  TifLig_lk  TifLig_lk  TifLig_rk  TifLig_sk  TifLig_shk);
+c_cons_2d3e = (g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  g_yas_tifi  g_yash_tifi);
+c_cons_2d3e_lig = (g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yaryak_tuareg_lig_tifi  g_yasyak_tuareg_lig_tifi  g_yashyak_tuareg_lig_tifi);
 
 c_cons_2d5c = (
-	TifLtrYab  TifLtrYaghh  TifLtrYaj  TifLtrYaf  TifLtrTuarYab
-	TifLtrYi  TifLtrYazh  TifLtrTuarYazh  TifLtrYal  TifLtrYal_slant  TifLtrYal_raised 
-	TifLtrYam  TifLtrTuarYaw  TifLtrYar  TifLtrYas  TifLtrYash  TifLtrYaz
-	TifLtrYaghh_alt  TifLtrYaf_alt  TifLtrYazh_alt  TifLtrTuarYaw_alt  TifLtrYaz_alt  );
+	g_yab_tifi  g_yaghh_tifi  g_yaj_tifi  g_yaf_tifi  g_yah_tifi
+	g_yi_tifi  g_yazh_ahaggar_tifi  g_yazh_tuareg_tifi  g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised
+	g_yam_tifi  g_yu_tifi  g_yar_tifi  g_yas_tifi  g_yash_tifi  g_yaz_tifi
+	g_yaghh_tifi_alt  g_yaf_tifi_alt  g_yazh_ahaggar_tifi_alt  g_yu_tifi_alt  g_yaz_tifi_alt  );
 c_cons_2d5c_lig = (
-	TifLig_bt  TifLig_ghht  TifLig_jt  TifLig_ft  TifLigTuar_bt
-	TifLig_yt  TifLig_zht  TifLig_zzt  TifLig_lt  TifLig_lt  TifLig_lt 
-	TifLig_mt  TifLig_wt  TifLig_rt  TifLig_st  TifLig_sht  TifLig_zt
-	TifLig_ghht_alt  TifLig_ft_alt  TifLig_zht_alt  TifLig_wt_alt2  
-	TifLig_zt_alt);
+	g_yabyat_lig_tifi  g_yaghhyat_lig_tifi  g_yajyat_lig_tifi  g_yafyat_lig_tifi  g_yahyat_lig_tifi
+	g_yiyat_lig_tifi  g_yazh_ahaggaryat_lig_tifi  g_yazhyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi
+	g_yamyat_lig_tifi  g_yuyat_lig_tifi  g_yaryat_lig_tifi  g_yasyat_lig_tifi  g_yashyat_lig_tifi  g_yazyat_lig_tifi
+	g_yaghhyat_lig_tifi_alt  g_yafyat_lig_tifi_alt  g_yazh_ahaggaryat_lig_tifi_alt  g_yuyat_lig_tifi_alt2
+	g_yazyat_lig_tifi_alt);
 
 
 endtable;  // glyph
@@ -306,7 +306,7 @@ pass(1)
 
 // Raised vertical-bar characters:
 // prevent substitution of third in sequence
-cno_raised  >  craised  /  (TifLtrYan TifLtrYal)  _  (TifLtrYan TifLtrYal) {directionality == 1};  // RTL
+cno_raised  >  craised  /  (g_yan_tifi g_yal_tifi)  _  (g_yan_tifi g_yal_tifi) {directionality == 1};  // RTL
 
 endpass; // 1
 
@@ -317,46 +317,46 @@ pass(2)
 cno_latin  >  clatin  /  cNoTif  _ ;
 
 // Raised vertical-bar characters:
-cno_raised  >  craised  /  _  (TifLtrYan TifLtrYal) {directionality == 1};  // RTL
-cno_raised  >  craised  /  (TifLtrYan TifLtrYal)  _ ;
+cno_raised  >  craised  /  _  (g_yan_tifi g_yal_tifi) {directionality == 1};  // RTL
+cno_raised  >  craised  /  (g_yan_tifi g_yal_tifi)  _ ;
 
 // Slanted vertical-bar characters:
-// cno_slant  >  cslant  /  (TifLtrYan TifLtrYal)  _ ;
+// cno_slant  >  cslant  /  (g_yan_tifi g_yal_tifi)  _ ;
 
 // Use Tif version of diacs when they attach to Tif characters:
-g__comb_acute     >  TifConsLengthMark_alt  /  cTakesTDia_base  _;
-g_tildenosp       >  TifConsLengthMark      /  cTakesTDia_base  _;
-(g__comb_dot_abv g__comb_ring_abv)  >  TifVowelMark  /  cTakesTDia_base  _;
+g_acutecomb     >  TifConsLengthMark_alt  /  cTakesTDia_base  _;
+g_tildecomb       >  TifConsLengthMark      /  cTakesTDia_base  _;
+(g_dotaccentcmb g_ringcmb)  >  TifVowelMark  /  cTakesTDia_base  _;
 
 
 // Alternate character forms
 
 if (f_2D30)
-TifLtrYa  >  TifLtrYa_alt;
+g_ya_tifi  >  g_ya_tifi_alt;
 endif;
 
 if (f_2D3C)
-TifLtrYaf  >  TifLtrYaf_alt;
+g_yaf_tifi  >  g_yaf_tifi_alt;
 endif;
 
 if (f_2D34)
-TifLtrYaghh  >  TifLtrYaghh_alt;
+g_yaghh_tifi  >  g_yaghh_tifi_alt;
 endif;
 
 if (f_2D50)
-TifLtrTuarYagn  >  TifLtrTuarYagn_alt;
+g_yagn_tuareg_tifi  >  g_yagn_tuareg_tifi_alt;
 endif;
 
 if (f_2D53)
-TifLtrTuarYaw  >  TifLtrTuarYaw_alt;
+g_yu_tifi  >  g_yu_tifi_alt;
 endif;
 
 if (f_2D63)
-TifLtrYaz  >  TifLtrYaz_alt;
+g_yaz_tifi  >  g_yaz_tifi_alt;
 endif;
 
 if (f_2D4B)
-TifLtrYazh  >  TifLtrYazh_alt;
+g_yazh_ahaggar_tifi  >  g_yazh_ahaggar_tifi_alt;
 endif;
 
 endpass; // 2
@@ -366,26 +366,26 @@ pass(3)   { Direction = RIGHT_TO_LEFT }
 
 // Biconsonant ligatures
 
-(TifLtrYan  TifLtrYan_raised)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(TifLtrYan  TifLtrYan_slant)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(TifLtrYan  TifLtrYan_slant_rtl)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_raised)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant_rtl)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
 
-c_cons_2d3e  TifConsJoiner  TifLtrTuarYak  >  c_cons_2d3e_lig:(1 2 3)  _  _;
-c_cons_2d5c  TifConsJoiner  TifLtrYat  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+c_cons_2d3e  g_consonantjoiner_tifi  g_yak_tuareg_tifi  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c  g_consonantjoiner_tifi  g_yat_tifi  >  c_cons_2d5c_lig:(1 2 3)  _  _;
 
 endpass;  // 3
 
 
-pass(4) 
+pass(4)
 
 // Biconsonant ligatures
 
-(TifLtrYan  TifLtrYan_raised)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(TifLtrYan  TifLtrYan_slant)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(TifLtrYan  TifLtrYan_slant_rtl)  TifConsJoiner  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_raised)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant_rtl)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
 
-c_cons_2d3e  TifConsJoiner  TifLtrTuarYak  >  c_cons_2d3e_lig:(1 2 3)  _  _;
-c_cons_2d5c  TifConsJoiner  TifLtrYat  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+c_cons_2d3e  g_consonantjoiner_tifi  g_yak_tuareg_tifi  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c  g_consonantjoiner_tifi  g_yat_tifi  >  c_cons_2d5c_lig:(1 2 3)  _  _;
 
 endpass;  // 4
 
@@ -393,61 +393,61 @@ endpass;  // 4
 pass(5)
 
 if (f_2D31_2D5C)
-TifLig_bt  >  TifLig_bt_alt;
+g_yabyat_lig_tifi  >  g_yabyat_lig_tifi_alt;
 endif;
 
 if (f_2D54_2D5C == 1)
-TifLig_rt  >  TifLig_rt_alt;
+g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_alt;
 endif;
 if (f_2D54_2D5C == 2)
-TifLig_rt  >  TifLig_rt_alt2;
+g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_alt2;
 endif;
 
 if (f_2D59_2D5C == 1)
-TifLig_st  >  TifLig_st_alt;
+g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_alt;
 endif;
 if (f_2D59_2D5C == 2)
-TifLig_st  >  TifLig_st_alt2;
+g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_alt2;
 endif;
 
 if (f_2D4E_2D5C)
-TifLig_mt  >  TifLig_mt_alt;
+g_yamyat_lig_tifi  >  g_yamyat_lig_tifi_alt;
 endif;
 
 if (f_2D3C_2D5C)
-TifLig_ft  >  TifLig_ft_alt2;
+g_yafyat_lig_tifi  >  g_yafyat_lig_tifi_alt2;
 endif;
 
 if (f_2D4F_2D3E)
-TifLig_nk  >  TifLig_nk_alt;
+g_yanyak_tuareg_lig_tifi  >  g_yanyak_tuareg_lig_tifi_alt;
 endif;
 
 if (f_2D4F_2D5C == 1)
-TifLig_nt  >  TifLig_nt_alt;
+g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_alt;
 endif;
 if (f_2D4F_2D5C == 2)
-TifLig_nt  >  TifLig_nt_alt2;
+g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_alt2;
 endif;
 
 if (f_2D4D_2D5C)
-TifLig_lt  >  TifLig_lt_alt;
+g_yalyat_lig_tifi  >  g_yalyat_lig_tifi_alt;
 endif;
 
 if (f_2D53_2D5C)
-TifLig_wt  >  TifLig_wt_alt;
+g_yuyat_lig_tifi  >  g_yuyat_lig_tifi_alt;
 endif;
 
 if (f_2D4C_2D5C == 1)
-TifLig_zzt  >  TifLig_zzt_alt;
+g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_alt;
 endif;
 if (f_2D4C_2D5C == 2)
-TifLig_zzt  >  TifLig_zzt_alt2;
+g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_alt2;
 endif;
 
 endpass;  // 5
 
 
-pass(6) 
+pass(6)
 
 cno_rtl	>	crtl / _ {directionality == 1};  // sub LTR with RTL glyphs
 
@@ -466,34 +466,19 @@ endtable;  // substitution
 #define attached	user1
 #define DIASTR4(x) [ x [ x [ x x?]?]?]?
 
-table(glyph)
-
-cnHDiaX = (cLDia cUDia cTDia);		// Not Cedilla
-cnLDiaX = (cHDia cUDia cTDia);		// Not Lower
-cnUDiaX = (cHDia cLDia cTDia);		// Not Upper
-cnTDiaX = (cHDia cLDia cUDia);		// Not Tifinagh acute/dot
-cDia =  (cHDia cLDia cUDia cTDia);	// Any (but not double dias)
-
-endtable;
-
-
 table(pos)
 
 //#define pos_rule(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
 #define pos_ruleSD(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; insert = 1; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
 
+// Latin
+	pos_ruleSD(cTakesaboveLCDia, caboveLCDia, aboveLCS, aboveLCM, cnaboveLCDia);      // Diacritics above on lowercase
+	pos_ruleSD(cTakesaboveUCDia, caboveUCDia, aboveUCS, aboveUCM, cnaboveUCDia);      // Diacritics above on uppercase
+	pos_ruleSD(cTakesbelowLCDia, cbelowLCDia, belowLCS, belowLCM, cnbelowLCDia);      // Diacritics below
+	pos_ruleSD(cTakesbaseLCDia, cbaseLCDia, baseLCS, baseLCM, cnbaseLCDia);           // Cedilla
+	pos_ruleSD(cTakesogonekLCDia, cogonekLCDia, ogonekLCS, ogonekLCM, cnogonekLCDia); // Ogonek
 
-//if (select_diac)
-	pos_ruleSD(cTakesHDia, cHDia, HS, HM, cnHDiaX);
-	pos_ruleSD(cTakesLDia, cLDia, LS, LM, cnLDiaX);
-	pos_ruleSD(cTakesUDia, cUDia, US, UM, cnUDiaX);
-	pos_ruleSD(cTakesTDia_base, cTDia, TS, TM, cnTDiaX);
-//else
-//	pos_rule(cTakesHDia, cHDia, HS, HM, cnHDiaX);
-//	pos_rule(cTakesLDia, cLDia, LS, LM, cnLDiaX);
-//	pos_rule(cTakesUDia, cUDia, US, UM, cnUDiaX);
-//	pos_rule(cTakesTDia_base, cTDia, TS, TM, cnTDiaX);
-//endif;
-
+// Tifinagh
+	pos_ruleSD(cTakesTDia, cTDia, TS, TM, cnTDia); // Diacritics on Tifinagh bases
 
 endtable; // positioning
