@@ -3,7 +3,6 @@
   <advance width="1517"/>
   <outline>
     <contour>
-      <point x="751" y="1038"/>
       <point x="576" y="1038" type="curve" smooth="yes"/>
       <point x="414" y="1038"/>
       <point x="293" y="1193"/>
@@ -27,9 +26,9 @@
       <point x="870" y="1370"/>
       <point x="859" y="1328" type="curve" smooth="yes"/>
       <point x="845" y="1276"/>
+      <point x="751" y="1038"/>
     </contour>
     <contour>
-      <point x="370" y="355"/>
       <point x="545" y="355" type="curve" smooth="yes"/>
       <point x="707" y="355"/>
       <point x="828" y="200"/>
@@ -53,6 +52,7 @@
       <point x="251" y="23"/>
       <point x="262" y="65" type="curve" smooth="yes"/>
       <point x="276" y="117"/>
+      <point x="370" y="355"/>
     </contour>
     <component base="_VerticalBarMedium" xOffset="472" yOffset="359"/>
     <component base="_Plus" xOffset="677" yOffset="317"/>
