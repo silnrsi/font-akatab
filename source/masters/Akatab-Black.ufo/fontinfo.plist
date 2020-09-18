@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2010-2020, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab". Non-Tifinagh glyphs from Source Sans Pro, copyright 2010–2019 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.</string>
+  <string>Copyright (c) 2010-2020, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010–2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
   <integer>-567</integer>
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2020/09/18 15:00:30</string>
+  <string>2020/09/18 15:48:49</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
