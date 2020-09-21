@@ -447,10 +447,10 @@ Sans/space serift/space/yam-tifi/yaghTuareg-tifi/yas-tifi/yi-tifi/space/yu-tifi/
     <string>yiyatLig-tifi</string>
     <string>yaghh-tifi</string>
     <string>yaghhyatLig-tifi</string>
-    <string>yanyaghhLig-tif</string>
+    <string>yanyaghhLig-tifi</string>
     <string>yaghh-tifi.alt</string>
     <string>yaghhyatLig-tifi.alt</string>
-    <string>yanyaghhLig-tif.alt</string>
+    <string>yanyaghhLig-tifi.alt</string>
     <string>yaj-tifi</string>
     <string>yanyajLig-tifi</string>
     <string>yajyatLig-tifi</string>
@@ -811,9 +811,9 @@ Sans/space serift/space/yam-tifi/yaghTuareg-tifi/yas-tifi/yi-tifi/space/yu-tifi/
     <string>uni2D4F_uni2D7F_uni2D3C</string>
     <key>yanyafLig-tifi.alt</key>
     <string>uni2D4F_uni2D7F_uni2D3C.alt</string>
-    <key>yanyaghhLig-tif</key>
+    <key>yanyaghhLig-tifi</key>
     <string>uni2D4F_uni2D7F_uni2D34</string>
-    <key>yanyaghhLig-tif.alt</key>
+    <key>yanyaghhLig-tifi.alt</key>
     <string>uni2D4F_uni2D7F_uni2D34.alt</string>
     <key>yanyajLig-tifi</key>
     <string>uni2D4F_uni2D7F_uni2D36</string>
