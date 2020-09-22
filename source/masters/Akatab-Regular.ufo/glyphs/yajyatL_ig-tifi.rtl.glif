@@ -2,9 +2,7 @@
 <glyph name="yajyatLig-tifi.rtl" format="2">
   <advance width="1436"/>
   <outline>
-    <component base="_VerticalBarShortForTopDots" xScale="-1" yScale="-1" xOffset="1607" yOffset="1100"/>
-    <component base="_Dot" xOffset="-62" yOffset="595"/>
-    <component base="_Dot" xOffset="450" yOffset="595"/>
     <component base="_Plus" xScale="-1" yScale="-1" xOffset="852" yOffset="919"/>
+    <component base="yaj-tifi" xOffset="372"/>
   </outline>
 </glyph>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yanyakTuaregLig-tifi" format="2">
-  <advance width="978"/>
+  <advance width="979"/>
   <outline>
-    <component base="_VerticalBarShortForTopDots" xOffset="-257"/>
-    <component base="_k" xOffset="-1" yOffset="-300"/>
+    <component base="_VerticalBarShortForTopDots" xOffset="-256"/>
+    <component base="_k" yOffset="-300"/>
   </outline>
 </glyph>

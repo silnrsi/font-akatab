@@ -4,7 +4,7 @@
   <unicode hex="2D4D"/>
   <anchor x="544" y="1393" name="T"/>
   <outline>
-    <component base="_VerticalBar" xOffset="29"/>
-    <component base="_VerticalBar" xOffset="-455"/>
+    <component base="_VerticalBar" xOffset="34"/>
+    <component base="_VerticalBar" xOffset="-460"/>
   </outline>
 </glyph>

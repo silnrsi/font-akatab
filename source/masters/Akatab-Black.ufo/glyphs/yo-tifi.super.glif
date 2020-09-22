@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yo-tifi.super" format="2">
-  <advance width="747"/>
+  <advance width="773"/>
   <unicode hex="E304"/>
   <outline>
-    <component base="_Dot" xScale="0.76923" yScale="0.76923" xOffset="-295" yOffset="957"/>
-    <component base="_Dot" xScale="0.76923" yScale="0.76923" xOffset="22" yOffset="957"/>
+    <component base="yo-tifi" xScale="0.77" yScale="0.77" xOffset="-36" yOffset="965"/>
   </outline>
   <lib>
     <dict>

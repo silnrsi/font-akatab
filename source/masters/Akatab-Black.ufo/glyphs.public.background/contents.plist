@@ -10,14 +10,10 @@
   <string>_P_lusS_mall.glif</string>
   <key>_VerticalBarJoining</key>
   <string>_V_erticalB_arJ_oining.glif</string>
+  <key>_VerticalBarMedLong</key>
+  <string>_V_erticalB_arM_edL_ong.glif</string>
   <key>_VerticalBarSmall</key>
   <string>_V_erticalB_arS_mall.glif</string>
-  <key>comma</key>
-  <string>comma.glif</string>
-  <key>exclam</key>
-  <string>exclam.glif</string>
-  <key>period</key>
-  <string>period.glif</string>
   <key>separator-tifi</key>
   <string>separator-tifi.glif</string>
   <key>yab-tifi</key>
@@ -44,6 +40,8 @@
   <string>yal-tifi.raised.glif</string>
   <key>yan-tifi.slant.rtl</key>
   <string>yan-tifi.slant.rtl.glif</string>
+  <key>yanyakTuaregLig-tifi.alt</key>
+  <string>yanyakT_uaregL_ig-tifi.alt.glif</string>
   <key>yaryatLig-tifi.alt</key>
   <string>yaryatL_ig-tifi.alt.glif</string>
   <key>yasyatLig-tifi.alt</key>

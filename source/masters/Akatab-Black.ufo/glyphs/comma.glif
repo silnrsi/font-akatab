@@ -34,6 +34,6 @@
       <point x="45" y="380"/>
       <point x="16" y="312"/>
     </contour>
-    <component base="_Dot" xScale="0.7" yScale="0.7" xOffset="-119" yOffset="-339"/>
+    <component base="_Dot" xScale="0.6" yScale="0.6" xOffset="-53" yOffset="-268"/>
   </outline>
 </glyph>

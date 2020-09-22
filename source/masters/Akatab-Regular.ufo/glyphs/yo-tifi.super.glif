@@ -3,8 +3,7 @@
   <advance width="747"/>
   <unicode hex="E304"/>
   <outline>
-    <component base="_Dot" xScale="0.76923" yScale="0.76923" xOffset="-295" yOffset="957"/>
-    <component base="_Dot" xScale="0.76923" yScale="0.76923" xOffset="22" yOffset="957"/>
+    <component base="yo-tifi" xScale="0.77" yScale="0.77" xOffset="-49" yOffset="965"/>
   </outline>
   <lib>
     <dict>
