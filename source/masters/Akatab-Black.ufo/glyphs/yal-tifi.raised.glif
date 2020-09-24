@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yal-tifi.raised" format="2">
-  <advance width="927"/>
-  <anchor x="480" y="1393" name="T"/>
+  <advance width="1207"/>
+  <anchor x="620" y="1393" name="T"/>
   <outline>
-    <component base="_VerticalBarShort" xOffset="-451" yOffset="600"/>
-    <component base="_VerticalBarShort" xOffset="-111" yOffset="600"/>
+    <component base="_VerticalBarShort" xOffset="-386" yOffset="600"/>
+    <component base="_VerticalBarShort" xOffset="104" yOffset="600"/>
   </outline>
 </glyph>
