@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yanyashLig-tifi" format="2">
-  <advance width="1192"/>
+  <advance width="1222"/>
   <outline>
-    <component base="_HorizontalBarMedShort1.5" xOffset="100" yOffset="615"/>
-    <component base="yash-tifi" xOffset="210"/>
+    <component base="_HorizontalBarMedShort1.5" xOffset="90" yOffset="615"/>
+    <component base="yash-tifi" xOffset="200"/>
   </outline>
 </glyph>
