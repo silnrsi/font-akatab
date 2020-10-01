@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yanyafLig-tifi" format="2">
-  <advance width="1774"/>
+  <advance width="1854"/>
   <outline>
     <contour>
-      <point x="1453" y="555" type="curve" smooth="yes"/>
-      <point x="1513" y="555"/>
-      <point x="1529" y="595"/>
-      <point x="1529" y="653" type="curve" smooth="yes"/>
-      <point x="1529" y="759"/>
-      <point x="1476" y="808"/>
-      <point x="1410" y="817" type="curve" smooth="yes"/>
-      <point x="1377" y="821"/>
-      <point x="1261" y="826"/>
-      <point x="1149" y="826" type="curve" smooth="yes"/>
-      <point x="909" y="826"/>
-      <point x="766" y="817"/>
-      <point x="546" y="817" type="curve" smooth="yes"/>
-      <point x="452" y="817"/>
-      <point x="423" y="818"/>
-      <point x="384" y="818" type="curve" smooth="yes"/>
-      <point x="316" y="818"/>
-      <point x="315" y="828"/>
-      <point x="262" y="828" type="curve" smooth="yes"/>
-      <point x="202" y="828"/>
-      <point x="186" y="788"/>
-      <point x="186" y="730" type="curve" smooth="yes"/>
-      <point x="186" y="624"/>
-      <point x="239" y="575"/>
-      <point x="305" y="566" type="curve" smooth="yes"/>
-      <point x="338" y="562"/>
-      <point x="434" y="557"/>
-      <point x="546" y="557" type="curve" smooth="yes"/>
-      <point x="766" y="557"/>
-      <point x="909" y="566"/>
-      <point x="1149" y="566" type="curve" smooth="yes"/>
-      <point x="1243" y="566"/>
-      <point x="1292" y="565"/>
-      <point x="1331" y="565" type="curve" smooth="yes"/>
-      <point x="1399" y="565"/>
-      <point x="1400" y="555"/>
+      <point x="1473" y="555" type="curve" smooth="yes"/>
+      <point x="1533" y="555"/>
+      <point x="1549" y="595"/>
+      <point x="1549" y="653" type="curve" smooth="yes"/>
+      <point x="1549" y="759"/>
+      <point x="1496" y="808"/>
+      <point x="1430" y="817" type="curve" smooth="yes"/>
+      <point x="1397" y="821"/>
+      <point x="1281" y="826"/>
+      <point x="1169" y="826" type="curve" smooth="yes"/>
+      <point x="929" y="826"/>
+      <point x="786" y="817"/>
+      <point x="566" y="817" type="curve" smooth="yes"/>
+      <point x="472" y="817"/>
+      <point x="443" y="818"/>
+      <point x="404" y="818" type="curve" smooth="yes"/>
+      <point x="336" y="818"/>
+      <point x="335" y="828"/>
+      <point x="282" y="828" type="curve" smooth="yes"/>
+      <point x="222" y="828"/>
+      <point x="206" y="788"/>
+      <point x="206" y="730" type="curve" smooth="yes"/>
+      <point x="206" y="624"/>
+      <point x="259" y="575"/>
+      <point x="325" y="566" type="curve" smooth="yes"/>
+      <point x="358" y="562"/>
+      <point x="454" y="557"/>
+      <point x="566" y="557" type="curve" smooth="yes"/>
+      <point x="786" y="557"/>
+      <point x="929" y="566"/>
+      <point x="1169" y="566" type="curve" smooth="yes"/>
+      <point x="1263" y="566"/>
+      <point x="1312" y="565"/>
+      <point x="1351" y="565" type="curve" smooth="yes"/>
+      <point x="1419" y="565"/>
+      <point x="1420" y="555"/>
     </contour>
     <component base="yaf-tifi"/>
   </outline>

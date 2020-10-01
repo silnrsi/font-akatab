@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yasyatLig-tifi" format="2">
-  <advance width="2193"/>
+  <advance width="2183"/>
   <outline>
     <component base="_VerticalOval" xOffset="-24"/>
     <component base="_Plus" xOffset="1252" yOffset="313"/>

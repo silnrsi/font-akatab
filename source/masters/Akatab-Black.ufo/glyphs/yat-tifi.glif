@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yat-tifi" format="2">
-  <advance width="1413"/>
+  <advance width="1395"/>
   <unicode hex="2D5C"/>
-  <anchor x="711" y="1393" name="T"/>
+  <anchor x="702" y="1393" name="T"/>
   <outline>
-    <component base="_VerticalBar" xOffset="-36"/>
-    <component base="_HorizontalBar" xOffset="-36"/>
+    <component base="_VerticalBar" xOffset="-45"/>
+    <component base="_HorizontalBar" xOffset="-45"/>
   </outline>
 </glyph>

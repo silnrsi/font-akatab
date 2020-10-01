@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yashyakTuaregLig-tifi" format="2">
-  <advance width="982"/>
+  <advance width="1023"/>
   <outline>
     <component base="_k" xOffset="50"/>
     <component base="yash-tifi"/>
