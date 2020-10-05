@@ -6,6 +6,10 @@
   <string>A_.glif</string>
   <key>TifConsLengthMark</key>
   <string>T_ifC_onsL_engthM_ark.glif</string>
+  <key>TifConsLengthMark.alt</key>
+  <string>T_ifC_onsL_engthM_ark.alt.glif</string>
+  <key>TifVowelMark</key>
+  <string>T_ifV_owelM_ark.glif</string>
   <key>_VerticalBarJoining</key>
   <string>_V_erticalB_arJ_oining.glif</string>
   <key>_VerticalBarMedLong</key>

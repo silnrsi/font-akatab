@@ -47,6 +47,7 @@ Sans/space serift/space/yam-tifi/yaghTuareg-tifi/yas-tifi/yi-tifi/space/yu-tifi/
 /yaghh-tifi.alt 
 /yangTuareg-tifi 
 /separator-tifi</string>
+    <string>/yo-tifi/yay-tifi/yi-tifi/yu-tifi/yu-tifi.alt</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

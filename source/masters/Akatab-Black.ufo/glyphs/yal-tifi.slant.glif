@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yal-tifi.slant" format="2">
-  <advance width="1291"/>
-  <anchor x="487" y="1393" name="T"/>
+  <advance width="1522"/>
+  <anchor x="602" y="1393" name="T"/>
   <outline>
     <component base="yan-tifi.slant"/>
-    <component base="yan-tifi.slant" xOffset="400"/>
+    <component base="yan-tifi.slant" xOffset="546"/>
   </outline>
 </glyph>
