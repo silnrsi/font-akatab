@@ -2,8 +2,10 @@
 <glyph name="yo-tifi.super" format="2">
   <advance width="747"/>
   <unicode hex="E304"/>
+  <anchor x="535" y="1596" name="T"/>
   <outline>
-    <component base="yo-tifi" xScale="0.77" yScale="0.77" xOffset="-49" yOffset="965"/>
+    <component base="_Dot" xScale="0.77" yScale="0.77" xOffset="-295" yOffset="957"/>
+    <component base="_Dot" xScale="0.77" yScale="0.77" xOffset="22" yOffset="957"/>
   </outline>
   <lib>
     <dict>
