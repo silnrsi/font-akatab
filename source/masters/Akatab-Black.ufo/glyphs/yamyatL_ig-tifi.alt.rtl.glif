@@ -3,56 +3,56 @@
   <advance width="1558"/>
   <outline>
     <contour>
-      <point x="580" y="720"/>
-      <point x="580" y="803" type="curve" smooth="yes"/>
-      <point x="580" y="965"/>
-      <point x="589" y="944"/>
-      <point x="589" y="983" type="curve" smooth="yes"/>
-      <point x="589" y="1008"/>
-      <point x="566" y="1022"/>
-      <point x="536" y="1022" type="curve" smooth="yes"/>
-      <point x="445" y="1021"/>
-      <point x="435" y="947"/>
-      <point x="435" y="846" type="curve" smooth="yes"/>
-      <point x="435" y="729"/>
-      <point x="443" y="660"/>
-      <point x="443" y="577" type="curve" smooth="yes"/>
-      <point x="443" y="415"/>
-      <point x="434" y="449"/>
-      <point x="434" y="410" type="curve" smooth="yes"/>
-      <point x="434" y="385"/>
-      <point x="457" y="371"/>
-      <point x="487" y="371" type="curve" smooth="yes"/>
-      <point x="578" y="372"/>
-      <point x="588" y="446"/>
-      <point x="588" y="547" type="curve" smooth="yes"/>
-      <point x="588" y="664"/>
+      <point x="483" y="371" type="curve" smooth="yes"/>
+      <point x="574" y="371"/>
+      <point x="635" y="448"/>
+      <point x="635" y="579" type="curve" smooth="yes"/>
+      <point x="635" y="696"/>
+      <point x="626" y="704"/>
+      <point x="626" y="787" type="curve" smooth="yes"/>
+      <point x="626" y="949"/>
+      <point x="633" y="916"/>
+      <point x="633" y="955" type="curve" smooth="yes"/>
+      <point x="633" y="1010"/>
+      <point x="585" y="1022"/>
+      <point x="535" y="1022" type="curve" smooth="yes"/>
+      <point x="434" y="1022"/>
+      <point x="383" y="945"/>
+      <point x="383" y="814" type="curve" smooth="yes"/>
+      <point x="383" y="697"/>
+      <point x="392" y="702"/>
+      <point x="392" y="619" type="curve" smooth="yes"/>
+      <point x="392" y="457"/>
+      <point x="385" y="477"/>
+      <point x="385" y="438" type="curve" smooth="yes"/>
+      <point x="385" y="383"/>
+      <point x="433" y="371"/>
     </contour>
     <contour>
-      <point x="926" y="641"/>
-      <point x="1037" y="641" type="curve" smooth="yes"/>
-      <point x="1199" y="641"/>
-      <point x="1165" y="632"/>
-      <point x="1204" y="632" type="curve" smooth="yes"/>
-      <point x="1229" y="632"/>
-      <point x="1243" y="655"/>
-      <point x="1243" y="685" type="curve" smooth="yes"/>
-      <point x="1242" y="752"/>
-      <point x="1202" y="761"/>
-      <point x="1140" y="761" type="curve" smooth="yes"/>
-      <point x="1020" y="761"/>
-      <point x="517" y="752"/>
-      <point x="406" y="752" type="curve" smooth="yes"/>
-      <point x="244" y="752"/>
-      <point x="278" y="761"/>
-      <point x="239" y="761" type="curve" smooth="yes"/>
-      <point x="214" y="761"/>
-      <point x="200" y="738"/>
-      <point x="200" y="708" type="curve" smooth="yes"/>
-      <point x="201" y="641"/>
-      <point x="241" y="632"/>
-      <point x="303" y="632" type="curve" smooth="yes"/>
-      <point x="423" y="632"/>
+      <point x="323" y="581" type="curve" smooth="yes"/>
+      <point x="443" y="581"/>
+      <point x="900" y="590"/>
+      <point x="1011" y="590" type="curve" smooth="yes"/>
+      <point x="1169" y="590"/>
+      <point x="1135" y="581"/>
+      <point x="1174" y="581" type="curve" smooth="yes"/>
+      <point x="1229" y="581"/>
+      <point x="1243" y="626"/>
+      <point x="1243" y="656" type="curve" smooth="yes"/>
+      <point x="1243" y="753"/>
+      <point x="1192" y="814"/>
+      <point x="1110" y="814" type="curve" smooth="yes"/>
+      <point x="990" y="814"/>
+      <point x="537" y="805"/>
+      <point x="426" y="805" type="curve" smooth="yes"/>
+      <point x="264" y="805"/>
+      <point x="298" y="814"/>
+      <point x="259" y="814" type="curve" smooth="yes"/>
+      <point x="214" y="814"/>
+      <point x="190" y="789"/>
+      <point x="190" y="739" type="curve" smooth="yes"/>
+      <point x="190" y="642"/>
+      <point x="241" y="581"/>
     </contour>
     <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1558" yOffset="1393"/>
   </outline>

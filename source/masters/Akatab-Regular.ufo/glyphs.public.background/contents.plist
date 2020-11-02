@@ -20,6 +20,8 @@
   <string>yabyatL_ig-tifi.alt.glif</string>
   <key>yaf-tifi.alt</key>
   <string>yaf-tifi.alt.glif</string>
+  <key>yafyatLig-tifi.rtl</key>
+  <string>yafyatL_ig-tifi.rtl.glif</string>
   <key>yaghh-tifi</key>
   <string>yaghh-tifi.glif</string>
   <key>yaghh-tifi.alt.unused</key>
@@ -36,6 +38,10 @@
   <string>yal-tifi.raised.glif</string>
   <key>yalyatLig-tifi</key>
   <string>yalyatL_ig-tifi.glif</string>
+  <key>yamyatLig-tifi.alt.rtl</key>
+  <string>yamyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yamyatLig-tifi.rtl</key>
+  <string>yamyatL_ig-tifi.rtl.glif</string>
   <key>yan-tifi.raised</key>
   <string>yan-tifi.raised.glif</string>
   <key>yan-tifi.slant</key>

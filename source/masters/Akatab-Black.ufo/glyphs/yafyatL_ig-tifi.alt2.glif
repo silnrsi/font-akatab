@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yafyatLig-tifi.alt2" format="2">
-  <advance width="1841"/>
+  <advance width="2241"/>
   <outline>
-    <component base="_Plus" xOffset="889" yOffset="315"/>
+    <contour>
+      <point x="1172" y="580" type="curve" smooth="yes"/>
+      <point x="1292" y="580"/>
+      <point x="1704" y="589"/>
+      <point x="1815" y="589" type="curve" smooth="yes"/>
+      <point x="1977" y="589"/>
+      <point x="1943" y="580"/>
+      <point x="1982" y="580" type="curve" smooth="yes"/>
+      <point x="2037" y="580"/>
+      <point x="2051" y="625"/>
+      <point x="2051" y="655" type="curve" smooth="yes"/>
+      <point x="2051" y="752"/>
+      <point x="2000" y="813"/>
+      <point x="1918" y="813" type="curve" smooth="yes"/>
+      <point x="1798" y="813"/>
+      <point x="1386" y="804"/>
+      <point x="1275" y="804" type="curve" smooth="yes"/>
+      <point x="1113" y="804"/>
+      <point x="1147" y="813"/>
+      <point x="1108" y="813" type="curve" smooth="yes"/>
+      <point x="1063" y="813"/>
+      <point x="1039" y="788"/>
+      <point x="1039" y="738" type="curve" smooth="yes"/>
+      <point x="1039" y="641"/>
+      <point x="1090" y="580"/>
+    </contour>
+    <contour>
+      <point x="1700" y="370" type="curve" smooth="yes"/>
+      <point x="1791" y="370"/>
+      <point x="1852" y="447"/>
+      <point x="1852" y="578" type="curve" smooth="yes"/>
+      <point x="1852" y="695"/>
+      <point x="1843" y="703"/>
+      <point x="1843" y="786" type="curve" smooth="yes"/>
+      <point x="1843" y="948"/>
+      <point x="1850" y="915"/>
+      <point x="1850" y="954" type="curve" smooth="yes"/>
+      <point x="1850" y="1009"/>
+      <point x="1802" y="1021"/>
+      <point x="1752" y="1021" type="curve" smooth="yes"/>
+      <point x="1651" y="1021"/>
+      <point x="1600" y="944"/>
+      <point x="1600" y="813" type="curve" smooth="yes"/>
+      <point x="1600" y="696"/>
+      <point x="1609" y="701"/>
+      <point x="1609" y="618" type="curve" smooth="yes"/>
+      <point x="1609" y="456"/>
+      <point x="1602" y="476"/>
+      <point x="1602" y="437" type="curve" smooth="yes"/>
+      <point x="1602" y="382"/>
+      <point x="1650" y="370"/>
+    </contour>
     <component base="yaf-tifi"/>
   </outline>
 </glyph>

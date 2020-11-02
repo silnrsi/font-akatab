@@ -52,7 +52,9 @@
   </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/yash-tifi/yash-tifi.rtl/yash-tifi.rtl/yashyakTuaregLig-tifi.rtl/yash-tifi.rtl/yashyatLig-tifi.rtl/_HorizontalBarMedShort1.5/yanyashLig-tifi.rtl</string>
+    <string>/yam-tifi/yadd-tifi.rtl/yam-tifi.rtl/yamyatLig-tifi.rtl/yamyatLig-tifi.alt.rtl/space/yafyatLig-tifi.rtl/yafyatLig-tifi.alt2/yafyatLig-tifi.alt/yanyatLig-tifi.alt.rtl/yazhyatLig-tifi.rtl/yazhyatLig-tifi.alt.rtl/yazyatLig-tifi.alt.rtl/yazhAhaggaryatLig-tifi.alt.rtl/yafyatLig-tifi.alt.rtl/yafyatLig-tifi.alt2.rtl</string>
+    <string>/_PlusMediumExtended/_Plus/_PlusLong/_PlusVeryLong/_Plus.rtl/_PlusLong.rtl/_PlusVeryLong.rtl/_PlusMediumExtended.rtl</string>
+    <string>/yaf-tifi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
