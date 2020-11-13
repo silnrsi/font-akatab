@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yan-tifi.slant.rtl" format="2">
-  <advance width="958"/>
-  <anchor x="616" y="0" name="T"/>
+  <advance width="1037"/>
+  <guideline x="506" y="669" angle="65.8315"/>
+  <anchor x="657" y="0" name="T"/>
   <outline>
     <contour>
-      <point x="836" y="1302" type="curve" smooth="yes"/>
-      <point x="672" y="996"/>
-      <point x="421" y="354"/>
-      <point x="288" y="104" type="curve" smooth="yes"/>
-      <point x="248" y="28"/>
-      <point x="204" y="0"/>
-      <point x="151" y="0" type="curve" smooth="yes"/>
-      <point x="84" y="0"/>
-      <point x="96" y="44"/>
-      <point x="122" y="91" type="curve" smooth="yes"/>
-      <point x="265" y="354"/>
-      <point x="517" y="996"/>
-      <point x="670" y="1289" type="curve" smooth="yes"/>
-      <point x="712" y="1370"/>
-      <point x="754" y="1393"/>
-      <point x="807" y="1393" type="curve" smooth="yes"/>
-      <point x="874" y="1393"/>
-      <point x="859" y="1346"/>
+      <point x="928" y="1273" type="curve" smooth="yes"/>
+      <point x="764" y="967"/>
+      <point x="526" y="354"/>
+      <point x="393" y="104" type="curve" smooth="yes"/>
+      <point x="353" y="28"/>
+      <point x="245" y="0"/>
+      <point x="192" y="0" type="curve" smooth="yes"/>
+      <point x="116" y="0"/>
+      <point x="90" y="32"/>
+      <point x="90" y="61" type="curve" smooth="yes"/>
+      <point x="90" y="77"/>
+      <point x="99" y="98"/>
+      <point x="111" y="119" type="curve" smooth="yes"/>
+      <point x="254" y="382"/>
+      <point x="494" y="996"/>
+      <point x="647" y="1289" type="curve" smooth="yes"/>
+      <point x="689" y="1370"/>
+      <point x="795" y="1393"/>
+      <point x="848" y="1393" type="curve" smooth="yes"/>
+      <point x="924" y="1393"/>
+      <point x="947" y="1360"/>
+      <point x="947" y="1331" type="curve" smooth="yes"/>
+      <point x="947" y="1314"/>
+      <point x="939" y="1293"/>
     </contour>
   </outline>
 </glyph>

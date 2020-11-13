@@ -12,6 +12,8 @@
   <string>_V_erticalB_arM_edL_ong.glif</string>
   <key>separator-tifi</key>
   <string>separator-tifi.glif</string>
+  <key>separator-tifi.rtl</key>
+  <string>separator-tifi.rtl.glif</string>
   <key>yab-tifi</key>
   <string>yab-tifi.glif</string>
   <key>yabyatLig-tifi</key>
@@ -38,6 +40,8 @@
   <string>yahyatL_ig-tifi.glif</string>
   <key>yal-tifi.raised</key>
   <string>yal-tifi.raised.glif</string>
+  <key>yal-tifi.slant.rtl</key>
+  <string>yal-tifi.slant.rtl.glif</string>
   <key>yalyatLig-tifi</key>
   <string>yalyatL_ig-tifi.glif</string>
   <key>yamyatLig-tifi.alt.rtl</key>

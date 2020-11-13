@@ -48,11 +48,6 @@
       <integer>800</integer>
     </dict>
   </dict>
-  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <array>
-    <string>/yam-tifi/yadd-tifi.rtl/yam-tifi.rtl/yamyatLig-tifi.rtl/yamyatLig-tifi.alt.rtl/space/yafyatLig-tifi.rtl/yafyatLig-tifi.alt2/yafyatLig-tifi.alt/_VerticalBar/yanyatLig-tifi.alt.rtl/yazhTuareg-tifi/yazhyatLig-tifi/yazhyatLig-tifi.alt/yazhyatLig-tifi.rtl/yazhyatLig-tifi.alt.rtl/yazyatLig-tifi/yazyatLig-tifi.rtl/yaz-tifi.alt/yazyatLig-tifi.alt/yazhAhaggaryatLig-tifi/yazhAhaggar-tifi/yazhAhaggaryatLig-tifi.rtl/yazhAhaggaryatLig-tifi.alt/yazyatLig-tifi.alt/yazhAhaggaryatLig-tifi.alt/yaz-tifi.alt/yazyatLig-tifi.alt.rtl/yazhAhaggar-tifi.alt/yazhAhaggaryatLig-tifi.alt.rtl/yafyatLig-tifi.alt.rtl/_HorizontalBarMed/yafyatLig-tifi.alt2.rtl</string>
-    <string>/_PlusMediumExtended/_Plus/_PlusLong/_PlusVeryLong/_Plus.rtl/_PlusLong.rtl/_PlusVeryLong.rtl/_PlusMediumExtended.rtl</string>
-  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
