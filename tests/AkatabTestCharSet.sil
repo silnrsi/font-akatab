@@ -1,0 +1,18 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[features="+ss01,+ss02",size="18pt"]
+
+%%%%% TESTS
+
+\subsection{UNICODE HORIZONTAL CHARACTER CHART}
+\proof[size="20pt"]{ⴰ ⴱ ⴴ ⴶ ⴷ ⴸ ⴹ ⴼ ⴾ }
+\proof[size="20pt"]{ⵀ ⵂ ⵆ ⵈ ⵉ ⵋ ⵌ ⵍ ⵎ ⵏ }
+\proof[size="20pt"]{ⵐ ⵑ ⵓ ⵔ ⵗ ⵙ ⵚ ⵛ ⵜ ⵟ }
+\proof[size="20pt"]{ⵢ ⵣ ⵧ }
+\proof[size="20pt"]{⵰ ⵿  }
+
+
+\subsection{REPERTOIRE}
+\repertoire
+
+\end{document}

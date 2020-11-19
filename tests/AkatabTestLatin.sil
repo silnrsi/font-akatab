@@ -1,0 +1,23 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[features="+clig,+kern",size="18pt"]
+
+%%%%% GROUPS
+
+% Latin groups
+\patterngroup[name="latincaps"]{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+\patterngroup[name="latinlc"]{abcdefghijklmnopqrstuvwxyz}
+
+% General
+\patterngroup[name="numerals"]{1234567890}
+\patterngroup[name="punctuation"]{.,:;!-}
+
+%%%%% TESTS
+
+\subsection{BASIC LATIN}
+\proof[size="28pt"]{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+\proof[size="28pt"]{abcdefghijklmnopqrstuvwxyz}
+\proof[size="18pt"]{HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH}
+\pattern[chars="@",reps="group_latincaps",format="list"]{HHOOHHOH@O@B@O@N@O@P@HOH}
+
+\end{document}
