@@ -50,6 +50,15 @@
       <integer>800</integer>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/yab-tifi/yah-tifi/yar-tifi/yas-tifi</string>
+    <string>/yash-tifi.rtl/yashyakTuaregLig-tifi.rtl/yanyashLig-tifi.rtl/yashyatLig-tifi.rtl 
+/yash-tifi/yashyakTuaregLig-tifi/yanyashLig-tifi/yashyatLig-tifi</string>
+    <string>/yi-tifi/yiyatLig-tifi 
+/yi-tifi.rtl/yiyatLig-tifi.rtl</string>
+    <string>/yangTuareg-tifi</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

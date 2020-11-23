@@ -5,8 +5,8 @@
 %%%%% DESIGN GROUPS
 
 % SHAPES
-\patterngroup[name="straightright"]{ⵍⵏⵑⴼ}
-\patterngroup[name="straightleft"]{ⴹⴼⵍⵎⵏⵑⵟ}
+\patterngroup[name="straightright"]{ⵍⵑⵏⴼ}
+\patterngroup[name="straightleft"]{ⴼⵍⵎⵏⵑⴹⵟ}
 \patterngroup[name="rounded"]{ⴱⵀⵔⵙⵛ}
 \patterngroup[name="diagonal"]{ⴴⴷⴸⵉⵋⵢⵣ}
 \patterngroup[name="dots"]{ⴰⴶⴾⵂⵆⵈⵓⵗⵧ}
@@ -15,11 +15,11 @@
 %%%%% TESTS
 % HOBONOP for Tifinagh: ⵍⵙⴷⵙⵓⵙⵢⵙⴰⵙⵏⵙⵉⵙⵜⵙⵎ
 \subsection{SIDEBEARING GROUPS: STRAIGHTRIGHT, STRAIGHTLEFT, ROUNDED, DIAGONAL, DOTS, CROSSINGS}
-\pattern[chars="@",reps="group_straightright",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
-\pattern[chars="@",reps="group_straightleft",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
-\pattern[chars="@",reps="group_rounded",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
-\pattern[chars="@",reps="group_diagonal",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
-\pattern[chars="@",reps="group_dots",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
-\pattern[chars="@",reps="group_crossings",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_straightright",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_straightleft",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_rounded",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_diagonal",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_dots",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_crossings",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
 
 \end{document}
