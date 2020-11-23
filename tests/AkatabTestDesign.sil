@@ -2,124 +2,24 @@
 \bidi-off
 \setTestFont[features="+clig,+kern",size="18pt"]
 
-%%%%% GROUPS
+%%%%% DESIGN GROUPS
 
-% Consonants
-\patterngroup[name="consright"]{𖼨𖼞𖼦𖼀𖼃𖼱𖼮𖼰𖼔𖼣𖼐𖼒𖼎𖽊𖼲𖼪𖼂𖼖𖼘𖼠𖼍𖼹𖼷𖽉𖼌𖼊𖽈𖼡𖼇𖽃𖼈𖼴𖼳𖽂𖼄𖼺𖼻𖼬𖼵𖼽𖽀𖼚𖼜}
-\patterngroup[name="consleft"]{𖼨𖼵𖼮𖼱𖼇𖼖𖼘𖽂𖽊𖽈𖽉𖼐𖼔𖼣𖼒𖼬𖼺𖼻𖼡𖼪𖼠𖼞𖼄𖼴𖼹𖼷𖼍𖼰𖼎𖼊𖼌𖼦𖼃𖼲𖼂𖼀𖽃𖼈𖼽𖽀𖼚𖼜𖼳}
-\patterngroup[name="conswart"]{𖼩𖼟𖼁𖽅𖼯𖼕𖼤𖼑𖼏𖽇𖼫𖼗𖼙𖼸𖼋𖼢𖽄𖼉𖽆𖼅𖼼𖼭𖼶𖼾𖽁𖼛𖼝}
-\patterngroup[name="consarchaic"]{𖼆𖼓𖼥𖼧𖼿}
-\patterngroup[name="conslatinlike"]{𖼈𖼊𖼖𖼨𖼵𖼺𖽀𖽂𖽃}
-\patterngroup[name="repconsright"]{𖼨𖼞𖼱𖼮𖼎𖼂𖼪𖼖𖼇𖼊𖼌𖼍𖼠𖼹𖼷𖽂𖽃𖼈𖼳𖼄𖼔𖼣𖼺𖼬𖼵𖽀}
-\patterngroup[name="repconsleft"]{𖼨𖼮𖽂𖽈𖽉𖼐𖼒𖼬𖼡𖼞𖼄𖼷𖼍𖼰𖼎𖼊𖼦𖼃𖼲𖼂𖼀𖽃𖼈𖼽𖼳}
-\patterngroup[name="repconshead"]{𖼨𖼞𖼦𖼀𖼖𖼇𖼮𖼰𖼠𖼔𖼐𖼒𖼄𖼊𖽈𖼲𖼪𖼂𖼷𖽃𖼴𖼳𖽂𖼺𖼵𖼽}
-\patterngroup[name="repconsfloor"]{𖼨𖼞𖼦𖼀𖼖𖼇𖼮𖼰𖼠𖼣𖼐𖼒𖼄𖼊𖼍𖼎𖼡𖼲𖼪𖼂𖼷𖽃𖼈𖼴𖼳𖽂𖼺𖼵𖼜}
-
-% Vowels
-\patterngroup[name="vowelsleft"]{𖽹𖽻𖾂𖽷𖽸𖽨𖽧𖽡𖽢𖽥𖽺𖾇𖽯𖽮𖽪𖽖𖽫𖽰𖽭𖽬𖽘𖽗𖽕𖽵𖽶𖾄𖾃𖾆𖽔𖽦𖽱𖽝𖾁𖽙𖽚𖽾𖽽𖽛𖽲𖽼𖽿𖽳𖽠𖽜𖾅𖽴𖽞𖽟𖽩𖽣𖽤𖾀}
-\patterngroup[name="vowelslefta"]{𖽹𖽻𖾂𖽷𖽸𖽨𖽧𖽡𖽢𖽥𖽺𖾇𖽯𖽮𖽪𖽖𖽫𖽰𖽭𖽬𖽘𖽗𖽕𖽵𖽶}
-\patterngroup[name="vowelsleftb"]{𖾄𖾃𖾆𖽔𖽦𖽱𖽝𖾁𖽙𖽚𖽾𖽽𖽛𖽲𖽼𖽿𖽳𖽠𖽜𖾅𖽴𖽞𖽟𖽩𖽣𖽤𖾀}
-\patterngroup[name="vowelsbox"]{𖽹𖽻𖾂𖽷𖽸𖽨𖽧𖽡𖽢𖽥𖽺𖾇𖽯𖽮𖽪𖽖𖽫𖽰𖽭𖽬𖽘𖽗𖽕𖽵𖽶𖾄𖾃𖾆𖽔𖽦𖽱𖽝𖾁𖽙𖽚}
-\patterngroup[name="vowelsoutside"]{𖽾𖽽𖽛𖽲𖽼𖽿𖽳𖽠𖽜𖾅𖽴𖽞𖽟𖽩𖽣𖽤𖾀}
-
-% Aspirations
-\patterngroup[name="asp"]{𖽑𖽒𖽓}
-
-% Baseline Tone Marks
-\patterngroup[name="basetones"]{𖾓𖾔𖾕𖾖𖾗𖾘𖾙}
-\patterngroup[name="basetonesarchaic"]{𖾚𖾛𖾜𖾝𖾞𖾟}
-
-%%%%% OLD
-
-% Consonants - representatives of right side shapes
-\patterngroup[name="repconsfoot"]{𖼨𖼞𖼯𖼲𖼪𖼂𖼖𖼠𖼍𖼊𖼇𖽃𖼈𖼴𖼳𖽂𖼄𖼺𖼭𖼣𖼵𖽀}
-
-\patterngroup[name="dots"]{}
-
-% Vowels - base versions in order by left hand side type
-\patterngroup[name="vowels"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖽢𖽥𖽩𖽤𖽣𖾄𖽺𖾇𖽯𖽮𖽪𖽖𖾀𖽫𖽰𖽭𖽬𖾆𖾃𖽵𖽶𖽗𖽘𖽕𖽔𖽦𖽱𖽝𖾁𖽙𖽚𖽾𖽽𖽛𖽼𖽲𖽿𖽳𖽜𖾅𖽠𖽴𖽞𖽟}
-% Vowels - representatives of left side shapes in box
-\patterngroup[name="vowelrepsbox"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖾄𖽺𖾇𖽮𖽪𖾆𖾃𖽵𖽶𖽔𖽦𖽱𖽝𖾁𖽙𖽾𖽲}
-% Vowels - representatives of left side shapes outside the box
-\patterngroup[name="vowelrepsoutbox"]{𖽳𖽜𖽠𖽴𖽞𖽩𖽤}
-% Vowels - representatives of left side shapes both inside and outside box
-\patterngroup[name="vowelrepsall"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖾄𖽺𖾇𖽮𖽪𖾆𖾃𖽵𖽶𖽔𖽦𖽱𖽝𖾁𖽙𖽾𖽲𖽳𖽜𖽠𖽴𖽞𖽩𖽤}
-
-% General
-\patterngroup[name="numerals"]{1234567890}
-\patterngroup[name="punctuation"]{.,:;!-}
+% SHAPES
+\patterngroup[name="straightright"]{ⵍⵏⵑⴼ}
+\patterngroup[name="straightleft"]{ⴹⴼⵍⵎⵏⵑⵟ}
+\patterngroup[name="rounded"]{ⴱⵀⵔⵙⵛ}
+\patterngroup[name="diagonal"]{ⴴⴷⴸⵉⵋⵢⵣ}
+\patterngroup[name="dots"]{ⴰⴶⴾⵂⵆⵈⵓⵗⵧ}
+\patterngroup[name="crossings"]{ⵌⵐⵚⵜ}
 
 %%%%% TESTS
-
-\subsection{CONSONANTS - ORDERED BY RIGHT SIDE SHAPE THEN WARTED VERSIONS}
-\proof[size="28pt"]{𖼨𖼞𖼦𖼀𖼃𖼱𖼮𖼰𖼔𖼣𖼐𖼒𖼎𖽊𖼲𖼪𖼂𖼖𖼘𖼠𖼍𖼹𖼷𖽉𖼌𖼊𖽈𖼡𖼇}
-\proof[size="28pt"]{𖽃𖼈𖼴𖼳𖽂𖼄𖼺𖼻𖼬𖼵𖼽𖽀𖼚𖼜}
-\proof[size="28pt"]{𖼩𖼟𖼁𖽅𖼯𖼕𖼤𖼑𖼏𖽇𖼫𖼗𖼙𖼸𖼋𖼢𖽄𖼉𖽆𖼅𖼼𖼭𖼶𖼾𖽁𖼛𖼝}
-
-\subsection{ CONSONANT SPACING}
-\pattern[chars="@",reps="group_consright",format="list"]{𖼞𖼞𖼞𖼄𖼐𖼪𖼞@𖼄@𖼐@𖼪@𖼍@𖽂@𖼚@𖼞 HHOOH@H@𖼈@𖼊@𖼖@𖼵@𖼺@𖽀@𖽃@H}
-\pattern[chars="@",reps="group_conswart",format="list"]{𖼞𖼞𖼞𖼄𖼐𖼪𖼞@𖼄@𖼐@𖼪@𖼍@𖽂@𖼚@𖼞 HHOOH@H@𖼈@𖼊@𖼖@𖼵@𖼺@𖽀@𖽃@H}
-\begin{raggedleft}
-\pattern[chars="@",reps="group_consright",format="list"]{𖼞𖼞@𖼯𖼯@𖼞𖼞𖽂𖽂@𖽂𖽂}
-\pattern[chars="@",reps="group_conswart",format="list"]{𖼞𖼞@𖼯𖼯@𖼞𖼞𖽂𖽂@𖽂𖽂}
-\end{raggedleft}
-
-\subsection{NUKTA (WITH AND WITHOUT SPACE AND VOWEL)}
-\proof{𖼞𖽏𖼎𖽏𖼐 𖼞𖽡 𖽏𖼎𖽡 𖽏𖼐𖽡 𖼞𖽏𖽡 𖼎𖽏𖽡 𖼐𖽏𖽡}
-
-\subsection{NASALISATION}
-\pattern[chars="@",reps="group_repconsleft",format="para"]{𖽐@}
-
-\subsection{VOWELS/FINALS - ORDERED BY LEFT SIDE SHAPE}
-\proof[size="28pt"]{𖽹𖽻𖾂𖽷𖽸𖽨𖽧𖽡𖽢𖽥𖽺𖾇𖽯𖽮𖽪𖽖𖽫𖽰𖽭𖽬𖽘𖽗𖽕𖽵𖽶𖾄𖾃𖾆𖽔𖽦𖽱𖽝𖾁𖽙𖽚𖽾𖽽𖽛𖽲𖽼𖽿𖽳𖽠𖽜𖾅𖽴𖽞𖽟𖽩𖽣𖽤𖾀}
-
-\subsection{VOWELS/FINALS SPACING}
-\pattern[size="28pt",chars="@",reps="group_vowelsleft",format="list"]{𖽙𖽙𖽡𖽡𖽙@𖽡@𖽷@𖽱@𖽝@𖽨@𖽳@𖽜@𖽠@𖽴@𖽞@𖽙𖽙𖽡𖽡}
-
-\subsection{CONSONANT VOWEL COMBINATIONS - FOOT LEVEL}
-\pattern[chars="@,#",reps="group_vowelsleft,group_consright",format="table"]{#@}
-\pattern[chars="@,#",reps="group_repconsright,group_vowelsleft",format="table"]{@#}
-
-\subsection{CONSONANT VOWEL COMBINATIONS - WAIST LEVEL}
-\pattern[chars="@,#",reps="group_vowelsleft,group_consright",format="table"]{#@𖾏}
-\pattern[chars="@,#",reps="group_repconsright,group_vowelsleft",format="table"]{@#𖾏}
-
-\subsection{CONSONANT VOWEL COMBINATIONS - SHOULDER LEVEL}
-\pattern[chars="@,#",reps="group_vowelsleft,group_consright",format="table"]{#@𖾐}
-\pattern[chars="@,#",reps="group_repconsright,group_vowelsleft",format="table"]{@#𖾐}
-
-\subsection{CONSONANT VOWEL COMBINATIONS - HEAD LEVEL}
-\pattern[chars="@,#",reps="group_vowelsleft,group_consright",format="table"]{#@𖾑}
-\pattern[chars="@,#",reps="group_repconshead,group_vowelsleft",format="table"]{@#𖾑}
-
-\subsection{CONSONANT VOWEL COMBINATIONS - FLOOR LEVEL}
-\pattern[chars="@,#",reps="group_vowelsleft,group_consright",format="table"]{#@𖾒}
-\pattern[chars="@,#",reps="group_repconsfloor,group_vowelsleft",format="table"]{@#𖾒}
-
-\subsection{TWO VOWEL COMBINATIONS}
-\pattern[chars="@,#",reps="group_vowelsleft,group_vowelsleft",format="table"]{𖼞#@}
-\pattern[chars="@,#",reps="group_vowelsleft,group_vowelsleft",format="table"]{𖼞@#}
-
-\subsection{TWO VOWEL HEAD COMBINATIONS}
-\pattern[chars="@,#,&",reps="group_repconsfloor,group_vowelrepsall,group_vowelrepsall",format="table"]{@#&𖾑}
-
-\subsection{ASPIRATION - ONE LINE PER ASP CHAR}
-\pattern[chars="@",reps="group_asp",format="list"]{𖼞@ 𖼞@𖽷 𖼞@𖽷𖾏 𖼞@𖽷𖾐 𖼞@𖽷𖾑 𖼞@𖽷𖾒 𖼞@𖽳 𖼞@𖽳𖾏 𖼞@𖽳𖾐 𖼞@𖽳𖾑  𖼞@𖽳𖾒 𖼞@𖽤𖾑  𖼞@𖽪𖽡𖽠 𖼞@𖽪𖽡𖽠𖾏 𖼞@𖽪𖽡𖽠𖾐 𖼞@𖽪𖽡𖽠𖾑 𖼞@𖽪𖽡𖽠𖾒  }
-
-\subsection{ASPIRATION + VOWELS}
-\pattern[chars="@",reps="group_vowelsleft",format="list"]{𖼞𖽑@ 𖼇𖽑@ 𖼞𖽑@𖾏 𖼇𖽑@𖾏 𖼞𖽑@𖾐 𖼇𖽑@𖾐 𖼞𖽑@𖾑 𖼨𖽑@𖾑 𖼖𖽑@𖾑 𖼮𖽑@𖾑 𖼪𖽑@𖾑  /  𖼞𖽒@𖾏 𖼇𖽒@𖾏 𖼞𖽒@𖾐 𖼇𖽒@𖾐 𖼞𖽒@𖾑 𖼨𖽒@𖾑 𖼖𖽒@𖾑 𖼮𖽒@𖾑 𖼪𖽒@𖾑  /  𖼞𖽓@𖾏 𖼇𖽓@𖾏 𖼞𖽓@𖾐 𖼇𖽓@𖾐 𖼞𖽓@𖾑 𖼨𖽓@𖾑 𖼖𖽓@𖾑 𖼮𖽓@𖾑 𖼪𖽓@𖾑 }
-
-\subsection{ASPIRATION + VOWELS - RIGHT ALIGNED (YGP)}
-\setTestFont[language="YGP"]
-\pattern[chars="@",reps="group_vowelsleft",format="list"]{𖼞𖽑@ 𖼇𖽑@ 𖼞𖽑@𖾏 𖼇𖽑@𖾏 𖼞𖽑@𖾐 𖼇𖽑@𖾐 𖼞𖽑@𖾑 𖼨𖽑@𖾑 𖼖𖽑@𖾑 𖼮𖽑@𖾑 𖼪𖽑@𖾑  /  𖼞𖽒@𖾏 𖼇𖽒@𖾏 𖼞𖽒@𖾐 𖼇𖽒@𖾐 𖼞𖽒@𖾑 𖼨𖽒@𖾑 𖼖𖽒@𖾑 𖼮𖽒@𖾑 𖼪𖽒@𖾑  /  𖼞𖽓@𖾏 𖼇𖽓@𖾏 𖼞𖽓@𖾐 𖼇𖽓@𖾐 𖼞𖽓@𖾑 𖼨𖽓@𖾑 𖼖𖽓@𖾑 𖼮𖽓@𖾑 𖼪𖽓@𖾑 }
-\setTestFont[language="dflt"]
-
-\subsection{CONS + ASPIRATION + WAIST HEIGHT VOWEL REPS}
-\pattern[chars="@",reps="group_consright",format="list"]{@𖽑𖽷𖾏 @𖽑𖽿𖾏 }
-
-\subsection{DOTTED CONS + VOWELS - FOOT LEVEL (HMDD)}
-\setTestFont[language="x-hbotHMDD"]
-\pattern[chars="@,#",reps="group_conswart,group_vowelsleft",format="table"]{@#}
-\setTestFont[language="dflt"]
+% HOBONOP for Tifinagh: ⵍⵙⴷⵙⵓⵙⵢⵙⴰⵙⵏⵙⵉⵙⵜⵙⵎ
+\subsection{SIDEBEARING GROUPS: STRAIGHTRIGHT, STRAIGHTLEFT, ROUNDED, DIAGONAL, DOTS, CROSSINGS}
+\pattern[chars="@",reps="group_straightright",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_straightleft",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_rounded",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_diagonal",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_dots",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_crossings",format="list"]{ⵍⵍⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
 
 \end{document}
