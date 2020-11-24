@@ -50,12 +50,15 @@
   </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/yab-tifi/yah-tifi/yar-tifi/yas-tifi</string>
     <string>/yash-tifi.rtl/yashyakTuaregLig-tifi.rtl/yanyashLig-tifi.rtl/yashyatLig-tifi.rtl 
 /yash-tifi/yashyakTuaregLig-tifi/yanyashLig-tifi/yashyatLig-tifi</string>
     <string>/yi-tifi/yiyatLig-tifi 
 /yi-tifi.rtl/yiyatLig-tifi.rtl</string>
-    <string>/yangTuareg-tifi</string>
+    <string>/yangTuareg-tifi/separator-tifi/space/yangTuareg-tifi/separator-tifi.001</string>
+    <string>/yaghh-tifi/yaghhyatLig-tifi/yanyaghhLig-tifi/yaghh-tifi.alt/yaghhyatLig-tifi.rtl/yaghhyatLig-tifi.alt.rtl/yaghhyatLig-tifi.alt/yanyaghhLig-tifi.alt</string>
+    <string>/yi-tifi.super/yi-tifi.super.rtl</string>
+    <string>/yanyasLig-tifi/yanyasLig-tifi.rtl</string>
+    <string>/yanyashLig-tifi/yanyashLig-tifi.rtl</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
