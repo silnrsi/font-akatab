@@ -12,8 +12,10 @@
   <string>_V_erticalB_arM_edL_ong.glif</string>
   <key>separator-tifi</key>
   <string>separator-tifi.glif</string>
-  <key>separator-tifi.001</key>
-  <string>separator-tifi.001.glif</string>
+  <key>separator-tifi.alt</key>
+  <string>separator-tifi.alt.glif</string>
+  <key>separator-tifi.alt.rtl</key>
+  <string>separator-tifi.alt.rtl.glif</string>
   <key>separator-tifi.rtl</key>
   <string>separator-tifi.rtl.glif</string>
   <key>yab-tifi</key>
