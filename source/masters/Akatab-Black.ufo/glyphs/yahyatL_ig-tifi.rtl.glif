@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yahyatLig-tifi.rtl" format="2">
-  <advance width="2109"/>
+  <advance width="2084"/>
   <outline>
-    <component base="_VerticalOval" xScale="-1" yScale="-1" xOffset="2128" yOffset="1390"/>
-    <component base="_VerticalBarJoining" xScale="-0.8" yScale="-0.8" xOffset="1987" yOffset="1255"/>
-    <component base="_Plus" xScale="-1" yScale="-1" xOffset="852" yOffset="1077"/>
+    <component base="_VerticalOval" xScale="-1" yScale="-1" xOffset="2108" yOffset="1390"/>
+    <component base="_VerticalBarJoining" xScale="-0.8" yScale="-0.8" xOffset="1967" yOffset="1255"/>
+    <component base="_Plus" xScale="-1" yScale="-1" xOffset="832" yOffset="1077"/>
   </outline>
 </glyph>

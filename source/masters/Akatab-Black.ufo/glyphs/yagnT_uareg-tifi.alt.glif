@@ -5,6 +5,6 @@
   <outline>
     <component base="_VerticalBar" xOffset="-150"/>
     <component base="_HorizontalBarMed" xOffset="90" yOffset="970"/>
-    <component base="_HorizontalBarMed" xOffset="90" yOffset="191"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="261"/>
   </outline>
 </glyph>

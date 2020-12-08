@@ -38,6 +38,6 @@
       <point x="90" y="26"/>
       <point x="105" y="0"/>
     </contour>
-    <component base="_HorizontalBarMedShort" xOffset="114" yOffset="687"/>
+    <component base="_HorizontalBarMedShort" xOffset="119" yOffset="687"/>
   </outline>
 </glyph>
