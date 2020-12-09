@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yalyatLig-tifi" format="2">
-  <advance width="1746"/>
+  <advance width="1776"/>
   <outline>
-    <component base="_Plus" xOffset="841" yOffset="316"/>
+    <component base="_Plus" xOffset="881" yOffset="316"/>
     <component base="yal-tifi"/>
   </outline>
 </glyph>

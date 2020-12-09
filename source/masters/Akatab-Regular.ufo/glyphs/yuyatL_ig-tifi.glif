@@ -2,7 +2,7 @@
 <glyph name="yuyatLig-tifi" format="2">
   <advance width="1365"/>
   <outline>
-    <component base="_Dot" xOffset="-310" yOffset="-336"/>
+    <component base="_Dot" xOffset="-310" yOffset="-345"/>
     <component base="_Dot" xOffset="-310" yOffset="314"/>
     <component base="_HorizontalBar" xOffset="-36"/>
     <component base="_VerticalBarShort" xOffset="100"/>

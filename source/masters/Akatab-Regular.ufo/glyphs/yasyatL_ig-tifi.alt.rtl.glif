@@ -106,6 +106,6 @@
       <point x="705" y="770"/>
       <point x="692" y="761"/>
     </contour>
-    <component base="_Dot" xOffset="-177" yOffset="-240"/>
+    <component base="_Dot" xScale="0.9" yScale="0.9" xOffset="-107" yOffset="-180"/>
   </outline>
 </glyph>

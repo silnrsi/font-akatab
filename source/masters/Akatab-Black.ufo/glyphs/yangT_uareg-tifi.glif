@@ -5,6 +5,6 @@
   <anchor x="324" y="1393" name="T"/>
   <outline>
     <component base="_VerticalBar" xOffset="-420"/>
-    <component base="_Dot" xOffset="-348" yOffset="-930"/>
+    <component base="_Dot" xOffset="-348" yOffset="-950"/>
   </outline>
 </glyph>

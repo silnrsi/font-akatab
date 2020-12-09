@@ -3,22 +3,6 @@
   <advance width="1192"/>
   <outline>
     <contour>
-      <point x="332" y="692" type="curve" smooth="yes"/>
-      <point x="332" y="638"/>
-      <point x="374" y="613"/>
-      <point x="446" y="611" type="curve" smooth="yes"/>
-      <point x="501" y="609"/>
-      <point x="601" y="612"/>
-      <point x="713" y="612" type="curve" smooth="yes"/>
-      <point x="733" y="612" type="line" smooth="yes"/>
-      <point x="897" y="612"/>
-      <point x="926" y="616"/>
-      <point x="965" y="616" type="curve" smooth="yes"/>
-      <point x="1013" y="616"/>
-      <point x="1015" y="608"/>
-      <point x="1048" y="608" type="curve" smooth="yes"/>
-      <point x="1078" y="608"/>
-      <point x="1092" y="636"/>
       <point x="1092" y="672" type="curve" smooth="yes"/>
       <point x="1092" y="726"/>
       <point x="1050" y="751"/>
@@ -35,6 +19,22 @@
       <point x="376" y="756" type="curve" smooth="yes"/>
       <point x="346" y="756"/>
       <point x="332" y="728"/>
+      <point x="332" y="692" type="curve" smooth="yes"/>
+      <point x="332" y="638"/>
+      <point x="374" y="613"/>
+      <point x="446" y="611" type="curve" smooth="yes"/>
+      <point x="501" y="609"/>
+      <point x="601" y="612"/>
+      <point x="713" y="612" type="curve" smooth="yes"/>
+      <point x="733" y="612" type="line" smooth="yes"/>
+      <point x="897" y="612"/>
+      <point x="926" y="616"/>
+      <point x="965" y="616" type="curve" smooth="yes"/>
+      <point x="1013" y="616"/>
+      <point x="1015" y="608"/>
+      <point x="1048" y="608" type="curve" smooth="yes"/>
+      <point x="1078" y="608"/>
+      <point x="1092" y="636"/>
     </contour>
     <component base="yash-tifi.rtl"/>
   </outline>
