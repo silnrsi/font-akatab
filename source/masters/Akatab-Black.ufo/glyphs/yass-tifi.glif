@@ -4,7 +4,7 @@
   <unicode hex="2D5A"/>
   <anchor x="715" y="1393" name="T"/>
   <outline>
-    <component base="_Dot" xScale="-0.85" yScale="-0.85" xOffset="1275" yOffset="1297"/>
+    <component base="_Dot" xScale="-0.85" yScale="-0.85" xOffset="1275" yOffset="1305"/>
     <component base="yazhTuareg-tifi"/>
   </outline>
 </glyph>

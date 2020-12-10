@@ -2,7 +2,7 @@
 <glyph name="yashyakTuaregLig-tifi" format="2">
   <advance width="1023"/>
   <outline>
-    <component base="_k" xOffset="50"/>
+    <component base="_k" xOffset="70"/>
     <component base="yash-tifi"/>
   </outline>
 </glyph>

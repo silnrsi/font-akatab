@@ -3,7 +3,7 @@
   <advance width="1718"/>
   <outline>
     <component base="_VerticalOval" xOffset="256"/>
-    <component base="_Dot" xOffset="298" yOffset="-13"/>
-    <component base="_PlusMediumHorizontal" xOffset="12" yOffset="363"/>
+    <component base="_Dot" xOffset="318" yOffset="-13"/>
+    <component base="_PlusMediumHorizontal" xOffset="62" yOffset="363"/>
   </outline>
 </glyph>

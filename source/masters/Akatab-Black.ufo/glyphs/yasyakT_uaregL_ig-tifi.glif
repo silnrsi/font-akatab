@@ -4,6 +4,6 @@
   <outline>
     <component base="_VerticalOval" xOffset="-24"/>
     <component base="_Dot" xOffset="48" yOffset="-13"/>
-    <component base="_k" xOffset="227"/>
+    <component base="_k" xOffset="227" yOffset="30"/>
   </outline>
 </glyph>
