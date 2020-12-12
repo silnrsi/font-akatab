@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yangTuareg-tifi" format="2">
-  <advance width="657"/>
+  <advance width="755"/>
   <unicode hex="2D51"/>
-  <anchor x="324" y="1393" name="T"/>
+  <anchor x="379" y="1393" name="T"/>
   <outline>
-    <component base="_VerticalBar" xOffset="-420"/>
-    <component base="_Dot" xOffset="-348" yOffset="-950"/>
+    <component base="_VerticalBar" xOffset="-365"/>
+    <component base="_Dot" xOffset="-293" yOffset="-950"/>
   </outline>
 </glyph>

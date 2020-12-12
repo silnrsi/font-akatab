@@ -38,6 +38,6 @@
       <point x="100" y="26"/>
       <point x="115" y="0"/>
     </contour>
-    <component base="_Plus" xOffset="643" yOffset="420"/>
+    <component base="_Plus" xOffset="643" yOffset="410"/>
   </outline>
 </glyph>

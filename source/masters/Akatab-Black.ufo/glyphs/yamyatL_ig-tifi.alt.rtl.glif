@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yamyatLig-tifi.alt.rtl" format="2">
-  <advance width="1558"/>
+  <advance width="1458"/>
   <outline>
     <contour>
-      <point x="473" y="371" type="curve" smooth="yes"/>
-      <point x="564" y="371"/>
-      <point x="650" y="438"/>
-      <point x="650" y="559" type="curve" smooth="yes"/>
-      <point x="650" y="696"/>
-      <point x="641" y="716"/>
-      <point x="641" y="799" type="curve" smooth="yes"/>
-      <point x="641" y="941"/>
-      <point x="648" y="900"/>
-      <point x="648" y="946" type="curve" smooth="yes"/>
-      <point x="648" y="1001"/>
-      <point x="610" y="1022"/>
-      <point x="560" y="1022" type="curve" smooth="yes"/>
-      <point x="470" y="1022"/>
-      <point x="383" y="955"/>
-      <point x="383" y="834" type="curve" smooth="yes"/>
-      <point x="383" y="697"/>
-      <point x="392" y="697"/>
-      <point x="392" y="614" type="curve" smooth="yes"/>
-      <point x="392" y="452"/>
-      <point x="385" y="493"/>
-      <point x="385" y="447" type="curve" smooth="yes"/>
-      <point x="385" y="392"/>
-      <point x="423" y="371"/>
+      <point x="373" y="371" type="curve" smooth="yes"/>
+      <point x="464" y="371"/>
+      <point x="550" y="438"/>
+      <point x="550" y="559" type="curve" smooth="yes"/>
+      <point x="550" y="696"/>
+      <point x="541" y="716"/>
+      <point x="541" y="799" type="curve" smooth="yes"/>
+      <point x="541" y="941"/>
+      <point x="548" y="900"/>
+      <point x="548" y="946" type="curve" smooth="yes"/>
+      <point x="548" y="1001"/>
+      <point x="510" y="1022"/>
+      <point x="460" y="1022" type="curve" smooth="yes"/>
+      <point x="370" y="1022"/>
+      <point x="283" y="955"/>
+      <point x="283" y="834" type="curve" smooth="yes"/>
+      <point x="283" y="697"/>
+      <point x="292" y="697"/>
+      <point x="292" y="614" type="curve" smooth="yes"/>
+      <point x="292" y="452"/>
+      <point x="285" y="493"/>
+      <point x="285" y="447" type="curve" smooth="yes"/>
+      <point x="285" y="392"/>
+      <point x="323" y="371"/>
     </contour>
     <contour>
-      <point x="323" y="581" type="curve" smooth="yes"/>
-      <point x="443" y="581"/>
-      <point x="900" y="590"/>
-      <point x="1011" y="590" type="curve" smooth="yes"/>
-      <point x="1169" y="590"/>
-      <point x="1135" y="581"/>
-      <point x="1174" y="581" type="curve" smooth="yes"/>
-      <point x="1229" y="581"/>
-      <point x="1243" y="626"/>
-      <point x="1243" y="656" type="curve" smooth="yes"/>
-      <point x="1243" y="753"/>
-      <point x="1192" y="814"/>
-      <point x="1110" y="814" type="curve" smooth="yes"/>
-      <point x="990" y="814"/>
-      <point x="537" y="805"/>
-      <point x="426" y="805" type="curve" smooth="yes"/>
-      <point x="264" y="805"/>
-      <point x="298" y="814"/>
-      <point x="259" y="814" type="curve" smooth="yes"/>
-      <point x="214" y="814"/>
-      <point x="190" y="789"/>
-      <point x="190" y="739" type="curve" smooth="yes"/>
-      <point x="190" y="642"/>
-      <point x="241" y="581"/>
+      <point x="223" y="581" type="curve" smooth="yes"/>
+      <point x="343" y="581"/>
+      <point x="800" y="590"/>
+      <point x="911" y="590" type="curve" smooth="yes"/>
+      <point x="1069" y="590"/>
+      <point x="1035" y="581"/>
+      <point x="1074" y="581" type="curve" smooth="yes"/>
+      <point x="1129" y="581"/>
+      <point x="1143" y="626"/>
+      <point x="1143" y="656" type="curve" smooth="yes"/>
+      <point x="1143" y="753"/>
+      <point x="1092" y="814"/>
+      <point x="1010" y="814" type="curve" smooth="yes"/>
+      <point x="890" y="814"/>
+      <point x="437" y="805"/>
+      <point x="326" y="805" type="curve" smooth="yes"/>
+      <point x="164" y="805"/>
+      <point x="198" y="814"/>
+      <point x="159" y="814" type="curve" smooth="yes"/>
+      <point x="114" y="814"/>
+      <point x="90" y="789"/>
+      <point x="90" y="739" type="curve" smooth="yes"/>
+      <point x="90" y="642"/>
+      <point x="141" y="581"/>
     </contour>
-    <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1558" yOffset="1393"/>
+    <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1458" yOffset="1393"/>
   </outline>
 </glyph>

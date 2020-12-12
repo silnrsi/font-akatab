@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yanyakTuaregLig-tifi.alt" format="2">
-  <advance width="1078"/>
+  <advance width="1298"/>
   <outline>
-    <component base="_k" xOffset="50" yOffset="-300"/>
-    <component base="_k" xScale="-1" yScale="-1" xOffset="1038" yOffset="1688"/>
-    <component base="_VerticalBarMedLong" xOffset="450" yOffset="269"/>
+    <component base="_k" xOffset="155" yOffset="-300"/>
+    <component base="_k" xScale="-1" yScale="-1" xOffset="1143" yOffset="1688"/>
+    <component base="_VerticalBarMedLong" xOffset="555" yOffset="269"/>
   </outline>
 </glyph>

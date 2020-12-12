@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yanyasLig-tifi" format="2">
-  <advance width="1718"/>
+  <advance width="1746"/>
   <outline>
-    <component base="_VerticalOval" xOffset="256"/>
-    <component base="_Dot" xOffset="318" yOffset="-13"/>
-    <component base="_PlusMediumHorizontal" xOffset="62" yOffset="363"/>
+    <component base="_VerticalOval" xOffset="284"/>
+    <component base="_Dot" xOffset="346" yOffset="-13"/>
+    <component base="_PlusMediumHorizontal" xOffset="90" yOffset="363"/>
   </outline>
 </glyph>

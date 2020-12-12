@@ -2,9 +2,9 @@
 <glyph name="yass-tifi" format="2">
   <advance width="1433"/>
   <unicode hex="2D5A"/>
-  <anchor x="715" y="1393" name="T"/>
+  <anchor x="725" y="1393" name="T"/>
   <outline>
-    <component base="_Dot" xScale="-0.85" yScale="-0.85" xOffset="1275" yOffset="1305"/>
-    <component base="yazhTuareg-tifi"/>
+    <component base="_Dot" xScale="-0.85" yScale="-0.85" xOffset="1285" yOffset="1305"/>
+    <component base="yazhTuareg-tifi" xOffset="10"/>
   </outline>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yasyatLig-tifi.alt2" format="2">
-  <advance width="1438"/>
+  <advance width="1454"/>
   <outline>
-    <component base="_VerticalOval" xOffset="-24"/>
-    <component base="_Dot" xScale="0.7" yScale="0.7" xOffset="358" yOffset="1"/>
-    <component base="_PlusMedium" xScale="0.7" yScale="0.7" xOffset="450" yOffset="590"/>
+    <component base="_VerticalOval" xOffset="-8"/>
+    <component base="_Dot" xScale="0.7" yScale="0.7" xOffset="374" yOffset="1"/>
+    <component base="_PlusMedium" xScale="0.7" yScale="0.7" xOffset="466" yOffset="590"/>
   </outline>
 </glyph>

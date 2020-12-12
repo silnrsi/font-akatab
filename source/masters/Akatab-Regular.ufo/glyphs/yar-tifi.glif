@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yar-tifi" format="2">
-  <advance width="1438"/>
+  <advance width="1454"/>
   <unicode hex="2D54"/>
-  <anchor x="718" y="1393" name="T"/>
+  <anchor x="734" y="1393" name="T"/>
   <outline>
-    <component base="_VerticalOval" xOffset="-24"/>
+    <component base="_VerticalOval" xOffset="-8"/>
   </outline>
 </glyph>

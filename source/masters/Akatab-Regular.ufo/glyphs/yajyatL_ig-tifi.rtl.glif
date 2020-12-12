@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yajyatLig-tifi.rtl" format="2">
-  <advance width="1436"/>
+  <advance width="1570"/>
   <outline>
     <component base="_Plus" xScale="-1" yScale="-1" xOffset="852" yOffset="919"/>
     <component base="yaj-tifi" xOffset="372"/>
