@@ -51,7 +51,6 @@
             <info />
             <kerning />
         </instance>
-/*
         <instance       familyname="Akatab"
                               name="Akatab Bold"
                 stylemapfamilyname="Akatab"
@@ -67,6 +66,7 @@
             <info/>
             <kerning/>
         </instance>
+        <!--
         <instance       familyname="Akatab Black"
                               name="Akatab Black Regular"
                 stylemapfamilyname="Akatab Black"
@@ -82,6 +82,6 @@
             <info/>
             <kerning/>
         </instance>
-*/
+        -->
     </instances>
 </designspace>

@@ -36,7 +36,7 @@ rtlpackage = package(appname="AkatabRTL", version=VERSION)
 for f in d.fonts:
     font(target = process(f.target.replace('Akatab', 'AkatabRTL'),
             cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/rtl_remap.txt']),
-            name('AkatabRTL')),
+            name('Akatab RTL')),
         opentype = internal(),
         source = f.target,
         package = rtlpackage)
