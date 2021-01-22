@@ -677,6 +677,8 @@
     <string>uni2028</string>
     <key>narrownbspace</key>
     <string>uni202F</string>
+    <key>nbspace</key>
+    <string>uni00A0</string>
     <key>paragraphseparator</key>
     <string>uni2029</string>
     <key>popdirectionalformatting</key>
@@ -991,6 +993,10 @@
     <string>uni2D53_uni2D7F_uni2D5C.rtl</string>
     <key>zerowidthjoiner</key>
     <string>uni200D</string>
+    <key>yakTuareg-tifi.unused.001</key>
+    <string>uni2D3E.unused.001</string>
+    <key>yakTuareg-tifi.unused.002</key>
+    <string>uni2D3E.unused.002</string>
   </dict>
 </dict>
 </plist>

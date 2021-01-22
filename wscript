@@ -10,7 +10,7 @@ APPNAME = "Akatab"
 
 # retrieve all the authorship and other information from one of the master UFOs
 getufoinfo('source/masters/Akatab-Regular.ufo')
-DESC_SHORT = "Smart font for the Tifinagh script"
+DESC_SHORT = "Unicode font with OpenType and Graphite support for the Tifinagh script"
 
 d = designspace('source/akatab.designspace',
         target = process('${DS:FILENAME_BASE}.ttf',

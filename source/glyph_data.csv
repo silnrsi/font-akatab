@@ -98,7 +98,7 @@ bar,bar,007C,96
 braceright,braceright,007D,97
 asciitilde,asciitilde,007E,98
 uni007F,uni007F,007F,99
-nbspace,nbspace,00A0,100
+nbspace,uni00A0,00A0,100
 exclamdown,exclamdown,00A1,101
 cent,cent,00A2,102
 sterling,sterling,00A3,103

@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2010-2020, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010–2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
+  <string>Copyright (c) 2010-2021, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
   <integer>-567</integer>
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/01/22 15:24:53</string>
+  <string>2021/01/22 22:58:47</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -23,13 +23,13 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Copyright (c) 2010-2020, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".</string>
+  <string>Unicode font with OpenType and Graphite support for the Tifinagh script</string>
   <key>openTypeNameDesigner</key>
   <string>SIL International</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://scripts.sil.org</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2010-2020, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
+  <string>Copyright (c) 2010-2021, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -148,6 +148,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>33</integer>
     <integer>35</integer>
     <integer>38</integer>
+    <integer>40</integer>
     <integer>45</integer>
     <integer>60</integer>
     <integer>62</integer>

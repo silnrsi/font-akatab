@@ -675,6 +675,8 @@
     <string>uni2028</string>
     <key>narrownbspace</key>
     <string>uni202F</string>
+    <key>nbspace</key>
+    <string>uni00A0</string>
     <key>paragraphseparator</key>
     <string>uni2029</string>
     <key>popdirectionalformatting</key>
