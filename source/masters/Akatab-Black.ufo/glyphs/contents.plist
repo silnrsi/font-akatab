@@ -374,6 +374,8 @@
   <string>dieresiscmb.cap.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
+  <key>divisionslash</key>
+  <string>divisionslash.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
   <key>dotaccent</key>
@@ -448,6 +450,8 @@
   <string>four.dnom.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>g</key>
