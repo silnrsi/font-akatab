@@ -23,6 +23,12 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+05 Feb 2021 (SIL WSTech team) Akatab version 2.000
+- Added Akatab Bold
+- Changed design of all Latin glyphs to use Source Sans Pro
+- Added characters to support "Recommended characters for Non-Roman fonts" at
+  https://scriptsource.org/entry/gg5wm9hhd3
+
 27 May 2020 (SIL WSTech team) Akatab version 1.000 (production release)
 - Added TifLtrYo (U+2D67) and superscript vowel TifLtrYo.super (U+E304)
 - Added a tilde-like character for use as a consonant length mark
@@ -41,11 +47,29 @@ ChangeLog
 
 
 Information
------------------
+-----------
 
-The release of Akatab under the OFL license provides a means for people to make their own 
-modified version of Akatab (using a different name). For information on what 
-you're allowed to change or modify, consult the OFL.txt and OFL-FAQ.txt files. 
+The release of Akatab under the OFL license provides a means for people to 
+make their own modified version of Akatab (using a different name). For 
+information on what you're allowed to change or modify, consult the OFL.txt 
+and OFL-FAQ.txt files. 
+
+Information for Contributors
+----------------------------
+We welcome contributions to this font project, such as new glyphs, enhanced
+smart font code, or bug fixes. The best way to begin the process is to file an
+issue in the Github project (https://github.com/silnrsi/font-akatab/issues)
+or respond to an existing issue and express your interest. Then we can begin
+to correspond with you regarding what all might be required and discuss how to
+best submit your contributions.
+
+To enable us to accept contributions in a way that honors your contribution
+and respects your copyright while preserving long-term flexibility for open
+source licensing, you would also need to agree to the SIL International
+Contributor License Agreement for Font Software (v1.0) prior to sending us
+your contribution. To read more about this requirement and find out how to
+submit the required form, please visit the CLA information page
+(https://software.sil.org/fontcla).
 
 
 Acknowledgements
