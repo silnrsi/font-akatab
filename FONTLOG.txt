@@ -1,6 +1,6 @@
 FONTLOG
 Akatab
-========================
+======
 
 This file provides detailed information on the Akatab family of fonts.
 This information should be distributed along with the Akatab fonts and
