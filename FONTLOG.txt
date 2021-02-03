@@ -17,6 +17,8 @@ of ligatures are handled by the font, provided you are running an application
 that provides an adequate level of support for one of these smart font 
 technologies.
 
+The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts
+(https://github.com/adobe-fonts/source-sans-pro). 
 
 
 ChangeLog
@@ -66,8 +68,8 @@ best submit your contributions.
 To enable us to accept contributions in a way that honors your contribution
 and respects your copyright while preserving long-term flexibility for open
 source licensing, you would also need to agree to the SIL International
-Contributor License Agreement for Font Software (v1.0) prior to sending us
-your contribution. To read more about this requirement and find out how to
+Contributor License Agreement (CLA) for Font Software (v1.0) prior to sending 
+us your contribution. To read more about this requirement and find out how to
 submit the required form, please visit the CLA information page
 (https://software.sil.org/fontcla).
 
@@ -78,9 +80,16 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: SIL font designers and engineers
-W: http://scripts.sil.org/support
-D: Graphite, OpenType, and TypeTuner code, and build support
+N: Paul D. Hunt
+W: https://fonts.adobe.com/fonts/source-sans
+D: Font design (Latin glyphs)
 
 N: Andrew Savage
 D: Research, design guidance, and user testing
+
+N: SIL font designers and engineers
+E: https://scripts.sil.org/support
+W: https://scripts.sil.org/
+D: Font design, Graphite, OpenType, and TypeTuner code, and build support
+
+The Andika fonts are maintained by SIL International.
