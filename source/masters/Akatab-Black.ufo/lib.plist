@@ -307,8 +307,10 @@
     <string>zcaron</string>
     <string>Ereversed</string>
     <string>florin</string>
-    <string>Gammaafrican</string>
+    <string>uni0194</string>
     <string>eturned</string>
+    <string>dotlessj</string>
+    <string>schwa</string>
     <string>gammalatin</string>
     <string>circumflex</string>
     <string>caron</string>
@@ -329,9 +331,11 @@
     <string>dotaccentcmb</string>
     <string>dieresiscmb</string>
     <string>ringcmb</string>
+    <string>hungarumlautcmb</string>
     <string>caroncmb</string>
     <string>dotbelowcmb</string>
     <string>cedillacmb</string>
+    <string>ogonekcmb</string>
     <string>CGJ</string>
     <string>pi</string>
     <string>Bdotbelow</string>
@@ -406,6 +410,7 @@
     <string>guilsinglright</string>
     <string>fraction</string>
     <string>wordjoiner</string>
+    <string>foursuperior</string>
     <string>Euro</string>
     <string>trademark</string>
     <string>Omega</string>
@@ -413,6 +418,8 @@
     <string>Delta</string>
     <string>product</string>
     <string>summation</string>
+    <string>minus</string>
+    <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>radical</string>
     <string>infinity</string>
@@ -421,6 +428,7 @@
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>uni2423</string>
     <string>lozenge</string>
     <string>circledotted</string>
     <string>ya-tifi</string>
@@ -461,8 +469,10 @@
     <string>yaf-tifi</string>
     <string>yanyafLig-tifi</string>
     <string>yafyatLig-tifi</string>
+    <string>yafyatLig-tifi.alt2</string>
     <string>yaf-tifi.alt</string>
     <string>yanyafLig-tifi.alt</string>
+    <string>yafyatLig-tifi.alt</string>
     <string>yay-tifi</string>
     <string>yi-tifi</string>
     <string>yiyatLig-tifi</string>
@@ -525,30 +535,6 @@
     <string>yay-tifi.super</string>
     <string>yi-tifi.super</string>
     <string>yo-tifi.super</string>
-    <string>comma.latin</string>
-    <string>exclam.latin</string>
-    <string>period.latin</string>
-    <string>fi</string>
-    <string>fl</string>
-    <string>uniFE00</string>
-    <string>uniFE01</string>
-    <string>uniFE02</string>
-    <string>uniFE03</string>
-    <string>uniFE04</string>
-    <string>uniFE05</string>
-    <string>uniFE06</string>
-    <string>uniFE07</string>
-    <string>uniFE08</string>
-    <string>uniFE09</string>
-    <string>uniFE0A</string>
-    <string>uniFE0B</string>
-    <string>uniFE0C</string>
-    <string>uniFE0D</string>
-    <string>uniFE0E</string>
-    <string>uniFE0F</string>
-    <string>uniFEFF</string>
-    <string>uniFFFC</string>
-    <string>uniFFFD</string>
     <string>yadd-tifi.rtl</string>
     <string>yakTuareg-tifi.rtl</string>
     <string>yi-tifi.rtl</string>
@@ -573,8 +559,8 @@
     <string>yamyatLig-tifi.rtl</string>
     <string>yamyatLig-tifi.alt.rtl</string>
     <string>yafyatLig-tifi.rtl</string>
-    <string>yafyatLig-tifi.alt2</string>
-    <string>yafyatLig-tifi.alt</string>
+    <string>yafyatLig-tifi.alt2.rtl</string>
+    <string>yafyatLig-tifi.alt.rtl</string>
     <string>yajyatLig-tifi.rtl</string>
     <string>yanyatLig-tifi.rtl</string>
     <string>yanyatLig-tifi.alt.rtl</string>
@@ -598,6 +584,46 @@
     <string>yakTuareg-tifi.orig</string>
     <string>yakTuareg-tifi.unused.001</string>
     <string>yakTuareg-tifi.unused.002</string>
+    <string>fi</string>
+    <string>fl</string>
+    <string>uniFE00</string>
+    <string>uniFE01</string>
+    <string>uniFE02</string>
+    <string>uniFE03</string>
+    <string>uniFE04</string>
+    <string>uniFE05</string>
+    <string>uniFE06</string>
+    <string>uniFE07</string>
+    <string>uniFE08</string>
+    <string>uniFE09</string>
+    <string>uniFE0A</string>
+    <string>uniFE0B</string>
+    <string>uniFE0C</string>
+    <string>uniFE0D</string>
+    <string>uniFE0E</string>
+    <string>uniFE0F</string>
+    <string>uniFEFF</string>
+    <string>uniFFFC</string>
+    <string>uniFFFD</string>
+    <string>comma.latin</string>
+    <string>exclam.latin</string>
+    <string>period.latin</string>
+    <string>gravecmb.cap</string>
+    <string>acutecmb.cap</string>
+    <string>circumflexcmb.cap</string>
+    <string>tildecmb.cap</string>
+    <string>brevecmb.cap</string>
+    <string>dieresiscmb.cap</string>
+    <string>ringcmb.cap</string>
+    <string>caroncmb.cap</string>
+    <string>cedillacmb.cap</string>
+    <string>a.sups</string>
+    <string>o.sups</string>
+    <string>zero.dnom</string>
+    <string>one.dnom</string>
+    <string>two.dnom</string>
+    <string>three.dnom</string>
+    <string>four.dnom</string>
     <string>_AltIndicator</string>
     <string>_Circle_Small</string>
     <string>_DotWide</string>
@@ -646,6 +672,8 @@
     <string>uni2D7F</string>
     <key>consonantjoiner-tifi.rtl</key>
     <string>uni2D7F.rtl</string>
+    <key>dotlessj</key>
+    <string>uni0237</string>
     <key>emquad</key>
     <string>uni2001</string>
     <key>emspace</key>
@@ -696,6 +724,8 @@
     <string>uni2D70.rtl</string>
     <key>sixperemspace</key>
     <string>uni2006</string>
+    <key>softhyphen</key>
+    <string>sfthyphen</string>
     <key>thinspace</key>
     <string>uni2009</string>
     <key>threeperemspace</key>
@@ -737,8 +767,12 @@
     <key>yafyatLig-tifi</key>
     <string>uni2D3C_uni2D7F_uni2D5C</string>
     <key>yafyatLig-tifi.alt</key>
+    <string>uni2D3C_uni2D7F_uni2D5C.alt</string>
+    <key>yafyatLig-tifi.alt.rtl</key>
     <string>uni2D3C_uni2D7F_uni2D5C.alt.rtl</string>
     <key>yafyatLig-tifi.alt2</key>
+    <string>uni2D3C_uni2D7F_uni2D5C.alt2</string>
+    <key>yafyatLig-tifi.alt2.rtl</key>
     <string>uni2D3C_uni2D7F_uni2D5C.alt2.rtl</string>
     <key>yafyatLig-tifi.rtl</key>
     <string>uni2D3C_uni2D7F_uni2D5C.rtl</string>

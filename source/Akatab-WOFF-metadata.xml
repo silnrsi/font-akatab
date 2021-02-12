@@ -4,9 +4,18 @@
   <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
+      name="Paul D. Hunt"
+      url="https://fonts.adobe.com/fonts/source-sans"
+      role="Font design (Latin glyphs)"
+    />
+    <credit
+      name="Andrew Savage"
+      role="Research, design guidance, and user testing"
+    />
+    <credit
       name="SIL font designers and engineers"
-      url="http://scripts.sil.org/support"
-      role="Graphite, OpenType, and TypeTuner code, and build support"
+      url="https://scripts.sil.org/"
+      role="Font design, Graphite, OpenType, and TypeTuner code, and build support"
     />
   </credits>
   <description>
@@ -18,11 +27,19 @@
       that provides an adequate level of support for one of these smart font
       technologies.
       
+      The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts
+      (https://github.com/adobe-fonts/source-sans-pro).
       
       
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      
+      05 Feb 2021 (SIL WSTech team) Akatab version 2.000
+      - Added Akatab Bold
+      - Changed design of all Latin glyphs to use Source Sans Pro
+      - Added characters to support "Recommended characters for Non-Roman fonts" at
+      https://scriptsource.org/entry/gg5wm9hhd3
       
       27 May 2020 (SIL WSTech team) Akatab version 1.000 (production release)
       - Added TifLtrYo (U+2D67) and superscript vowel TifLtrYo.super (U+E304)
@@ -42,11 +59,12 @@
       
       
       Information
-      -----------------
+      -----------
       
-      The release of Akatab under the OFL license provides a means for people to make their own
-      modified version of Akatab (using a different name). For information on what
-      you're allowed to change or modify, consult the OFL.txt and OFL-FAQ.txt files.
+      The release of Akatab under the OFL license provides a means for people to
+      make their own modified version of Akatab (using a different name). For
+      information on what you're allowed to change or modify, consult the OFL.txt
+      and OFL-FAQ.txt files.
     </text>
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">

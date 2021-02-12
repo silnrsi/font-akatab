@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/01/29 17:07:13</string>
+  <string>2021/02/12 04:09:06</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -91,6 +91,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
+    <integer>29</integer>
   </array>
   <key>openTypeOS2Panose</key>
   <array>
@@ -145,6 +146,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>7</integer>
     <integer>29</integer>
     <integer>31</integer>
+    <integer>32</integer>
     <integer>33</integer>
     <integer>35</integer>
     <integer>38</integer>
