@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Akatab.1.001" />
+  <uniqueid id="org.sil.fonts.Akatab.2.000" />
   <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
@@ -35,7 +35,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      05 Feb 2021 (SIL WSTech team) Akatab version 2.000
+      15 Feb 2021 (SIL WSTech team) Akatab version 2.000
       - Added Akatab Bold
       - Changed design of all Latin glyphs to use Source Sans Pro
       - Added characters to support "Recommended characters for Non-Roman fonts" at
