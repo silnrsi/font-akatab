@@ -1,43 +1,40 @@
 <classes>
   <class name="cNoTif">
-    acute approxequal ampersand quotesingle asterisk at breve brokenbar bullet bulletoperator 
-    caron cedilla cent asciicircum colon Comma.latin copyright currency dagger hungarumlaut 
-    daggerdbl quotedblbase degree dieresis eight five four nine one 
-    seven six three two zero divide dollar dotaccent circledotted 
-    emdash emquad emspace endash enquad enspace equal Euro ExclamationMrk.latin 
-    ordfeminine figuredash figurespace fourperemspace fraction FullStop.latin greaterequal greater pi grave 
-    hairspace horizontalbar ellipsis hyphentwo hyphen softhyphen hyphenationpoint Delta infinity integral 
-    exclamdown questiondown lessequal less braceleft quotedblleft parenleft guillemotleft 
-    quoteleft bracketleft lefttorightembedding lefttorightmark lefttorightoverride lineseparator underscore lozenge 
-    A Aacute Abreve Acircumflex Adieresis Agrave Aring Atilde 
-    AE B Bdotbelow C Ccedilla D Ddotbelow 
-    E Eacute Ebreve Ecircumflex Edieresis Egrave Eng Eth 
-    F G Gammaafrican H Hdotbelow I Iacute Ibreve Icircumflex Idieresis Igrave 
-    J K Kdotbelow L Ldotbelow OE M Mdotbelow N Ndotbelow Ntilde 
-    O Oacute Obreve Ocircumflex Odieresis Ograve Oslash Otilde 
-    P Q R Rdotbelow Ereversed S Scaron Sdotbelow T Tdotbelow Thorn 
-    U Uacute Ubreve Ucircumflex Udieresis Ugrave V W Wdotbelow X 
-    Y Yacute Ydieresis Ydotbelow Z Zcaron Zdotbelow 
-    a aacute abreve acircumflex adieresis agrave aring atilde ae 
-    b bdotbelow c ccedilla d ddotbelow dotlessi 
-    e eacute ebreve ecircumflex edieresis egrave eng eth 
-    f florin g gammalatin h hdotbelow 
-    i iacute ibreve icircumflex idieresis igrave j k kdotbelow 
-    l ldotbelow fi fl oe m mdotbelow n ndotbelow ntilde 
-    o oacute obreve ocircumflex odieresis ograve oslash otilde p q 
-    r rdotbelow s scaron sdotbelow germandbls t tdotbelow thorn eturned 
-    u uacute ubreve ucircumflex udieresis ugrave v w wdotbelow x 
-    y yacute ydieresis ydotbelow z zcaron zdotbelow 
-    macron ordmasculine mu periodcentered circumflex colontriangularmod multiply 
-    product summation narrownbspace nbspace nonbreakinghyphen notequal logicalnot numbersign 
-    uniFFFC ogonek Omega 
-    paragraphseparator partialdiff perthousand percent paragraph plusminus plus popdirectionalformatting sterling punctuationspace 
-    question quotedbl registered uniFFFD backslash ring 
-    braceright quotedblright parenright guillemotright quoteright bracketright righttoleftembedding righttoleftmark righttoleftoverride 
-    section semicolon guilsinglleft quotesinglbase guilsinglright sixperemspace tilde 
-    slash radical onesuperior threesuperior twosuperior thinspace threeperemspace asciitilde trademark 
-    bar onehalf onequarter threequarters yen 
-    zerowidthjoiner uniFEFF zerowidthnonjoiner zerowidthspace uni007F
+    space quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright
+    asterisk plus hyphen slash zero one two three four five six seven eight nine colon
+    semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+    bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p
+    q r s t u v w x y z braceleft bar braceright asciitilde uni007F nbspace exclamdown cent sterling
+    currency yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot
+    softhyphen registered macron degree plusminus twosuperior threesuperior acute mu paragraph
+    periodcentered cedilla onesuperior ordmasculine guillemotright onequarter onehalf threequarters
+    questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute
+    Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute
+    Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute
+    Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute
+    ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex
+    otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis
+    Abreve abreve Ebreve ebreve Ibreve ibreve dotlessi Eng eng Obreve obreve OE oe Scaron scaron
+    Ubreve ubreve Ydieresis Zcaron zcaron Ereversed florin uni0194 eturned dotlessj schwa
+    gammalatin circumflex caron colontriangularmod breve dotaccent ring ogonek tilde
+    hungarumlaut gravecomb acutecomb circumflexcmb tildecomb macroncmb overlinecmb
+    brevecmb dotaccentcmb dieresiscmb ringcmb hungarumlautcmb caroncmb dotbelowcmb
+    cedillacmb ogonekcmb CGJ pi Bdotbelow bdotbelow Ddotbelow ddotbelow Hdotbelow
+    hdotbelow Kdotbelow kdotbelow Ldotbelow ldotbelow Mdotbelow mdotbelow Ndotbelow
+    ndotbelow Rdotbelow rdotbelow Sdotbelow sdotbelow Tdotbelow tdotbelow Wdotbelow
+    wdotbelow Zdotbelow zdotbelow Ydotbelow ydotbelow enquad emquad enspace emspace
+    threeperemspace fourperemspace sixperemspace figurespace punctuationspace thinspace
+    hairspace zerowidthspace zerowidthnonjoiner zerowidthjoiner lefttorightmark righttoleftmark
+    hyphentwo nonbreakinghyphen figuredash endash emdash horizontalbar quoteleft quoteright
+    quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis
+    hyphenationpoint lineseparator paragraphseparator lefttorightembedding righttoleftembedding
+    popdirectionalformatting lefttorightoverride righttoleftoverride narrownbspace perthousand
+    guilsinglleft guilsinglright fraction wordjoiner foursuperior Euro trademark Omega partialdiff
+    Delta product summation minus divisionslash bulletoperator radical infinity integral
+    approxequal notequal lessequal greaterequal uni2423 lozenge circledotted fi fl
+    comma.latin exclam.latin period.latin gravecmb.cap acutecmb.cap circumflexcmb.cap
+    tildecmb.cap brevecmb.cap dieresiscmb.cap ringcmb.cap caroncmb.cap cedillacmb.cap
+    a.sups o.sups zero.dnom one.dnom two.dnom three.dnom four.dnom
   </class>
   <class name="cTakesTDia_base">
     yaghTuareg-tifi yakTuareg-tifi yaqTuareg-tifi yakhTuareg-tifi yahTuareg-tifi yab-tifi yah-tifi 
