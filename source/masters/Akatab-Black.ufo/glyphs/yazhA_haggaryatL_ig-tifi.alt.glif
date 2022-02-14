@@ -2,6 +2,8 @@
 <glyph name="yazhAhaggaryatLig-tifi.alt" format="2">
   <advance width="1682"/>
   <outline>
+    <component base="_VerticalBarMedium" xOffset="524" yOffset="367"/>
+    <component base="_PlusLong" xOffset="850" yOffset="316"/>
     <contour>
       <point x="489" y="490" type="curve" smooth="yes"/>
       <point x="369" y="490"/>
@@ -90,7 +92,5 @@
       <point x="361" y="903"/>
       <point x="639" y="910"/>
     </contour>
-    <component base="_VerticalBarMedium" xOffset="524" yOffset="367"/>
-    <component base="_PlusLong" xOffset="850" yOffset="316"/>
   </outline>
 </glyph>

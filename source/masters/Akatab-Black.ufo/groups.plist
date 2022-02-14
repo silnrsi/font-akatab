@@ -4,9 +4,9 @@
 <dict>
   <key>public.kern1.OpenTopRight</key>
   <array>
-    <string>TifLtrYad</string>
     <string>TifLig-nt.alt</string>
     <string>TifLig-nt.alt.rtl</string>
+    <string>TifLtrYad</string>
   </array>
 </dict>
 </plist>

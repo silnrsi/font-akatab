@@ -3,6 +3,8 @@
   <advance width="1288"/>
   <anchor x="618" y="1393" name="T"/>
   <outline>
+    <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1288" yOffset="1393"/>
+    <component base="_HorizontalBarMedShort1.5" xScale="-1" yScale="-1" xOffset="952" yOffset="779"/>
     <contour>
       <point x="456" y="380" type="curve" smooth="yes"/>
       <point x="547" y="380"/>
@@ -29,7 +31,5 @@
       <point x="368" y="401"/>
       <point x="406" y="380"/>
     </contour>
-    <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1288" yOffset="1393"/>
-    <component base="_HorizontalBarMedShort1.5" xScale="-1" yScale="-1" xOffset="952" yOffset="779"/>
   </outline>
 </glyph>

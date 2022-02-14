@@ -3,6 +3,8 @@
   <advance width="1702"/>
   <anchor x="644" y="1393" name="T"/>
   <outline>
+    <component base="_PlusLong" xOffset="870" yOffset="326"/>
+    <component base="_VerticalBar" xOffset="-113"/>
     <contour>
       <point x="509" y="480" type="curve" smooth="yes"/>
       <point x="369" y="480"/>
@@ -91,7 +93,5 @@
       <point x="361" y="913"/>
       <point x="659" y="920"/>
     </contour>
-    <component base="_PlusLong" xOffset="870" yOffset="326"/>
-    <component base="_VerticalBar" xOffset="-113"/>
   </outline>
 </glyph>

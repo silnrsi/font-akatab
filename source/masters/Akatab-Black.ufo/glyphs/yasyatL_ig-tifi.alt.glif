@@ -2,6 +2,7 @@
 <glyph name="yasyatLig-tifi.alt" format="2">
   <advance width="1454"/>
   <outline>
+    <component base="_Dot" xScale="0.5" yScale="0.5" xOffset="602" yOffset="137"/>
     <contour>
       <point x="735" y="1420" type="curve" smooth="yes"/>
       <point x="363" y="1420"/>
@@ -93,6 +94,5 @@
       <point x="498" y="312"/>
       <point x="428" y="444"/>
     </contour>
-    <component base="_Dot" xScale="0.5" yScale="0.5" xOffset="602" yOffset="137"/>
   </outline>
 </glyph>

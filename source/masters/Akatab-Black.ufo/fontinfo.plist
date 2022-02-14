@@ -7,15 +7,13 @@
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2010-2021, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
+  <string>Copyright (c) 2010-2022, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
   <integer>-567</integer>
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/02/15 23:27:15</string>
-  <key>openTypeHeadFlags</key>
-  <array/>
+  <string>2022/02/14 21:25:06</string>
   <key>openTypeHheaAscender</key>
   <integer>2010</integer>
   <key>openTypeHheaDescender</key>
@@ -29,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://scripts.sil.org</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2010-2021, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
+  <string>Copyright (c) 2010-2022, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -85,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Akatab Black: 2021</string>
+  <string>SIL International: Akatab Black: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.001</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -105,6 +103,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
+  </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>512</integer>
@@ -180,12 +182,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>Akatab-Black</string>
-  <key>postscriptForceBold</key>
-  <false/>
   <key>postscriptFullName</key>
   <string>Akatab Black</string>
-  <key>postscriptIsFixedPitch</key>
-  <false/>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-469</integer>
