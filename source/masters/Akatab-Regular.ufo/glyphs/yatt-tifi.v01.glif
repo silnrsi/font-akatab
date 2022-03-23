@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yatt-tifi.v01" format="2">
+  <advance width="856"/>
+  <outline>
+    <contour>
+      <point x="729" y="619" type="qcurve" smooth="yes"/>
+      <point x="195" y="619" type="line"/>
+      <point x="195" y="67" type="line" smooth="yes"/>
+      <point x="195" y="0"/>
+      <point x="127" y="0" type="qcurve" smooth="yes"/>
+      <point x="60" y="0"/>
+      <point x="60" y="67" type="qcurve" smooth="yes"/>
+      <point x="60" y="1303" type="line" smooth="yes"/>
+      <point x="60" y="1371"/>
+      <point x="129" y="1371" type="qcurve" smooth="yes"/>
+      <point x="729" y="1371" type="line" smooth="yes"/>
+      <point x="796" y="1371"/>
+      <point x="796" y="1303" type="qcurve" smooth="yes"/>
+      <point x="796" y="1236"/>
+      <point x="729" y="1236" type="qcurve" smooth="yes"/>
+      <point x="195" y="1236" type="line"/>
+      <point x="195" y="754" type="line"/>
+      <point x="729" y="754" type="line" smooth="yes"/>
+      <point x="796" y="754"/>
+      <point x="796" y="686" type="qcurve" smooth="yes"/>
+      <point x="796" y="619"/>
+    </contour>
+  </outline>
+</glyph>

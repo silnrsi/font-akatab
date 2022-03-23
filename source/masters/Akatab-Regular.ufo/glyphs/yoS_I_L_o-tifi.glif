@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yoSILo-tifi" format="2">
+  <advance width="956"/>
+  <outline>
+    <contour>
+      <point x="801" y="1090" type="line"/>
+      <point x="801" y="950" type="line"/>
+      <point x="479" y="1154" type="line"/>
+      <point x="156" y="949" type="line"/>
+      <point x="156" y="1089" type="line"/>
+      <point x="479" y="1276" type="line"/>
+    </contour>
+    <contour>
+      <point x="559" y="697" type="qcurve" smooth="yes"/>
+      <point x="559" y="722"/>
+      <point x="575" y="767"/>
+      <point x="605" y="800"/>
+      <point x="646" y="820"/>
+      <point x="672" y="820" type="qcurve" smooth="yes"/>
+      <point x="697" y="820"/>
+      <point x="737" y="800"/>
+      <point x="766" y="767"/>
+      <point x="782" y="722"/>
+      <point x="782" y="697" type="qcurve" smooth="yes"/>
+      <point x="782" y="645"/>
+      <point x="722" y="573"/>
+      <point x="672" y="573" type="qcurve" smooth="yes"/>
+      <point x="646" y="573"/>
+      <point x="605" y="592"/>
+      <point x="575" y="626"/>
+      <point x="559" y="671"/>
+    </contour>
+    <contour>
+      <point x="170" y="697" type="qcurve" smooth="yes"/>
+      <point x="170" y="722"/>
+      <point x="186" y="767"/>
+      <point x="216" y="800"/>
+      <point x="257" y="820"/>
+      <point x="283" y="820" type="qcurve" smooth="yes"/>
+      <point x="308" y="820"/>
+      <point x="348" y="800"/>
+      <point x="377" y="767"/>
+      <point x="393" y="722"/>
+      <point x="393" y="697" type="qcurve" smooth="yes"/>
+      <point x="393" y="645"/>
+      <point x="333" y="573"/>
+      <point x="283" y="573" type="qcurve" smooth="yes"/>
+      <point x="257" y="573"/>
+      <point x="216" y="592"/>
+      <point x="186" y="626"/>
+      <point x="170" y="671"/>
+    </contour>
+  </outline>
+</glyph>

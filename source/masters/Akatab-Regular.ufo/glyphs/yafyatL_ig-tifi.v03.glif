@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yafyatLig-tifi.v03" format="2">
+  <advance width="1297"/>
+  <outline>
+    <contour>
+      <point x="1187" y="685" type="qcurve" smooth="yes"/>
+      <point x="1187" y="618"/>
+      <point x="1120" y="618" type="qcurve" smooth="yes"/>
+      <point x="696" y="618" type="line"/>
+      <point x="696" y="134" type="line"/>
+      <point x="1170" y="134" type="line" smooth="yes"/>
+      <point x="1237" y="134"/>
+      <point x="1237" y="66" type="qcurve" smooth="yes"/>
+      <point x="1237" y="-2"/>
+      <point x="1170" y="-2" type="qcurve" smooth="yes"/>
+      <point x="170" y="-2" type="line" smooth="yes"/>
+      <point x="103" y="-2"/>
+      <point x="103" y="66" type="qcurve" smooth="yes"/>
+      <point x="103" y="134"/>
+      <point x="170" y="134" type="qcurve" smooth="yes"/>
+      <point x="561" y="134" type="line"/>
+      <point x="561" y="618" type="line"/>
+      <point x="220" y="618" type="line" smooth="yes"/>
+      <point x="153" y="618"/>
+      <point x="153" y="685" type="qcurve" smooth="yes"/>
+      <point x="153" y="753"/>
+      <point x="220" y="753" type="qcurve" smooth="yes"/>
+      <point x="561" y="753" type="line"/>
+      <point x="561" y="1236" type="line"/>
+      <point x="127" y="1236" type="line" smooth="yes"/>
+      <point x="60" y="1236"/>
+      <point x="60" y="1303" type="qcurve" smooth="yes"/>
+      <point x="60" y="1371"/>
+      <point x="127" y="1371" type="qcurve" smooth="yes"/>
+      <point x="1127" y="1371" type="line" smooth="yes"/>
+      <point x="1195" y="1371"/>
+      <point x="1195" y="1303" type="qcurve" smooth="yes"/>
+      <point x="1195" y="1236"/>
+      <point x="1127" y="1236" type="qcurve" smooth="yes"/>
+      <point x="696" y="1236" type="line"/>
+      <point x="696" y="753" type="line"/>
+      <point x="1120" y="753" type="line" smooth="yes"/>
+      <point x="1187" y="753"/>
+    </contour>
+  </outline>
+</glyph>

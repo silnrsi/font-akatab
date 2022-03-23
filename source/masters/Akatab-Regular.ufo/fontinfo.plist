@@ -13,9 +13,7 @@
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/02/14 21:25:10</string>
-  <key>openTypeHeadFlags</key>
-  <array/>
+  <string>2022/03/23 20:40:02</string>
   <key>openTypeHheaAscender</key>
   <integer>2010</integer>
   <key>openTypeHheaDescender</key>
@@ -87,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Akatab Regular: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.001</string>
+  <string>Version 2.002</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -105,6 +103,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
+  </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>512</integer>
@@ -180,12 +182,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>Akatab-Regular</string>
-  <key>postscriptForceBold</key>
-  <false/>
   <key>postscriptFullName</key>
   <string>Akatab Regular</string>
-  <key>postscriptIsFixedPitch</key>
-  <false/>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-469</integer>
@@ -224,7 +222,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>1</integer>
+  <integer>2</integer>
   <key>xHeight</key>
   <integer>1024</integer>
 </dict>

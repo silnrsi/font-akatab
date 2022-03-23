@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yaySILe-tifi" format="2">
+  <advance width="1073"/>
+  <outline>
+    <contour>
+      <point x="413" y="1099" type="line"/>
+      <point x="569" y="1390" type="line"/>
+      <point x="733" y="1390" type="line"/>
+      <point x="554" y="1099" type="line"/>
+      <point x="356" y="752" type="line"/>
+      <point x="915" y="752" type="line"/>
+      <point x="650" y="293" type="line"/>
+      <point x="489" y="0" type="line"/>
+      <point x="326" y="0" type="line"/>
+      <point x="504" y="293" type="line"/>
+      <point x="704" y="639" type="line"/>
+      <point x="150" y="639" type="line"/>
+    </contour>
+    <contour>
+      <point x="908" y="1586" type="line"/>
+      <point x="908" y="1446" type="line"/>
+      <point x="586" y="1650" type="line"/>
+      <point x="263" y="1445" type="line"/>
+      <point x="263" y="1585" type="line"/>
+      <point x="586" y="1772" type="line"/>
+    </contour>
+  </outline>
+</glyph>
