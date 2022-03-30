@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yaySILi-tifi" format="2">
-  <advance width="1065"/>
+  <advance width="1079"/>
   <outline>
-    <contour>
-      <point x="413" y="1099" type="line"/>
-      <point x="569" y="1390" type="line"/>
-      <point x="733" y="1390" type="line"/>
-      <point x="554" y="1099" type="line"/>
-      <point x="356" y="752" type="line"/>
-      <point x="915" y="752" type="line"/>
-      <point x="650" y="293" type="line"/>
-      <point x="489" y="0" type="line"/>
-      <point x="326" y="0" type="line"/>
-      <point x="504" y="293" type="line"/>
-      <point x="704" y="639" type="line"/>
-      <point x="150" y="639" type="line"/>
-    </contour>
-    <contour>
-      <point x="201" y="377" type="qcurve" smooth="yes"/>
-      <point x="201" y="419"/>
-      <point x="252" y="480"/>
-      <point x="294" y="480" type="qcurve" smooth="yes"/>
-      <point x="315" y="480"/>
-      <point x="349" y="464"/>
-      <point x="373" y="435"/>
-      <point x="387" y="398"/>
-      <point x="387" y="377" type="qcurve" smooth="yes"/>
-      <point x="387" y="356"/>
-      <point x="373" y="319"/>
-      <point x="349" y="290"/>
-      <point x="315" y="274"/>
-      <point x="294" y="274" type="qcurve" smooth="yes"/>
-      <point x="252" y="274"/>
-      <point x="201" y="335"/>
-    </contour>
+    <component base="yay-tifi"/>
+    <component base="_Dot" xOffset="-370" yOffset="-321"/>
   </outline>
 </glyph>
