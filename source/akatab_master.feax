@@ -21,6 +21,17 @@ GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 #  GSUB Lookups
 #**********************************
 
+# SIL vowels for Tawallamat
+lookup TfnSILvowels {
+  lookupflag 0 ;
+    sub ya-tifi  circumflexcmb by yaSILa-tifi ; # SIL vowel A
+    sub ya-tifi  brevecmb  by yaSILschwa-tifi ; # SIL vowel schwa
+    sub yay-tifi circumflexcmb by yaySILe-tifi ; # SIL vowel E
+    sub yay-tifi dotbelowcmb   by yaySILi-tifi ; # SIL vowel I
+    sub yo-tifi  circumflexcmb by yoSILo-tifi ; # SIL vowel O
+    sub yu-tifi  circumflexcmb by yuSILu-tifi ; # SIL vowel U
+} TfnSILvowels;
+
 lookup TfnCharacterVariant01 {
   lookupflag 0 ;
     sub ya-tifi by ya-tifi.alt ;
@@ -564,11 +575,13 @@ feature liga {  # Standard Ligatures
             lookup TfnBiconsonants_RTL;
 			lookup TfnBiconsonants_RTL_DW;
             lookup TfnBiconsonants;
+            lookup TfnSILvowels;
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnBiconsonants_RTL;
 			lookup TfnBiconsonants_RTL_DW;
             lookup TfnBiconsonants;
+            lookup TfnSILvowels;
 } liga ;
 
 feature rtla {  # Right to Left Alternates

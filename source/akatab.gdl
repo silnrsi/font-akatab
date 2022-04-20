@@ -328,6 +328,14 @@ g_acutecomb     >  TifConsLengthMark_alt  /  cTakesTDia_base  _;
 g_tildecomb       >  TifConsLengthMark      /  cTakesTDia_base  _;
 (g_dotaccentcmb g_ringcmb)  >  TifVowelMark  /  cTakesTDia_base  _;
 
+// SIL vowels for Tawallamat
+g_ya_tifi  g_circumflexcmb > g_ya_s_i_la_tifi:(1 2) _ ;     // SIL vowel A
+g_ya_tifi  g_brevecmb      > g_ya_s_i_lschwa_tifi:(1 2) _ ; // SIL vowel schwa
+g_yay_tifi g_circumflexcmb > g_yay_s_i_le_tifi:(1 2) _ ;    // SIL vowel E
+g_yay_tifi g_dotbelowcmb   > g_yay_s_i_li_tifi:(1 2) _ ;    // SIL vowel I
+g_yo_tifi  g_circumflexcmb > g_yo_s_i_lo_tifi:(1 2) _ ;     // SIL vowel O
+g_yu_tifi  g_circumflexcmb > g_yu_s_i_lu_tifi:(1 2) _ ;     // SIL vowel U
+
 
 // Alternate character forms
 
