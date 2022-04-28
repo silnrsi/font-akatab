@@ -876,6 +876,8 @@
   <string>yafyatL_ig-tifi.v03.glif</string>
   <key>yafyatLig-tifi.v04</key>
   <string>yafyatL_ig-tifi.v04.glif</string>
+  <key>yafyatLig-tifi.v04.001</key>
+  <string>yafyatL_ig-tifi.v04.001.glif</string>
   <key>yag-tifi</key>
   <string>yag-tifi.glif</string>
   <key>yag-tifi.v01</key>
@@ -994,6 +996,10 @@
   <string>yanyafL_ig-tifi.v03.glif</string>
   <key>yanyafyatLig-tifi</key>
   <string>yanyafyatL_ig-tifi.glif</string>
+  <key>yanyafyatLig-tifi.001</key>
+  <string>yanyafyatL_ig-tifi.001.glif</string>
+  <key>yanyafyatLig-tifi.002</key>
+  <string>yanyafyatL_ig-tifi.002.glif</string>
   <key>yanyaghTuaregLig-tifi</key>
   <string>yanyaghT_uaregL_ig-tifi.glif</string>
   <key>yanyaghTuaregLig-tifi.rtl</key>

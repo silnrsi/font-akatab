@@ -6,14 +6,14 @@
   <string>A_.glif</string>
   <key>TifConsLengthMark</key>
   <string>T_ifC_onsL_engthM_ark.glif</string>
-  <key>_HorizontalBar</key>
-  <string>_H_orizontalB_ar.glif</string>
   <key>_VerticalBarMedLong</key>
   <string>_V_erticalB_arM_edL_ong.glif</string>
   <key>separator-tifi</key>
   <string>separator-tifi.glif</string>
   <key>separator-tifi.rtl</key>
   <string>separator-tifi.rtl.glif</string>
+  <key>yaSILschwa-tifi</key>
+  <string>yaS_I_L_schwa-tifi.glif</string>
   <key>yab-tifi</key>
   <string>yab-tifi.glif</string>
   <key>yabyatLig-tifi</key>
@@ -22,10 +22,18 @@
   <string>yabyatL_ig-tifi.alt.glif</string>
   <key>yaf-tifi.alt</key>
   <string>yaf-tifi.alt.glif</string>
+  <key>yaf-tifi.v02</key>
+  <string>yaf-tifi.v02.glif</string>
   <key>yafyatLig-tifi.alt.rtl</key>
   <string>yafyatL_ig-tifi.alt.rtl.glif</string>
   <key>yafyatLig-tifi.rtl</key>
   <string>yafyatL_ig-tifi.rtl.glif</string>
+  <key>yafyatLig-tifi.v03</key>
+  <string>yafyatL_ig-tifi.v03.glif</string>
+  <key>yafyatLig-tifi.v04</key>
+  <string>yafyatL_ig-tifi.v04.glif</string>
+  <key>yafyatLig-tifi.v04.001</key>
+  <string>yafyatL_ig-tifi.v04.001.glif</string>
   <key>yaghh-tifi</key>
   <string>yaghh-tifi.glif</string>
   <key>yaghh-tifi.alt.unused</key>
@@ -54,6 +62,16 @@
   <string>yan-tifi.slant.glif</string>
   <key>yan-tifi.slant.rtl</key>
   <string>yan-tifi.slant.rtl.glif</string>
+  <key>yanyafLig-tifi.v02</key>
+  <string>yanyafL_ig-tifi.v02.glif</string>
+  <key>yanyafLig-tifi.v03</key>
+  <string>yanyafL_ig-tifi.v03.glif</string>
+  <key>yanyafyatLig-tifi</key>
+  <string>yanyafyatL_ig-tifi.glif</string>
+  <key>yanyafyatLig-tifi.001</key>
+  <string>yanyafyatL_ig-tifi.001.glif</string>
+  <key>yanyafyatLig-tifi.002</key>
+  <string>yanyafyatL_ig-tifi.002.glif</string>
   <key>yanyakTuaregLig-tifi.alt</key>
   <string>yanyakT_uaregL_ig-tifi.alt.glif</string>
   <key>yaryatLig-tifi.alt</key>
