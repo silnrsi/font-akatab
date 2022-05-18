@@ -2,6 +2,7 @@
 <glyph name="yazTawellemet-tifi" format="2">
   <advance width="1029"/>
   <unicode hex="2D64"/>
+  <anchor x="557" y="1393" name="T"/>
   <outline>
     <component base="_VerticalBar" xOffset="-385"/>
     <contour>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yazTawellemet-tifi.rtl" format="2">
   <advance width="1051"/>
+  <anchor x="491" y="1393" name="T"/>
   <outline>
     <contour>
       <point x="668" y="0" type="curve" smooth="yes"/>
