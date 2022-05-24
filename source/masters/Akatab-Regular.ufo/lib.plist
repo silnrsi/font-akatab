@@ -13,19 +13,7 @@
   <key>GSOffsetVertical</key>
   <integer>10</integer>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
-  <dict>
-    <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
-    <array/>
-    <key>com.schriftgestaltung.Glyphs.originalKerningGroups</key>
-    <dict>
-      <key>public.kern1.OpenTopRight</key>
-      <array>
-        <string>TifLtrYad</string>
-        <string>TifLig-nt.alt</string>
-        <string>TifLig-nt.alt.rtl</string>
-      </array>
-    </dict>
-  </dict>
+  <dict/>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3124</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
