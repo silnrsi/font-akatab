@@ -6,6 +6,6 @@
 # This section contains commands that run every time
 echo
 echo "Converting Glyphs to UFO3..."
-psfglyphs2ufo source/masters/Akatab.glyphs source/masters
+psfglyphs2ufo --nofea source/masters/Akatab.glyphs source/masters
 
 ./preflight
