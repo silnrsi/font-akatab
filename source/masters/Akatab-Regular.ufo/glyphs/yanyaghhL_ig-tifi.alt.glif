@@ -2,7 +2,6 @@
 <glyph name="yanyaghhLig-tifi.alt" format="2">
   <advance width="1041"/>
   <outline>
-    <component base="_HorizontalBarMedShort" xOffset="82" yOffset="807"/>
     <contour>
       <point x="310" y="1365" type="curve" smooth="yes"/>
       <point x="305" y="1401"/>
@@ -40,6 +39,44 @@
       <point x="899" y="403" type="curve" smooth="yes"/>
       <point x="899" y="719"/>
       <point x="351" y="1072"/>
+    </contour>
+    <contour>
+      <point x="910" y="814" type="curve" smooth="yes"/>
+      <point x="940" y="814"/>
+      <point x="955" y="842"/>
+      <point x="955" y="878" type="curve" smooth="yes"/>
+      <point x="955" y="932"/>
+      <point x="913" y="953"/>
+      <point x="865" y="957" type="curve" smooth="yes"/>
+      <point x="829" y="960"/>
+      <point x="787" y="961"/>
+      <point x="742" y="961" type="curve" smooth="yes"/>
+      <point x="690" y="961"/>
+      <point x="478" y="957"/>
+      <point x="381" y="957" type="curve" smooth="yes"/>
+      <point x="307" y="957"/>
+      <point x="278" y="954"/>
+      <point x="199" y="954" type="curve" smooth="yes"/>
+      <point x="151" y="954"/>
+      <point x="150" y="962"/>
+      <point x="117" y="962" type="curve" smooth="yes"/>
+      <point x="87" y="962"/>
+      <point x="72" y="934"/>
+      <point x="72" y="898" type="curve" smooth="yes"/>
+      <point x="72" y="844"/>
+      <point x="114" y="823"/>
+      <point x="162" y="819" type="curve" smooth="yes"/>
+      <point x="198" y="816"/>
+      <point x="235" y="815"/>
+      <point x="276" y="815" type="curve" smooth="yes"/>
+      <point x="322" y="815"/>
+      <point x="529" y="819"/>
+      <point x="626" y="819" type="curve" smooth="yes"/>
+      <point x="700" y="819"/>
+      <point x="749" y="822"/>
+      <point x="828" y="822" type="curve" smooth="yes"/>
+      <point x="876" y="822"/>
+      <point x="877" y="814"/>
     </contour>
   </outline>
 </glyph>
