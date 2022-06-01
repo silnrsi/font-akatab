@@ -76,10 +76,14 @@
   <string>yanyafL_ig-tifi.v03.glif</string>
   <key>yanyafyatLig-tifi</key>
   <string>yanyafyatL_ig-tifi.glif</string>
-  <key>yanyakTuaregLig-tifi.alt</key>
-  <string>yanyakT_uaregL_ig-tifi.alt.glif</string>
   <key>yaryatLig-tifi.alt</key>
   <string>yaryatL_ig-tifi.alt.glif</string>
+  <key>yashyakLig-tifi.v01</key>
+  <string>yashyakL_ig-tifi.v01.glif</string>
+  <key>yashyakLig-tifi.v01.rtl</key>
+  <string>yashyakL_ig-tifi.v01.rtl.glif</string>
+  <key>yashyakLig-tifi.v03</key>
+  <string>yashyakL_ig-tifi.v03.glif</string>
   <key>yasyatLig-tifi.alt</key>
   <string>yasyatL_ig-tifi.alt.glif</string>
   <key>yasyatLig-tifi.alt.rtl</key>

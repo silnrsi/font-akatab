@@ -188,6 +188,8 @@
   <string>_C_ircle_S_mall.glif</string>
   <key>_Dot</key>
   <string>_D_ot.glif</string>
+  <key>_Dot.001</key>
+  <string>_D_ot.001.glif</string>
   <key>_DotWide</key>
   <string>_D_otW_ide.glif</string>
   <key>_DotWideDiag</key>
@@ -1040,6 +1042,8 @@
   <string>yanyazhT_uaregL_ig-tifi.v03.glif</string>
   <key>yanyazhTuaregLig-tifi.v04</key>
   <string>yanyazhT_uaregL_ig-tifi.v04.glif</string>
+  <key>yanyazhTuaregLig-tifi.v04.001</key>
+  <string>yanyazhT_uaregL_ig-tifi.v04.001.glif</string>
   <key>yaqTuareg-tifi</key>
   <string>yaqT_uareg-tifi.glif</string>
   <key>yar-tifi</key>
