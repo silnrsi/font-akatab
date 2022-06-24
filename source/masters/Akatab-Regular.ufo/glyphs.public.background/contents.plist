@@ -12,12 +12,8 @@
   <string>separator-tifi.glif</string>
   <key>separator-tifi.rtl</key>
   <string>separator-tifi.rtl.glif</string>
-  <key>yaSILschwa-tifi</key>
-  <string>yaS_I_L_schwa-tifi.glif</string>
   <key>yab-tifi</key>
   <string>yab-tifi.glif</string>
-  <key>yab-tifi.v01</key>
-  <string>yab-tifi.v01.glif</string>
   <key>yabyatLig-tifi</key>
   <string>yabyatL_ig-tifi.glif</string>
   <key>yabyatLig-tifi.alt</key>
@@ -32,10 +28,6 @@
   <string>yafyatL_ig-tifi.rtl.glif</string>
   <key>yafyatLig-tifi.v03</key>
   <string>yafyatL_ig-tifi.v03.glif</string>
-  <key>yafyatLig-tifi.v04</key>
-  <string>yafyatL_ig-tifi.v04.glif</string>
-  <key>yaghh-tifi</key>
-  <string>yaghh-tifi.glif</string>
   <key>yaghh-tifi.alt.unused</key>
   <string>yaghh-tifi.alt.unused.glif</string>
   <key>yaghhyatLig-tifi.alt.rtl</key>
@@ -54,10 +46,10 @@
   <string>yal-tifi.slant.rtl.glif</string>
   <key>yalyatLig-tifi</key>
   <string>yalyatL_ig-tifi.glif</string>
+  <key>yalyatLig-tifi.alt</key>
+  <string>yalyatL_ig-tifi.alt.glif</string>
   <key>yalyatLig-tifi.v01</key>
   <string>yalyatL_ig-tifi.v01.glif</string>
-  <key>yamyasLig-tifi</key>
-  <string>yamyasL_ig-tifi.glif</string>
   <key>yamyatLig-tifi.alt.rtl</key>
   <string>yamyatL_ig-tifi.alt.rtl.glif</string>
   <key>yamyatLig-tifi.rtl</key>
@@ -70,10 +62,6 @@
   <string>yan-tifi.slant.rtl.glif</string>
   <key>yanyaddLig-tifi.v02</key>
   <string>yanyaddL_ig-tifi.v02.glif</string>
-  <key>yanyafLig-tifi.v02</key>
-  <string>yanyafL_ig-tifi.v02.glif</string>
-  <key>yanyafLig-tifi.v03</key>
-  <string>yanyafL_ig-tifi.v03.glif</string>
   <key>yanyafyatLig-tifi</key>
   <string>yanyafyatL_ig-tifi.glif</string>
   <key>yaryatLig-tifi.alt</key>
@@ -84,6 +72,10 @@
   <string>yashyakL_ig-tifi.v01.rtl.glif</string>
   <key>yashyakLig-tifi.v03</key>
   <string>yashyakL_ig-tifi.v03.glif</string>
+  <key>yashyanLig-tifi.001</key>
+  <string>yashyanL_ig-tifi.001.glif</string>
+  <key>yashyanLig-tifi.rtl.001</key>
+  <string>yashyanL_ig-tifi.rtl.001.glif</string>
   <key>yasyatLig-tifi.alt</key>
   <string>yasyatL_ig-tifi.alt.glif</string>
   <key>yasyatLig-tifi.alt.rtl</key>

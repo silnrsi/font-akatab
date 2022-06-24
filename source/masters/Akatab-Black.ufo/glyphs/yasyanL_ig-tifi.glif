@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yasyanLig-tifi" format="2">
   <advance width="1454"/>
+  <guideline x="345" y="708" angle="0"/>
   <outline>
     <component base="yaryanLig-tifi"/>
-    <component base="_Dot" xOffset="72" yOffset="-13"/>
+    <component base="_Dot" xScale="0.9" yScale="0.9" xOffset="131" yOffset="58"/>
   </outline>
 </glyph>
