@@ -15,20 +15,22 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3132</string>
+  <string>3133</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/_Dot/ya-tifi/yuSILu-tifi/yu-tifi/yaSILa-tifi/yaSILschwa-tifi/yo-tifi/yoSILo-tifi/yanyaghhLig-tifi/yo-tifi/yay-tifi/yaySILe-tifi/yaySILi-tifi/yay-tifi</string>
+    <string>/_Dot/ya-tifi/yuSILu-tifi/yu-tifi/yaSILa-tifi/yaSILschwa-tifi/yo-tifi/yoSILo-tifi/yanyaghhLig-tifi/yaghAyer-tifi/yo-tifi/yay-tifi/yaySILe-tifi/yaySILi-tifi</string>
     <string>/_VerticalBar/yat-tifi/yabyatLig-tifi.alt/yaryatLig-tifi.alt2/yasyatLig-tifi.alt2/yal-tifi/yalyatLig-tifi/yalyatLig-tifi.alt/yazhyatLig-tifi.alt2/yazhAhaggar-tifi.alt/yafyatLig-tifi.v04/yaf-tifi.v02 
 /yanyafyatLig-tifi/yalyatLig-tifi.alt/yaf-tifi.alt/yanyafLig-tifi.alt/yafyatLig-tifi.v03/yanyafLig-tifi.v02/yaf-tifi/yanyafLig-tifi.v03</string>
-    <string>/yadd-tifi/yam-tifi/yamyasLig-tifi/yaf-tifi.alt/yab-tifi.v01/yah-tifi.v01/yatt-tifi.v01/yatt-tifi.v01.rtl/yal-tifi/yalyatLig-tifi.v01/yanyaddLig-tifi.v02 
-/yazhTuareg-tifi/yanyazhTuaregLig-tifi.v03 
+    <string>/yadd-tifi/yatt-tifi.v01/yatt-tifi.v01.rtl/yam-tifi/yamyasLig-tifi/yaf-tifi.alt/yab-tifi.v01/yah-tifi.v01 
+/yal-tifi/yalyatLig-tifi.v01/yanyaddLig-tifi.v02/yazhTuareg-tifi/yanyazhTuaregLig-tifi.v03 
 /yazTawellemet-tifi/yazTawellemet-tifi.rtl/yanyazTawellemetLig-tifi/yanyazTawellemetLig-tifi.rtl</string>
     <string>/yaghh-tifi/yag-tifi/yaghh-tifi.alt/yag-tifi.v01/yalyatLig-tifi.v03/yanyadLig-tifi.v01</string>
-    <string>/yaghh-tifi.alt/yash-tifi.v01/yanyaghhLig-tifi.alt/yanyashLig-tifi.v01/yashyanLig-tifi.v01/yashyanLig-tifi.v01.001/yaryanLig-tifi/yas-tifi/_Dot/yasyanLig-tifi/yash-tifi/yashyanLig-tifi/yashyanLig-tifi.rtl/yash-tifi.rtl/yashyanLig-tifi.001/yashyanLig-tifi.rtl.001</string>
+    <string>/yaghh-tifi.alt/yash-tifi.v01/yanyaghhLig-tifi.alt/yanyashLig-tifi.v01/yashyanLig-tifi.v01/yaryanLig-tifi/yas-tifi/_Dot/yasyanLig-tifi/yash-tifi/yashyanLig-tifi/yashyanLig-tifi.rtl/yash-tifi.rtl</string>
     <string>/yaghAyer-tifi/yaj-tifi/yaj-tifi.v01/yanyaghTuaregLig-tifi/yanyaghTuaregLig-tifi.rtl/yanyajLig-tifi.v01/yanyasLig-tifi.v01/yuyatLig-tifi.alt/yuyatLig-tifi.v03</string>
-    <string>/_Dot.001/yanyazhTuaregLig-tifi.v04/yanyazhTuaregLig-tifi.v04.002/yazhTuareg-tifi/yanyazhTuaregLig-tifi.v04.001</string>
+    <string>/_Dot.001/yanyazhTuaregLig-tifi.v04/yazhTuareg-tifi</string>
     <string>/yaryakLig-tifi.v01/yaryakTuaregLig-tifi/yanyakTuaregLig-tifi.alt/yash-tifi/yashyakTuaregLig-tifi/yashyakTuaregLig-tifi.rtl/yashyakLig-tifi.v01/yashyakLig-tifi.v01.rtl/yash-tifi.v01/yashyakLig-tifi.v02/yashyakLig-tifi.v03</string>
+    <string>/yam-tifi/yadd-tifi/yatt-tifi/yamyatLig-tifi.alt/yamyatLig-tifi/yafyatLig-tifi/yafyatLig-tifi.alt2/yaf-tifi/yanyafLig-tifi 
+/yam-tifi.rtl/yadd-tifi.rtl/yatt-tifi.rtl/yamyatLig-tifi.alt.rtl/yamyatLig-tifi.rtl/yafyatLig-tifi.rtl/yafyatLig-tifi.alt2.rtl</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

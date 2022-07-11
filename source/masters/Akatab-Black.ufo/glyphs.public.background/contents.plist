@@ -28,8 +28,6 @@
   <string>yabyatL_ig-tifi.alt.glif</string>
   <key>yabyatLig-tifi.rtl</key>
   <string>yabyatL_ig-tifi.rtl.glif</string>
-  <key>yaghh-tifi</key>
-  <string>yaghh-tifi.glif</string>
   <key>yaghh-tifi.alt.unused</key>
   <string>yaghh-tifi.alt.unused.glif</string>
   <key>yaghhyatLig-tifi.alt.rtl</key>
@@ -44,16 +42,6 @@
   <string>yal-tifi.raised.glif</string>
   <key>yaryatLig-tifi.alt</key>
   <string>yaryatL_ig-tifi.alt.glif</string>
-  <key>yashyakLig-tifi.v01</key>
-  <string>yashyakL_ig-tifi.v01.glif</string>
-  <key>yashyakLig-tifi.v01.rtl</key>
-  <string>yashyakL_ig-tifi.v01.rtl.glif</string>
-  <key>yashyakLig-tifi.v03</key>
-  <string>yashyakL_ig-tifi.v03.glif</string>
-  <key>yashyanLig-tifi.rtl.001</key>
-  <string>yashyanL_ig-tifi.rtl.001.glif</string>
-  <key>yashyanLig-tifi.v01.001</key>
-  <string>yashyanL_ig-tifi.v01.001.glif</string>
   <key>yashyatLig-tifi.rtl</key>
   <string>yashyatL_ig-tifi.rtl.glif</string>
   <key>yasyatLig-tifi.alt</key>

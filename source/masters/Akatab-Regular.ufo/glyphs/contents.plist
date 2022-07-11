@@ -1042,10 +1042,6 @@
   <string>yanyazhT_uaregL_ig-tifi.v03.glif</string>
   <key>yanyazhTuaregLig-tifi.v04</key>
   <string>yanyazhT_uaregL_ig-tifi.v04.glif</string>
-  <key>yanyazhTuaregLig-tifi.v04.001</key>
-  <string>yanyazhT_uaregL_ig-tifi.v04.001.glif</string>
-  <key>yanyazhTuaregLig-tifi.v04.002</key>
-  <string>yanyazhT_uaregL_ig-tifi.v04.002.glif</string>
   <key>yaqTuareg-tifi</key>
   <string>yaqT_uareg-tifi.glif</string>
   <key>yar-tifi</key>
@@ -1086,16 +1082,10 @@
   <string>yashyakT_uaregL_ig-tifi.rtl.glif</string>
   <key>yashyanLig-tifi</key>
   <string>yashyanL_ig-tifi.glif</string>
-  <key>yashyanLig-tifi.001</key>
-  <string>yashyanL_ig-tifi.001.glif</string>
   <key>yashyanLig-tifi.rtl</key>
   <string>yashyanL_ig-tifi.rtl.glif</string>
-  <key>yashyanLig-tifi.rtl.001</key>
-  <string>yashyanL_ig-tifi.rtl.001.glif</string>
   <key>yashyanLig-tifi.v01</key>
   <string>yashyanL_ig-tifi.v01.glif</string>
-  <key>yashyanLig-tifi.v01.001</key>
-  <string>yashyanL_ig-tifi.v01.001.glif</string>
   <key>yashyatLig-tifi</key>
   <string>yashyatL_ig-tifi.glif</string>
   <key>yashyatLig-tifi.rtl</key>
