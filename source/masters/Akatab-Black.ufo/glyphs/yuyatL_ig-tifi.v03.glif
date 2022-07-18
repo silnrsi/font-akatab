@@ -4,7 +4,7 @@
   <outline>
     <component base="_VerticalBar" xOffset="-45"/>
     <component base="_HorizontalBar" xOffset="-45"/>
-    <component base="_Dot" xOffset="401" yOffset="344"/>
     <component base="_Dot" xOffset="-339" yOffset="-382"/>
+    <component base="_Dot" xOffset="401" yOffset="344"/>
   </outline>
 </glyph>
