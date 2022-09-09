@@ -3,7 +3,7 @@
   <advance width="629"/>
   <unicode hex="2027"/>
   <outline>
-    <component base="period.latin" yOffset="508"/>
+    <component base="period" yOffset="508"/>
   </outline>
   <lib>
     <dict>
@@ -15,7 +15,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>period.latin</string>
+          <string>period</string>
         </dict>
       </array>
     </dict>

@@ -83,6 +83,12 @@ f_2D4B {
 	bool
 }
 
+f_punct {
+	id = "cv20";
+	name.1033 = string("Alternate comma exclam and period");  // from publications circa 1954
+	bool
+}
+
 
 // Biconsonant features
 
@@ -313,8 +319,8 @@ endpass; // 1
 
 pass(2)
 
-// Latin punctuation for Latin characters
-cno_latin  >  clatin  /  cNoTif  _ ;
+// *Deprecated* Latin punctuation for Latin characters
+// cno_latin  >  clatin  /  cNoTif  _ ;
 
 // Raised vertical-bar characters:
 cno_raised  >  craised  /  _  (g_yan_tifi g_yal_tifi) {directionality == 1};  // RTL
@@ -365,6 +371,12 @@ endif;
 
 if (f_2D4B)
 g_yazh_ahaggar_tifi  >  g_yazh_ahaggar_tifi_alt;
+endif;
+
+if (f_punct)
+g_comma  >  g_comma_alt;
+g_exclam >  g_exclam_alt;
+g_period >  g_period_alt;
 endif;
 
 endpass; // 2

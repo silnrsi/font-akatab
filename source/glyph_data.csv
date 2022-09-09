@@ -514,9 +514,9 @@ uniFE0F,uniFE0F,FE0F,4016
 uniFEFF,uniFEFF,FEFF,4017
 uniFFFC,uniFFFC,FFFC,4018
 uniFFFD,uniFFFD,FFFD,4019
-comma.latin,comma.latin,,5001
-exclam.latin,exclam.latin,,5002
-period.latin,period.latin,,5003
+comma.alt,comma.alt,,5001
+exclam.alt,exclam.alt,,5002
+period.alt,period.alt,,5003
 gravecmb.cap,gravecmb.cap,,5004
 acutecmb.cap,acutecmb.cap,,5005
 circumflexcmb.cap,circumflexcmb.cap,,5006

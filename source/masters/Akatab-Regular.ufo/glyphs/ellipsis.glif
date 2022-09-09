@@ -3,9 +3,9 @@
   <advance width="1996"/>
   <unicode hex="2026"/>
   <outline>
-    <component base="period.latin" xOffset="63"/>
-    <component base="period.latin" xOffset="770"/>
-    <component base="period.latin" xOffset="1479"/>
+    <component base="period" xOffset="63"/>
+    <component base="period" xOffset="770"/>
+    <component base="period" xOffset="1479"/>
   </outline>
   <lib>
     <dict>
@@ -17,7 +17,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>period.latin</string>
+          <string>period</string>
         </dict>
         <dict>
           <key>alignment</key>
@@ -25,7 +25,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>period.latin</string>
+          <string>period</string>
         </dict>
         <dict>
           <key>alignment</key>
@@ -33,7 +33,7 @@
           <key>index</key>
           <integer>2</integer>
           <key>name</key>
-          <string>period.latin</string>
+          <string>period</string>
         </dict>
       </array>
     </dict>

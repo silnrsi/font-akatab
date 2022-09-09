@@ -67,6 +67,13 @@ lookup TfnCharacterVariant07 {
     sub yazhAhaggar-tifi by yazhAhaggar-tifi.alt ;
 } TfnCharacterVariant07;
 
+lookup TfnCharacterVariant20 { # from publications circa 1954
+  lookupflag 0 ;
+    sub comma  by comma.alt ;
+    sub exclam by exclam.alt ;
+    sub period by period.alt ;
+} TfnCharacterVariant20;
+
 # this lookup is used by Harfbuzz for right to left glyph substitution 
 #      when the string is preceded by a U+202E character
 lookup TfnRTLalt {
@@ -384,10 +391,10 @@ lookup TfnDiacriticSub {
     sub @cTakesTDia_base ringcmb'        by TifVowelMark ;
 } TfnDiacriticSub;
 
-lookup LatnPunct {
-  lookupflag 0 ;
-    sub @cNoTif @cno_latin' by @c_latin ;
-} LatnPunct;
+#lookup LatnPunct {
+#  lookupflag 0 ;
+#    sub @cNoTif @cno_latin' by @c_latin ;
+#} LatnPunct;
 
 
 #**********************************
@@ -408,12 +415,12 @@ feature calt {  # Contextual Alternates
         language dflt;  # Default
             lookup TfnRaised;
             lookup TfnDiacriticSub;
-            lookup LatnPunct;
+#            lookup LatnPunct;
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnRaised;
             lookup TfnDiacriticSub;
-            lookup LatnPunct;
+#            lookup LatnPunct;
 } calt ;
 
 feature cv01 {  # Character Variant 1
@@ -478,6 +485,15 @@ feature cv07 {  # Character Variant 7
         language dflt;  # Default
             lookup TfnCharacterVariant07;
 } cv07 ;
+
+feature cv20 {  # Character Variant 20
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant20;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant20;
+} cv20 ;
 
 feature cv31 {  # Character Variant 31
     script DFLT;  # Default
@@ -657,6 +673,15 @@ feature ss07 {  # Stylistic Set 7
         language dflt;  # Default
             lookup TfnCharacterVariant07;
 } ss07 ;
+
+feature ss20 {  # Stylistic Set 20
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant20;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant20;
+} ss20 ;
 
 
 #**********************************

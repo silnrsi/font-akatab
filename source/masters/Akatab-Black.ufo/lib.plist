@@ -584,9 +584,9 @@
     <string>uniFEFF</string>
     <string>uniFFFC</string>
     <string>uniFFFD</string>
-    <string>comma.latin</string>
-    <string>exclam.latin</string>
-    <string>period.latin</string>
+    <string>comma.alt</string>
+    <string>exclam.alt</string>
+    <string>period.alt</string>
     <string>gravecmb.cap</string>
     <string>acutecmb.cap</string>
     <string>circumflexcmb.cap</string>
