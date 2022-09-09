@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>2010</integer>
+  <integer>2078</integer>
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
   <string>Copyright (c) 2010-2022, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
-  <integer>-567</integer>
+  <integer>-711</integer>
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
   <string>2022/07/19 08:53:35</string>
   <key>openTypeHheaAscender</key>
-  <integer>2010</integer>
+  <integer>2078</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-567</integer>
+  <integer>-711</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -131,9 +131,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>2010</integer>
+  <integer>2078</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-567</integer>
+  <integer>-711</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -168,9 +168,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2010</integer>
+  <integer>2078</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>567</integer>
+  <integer>711</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-33</integer>
