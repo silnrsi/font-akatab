@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>2078</integer>
+  <integer>2093</integer>
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
@@ -15,7 +15,7 @@
   <key>openTypeHeadCreated</key>
   <string>2022/09/09 16:44:32</string>
   <key>openTypeHheaAscender</key>
-  <integer>2078</integer>
+  <integer>2093</integer>
   <key>openTypeHheaDescender</key>
   <integer>-711</integer>
   <key>openTypeHheaLineGap</key>
@@ -85,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Akatab Regular: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.003</string>
+  <string>Version 2.004</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -131,7 +131,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>2078</integer>
+  <integer>2093</integer>
   <key>openTypeOS2TypoDescender</key>
   <integer>-711</integer>
   <key>openTypeOS2TypoLineGap</key>
@@ -168,7 +168,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2078</integer>
+  <integer>2093</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>711</integer>
   <key>postscriptBlueValues</key>
@@ -222,7 +222,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>3</integer>
+  <integer>4</integer>
   <key>xHeight</key>
   <integer>1024</integer>
 </dict>
