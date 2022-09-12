@@ -424,6 +424,10 @@ feature calt {  # Contextual Alternates
 } calt ;
 
 feature cv01 {  # Character Variant 1
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YA" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "empty circle" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant01;
@@ -433,6 +437,10 @@ feature cv01 {  # Character Variant 1
 } cv01 ;
 
 feature cv02 {  # Character Variant 2
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "I-shape" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant02;
@@ -442,6 +450,10 @@ feature cv02 {  # Character Variant 2
 } cv02 ;
 
 feature cv03 {  # Character Variant 3
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAGHH" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "round bottom" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant03;
@@ -451,6 +463,10 @@ feature cv03 {  # Character Variant 3
 } cv03 ;
 
 feature cv04 {  # Character Variant 4
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAGN" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "lowered bottom stroke" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant04;
@@ -460,6 +476,10 @@ feature cv04 {  # Character Variant 4
 } cv04 ;
 
 feature cv05 {  # Character Variant 5
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YU" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "short strokes" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant05;
@@ -469,6 +489,10 @@ feature cv05 {  # Character Variant 5
 } cv05 ;
 
 feature cv06 {  # Character Variant 6
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAZ" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "squared" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant06;
@@ -478,6 +502,10 @@ feature cv06 {  # Character Variant 6
 } cv06 ;
 
 feature cv07 {  # Character Variant 7
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate AHAGGAR YAZH" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "squared" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant07;
@@ -487,6 +515,10 @@ feature cv07 {  # Character Variant 7
 } cv07 ;
 
 feature cv20 {  # Character Variant 20
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate punctuation" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "comma exclam and period" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant20;
@@ -496,6 +528,10 @@ feature cv20 {  # Character Variant 20
 } cv20 ;
 
 feature cv31 {  # Character Variant 31
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAB YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "interior T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant31;
@@ -505,6 +541,11 @@ feature cv31 {  # Character Variant 31
 } cv31 ;
 
 feature cv32 {  # Character Variant 32
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAR YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "large interior T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "small interior T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant32;
@@ -514,6 +555,11 @@ feature cv32 {  # Character Variant 32
 } cv32 ;
 
 feature cv33 {  # Character Variant 33
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAS YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "large interior T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "small interior T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant33;
@@ -523,6 +569,10 @@ feature cv33 {  # Character Variant 33
 } cv33 ;
 
 feature cv34 {  # Character Variant 34
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAM YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "middle T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant34;
@@ -532,6 +582,10 @@ feature cv34 {  # Character Variant 34
 } cv34 ;
 
 feature cv35 {  # Character Variant 35
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "middle T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant35;
@@ -541,6 +595,10 @@ feature cv35 {  # Character Variant 35
 } cv35 ;
 
 feature cv36 {  # Character Variant 36
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAK" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "double dot cluster" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant36;
@@ -550,6 +608,11 @@ feature cv36 {  # Character Variant 36
 } cv36 ;
 
 feature cv37 {  # Character Variant 37
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "side bar" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "top bar" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant37;
@@ -559,6 +622,10 @@ feature cv37 {  # Character Variant 37
 } cv37 ;
 
 feature cv38 {  # Character Variant 38
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAL YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "internal T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant38;
@@ -568,6 +635,10 @@ feature cv38 {  # Character Variant 38
 } cv38 ;
 
 feature cv39 {  # Character Variant 39
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YU YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "tall" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant39;
@@ -577,6 +648,11 @@ feature cv39 {  # Character Variant 39
 } cv39 ;
 
 feature cv40 {  # Character Variant 40
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate Tuareg YAZH YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "mid-right T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "centered T" ; };
+    } ;
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant40;
@@ -612,6 +688,7 @@ feature rtla {  # Right to Left Alternates
 } rtla ;
 
 feature ss01 {  # Stylistic Set 1
+    featureNames { name 3 1 0x409 "Alternate YA (empty circle)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant01;
@@ -621,6 +698,7 @@ feature ss01 {  # Stylistic Set 1
 } ss01 ;
 
 feature ss02 {  # Stylistic Set 2
+    featureNames { name 3 1 0x409 "Alternate YAF (I-shape)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant02;
@@ -630,6 +708,7 @@ feature ss02 {  # Stylistic Set 2
 } ss02 ;
 
 feature ss03 {  # Stylistic Set 3
+    featureNames { name 3 1 0x409 "Alternate YAGHH (round bottom)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant03;
@@ -639,6 +718,7 @@ feature ss03 {  # Stylistic Set 3
 } ss03 ;
 
 feature ss04 {  # Stylistic Set 4
+    featureNames { name 3 1 0x409 "Alternate YAGN (lowered bottom stroke)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant04;
@@ -648,6 +728,7 @@ feature ss04 {  # Stylistic Set 4
 } ss04 ;
 
 feature ss05 {  # Stylistic Set 5
+    featureNames { name 3 1 0x409 "Alternate YU (short strokes)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant05;
@@ -657,6 +738,7 @@ feature ss05 {  # Stylistic Set 5
 } ss05 ;
 
 feature ss06 {  # Stylistic Set 6
+    featureNames { name 3 1 0x409 "Alternate YAZ (squared)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant06;
@@ -666,6 +748,7 @@ feature ss06 {  # Stylistic Set 6
 } ss06 ;
 
 feature ss07 {  # Stylistic Set 7
+    featureNames { name 3 1 0x409 "Alternate AHAGGAR YAZH (squared)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant07;
@@ -675,6 +758,7 @@ feature ss07 {  # Stylistic Set 7
 } ss07 ;
 
 feature ss20 {  # Stylistic Set 20
+    featureNames { name 3 1 0x409 "Alternate comma exclam and period" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant20;

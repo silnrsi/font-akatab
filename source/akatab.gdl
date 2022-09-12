@@ -99,11 +99,11 @@ f_2D31_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (exterior +)");
+			name.1033 = string("Standard (exterior T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate (interior +)");
+			name.1033 = string("Alternate (interior T)");
 		}
 	}
 }
@@ -115,15 +115,15 @@ f_2D54_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (exterior +)");
+			name.1033 = string("Standard (exterior T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate 1 (large interior +)");
+			name.1033 = string("Alternate 1 (large interior T)");
 		}
 		alt2 {
 			value = 2;
-			name.1033 = string("Alternate 2 (small interior +)");
+			name.1033 = string("Alternate 2 (small interior T)");
 		}
 	}
 }
@@ -135,15 +135,15 @@ f_2D59_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (exterior +)");
+			name.1033 = string("Standard (exterior T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate 1 (large interior +)");
+			name.1033 = string("Alternate 1 (large interior T)");
 		}
 		alt2 {
 			value = 2;
-			name.1033 = string("Alternate 2 (small interior +)");
+			name.1033 = string("Alternate 2 (small interior T)");
 		}
 	}
 }
@@ -155,11 +155,11 @@ f_2D4E_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (low +)");
+			name.1033 = string("Standard (low T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate (middle +)");
+			name.1033 = string("Alternate (middle T)");
 		}
 	}
 }
@@ -171,18 +171,18 @@ f_2D3C_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (low +)");
+			name.1033 = string("Standard (low T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate (middle +)");
+			name.1033 = string("Alternate (middle T)");
 		}
 	}
 }
 
 f_2D4F_2D3E {
 	id = "cv36";
-	name.1033 = string("Alternate YAM YAK");  // NK
+	name.1033 = string("Alternate YAN YAK");  // NK
 	default = 0;
 	settings {
 		alt0 {
@@ -203,7 +203,7 @@ f_2D4F_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (+)");
+			name.1033 = string("Standard (side T)");
 		}
 		alt1 {
 			value = 1;
@@ -223,11 +223,11 @@ f_2D4D_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (external +)");
+			name.1033 = string("Standard (external T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate (internal +)");
+			name.1033 = string("Alternate (internal T)");
 		}
 	}
 }
@@ -255,15 +255,15 @@ f_2D4C_2D5C {
 	settings {
 		alt0 {
 			value = 0;
-			name.1033 = string("Standard (lower-right +)");
+			name.1033 = string("Standard (lower-right T)");
 		}
 		alt1 {
 			value = 1;
-			name.1033 = string("Alternate 1 (mid-right +)");
+			name.1033 = string("Alternate 1 (mid-right T)");
 		}
 		alt2 {
 			value = 2;
-			name.1033 = string("Alternate 2 (centered +)");
+			name.1033 = string("Alternate 2 (centered T)");
 		}
 	}
 }
