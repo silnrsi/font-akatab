@@ -15,7 +15,6 @@ DESC_SHORT = "Unicode font with OpenType and Graphite support for the Tifinagh s
 d = designspace('source/akatab.designspace',
         target = process('${DS:FILENAME_BASE}.ttf',
             cmd('psfchangettfglyphnames ../source/masters/Akatab-Regular.ufo ${DEP} ${TGT}')),
-        instanceparams = "-W",
         ap = '${DS:FILENAME_BASE}.xml',
         classes = 'source/akatab_classes.xml',
         opentype = fea('source/${DS:FILENAME_BASE}.fea',
