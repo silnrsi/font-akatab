@@ -299,7 +299,7 @@ c_cons_2d5c_lig = (
 	g_yabyat_lig_tifi  g_yaghhyat_lig_tifi  g_yajyat_lig_tifi  g_yafyat_lig_tifi  g_yahyat_lig_tifi
 	g_yiyat_lig_tifi  g_yazh_ahaggaryat_lig_tifi  g_yazhyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi
 	g_yamyat_lig_tifi  g_yuyat_lig_tifi  g_yaryat_lig_tifi  g_yasyat_lig_tifi  g_yashyat_lig_tifi  g_yazyat_lig_tifi
-	g_yaghhyat_lig_tifi_alt  g_yafyat_lig_tifi_alt  g_yazh_ahaggaryat_lig_tifi_alt  g_yuyat_lig_tifi_alt2
+	g_yaghhyat_lig_tifi_alt  g_yafyat_lig_tifi_alt  g_yazh_ahaggaryat_lig_tifi_alt  g_yuyat_lig_tifi_v02
 	g_yazyat_lig_tifi_alt);
 
 
@@ -420,14 +420,14 @@ if (f_2D54_2D5C == 1)
 g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_alt;
 endif;
 if (f_2D54_2D5C == 2)
-g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_alt2;
+g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_v02;
 endif;
 
 if (f_2D59_2D5C == 1)
 g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_alt;
 endif;
 if (f_2D59_2D5C == 2)
-g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_alt2;
+g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_v02;
 endif;
 
 if (f_2D4E_2D5C)
@@ -435,7 +435,7 @@ g_yamyat_lig_tifi  >  g_yamyat_lig_tifi_alt;
 endif;
 
 if (f_2D3C_2D5C)
-g_yafyat_lig_tifi  >  g_yafyat_lig_tifi_alt2;
+g_yafyat_lig_tifi  >  g_yafyat_lig_tifi_v02;
 endif;
 
 if (f_2D4F_2D3E)
@@ -446,7 +446,7 @@ if (f_2D4F_2D5C == 1)
 g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_alt;
 endif;
 if (f_2D4F_2D5C == 2)
-g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_alt2;
+g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_v02;
 endif;
 
 if (f_2D4D_2D5C)
@@ -461,7 +461,7 @@ if (f_2D4C_2D5C == 1)
 g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_alt;
 endif;
 if (f_2D4C_2D5C == 2)
-g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_alt2;
+g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_v02;
 endif;
 
 endpass;  // 5

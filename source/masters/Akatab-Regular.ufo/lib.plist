@@ -19,7 +19,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/_Dot/ya-tifi/yuSILu-tifi/yu-tifi/yaSILa-tifi/yaSILschwa-tifi/yo-tifi/yoSILo-tifi/yanyaghhLig-tifi/yaghAyer-tifi/yo-tifi/yay-tifi/yaySILe-tifi/yaySILi-tifi</string>
-    <string>/_VerticalBar/yat-tifi/yabyatLig-tifi.alt/yaryatLig-tifi.alt2/yasyatLig-tifi.alt2/yal-tifi/yalyatLig-tifi/yalyatLig-tifi.alt/yazhyatLig-tifi.alt2/yazhAhaggar-tifi.alt/yafyatLig-tifi.v04/yaf-tifi.v02 
+    <string>/_VerticalBar/yat-tifi/yabyatLig-tifi.alt/yaryatLig-tifi.v02/yasyatLig-tifi.v02/yal-tifi/yalyatLig-tifi/yalyatLig-tifi.alt/yazhyatLig-tifi.v02/yazhAhaggar-tifi.alt/yafyatLig-tifi.v04/yaf-tifi.v02 
 /yanyafyatLig-tifi/yalyatLig-tifi.alt/yaf-tifi.alt/yanyafLig-tifi.alt/yafyatLig-tifi.v03/yanyafLig-tifi.v02/yaf-tifi/yanyafLig-tifi.v03</string>
     <string>/yadd-tifi/yatt-tifi.v01/yatt-tifi.v01.rtl/yam-tifi/yamyasLig-tifi/yaf-tifi.alt/yab-tifi.v01/yah-tifi.v01 
 /yal-tifi/yalyatLig-tifi.v01/yanyaddLig-tifi.v02/yazhTuareg-tifi/yanyazhTuaregLig-tifi.v03 
@@ -28,8 +28,8 @@
     <string>/yaghh-tifi.alt/yash-tifi.v01/yanyaghhLig-tifi.alt/yanyashLig-tifi.v01/yashyanLig-tifi.v01/yaryanLig-tifi/yas-tifi/_Dot/yasyanLig-tifi/yash-tifi/yashyanLig-tifi/yashyanLig-tifi.rtl/yash-tifi.rtl</string>
     <string>/yaghAyer-tifi/yaj-tifi/yaj-tifi.v01/yanyaghTuaregLig-tifi/yanyaghTuaregLig-tifi.rtl/yanyajLig-tifi.v01/yanyasLig-tifi.v01/yuyatLig-tifi.alt/yuyatLig-tifi.v03</string>
     <string>/yaryakLig-tifi.v01/yaryakTuaregLig-tifi/yanyakTuaregLig-tifi.alt/yash-tifi/yashyakTuaregLig-tifi/yashyakTuaregLig-tifi.rtl/yashyakLig-tifi.v01/yashyakLig-tifi.v01.rtl/yash-tifi.v01/yashyakLig-tifi.v02/yashyakLig-tifi.v03</string>
-    <string>/yam-tifi/yadd-tifi/yatt-tifi/yamyatLig-tifi.alt/yamyatLig-tifi/yafyatLig-tifi/yafyatLig-tifi.alt2/yaf-tifi/yanyafLig-tifi 
-/yam-tifi.rtl/yadd-tifi.rtl/yatt-tifi.rtl/yamyatLig-tifi.alt.rtl/yamyatLig-tifi.rtl/yafyatLig-tifi.rtl/yafyatLig-tifi.alt2.rtl</string>
+    <string>/yam-tifi/yadd-tifi/yatt-tifi/yamyatLig-tifi.alt/yamyatLig-tifi/yafyatLig-tifi/yafyatLig-tifi.v02/yaf-tifi/yanyafLig-tifi 
+/yam-tifi.rtl/yadd-tifi.rtl/yatt-tifi.rtl/yamyatLig-tifi.alt.rtl/yamyatLig-tifi.rtl/yafyatLig-tifi.rtl/yafyatLig-tifi.v02.rtl</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -425,13 +425,13 @@
     <string>yaryakTuaregLig-tifi</string>
     <string>yaryatLig-tifi</string>
     <string>yaryatLig-tifi.alt</string>
-    <string>yaryatLig-tifi.alt2</string>
+    <string>yaryatLig-tifi.v02</string>
     <string>yas-tifi</string>
     <string>yasyakTuaregLig-tifi</string>
     <string>yanyasLig-tifi</string>
     <string>yasyatLig-tifi</string>
     <string>yasyatLig-tifi.alt</string>
-    <string>yasyatLig-tifi.alt2</string>
+    <string>yasyatLig-tifi.v02</string>
     <string>yad-tifi</string>
     <string>yad-tifi.alt</string>
     <string>yanyadLig-tifi</string>
@@ -446,7 +446,7 @@
     <string>yaf-tifi</string>
     <string>yanyafLig-tifi</string>
     <string>yafyatLig-tifi</string>
-    <string>yafyatLig-tifi.alt2</string>
+    <string>yafyatLig-tifi.v02</string>
     <string>yaf-tifi.alt</string>
     <string>yanyafLig-tifi.alt</string>
     <string>yafyatLig-tifi.alt</string>
@@ -470,7 +470,7 @@
     <string>yanyakTuaregLig-tifi.alt</string>
     <string>yanyatLig-tifi</string>
     <string>yanyatLig-tifi.alt</string>
-    <string>yanyatLig-tifi.alt2</string>
+    <string>yanyatLig-tifi.v02</string>
     <string>yal-tifi</string>
     <string>yal-tifi.raised</string>
     <string>yal-tifi.slant</string>
@@ -489,11 +489,11 @@
     <string>yuyatLig-tifi</string>
     <string>yuyatLig-tifi.alt</string>
     <string>yu-tifi.alt</string>
-    <string>yuyatLig-tifi.alt2</string>
+    <string>yuyatLig-tifi.v02</string>
     <string>yazhTuareg-tifi</string>
     <string>yazhyatLig-tifi</string>
     <string>yazhyatLig-tifi.alt</string>
-    <string>yazhyatLig-tifi.alt2</string>
+    <string>yazhyatLig-tifi.v02</string>
     <string>yaz-tifi</string>
     <string>yazyatLig-tifi</string>
     <string>yaz-tifi.alt</string>
@@ -532,11 +532,11 @@
     <string>yanyasLig-tifi.rtl</string>
     <string>yasyatLig-tifi.rtl</string>
     <string>yasyatLig-tifi.alt.rtl</string>
-    <string>yasyatLig-tifi.alt2.rtl</string>
+    <string>yasyatLig-tifi.v02.rtl</string>
     <string>yamyatLig-tifi.rtl</string>
     <string>yamyatLig-tifi.alt.rtl</string>
     <string>yafyatLig-tifi.rtl</string>
-    <string>yafyatLig-tifi.alt2.rtl</string>
+    <string>yafyatLig-tifi.v02.rtl</string>
     <string>yafyatLig-tifi.alt.rtl</string>
     <string>yajyatLig-tifi.rtl</string>
     <string>yanyatLig-tifi.rtl</string>
@@ -547,7 +547,7 @@
     <string>yashyatLig-tifi.rtl</string>
     <string>yuyatLig-tifi.rtl</string>
     <string>yuyatLig-tifi.alt.rtl</string>
-    <string>yuyatLig-tifi.alt2.rtl</string>
+    <string>yuyatLig-tifi.v02.rtl</string>
     <string>yazhyatLig-tifi.rtl</string>
     <string>yazhyatLig-tifi.alt.rtl</string>
     <string>yazyatLig-tifi.rtl</string>
@@ -747,12 +747,12 @@
     <string>uni2D3C_uni2D7F_uni2D5C.alt</string>
     <key>yafyatLig-tifi.alt.rtl</key>
     <string>uni2D3C_uni2D7F_uni2D5C.alt.rtl</string>
-    <key>yafyatLig-tifi.alt2</key>
-    <string>uni2D3C_uni2D7F_uni2D5C.alt2</string>
-    <key>yafyatLig-tifi.alt2.rtl</key>
-    <string>uni2D3C_uni2D7F_uni2D5C.alt2.rtl</string>
     <key>yafyatLig-tifi.rtl</key>
     <string>uni2D3C_uni2D7F_uni2D5C.rtl</string>
+    <key>yafyatLig-tifi.v02</key>
+    <string>uni2D3C_uni2D7F_uni2D5C.v02</string>
+    <key>yafyatLig-tifi.v02.rtl</key>
+    <string>uni2D3C_uni2D7F_uni2D5C.v02.rtl</string>
     <key>yaghTuareg-tifi</key>
     <string>uni2D57</string>
     <key>yaghh-tifi</key>
@@ -869,10 +869,10 @@
     <string>uni2D4F_uni2D7F_uni2D5C.alt</string>
     <key>yanyatLig-tifi.alt.rtl</key>
     <string>uni2D4F_uni2D7F_uni2D5C.alt.rtl</string>
-    <key>yanyatLig-tifi.alt2</key>
-    <string>uni2D4F_uni2D7F_uni2D5C.alt2</string>
     <key>yanyatLig-tifi.rtl</key>
     <string>uni2D4F_uni2D7F_uni2D5C.rtl</string>
+    <key>yanyatLig-tifi.v02</key>
+    <string>uni2D4F_uni2D7F_uni2D5C.v02</string>
     <key>yaqTuareg-tifi</key>
     <string>uni2D48</string>
     <key>yar-tifi</key>
@@ -883,10 +883,10 @@
     <string>uni2D54_uni2D7F_uni2D5C</string>
     <key>yaryatLig-tifi.alt</key>
     <string>uni2D54_uni2D7F_uni2D5C.alt</string>
-    <key>yaryatLig-tifi.alt2</key>
-    <string>uni2D54_uni2D7F_uni2D5C.alt2</string>
     <key>yaryatLig-tifi.rtl</key>
     <string>uni2D54_uni2D7F_uni2D5C.rtl</string>
+    <key>yaryatLig-tifi.v02</key>
+    <string>uni2D54_uni2D7F_uni2D5C.v02</string>
     <key>yas-tifi</key>
     <string>uni2D59</string>
     <key>yash-tifi</key>
@@ -911,12 +911,12 @@
     <string>uni2D59_uni2D7F_uni2D5C.alt</string>
     <key>yasyatLig-tifi.alt.rtl</key>
     <string>uni2D59_uni2D7F_uni2D5C.alt.rtl</string>
-    <key>yasyatLig-tifi.alt2</key>
-    <string>uni2D59_uni2D7F_uni2D5C.alt2</string>
-    <key>yasyatLig-tifi.alt2.rtl</key>
-    <string>uni2D59_uni2D7F_uni2D5C.alt2.rtl</string>
     <key>yasyatLig-tifi.rtl</key>
     <string>uni2D59_uni2D7F_uni2D5C.rtl</string>
+    <key>yasyatLig-tifi.v02</key>
+    <string>uni2D59_uni2D7F_uni2D5C.v02</string>
+    <key>yasyatLig-tifi.v02.rtl</key>
+    <string>uni2D59_uni2D7F_uni2D5C.v02.rtl</string>
     <key>yat-tifi</key>
     <string>uni2D5C</string>
     <key>yatt-tifi</key>
@@ -955,10 +955,10 @@
     <string>uni2D4C_uni2D7F_uni2D5C.alt</string>
     <key>yazhyatLig-tifi.alt.rtl</key>
     <string>uni2D4C_uni2D7F_uni2D5C.alt.rtl</string>
-    <key>yazhyatLig-tifi.alt2</key>
-    <string>uni2D4C_uni2D7F_uni2D5C.alt2</string>
     <key>yazhyatLig-tifi.rtl</key>
     <string>uni2D4C_uni2D7F_uni2D5C.rtl</string>
+    <key>yazhyatLig-tifi.v02</key>
+    <string>uni2D4C_uni2D7F_uni2D5C.v02</string>
     <key>yazyatLig-tifi</key>
     <string>uni2D63_uni2D7F_uni2D5C</string>
     <key>yazyatLig-tifi.alt</key>
@@ -995,12 +995,12 @@
     <string>uni2D53_uni2D7F_uni2D5C.alt</string>
     <key>yuyatLig-tifi.alt.rtl</key>
     <string>uni2D53_uni2D7F_uni2D5C.alt.rtl</string>
-    <key>yuyatLig-tifi.alt2</key>
-    <string>uni2D53_uni2D7F_uni2D5C.alt2</string>
-    <key>yuyatLig-tifi.alt2.rtl</key>
-    <string>uni2D53_uni2D7F_uni2D5C.alt2.rtl</string>
     <key>yuyatLig-tifi.rtl</key>
     <string>uni2D53_uni2D7F_uni2D5C.rtl</string>
+    <key>yuyatLig-tifi.v02</key>
+    <string>uni2D53_uni2D7F_uni2D5C.v02</string>
+    <key>yuyatLig-tifi.v02.rtl</key>
+    <string>uni2D53_uni2D7F_uni2D5C.v02.rtl</string>
     <key>zerowidthjoiner</key>
     <string>uni200D</string>
   </dict>

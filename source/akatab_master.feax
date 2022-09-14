@@ -112,7 +112,7 @@ lookup TfnBiconsonants_RTL {
     sub yat-tifi           yal-tifi              consonantjoiner-tifi.rtl by yalyatLig-tifi.rtl ;
     sub yat-tifi           yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyatLig-tifi.rtl ;
     sub yat-tifi           yu-tifi               consonantjoiner-tifi.rtl by yuyatLig-tifi.rtl ;
-    sub yat-tifi           yu-tifi.alt           consonantjoiner-tifi.rtl by yuyatLig-tifi.alt2.rtl ;
+    sub yat-tifi           yu-tifi.alt           consonantjoiner-tifi.rtl by yuyatLig-tifi.v02.rtl ;
     sub yat-tifi           yazhTuareg-tifi       consonantjoiner-tifi.rtl by yazhyatLig-tifi.rtl ;
     sub yat-tifi           yaz-tifi.alt          consonantjoiner-tifi.rtl by yazyatLig-tifi.alt.rtl ;
     sub yat-tifi           yaz-tifi              consonantjoiner-tifi.rtl by yazyatLig-tifi.rtl ;
@@ -154,7 +154,7 @@ lookup TfnBiconsonants_RTL_DW {
     sub yal-tifi              consonantjoiner-tifi.rtl yat-tifi           by yalyatLig-tifi.rtl ;
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yat-tifi           by yashyatLig-tifi.rtl ;
     sub yu-tifi               consonantjoiner-tifi.rtl yat-tifi           by yuyatLig-tifi.rtl ;
-    sub yu-tifi.alt           consonantjoiner-tifi.rtl yat-tifi           by yuyatLig-tifi.alt2.rtl ;
+    sub yu-tifi.alt           consonantjoiner-tifi.rtl yat-tifi           by yuyatLig-tifi.v02.rtl ;
     sub yazhTuareg-tifi       consonantjoiner-tifi.rtl yat-tifi           by yazhyatLig-tifi.rtl ;
     sub yaz-tifi.alt          consonantjoiner-tifi.rtl yat-tifi           by yazyatLig-tifi.alt.rtl ;
     sub yaz-tifi              consonantjoiner-tifi.rtl yat-tifi           by yazyatLig-tifi.rtl ;
@@ -207,7 +207,7 @@ lookup TfnBiconsonants {
     sub yan-tifi              consonantjoiner-tifi yash-tifi      by yanyashLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yat-tifi       by yashyatLig-tifi ;
     sub yu-tifi               consonantjoiner-tifi yat-tifi       by yuyatLig-tifi ;
-    sub yu-tifi.alt           consonantjoiner-tifi yat-tifi       by yuyatLig-tifi.alt2 ;
+    sub yu-tifi.alt           consonantjoiner-tifi yat-tifi       by yuyatLig-tifi.v02 ;
     sub yazhTuareg-tifi       consonantjoiner-tifi yat-tifi       by yazhyatLig-tifi ;
     sub yaz-tifi              consonantjoiner-tifi yat-tifi       by yazyatLig-tifi ;
     sub yaz-tifi.alt          consonantjoiner-tifi yat-tifi       by yazyatLig-tifi.alt ;
@@ -257,8 +257,8 @@ lookup TfnCharacterVariant31 {
 
 lookup TfnCharacterVariant32 {
   lookupflag 0 ;
-    sub yaryatLig-tifi     from [ yaryatLig-tifi.alt yaryatLig-tifi.alt2 ] ;
-    sub yaryatLig-tifi.rtl from [ yaryatLig-tifi.alt yaryatLig-tifi.alt2 ] ;
+    sub yaryatLig-tifi     from [ yaryatLig-tifi.alt yaryatLig-tifi.v02 ] ;
+    sub yaryatLig-tifi.rtl from [ yaryatLig-tifi.alt yaryatLig-tifi.v02 ] ;
 } TfnCharacterVariant32;
 
 lookup TfnCharacterVariant32_1 { # for typetuner lookup only
@@ -269,14 +269,14 @@ lookup TfnCharacterVariant32_1 { # for typetuner lookup only
 
 lookup TfnCharacterVariant32_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub yaryatLig-tifi     by yaryatLig-tifi.alt2 ;
-    sub yaryatLig-tifi.rtl by yaryatLig-tifi.alt2 ;
+    sub yaryatLig-tifi     by yaryatLig-tifi.v02 ;
+    sub yaryatLig-tifi.rtl by yaryatLig-tifi.v02 ;
 } TfnCharacterVariant32_2;
 
 lookup TfnCharacterVariant33 {
   lookupflag 0 ;
-    sub yasyatLig-tifi     from [ yasyatLig-tifi.alt     yasyatLig-tifi.alt2 ] ;
-    sub yasyatLig-tifi.rtl from [ yasyatLig-tifi.alt.rtl yasyatLig-tifi.alt2.rtl ] ;
+    sub yasyatLig-tifi     from [ yasyatLig-tifi.alt     yasyatLig-tifi.v02 ] ;
+    sub yasyatLig-tifi.rtl from [ yasyatLig-tifi.alt.rtl yasyatLig-tifi.v02.rtl ] ;
 } TfnCharacterVariant33;
 
 lookup TfnCharacterVariant33_1 { # for typetuner lookup only
@@ -287,8 +287,8 @@ lookup TfnCharacterVariant33_1 { # for typetuner lookup only
 
 lookup TfnCharacterVariant33_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub yasyatLig-tifi     by yasyatLig-tifi.alt2 ;
-    sub yasyatLig-tifi.rtl by yasyatLig-tifi.alt2.rtl ;
+    sub yasyatLig-tifi     by yasyatLig-tifi.v02 ;
+    sub yasyatLig-tifi.rtl by yasyatLig-tifi.v02.rtl ;
 } TfnCharacterVariant33_2;
 
 
@@ -300,8 +300,8 @@ lookup TfnCharacterVariant34 {
 
 lookup TfnCharacterVariant35 {
   lookupflag 0 ;
-    sub yafyatLig-tifi     by yafyatLig-tifi.alt2 ;
-    sub yafyatLig-tifi.rtl by yafyatLig-tifi.alt2.rtl ;
+    sub yafyatLig-tifi     by yafyatLig-tifi.v02 ;
+    sub yafyatLig-tifi.rtl by yafyatLig-tifi.v02.rtl ;
 } TfnCharacterVariant35;
 
 lookup TfnCharacterVariant36 {
@@ -311,8 +311,8 @@ lookup TfnCharacterVariant36 {
 
 lookup TfnCharacterVariant37 {
   lookupflag 0 ;
-    sub yanyatLig-tifi     from [ yanyatLig-tifi.alt     yanyatLig-tifi.alt2 ] ;
-    sub yanyatLig-tifi.rtl from [ yanyatLig-tifi.alt.rtl yanyatLig-tifi.alt2 ] ;
+    sub yanyatLig-tifi     from [ yanyatLig-tifi.alt     yanyatLig-tifi.v02 ] ;
+    sub yanyatLig-tifi.rtl from [ yanyatLig-tifi.alt.rtl yanyatLig-tifi.v02 ] ;
 } TfnCharacterVariant37;
 
 lookup TfnCharacterVariant37_1 { # for typetuner lookup only
@@ -323,8 +323,8 @@ lookup TfnCharacterVariant37_1 { # for typetuner lookup only
 
 lookup TfnCharacterVariant37_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub yanyatLig-tifi     by yanyatLig-tifi.alt2 ;
-    sub yanyatLig-tifi.rtl by yanyatLig-tifi.alt2 ;
+    sub yanyatLig-tifi     by yanyatLig-tifi.v02 ;
+    sub yanyatLig-tifi.rtl by yanyatLig-tifi.v02 ;
 } TfnCharacterVariant37_2;
 
 lookup TfnCharacterVariant38 {
@@ -341,8 +341,8 @@ lookup TfnCharacterVariant39 {
 
 lookup TfnCharacterVariant40 {
   lookupflag 0 ;
-    sub yazhyatLig-tifi     from [ yazhyatLig-tifi.alt     yazhyatLig-tifi.alt2 ] ;
-    sub yazhyatLig-tifi.rtl from [ yazhyatLig-tifi.alt.rtl yazhyatLig-tifi.alt2 ] ;
+    sub yazhyatLig-tifi     from [ yazhyatLig-tifi.alt     yazhyatLig-tifi.v02 ] ;
+    sub yazhyatLig-tifi.rtl from [ yazhyatLig-tifi.alt.rtl yazhyatLig-tifi.v02 ] ;
 } TfnCharacterVariant40;
 
 lookup TfnCharacterVariant40_1 { # for typetuner lookup only
@@ -353,8 +353,8 @@ lookup TfnCharacterVariant40_1 { # for typetuner lookup only
 
 lookup TfnCharacterVariant40_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub yazhyatLig-tifi     by yazhyatLig-tifi.alt2 ;
-    sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.alt2 ;
+    sub yazhyatLig-tifi     by yazhyatLig-tifi.v02 ;
+    sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.v02 ;
 } TfnCharacterVariant40_2;
 
 lookup TfnAllAlternates {
@@ -364,21 +364,21 @@ lookup TfnAllAlternates {
     sub yaghh-tifi              from [ yaghh-tifi.alt ] ;
     sub yaghhyatLig-tifi        from [ yaghhyatLig-tifi.alt ] ;
     sub yaf-tifi                from [ yaf-tifi.alt ] ;
-    sub yafyatLig-tifi          from [ yafyatLig-tifi.alt2 yafyatLig-tifi.alt ] ;
+    sub yafyatLig-tifi          from [ yafyatLig-tifi.v02 yafyatLig-tifi.alt ] ;
     sub yazhAhaggar-tifi             from [ yazhAhaggar-tifi.alt ] ;
     sub yazhAhaggaryatLig-tifi  from [ yazhAhaggaryatLig-tifi.alt ] ;
-    sub yazhyatLig-tifi         from [ yazhyatLig-tifi.alt yazhyatLig-tifi.alt2 ] ;
+    sub yazhyatLig-tifi         from [ yazhyatLig-tifi.alt yazhyatLig-tifi.v02 ] ;
     sub yalyatLig-tifi          from [ yalyatLig-tifi.alt ] ;
     sub yamyatLig-tifi          from [ yamyatLig-tifi.alt ] ;
     sub yanyaghhLig-tifi         from [ yanyaghhLig-tifi.alt ] ;
     sub yanyafLig-tifi          from [ yanyafLig-tifi.alt ] ;
     sub yanyakTuaregLig-tifi    from [ yanyakTuaregLig-tifi.alt ] ;
-    sub yanyatLig-tifi          from [ yanyatLig-tifi.alt yanyatLig-tifi.alt2 ] ;
+    sub yanyatLig-tifi          from [ yanyatLig-tifi.alt yanyatLig-tifi.v02 ] ;
     sub yagnTuareg-tifi         from [ yagnTuareg-tifi.alt ] ;
     sub yu-tifi                 from [ yu-tifi.alt ] ;
-    sub yuyatLig-tifi           from [ yuyatLig-tifi.alt yuyatLig-tifi.alt2 ] ;
-    sub yaryatLig-tifi          from [ yaryatLig-tifi.alt yaryatLig-tifi.alt2 ] ;
-    sub yasyatLig-tifi          from [ yasyatLig-tifi.alt yasyatLig-tifi.alt2 ] ;
+    sub yuyatLig-tifi           from [ yuyatLig-tifi.alt yuyatLig-tifi.v02 ] ;
+    sub yaryatLig-tifi          from [ yaryatLig-tifi.alt yaryatLig-tifi.v02 ] ;
+    sub yasyatLig-tifi          from [ yasyatLig-tifi.alt yasyatLig-tifi.v02 ] ;
     sub yaz-tifi                from [ yaz-tifi.alt ] ;
     sub yazyatLig-tifi          from [ yazyatLig-tifi.alt ] ;
 } TfnAllAlternates;

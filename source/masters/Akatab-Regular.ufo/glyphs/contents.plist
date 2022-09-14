@@ -868,12 +868,12 @@
   <string>yafyatL_ig-tifi.alt.glif</string>
   <key>yafyatLig-tifi.alt.rtl</key>
   <string>yafyatL_ig-tifi.alt.rtl.glif</string>
-  <key>yafyatLig-tifi.alt2</key>
-  <string>yafyatL_ig-tifi.alt2.glif</string>
-  <key>yafyatLig-tifi.alt2.rtl</key>
-  <string>yafyatL_ig-tifi.alt2.rtl.glif</string>
   <key>yafyatLig-tifi.rtl</key>
   <string>yafyatL_ig-tifi.rtl.glif</string>
+  <key>yafyatLig-tifi.v02</key>
+  <string>yafyatL_ig-tifi.v02.glif</string>
+  <key>yafyatLig-tifi.v02.rtl</key>
+  <string>yafyatL_ig-tifi.v02.rtl.glif</string>
   <key>yafyatLig-tifi.v03</key>
   <string>yafyatL_ig-tifi.v03.glif</string>
   <key>yafyatLig-tifi.v04</key>
@@ -1030,10 +1030,10 @@
   <string>yanyatL_ig-tifi.alt.glif</string>
   <key>yanyatLig-tifi.alt.rtl</key>
   <string>yanyatL_ig-tifi.alt.rtl.glif</string>
-  <key>yanyatLig-tifi.alt2</key>
-  <string>yanyatL_ig-tifi.alt2.glif</string>
   <key>yanyatLig-tifi.rtl</key>
   <string>yanyatL_ig-tifi.rtl.glif</string>
+  <key>yanyatLig-tifi.v02</key>
+  <string>yanyatL_ig-tifi.v02.glif</string>
   <key>yanyazTawellemetLig-tifi</key>
   <string>yanyazT_awellemetL_ig-tifi.glif</string>
   <key>yanyazTawellemetLig-tifi.rtl</key>
@@ -1056,10 +1056,10 @@
   <string>yaryatL_ig-tifi.glif</string>
   <key>yaryatLig-tifi.alt</key>
   <string>yaryatL_ig-tifi.alt.glif</string>
-  <key>yaryatLig-tifi.alt2</key>
-  <string>yaryatL_ig-tifi.alt2.glif</string>
   <key>yaryatLig-tifi.rtl</key>
   <string>yaryatL_ig-tifi.rtl.glif</string>
+  <key>yaryatLig-tifi.v02</key>
+  <string>yaryatL_ig-tifi.v02.glif</string>
   <key>yas-tifi</key>
   <string>yas-tifi.glif</string>
   <key>yash-tifi</key>
@@ -1102,12 +1102,12 @@
   <string>yasyatL_ig-tifi.alt.glif</string>
   <key>yasyatLig-tifi.alt.rtl</key>
   <string>yasyatL_ig-tifi.alt.rtl.glif</string>
-  <key>yasyatLig-tifi.alt2</key>
-  <string>yasyatL_ig-tifi.alt2.glif</string>
-  <key>yasyatLig-tifi.alt2.rtl</key>
-  <string>yasyatL_ig-tifi.alt2.rtl.glif</string>
   <key>yasyatLig-tifi.rtl</key>
   <string>yasyatL_ig-tifi.rtl.glif</string>
+  <key>yasyatLig-tifi.v02</key>
+  <string>yasyatL_ig-tifi.v02.glif</string>
+  <key>yasyatLig-tifi.v02.rtl</key>
+  <string>yasyatL_ig-tifi.v02.rtl.glif</string>
   <key>yat-tifi</key>
   <string>yat-tifi.glif</string>
   <key>yatt-tifi</key>
@@ -1158,10 +1158,10 @@
   <string>yazhyatL_ig-tifi.alt.glif</string>
   <key>yazhyatLig-tifi.alt.rtl</key>
   <string>yazhyatL_ig-tifi.alt.rtl.glif</string>
-  <key>yazhyatLig-tifi.alt2</key>
-  <string>yazhyatL_ig-tifi.alt2.glif</string>
   <key>yazhyatLig-tifi.rtl</key>
   <string>yazhyatL_ig-tifi.rtl.glif</string>
+  <key>yazhyatLig-tifi.v02</key>
+  <string>yazhyatL_ig-tifi.v02.glif</string>
   <key>yazyatLig-tifi</key>
   <string>yazyatL_ig-tifi.glif</string>
   <key>yazyatLig-tifi.alt</key>
@@ -1208,12 +1208,12 @@
   <string>yuyatL_ig-tifi.alt.glif</string>
   <key>yuyatLig-tifi.alt.rtl</key>
   <string>yuyatL_ig-tifi.alt.rtl.glif</string>
-  <key>yuyatLig-tifi.alt2</key>
-  <string>yuyatL_ig-tifi.alt2.glif</string>
-  <key>yuyatLig-tifi.alt2.rtl</key>
-  <string>yuyatL_ig-tifi.alt2.rtl.glif</string>
   <key>yuyatLig-tifi.rtl</key>
   <string>yuyatL_ig-tifi.rtl.glif</string>
+  <key>yuyatLig-tifi.v02</key>
+  <string>yuyatL_ig-tifi.v02.glif</string>
+  <key>yuyatLig-tifi.v02.rtl</key>
+  <string>yuyatL_ig-tifi.v02.rtl.glif</string>
   <key>yuyatLig-tifi.v03</key>
   <string>yuyatL_ig-tifi.v03.glif</string>
   <key>z</key>
