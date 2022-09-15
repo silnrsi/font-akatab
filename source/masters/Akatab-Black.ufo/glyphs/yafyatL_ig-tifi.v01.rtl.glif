@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yafyatLig-tifi.v01.rtl" format="2">
+  <advance width="1492"/>
+  <outline>
+    <component base="_Plus" xScale="-1" yScale="-1" xOffset="832" yOffset="1078"/>
+    <component base="yaf-tifi.v01" xOffset="370"/>
+  </outline>
+</glyph>

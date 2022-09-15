@@ -16,16 +16,16 @@
   <string>yab-tifi.glif</string>
   <key>yabyatLig-tifi</key>
   <string>yabyatL_ig-tifi.glif</string>
-  <key>yabyatLig-tifi.alt</key>
-  <string>yabyatL_ig-tifi.alt.glif</string>
-  <key>yafyatLig-tifi.alt.rtl</key>
-  <string>yafyatL_ig-tifi.alt.rtl.glif</string>
-  <key>yaghh-tifi.alt.unused</key>
-  <string>yaghh-tifi.alt.unused.glif</string>
-  <key>yaghhyatLig-tifi.alt.rtl</key>
-  <string>yaghhyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yabyatLig-tifi.v01</key>
+  <string>yabyatL_ig-tifi.v01.glif</string>
+  <key>yafyatLig-tifi.v01.rtl</key>
+  <string>yafyatL_ig-tifi.v01.rtl.glif</string>
+  <key>yaghh-tifi.v01.unused</key>
+  <string>yaghh-tifi.v01.unused.glif</string>
   <key>yaghhyatLig-tifi.rtl</key>
   <string>yaghhyatL_ig-tifi.rtl.glif</string>
+  <key>yaghhyatLig-tifi.v01.rtl</key>
+  <string>yaghhyatL_ig-tifi.v01.rtl.glif</string>
   <key>yah-tifi</key>
   <string>yah-tifi.glif</string>
   <key>yahyatLig-tifi</key>
@@ -34,22 +34,22 @@
   <string>yal-tifi.raised.glif</string>
   <key>yal-tifi.slant.rtl</key>
   <string>yal-tifi.slant.rtl.glif</string>
-  <key>yamyatLig-tifi.alt.rtl</key>
-  <string>yamyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yamyatLig-tifi.v01.rtl</key>
+  <string>yamyatL_ig-tifi.v01.rtl.glif</string>
   <key>yan-tifi.raised</key>
   <string>yan-tifi.raised.glif</string>
   <key>yan-tifi.slant</key>
   <string>yan-tifi.slant.glif</string>
   <key>yan-tifi.slant.rtl</key>
   <string>yan-tifi.slant.rtl.glif</string>
-  <key>yaryatLig-tifi.alt</key>
-  <string>yaryatL_ig-tifi.alt.glif</string>
+  <key>yaryatLig-tifi.v01</key>
+  <string>yaryatL_ig-tifi.v01.glif</string>
   <key>yashyanLig-tifi</key>
   <string>yashyanL_ig-tifi.glif</string>
-  <key>yasyatLig-tifi.alt</key>
-  <string>yasyatL_ig-tifi.alt.glif</string>
-  <key>yasyatLig-tifi.alt.rtl</key>
-  <string>yasyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yasyatLig-tifi.v01</key>
+  <string>yasyatL_ig-tifi.v01.glif</string>
+  <key>yasyatLig-tifi.v01.rtl</key>
+  <string>yasyatL_ig-tifi.v01.rtl.glif</string>
   <key>yay-tifi.rtl</key>
   <string>yay-tifi.rtl.glif</string>
   <key>yay-tifi.super</key>

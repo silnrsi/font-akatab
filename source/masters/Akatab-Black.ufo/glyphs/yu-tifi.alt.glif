@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yu-tifi.alt" format="2">
-  <advance width="846"/>
-  <anchor x="427" y="984" name="T"/>
-  <outline>
-    <component base="_DotWide" xOffset="-295" yOffset="205"/>
-    <component base="_DotWide" xOffset="-295" yOffset="-205"/>
-  </outline>
-</glyph>

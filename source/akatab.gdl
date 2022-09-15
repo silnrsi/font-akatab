@@ -281,11 +281,11 @@ table(glyph)
 // Biconsonant ligatures
 
 c_2d4f_cons = (g_yaghh_tifi  g_yaj_tifi  g_yad_tifi  g_yadh_tifi  g_yaf_tifi  g_yak_tuareg_tifi  g_yas_tifi  g_yash_tifi  g_yat_tifi
-	g_yaghh_tifi_alt  g_yaf_tifi_alt);
+	g_yaghh_tifi_v01  g_yaf_tifi_v01);
 c_2d4f_cons_lig = (
 	g_yanyaghh_lig_tifi  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi
 	g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  g_yanyas_lig_tifi  g_yanyash_lig_tifi  g_yanyat_lig_tifi
-	g_yanyaghh_lig_tifi_alt  g_yanyaf_lig_tifi_alt);
+	g_yanyaghh_lig_tifi_v01  g_yanyaf_lig_tifi_v01);
 
 c_cons_2d3e = (g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  g_yas_tifi  g_yash_tifi);
 c_cons_2d3e_lig = (g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yaryak_tuareg_lig_tifi  g_yasyak_tuareg_lig_tifi  g_yashyak_tuareg_lig_tifi);
@@ -294,13 +294,13 @@ c_cons_2d5c = (
 	g_yab_tifi  g_yaghh_tifi  g_yaj_tifi  g_yaf_tifi  g_yah_tifi
 	g_yi_tifi  g_yazh_ahaggar_tifi  g_yazh_tuareg_tifi  g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised
 	g_yam_tifi  g_yu_tifi  g_yar_tifi  g_yas_tifi  g_yash_tifi  g_yaz_tifi
-	g_yaghh_tifi_alt  g_yaf_tifi_alt  g_yazh_ahaggar_tifi_alt  g_yu_tifi_alt  g_yaz_tifi_alt  );
+	g_yaghh_tifi_v01  g_yaf_tifi_v01  g_yazh_ahaggar_tifi_v01  g_yu_tifi_v01  g_yaz_tifi_v01  );
 c_cons_2d5c_lig = (
 	g_yabyat_lig_tifi  g_yaghhyat_lig_tifi  g_yajyat_lig_tifi  g_yafyat_lig_tifi  g_yahyat_lig_tifi
 	g_yiyat_lig_tifi  g_yazh_ahaggaryat_lig_tifi  g_yazhyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi
 	g_yamyat_lig_tifi  g_yuyat_lig_tifi  g_yaryat_lig_tifi  g_yasyat_lig_tifi  g_yashyat_lig_tifi  g_yazyat_lig_tifi
-	g_yaghhyat_lig_tifi_alt  g_yafyat_lig_tifi_alt  g_yazh_ahaggaryat_lig_tifi_alt  g_yuyat_lig_tifi_v02
-	g_yazyat_lig_tifi_alt);
+	g_yaghhyat_lig_tifi_v01  g_yafyat_lig_tifi_v01  g_yazh_ahaggaryat_lig_tifi_v01  g_yuyat_lig_tifi_v02
+	g_yazyat_lig_tifi_v01);
 
 
 endtable;  // glyph
@@ -346,37 +346,37 @@ g_yu_tifi  g_circumflexcmb > g_yu_s_i_lu_tifi:(1 2) _ ;     // SIL vowel U
 // Alternate character forms
 
 if (f_2D30)
-g_ya_tifi  >  g_ya_tifi_alt;
+g_ya_tifi  >  g_ya_tifi_v01;
 endif;
 
 if (f_2D3C)
-g_yaf_tifi  >  g_yaf_tifi_alt;
+g_yaf_tifi  >  g_yaf_tifi_v01;
 endif;
 
 if (f_2D34)
-g_yaghh_tifi  >  g_yaghh_tifi_alt;
+g_yaghh_tifi  >  g_yaghh_tifi_v01;
 endif;
 
 if (f_2D50)
-g_yagn_tuareg_tifi  >  g_yagn_tuareg_tifi_alt;
+g_yagn_tuareg_tifi  >  g_yagn_tuareg_tifi_v01;
 endif;
 
 if (f_2D53)
-g_yu_tifi  >  g_yu_tifi_alt;
+g_yu_tifi  >  g_yu_tifi_v01;
 endif;
 
 if (f_2D63)
-g_yaz_tifi  >  g_yaz_tifi_alt;
+g_yaz_tifi  >  g_yaz_tifi_v01;
 endif;
 
 if (f_2D4B)
-g_yazh_ahaggar_tifi  >  g_yazh_ahaggar_tifi_alt;
+g_yazh_ahaggar_tifi  >  g_yazh_ahaggar_tifi_v01;
 endif;
 
 if (f_punct)
-g_comma  >  g_comma_alt;
-g_exclam >  g_exclam_alt;
-g_period >  g_period_alt;
+g_comma  >  g_comma_tfng;
+g_exclam >  g_exclam_tfng;
+g_period >  g_period_tfng;
 endif;
 
 endpass; // 2
@@ -413,25 +413,25 @@ endpass;  // 4
 pass(5)
 
 if (f_2D31_2D5C)
-g_yabyat_lig_tifi  >  g_yabyat_lig_tifi_alt;
+g_yabyat_lig_tifi  >  g_yabyat_lig_tifi_v01;
 endif;
 
 if (f_2D54_2D5C == 1)
-g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_alt;
+g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_v01;
 endif;
 if (f_2D54_2D5C == 2)
 g_yaryat_lig_tifi  >  g_yaryat_lig_tifi_v02;
 endif;
 
 if (f_2D59_2D5C == 1)
-g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_alt;
+g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_v01;
 endif;
 if (f_2D59_2D5C == 2)
 g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_v02;
 endif;
 
 if (f_2D4E_2D5C)
-g_yamyat_lig_tifi  >  g_yamyat_lig_tifi_alt;
+g_yamyat_lig_tifi  >  g_yamyat_lig_tifi_v01;
 endif;
 
 if (f_2D3C_2D5C)
@@ -439,26 +439,26 @@ g_yafyat_lig_tifi  >  g_yafyat_lig_tifi_v02;
 endif;
 
 if (f_2D4F_2D3E)
-g_yanyak_tuareg_lig_tifi  >  g_yanyak_tuareg_lig_tifi_alt;
+g_yanyak_tuareg_lig_tifi  >  g_yanyak_tuareg_lig_tifi_v01;
 endif;
 
 if (f_2D4F_2D5C == 1)
-g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_alt;
+g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_v01;
 endif;
 if (f_2D4F_2D5C == 2)
 g_yanyat_lig_tifi  >  g_yanyat_lig_tifi_v02;
 endif;
 
 if (f_2D4D_2D5C)
-g_yalyat_lig_tifi  >  g_yalyat_lig_tifi_alt;
+g_yalyat_lig_tifi  >  g_yalyat_lig_tifi_v01;
 endif;
 
 if (f_2D53_2D5C)
-g_yuyat_lig_tifi  >  g_yuyat_lig_tifi_alt;
+g_yuyat_lig_tifi  >  g_yuyat_lig_tifi_v01;
 endif;
 
 if (f_2D4C_2D5C == 1)
-g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_alt;
+g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_v01;
 endif;
 if (f_2D4C_2D5C == 2)
 g_yazhyat_lig_tifi  >  g_yazhyat_lig_tifi_v02;

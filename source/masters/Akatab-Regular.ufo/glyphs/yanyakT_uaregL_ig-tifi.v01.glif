@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yanyakTuaregLig-tifi.v01" format="2">
+  <advance width="1198"/>
+  <outline>
+    <component base="_k" xOffset="105" yOffset="-300"/>
+    <component base="_k" xScale="-1" yScale="-1" xOffset="1093" yOffset="1688"/>
+    <component base="_VerticalBarMedLong" xOffset="505" yOffset="268"/>
+  </outline>
+</glyph>

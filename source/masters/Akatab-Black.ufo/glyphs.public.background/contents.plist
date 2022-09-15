@@ -24,30 +24,30 @@
   <string>yab-tifi.glif</string>
   <key>yabyatLig-tifi</key>
   <string>yabyatL_ig-tifi.glif</string>
-  <key>yabyatLig-tifi.alt</key>
-  <string>yabyatL_ig-tifi.alt.glif</string>
   <key>yabyatLig-tifi.rtl</key>
   <string>yabyatL_ig-tifi.rtl.glif</string>
-  <key>yaghh-tifi.alt.unused</key>
-  <string>yaghh-tifi.alt.unused.glif</string>
-  <key>yaghhyatLig-tifi.alt.rtl</key>
-  <string>yaghhyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yabyatLig-tifi.v01</key>
+  <string>yabyatL_ig-tifi.v01.glif</string>
+  <key>yaghh-tifi.v01.unused</key>
+  <string>yaghh-tifi.v01.unused.glif</string>
   <key>yaghhyatLig-tifi.rtl</key>
   <string>yaghhyatL_ig-tifi.rtl.glif</string>
+  <key>yaghhyatLig-tifi.v01.rtl</key>
+  <string>yaghhyatL_ig-tifi.v01.rtl.glif</string>
   <key>yah-tifi</key>
   <string>yah-tifi.glif</string>
   <key>yahyatLig-tifi</key>
   <string>yahyatL_ig-tifi.glif</string>
   <key>yal-tifi.raised</key>
   <string>yal-tifi.raised.glif</string>
-  <key>yaryatLig-tifi.alt</key>
-  <string>yaryatL_ig-tifi.alt.glif</string>
+  <key>yaryatLig-tifi.v01</key>
+  <string>yaryatL_ig-tifi.v01.glif</string>
   <key>yashyatLig-tifi.rtl</key>
   <string>yashyatL_ig-tifi.rtl.glif</string>
-  <key>yasyatLig-tifi.alt</key>
-  <string>yasyatL_ig-tifi.alt.glif</string>
-  <key>yasyatLig-tifi.alt.rtl</key>
-  <string>yasyatL_ig-tifi.alt.rtl.glif</string>
+  <key>yasyatLig-tifi.v01</key>
+  <string>yasyatL_ig-tifi.v01.glif</string>
+  <key>yasyatLig-tifi.v01.rtl</key>
+  <string>yasyatL_ig-tifi.v01.rtl.glif</string>
   <key>yay-tifi.super</key>
   <string>yay-tifi.super.glif</string>
   <key>yay-tifi.super.rtl</key>

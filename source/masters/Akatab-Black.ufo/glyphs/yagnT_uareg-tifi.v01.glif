@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yagnTuareg-tifi.v01" format="2">
+  <advance width="1175"/>
+  <anchor x="591" y="1393" name="T"/>
+  <outline>
+    <component base="_VerticalBar" xOffset="-150"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="970"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="261"/>
+  </outline>
+</glyph>

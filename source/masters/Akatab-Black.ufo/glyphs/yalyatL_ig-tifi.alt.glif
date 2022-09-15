@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yalyatLig-tifi.alt" format="2">
-  <advance width="1465"/>
-  <outline>
-    <component base="_VerticalBar" xOffset="365"/>
-    <component base="_VerticalBar" xOffset="-385"/>
-    <component base="_PlusMedium" xOffset="388" yOffset="371"/>
-  </outline>
-</glyph>
