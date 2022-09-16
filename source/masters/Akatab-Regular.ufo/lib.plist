@@ -410,159 +410,160 @@
     <string>circledotted</string>
     <string>ya-tifi</string>
     <string>ya-tifi.v01</string>
-    <string>yaghTuareg-tifi</string>
-    <string>yakTuareg-tifi</string>
-    <string>yo-tifi</string>
-    <string>yaqTuareg-tifi</string>
-    <string>yakhTuareg-tifi</string>
-    <string>yahTuareg-tifi</string>
     <string>yab-tifi</string>
     <string>yabyatLig-tifi</string>
+    <string>yabyatLig-tifi.rtl</string>
     <string>yabyatLig-tifi.v01</string>
-    <string>yah-tifi</string>
-    <string>yahyatLig-tifi</string>
-    <string>yar-tifi</string>
-    <string>yaryakTuaregLig-tifi</string>
-    <string>yaryatLig-tifi</string>
-    <string>yaryatLig-tifi.v01</string>
-    <string>yaryatLig-tifi.v02</string>
-    <string>yas-tifi</string>
-    <string>yasyakTuaregLig-tifi</string>
-    <string>yanyasLig-tifi</string>
-    <string>yasyatLig-tifi</string>
-    <string>yasyatLig-tifi.v01</string>
-    <string>yasyatLig-tifi.v02</string>
+    <string>yaghh-tifi</string>
+    <string>yaghh-tifi.v01</string>
+    <string>yaghhyatLig-tifi</string>
+    <string>yaghhyatLig-tifi.rtl</string>
+    <string>yaghhyatLig-tifi.v01</string>
+    <string>yaghhyatLig-tifi.v01.rtl</string>
+    <string>yaj-tifi</string>
+    <string>yajyatLig-tifi</string>
+    <string>yajyatLig-tifi.rtl</string>
     <string>yad-tifi</string>
     <string>yad-tifi.v01</string>
-    <string>yanyadLig-tifi</string>
     <string>yadh-tifi</string>
-    <string>yanyadhLig-tifi</string>
     <string>yadh-tifi.v01</string>
     <string>yadd-tifi</string>
-    <string>yam-tifi</string>
-    <string>yamyatLig-tifi</string>
-    <string>yamyatLig-tifi.v01</string>
-    <string>yatt-tifi</string>
+    <string>yadd-tifi.rtl</string>
     <string>yaf-tifi</string>
-    <string>yanyafLig-tifi</string>
-    <string>yafyatLig-tifi</string>
-    <string>yafyatLig-tifi.v02</string>
     <string>yaf-tifi.v01</string>
-    <string>yanyafLig-tifi.v01</string>
+    <string>yafyatLig-tifi</string>
+    <string>yafyatLig-tifi.rtl</string>
     <string>yafyatLig-tifi.v01</string>
-    <string>yay-tifi</string>
+    <string>yafyatLig-tifi.v01.rtl</string>
+    <string>yafyatLig-tifi.v02</string>
+    <string>yafyatLig-tifi.v02.rtl</string>
+    <string>yakTuareg-tifi</string>
+    <string>yakTuareg-tifi.rtl</string>
+    <string>yah-tifi</string>
+    <string>yahyatLig-tifi</string>
+    <string>yahyatLig-tifi.rtl</string>
+    <string>yahTuareg-tifi</string>
+    <string>yakhTuareg-tifi</string>
+    <string>yaqTuareg-tifi</string>
     <string>yi-tifi</string>
+    <string>yi-tifi.rtl</string>
     <string>yiyatLig-tifi</string>
-    <string>yaghh-tifi</string>
-    <string>yaghhyatLig-tifi</string>
-    <string>yanyaghhLig-tifi</string>
-    <string>yaghh-tifi.v01</string>
-    <string>yaghhyatLig-tifi.v01</string>
-    <string>yanyaghhLig-tifi.v01</string>
-    <string>yaj-tifi</string>
-    <string>yanyajLig-tifi</string>
-    <string>yajyatLig-tifi</string>
-    <string>yangTuareg-tifi</string>
-    <string>yan-tifi</string>
-    <string>yan-tifi.raised</string>
-    <string>yan-tifi.slant</string>
-    <string>yanyakTuaregLig-tifi</string>
-    <string>yanyakTuaregLig-tifi.v01</string>
-    <string>yanyatLig-tifi</string>
-    <string>yanyatLig-tifi.v01</string>
-    <string>yanyatLig-tifi.v02</string>
+    <string>yiyatLig-tifi.rtl</string>
+    <string>yazhAhaggar-tifi</string>
+    <string>yazhAhaggar-tifi.v01</string>
+    <string>yazhAhaggaryatLig-tifi</string>
+    <string>yazhAhaggaryatLig-tifi.rtl</string>
+    <string>yazhAhaggaryatLig-tifi.v01</string>
+    <string>yazhAhaggaryatLig-tifi.v01.rtl</string>
+    <string>yazhTuareg-tifi</string>
+    <string>yazhyatLig-tifi</string>
+    <string>yazhyatLig-tifi.rtl</string>
+    <string>yazhyatLig-tifi.v01</string>
+    <string>yazhyatLig-tifi.v01.rtl</string>
+    <string>yazhyatLig-tifi.v02</string>
     <string>yal-tifi</string>
     <string>yal-tifi.raised</string>
     <string>yal-tifi.slant</string>
+    <string>yal-tifi.slant.rtl</string>
     <string>yalyakTuaregLig-tifi</string>
     <string>yalyatLig-tifi</string>
+    <string>yalyatLig-tifi.rtl</string>
     <string>yalyatLig-tifi.v01</string>
+    <string>yam-tifi</string>
+    <string>yam-tifi.rtl</string>
+    <string>yamyatLig-tifi</string>
+    <string>yamyatLig-tifi.rtl</string>
+    <string>yamyatLig-tifi.v01</string>
+    <string>yamyatLig-tifi.v01.rtl</string>
+    <string>yan-tifi</string>
+    <string>yan-tifi.raised</string>
+    <string>yan-tifi.slant</string>
+    <string>yan-tifi.slant.rtl</string>
+    <string>yanyaghhLig-tifi</string>
+    <string>yanyaghhLig-tifi.v01</string>
+    <string>yanyajLig-tifi</string>
+    <string>yanyadLig-tifi</string>
+    <string>yanyadhLig-tifi</string>
+    <string>yanyafLig-tifi</string>
+    <string>yanyafLig-tifi.v01</string>
+    <string>yanyakTuaregLig-tifi</string>
+    <string>yanyakTuaregLig-tifi.v01</string>
+    <string>yanyasLig-tifi</string>
+    <string>yanyasLig-tifi.rtl</string>
+    <string>yanyashLig-tifi</string>
+    <string>yanyashLig-tifi.rtl</string>
+    <string>yanyatLig-tifi</string>
+    <string>yanyatLig-tifi.rtl</string>
+    <string>yanyatLig-tifi.v01</string>
+    <string>yanyatLig-tifi.v01.rtl</string>
+    <string>yanyatLig-tifi.v02</string>
     <string>yagnTuareg-tifi</string>
     <string>yagnTuareg-tifi.v01</string>
+    <string>yangTuareg-tifi</string>
+    <string>yu-tifi</string>
+    <string>yu-tifi.v01</string>
+    <string>yuyatLig-tifi</string>
+    <string>yuyatLig-tifi.rtl</string>
+    <string>yuyatLig-tifi.v01</string>
+    <string>yuyatLig-tifi.v01.rtl</string>
+    <string>yuyatLig-tifi.v02</string>
+    <string>yuyatLig-tifi.v02.rtl</string>
+    <string>yar-tifi</string>
+    <string>yaryakTuaregLig-tifi</string>
+    <string>yaryatLig-tifi</string>
+    <string>yaryatLig-tifi.rtl</string>
+    <string>yaryatLig-tifi.v01</string>
+    <string>yaryatLig-tifi.v02</string>
+    <string>yaghTuareg-tifi</string>
+    <string>yas-tifi</string>
+    <string>yasyakTuaregLig-tifi</string>
+    <string>yasyatLig-tifi</string>
+    <string>yasyatLig-tifi.rtl</string>
+    <string>yasyatLig-tifi.v01</string>
+    <string>yasyatLig-tifi.v01.rtl</string>
+    <string>yasyatLig-tifi.v02</string>
+    <string>yasyatLig-tifi.v02.rtl</string>
     <string>yass-tifi</string>
     <string>yash-tifi</string>
+    <string>yash-tifi.rtl</string>
     <string>yashyakTuaregLig-tifi</string>
-    <string>yanyashLig-tifi</string>
+    <string>yashyakTuaregLig-tifi.rtl</string>
     <string>yashyatLig-tifi</string>
+    <string>yashyatLig-tifi.rtl</string>
     <string>yat-tifi</string>
-    <string>yu-tifi</string>
-    <string>yuyatLig-tifi</string>
-    <string>yuyatLig-tifi.v01</string>
-    <string>yu-tifi.v01</string>
-    <string>yuyatLig-tifi.v02</string>
-    <string>yazhTuareg-tifi</string>
-    <string>yazhyatLig-tifi</string>
-    <string>yazhyatLig-tifi.v01</string>
-    <string>yazhyatLig-tifi.v02</string>
+    <string>yatt-tifi</string>
+    <string>yatt-tifi.rtl</string>
+    <string>yay-tifi</string>
+    <string>yay-tifi.rtl</string>
     <string>yaz-tifi</string>
-    <string>yazyatLig-tifi</string>
+    <string>yazyatLig-tifi.rtl</string>
     <string>yaz-tifi.v01</string>
+    <string>yazyatLig-tifi</string>
     <string>yazyatLig-tifi.v01</string>
-    <string>yazhAhaggar-tifi</string>
-    <string>yazhAhaggaryatLig-tifi</string>
-    <string>yazhAhaggar-tifi.v01</string>
-    <string>yazhAhaggaryatLig-tifi.v01</string>
+    <string>yazyatLig-tifi.v01.rtl</string>
+    <string>yo-tifi</string>
     <string>separator-tifi</string>
+    <string>separator-tifi.rtl</string>
     <string>consonantjoiner-tifi</string>
+    <string>consonantjoiner-tifi.rtl</string>
     <string>TifConsLengthMark</string>
     <string>TifConsLengthMark.alt</string>
     <string>TifVowelMark</string>
-    <string>ya-tifi.super</string>
-    <string>yu-tifi.super</string>
-    <string>yay-tifi.super</string>
-    <string>yi-tifi.super</string>
-    <string>yo-tifi.super</string>
-    <string>yadd-tifi.rtl</string>
-    <string>yakTuareg-tifi.rtl</string>
-    <string>yi-tifi.rtl</string>
-    <string>yam-tifi.rtl</string>
-    <string>yash-tifi.rtl</string>
-    <string>yatt-tifi.rtl</string>
-    <string>yay-tifi.rtl</string>
-    <string>separator-tifi.rtl</string>
-    <string>consonantjoiner-tifi.rtl</string>
-    <string>yay-tifi.super.rtl</string>
-    <string>yi-tifi.super.rtl</string>
-    <string>yal-tifi.slant.rtl</string>
-    <string>yan-tifi.slant.rtl</string>
-    <string>yiyatLig-tifi.rtl</string>
-    <string>yabyatLig-tifi.rtl</string>
-    <string>yahyatLig-tifi.rtl</string>
-    <string>yaryatLig-tifi.rtl</string>
-    <string>yanyasLig-tifi.rtl</string>
-    <string>yasyatLig-tifi.rtl</string>
-    <string>yasyatLig-tifi.v01.rtl</string>
-    <string>yasyatLig-tifi.v02.rtl</string>
-    <string>yamyatLig-tifi.rtl</string>
-    <string>yamyatLig-tifi.v01.rtl</string>
-    <string>yafyatLig-tifi.rtl</string>
-    <string>yafyatLig-tifi.v02.rtl</string>
-    <string>yafyatLig-tifi.v01.rtl</string>
-    <string>yajyatLig-tifi.rtl</string>
-    <string>yanyatLig-tifi.rtl</string>
-    <string>yanyatLig-tifi.v01.rtl</string>
-    <string>yalyatLig-tifi.rtl</string>
-    <string>yashyakTuaregLig-tifi.rtl</string>
-    <string>yanyashLig-tifi.rtl</string>
-    <string>yashyatLig-tifi.rtl</string>
-    <string>yuyatLig-tifi.rtl</string>
-    <string>yuyatLig-tifi.v01.rtl</string>
-    <string>yuyatLig-tifi.v02.rtl</string>
-    <string>yazhyatLig-tifi.rtl</string>
-    <string>yazhyatLig-tifi.v01.rtl</string>
-    <string>yazyatLig-tifi.rtl</string>
-    <string>yazyatLig-tifi.v01.rtl</string>
-    <string>yazhAhaggaryatLig-tifi.rtl</string>
-    <string>yazhAhaggaryatLig-tifi.v01.rtl</string>
-    <string>yaghhyatLig-tifi.rtl</string>
-    <string>yaghhyatLig-tifi.v01.rtl</string>
+    <string>comma.tfng</string>
+    <string>exclam.tfng</string>
+    <string>period.tfng</string>
     <string>yaghh-tifi.v01.unused</string>
     <string>yadh-tifi.unused</string>
     <string>yakTuareg-tifi.orig</string>
     <string>yakTuareg-tifi.unused.001</string>
     <string>yakTuareg-tifi.unused.002</string>
-    <string>fi</string>
-    <string>fl</string>
+    <string>ya-tifi.super</string>
+    <string>yu-tifi.super</string>
+    <string>yay-tifi.super</string>
+    <string>yay-tifi.super.rtl</string>
+    <string>yi-tifi.super</string>
+    <string>yi-tifi.super.rtl</string>
+    <string>yo-tifi.super</string>
     <string>uniFE00</string>
     <string>uniFE01</string>
     <string>uniFE02</string>
@@ -582,9 +583,8 @@
     <string>uniFEFF</string>
     <string>uniFFFC</string>
     <string>uniFFFD</string>
-    <string>comma.tfng</string>
-    <string>exclam.tfng</string>
-    <string>period.tfng</string>
+    <string>fi</string>
+    <string>fl</string>
     <string>gravecmb.cap</string>
     <string>acutecmb.cap</string>
     <string>circumflexcmb.cap</string>
