@@ -21,6 +21,29 @@ GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 #  GSUB Lookups
 #**********************************
 
+# The following is a debugging tool so you can find out whether the app is rendering with OpenType or not.
+# The string "RenderingUnknown" will be rendered as "RenderingOpenType":
+lookup _FontCheck1_target {
+  lookupflag IgnoreMarks ;
+    sub U n k n o w n by O ;
+} _FontCheck1_target ;
+
+lookup FontCheck1 {
+  lookupflag IgnoreMarks ;
+    sub [ R ]e n d e r i n g U' lookup _FontCheck1_target n'  k'  n'  o'  w'  n'  ;
+} FontCheck1;
+
+lookup _FontCheck2_target {
+  lookupflag IgnoreMarks ;
+    sub O by O p e n T y p e ;
+} _FontCheck2_target ;
+
+lookup FontCheck2 {
+  lookupflag IgnoreMarks ;
+    sub [ R ]e n d e r i n g O' lookup _FontCheck2_target ;
+} FontCheck2;
+
+
 # SIL vowels for Tawallamat
 lookup TfnSILvowels {
   lookupflag 0 ;
@@ -39,8 +62,14 @@ lookup TfnCharacterVariant01 {
 
 lookup TfnCharacterVariant02 {
   lookupflag 0 ;
-    sub yaf-tifi by yaf-tifi.v01 ;
+    sub yaf-tifi from [ yaf-tifi.v01 yaf-tifi.v02 ] ;
 } TfnCharacterVariant02;
+
+# For ss02 only
+lookup TfnStylisticSet02 {
+  lookupflag 0 ;
+    sub yaf-tifi by yaf-tifi.v01 ;
+} TfnStylisticSet02;
 
 lookup TfnCharacterVariant03 {
   lookupflag 0 ;
@@ -66,6 +95,42 @@ lookup TfnCharacterVariant07 {
   lookupflag 0 ;
     sub yazhAhaggar-tifi by yazhAhaggar-tifi.v01 ;
 } TfnCharacterVariant07;
+
+lookup TfnCharacterVariant08 {
+  lookupflag 0 ;
+    sub yab-tifi by yab-tifi.v01 ;
+} TfnCharacterVariant08;
+
+lookup TfnCharacterVariant09 {
+  lookupflag 0 ;
+    sub yag-tifi by yag-tifi.v01 ;
+} TfnCharacterVariant09;
+
+lookup TfnCharacterVariant10 {
+  lookupflag 0 ;
+    sub yaj-tifi by yaj-tifi.v01 ;
+} TfnCharacterVariant10;
+
+lookup TfnCharacterVariant11 {
+  lookupflag 0 ;
+    sub yah-tifi by yah-tifi.v01 ;
+} TfnCharacterVariant11;
+
+lookup TfnCharacterVariant12 {
+  lookupflag 0 ;
+    sub yash-tifi by yash-tifi.v01 ;
+} TfnCharacterVariant12;
+
+lookup TfnCharacterVariant13 {
+  lookupflag 0 ;
+    sub yatt-tifi by yatt-tifi.v01 ;
+} TfnCharacterVariant13;
+
+# Used for ss14 feature. Use cv02=2 for Character Variant feature. See lookup rule in lookup TfnCharacterVariant02.
+lookup TfnStylisticSet14 {
+  lookupflag 0 ;
+    sub yaf-tifi by yaf-tifi.v02 ;
+} TfnStylisticSet14;
 
 lookup TfnCharacterVariant20 { # from publications circa 1954
   lookupflag 0 ;
@@ -423,6 +488,17 @@ feature calt {  # Contextual Alternates
 #            lookup LatnPunct;
 } calt ;
 
+feature ccmp {
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup FontCheck1;
+            lookup FontCheck2;
+    script latn;  # Default
+        language dflt;  # Default
+            lookup FontCheck1;
+            lookup FontCheck2;
+} ccmp;
+
 feature cv01 {  # Character Variant 1
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YA" ; };
@@ -439,7 +515,8 @@ feature cv01 {  # Character Variant 1
 feature cv02 {  # Character Variant 2
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF" ; };
-      ParamUILabelNameID { name 3 1 0x0409 "I-shape" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "I shape" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "open top and bottom" ; };
     } ;
     script DFLT;  # Default
         language dflt;  # Default
@@ -513,6 +590,99 @@ feature cv07 {  # Character Variant 7
         language dflt;  # Default
             lookup TfnCharacterVariant07;
 } cv07 ;
+
+feature cv08 {  # Character Variant 8
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAB" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "rectangle style" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant08;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant08;
+} cv08 ;
+
+feature cv09 {  # Character Variant 9
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAG" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "rounded top" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant09;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant09;
+} cv09 ;
+
+feature cv10 {  # Character Variant 10
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAJ" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "lower dots" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant10;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant10;
+} cv10 ;
+
+feature cv11 {  # Character Variant 11
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAH" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "rectangle style" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant11;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant11;
+} cv11 ;
+
+feature cv12 {  # Character Variant 12
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YASH" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "8 shape" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant12;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant12;
+} cv12 ;
+
+feature cv13 {  # Character Variant 13
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YATT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "F shape" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant13;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant13;
+} cv13 ;
+
+# PLACEHOLDER
+# Use cv02=2 for equivalent Character Variant14 feature. See lookup rule in lookup TfnCharacterVariant02. Also used for ss14 feature.
+#feature cv14 {  # Character Variant 14
+#    cvParameters {
+#      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF" ; };
+#      ParamUILabelNameID { name 3 1 0x0409 "open top and bottom" ; };
+#    } ;
+#    script DFLT;  # Default
+#        language dflt;  # Default
+#            lookup TfnTfnStylisticSet14; # lookup for ss14
+#    script tfng;  # Tifinagh
+#        language dflt;  # Default
+#            lookup TfnTfnStylisticSet14; # lookup for ss14
+#} cv14 ;
 
 feature cv20 {  # Character Variant 20
     cvParameters {
@@ -698,13 +868,13 @@ feature ss01 {  # Stylistic Set 1
 } ss01 ;
 
 feature ss02 {  # Stylistic Set 2
-    featureNames { name 3 1 0x409 "Alternate YAF (I-shape)" ; };
+    featureNames { name 3 1 0x409 "Alternate YAF (I shape)" ; };
     script DFLT;  # Default
         language dflt;  # Default
-            lookup TfnCharacterVariant02;
+            lookup TfnStylisticSet02; # unique lookup for ss02
     script tfng;  # Tifinagh
         language dflt;  # Default
-            lookup TfnCharacterVariant02;
+            lookup TfnStylisticSet02; # unique lookup for ss02
 } ss02 ;
 
 feature ss03 {  # Stylistic Set 3
@@ -756,6 +926,76 @@ feature ss07 {  # Stylistic Set 7
         language dflt;  # Default
             lookup TfnCharacterVariant07;
 } ss07 ;
+
+feature ss08 {  # Stylistic Set 8
+    featureNames { name 3 1 0x409 "Alternate YAB (rectangle style)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant08;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant08;
+} ss08 ;
+
+feature ss09 {  # Stylistic Set 9
+    featureNames { name 3 1 0x409 "Alternate YAG (rounded top)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant09;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant09;
+} ss09 ;
+
+feature ss10 {  # Stylistic Set 10
+    featureNames { name 3 1 0x409 "Alternate YAJ (lower dots)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant10;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant10;
+} ss10 ;
+
+feature ss11 {  # Stylistic Set 11
+    featureNames { name 3 1 0x409 "Alternate YAH (rectangle style)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant11;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant11;
+} ss11 ;
+
+feature ss12 {  # Stylistic Set 12
+    featureNames { name 3 1 0x409 "Alternate YASH (8 shape)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant12;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant12;
+} ss12 ;
+
+feature ss13 {  # Stylistic Set 13
+    featureNames { name 3 1 0x409 "Alternate YATT (F shape)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant13;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant13;
+} ss13 ;
+
+feature ss14 {  # Stylistic Set 14
+    featureNames { name 3 1 0x409 "Alternate YAF (open top and bottom)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnStylisticSet14; # unique lookup for ss14
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnStylisticSet14; # unique lookup for ss14
+} ss14 ;
 
 feature ss20 {  # Stylistic Set 20
     featureNames { name 3 1 0x409 "Alternate comma exclam and period" ; };

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!--
+Akatab-webfont-example.html
+Akatab
+This file is part of Akatab font family (http://software.sil.org/Akatab)
+and is Copyright (c) 2004-2022 SIL International (http://www.sil.org/),
+with Reserved Font Names "Akatab". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(http://scripts.sil.org/OFL) for all the details including a FAQ.
+-->
+<head>
+    <meta charset="utf-8">
+    <title>Akatab - Webfont Test</title>
+    <meta name="author" content="SIL Writing Systems Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="Akatab-webfont-example.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">Akatab - Webfont Test</h1>
+        <p>This is a test of the font family based on the local path references. The page demonstrates how to use the WOFF version of Akatab for web pages, using local copies of the .woff files in this archive. For more information on this technique - and how to use the normal TrueType version as a web font - see <a href="https://software.sil.org/fonts/webfonts/">Using SIL Fonts on Web Pages</a>.</p>
+		<p>The body of this document is styled using an external stylesheet, with Akatab set as the default font, and loaded directly as a WOFF file using the @font-face rule. To see specifically how these techniques are specified in the CSS and HTML, view the source to this page and the accompanying CSS file.</p>
+    </header>
+	
+    <h2 id="user-selectable-features">User-selectable features</h2>
+    <h3 id="stylistic-sets">Stylistic Sets</h3>
+	
+    <h4 id="variant-features">Alternate YA (empty circle)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴰ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss01'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss01&quot; 1">ⴰ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+	<h4 id="variant-features">Alternate YAF (I-shape)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴼ</span></td>
+    </tr>
+    <td>'ss02'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss02&quot; 1">ⴼ </span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAGHH (round bottom)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴴ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss03'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss03&quot; 1">ⴴ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAGN (lowered bottom stroke)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵐ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss04'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss04&quot; 1">ⵐ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YU (short strokes)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵓ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss05'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss05&quot; 1">ⵓ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAZ (squared)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵣ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss06'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss06&quot; 1">ⵣ</span></td>
+    </tr>
+    </tbody>
+    </table>
+    <h4 id="variant-features">Alternate YAZHH (squared)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵋ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss07'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss07&quot; 1">ⵋ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAB (rectangle style)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr"></span>ⴱ</td>
+    </tr>
+    <tr class="even">
+    <td>'ss08'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss08&quot; 1">ⴱ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAG (rounded top)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴳ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss09'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss09&quot; 1">ⴳ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAJ (lower dots)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴶ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss10'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss10&quot; 1">ⴶ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAH (rectangle style)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵀ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss11'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss11&quot; 1">ⵀ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YASH (8 shape)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵛ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss12'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss12&quot; 1">ⵛ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YATT (F shape)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵟ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss13'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss13&quot; 1">ⵟ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAF (open top and bottom)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴼ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'ss14'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;ss14&quot; 1">ⴼ</span></td>
+    </tr>
+    </tbody>
+    </table>
+		
+    <h3 id="character-variants">Character Variants</h3>
+	
+    <h4 id="variant-features">Alternate YA (empty circle)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴰ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv01'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv01&quot; 1">ⴰ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+	<h4 id="variant-features">Alternate YAF (I-shape, open top and bottom)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴼ</span></td>
+    </tr>
+    <td>'cv02'=1</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv02&quot; 1">ⴼ </span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv02'=2</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv02&quot; 2">ⴼ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAGHH (round bottom)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴴ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv03'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv03&quot; 1">ⴴ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAGN (lowered bottom stroke)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵐ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv04'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv04&quot; 1">ⵐ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YU (short strokes)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵓ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv05'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv05&quot; 1">ⵓ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAZ (squared)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵣ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv06'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv06&quot; 1">ⵣ</span></td>
+    </tr>
+    </tbody>
+    </table>
+    <h4 id="variant-features">Alternate YAZHH (squared)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵋ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv07'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv07&quot; 1">ⵋ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAB (rectangle style)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr"></span>ⴱ</td>
+    </tr>
+    <tr class="even">
+    <td>'cv08'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv08&quot; 1">ⴱ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAG (rounded top)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴳ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv09'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv09&quot; 1">ⴳ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAJ (lower dots)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⴶ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv10'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv10&quot; 1">ⴶ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YAH (rectangle style)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵀ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv11'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv11&quot; 1">ⵀ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YASH (8 shape)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵛ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv12'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv12&quot; 1">ⵛ</span></td>
+    </tr>
+    </tbody>
+    </table>
+	
+    <h4 id="variant-features">Alternate YATT (F shape)</h4>
+    <table>
+    <colgroup>
+    <col style="width: 3%" />
+    <col style="width: 96%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Test sequences</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="lpr">ⵟ</span></td>
+    </tr>
+    <tr class="even">
+    <td>'cv13'</td>
+    <td><span class="lpr" style="font-feature-settings: &quot;cv13&quot; 1">ⵟ</span></td>
+    </tr>
+    </tbody>
+    </table>
+		
+    <h2 id="character-support">Character support</h2>
+    <p>(to be added)</p>
+    <h2 id="rendering-support">Rendering support</h2>
+    <p><span class="lpr" style="color:green;">RenderingUnknown</p>
+    <footer class="footer">
+        <p>This test is copyright © 2022 SIL International.</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>

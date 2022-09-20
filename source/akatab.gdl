@@ -49,8 +49,22 @@ f_2D30 {
 
 f_2D3C {
 	id = "cv02";
-	name.1033 = string("Alternate YAF (I-shape)");  // F
-	bool
+	name.1033 = string("Alternate YAF");  // F
+	default = 0;
+	settings {
+		alt0 {
+			value = 0;
+			name.1033 = string("Standard  (open left and right sides)");
+		}
+		alt1 {
+			value = 1;
+			name.1033 = string("Alternate 1  (I-shape)");
+		}
+		alt2 {
+			value = 2;
+			name.1033 = string("Alternate 2 (open top and bottom)");
+		}
+	}
 }
 
 f_2D34 {
@@ -80,6 +94,42 @@ f_2D63 {
 f_2D4B {
 	id = "cv07";
 	name.1033 = string("Alternate AHAGGAR YAZH (squared)");  // ZH
+	bool
+}
+
+f_2D31 {
+	id = "cv08";
+	name.1033 = string("Alternate YAB (rectangle style)");  // B
+	bool
+}
+
+f_2D33 {
+	id = "cv09";
+	name.1033 = string("Alternate YAG (rounded top)");  // G
+	bool
+}
+
+f_2D36 {
+	id = "cv10";
+	name.1033 = string("Alternate YAJ (lower dots)");  // J
+	bool
+}
+
+f_2D40 {
+	id = "cv11";
+	name.1033 = string("Alternate YAH (rectangle style)");  // Tuareg YAB (H)
+	bool
+}
+
+f_2D5B {
+	id = "cv12";
+	name.1033 = string("Alternate YASH (8 shape)");  // SH
+	bool
+}
+
+f_2D5F {
+	id = "cv13";
+	name.1033 = string("Alternate YATT (F shape)");  // TT
 	bool
 }
 
@@ -310,6 +360,14 @@ table(sub)
 
 pass(1)
 
+    // The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
+    // The string "RenderingUnknown" will be rendered as "RenderingGraphite":
+    
+    codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
+    codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
+        codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+
+
 // Raised vertical-bar characters:
 // prevent substitution of third in sequence
 cno_raised  >  craised  /  (g_yan_tifi g_yal_tifi)  _  (g_yan_tifi g_yal_tifi) {directionality == 1};  // RTL
@@ -345,35 +403,62 @@ g_yu_tifi  g_circumflexcmb > g_yu_s_i_lu_tifi:(1 2) _ ;     // SIL vowel U
 
 // Alternate character forms
 
-if (f_2D30)
+if (f_2D30) // cv01
 g_ya_tifi  >  g_ya_tifi_v01;
 endif;
 
-if (f_2D3C)
+if (f_2D3C == 1) // cv02
 g_yaf_tifi  >  g_yaf_tifi_v01;
 endif;
+if (f_2D3C == 2)
+g_yaf_tifi  >  g_yaf_tifi_v02;
+endif;
 
-if (f_2D34)
+if (f_2D34) // cv03
 g_yaghh_tifi  >  g_yaghh_tifi_v01;
 endif;
 
-if (f_2D50)
+if (f_2D50) // cv04
 g_yagn_tuareg_tifi  >  g_yagn_tuareg_tifi_v01;
 endif;
 
-if (f_2D53)
+if (f_2D53) // cv05
 g_yu_tifi  >  g_yu_tifi_v01;
 endif;
 
-if (f_2D63)
+if (f_2D63) // cv06
 g_yaz_tifi  >  g_yaz_tifi_v01;
 endif;
 
-if (f_2D4B)
+if (f_2D4B) // cv07
 g_yazh_ahaggar_tifi  >  g_yazh_ahaggar_tifi_v01;
 endif;
 
-if (f_punct)
+if (f_2D31) // cv08
+g_yab_tifi  >  g_yab_tifi_v01;
+endif;
+
+if (f_2D33) // cv09
+g_yag_tifi  >  g_yag_tifi_v01;
+endif;
+
+if (f_2D36) // cv10
+g_yaj_tifi  >  g_yaj_tifi_v01;
+endif;
+
+if (f_2D40) // cv11
+g_yah_tifi  >  g_yah_tifi_v01;
+endif;
+
+if (f_2D5B) // cv12
+g_yash_tifi  >  g_yash_tifi_v01;
+endif;
+
+if (f_2D5F) // cv13
+g_yatt_tifi  >  g_yatt_tifi_v01;
+endif;
+
+if (f_punct) // cv20
 g_comma  >  g_comma_tfng;
 g_exclam >  g_exclam_tfng;
 g_period >  g_period_tfng;
