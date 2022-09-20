@@ -132,6 +132,11 @@ lookup TfnStylisticSet14 {
     sub yaf-tifi by yaf-tifi.v02 ;
 } TfnStylisticSet14;
 
+lookup TfnCharacterVariant15 {
+  lookupflag 0 ;
+    sub yadh-tifi by yadh-tifi.v01 ;
+} TfnCharacterVariant15;
+
 lookup TfnCharacterVariant20 { # from publications circa 1954
   lookupflag 0 ;
     sub comma  by comma.tfng ;
@@ -684,6 +689,19 @@ feature cv13 {  # Character Variant 13
 #            lookup TfnTfnStylisticSet14; # lookup for ss14
 #} cv14 ;
 
+feature cv15 {  # Character Variant 15
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YADH" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "rounded bottom" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant15;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant15;
+} cv15 ;
+
 feature cv20 {  # Character Variant 20
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate punctuation" ; };
@@ -996,6 +1014,16 @@ feature ss14 {  # Stylistic Set 14
         language dflt;  # Default
             lookup TfnStylisticSet14; # unique lookup for ss14
 } ss14 ;
+
+feature ss15 {  # Stylistic Set 15
+    featureNames { name 3 1 0x409 "Alternate YADH (rounded bottom)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant15;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant15;
+} ss15 ;
 
 feature ss20 {  # Stylistic Set 20
     featureNames { name 3 1 0x409 "Alternate comma exclam and period" ; };

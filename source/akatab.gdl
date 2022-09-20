@@ -133,6 +133,12 @@ f_2D5F {
 	bool
 }
 
+f_2D38 {
+	id = "cv15";
+	name.1033 = string("Alternate YADH (rounded bottom)");  // DH
+	bool
+}
+
 f_punct {
 	id = "cv20";
 	name.1033 = string("Alternate comma exclam and period");  // from publications circa 1954
@@ -456,6 +462,10 @@ endif;
 
 if (f_2D5F) // cv13
 g_yatt_tifi  >  g_yatt_tifi_v01;
+endif;
+
+if (f_2D38) // cv15
+g_yadh_tifi  >  g_yadh_tifi_v01;
 endif;
 
 if (f_punct) // cv20
