@@ -28,3 +28,12 @@ Biconsonant ligatures
 ⵌ⵿ⵜ    ZZT
 ⵣ⵿ⵜ    ZT
 ⵋ⵿ⵜ    ZHT
+
+v3
+ⵎ⵿ⵙ    MS
+ⵏ⵿ⵗ    NGH
+ⵏ⵿ⵤ    NZ
+ⵔ⵿ⵏ    RN
+ⵙ⵿ⵏ    SN
+ⵛ⵿ⵏ    SHN
+ⵏ⵿ⴼ⵿ⵜ    NFT

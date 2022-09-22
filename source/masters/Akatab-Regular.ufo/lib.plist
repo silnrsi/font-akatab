@@ -477,6 +477,7 @@
     <string>yalyatLig-tifi.v01</string>
     <string>yam-tifi</string>
     <string>yam-tifi.rtl</string>
+    <string>yamyasLig-tifi</string>
     <string>yamyatLig-tifi</string>
     <string>yamyatLig-tifi.rtl</string>
     <string>yamyatLig-tifi.v01</string>
@@ -492,8 +493,11 @@
     <string>yanyadhLig-tifi</string>
     <string>yanyafLig-tifi</string>
     <string>yanyafLig-tifi.v01</string>
+    <string>yanyafyatLig-tifi</string>
     <string>yanyakTuaregLig-tifi</string>
     <string>yanyakTuaregLig-tifi.v01</string>
+    <string>yanyaghTuaregLig-tifi</string>
+    <string>yanyaghTuaregLig-tifi.rtl</string>
     <string>yanyasLig-tifi</string>
     <string>yanyasLig-tifi.rtl</string>
     <string>yanyashLig-tifi</string>
@@ -503,6 +507,8 @@
     <string>yanyatLig-tifi.v01</string>
     <string>yanyatLig-tifi.v01.rtl</string>
     <string>yanyatLig-tifi.v02</string>
+    <string>yanyazTawellemetLig-tifi</string>
+    <string>yanyazTawellemetLig-tifi.rtl</string>
     <string>yagnTuareg-tifi</string>
     <string>yagnTuareg-tifi.v01</string>
     <string>yangTuareg-tifi</string>
@@ -516,6 +522,7 @@
     <string>yuyatLig-tifi.v02.rtl</string>
     <string>yar-tifi</string>
     <string>yaryakTuaregLig-tifi</string>
+    <string>yaryanLig-tifi</string>
     <string>yaryatLig-tifi</string>
     <string>yaryatLig-tifi.rtl</string>
     <string>yaryatLig-tifi.v01</string>
@@ -524,6 +531,7 @@
     <string>yaghAyer-tifi</string>
     <string>yas-tifi</string>
     <string>yasyakTuaregLig-tifi</string>
+    <string>yasyanLig-tifi</string>
     <string>yasyatLig-tifi</string>
     <string>yasyatLig-tifi.rtl</string>
     <string>yasyatLig-tifi.v01</string>
@@ -536,6 +544,8 @@
     <string>yash-tifi.v01</string>
     <string>yashyakTuaregLig-tifi</string>
     <string>yashyakTuaregLig-tifi.rtl</string>
+    <string>yashyanLig-tifi</string>
+    <string>yashyanLig-tifi.rtl</string>
     <string>yashyatLig-tifi</string>
     <string>yashyatLig-tifi.rtl</string>
     <string>yat-tifi</string>
@@ -855,6 +865,8 @@
     <string>uni2D4E</string>
     <key>yam-tifi.rtl</key>
     <string>uni2D4E.rtl</string>
+    <key>yamyasLig-tifi</key>
+    <string>uni2D4E_uni2D7F_uni2D59</string>
     <key>yamyatLig-tifi</key>
     <string>uni2D4E_uni2D7F_uni2D5C</string>
     <key>yamyatLig-tifi.rtl</key>
@@ -881,6 +893,12 @@
     <string>uni2D4F_uni2D7F_uni2D3C</string>
     <key>yanyafLig-tifi.v01</key>
     <string>uni2D4F_uni2D7F_uni2D3C.v01</string>
+    <key>yanyafyatLig-tifi</key>
+    <string>uni2D4F_uni2D3C_uni2D5C</string>
+    <key>yanyaghTuaregLig-tifi</key>
+    <string>uni2D4F_uni2D7F_uni2D57</string>
+    <key>yanyaghTuaregLig-tifi.rtl</key>
+    <string>uni2D4F_uni2D7F_uni2D57.rtl</string>
     <key>yanyaghhLig-tifi</key>
     <string>uni2D4F_uni2D7F_uni2D34</string>
     <key>yanyaghhLig-tifi.v01</key>
@@ -909,12 +927,18 @@
     <string>uni2D4F_uni2D7F_uni2D5C.v01.rtl</string>
     <key>yanyatLig-tifi.v02</key>
     <string>uni2D4F_uni2D7F_uni2D5C.v02</string>
+    <key>yanyazTawellemetLig-tifi</key>
+    <string>uni2D4F_uni2D7F_uni2D64</string>
+    <key>yanyazTawellemetLig-tifi.rtl</key>
+    <string>uni2D4F_uni2D7F_uni2D64.rtl</string>
     <key>yaqTuareg-tifi</key>
     <string>uni2D48</string>
     <key>yar-tifi</key>
     <string>uni2D54</string>
     <key>yaryakTuaregLig-tifi</key>
     <string>uni2D54_uni2D7F_uni2D3E</string>
+    <key>yaryanLig-tifi</key>
+    <string>uni2D54_uni2D7F_uni2D4F</string>
     <key>yaryatLig-tifi</key>
     <string>uni2D54_uni2D7F_uni2D5C</string>
     <key>yaryatLig-tifi.rtl</key>
@@ -935,6 +959,10 @@
     <string>uni2D5B_uni2D7F_uni2D3E</string>
     <key>yashyakTuaregLig-tifi.rtl</key>
     <string>uni2D5B_uni2D7F_uni2D3E.rtl</string>
+    <key>yashyanLig-tifi</key>
+    <string>uni2D5B_uni2D7F_uni2D4F</string>
+    <key>yashyanLig-tifi.rtl</key>
+    <string>uni2D5B_uni2D7F_uni2D4F.rtl</string>
     <key>yashyatLig-tifi</key>
     <string>uni2D5B_uni2D7F_uni2D5C</string>
     <key>yashyatLig-tifi.rtl</key>
@@ -943,6 +971,8 @@
     <string>uni2D5A</string>
     <key>yasyakTuaregLig-tifi</key>
     <string>uni2D59_uni2D7F_uni2D3E</string>
+    <key>yasyanLig-tifi</key>
+    <string>uni2D59_uni2D7F_uni2D4F</string>
     <key>yasyatLig-tifi</key>
     <string>uni2D59_uni2D7F_uni2D5C</string>
     <key>yasyatLig-tifi.rtl</key>
