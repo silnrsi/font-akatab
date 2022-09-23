@@ -30,6 +30,7 @@ Biconsonant ligatures
 ⵋ⵿ⵜ    ZHT
 
 v3
+ⵎ⵿ⵀ    MB
 ⵎ⵿ⵙ    MS
 ⵏ⵿ⵗ    NGH
 ⵏ⵿ⵤ    NZ

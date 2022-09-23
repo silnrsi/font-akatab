@@ -270,6 +270,7 @@ lookup TfnBiconsonants {
     sub yas-tifi              consonantjoiner-tifi yan-tifi            by yasyanLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yad-tifi            by yanyadLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yadh-tifi           by yanyadhLig-tifi ;
+    sub yam-tifi              consonantjoiner-tifi yah-tifi            by yamyahLig-tifi ;
     sub yam-tifi              consonantjoiner-tifi yat-tifi            by yamyatLig-tifi ;
     sub yam-tifi              consonantjoiner-tifi yas-tifi            by yamyasLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yaf-tifi            by yanyafLig-tifi ;

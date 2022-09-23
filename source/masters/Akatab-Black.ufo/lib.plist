@@ -479,6 +479,7 @@
     <string>yalyatLig-tifi.v01</string>
     <string>yam-tifi</string>
     <string>yam-tifi.rtl</string>
+    <string>yamyahLig-tifi</string>
     <string>yamyasLig-tifi</string>
     <string>yamyatLig-tifi</string>
     <string>yamyatLig-tifi.rtl</string>
@@ -867,6 +868,8 @@
     <string>uni2D4E</string>
     <key>yam-tifi.rtl</key>
     <string>uni2D4E.rtl</string>
+    <key>yamyahLig-tifi</key>
+    <string>uni2D4E_uni2D7F_uni2D40</string>
     <key>yamyasLig-tifi</key>
     <string>uni2D4E_uni2D7F_uni2D59</string>
     <key>yamyatLig-tifi</key>
