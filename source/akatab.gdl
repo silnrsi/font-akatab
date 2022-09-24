@@ -336,27 +336,30 @@ table(glyph)
 
 // Biconsonant ligatures
 
-c_2d4f_cons = (g_yaghh_tifi  g_yaj_tifi  g_yad_tifi  g_yadh_tifi  g_yaf_tifi  g_yak_tuareg_tifi  g_yas_tifi  g_yash_tifi  g_yat_tifi
+// Components and ligature classes with beginning glyph YAN (U+2D4F)
+c_2d4f_cons_comp = (g_yaghh_tifi  g_yaj_tifi  g_yad_tifi  g_yadh_tifi  g_yaf_tifi  g_yak_tuareg_tifi  
+    g_yas_tifi  g_yash_tifi  g_yat_tifi  g_yagh_tuareg_tifi  g_yaz_tawellemet_tifi  
 	g_yaghh_tifi_v01  g_yaf_tifi_v01);
 c_2d4f_cons_lig = (
-	g_yanyaghh_lig_tifi  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi
-	g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  g_yanyas_lig_tifi  g_yanyash_lig_tifi  g_yanyat_lig_tifi
+	g_yanyaghh_lig_tifi  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi  g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  
+	g_yanyas_lig_tifi  g_yanyash_lig_tifi  g_yanyat_lig_tifi  g_yanyagh_tuareg_lig_tifi  g_yanyaz_tawellemet_lig_tifi
 	g_yanyaghh_lig_tifi_v01  g_yanyaf_lig_tifi_v01);
 
-c_cons_2d3e = (g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  g_yas_tifi  g_yash_tifi);
+// Components and ligature classes with ending glyph Tuareg YAK (U+2D3E)
+c_cons_2d3e_comp = (g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  g_yas_tifi  g_yash_tifi);
 c_cons_2d3e_lig = (g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yaryak_tuareg_lig_tifi  g_yasyak_tuareg_lig_tifi  g_yashyak_tuareg_lig_tifi);
 
-c_cons_2d5c = (
+// Components and ligature classes with ending glyph YAT (U+2D5C)
+c_cons_2d5c_comp = (
 	g_yab_tifi  g_yaghh_tifi  g_yaj_tifi  g_yaf_tifi  g_yah_tifi
 	g_yi_tifi  g_yazh_ahaggar_tifi  g_yazh_tuareg_tifi  g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised
 	g_yam_tifi  g_yu_tifi  g_yar_tifi  g_yas_tifi  g_yash_tifi  g_yaz_tifi
-	g_yaghh_tifi_v01  g_yaf_tifi_v01  g_yazh_ahaggar_tifi_v01  g_yu_tifi_v01  g_yaz_tifi_v01  );
+	g_yaghh_tifi_v01  g_yaf_tifi_v01  g_yazh_ahaggar_tifi_v01  g_yu_tifi_v01  g_yaz_tifi_v01);
 c_cons_2d5c_lig = (
 	g_yabyat_lig_tifi  g_yaghhyat_lig_tifi  g_yajyat_lig_tifi  g_yafyat_lig_tifi  g_yahyat_lig_tifi
 	g_yiyat_lig_tifi  g_yazh_ahaggaryat_lig_tifi  g_yazhyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi
 	g_yamyat_lig_tifi  g_yuyat_lig_tifi  g_yaryat_lig_tifi  g_yasyat_lig_tifi  g_yashyat_lig_tifi  g_yazyat_lig_tifi
-	g_yaghhyat_lig_tifi_v01  g_yafyat_lig_tifi_v01  g_yazh_ahaggaryat_lig_tifi_v01  g_yuyat_lig_tifi_v02
-	g_yazyat_lig_tifi_v01);
+	g_yaghhyat_lig_tifi_v01  g_yafyat_lig_tifi_v01  g_yazh_ahaggaryat_lig_tifi_v01  g_yuyat_lig_tifi_v02  g_yazyat_lig_tifi_v01);
 
 
 endtable;  // glyph
@@ -479,28 +482,46 @@ endpass; // 2
 
 pass(3)   { Direction = RIGHT_TO_LEFT }
 
+// Tri-consonant ligature
+g_yan_tifi   g_consonantjoiner_tifi  g_yaf_tifi   g_consonantjoiner_tifi  g_yat_tifi  >  _  _  _  _ g_yanyafyat_lig_tifi:(1 2 3 4 5);
+
 // Biconsonant ligatures
 
-(g_yan_tifi  g_yan_tifi_raised)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(g_yan_tifi  g_yan_tifi_slant)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(g_yan_tifi  g_yan_tifi_slant_rtl)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+g_yam_tifi   g_consonantjoiner_tifi  g_yah_tifi  >  _  _  g_yamyah_lig_tifi:(1 2 3);
+g_yam_tifi   g_consonantjoiner_tifi  g_yas_tifi  >  _  _  g_yamyas_lig_tifi:(1 2 3);
+g_yar_tifi   g_consonantjoiner_tifi  g_yan_tifi  >  _  _  g_yaryan_lig_tifi:(1 2 3);
+g_yas_tifi   g_consonantjoiner_tifi  g_yan_tifi  >  _  _  g_yasyan_lig_tifi:(1 2 3);
+g_yash_tifi  g_consonantjoiner_tifi  g_yan_tifi  >  _  _  g_yashyan_lig_tifi:(1 2 3);
 
-c_cons_2d3e  g_consonantjoiner_tifi  g_yak_tuareg_tifi  >  c_cons_2d3e_lig:(1 2 3)  _  _;
-c_cons_2d5c  g_consonantjoiner_tifi  g_yat_tifi  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+(g_yan_tifi  g_yan_tifi_raised)     g_consonantjoiner_tifi  c_2d4f_cons_comp  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant)      g_consonantjoiner_tifi  c_2d4f_cons_comp  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant_rtl)  g_consonantjoiner_tifi  c_2d4f_cons_comp  >  _  _  c_2d4f_cons_lig:(1 2 3);
+
+c_cons_2d3e_comp  g_consonantjoiner_tifi  g_yak_tuareg_tifi  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c_comp  g_consonantjoiner_tifi  g_yat_tifi  >  c_cons_2d5c_lig:(1 2 3)  _  _;
 
 endpass;  // 3
 
 
 pass(4)
 
-// Biconsonant ligatures
+// Tri-consonant ligature
+g_yan_tifi   g_consonantjoiner_tifi  g_yaf_tifi   g_consonantjoiner_tifi  g_yat_tifi  >  _  _  _  _ g_yanyafyat_lig_tifi:(1 2 3 4 5);
 
-(g_yan_tifi  g_yan_tifi_raised)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(g_yan_tifi  g_yan_tifi_slant)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
-(g_yan_tifi  g_yan_tifi_slant_rtl)  g_consonantjoiner_tifi  c_2d4f_cons  >  _  _  c_2d4f_cons_lig:(1 2 3);
+// Biconsonant ligatures (left to right)
 
-c_cons_2d3e  g_consonantjoiner_tifi  g_yak_tuareg_tifi  >  c_cons_2d3e_lig:(1 2 3)  _  _;
-c_cons_2d5c  g_consonantjoiner_tifi  g_yat_tifi  >  c_cons_2d5c_lig:(1 2 3)  _  _;
+g_yam_tifi   g_consonantjoiner_tifi  g_yah_tifi  >  _  _  g_yamyah_lig_tifi:(1 2 3);
+g_yam_tifi   g_consonantjoiner_tifi  g_yas_tifi  >  _  _  g_yamyas_lig_tifi:(1 2 3);
+g_yar_tifi   g_consonantjoiner_tifi  g_yan_tifi  >  _  _  g_yaryan_lig_tifi:(1 2 3);
+g_yas_tifi   g_consonantjoiner_tifi  g_yan_tifi  >  _  _  g_yasyan_lig_tifi:(1 2 3);
+g_yash_tifi  g_consonantjoiner_tifi  g_yan_tifi  >  _  _  g_yashyan_lig_tifi:(1 2 3);
+
+(g_yan_tifi  g_yan_tifi_raised)     g_consonantjoiner_tifi  c_2d4f_cons_comp  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant)      g_consonantjoiner_tifi  c_2d4f_cons_comp  >  _  _  c_2d4f_cons_lig:(1 2 3);
+(g_yan_tifi  g_yan_tifi_slant_rtl)  g_consonantjoiner_tifi  c_2d4f_cons_comp  >  _  _  c_2d4f_cons_lig:(1 2 3);
+
+c_cons_2d3e_comp  g_consonantjoiner_tifi  g_yak_tuareg_tifi  >  c_cons_2d3e_lig:(1 2 3)  _  _;
+c_cons_2d5c_comp  g_consonantjoiner_tifi  g_yat_tifi  >  c_cons_2d5c_lig:(1 2 3)  _  _;
 
 endpass;  // 4
 
