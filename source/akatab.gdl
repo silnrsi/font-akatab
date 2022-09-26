@@ -1,7 +1,7 @@
 /***************************************************************************
 
-	Akatab.gdl
-	Graphite source code for Akatab
+    Akatab.gdl
+    Graphite source code for Akatab
 
 ***************************************************************************/
 
@@ -42,286 +42,286 @@ Bidi = true;
 table(feature)
 
 f_2D30 {
-	id = "cv01";
-	name.1033 = string("Alternate YA (empty circle)");  // A
-	bool
+    id = "cv01";
+    name.1033 = string("Alternate YA (empty circle)");  // A
+    bool
 }
 
 f_2D3C {
-	id = "cv02";
-	name.1033 = string("Alternate YAF");  // F
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard  (open left and right sides)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate 1  (I-shape)");
-		}
-		alt2 {
-			value = 2;
-			name.1033 = string("Alternate 2 (open top and bottom)");
-		}
-	}
+    id = "cv02";
+    name.1033 = string("Alternate YAF");  // F
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard  (open left and right sides)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate 1  (I-shape)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (open top and bottom)");
+        }
+    }
 }
 
 f_2D34 {
-	id = "cv03";
-	name.1033 = string("Alternate YAGHH (round bottom)");  // GHH
-	bool
+    id = "cv03";
+    name.1033 = string("Alternate YAGHH (round bottom)");  // GHH
+    bool
 }
 
 f_2D50 {
-	id = "cv04";
-	name.1033 = string("Alternate YAGN (lowered bottom stroke)");  // GN
-	bool
+    id = "cv04";
+    name.1033 = string("Alternate YAGN (lowered bottom stroke)");  // GN
+    bool
 }
 
 f_2D53 {
-	id = "cv05";
-	name.1033 = string("Alternate YU (short strokes)");  // W
-	bool
+    id = "cv05";
+    name.1033 = string("Alternate YU (short strokes)");  // W
+    bool
 }
 
 f_2D63 {
-	id = "cv06";
-	name.1033 = string("Alternate YAZ (squared)");  // Z
-	bool
+    id = "cv06";
+    name.1033 = string("Alternate YAZ (squared)");  // Z
+    bool
 }
 
 f_2D4B {
-	id = "cv07";
-	name.1033 = string("Alternate AHAGGAR YAZH (squared)");  // ZH
-	bool
+    id = "cv07";
+    name.1033 = string("Alternate AHAGGAR YAZH (squared)");  // ZH
+    bool
 }
 
 f_2D31 {
-	id = "cv08";
-	name.1033 = string("Alternate YAB (rectangle style)");  // B
-	bool
+    id = "cv08";
+    name.1033 = string("Alternate YAB (rectangle style)");  // B
+    bool
 }
 
 f_2D33 {
-	id = "cv09";
-	name.1033 = string("Alternate YAG (rounded top)");  // G
-	bool
+    id = "cv09";
+    name.1033 = string("Alternate YAG (rounded top)");  // G
+    bool
 }
 
 f_2D36 {
-	id = "cv10";
-	name.1033 = string("Alternate YAJ (lower dots)");  // J
-	bool
+    id = "cv10";
+    name.1033 = string("Alternate YAJ (lower dots)");  // J
+    bool
 }
 
 f_2D40 {
-	id = "cv11";
-	name.1033 = string("Alternate YAH (rectangle style)");  // Tuareg YAB (H)
-	bool
+    id = "cv11";
+    name.1033 = string("Alternate YAH (rectangle style)");  // Tuareg YAB (H)
+    bool
 }
 
 f_2D5B {
-	id = "cv12";
-	name.1033 = string("Alternate YASH (8 shape)");  // SH
-	bool
+    id = "cv12";
+    name.1033 = string("Alternate YASH (8 shape)");  // SH
+    bool
 }
 
 f_2D5F {
-	id = "cv13";
-	name.1033 = string("Alternate YATT (F shape)");  // TT
-	bool
+    id = "cv13";
+    name.1033 = string("Alternate YATT (F shape)");  // TT
+    bool
 }
 
 f_2D38 {
-	id = "cv15";
-	name.1033 = string("Alternate YADH (rounded bottom)");  // DH
-	bool
+    id = "cv15";
+    name.1033 = string("Alternate YADH (rounded bottom)");  // DH
+    bool
 }
 
 f_punct {
-	id = "cv20";
-	name.1033 = string("Alternate comma exclam and period");  // from publications circa 1954
-	bool
+    id = "cv20";
+    name.1033 = string("Alternate comma exclam and period");  // from publications circa 1954
+    bool
 }
 
 
 // Biconsonant features
 
 f_2D31_2D5C {
-	id = "cv31";
-	name.1033 = string("Alternate YAB YAT");  // BT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (exterior T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate (interior T)");
-		}
-	}
+    id = "cv31";
+    name.1033 = string("Alternate YAB YAT");  // BT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (exterior T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (interior T)");
+        }
+    }
 }
 
 f_2D54_2D5C {
-	id = "cv32";
-	name.1033 = string("Alternate YAR YAT");  // RT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (exterior T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate 1 (large interior T)");
-		}
-		alt2 {
-			value = 2;
-			name.1033 = string("Alternate 2 (small interior T)");
-		}
-	}
+    id = "cv32";
+    name.1033 = string("Alternate YAR YAT");  // RT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (exterior T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate 1 (large interior T)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (small interior T)");
+        }
+    }
 }
 
 f_2D59_2D5C {
-	id = "cv33";
-	name.1033 = string("Alternate YAS YAT");  // ST
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (exterior T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate 1 (large interior T)");
-		}
-		alt2 {
-			value = 2;
-			name.1033 = string("Alternate 2 (small interior T)");
-		}
-	}
+    id = "cv33";
+    name.1033 = string("Alternate YAS YAT");  // ST
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (exterior T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate 1 (large interior T)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (small interior T)");
+        }
+    }
 }
 
 f_2D4E_2D5C {
-	id = "cv34";
-	name.1033 = string("Alternate YAM YAT");  // MT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (low T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate (middle T)");
-		}
-	}
+    id = "cv34";
+    name.1033 = string("Alternate YAM YAT");  // MT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (low T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (middle T)");
+        }
+    }
 }
 
 f_2D3C_2D5C {
-	id = "cv35";
-	name.1033 = string("Alternate YAF YAT");  // FT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (low T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate (middle T)");
-		}
-	}
+    id = "cv35";
+    name.1033 = string("Alternate YAF YAT");  // FT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (low T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (middle T)");
+        }
+    }
 }
 
 f_2D4F_2D3E {
-	id = "cv36";
-	name.1033 = string("Alternate YAN YAK");  // NK
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (single dot cluster)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate (double dot cluster)");
-		}
-	}
+    id = "cv36";
+    name.1033 = string("Alternate YAN YAK");  // NK
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (single dot cluster)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (double dot cluster)");
+        }
+    }
 }
 
 f_2D4F_2D5C {
-	id = "cv37";
-	name.1033 = string("Alternate YAN YAT");  // NT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (side T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate 1 (side bar)");
-		}
-		alt2 {
-			value = 2;
-			name.1033 = string("Alternate 2 (top bar)");
-		}
-	}
+    id = "cv37";
+    name.1033 = string("Alternate YAN YAT");  // NT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (side T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate 1 (side bar)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (top bar)");
+        }
+    }
 }
 
 f_2D4D_2D5C {
-	id = "cv38";
-	name.1033 = string("Alternate YAL YAT");  // LT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (external T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate (internal T)");
-		}
-	}
+    id = "cv38";
+    name.1033 = string("Alternate YAL YAT");  // LT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (external T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (internal T)");
+        }
+    }
 }
 
 f_2D53_2D5C {
-	id = "cv39";
-	name.1033 = string("Alternate YU YAT");  // WT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (short)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate (tall)");
-		}
-	}
+    id = "cv39";
+    name.1033 = string("Alternate YU YAT");  // WT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (short)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (tall)");
+        }
+    }
 }
 
 f_2D4C_2D5C {
-	id = "cv40";
-	name.1033 = string("Alternate Tuareg YAZH YAT");  // ZZHT
-	default = 0;
-	settings {
-		alt0 {
-			value = 0;
-			name.1033 = string("Standard (lower-right T)");
-		}
-		alt1 {
-			value = 1;
-			name.1033 = string("Alternate 1 (mid-right T)");
-		}
-		alt2 {
-			value = 2;
-			name.1033 = string("Alternate 2 (centered T)");
-		}
-	}
+    id = "cv40";
+    name.1033 = string("Alternate Tuareg YAZH YAT");  // ZZHT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (lower-right T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate 1 (mid-right T)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (centered T)");
+        }
+    }
 }
 
 endtable; // feature
@@ -339,11 +339,11 @@ table(glyph)
 // Components and ligature classes with beginning glyph YAN (U+2D4F)
 c_2d4f_cons_comp = (g_yaghh_tifi  g_yaj_tifi  g_yad_tifi  g_yadh_tifi  g_yaf_tifi  g_yak_tuareg_tifi  
     g_yas_tifi  g_yash_tifi  g_yat_tifi  g_yagh_tuareg_tifi  g_yaz_tawellemet_tifi  
-	g_yaghh_tifi_v01  g_yaf_tifi_v01);
+    g_yaghh_tifi_v01  g_yaf_tifi_v01);
 c_2d4f_cons_lig = (
-	g_yanyaghh_lig_tifi  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi  g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  
-	g_yanyas_lig_tifi  g_yanyash_lig_tifi  g_yanyat_lig_tifi  g_yanyagh_tuareg_lig_tifi  g_yanyaz_tawellemet_lig_tifi
-	g_yanyaghh_lig_tifi_v01  g_yanyaf_lig_tifi_v01);
+    g_yanyaghh_lig_tifi  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi  g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  
+    g_yanyas_lig_tifi  g_yanyash_lig_tifi  g_yanyat_lig_tifi  g_yanyagh_tuareg_lig_tifi  g_yanyaz_tawellemet_lig_tifi
+    g_yanyaghh_lig_tifi_v01  g_yanyaf_lig_tifi_v01);
 
 // Components and ligature classes with ending glyph Tuareg YAK (U+2D3E)
 c_cons_2d3e_comp = (g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  g_yas_tifi  g_yash_tifi);
@@ -351,15 +351,15 @@ c_cons_2d3e_lig = (g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yalyak_
 
 // Components and ligature classes with ending glyph YAT (U+2D5C)
 c_cons_2d5c_comp = (
-	g_yab_tifi  g_yaghh_tifi  g_yaj_tifi  g_yaf_tifi  g_yah_tifi
-	g_yi_tifi  g_yazh_ahaggar_tifi  g_yazh_tuareg_tifi  g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised
-	g_yam_tifi  g_yu_tifi  g_yar_tifi  g_yas_tifi  g_yash_tifi  g_yaz_tifi
-	g_yaghh_tifi_v01  g_yaf_tifi_v01  g_yazh_ahaggar_tifi_v01  g_yu_tifi_v01  g_yaz_tifi_v01);
+    g_yab_tifi  g_yaghh_tifi  g_yaj_tifi  g_yaf_tifi  g_yah_tifi
+    g_yi_tifi  g_yazh_ahaggar_tifi  g_yazh_tuareg_tifi  g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised
+    g_yam_tifi  g_yu_tifi  g_yar_tifi  g_yas_tifi  g_yash_tifi  g_yaz_tifi
+    g_yaghh_tifi_v01  g_yaf_tifi_v01  g_yazh_ahaggar_tifi_v01  g_yu_tifi_v01  g_yaz_tifi_v01);
 c_cons_2d5c_lig = (
-	g_yabyat_lig_tifi  g_yaghhyat_lig_tifi  g_yajyat_lig_tifi  g_yafyat_lig_tifi  g_yahyat_lig_tifi
-	g_yiyat_lig_tifi  g_yazh_ahaggaryat_lig_tifi  g_yazhyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi
-	g_yamyat_lig_tifi  g_yuyat_lig_tifi  g_yaryat_lig_tifi  g_yasyat_lig_tifi  g_yashyat_lig_tifi  g_yazyat_lig_tifi
-	g_yaghhyat_lig_tifi_v01  g_yafyat_lig_tifi_v01  g_yazh_ahaggaryat_lig_tifi_v01  g_yuyat_lig_tifi_v02  g_yazyat_lig_tifi_v01);
+    g_yabyat_lig_tifi  g_yaghhyat_lig_tifi  g_yajyat_lig_tifi  g_yafyat_lig_tifi  g_yahyat_lig_tifi
+    g_yiyat_lig_tifi  g_yazh_ahaggaryat_lig_tifi  g_yazhyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi  g_yalyat_lig_tifi
+    g_yamyat_lig_tifi  g_yuyat_lig_tifi  g_yaryat_lig_tifi  g_yasyat_lig_tifi  g_yashyat_lig_tifi  g_yazyat_lig_tifi
+    g_yaghhyat_lig_tifi_v01  g_yafyat_lig_tifi_v01  g_yazh_ahaggaryat_lig_tifi_v01  g_yuyat_lig_tifi_v02  g_yazyat_lig_tifi_v01);
 
 
 endtable;  // glyph
@@ -585,7 +585,7 @@ endpass;  // 5
 
 pass(6)
 
-cno_rtl	>	crtl / _ {directionality == 1};  // sub LTR with RTL glyphs
+cno_rtl  >  crtl / _ {directionality == 1};  // sub LTR with RTL glyphs
 
 endpass;  // 6
 
@@ -599,7 +599,7 @@ endtable;  // substitution
 //
 /////////////////////////////////
 
-#define attached	user1
+#define attached    user1
 #define DIASTR4(x) [ x [ x [ x x?]?]?]?
 
 table(pos)
@@ -608,13 +608,13 @@ table(pos)
 #define pos_ruleSD(t, x, a, w, n) t x {attach {to = @1; at = a; with = w}; insert = 1; attached = 1} / ^ _ DIASTR4(n) _{attached == 0}
 
 // Latin
-	pos_ruleSD(cTakesaboveLCDia, caboveLCDia, aboveLCS, aboveLCM, cnaboveLCDia);      // Diacritics above on lowercase
-	pos_ruleSD(cTakesaboveUCDia, caboveUCDia, aboveUCS, aboveUCM, cnaboveUCDia);      // Diacritics above on uppercase
-	pos_ruleSD(cTakesbelowLCDia, cbelowLCDia, belowLCS, belowLCM, cnbelowLCDia);      // Diacritics below
-	pos_ruleSD(cTakesbaseLCDia, cbaseLCDia, baseLCS, baseLCM, cnbaseLCDia);           // Cedilla
-	pos_ruleSD(cTakesogonekLCDia, cogonekLCDia, ogonekLCS, ogonekLCM, cnogonekLCDia); // Ogonek
+    pos_ruleSD(cTakesaboveLCDia, caboveLCDia, aboveLCS, aboveLCM, cnaboveLCDia);      // Diacritics above on lowercase
+    pos_ruleSD(cTakesaboveUCDia, caboveUCDia, aboveUCS, aboveUCM, cnaboveUCDia);      // Diacritics above on uppercase
+    pos_ruleSD(cTakesbelowLCDia, cbelowLCDia, belowLCS, belowLCM, cnbelowLCDia);      // Diacritics below
+    pos_ruleSD(cTakesbaseLCDia, cbaseLCDia, baseLCS, baseLCM, cnbaseLCDia);           // Cedilla
+    pos_ruleSD(cTakesogonekLCDia, cogonekLCDia, ogonekLCS, ogonekLCM, cnogonekLCDia); // Ogonek
 
 // Tifinagh
-	pos_ruleSD(cTakesTDia, cTDia, TS, TM, cnTDia); // Diacritics on Tifinagh bases
+    pos_ruleSD(cTakesTDia, cTDia, TS, TM, cnTDia); // Diacritics on Tifinagh bases
 
 endtable; // positioning
