@@ -342,13 +342,13 @@ lookup TfnRaised {
 lookup TfnCharacterVariant31 {
   lookupflag 0 ;
     sub yabyatLig-tifi     by yabyatLig-tifi.v01 ;
-    sub yabyatLig-tifi.rtl by yabyatLig-tifi.v01 ;
+    sub yabyatLig-tifi.rtl by yabyatLig-tifi.v01 ; #  no RTL - v01
 } TfnCharacterVariant31;
 
 lookup TfnCharacterVariant32 {
   lookupflag 0 ;
     sub yaryatLig-tifi     from [ yaryatLig-tifi.v01 yaryatLig-tifi.v02 ] ;
-    sub yaryatLig-tifi.rtl from [ yaryatLig-tifi.v01 yaryatLig-tifi.v02 ] ;
+    sub yaryatLig-tifi.rtl from [ yaryatLig-tifi.v01 yaryatLig-tifi.v02 ] ;  #  no RTL - v01, v02
 } TfnCharacterVariant32;
 
 lookup TfnCharacterVariant32_1 { # for typetuner lookup only
@@ -390,8 +390,8 @@ lookup TfnCharacterVariant34 {
 
 lookup TfnCharacterVariant35 {
   lookupflag 0 ;
-    sub yafyatLig-tifi     by yafyatLig-tifi.v02 ;
-    sub yafyatLig-tifi.rtl by yafyatLig-tifi.v02.rtl ;
+    sub yafyatLig-tifi     from [ yafyatLig-tifi.v02     yafyatLig-tifi.v03 yafyatLig-tifi.v04 ] ;
+    sub yafyatLig-tifi.rtl from [ yafyatLig-tifi.v02.rtl yafyatLig-tifi.v03 yafyatLig-tifi.v04 ] ; #  no RTL - v03 and v04
 } TfnCharacterVariant35;
 
 lookup TfnCharacterVariant36 {
@@ -402,7 +402,7 @@ lookup TfnCharacterVariant36 {
 lookup TfnCharacterVariant37 {
   lookupflag 0 ;
     sub yanyatLig-tifi     from [ yanyatLig-tifi.v01     yanyatLig-tifi.v02 ] ;
-    sub yanyatLig-tifi.rtl from [ yanyatLig-tifi.v01.rtl yanyatLig-tifi.v02 ] ;
+    sub yanyatLig-tifi.rtl from [ yanyatLig-tifi.v01.rtl yanyatLig-tifi.v02 ] ; #  no RTL - v02
 } TfnCharacterVariant37;
 
 lookup TfnCharacterVariant37_1 { # for typetuner lookup only
@@ -419,20 +419,20 @@ lookup TfnCharacterVariant37_2 { # for typetuner lookup only
 
 lookup TfnCharacterVariant38 {
   lookupflag 0 ;
-    sub yalyatLig-tifi     by yalyatLig-tifi.v01 ;
-    sub yalyatLig-tifi.rtl by yalyatLig-tifi.v01 ;
+    sub yalyatLig-tifi     from [ yalyatLig-tifi.v01 yalyatLig-tifi.v02 yalyatLig-tifi.v03 ] ;
+    sub yalyatLig-tifi.rtl from [ yalyatLig-tifi.v01 yalyatLig-tifi.v02 yalyatLig-tifi.v03 ] ; #  no RTL - v01, v02, v03
 } TfnCharacterVariant38;
 
 lookup TfnCharacterVariant39 {
   lookupflag 0 ;
-    sub yuyatLig-tifi     by yuyatLig-tifi.v01 ;
-    sub yuyatLig-tifi.rtl by yuyatLig-tifi.v01.rtl ;
+    sub yuyatLig-tifi     from [ yuyatLig-tifi.v01     yuyatLig-tifi.v03 ] ;
+    sub yuyatLig-tifi.rtl from [ yuyatLig-tifi.v01.rtl yuyatLig-tifi.v03 ] ;
 } TfnCharacterVariant39;
 
 lookup TfnCharacterVariant40 {
   lookupflag 0 ;
     sub yazhyatLig-tifi     from [ yazhyatLig-tifi.v01     yazhyatLig-tifi.v02 ] ;
-    sub yazhyatLig-tifi.rtl from [ yazhyatLig-tifi.v01.rtl yazhyatLig-tifi.v02 ] ;
+    sub yazhyatLig-tifi.rtl from [ yazhyatLig-tifi.v01.rtl yazhyatLig-tifi.v02 ] ; #  no RTL - v02
 } TfnCharacterVariant40;
 
 lookup TfnCharacterVariant40_1 { # for typetuner lookup only
@@ -779,7 +779,7 @@ feature cv33 {  # Character Variant 33
 feature cv34 {  # Character Variant 34
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAM YAT" ; };
-      ParamUILabelNameID { name 3 1 0x0409 "middle T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "center T" ; };
     } ;
     script DFLT;  # Default
         language dflt;  # Default
@@ -805,7 +805,7 @@ feature cv35 {  # Character Variant 35
 feature cv36 {  # Character Variant 36
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAK" ; };
-      ParamUILabelNameID { name 3 1 0x0409 "double dot cluster" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
     } ;
     script DFLT;  # Default
         language dflt;  # Default
@@ -859,7 +859,7 @@ feature cv40 {  # Character Variant 40
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate Tuareg YAZH YAT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "mid-right T" ; };
-      ParamUILabelNameID { name 3 1 0x0409 "centered T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "center T" ; };
     } ;
     script DFLT;  # Default
         language dflt;  # Default
