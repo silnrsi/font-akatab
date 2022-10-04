@@ -290,6 +290,7 @@ lookup TfnBiconsonants {
     sub yal-tifi              consonantjoiner-tifi yat-tifi            by yalyatLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yakTuareg-tifi      by yashyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yash-tifi           by yanyashLig-tifi ;
+    sub yan-tifi              consonantjoiner-tifi yazhTuareg-tifi     by yanyazhTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yazTawellemet-tifi  by yanyazTawellemetLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yat-tifi            by yashyatLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yan-tifi            by yashyanLig-tifi ;
@@ -446,6 +447,32 @@ lookup TfnCharacterVariant40_2 { # for typetuner lookup only
     sub yazhyatLig-tifi     by yazhyatLig-tifi.v02 ;
     sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.v02 ;
 } TfnCharacterVariant40_2;
+
+lookup TfnCharacterVariant41 {
+  lookupflag 0 ;
+    sub yanyadLig-tifi by yanyadLig-tifi.v01 ;
+} TfnCharacterVariant41;
+
+lookup TfnCharacterVariant42 {
+  lookupflag 0 ;
+    sub yanyafLig-tifi from [ yanyafLig-tifi.v02 yanyafLig-tifi.v03 ] ;
+} TfnCharacterVariant42;
+
+lookup TfnCharacterVariant43 {
+  lookupflag 0 ;
+    sub yanyajLig-tifi by yanyajLig-tifi.v01 ;
+} TfnCharacterVariant43;
+
+lookup TfnCharacterVariant44 {
+  lookupflag 0 ;
+    sub yanyasLig-tifi by yanyasLig-tifi.v01 ;
+} TfnCharacterVariant44;
+
+lookup TfnCharacterVariant45 {
+  lookupflag 0 ;
+    sub yanyazhTuaregLig-tifi by yanyazhTuaregLig-tifi.v01 ;
+} TfnCharacterVariant45;
+
 
 lookup TfnAllAlternates {
   lookupflag 0 ;
@@ -868,6 +895,72 @@ feature cv40 {  # Character Variant 40
         language dflt;  # Default
             lookup TfnCharacterVariant40;
 } cv40 ;
+
+feature cv41 {  # Character Variant 41
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAD" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "up down pointers" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant41;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant41;
+} cv41 ;
+
+feature cv42 {  # Character Variant 42
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAF" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "top and bottom bars" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "no bars" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant42;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant42;
+} cv42 ;
+
+feature cv43 {  # Character Variant 43
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAJ" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "top and bottom dots" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant43;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant43;
+} cv43 ;
+
+feature cv44 {  # Character Variant 44
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAS" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "interior YAN" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant44;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant44;
+} cv44 ;
+
+feature cv45 {  # Character Variant 45
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN Tuareg YAZH" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "exterior circles" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant45;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant45;
+} cv45 ;
 
 feature liga {  # Standard Ligatures
     script DFLT;  # Default

@@ -1040,10 +1040,10 @@
   <string>yanyazT_awellemetL_ig-tifi.glif</string>
   <key>yanyazTawellemetLig-tifi.rtl</key>
   <string>yanyazT_awellemetL_ig-tifi.rtl.glif</string>
-  <key>yanyazhTuaregLig-tifi.v03</key>
-  <string>yanyazhT_uaregL_ig-tifi.v03.glif</string>
-  <key>yanyazhTuaregLig-tifi.v04</key>
-  <string>yanyazhT_uaregL_ig-tifi.v04.glif</string>
+  <key>yanyazhTuaregLig-tifi</key>
+  <string>yanyazhT_uaregL_ig-tifi.glif</string>
+  <key>yanyazhTuaregLig-tifi.v01</key>
+  <string>yanyazhT_uaregL_ig-tifi.v01.glif</string>
   <key>yaqTuareg-tifi</key>
   <string>yaqT_uareg-tifi.glif</string>
   <key>yar-tifi</key>

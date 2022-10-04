@@ -25,9 +25,9 @@ Biconsonant ligatures
 ⵏ⵿ⵛ    NSH
 ⵛ⵿ⵜ    SHT
 ⵓ⵿ⵜ    WT
-ⵌ⵿ⵜ    ZZT
+ⵋ⵿ⵜ    ZHT (Ahaggar)
+ⵌ⵿ⵜ    ZHT (Tuareg)
 ⵣ⵿ⵜ    ZT
-ⵋ⵿ⵜ    ZHT
 
 v3
 ⵎ⵿ⵀ    MB
@@ -38,3 +38,4 @@ v3
 ⵙ⵿ⵏ    SN
 ⵛ⵿ⵏ    SHN
 ⵏ⵿ⴼ⵿ⵜ    NFT
+ⵏ⵿ⵌ    NZH
