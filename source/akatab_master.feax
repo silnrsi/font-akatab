@@ -831,7 +831,7 @@ feature cv35 {  # Character Variant 35
 
 feature cv36 {  # Character Variant 36
     cvParameters {
-      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAK" ; };
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN Tuareg YAK" ; };
       ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
     } ;
     script DFLT;  # Default
