@@ -32,10 +32,11 @@ Biconsonant ligatures
 v3
 ⵎ⵿ⵀ    MB
 ⵎ⵿ⵙ    MS
+ⵏ⵿ⴹ    NDD
+ⵏ⵿ⴼ⵿ⵜ    NFT
 ⵏ⵿ⵗ    NGH
+ⵏ⵿ⵌ    NZH
 ⵏ⵿ⵤ    NZ
 ⵔ⵿ⵏ    RN
 ⵙ⵿ⵏ    SN
 ⵛ⵿ⵏ    SHN
-ⵏ⵿ⴼ⵿ⵜ    NFT
-ⵏ⵿ⵌ    NZH

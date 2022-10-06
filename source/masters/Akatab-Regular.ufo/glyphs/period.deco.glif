@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="period.tfng" format="2">
+<glyph name="period.deco" format="2">
   <advance width="632"/>
   <outline>
     <component base="_Dot" xScale="0.7" yScale="0.7" xOffset="-144" yOffset="-339"/>

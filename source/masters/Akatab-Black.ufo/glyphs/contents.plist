@@ -348,8 +348,8 @@
   <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
-  <key>comma.tfng</key>
-  <string>comma.tfng.glif</string>
+  <key>comma.deco</key>
+  <string>comma.deco.glif</string>
   <key>consonantjoiner-tifi</key>
   <string>consonantjoiner-tifi.glif</string>
   <key>consonantjoiner-tifi.rtl</key>
@@ -428,8 +428,8 @@
   <string>eturned.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
-  <key>exclam.tfng</key>
-  <string>exclam.tfng.glif</string>
+  <key>exclam.deco</key>
+  <string>exclam.deco.glif</string>
   <key>exclamdown</key>
   <string>exclamdown.glif</string>
   <key>f</key>
@@ -628,8 +628,8 @@
   <string>percent.glif</string>
   <key>period</key>
   <string>period.glif</string>
-  <key>period.tfng</key>
-  <string>period.tfng.glif</string>
+  <key>period.deco</key>
+  <string>period.deco.glif</string>
   <key>periodcentered</key>
   <string>periodcentered.glif</string>
   <key>perthousand</key>
@@ -984,8 +984,8 @@
   <string>yanyadL_ig-tifi.glif</string>
   <key>yanyadLig-tifi.v01</key>
   <string>yanyadL_ig-tifi.v01.glif</string>
-  <key>yanyaddLig-tifi.v02</key>
-  <string>yanyaddL_ig-tifi.v02.glif</string>
+  <key>yanyaddLig-tifi</key>
+  <string>yanyaddL_ig-tifi.glif</string>
   <key>yanyadhLig-tifi</key>
   <string>yanyadhL_ig-tifi.glif</string>
   <key>yanyafLig-tifi</key>
@@ -1048,10 +1048,10 @@
   <string>yaqT_uareg-tifi.glif</string>
   <key>yar-tifi</key>
   <string>yar-tifi.glif</string>
-  <key>yaryakLig-tifi.v01</key>
-  <string>yaryakL_ig-tifi.v01.glif</string>
   <key>yaryakTuaregLig-tifi</key>
   <string>yaryakT_uaregL_ig-tifi.glif</string>
+  <key>yaryakTuaregLig-tifi.v01</key>
+  <string>yaryakT_uaregL_ig-tifi.v01.glif</string>
   <key>yaryanLig-tifi</key>
   <string>yaryanL_ig-tifi.glif</string>
   <key>yaryatLig-tifi</key>
@@ -1070,18 +1070,18 @@
   <string>yash-tifi.rtl.glif</string>
   <key>yash-tifi.v01</key>
   <string>yash-tifi.v01.glif</string>
-  <key>yashyakLig-tifi.v01</key>
-  <string>yashyakL_ig-tifi.v01.glif</string>
-  <key>yashyakLig-tifi.v01.rtl</key>
-  <string>yashyakL_ig-tifi.v01.rtl.glif</string>
-  <key>yashyakLig-tifi.v02</key>
-  <string>yashyakL_ig-tifi.v02.glif</string>
-  <key>yashyakLig-tifi.v03</key>
-  <string>yashyakL_ig-tifi.v03.glif</string>
   <key>yashyakTuaregLig-tifi</key>
   <string>yashyakT_uaregL_ig-tifi.glif</string>
   <key>yashyakTuaregLig-tifi.rtl</key>
   <string>yashyakT_uaregL_ig-tifi.rtl.glif</string>
+  <key>yashyakTuaregLig-tifi.v01</key>
+  <string>yashyakT_uaregL_ig-tifi.v01.glif</string>
+  <key>yashyakTuaregLig-tifi.v01.rtl</key>
+  <string>yashyakT_uaregL_ig-tifi.v01.rtl.glif</string>
+  <key>yashyakTuaregLig-tifi.v02</key>
+  <string>yashyakT_uaregL_ig-tifi.v02.glif</string>
+  <key>yashyakTuaregLig-tifi.v03</key>
+  <string>yashyakT_uaregL_ig-tifi.v03.glif</string>
   <key>yashyanLig-tifi</key>
   <string>yashyanL_ig-tifi.glif</string>
   <key>yashyanLig-tifi.rtl</key>
@@ -1158,16 +1158,16 @@
   <string>yazhA_haggaryatL_ig-tifi.v01.rtl.glif</string>
   <key>yazhTuareg-tifi</key>
   <string>yazhT_uareg-tifi.glif</string>
-  <key>yazhyatLig-tifi</key>
-  <string>yazhyatL_ig-tifi.glif</string>
-  <key>yazhyatLig-tifi.rtl</key>
-  <string>yazhyatL_ig-tifi.rtl.glif</string>
-  <key>yazhyatLig-tifi.v01</key>
-  <string>yazhyatL_ig-tifi.v01.glif</string>
-  <key>yazhyatLig-tifi.v01.rtl</key>
-  <string>yazhyatL_ig-tifi.v01.rtl.glif</string>
-  <key>yazhyatLig-tifi.v02</key>
-  <string>yazhyatL_ig-tifi.v02.glif</string>
+  <key>yazhTuaregyatLig-tifi</key>
+  <string>yazhT_uaregyatL_ig-tifi.glif</string>
+  <key>yazhTuaregyatLig-tifi.rtl</key>
+  <string>yazhT_uaregyatL_ig-tifi.rtl.glif</string>
+  <key>yazhTuaregyatLig-tifi.v01</key>
+  <string>yazhT_uaregyatL_ig-tifi.v01.glif</string>
+  <key>yazhTuaregyatLig-tifi.v01.rtl</key>
+  <string>yazhT_uaregyatL_ig-tifi.v01.rtl.glif</string>
+  <key>yazhTuaregyatLig-tifi.v02</key>
+  <string>yazhT_uaregyatL_ig-tifi.v02.glif</string>
   <key>yazyatLig-tifi</key>
   <string>yazyatL_ig-tifi.glif</string>
   <key>yazyatLig-tifi.rtl</key>

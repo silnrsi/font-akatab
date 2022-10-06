@@ -139,9 +139,9 @@ lookup TfnCharacterVariant15 {
 
 lookup TfnCharacterVariant20 { # from publications circa 1954
   lookupflag 0 ;
-    sub comma  by comma.tfng ;
-    sub exclam by exclam.tfng ;
-    sub period by period.tfng ;
+    sub comma  by comma.deco ;
+    sub exclam by exclam.deco ;
+    sub period by period.deco ;
 } TfnCharacterVariant20;
 
 # this lookup is used by Harfbuzz for right to left glyph substitution 
@@ -185,7 +185,7 @@ lookup TfnBiconsonants_RTL {
     sub yat-tifi               yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyatLig-tifi.rtl ;
     sub yat-tifi               yu-tifi               consonantjoiner-tifi.rtl by yuyatLig-tifi.rtl ;
     sub yat-tifi               yu-tifi.v01           consonantjoiner-tifi.rtl by yuyatLig-tifi.v02.rtl ;
-    sub yat-tifi               yazhTuareg-tifi       consonantjoiner-tifi.rtl by yazhyatLig-tifi.rtl ;
+    sub yat-tifi               yazhTuareg-tifi       consonantjoiner-tifi.rtl by yazhTuaregyatLig-tifi.rtl ;
     sub yat-tifi               yaz-tifi.v01          consonantjoiner-tifi.rtl by yazyatLig-tifi.v01.rtl ;
     sub yat-tifi               yaz-tifi              consonantjoiner-tifi.rtl by yazyatLig-tifi.rtl ;
     sub yat-tifi               yazhAhaggar-tifi      consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.rtl ;
@@ -231,7 +231,7 @@ lookup TfnBiconsonants_RTL_DW {
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yat-tifi                by yashyatLig-tifi.rtl ;
     sub yu-tifi               consonantjoiner-tifi.rtl yat-tifi                by yuyatLig-tifi.rtl ;
     sub yu-tifi.v01           consonantjoiner-tifi.rtl yat-tifi                by yuyatLig-tifi.v02.rtl ;
-    sub yazhTuareg-tifi       consonantjoiner-tifi.rtl yat-tifi                by yazhyatLig-tifi.rtl ;
+    sub yazhTuareg-tifi       consonantjoiner-tifi.rtl yat-tifi                by yazhTuaregyatLig-tifi.rtl ;
     sub yaz-tifi.v01          consonantjoiner-tifi.rtl yat-tifi                by yazyatLig-tifi.v01.rtl ;
     sub yaz-tifi              consonantjoiner-tifi.rtl yat-tifi                by yazyatLig-tifi.rtl ;
     sub yazhAhaggar-tifi      consonantjoiner-tifi.rtl yat-tifi                by yazhAhaggaryatLig-tifi.rtl ;
@@ -265,6 +265,7 @@ lookup TfnBiconsonants {
     sub yar-tifi              consonantjoiner-tifi yan-tifi            by yaryanLig-tifi ;
     sub yas-tifi              consonantjoiner-tifi yakTuareg-tifi      by yasyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yaghTuareg-tifi     by yanyaghTuaregLig-tifi ;
+    sub yan-tifi              consonantjoiner-tifi yadd-tifi           by yanyaddLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yas-tifi            by yanyasLig-tifi ;
     sub yas-tifi              consonantjoiner-tifi yat-tifi            by yasyatLig-tifi ;
     sub yas-tifi              consonantjoiner-tifi yan-tifi            by yasyanLig-tifi ;
@@ -297,7 +298,7 @@ lookup TfnBiconsonants {
     sub yash-tifi.v01         consonantjoiner-tifi yan-tifi            by yashyanLig-tifi.v01 ;
     sub yu-tifi               consonantjoiner-tifi yat-tifi            by yuyatLig-tifi ;
     sub yu-tifi.v01           consonantjoiner-tifi yat-tifi            by yuyatLig-tifi.v02 ;
-    sub yazhTuareg-tifi       consonantjoiner-tifi yat-tifi            by yazhyatLig-tifi ;
+    sub yazhTuareg-tifi       consonantjoiner-tifi yat-tifi            by yazhTuaregyatLig-tifi ;
     sub yaz-tifi              consonantjoiner-tifi yat-tifi            by yazyatLig-tifi ;
     sub yaz-tifi.v01          consonantjoiner-tifi yat-tifi            by yazyatLig-tifi.v01 ;
     sub yazhAhaggar-tifi      consonantjoiner-tifi yat-tifi            by yazhAhaggaryatLig-tifi ;
@@ -432,20 +433,20 @@ lookup TfnCharacterVariant39 {
 
 lookup TfnCharacterVariant40 {
   lookupflag 0 ;
-    sub yazhyatLig-tifi     from [ yazhyatLig-tifi.v01     yazhyatLig-tifi.v02 ] ;
-    sub yazhyatLig-tifi.rtl from [ yazhyatLig-tifi.v01.rtl yazhyatLig-tifi.v02 ] ; #  no RTL - v02
+    sub yazhTuaregyatLig-tifi     from [ yazhTuaregyatLig-tifi.v01     yazhTuaregyatLig-tifi.v02 ] ;
+    sub yazhTuaregyatLig-tifi.rtl from [ yazhTuaregyatLig-tifi.v01.rtl yazhTuaregyatLig-tifi.v02 ] ; #  no RTL - v02
 } TfnCharacterVariant40;
 
 lookup TfnCharacterVariant40_1 { # for typetuner lookup only
   lookupflag 0 ;
-    sub yazhyatLig-tifi     by yazhyatLig-tifi.v01 ;
-    sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.v01.rtl ;
+    sub yazhTuaregyatLig-tifi     by yazhTuaregyatLig-tifi.v01 ;
+    sub yazhTuaregyatLig-tifi.rtl by yazhTuaregyatLig-tifi.v01.rtl ;
 } TfnCharacterVariant40_1;
 
 lookup TfnCharacterVariant40_2 { # for typetuner lookup only
   lookupflag 0 ;
-    sub yazhyatLig-tifi     by yazhyatLig-tifi.v02 ;
-    sub yazhyatLig-tifi.rtl by yazhyatLig-tifi.v02 ;
+    sub yazhTuaregyatLig-tifi     by yazhTuaregyatLig-tifi.v02 ;
+    sub yazhTuaregyatLig-tifi.rtl by yazhTuaregyatLig-tifi.v02 ;
 } TfnCharacterVariant40_2;
 
 lookup TfnCharacterVariant41 {
@@ -482,9 +483,9 @@ lookup TfnAllAlternates {
     sub yaghhyatLig-tifi        from [ yaghhyatLig-tifi.v01 ] ;
     sub yaf-tifi                from [ yaf-tifi.v01 ] ;
     sub yafyatLig-tifi          from [ yafyatLig-tifi.v02 yafyatLig-tifi.v01 ] ;
-    sub yazhAhaggar-tifi             from [ yazhAhaggar-tifi.v01 ] ;
+    sub yazhAhaggar-tifi        from [ yazhAhaggar-tifi.v01 ] ;
     sub yazhAhaggaryatLig-tifi  from [ yazhAhaggaryatLig-tifi.v01 ] ;
-    sub yazhyatLig-tifi         from [ yazhyatLig-tifi.v01 yazhyatLig-tifi.v02 ] ;
+    sub yazhTuaregyatLig-tifi   from [ yazhTuaregyatLig-tifi.v01 yazhTuaregyatLig-tifi.v02 ] ;
     sub yalyatLig-tifi          from [ yalyatLig-tifi.v01 ] ;
     sub yamyatLig-tifi          from [ yamyatLig-tifi.v01 ] ;
     sub yanyaghhLig-tifi         from [ yanyaghhLig-tifi.v01 ] ;
@@ -757,7 +758,7 @@ feature cv20 {  # Character Variant 20
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant20;
-    script tfng;  # Tifinagh
+    script latn;  # Latin
         language dflt;  # Default
             lookup TfnCharacterVariant20;
 } cv20 ;
@@ -1143,7 +1144,7 @@ feature ss20 {  # Stylistic Set 20
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant20;
-    script tfng;  # Tifinagh
+    script latn;  # Latin
         language dflt;  # Default
             lookup TfnCharacterVariant20;
 } ss20 ;

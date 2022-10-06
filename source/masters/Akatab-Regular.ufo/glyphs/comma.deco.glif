@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="comma.tfng" format="2">
+<glyph name="comma.deco" format="2">
   <advance width="676"/>
   <outline>
     <component base="_Dot" xScale="0.7" yScale="0.7" xOffset="-119" yOffset="-339"/>
