@@ -291,11 +291,13 @@ lookup TfnBiconsonants {
     sub yal-tifi              consonantjoiner-tifi yat-tifi            by yalyatLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yakTuareg-tifi      by yashyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yash-tifi           by yanyashLig-tifi ;
+    sub yan-tifi              consonantjoiner-tifi yash-tifi.v01       by yanyashLig-tifi.v01 ;
     sub yan-tifi              consonantjoiner-tifi yazhTuareg-tifi     by yanyazhTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yazTawellemet-tifi  by yanyazTawellemetLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yat-tifi            by yashyatLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yan-tifi            by yashyanLig-tifi ;
     sub yash-tifi.v01         consonantjoiner-tifi yan-tifi            by yashyanLig-tifi.v01 ;
+    sub yash-tifi.v01         consonantjoiner-tifi yakTuareg-tifi      by yashyakTuaregLig-tifi.v02 ;
     sub yu-tifi               consonantjoiner-tifi yat-tifi            by yuyatLig-tifi ;
     sub yu-tifi.v01           consonantjoiner-tifi yat-tifi            by yuyatLig-tifi.v02 ;
     sub yazhTuareg-tifi       consonantjoiner-tifi yat-tifi            by yazhTuaregyatLig-tifi ;
@@ -473,6 +475,17 @@ lookup TfnCharacterVariant45 {
   lookupflag 0 ;
     sub yanyazhTuaregLig-tifi by yanyazhTuaregLig-tifi.v01 ;
 } TfnCharacterVariant45;
+
+lookup TfnCharacterVariant46 {
+  lookupflag 0 ;
+    sub yaryakTuaregLig-tifi by yaryakTuaregLig-tifi.v01 ;
+} TfnCharacterVariant46;
+
+lookup TfnCharacterVariant47 {
+  lookupflag 0 ;
+    sub yashyakTuaregLig-tifi     from [ yashyakTuaregLig-tifi.v01     yashyakTuaregLig-tifi.v03 ] ;
+    sub yashyakTuaregLig-tifi.rtl from [ yashyakTuaregLig-tifi.v01.rtl yashyakTuaregLig-tifi.v03 ] ;
+} TfnCharacterVariant47;
 
 
 lookup TfnAllAlternates {
@@ -962,6 +975,33 @@ feature cv45 {  # Character Variant 45
         language dflt;  # Default
             lookup TfnCharacterVariant45;
 } cv45 ;
+
+feature cv46 {  # Character Variant 46
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAR Tuareg YAK" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant46;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant46;
+} cv46 ;
+
+feature cv47 {  # Character Variant 47
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YASH Tuareg YAK" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "8 shape, double cluster dots" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant47;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant47;
+} cv47 ;
 
 feature liga {  # Standard Ligatures
     script DFLT;  # Default

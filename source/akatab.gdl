@@ -251,11 +251,11 @@ f_2D4F_2D3E {
     settings {
         alt0 {
             value = 0;
-            name.1033 = string("Standard (single dot cluster)");
+            name.1033 = string("Standard (single cluster dots)");
         }
         alt1 {
             value = 1;
-            name.1033 = string("Alternate (double dot cluster)");
+            name.1033 = string("Alternate (double cluster dots)");
         }
     }
 }
@@ -428,6 +428,43 @@ f_2D4F_2D4C {
     }
 }
 
+f_2D54_2D3E {
+    id = "cv46";
+    name.1033 = string("Alternate YAR Tuareg YAK");  // RK (Tuareg)
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (single cluster dots)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (double cluster dots)");
+        }
+    }
+}
+
+f_2D5B_2D3E {
+    id = "cv47";
+    name.1033 = string("Alternate YASH Tuareg YAK");  // SHK (Tuareg)
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (single cluster dots)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate 1 (double cluster dots)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (8 shape, double cluster dots)");
+        }
+    }
+}
+
+
 endtable; // feature
 
 /////////////////////////////////
@@ -445,16 +482,20 @@ c_2d4f_cons_comp = (
     g_yaghh_tifi  g_yaj_tifi  g_yad_tifi  g_yadh_tifi  g_yadd_tifi  
     g_yaf_tifi  g_yak_tuareg_tifi  g_yazh_tuareg_tifi  g_yas_tifi  
     g_yash_tifi  g_yat_tifi  g_yagh_tuareg_tifi  g_yaz_tawellemet_tifi  
-    g_yaghh_tifi_v01  g_yaf_tifi_v01);
+    g_yaghh_tifi_v01  g_yaf_tifi_v01  g_yash_tifi_v01);
 c_2d4f_cons_lig = (
     g_yanyaghh_lig_tifi  g_yanyaj_lig_tifi  g_yanyad_lig_tifi  g_yanyadh_lig_tifi  g_yanyadd_lig_tifi  
     g_yanyaf_lig_tifi  g_yanyak_tuareg_lig_tifi  g_yanyazh_tuareg_lig_tifi  g_yanyas_lig_tifi  
     g_yanyash_lig_tifi  g_yanyat_lig_tifi  g_yanyagh_tuareg_lig_tifi  g_yanyaz_tawellemet_lig_tifi
-    g_yanyaghh_lig_tifi_v01  g_yanyaf_lig_tifi_v01);
+    g_yanyaghh_lig_tifi_v01  g_yanyaf_lig_tifi_v01  g_yanyash_lig_tifi_v01);
 
 // Components and ligature classes with ending glyph Tuareg YAK (U+2D3E)
-c_cons_2d3e_comp = (g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  g_yas_tifi  g_yash_tifi);
-c_cons_2d3e_lig = (g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yaryak_tuareg_lig_tifi  g_yasyak_tuareg_lig_tifi  g_yashyak_tuareg_lig_tifi);
+c_cons_2d3e_comp = (
+    g_yal_tifi  g_yal_tifi_slant  g_yal_tifi_raised  g_yar_tifi  
+    g_yas_tifi  g_yash_tifi  g_yash_tifi_v01);
+c_cons_2d3e_lig = (
+    g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yalyak_tuareg_lig_tifi  g_yaryak_tuareg_lig_tifi 
+    g_yasyak_tuareg_lig_tifi  g_yashyak_tuareg_lig_tifi  g_yashyak_tuareg_lig_tifi_v02);
 
 // Components and ligature classes with ending glyph YAT (U+2D5C)
 c_cons_2d5c_comp = (
@@ -723,6 +764,17 @@ endif;
 
 if (f_2D4F_2D4C) // cv45
 g_yanyazh_tuareg_lig_tifi  >  g_yanyazh_tuareg_lig_tifi_v01;
+endif;
+
+if (f_2D54_2D3E) // cv46
+g_yaryak_tuareg_lig_tifi  >  g_yaryak_tuareg_lig_tifi_v01;
+endif;
+
+if (f_2D5B_2D3E == 1) // cv47
+g_yashyak_tuareg_lig_tifi  >  g_yashyak_tuareg_lig_tifi_v01;
+endif;
+if (f_2D5B_2D3E == 2) // cv47
+g_yashyak_tuareg_lig_tifi  >  g_yashyak_tuareg_lig_tifi_v03;
 endif;
 
 endpass;  // 5
