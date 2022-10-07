@@ -309,7 +309,7 @@ lookup TfnBiconsonants {
     sub yan-tifi  consonantjoiner-tifi yaf-tifi  consonantjoiner-tifi yat-tifi  by yanyafyatLig-tifi ;
 } TfnBiconsonants;
 
-# lookup TfnSlant_target {
+# lookup TfnSlant_target { *changed to a feature - see cv19
 #   lookupflag 0 ;
 #     sub yan-tifi by yan-tifi.slant ;
 #     sub yal-tifi by yal-tifi.slant ;
@@ -342,6 +342,11 @@ lookup TfnRaised {
   lookupflag 0 ;
     sub [ yan-tifi yal-tifi ] [ yan-tifi yal-tifi ]' lookup TfnRaised_target ;
 } TfnRaised;
+
+lookup TfnCharacterVariant19 {
+  lookupflag 0 ;
+    sub @c_raised by @c_slant ; # slanted YAL and YAN
+} TfnCharacterVariant19;
 
 lookup TfnCharacterVariant31 {
   lookupflag 0 ;
@@ -763,6 +768,19 @@ feature cv15 {  # Character Variant 15
             lookup TfnCharacterVariant15;
 } cv15 ;
 
+feature cv19 {  # Character Variant 19
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAL and YAN" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "slanted" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant19;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant19;
+} cv19 ;
+
 feature cv20 {  # Character Variant 20
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate punctuation" ; };
@@ -1178,6 +1196,16 @@ feature ss15 {  # Stylistic Set 15
         language dflt;  # Default
             lookup TfnCharacterVariant15;
 } ss15 ;
+
+feature ss19 {  # Stylistic Set 19
+    featureNames { name 3 1 0x409 "Alternate YAL and YAN (slanted)" ; };
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant19;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant19;
+} ss19 ;
 
 feature ss20 {  # Stylistic Set 20
     featureNames { name 3 1 0x409 "Alternate comma exclam and period" ; };

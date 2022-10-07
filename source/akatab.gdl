@@ -139,6 +139,12 @@ f_2D38 {
     bool
 }
 
+f_slant {
+    id = "cv19";
+    name.1033 = string("Alternate YAL and YAN (slanted)");  // L, N
+    bool
+}
+
 f_punct {
     id = "cv20";
     name.1033 = string("Alternate comma exclam and period");  // from publications circa 1954
@@ -541,7 +547,7 @@ pass(2)
 cno_raised  >  craised  /  _  (g_yan_tifi g_yal_tifi) {directionality == 1};  // RTL
 cno_raised  >  craised  /  (g_yan_tifi g_yal_tifi)  _ ;
 
-// Slanted vertical-bar characters:
+// Slanted vertical-bar characters: *changed to a feature - see f_slant (cv19)
 // cno_slant  >  cslant  /  (g_yan_tifi g_yal_tifi)  _ ;
 
 // Use Tif version of diacs when they attach to Tif characters:
@@ -675,6 +681,10 @@ endpass;  // 4
 
 
 pass(5)
+
+if (f_slant) // cv19 - slanted YAL and YAN
+craised  >  cslant;
+endif;
 
 if (f_2D31_2D5C) // cv31
 g_yabyat_lig_tifi  >  g_yabyat_lig_tifi_v01;
