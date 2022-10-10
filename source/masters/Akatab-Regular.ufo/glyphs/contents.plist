@@ -970,6 +970,14 @@
   <string>yamyatL_ig-tifi.v01.glif</string>
   <key>yamyatLig-tifi.v01.rtl</key>
   <string>yamyatL_ig-tifi.v01.rtl.glif</string>
+  <key>yamyatLig-tifi.v02</key>
+  <string>yamyatL_ig-tifi.v02.glif</string>
+  <key>yamyatLig-tifi.v02.rtl</key>
+  <string>yamyatL_ig-tifi.v02.rtl.glif</string>
+  <key>yamyatLig-tifi.v03</key>
+  <string>yamyatL_ig-tifi.v03.glif</string>
+  <key>yamyatLig-tifi.v03.rtl</key>
+  <string>yamyatL_ig-tifi.v03.rtl.glif</string>
   <key>yan-tifi</key>
   <string>yan-tifi.glif</string>
   <key>yan-tifi.raised</key>
@@ -1092,6 +1100,10 @@
   <string>yashyatL_ig-tifi.glif</string>
   <key>yashyatLig-tifi.rtl</key>
   <string>yashyatL_ig-tifi.rtl.glif</string>
+  <key>yashyatLig-tifi.v01</key>
+  <string>yashyatL_ig-tifi.v01.glif</string>
+  <key>yashyatLig-tifi.v01.rtl</key>
+  <string>yashyatL_ig-tifi.v01.rtl.glif</string>
   <key>yass-tifi</key>
   <string>yass-tifi.glif</string>
   <key>yasyakTuaregLig-tifi</key>
