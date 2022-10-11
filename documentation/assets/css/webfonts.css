@@ -1,0 +1,16 @@
+/*
+This file is from the SIL Fontdocs project (https://github.com/silnrsi/fontdocs).
+Copyright (c) 2022 SIL International (http://www.sil.org/). This Font Software is
+released under the MIT license (http://opensource.org/licenses/MIT).
+*/
+@font-face {
+    font-family: Akatab-R;
+    src: url("../../../web/Akatab-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: Akatab-B;
+    src: url("../../../web/Akatab-Bold.woff2") format("woff2");
+}
+
+.akatab-R { font-family: Akatab-R; }
+.akatab-B { font-family: Akatab-B; }
