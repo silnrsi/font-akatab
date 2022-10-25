@@ -157,7 +157,7 @@ Slanted | <span class='akatab-R normal' style='font-feature-settings: "cv19" 1'>
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard Latin | <span class='akatab-R normal'>, ! .</span> | `cv20=0`
+Standard Latin | <span class='akatab-R normal'>! , .</span> | `cv20=0`
 Decorative     | <span class='akatab-R normal' style='font-feature-settings: "cv20" 1'>! , .</span> | `cv20=1`
 
 
@@ -329,9 +329,18 @@ Double cluster dots | <span class='akatab-R normal' style='font-feature-settings
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard| <span class='akatab-R normal'>ⵛ⵿ⴾ</span> | `cv47=0`
-8 shape | <span class='akatab-R normal' style='font-feature-settings: "cv12" 1'>ⵛ⵿ⴾ</span> | `cv12=1`
 Double cluster dots | <span class='akatab-R normal' style='font-feature-settings: "cv47" 1'>ⵛ⵿ⴾ</span> | `cv47=1`
+8 shape | <span class='akatab-R normal' style='font-feature-settings: "cv12" 1'>ⵛ⵿ⴾ</span> | `cv12=1`
 8 shape, double cluster dots | <span class='akatab-R normal' style='font-feature-settings: "cv47" 2'>ⵛ⵿ⴾ</span> | `cv47=2`
+
+#### Alternate YASH YAT
+
+<span class='affects'>Affects: U+2D5B U+2D5C</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard   | <span class='akatab-R normal'>ⵛ⵿ⵜ</span> | `cv48=0`
+Internal T | <span class='akatab-R normal' style='font-feature-settings: "cv48" 1'>ⵛ⵿ⵜ</span> | `cv48=1`
 
 
 ### Stylistic sets (OpenType only)
@@ -478,7 +487,7 @@ Slanted | <span class='akatab-R normal' style='font-feature-settings: "ss19" 1'>
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard Latin | <span class='akatab-R normal'>, ! .</span> | `ss20=0`
+Standard Latin | <span class='akatab-R normal'>! , .</span> | `ss20=0`
 Decorative     | <span class='akatab-R normal' style='font-feature-settings: "ss20" 1'>! , .</span> | `ss20=1`
 
 

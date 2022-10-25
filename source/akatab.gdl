@@ -201,11 +201,15 @@ f_2D59_2D5C {
         }
         alt1 {
             value = 1;
-            name.1033 = string("Alternate 1 (large interior T)");
+            name.1033 = string("Alternate 1 (large interior T lower dot)");
         }
         alt2 {
             value = 2;
             name.1033 = string("Alternate 2 (small interior T)");
+        }
+        alt3 {
+            value = 3;
+            name.1033 = string("Alternate 3 (large interior T upper dot)");
         }
     }
 }
@@ -221,7 +225,15 @@ f_2D4E_2D5C {
         }
         alt1 {
             value = 1;
-            name.1033 = string("Alternate (middle T)");
+            name.1033 = string("Alternate 1 (mid exterior T)");
+        }
+        alt2 {
+            value = 2;
+            name.1033 = string("Alternate 2 (low interior T)");
+        }
+        alt3 {
+            value = 3;
+            name.1033 = string("Alternate 3 (center T)");
         }
     }
 }
@@ -466,6 +478,22 @@ f_2D5B_2D3E {
         alt2 {
             value = 2;
             name.1033 = string("Alternate 2 (8 shape, double cluster dots)");
+        }
+    }
+}
+
+f_2D5B_2D5C {
+    id = "cv48";
+    name.1033 = string("Alternate YASH YAT");  // SHT
+    default = 0;
+    settings {
+        alt0 {
+            value = 0;
+            name.1033 = string("Standard (external T)");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Alternate (internal T)");
         }
     }
 }
@@ -785,6 +813,10 @@ g_yashyak_tuareg_lig_tifi  >  g_yashyak_tuareg_lig_tifi_v01;
 endif;
 if (f_2D5B_2D3E == 2) // cv47
 g_yashyak_tuareg_lig_tifi  >  g_yashyak_tuareg_lig_tifi_v03;
+endif;
+
+if (f_2D5B_2D5C) // cv48
+g_yashyat_lig_tifi  >  g_yashyat_lig_tifi_v01;
 endif;
 
 endpass;  // 5

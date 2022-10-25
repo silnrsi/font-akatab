@@ -374,8 +374,8 @@ lookup TfnCharacterVariant32_2 { # for typetuner lookup only
 
 lookup TfnCharacterVariant33 {
   lookupflag 0 ;
-    sub yasyatLig-tifi     from [ yasyatLig-tifi.v01     yasyatLig-tifi.v02 ] ;
-    sub yasyatLig-tifi.rtl from [ yasyatLig-tifi.v01.rtl yasyatLig-tifi.v02.rtl ] ;
+    sub yasyatLig-tifi     from [ yasyatLig-tifi.v01     yasyatLig-tifi.v02     yasyatLig-tifi.v03     ] ;
+    sub yasyatLig-tifi.rtl from [ yasyatLig-tifi.v01.rtl yasyatLig-tifi.v02.rtl yasyatLig-tifi.v03.rtl ] ;
 } TfnCharacterVariant33;
 
 lookup TfnCharacterVariant33_1 { # for typetuner lookup only
@@ -393,8 +393,8 @@ lookup TfnCharacterVariant33_2 { # for typetuner lookup only
 
 lookup TfnCharacterVariant34 {
   lookupflag 0 ;
-    sub yamyatLig-tifi     by yamyatLig-tifi.v01 ;
-    sub yamyatLig-tifi.rtl by yamyatLig-tifi.v01.rtl ;
+    sub yamyatLig-tifi     from [ yamyatLig-tifi.v01     yamyatLig-tifi.v02     yamyatLig-tifi.v03     ] ;
+    sub yamyatLig-tifi.rtl from [ yamyatLig-tifi.v01.rtl yamyatLig-tifi.v02.rtl yamyatLig-tifi.v03.rtl ] ;
 } TfnCharacterVariant34;
 
 lookup TfnCharacterVariant35 {
@@ -488,9 +488,15 @@ lookup TfnCharacterVariant46 {
 
 lookup TfnCharacterVariant47 {
   lookupflag 0 ;
-    sub yashyakTuaregLig-tifi     from [ yashyakTuaregLig-tifi.v01     yashyakTuaregLig-tifi.v03 ] ;
-    sub yashyakTuaregLig-tifi.rtl from [ yashyakTuaregLig-tifi.v01.rtl yashyakTuaregLig-tifi.v03 ] ;
+    sub yashyakTuaregLig-tifi     from [ yashyakTuaregLig-tifi.v01     yashyakTuaregLig-tifi.v03 ] ; # v02 uses cv12=1
+    sub yashyakTuaregLig-tifi.rtl from [ yashyakTuaregLig-tifi.v01.rtl yashyakTuaregLig-tifi.v03 ] ; # v02 uses cv12=1
 } TfnCharacterVariant47;
+
+lookup TfnCharacterVariant48 { 
+  lookupflag 0 ;
+    sub yashyatLig-tifi     by yashyatLig-tifi.v01 ;
+    sub yashyatLig-tifi.rtl by yashyatLig-tifi.v01.rtl ;
+} TfnCharacterVariant48;
 
 
 lookup TfnAllAlternates {
@@ -824,8 +830,9 @@ feature cv32 {  # Character Variant 32
 feature cv33 {  # Character Variant 33
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAS YAT" ; };
-      ParamUILabelNameID { name 3 1 0x0409 "large interior T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "large interior T lower dot" ; };
       ParamUILabelNameID { name 3 1 0x0409 "small interior T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "large interior T upper dot" ; };
     } ;
     script DFLT;  # Default
         language dflt;  # Default
@@ -838,7 +845,9 @@ feature cv33 {  # Character Variant 33
 feature cv34 {  # Character Variant 34
     cvParameters {
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAM YAT" ; };
-      ParamUILabelNameID { name 3 1 0x0409 "center T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "Mid exterior T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "Low interior T" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "Center T" ; };
     } ;
     script DFLT;  # Default
         language dflt;  # Default
@@ -1020,6 +1029,19 @@ feature cv47 {  # Character Variant 47
         language dflt;  # Default
             lookup TfnCharacterVariant47;
 } cv47 ;
+
+feature cv48 {  # Character Variant 48
+    cvParameters {
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YASH YAT" ; };
+      ParamUILabelNameID { name 3 1 0x0409 "Internal T" ; };
+    } ;
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnCharacterVariant48;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnCharacterVariant48;
+} cv48 ;
 
 feature liga {  # Standard Ligatures
     script DFLT;  # Default

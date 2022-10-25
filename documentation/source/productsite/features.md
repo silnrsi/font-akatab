@@ -153,7 +153,7 @@ Slanted | <span class='akatab-cv19-1-R normal'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍ
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard Latin | <span class='akatab-R normal'>, ! .</span> | `cv20=0`
+Standard Latin | <span class='akatab-R normal'>! , .</span> | `cv20=0`
 Decorative     | <span class='akatab-cv20-1-R normal'>! , .</span> | `cv20=1`
 
 
@@ -325,9 +325,18 @@ Double cluster dots | <span class='akatab-cv46-1-R normal'>ⵔ⵿ⴾ</span> | `c
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard| <span class='akatab-R normal'>ⵛ⵿ⴾ</span> | `cv47=0`
-8 shape | <span class='akatab-cv12-1-R normal'>ⵛ⵿ⴾ</span> | `cv12=1`
 Double cluster dots | <span class='akatab-cv47-1-R normal'>ⵛ⵿ⴾ</span> | `cv47=1`
+8 shape | <span class='akatab-cv12-1-R normal'>ⵛ⵿ⴾ</span> | `cv12=1`
 8 shape, double cluster dots | <span class='akatab-cv47-2-R normal'>ⵛ⵿ⴾ</span> | `cv47=2`
+
+#### Alternate YASH YAT
+
+<span class='affects'>Affects: U+2D5B U+2D5C</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard   | <span class='akatab-R normal'>ⵛ⵿ⵜ</span> | `cv48=0`
+Internal T | <span class='akatab-cv48-1-R normal'>ⵛ⵿ⵜ</span> | `cv48=1`
 
 
 ### Stylistic sets (OpenType only)
@@ -474,7 +483,7 @@ Slanted | <span class='akatab-ss19-1-R normal'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍ
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard Latin | <span class='akatab-R normal'>, ! .</span> | `ss20=0`
+Standard Latin | <span class='akatab-R normal'>! , .</span> | `ss20=0`
 Decorative     | <span class='akatab-ss20-1-R normal'>! , .</span> | `ss20=1`
 
 
@@ -531,9 +540,10 @@ Decorative     | <span class='akatab-ss20-1-R normal'>! , .</span> | `ss20=1`
 [font id='akatab-cv44-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv44 1']
 [font id='akatab-cv45-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv45 1']
 [font id='akatab-cv46-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv46 1']
-[font id='akatab-cv12-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv12 1']
 [font id='akatab-cv47-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv47 1']
+[font id='akatab-cv12-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv12 1']
 [font id='akatab-cv47-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv47 2']
+[font id='akatab-cv48-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv48 1']
 [font id='akatab-ss01-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='ss01 1']
 [font id='akatab-ss02-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='ss02 1']
 [font id='akatab-ss14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='ss14 1']
