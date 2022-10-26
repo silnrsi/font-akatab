@@ -2,7 +2,7 @@
 <glyph name="yasyatLig-tifi.v03.rtl" format="2">
   <advance width="1454"/>
   <outline>
-    <component base="_Dot" xScale="0.9" yScale="0.9" xOffset="-91" yOffset="-180"/>
+    <component base="_Dot" xScale="0.9" yScale="0.9" xOffset="-119" yOffset="284"/>
     <contour>
       <point x="735" y="1420" type="curve" smooth="yes"/>
       <point x="393" y="1420"/>
