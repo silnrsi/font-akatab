@@ -419,6 +419,10 @@ yamyatLig-tifi,uni2D4E_uni2D7F_uni2D5C,,2414.5120
 yamyatLig-tifi.rtl,uni2D4E_uni2D7F_uni2D5C.rtl,,2414.51205
 yamyatLig-tifi.v01,uni2D4E_uni2D7F_uni2D5C.v01,,2414.5121
 yamyatLig-tifi.v01.rtl,uni2D4E_uni2D7F_uni2D5C.v01.rtl,,2414.51215
+yamyatLig-tifi.v02,uni2D4E_uni2D7F_uni2D5C.v02,,2414.5122
+yamyatLig-tifi.v02.rtl,uni2D4E_uni2D7F_uni2D5C.v02.rtl,,2414.51225
+yamyatLig-tifi.v03,uni2D4E_uni2D7F_uni2D5C.v03,,2414.5123
+yamyatLig-tifi.v03.rtl,uni2D4E_uni2D7F_uni2D5C.v03.rtl,,2414.51235
 yan-tifi,uni2D4F,2D4F,2415
 yan-tifi.raised,uni2D4F.raised,,2415.06
 yan-tifi.slant,uni2D4F.slant,,2415.07
@@ -467,6 +471,7 @@ yuyatLig-tifi.v01.rtl,uni2D53_uni2D7F_uni2D5C.v01.rtl,,2503.51215
 yuyatLig-tifi.v02,uni2D53_uni2D7F_uni2D5C.v02,,2503.5122
 yuyatLig-tifi.v02.rtl,uni2D53_uni2D7F_uni2D5C.v02.rtl,,2503.51225
 yuyatLig-tifi.v03,uni2D53_uni2D7F_uni2D5C.v03,,2503.5123
+yuyatLig-tifi.v03.rtl,uni2D53_uni2D7F_uni2D5C.v03.rtl,,2503.51235
 yar-tifi,uni2D54,2D54,2504
 yaryakTuaregLig-tifi,uni2D54_uni2D7F_uni2D3E,,2504.314
 yaryakTuaregLig-tifi.v01,uni2D54_uni2D7F_uni2D3E.v01,,2504.3141
@@ -486,6 +491,8 @@ yasyatLig-tifi.v01,uni2D59_uni2D7F_uni2D5C.v01,,2509.5121
 yasyatLig-tifi.v01.rtl,uni2D59_uni2D7F_uni2D5C.v01.rtl,,2509.51215
 yasyatLig-tifi.v02,uni2D59_uni2D7F_uni2D5C.v02,,2509.5122
 yasyatLig-tifi.v02.rtl,uni2D59_uni2D7F_uni2D5C.v02.rtl,,2509.51225
+yasyatLig-tifi.v03,uni2D59_uni2D7F_uni2D5C.v02,,2509.5123
+yasyatLig-tifi.v03.rtl,uni2D59_uni2D7F_uni2D5C.v03.rtl,,2509.51235
 yass-tifi,uni2D5A,2D5A,2510
 yash-tifi,uni2D5B,2D5B,2511
 yash-tifi.rtl,uni2D5B.rtl,,2511.005
@@ -501,6 +508,8 @@ yashyanLig-tifi.rtl,uni2D5B_uni2D7F_uni2D4F.rtl,,2511.41505
 yashyanLig-tifi.v01,uni2D5B_uni2D7F_uni2D4F.v01,,2511.4151
 yashyatLig-tifi,uni2D5B_uni2D7F_uni2D5C,,2511.5120
 yashyatLig-tifi.rtl,uni2D5B_uni2D7F_uni2D5C.rtl,,2511.51205
+yashyatLig-tifi.v01,uni2D5B_uni2D7F_uni2D5C.v01,,2511.5121
+yashyatLig-tifi.v01.rtl,uni2D5B_uni2D7F_uni2D5C.v01.rtl,,2511.51215
 yat-tifi,uni2D5C,2D5C,2512
 yatt-tifi,uni2D5F,2D5F,2515
 yatt-tifi.rtl,uni2D5F.rtl,,2515.005
@@ -529,7 +538,7 @@ exclam.deco,exclam.deco,,2911
 period.deco,period.deco,,2912
 yaghh-tifi.v01.unused,uni2D34.v01.unused,,2999.230401
 yadh-tifi.unused,uni2D38.unused,,2999.230801
-yakTuareg-tifi.orig,uni2D3E.orig,,2999.2314
+yakTuareg-tifi.orig,uni2D3E.unused.orig,,2999.2314
 yakTuareg-tifi.unused.001,uni2D3E.unused.001,,2999.231401
 yakTuareg-tifi.unused.002,uni2D3E.unused.002,,2999.231402
 ya-tifi.super,uniE300,E300,3000

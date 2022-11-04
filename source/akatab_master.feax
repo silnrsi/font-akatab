@@ -434,8 +434,8 @@ lookup TfnCharacterVariant38 {
 
 lookup TfnCharacterVariant39 {
   lookupflag 0 ;
-    sub yuyatLig-tifi     from [ yuyatLig-tifi.v01     yuyatLig-tifi.v03 ] ;
-    sub yuyatLig-tifi.rtl from [ yuyatLig-tifi.v01.rtl yuyatLig-tifi.v03 ] ;
+    sub yuyatLig-tifi     from [ yuyatLig-tifi.v01     yuyatLig-tifi.v03     ] ;
+    sub yuyatLig-tifi.rtl from [ yuyatLig-tifi.v01.rtl yuyatLig-tifi.v03.rtl ] ;
 } TfnCharacterVariant39;
 
 lookup TfnCharacterVariant40 {

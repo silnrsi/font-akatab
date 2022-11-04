@@ -481,6 +481,10 @@
     <string>yamyatLig-tifi.rtl</string>
     <string>yamyatLig-tifi.v01</string>
     <string>yamyatLig-tifi.v01.rtl</string>
+    <string>yamyatLig-tifi.v02</string>
+    <string>yamyatLig-tifi.v02.rtl</string>
+    <string>yamyatLig-tifi.v03</string>
+    <string>yamyatLig-tifi.v03.rtl</string>
     <string>yan-tifi</string>
     <string>yan-tifi.raised</string>
     <string>yan-tifi.slant</string>
@@ -529,6 +533,7 @@
     <string>yuyatLig-tifi.v02</string>
     <string>yuyatLig-tifi.v02.rtl</string>
     <string>yuyatLig-tifi.v03</string>
+    <string>yuyatLig-tifi.v03.rtl</string>
     <string>yar-tifi</string>
     <string>yaryakTuaregLig-tifi</string>
     <string>yaryakTuaregLig-tifi.v01</string>
@@ -548,6 +553,8 @@
     <string>yasyatLig-tifi.v01.rtl</string>
     <string>yasyatLig-tifi.v02</string>
     <string>yasyatLig-tifi.v02.rtl</string>
+    <string>yasyatLig-tifi.v03</string>
+    <string>yasyatLig-tifi.v03.rtl</string>
     <string>yass-tifi</string>
     <string>yash-tifi</string>
     <string>yash-tifi.rtl</string>
@@ -563,6 +570,8 @@
     <string>yashyanLig-tifi.v01</string>
     <string>yashyatLig-tifi</string>
     <string>yashyatLig-tifi.rtl</string>
+    <string>yashyatLig-tifi.v01</string>
+    <string>yashyatLig-tifi.v01.rtl</string>
     <string>yat-tifi</string>
     <string>yatt-tifi</string>
     <string>yatt-tifi.rtl</string>
@@ -855,7 +864,7 @@
     <key>yakTuareg-tifi</key>
     <string>uni2D3E</string>
     <key>yakTuareg-tifi.orig</key>
-    <string>uni2D3E.orig</string>
+    <string>uni2D3E.unused.orig</string>
     <key>yakTuareg-tifi.rtl</key>
     <string>uni2D3E.rtl</string>
     <key>yakTuareg-tifi.unused.001</key>
@@ -900,6 +909,14 @@
     <string>uni2D4E_uni2D7F_uni2D5C.v01</string>
     <key>yamyatLig-tifi.v01.rtl</key>
     <string>uni2D4E_uni2D7F_uni2D5C.v01.rtl</string>
+    <key>yamyatLig-tifi.v02</key>
+    <string>uni2D4E_uni2D7F_uni2D5C.v02</string>
+    <key>yamyatLig-tifi.v02.rtl</key>
+    <string>uni2D4E_uni2D7F_uni2D5C.v02.rtl</string>
+    <key>yamyatLig-tifi.v03</key>
+    <string>uni2D4E_uni2D7F_uni2D5C.v03</string>
+    <key>yamyatLig-tifi.v03.rtl</key>
+    <string>uni2D4E_uni2D7F_uni2D5C.v03.rtl</string>
     <key>yan-tifi</key>
     <string>uni2D4F</string>
     <key>yan-tifi.raised</key>
@@ -1022,6 +1039,10 @@
     <string>uni2D5B_uni2D7F_uni2D5C</string>
     <key>yashyatLig-tifi.rtl</key>
     <string>uni2D5B_uni2D7F_uni2D5C.rtl</string>
+    <key>yashyatLig-tifi.v01</key>
+    <string>uni2D5B_uni2D7F_uni2D5C.v01</string>
+    <key>yashyatLig-tifi.v01.rtl</key>
+    <string>uni2D5B_uni2D7F_uni2D5C.v01.rtl</string>
     <key>yass-tifi</key>
     <string>uni2D5A</string>
     <key>yasyakTuaregLig-tifi</key>
@@ -1040,6 +1061,10 @@
     <string>uni2D59_uni2D7F_uni2D5C.v02</string>
     <key>yasyatLig-tifi.v02.rtl</key>
     <string>uni2D59_uni2D7F_uni2D5C.v02.rtl</string>
+    <key>yasyatLig-tifi.v03</key>
+    <string>uni2D59_uni2D7F_uni2D5C.v02</string>
+    <key>yasyatLig-tifi.v03.rtl</key>
+    <string>uni2D59_uni2D7F_uni2D5C.v03.rtl</string>
     <key>yat-tifi</key>
     <string>uni2D5C</string>
     <key>yatt-tifi</key>
@@ -1142,6 +1167,8 @@
     <string>uni2D53_uni2D7F_uni2D5C.v02.rtl</string>
     <key>yuyatLig-tifi.v03</key>
     <string>uni2D53_uni2D7F_uni2D5C.v03</string>
+    <key>yuyatLig-tifi.v03.rtl</key>
+    <string>uni2D53_uni2D7F_uni2D5C.v03.rtl</string>
     <key>zerowidthjoiner</key>
     <string>uni200D</string>
   </dict>
