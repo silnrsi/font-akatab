@@ -15,13 +15,14 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3140</string>
+  <string>3146</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/yamyatLig-tifi.v02/yamyatLig-tifi.v02.rtl/yamyasLig-tifi/yamyatLig-tifi.v03/yamyatLig-tifi.v03.rtl</string>
     <string>/yash-tifi/yash-tifi.rtl/yashyanLig-tifi/yashyanLig-tifi.rtl/yashyatLig-tifi.v01/yashyatLig-tifi.v01.rtl/yanyashLig-tifi/yanyashLig-tifi.rtl</string>
     <string>/yam-tifi/yasyatLig-tifi.v03/yasyatLig-tifi.v01/yasyatLig-tifi.v01.rtl/yasyatLig-tifi.v03.rtl/space/yuyatLig-tifi.v03.rtl/space/yuyatLig-tifi.v03/space</string>
     <string>/yashyanLig-tifi.v01/yashyatLig-tifi/yashyatLig-tifi.rtl/yatt-tifi/yatt-tifi.rtl</string>
+    <string>/yamyasLig-tifi/yamyasLig-tifi.rtl/space/yanyasLig-tifi.v01/yanyasLig-tifi.v01.rtl</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
