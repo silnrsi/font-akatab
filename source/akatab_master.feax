@@ -199,7 +199,7 @@ lookup TfnBiconsonants_RTL {
     sub yakTuareg-tifi.rtl     yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.rtl ;
     sub yakTuareg-tifi.rtl     yal-tifi              consonantjoiner-tifi.rtl by yalyakTuaregLig-tifi ;
     sub yah-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyahLig-tifi ;
-#    sub yas-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyasLig-tifi.rtl ;
+    sub yas-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyasLig-tifi.rtl ;
     sub yas-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyasLig-tifi.rtl ;
     sub yad-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyadLig-tifi ;
     sub yadh-tifi              yan-tifi              consonantjoiner-tifi.rtl by yanyadhLig-tifi ;
@@ -267,7 +267,7 @@ lookup TfnBiconsonants_RTL_DW {
     sub yan-tifi              consonantjoiner-tifi.rtl yash-tifi.rtl           by yanyashLig-tifi.rtl ;
     sub yan-tifi              consonantjoiner-tifi.rtl yazTawellemet-tifi.rtl  by yanyazTawellemetLig-tifi.rtl ;
     sub yam-tifi.rtl          consonantjoiner-tifi.rtl yah-tifi                by yamyahLig-tifi ;
-#    sub yam-tifi.rtl          consonantjoiner-tifi.rtl yas-tifi                by yamyasLig-tifi.rtl ;
+    sub yam-tifi.rtl          consonantjoiner-tifi.rtl yas-tifi                by yamyasLig-tifi.rtl ;
     sub yar-tifi              consonantjoiner-tifi.rtl yan-tifi                by yaryanLig-tifi ;
     sub yas-tifi              consonantjoiner-tifi.rtl yan-tifi                by yasyanLig-tifi ;
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yan-tifi                by yashyanLig-tifi.rtl ;

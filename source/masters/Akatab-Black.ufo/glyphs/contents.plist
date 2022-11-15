@@ -962,6 +962,8 @@
   <string>yamyahL_ig-tifi.glif</string>
   <key>yamyasLig-tifi</key>
   <string>yamyasL_ig-tifi.glif</string>
+  <key>yamyasLig-tifi.rtl</key>
+  <string>yamyasL_ig-tifi.rtl.glif</string>
   <key>yamyatLig-tifi</key>
   <string>yamyatL_ig-tifi.glif</string>
   <key>yamyatLig-tifi.rtl</key>
@@ -1028,6 +1030,8 @@
   <string>yanyasL_ig-tifi.rtl.glif</string>
   <key>yanyasLig-tifi.v01</key>
   <string>yanyasL_ig-tifi.v01.glif</string>
+  <key>yanyasLig-tifi.v01.rtl</key>
+  <string>yanyasL_ig-tifi.v01.rtl.glif</string>
   <key>yanyashLig-tifi</key>
   <string>yanyashL_ig-tifi.glif</string>
   <key>yanyashLig-tifi.rtl</key>

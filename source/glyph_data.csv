@@ -518,9 +518,9 @@ yatt-tifi.v01.rtl,uni2D5F.v01.rtl,,2515.015
 yay-tifi,uni2D62,2D62,2602
 yay-tifi.rtl,uni2D62.rtl,,2602.005
 yaz-tifi,uni2D63,2D63,2603
-yazyatLig-tifi.rtl,uni2D63_uni2D7F_uni2D5C.rtl,,2603.005
 yaz-tifi.v01,uni2D63.v01,,2603.01
 yazyatLig-tifi,uni2D63_uni2D7F_uni2D5C,,2603.512
+yazyatLig-tifi.rtl,uni2D63_uni2D7F_uni2D5C.rtl,,2603.51205
 yazyatLig-tifi.v01,uni2D63_uni2D7F_uni2D5C.v01,,2603.5121
 yazyatLig-tifi.v01.rtl,uni2D63_uni2D7F_uni2D5C.v01.rtl,,2603.51215
 yazTawellemet-tifi,uni2D64,2D64,2604
@@ -533,8 +533,8 @@ consonantjoiner-tifi.rtl,uni2D7F.rtl,,2715.005
 TifConsLengthMark,uni0303.alt,,2901
 TifConsLengthMark.alt,uni0301.alt,,2901.01
 TifVowelMark,uni0307.alt,,2902
-comma.deco,comma.deco,,2910
-exclam.deco,exclam.deco,,2911
+exclam.deco,exclam.deco,,2910
+comma.deco,comma.deco,,2911
 period.deco,period.deco,,2912
 yaghh-tifi.v01.unused,uni2D34.v01.unused,,2999.230401
 yadh-tifi.unused,uni2D38.unused,,2999.230801

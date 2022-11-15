@@ -578,9 +578,9 @@
     <string>yay-tifi</string>
     <string>yay-tifi.rtl</string>
     <string>yaz-tifi</string>
-    <string>yazyatLig-tifi.rtl</string>
     <string>yaz-tifi.v01</string>
     <string>yazyatLig-tifi</string>
+    <string>yazyatLig-tifi.rtl</string>
     <string>yazyatLig-tifi.v01</string>
     <string>yazyatLig-tifi.v01.rtl</string>
     <string>yazTawellemet-tifi</string>
@@ -593,8 +593,8 @@
     <string>TifConsLengthMark</string>
     <string>TifConsLengthMark.alt</string>
     <string>TifVowelMark</string>
-    <string>comma.deco</string>
     <string>exclam.deco</string>
+    <string>comma.deco</string>
     <string>period.deco</string>
     <string>yaghh-tifi.v01.unused</string>
     <string>yadh-tifi.unused</string>
