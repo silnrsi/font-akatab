@@ -123,7 +123,8 @@ lookup TfnCharacterVariant12 {
 
 lookup TfnCharacterVariant13 {
   lookupflag 0 ;
-    sub yatt-tifi by yatt-tifi.v01 ;
+    sub yatt-tifi     by yatt-tifi.v01 ;
+    sub yatt-tifi.rtl by yatt-tifi.v01.rtl ;
 } TfnCharacterVariant13;
 
 # Used for ss14 feature. Use cv02=2 for Character Variant feature. See lookup rule in lookup TfnCharacterVariant02.
@@ -136,6 +137,19 @@ lookup TfnCharacterVariant15 {
   lookupflag 0 ;
     sub yadh-tifi by yadh-tifi.v01 ;
 } TfnCharacterVariant15;
+
+lookup TfnSlant_target { #linked to feature cv19
+  lookupflag 0 ;
+    sub yan-tifi by yan-tifi.slant ;
+    sub yal-tifi by yal-tifi.slant ;
+    sub yan-tifi.raised by yan-tifi.slant.rtl ;
+    sub yal-tifi.raised by yal-tifi.slant.rtl ;
+} TfnSlant_target ;
+
+lookup TfnCharacterVariant19 {
+  lookupflag 0 ;
+    sub @cno_slant [ yan-tifi yal-tifi yan-tifi.raised yal-tifi.raised ]' lookup TfnSlant_target ; # slanted YAL and YAN
+} TfnCharacterVariant19;
 
 lookup TfnCharacterVariant20 { # from publications circa 1954
   lookupflag 0 ;
@@ -360,11 +374,6 @@ lookup TfnRaised {
   lookupflag 0 ;
     sub [ yan-tifi yal-tifi ] [ yan-tifi yal-tifi ]' lookup TfnRaised_target ;
 } TfnRaised;
-
-lookup TfnCharacterVariant19 {
-  lookupflag 0 ;
-    sub @c_raised by @c_slant ; # slanted YAL and YAN
-} TfnCharacterVariant19;
 
 lookup TfnCharacterVariant31 {
   lookupflag 0 ;
