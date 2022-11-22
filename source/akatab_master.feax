@@ -118,7 +118,7 @@ lookup TfnCharacterVariant11 {
 
 lookup TfnCharacterVariant12 {
   lookupflag 0 ;
-    sub yash-tifi by yash-tifi.v01 ;
+    sub [ yash-tifi yash-tifi.rtl ] by yash-tifi.v01 ;
 } TfnCharacterVariant12;
 
 lookup TfnCharacterVariant13 {
@@ -184,7 +184,7 @@ lookup TfnRTLalt {
 lookup TfnBiconsonants_RTL {
   lookupflag RightToLeft ;
     # tri-consonant (Tawallammat Tamjaq)
-    sub yat-tifi  yaf-tifi  consonantjoiner-tifi.rtl  yat-tifi  consonantjoiner-tifi.rtl by yanyafyatLig-tifi ; 
+    # sub yat-tifi  yaf-tifi  consonantjoiner-tifi.rtl  yat-tifi  consonantjoiner-tifi.rtl by yanyafyatLig-tifi ; 
     
     sub yat-tifi               yab-tifi              consonantjoiner-tifi.rtl by yabyatLig-tifi.rtl ;
     sub yat-tifi               yah-tifi              consonantjoiner-tifi.rtl by yahyatLig-tifi.rtl ;
@@ -211,6 +211,7 @@ lookup TfnBiconsonants_RTL {
     sub yakTuareg-tifi.rtl     yas-tifi              consonantjoiner-tifi.rtl by yasyakTuaregLig-tifi ;
     sub yakTuareg-tifi.rtl     yan-tifi              consonantjoiner-tifi.rtl by yanyakTuaregLig-tifi ;
     sub yakTuareg-tifi.rtl     yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.rtl ;
+    sub yakTuareg-tifi.rtl     yash-tifi.v01         consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.v02 ;
     sub yakTuareg-tifi.rtl     yal-tifi              consonantjoiner-tifi.rtl by yalyakTuaregLig-tifi ;
     sub yah-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyahLig-tifi ;
     sub yas-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyasLig-tifi.rtl ;
@@ -266,6 +267,7 @@ lookup TfnBiconsonants_RTL_DW {
     sub yas-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yasyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yanyakTuaregLig-tifi ;
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yashyakTuaregLig-tifi.rtl ;
+    sub yash-tifi.v01         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yashyakTuaregLig-tifi.v02 ;
     sub yal-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yalyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi.rtl yas-tifi                by yanyasLig-tifi.rtl ;
     sub yan-tifi              consonantjoiner-tifi.rtl yad-tifi                by yanyadLig-tifi ;
@@ -338,7 +340,7 @@ lookup TfnBiconsonants {
     sub yazhAhaggar-tifi      consonantjoiner-tifi yat-tifi            by yazhAhaggaryatLig-tifi ;
     sub yazhAhaggar-tifi.v01  consonantjoiner-tifi yat-tifi            by yazhAhaggaryatLig-tifi.v01 ;
     # tri-consonant (Tawallammat Tamjaq)
-    sub yan-tifi  consonantjoiner-tifi yaf-tifi  consonantjoiner-tifi yat-tifi  by yanyafyatLig-tifi ;
+    # sub yan-tifi  consonantjoiner-tifi yaf-tifi  consonantjoiner-tifi yat-tifi  by yanyafyatLig-tifi ;
 } TfnBiconsonants;
 
 # lookup TfnSlant_target { *changed to a feature - see cv19
@@ -500,7 +502,8 @@ lookup TfnCharacterVariant43 {
 
 lookup TfnCharacterVariant44 {
   lookupflag 0 ;
-    sub yanyasLig-tifi by yanyasLig-tifi.v01 ;
+    sub yanyasLig-tifi     by yanyasLig-tifi.v01 ;
+    sub yanyasLig-tifi.rtl by yanyasLig-tifi.v01.rtl ;
 } TfnCharacterVariant44;
 
 lookup TfnCharacterVariant45 {
