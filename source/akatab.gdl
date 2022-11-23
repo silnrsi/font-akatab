@@ -731,6 +731,9 @@ endif;
 if (f_2D59_2D5C == 2) // cv33
 g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_v02;
 endif;
+if (f_2D59_2D5C == 3) // cv33
+g_yasyat_lig_tifi  >  g_yasyat_lig_tifi_v03;
+endif;
 
 if (f_2D4E_2D5C == 1) // cv34
 g_yamyat_lig_tifi  >  g_yamyat_lig_tifi_v01;
