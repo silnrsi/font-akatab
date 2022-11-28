@@ -478,6 +478,7 @@
     <string>yam-tifi.rtl</string>
     <string>yamyahLig-tifi</string>
     <string>yamyasLig-tifi</string>
+    <string>yamyasLig-tifi.rtl</string>
     <string>yamyatLig-tifi</string>
     <string>yamyatLig-tifi.rtl</string>
     <string>yamyatLig-tifi.v01</string>
@@ -512,6 +513,7 @@
     <string>yanyasLig-tifi</string>
     <string>yanyasLig-tifi.rtl</string>
     <string>yanyasLig-tifi.v01</string>
+    <string>yanyasLig-tifi.v01.rtl</string>
     <string>yanyashLig-tifi</string>
     <string>yanyashLig-tifi.rtl</string>
     <string>yanyashLig-tifi.v01</string>
@@ -902,6 +904,8 @@
     <string>uni2D4E_uni2D7F_uni2D40</string>
     <key>yamyasLig-tifi</key>
     <string>uni2D4E_uni2D7F_uni2D59</string>
+    <key>yamyasLig-tifi.rtl</key>
+    <string>uni2D4E_uni2D7F_uni2D59.rtl</string>
     <key>yamyatLig-tifi</key>
     <string>uni2D4E_uni2D7F_uni2D5C</string>
     <key>yamyatLig-tifi.rtl</key>
@@ -968,6 +972,8 @@
     <string>uni2D4F_uni2D7F_uni2D59.rtl</string>
     <key>yanyasLig-tifi.v01</key>
     <string>uni2D4F_uni2D7F_uni2D59.v01</string>
+    <key>yanyasLig-tifi.v01.rtl</key>
+    <string>uni2D4F_uni2D7F_uni2D59.v01.rtl</string>
     <key>yanyashLig-tifi</key>
     <string>uni2D4F_uni2D7F_uni2D5B</string>
     <key>yanyashLig-tifi.rtl</key>

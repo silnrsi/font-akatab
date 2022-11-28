@@ -1,0 +1,2423 @@
+
+# Main Classes
+@GDEF_bases = [.notdef .null A AE Aacute Abreve Acircumflex Adieresis Agrave Aring Atilde B Bdotbelow C CR Ccedilla D Ddotbelow Delta E Eacute Ebreve Ecircumflex Edieresis Egrave Eng Ereversed Eth Euro F G H Hdotbelow I Iacute Ibreve Icircumflex Idieresis Igrave J K Kdotbelow L Ldotbelow M Mdotbelow N Ndotbelow Ntilde O OE Oacute Obreve Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R Rdotbelow S Scaron Sdotbelow T Tdotbelow Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave V W Wdotbelow X Y Yacute Ydieresis Ydotbelow Z Zcaron Zdotbelow _AltIndicator _Circle_Small _Dot _Dot.001 _DotWide _DotWideDiag _HorizontalBar _HorizontalBarMed _HorizontalBarMedShort _HorizontalBarMedShort1.5 _HorizontalBarMedShort2 _Plus _Plus.rtl _PlusHorizontal _PlusLong _PlusLong.rtl _PlusMedium _PlusMediumExtended _PlusMediumExtended.rtl _PlusMediumHorizontal _PlusSmall _PlusVertical _PlusVeryLong _PlusVeryLong.rtl _VerticalBar _VerticalBarJoining _VerticalBarMedLong _VerticalBarMedium _VerticalBarShort _VerticalBarShortForTopDots _VerticalBarShortTop _VerticalBarSmall _VerticalOval _k a a.sups aacute abreve acircumflex acute adieresis ae agrave ampersand approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar bdotbelow braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c caron ccedilla cedilla cent circledotted circumflex colon colontriangularmod comma comma.deco copyright currency d dagger daggerdbl ddotbelow degree dieresis divide divisionslash dollar dotaccent dotlessi dotlessj e eacute ebreve ecircumflex edieresis egrave eight ellipsis emdash emquad emspace endash eng enquad enspace equal eth eturned exclam exclam.deco exclamdown f fi figuredash figurespace five fl florin four four.dnom fourperemspace foursuperior fraction g gammalatin germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hairspace hdotbelow horizontalbar hungarumlaut hyphen hyphenationpoint hyphentwo i iacute ibreve icircumflex idieresis igrave infinity integral j k kdotbelow l ldotbelow lefttorightembedding lefttorightmark lefttorightoverride less lessequal lineseparator logicalnot lozenge m macron mdotbelow minus mu multiply n narrownbspace nbspace ndotbelow nine nonbreakinghyphen notequal ntilde numbersign o o.sups oacute obreve ocircumflex odieresis oe ogonek ograve one one.dnom onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph paragraphseparator parenleft parenright partialdiff percent period period.deco periodcentered perthousand pi plus plusminus popdirectionalformatting product punctuationspace q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical rdotbelow registered righttoleftembedding righttoleftmark righttoleftoverride ring s scaron schwa sdotbelow section semicolon separator-tifi separator-tifi.rtl seven six sixperemspace slash softhyphen space sterling summation t tdotbelow thinspace thorn three three.dnom threeperemspace threequarters threesuperior tilde trademark two two.dnom twosuperior u uacute ubreve ucircumflex udieresis ugrave underscore uni007F uni0194 uni2423 uniFEFF uniFFFC uniFFFD v w wdotbelow wordjoiner x y ya-tifi ya-tifi.super ya-tifi.v01 yaSILa-tifi yaSILschwa-tifi yab-tifi yab-tifi.v01 yabyatLig-tifi yabyatLig-tifi.rtl yabyatLig-tifi.v01 yacute yad-tifi yadd-tifi yadd-tifi.rtl yadh-tifi yadh-tifi.unused yadh-tifi.v01 yaf-tifi yaf-tifi.v01 yaf-tifi.v02 yafyatLig-tifi yafyatLig-tifi.rtl yafyatLig-tifi.v01 yafyatLig-tifi.v01.rtl yafyatLig-tifi.v02 yafyatLig-tifi.v02.rtl yafyatLig-tifi.v03 yafyatLig-tifi.v04 yag-tifi yag-tifi.v01 yaghAyer-tifi yaghTuareg-tifi yaghh-tifi yaghh-tifi.v01 yaghh-tifi.v01.unused yaghhyatLig-tifi yaghhyatLig-tifi.rtl yaghhyatLig-tifi.v01 yaghhyatLig-tifi.v01.rtl yagnTuareg-tifi yagnTuareg-tifi.v01 yah-tifi yah-tifi.v01 yahTuareg-tifi yahyatLig-tifi yahyatLig-tifi.rtl yaj-tifi yaj-tifi.v01 yajyatLig-tifi yajyatLig-tifi.rtl yakTuareg-tifi yakTuareg-tifi.orig yakTuareg-tifi.rtl yakTuareg-tifi.unused.001 yakTuareg-tifi.unused.002 yakhTuareg-tifi yal-tifi yal-tifi.raised yal-tifi.slant yal-tifi.slant.rtl yalyakTuaregLig-tifi yalyatLig-tifi yalyatLig-tifi.rtl yalyatLig-tifi.v01 yalyatLig-tifi.v02 yalyatLig-tifi.v03 yam-tifi yam-tifi.rtl yamyahLig-tifi yamyasLig-tifi yamyasLig-tifi.rtl yamyatLig-tifi yamyatLig-tifi.rtl yamyatLig-tifi.v01 yamyatLig-tifi.v01.rtl yamyatLig-tifi.v02 yamyatLig-tifi.v02.rtl yamyatLig-tifi.v03 yamyatLig-tifi.v03.rtl yan-tifi yan-tifi.raised yan-tifi.slant yan-tifi.slant.rtl yangTuareg-tifi yanyadLig-tifi yanyadLig-tifi.v01 yanyaddLig-tifi yanyadhLig-tifi yanyafLig-tifi yanyafLig-tifi.v01 yanyafLig-tifi.v02 yanyafLig-tifi.v03 yanyafyatLig-tifi yanyaghTuaregLig-tifi yanyaghTuaregLig-tifi.rtl yanyaghhLig-tifi yanyaghhLig-tifi.v01 yanyajLig-tifi yanyajLig-tifi.v01 yanyakTuaregLig-tifi yanyakTuaregLig-tifi.v01 yanyasLig-tifi yanyasLig-tifi.rtl yanyasLig-tifi.v01 yanyasLig-tifi.v01.rtl yanyashLig-tifi yanyashLig-tifi.rtl yanyashLig-tifi.v01 yanyatLig-tifi yanyatLig-tifi.rtl yanyatLig-tifi.v01 yanyatLig-tifi.v01.rtl yanyatLig-tifi.v02 yanyazTawellemetLig-tifi yanyazTawellemetLig-tifi.rtl yanyazhTuaregLig-tifi yanyazhTuaregLig-tifi.v01 yaqTuareg-tifi yar-tifi yaryakTuaregLig-tifi yaryakTuaregLig-tifi.v01 yaryanLig-tifi yaryatLig-tifi yaryatLig-tifi.rtl yaryatLig-tifi.v01 yaryatLig-tifi.v02 yas-tifi yash-tifi yash-tifi.rtl yash-tifi.v01 yashyakTuaregLig-tifi yashyakTuaregLig-tifi.rtl yashyakTuaregLig-tifi.v01 yashyakTuaregLig-tifi.v01.rtl yashyakTuaregLig-tifi.v02 yashyakTuaregLig-tifi.v03 yashyanLig-tifi yashyanLig-tifi.rtl yashyanLig-tifi.v01 yashyatLig-tifi yashyatLig-tifi.rtl yashyatLig-tifi.v01 yashyatLig-tifi.v01.rtl yass-tifi yasyakTuaregLig-tifi yasyanLig-tifi yasyatLig-tifi yasyatLig-tifi.rtl yasyatLig-tifi.v01 yasyatLig-tifi.v01.rtl yasyatLig-tifi.v02 yasyatLig-tifi.v02.rtl yasyatLig-tifi.v03 yasyatLig-tifi.v03.rtl yat-tifi yatt-tifi yatt-tifi.rtl yatt-tifi.v01 yatt-tifi.v01.rtl yay-tifi yay-tifi.rtl yay-tifi.super yay-tifi.super.rtl yaySILe-tifi yaySILi-tifi yaz-tifi yaz-tifi.v01 yazTawellemet-tifi yazTawellemet-tifi.rtl yazhAhaggar-tifi yazhAhaggar-tifi.v01 yazhAhaggaryatLig-tifi yazhAhaggaryatLig-tifi.rtl yazhAhaggaryatLig-tifi.v01 yazhAhaggaryatLig-tifi.v01.rtl yazhTuareg-tifi yazhTuaregyatLig-tifi yazhTuaregyatLig-tifi.rtl yazhTuaregyatLig-tifi.v01 yazhTuaregyatLig-tifi.v01.rtl yazhTuaregyatLig-tifi.v02 yazyatLig-tifi yazyatLig-tifi.rtl yazyatLig-tifi.v01 yazyatLig-tifi.v01.rtl ydieresis ydotbelow yen yi-tifi yi-tifi.rtl yi-tifi.super yi-tifi.super.rtl yiyatLig-tifi yiyatLig-tifi.rtl yo-tifi yo-tifi.super yoSILo-tifi yu-tifi yu-tifi.super yu-tifi.v01 yuSILu-tifi yuyatLig-tifi yuyatLig-tifi.rtl yuyatLig-tifi.v01 yuyatLig-tifi.v01.rtl yuyatLig-tifi.v02 yuyatLig-tifi.v02.rtl yuyatLig-tifi.v03 yuyatLig-tifi.v03.rtl z zcaron zdotbelow zero zero.dnom zerowidthjoiner zerowidthnonjoiner zerowidthspace];
+@GDEF_marks = [CGJ TifConsLengthMark TifConsLengthMark.alt TifVowelMark acutecmb.cap acutecomb brevecmb brevecmb.cap caroncmb caroncmb.cap cedillacmb cedillacmb.cap circumflexcmb circumflexcmb.cap consonantjoiner-tifi consonantjoiner-tifi.rtl dieresiscmb dieresiscmb.cap dotaccentcmb dotbelowcmb gravecmb.cap gravecomb hungarumlautcmb macroncmb ogonekcmb overlinecmb ringcmb ringcmb.cap tildecmb.cap tildecomb uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F];
+@cLatin = [space quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus hyphen slash zero one two three four five six seven eight nine colon semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde uni007F nbspace exclamdown cent sterling currency yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot softhyphen registered macron degree plusminus twosuperior threesuperior acute mu paragraph periodcentered cedilla onesuperior ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Abreve abreve Ebreve ebreve Ibreve ibreve dotlessi Eng eng Obreve obreve OE oe Scaron scaron Ubreve ubreve Ydieresis Zcaron zcaron Ereversed florin uni0194 eturned dotlessj schwa gammalatin circumflex caron colontriangularmod breve dotaccent ring ogonek tilde hungarumlaut gravecomb acutecomb circumflexcmb tildecomb macroncmb overlinecmb brevecmb dotaccentcmb dieresiscmb ringcmb hungarumlautcmb caroncmb dotbelowcmb cedillacmb ogonekcmb CGJ pi Bdotbelow bdotbelow Ddotbelow ddotbelow Hdotbelow hdotbelow Kdotbelow kdotbelow Ldotbelow ldotbelow Mdotbelow mdotbelow Ndotbelow ndotbelow Rdotbelow rdotbelow Sdotbelow sdotbelow Tdotbelow tdotbelow Wdotbelow wdotbelow Zdotbelow zdotbelow Ydotbelow ydotbelow enquad emquad enspace emspace threeperemspace fourperemspace sixperemspace figurespace punctuationspace thinspace hairspace zerowidthspace zerowidthnonjoiner zerowidthjoiner lefttorightmark righttoleftmark hyphentwo nonbreakinghyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis hyphenationpoint lineseparator paragraphseparator lefttorightembedding righttoleftembedding popdirectionalformatting lefttorightoverride righttoleftoverride narrownbspace perthousand guilsinglleft guilsinglright fraction wordjoiner foursuperior Euro trademark Omega partialdiff Delta product summation minus divisionslash bulletoperator radical infinity integral approxequal notequal lessequal greaterequal uni2423 lozenge circledotted fi fl comma exclam period gravecmb.cap acutecmb.cap circumflexcmb.cap tildecmb.cap brevecmb.cap dieresiscmb.cap ringcmb.cap caroncmb.cap cedillacmb.cap a.sups o.sups zero.dnom one.dnom two.dnom three.dnom four.dnom];
+@cTDia_comb = [acutecomb tildecomb ringcmb];
+@cTakesTDia_base = [yaghTuareg-tifi yakTuareg-tifi yaqTuareg-tifi yakhTuareg-tifi yahTuareg-tifi yab-tifi yah-tifi yar-tifi yas-tifi yad-tifi yadh-tifi yadd-tifi yam-tifi yatt-tifi yaf-tifi yaf-tifi.v01 yay-tifi yi-tifi yaghh-tifi yaghh-tifi.v01 yaj-tifi yangTuareg-tifi yan-tifi yan-tifi.slant yal-tifi yal-tifi.slant yagnTuareg-tifi yagnTuareg-tifi.v01 yash-tifi yat-tifi yu-tifi yu-tifi.v01 yazhTuareg-tifi yaz-tifi yaz-tifi.v01 yazhAhaggar-tifi yazhAhaggar-tifi.v01 yadd-tifi.rtl yakTuareg-tifi.rtl yi-tifi.rtl yam-tifi.rtl yash-tifi.rtl yatt-tifi.rtl yay-tifi.rtl];
+@c_001 = [_Dot.001];
+@cno_001 = [_Dot];
+@c_TDia = [];
+@c_alt = [TifConsLengthMark.alt];
+@cno_alt = [TifConsLengthMark];
+@c_cap = [brevecmb.cap caroncmb.cap cedillacmb.cap circumflexcmb.cap dieresiscmb.cap ringcmb.cap];
+@cno_cap = [brevecmb caroncmb cedillacmb circumflexcmb dieresiscmb ringcmb];
+@c_deco = [comma.deco exclam.deco period.deco];
+@cno_deco = [comma exclam period];
+@c_dnom = [four.dnom one.dnom three.dnom two.dnom zero.dnom];
+@cno_dnom = [four one three two zero];
+@c_orig = [yakTuareg-tifi.orig];
+@cno_orig = [yakTuareg-tifi];
+@c_raised = [yal-tifi.raised yan-tifi.raised];
+@cno_raised = [yal-tifi yan-tifi];
+@c_rtl = [_Plus.rtl _PlusLong.rtl _PlusMediumExtended.rtl _PlusVeryLong.rtl consonantjoiner-tifi.rtl separator-tifi.rtl yabyatLig-tifi.rtl yadd-tifi.rtl yafyatLig-tifi.rtl yafyatLig-tifi.v01.rtl yafyatLig-tifi.v02.rtl yaghhyatLig-tifi.rtl yaghhyatLig-tifi.v01.rtl yahyatLig-tifi.rtl yajyatLig-tifi.rtl yakTuareg-tifi.rtl yal-tifi.slant.rtl yalyatLig-tifi.rtl yam-tifi.rtl yamyasLig-tifi.rtl yamyatLig-tifi.rtl yamyatLig-tifi.v01.rtl yamyatLig-tifi.v02.rtl yamyatLig-tifi.v03.rtl yan-tifi.slant.rtl yanyaghTuaregLig-tifi.rtl yanyasLig-tifi.rtl yanyasLig-tifi.v01.rtl yanyashLig-tifi.rtl yanyatLig-tifi.rtl yanyatLig-tifi.v01.rtl yanyazTawellemetLig-tifi.rtl yaryatLig-tifi.rtl yash-tifi.rtl yashyakTuaregLig-tifi.rtl yashyakTuaregLig-tifi.v01.rtl yashyanLig-tifi.rtl yashyatLig-tifi.rtl yashyatLig-tifi.v01.rtl yasyatLig-tifi.rtl yasyatLig-tifi.v01.rtl yasyatLig-tifi.v02.rtl yasyatLig-tifi.v03.rtl yatt-tifi.rtl yatt-tifi.v01.rtl yay-tifi.rtl yay-tifi.super.rtl yazTawellemet-tifi.rtl yazhAhaggaryatLig-tifi.rtl yazhAhaggaryatLig-tifi.v01.rtl yazhTuaregyatLig-tifi.rtl yazhTuaregyatLig-tifi.v01.rtl yazyatLig-tifi.rtl yazyatLig-tifi.v01.rtl yi-tifi.rtl yi-tifi.super.rtl yiyatLig-tifi.rtl yuyatLig-tifi.rtl yuyatLig-tifi.v01.rtl yuyatLig-tifi.v02.rtl yuyatLig-tifi.v03.rtl];
+@cno_rtl = [_Plus _PlusLong _PlusMediumExtended _PlusVeryLong consonantjoiner-tifi separator-tifi yabyatLig-tifi yadd-tifi yafyatLig-tifi yafyatLig-tifi.v01 yafyatLig-tifi.v02 yaghhyatLig-tifi yaghhyatLig-tifi.v01 yahyatLig-tifi yajyatLig-tifi yakTuareg-tifi yal-tifi.slant yalyatLig-tifi yam-tifi yamyasLig-tifi yamyatLig-tifi yamyatLig-tifi.v01 yamyatLig-tifi.v02 yamyatLig-tifi.v03 yan-tifi.slant yanyaghTuaregLig-tifi yanyasLig-tifi yanyasLig-tifi.v01 yanyashLig-tifi yanyatLig-tifi yanyatLig-tifi.v01 yanyazTawellemetLig-tifi yaryatLig-tifi yash-tifi yashyakTuaregLig-tifi yashyakTuaregLig-tifi.v01 yashyanLig-tifi yashyatLig-tifi yashyatLig-tifi.v01 yasyatLig-tifi yasyatLig-tifi.v01 yasyatLig-tifi.v02 yasyatLig-tifi.v03 yatt-tifi yatt-tifi.v01 yay-tifi yay-tifi.super yazTawellemet-tifi yazhAhaggaryatLig-tifi yazhAhaggaryatLig-tifi.v01 yazhTuaregyatLig-tifi yazhTuaregyatLig-tifi.v01 yazyatLig-tifi yazyatLig-tifi.v01 yi-tifi yi-tifi.super yiyatLig-tifi yuyatLig-tifi yuyatLig-tifi.v01 yuyatLig-tifi.v02 yuyatLig-tifi.v03];
+@c_slant = [yal-tifi.slant yan-tifi.slant];
+@cno_slant = [yal-tifi yan-tifi];
+@c_super = [ya-tifi.super yay-tifi.super yi-tifi.super yo-tifi.super yu-tifi.super];
+@cno_super = [ya-tifi yay-tifi yi-tifi yo-tifi yu-tifi];
+@c_sups = [a.sups o.sups];
+@cno_sups = [a o];
+@c_unused = [yadh-tifi.unused yaghh-tifi.v01.unused];
+@cno_unused = [yadh-tifi yaghh-tifi.v01];
+@c_v01 = [ya-tifi.v01 yab-tifi.v01 yabyatLig-tifi.v01 yadh-tifi.v01 yaf-tifi.v01 yafyatLig-tifi.v01 yag-tifi.v01 yaghh-tifi.v01 yaghhyatLig-tifi.v01 yagnTuareg-tifi.v01 yah-tifi.v01 yaj-tifi.v01 yalyatLig-tifi.v01 yamyatLig-tifi.v01 yanyadLig-tifi.v01 yanyafLig-tifi.v01 yanyaghhLig-tifi.v01 yanyajLig-tifi.v01 yanyakTuaregLig-tifi.v01 yanyasLig-tifi.v01 yanyashLig-tifi.v01 yanyatLig-tifi.v01 yanyazhTuaregLig-tifi.v01 yaryakTuaregLig-tifi.v01 yaryatLig-tifi.v01 yash-tifi.v01 yashyakTuaregLig-tifi.v01 yashyanLig-tifi.v01 yashyatLig-tifi.v01 yasyatLig-tifi.v01 yatt-tifi.v01 yaz-tifi.v01 yazhAhaggar-tifi.v01 yazhAhaggaryatLig-tifi.v01 yazhTuaregyatLig-tifi.v01 yazyatLig-tifi.v01 yu-tifi.v01 yuyatLig-tifi.v01];
+@cno_v01 = [ya-tifi yab-tifi yabyatLig-tifi yadh-tifi yaf-tifi yafyatLig-tifi yag-tifi yaghh-tifi yaghhyatLig-tifi yagnTuareg-tifi yah-tifi yaj-tifi yalyatLig-tifi yamyatLig-tifi yanyadLig-tifi yanyafLig-tifi yanyaghhLig-tifi yanyajLig-tifi yanyakTuaregLig-tifi yanyasLig-tifi yanyashLig-tifi yanyatLig-tifi yanyazhTuaregLig-tifi yaryakTuaregLig-tifi yaryatLig-tifi yash-tifi yashyakTuaregLig-tifi yashyanLig-tifi yashyatLig-tifi yasyatLig-tifi yatt-tifi yaz-tifi yazhAhaggar-tifi yazhAhaggaryatLig-tifi yazhTuaregyatLig-tifi yazyatLig-tifi yu-tifi yuyatLig-tifi];
+@c_v02 = [yaf-tifi.v02 yafyatLig-tifi.v02 yalyatLig-tifi.v02 yamyatLig-tifi.v02 yanyafLig-tifi.v02 yanyatLig-tifi.v02 yaryatLig-tifi.v02 yashyakTuaregLig-tifi.v02 yasyatLig-tifi.v02 yazhTuaregyatLig-tifi.v02 yuyatLig-tifi.v02];
+@cno_v02 = [yaf-tifi yafyatLig-tifi yalyatLig-tifi yamyatLig-tifi yanyafLig-tifi yanyatLig-tifi yaryatLig-tifi yashyakTuaregLig-tifi yasyatLig-tifi yazhTuaregyatLig-tifi yuyatLig-tifi];
+@c_v03 = [yafyatLig-tifi.v03 yalyatLig-tifi.v03 yamyatLig-tifi.v03 yanyafLig-tifi.v03 yashyakTuaregLig-tifi.v03 yasyatLig-tifi.v03 yuyatLig-tifi.v03];
+@cno_v03 = [yafyatLig-tifi yalyatLig-tifi yamyatLig-tifi yanyafLig-tifi yashyakTuaregLig-tifi yasyatLig-tifi yuyatLig-tifi];
+@c_v04 = [yafyatLig-tifi.v04];
+@cno_v04 = [yafyatLig-tifi];
+
+# Positioning classes and statements
+
+# AP: aboveUC
+@aboveUC = [A AE B C O Q D K E Eng Ereversed F G H I L J M N OE Oslash P R S T U V W X Z Y uni0194 b h d eth f florin k l thorn];
+# baseClass A <anchor 599 1422> @aboveUC;
+# baseClass AE <anchor 1139 1422> @aboveUC;
+# baseClass B <anchor 631 1422> @aboveUC;
+# baseClass [C O Q] <anchor 721 1422> @aboveUC;
+# baseClass [D K] <anchor 671 1422> @aboveUC;
+# baseClass E <anchor 612 1422> @aboveUC;
+# baseClass Eng <anchor 764 1422> @aboveUC;
+# baseClass Ereversed <anchor 540 1422> @aboveUC;
+# baseClass F <anchor 610 1422> @aboveUC;
+# baseClass G <anchor 768 1422> @aboveUC;
+# baseClass H <anchor 707 1422> @aboveUC;
+# baseClass [I L] <anchor 318 1422> @aboveUC;
+# baseClass J <anchor 751 1422> @aboveUC;
+# baseClass M <anchor 802 1422> @aboveUC;
+# baseClass N <anchor 713 1422> @aboveUC;
+# baseClass OE <anchor 1116 1422> @aboveUC;
+# baseClass Oslash <anchor 736 1422> @aboveUC;
+# baseClass P <anchor 664 1422> @aboveUC;
+# baseClass R <anchor 652 1422> @aboveUC;
+# baseClass S <anchor 620 1422> @aboveUC;
+# baseClass T <anchor 582 1422> @aboveUC;
+# baseClass U <anchor 700 1422> @aboveUC;
+# baseClass V <anchor 584 1422> @aboveUC;
+# baseClass W <anchor 854 1422> @aboveUC;
+# baseClass [X Z] <anchor 597 1422> @aboveUC;
+# baseClass [Y uni0194] <anchor 550 1422> @aboveUC;
+# baseClass [b h] <anchor 658 1524> @aboveUC;
+# baseClass d <anchor 582 1524> @aboveUC;
+# baseClass eth <anchor 637 1524> @aboveUC;
+# baseClass [f florin] <anchor 506 1524> @aboveUC;
+# baseClass k <anchor 654 1524> @aboveUC;
+# baseClass l <anchor 299 1524> @aboveUC;
+# baseClass thorn <anchor 369 1524> @aboveUC;
+
+# AP: belowLC
+@belowLC = [A B C D E Eng Ereversed F G H I J K U L circledotted M N O Omega P R S T V W X Y uni0194 Z a ae b k c v d n dotlessi i dotlessj j e eng eth eturned schwa f florin g gammalatin h l m oe o oslash p q r s t thorn u w x y z];
+# baseClass A <anchor 599 -46> @belowLC;
+# baseClass B <anchor 664 -46> @belowLC;
+# baseClass C <anchor 736 -46> @belowLC;
+# baseClass D <anchor 658 -46> @belowLC;
+# baseClass E <anchor 633 -46> @belowLC;
+# baseClass Eng <anchor 688 -46> @belowLC;
+# baseClass Ereversed <anchor 521 -46> @belowLC;
+# baseClass F <anchor 333 -46> @belowLC;
+# baseClass G <anchor 768 -46> @belowLC;
+# baseClass H <anchor 707 -46> @belowLC;
+# baseClass I <anchor 318 -46> @belowLC;
+# baseClass J <anchor 557 -46> @belowLC;
+# baseClass [K U] <anchor 700 -46> @belowLC;
+# baseClass [L circledotted] <anchor 612 -46> @belowLC;
+# baseClass M <anchor 806 -46> @belowLC;
+# baseClass N <anchor 726 -46> @belowLC;
+# baseClass O <anchor 721 -46> @belowLC;
+# baseClass Omega <anchor 745 -46> @belowLC;
+# baseClass P <anchor 337 -46> @belowLC;
+# baseClass R <anchor 690 -46> @belowLC;
+# baseClass S <anchor 588 -46> @belowLC;
+# baseClass T <anchor 582 -46> @belowLC;
+# baseClass V <anchor 580 -46> @belowLC;
+# baseClass W <anchor 854 -46> @belowLC;
+# baseClass X <anchor 576 -46> @belowLC;
+# baseClass [Y uni0194] <anchor 555 -46> @belowLC;
+# baseClass Z <anchor 595 -46> @belowLC;
+# baseClass a <anchor 540 -46> @belowLC;
+# baseClass ae <anchor 852 -46> @belowLC;
+# baseClass [b k] <anchor 616 -46> @belowLC;
+# baseClass [c v] <anchor 553 -46> @belowLC;
+# baseClass [d n] <anchor 603 -46> @belowLC;
+# baseClass [dotlessi i] <anchor 289 -46> @belowLC;
+# baseClass [dotlessj j] <anchor 173 -426> @belowLC;
+# baseClass e <anchor 565 -46> @belowLC;
+# baseClass eng <anchor 603 -426> @belowLC;
+# baseClass eth <anchor 569 -46> @belowLC;
+# baseClass [eturned schwa] <anchor 529 -46> @belowLC;
+# baseClass f <anchor 344 -46> @belowLC;
+# baseClass florin <anchor 223 -426> @belowLC;
+# baseClass g <anchor 527 -430> @belowLC;
+# baseClass gammalatin <anchor 544 -430> @belowLC;
+# baseClass h <anchor 624 -46> @belowLC;
+# baseClass l <anchor 341 -46> @belowLC;
+# baseClass [m oe] <anchor 916 -46> @belowLC;
+# baseClass [o oslash] <anchor 584 -46> @belowLC;
+# baseClass p <anchor 287 -392> @belowLC;
+# baseClass q <anchor 903 -392> @belowLC;
+# baseClass r <anchor 282 -46> @belowLC;
+# baseClass s <anchor 460 -46> @belowLC;
+# baseClass t <anchor 489 -46> @belowLC;
+# baseClass thorn <anchor 303 -426> @belowLC;
+# baseClass u <anchor 586 -46> @belowLC;
+# baseClass w <anchor 816 -46> @belowLC;
+# baseClass x <anchor 538 -46> @belowLC;
+# baseClass y <anchor 477 -403> @belowLC;
+# baseClass z <anchor 510 -46> @belowLC;
+
+# AP: ogonekUC
+@ogonekUC = [A E I O U];
+# baseClass A <anchor 1034 0> @ogonekUC;
+# baseClass E <anchor 857 0> @ogonekUC;
+# baseClass I <anchor 316 0> @ogonekUC;
+# baseClass O <anchor 721 0> @ogonekUC;
+# baseClass U <anchor 700 0> @ogonekUC;
+
+# AP: baseLC
+@baseLC = [C S T c circledotted e s t u];
+# baseClass C <anchor 736 0> @baseLC;
+# baseClass S <anchor 588 0> @baseLC;
+# baseClass T <anchor 582 0> @baseLC;
+# baseClass c <anchor 553 0> @baseLC;
+# baseClass circledotted <anchor 612 0> @baseLC;
+# baseClass e <anchor 565 0> @baseLC;
+# baseClass s <anchor 460 0> @baseLC;
+# baseClass t <anchor 489 0> @baseLC;
+# baseClass u <anchor 531 0> @baseLC;
+
+# AP: _none
+markClass [CGJ consonantjoiner-tifi consonantjoiner-tifi.rtl uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F] <anchor 0 0> @_none;
+
+# AP: hornLC
+@hornLC = [O U circledotted o u];
+# baseClass O <anchor 1019 1355> @hornLC;
+# baseClass U <anchor 1148 1397> @hornLC;
+# baseClass circledotted <anchor 859 1047> @hornLC;
+# baseClass o <anchor 783 1047> @hornLC;
+# baseClass u <anchor 907 1068> @hornLC;
+
+# AP: _T
+markClass [TifConsLengthMark TifConsLengthMark.alt TifVowelMark] <anchor 0 1393> @_T;
+
+# AP: aboveLC
+@aboveLC = [a ae c circledotted dotlessi dotlessj e eng n p eturned schwa g gammalatin i j m o oslash oe q r s t u v w x y z];
+@aboveLC_MarkBase = [circumflexcmb dieresiscmb dotaccentcmb macroncmb overlinecmb];
+# baseClass a <anchor 582 1093> @aboveLC;
+# baseClass ae <anchor 857 1093> @aboveLC;
+# baseClass c <anchor 586 1093> @aboveLC;
+# baseClass circledotted <anchor 612 1093> @aboveLC;
+# baseClass dotlessi <anchor 291 1093> @aboveLC;
+# baseClass dotlessj <anchor 293 1093> @aboveLC;
+# baseClass e <anchor 565 1093> @aboveLC;
+# baseClass [eng n p] <anchor 658 1093> @aboveLC;
+# baseClass [eturned schwa] <anchor 540 1093> @aboveLC;
+# baseClass g <anchor 572 1093> @aboveLC;
+# baseClass gammalatin <anchor 544 1093> @aboveLC;
+# baseClass [i j] <anchor 289 1500> @aboveLC;
+# baseClass m <anchor 933 1093> @aboveLC;
+# baseClass [o oslash] <anchor 584 1093> @aboveLC;
+# baseClass oe <anchor 916 1093> @aboveLC;
+# baseClass q <anchor 616 1093> @aboveLC;
+# baseClass r <anchor 523 1093> @aboveLC;
+# baseClass s <anchor 489 1093> @aboveLC;
+# baseClass t <anchor 358 1386> @aboveLC;
+# baseClass u <anchor 599 1093> @aboveLC;
+# baseClass v <anchor 553 1093> @aboveLC;
+# baseClass w <anchor 816 1093> @aboveLC;
+# baseClass x <anchor 538 1093> @aboveLC;
+# baseClass y <anchor 561 1093> @aboveLC;
+# baseClass z <anchor 515 1093> @aboveLC;
+# baseClass circumflexcmb <anchor 0 1557> @aboveLC_MarkBase;
+# baseClass [dieresiscmb dotaccentcmb] <anchor 0 1517> @aboveLC_MarkBase;
+# baseClass [macroncmb overlinecmb] <anchor 0 1456> @aboveLC_MarkBase;
+
+# AP: ogonekLC
+@ogonekLC = [a circledotted dotlessi i e eturned schwa o u];
+# baseClass a <anchor 791 0> @ogonekLC;
+# baseClass circledotted <anchor 612 0> @ogonekLC;
+# baseClass [dotlessi i] <anchor 278 0> @ogonekLC;
+# baseClass e <anchor 751 0> @ogonekLC;
+# baseClass [eturned schwa] <anchor 529 0> @ogonekLC;
+# baseClass o <anchor 584 0> @ogonekLC;
+# baseClass u <anchor 867 0> @ogonekLC;
+
+# AP: _aboveUC
+markClass [acutecmb.cap brevecmb.cap caroncmb.cap circumflexcmb.cap dieresiscmb.cap gravecmb.cap ringcmb.cap tildecmb.cap] <anchor 0 1422> @_aboveUC;
+
+# AP: _aboveLC
+markClass [acutecomb brevecmb caroncmb circumflexcmb dieresiscmb dotaccentcmb gravecomb hungarumlautcmb macroncmb overlinecmb ringcmb tildecomb] <anchor 0 1093> @_aboveLC;
+
+# AP: _baseLC
+markClass [cedillacmb cedillacmb.cap] <anchor 0 0> @_baseLC;
+
+# AP: aboverightLC
+@aboverightLC = [circledotted];
+# baseClass circledotted <anchor 994 1093> @aboverightLC;
+
+# AP: center
+@center = [circledotted];
+# baseClass circledotted <anchor 612 523> @center;
+
+# AP: _belowLC
+markClass dotbelowcmb <anchor 0 -46> @_belowLC;
+
+# AP: _ogonekLC
+markClass ogonekcmb <anchor 0 0> @_ogonekLC;
+
+# AP: T
+@T = [yab-tifi yamyahLig-tifi yab-tifi.v01 yad-tifi yadd-tifi yatt-tifi.v01 yadd-tifi.rtl yadh-tifi yadh-tifi.v01 yadh-tifi.unused yat-tifi yaf-tifi yaf-tifi.v01 yaf-tifi.v02 yag-tifi yag-tifi.v01 yaghAyer-tifi yaghTuareg-tifi yaghh-tifi yaghh-tifi.v01 yaghh-tifi.v01.unused yagnTuareg-tifi yagnTuareg-tifi.v01 yah-tifi yas-tifi yah-tifi.v01 yahTuareg-tifi yaj-tifi yaj-tifi.v01 yakTuareg-tifi yakTuareg-tifi.orig yakTuareg-tifi.unused.001 yakTuareg-tifi.unused.002 yakTuareg-tifi.rtl yakhTuareg-tifi yal-tifi yal-tifi.raised yal-tifi.slant yam-tifi yamyatLig-tifi.v03 yam-tifi.rtl yan-tifi yan-tifi.raised yan-tifi.slant.rtl yangTuareg-tifi yaqTuareg-tifi yar-tifi yash-tifi yash-tifi.rtl yash-tifi.v01 yass-tifi yatt-tifi yatt-tifi.rtl yatt-tifi.v01.rtl yay-tifi yay-tifi.rtl yaz-tifi yazyatLig-tifi yaz-tifi.v01 yazyatLig-tifi.v01 yazTawellemet-tifi yazTawellemet-tifi.rtl yazhAhaggar-tifi yazhAhaggar-tifi.v01 yazhTuareg-tifi yazyatLig-tifi.rtl yi-tifi yi-tifi.rtl yiyatLig-tifi.rtl yo-tifi yo-tifi.super yu-tifi yu-tifi.v01];
+# baseClass [yab-tifi yamyahLig-tifi] <anchor 733 1393> @T;
+# baseClass yab-tifi.v01 <anchor 763 1393> @T;
+# baseClass yad-tifi <anchor 740 1393> @T;
+# baseClass [yadd-tifi yatt-tifi.v01] <anchor 653 1393> @T;
+# baseClass yadd-tifi.rtl <anchor 634 0> @T;
+# baseClass [yadh-tifi yadh-tifi.v01] <anchor 752 1393> @T;
+# baseClass [yadh-tifi.unused yat-tifi] <anchor 702 1393> @T;
+# baseClass yaf-tifi <anchor 924 1393> @T;
+# baseClass yaf-tifi.v01 <anchor 610 1393> @T;
+# baseClass yaf-tifi.v02 <anchor 674 1393> @T;
+# baseClass yag-tifi <anchor 576 1393> @T;
+# baseClass yag-tifi.v01 <anchor 567 1393> @T;
+# baseClass yaghAyer-tifi <anchor 703 1393> @T;
+# baseClass yaghTuareg-tifi <anchor 365 1233> @T;
+# baseClass yaghh-tifi <anchor 568 1393> @T;
+# baseClass yaghh-tifi.v01 <anchor 549 1393> @T;
+# baseClass yaghh-tifi.v01.unused <anchor 538 1393> @T;
+# baseClass [yagnTuareg-tifi yagnTuareg-tifi.v01] <anchor 591 1393> @T;
+# baseClass [yah-tifi yas-tifi] <anchor 736 1393> @T;
+# baseClass yah-tifi.v01 <anchor 778 1393> @T;
+# baseClass yahTuareg-tifi <anchor 364 1458> @T;
+# baseClass [yaj-tifi yaj-tifi.v01] <anchor 654 1393> @T;
+# baseClass yakTuareg-tifi <anchor 598 1100> @T;
+# baseClass [yakTuareg-tifi.orig yakTuareg-tifi.unused.001 yakTuareg-tifi.unused.002] <anchor 578 1100> @T;
+# baseClass yakTuareg-tifi.rtl <anchor 438 1100> @T;
+# baseClass yakhTuareg-tifi <anchor 681 1171> @T;
+# baseClass yal-tifi <anchor 619 1393> @T;
+# baseClass yal-tifi.raised <anchor 620 1393> @T;
+# baseClass yal-tifi.slant <anchor 602 1393> @T;
+# baseClass [yam-tifi yamyatLig-tifi.v03] <anchor 710 1393> @T;
+# baseClass yam-tifi.rtl <anchor 611 1393> @T;
+# baseClass yan-tifi <anchor 362 1393> @T;
+# baseClass yan-tifi.raised <anchor 298 1393> @T;
+# baseClass yan-tifi.slant.rtl <anchor 657 0> @T;
+# baseClass yangTuareg-tifi <anchor 379 1393> @T;
+# baseClass yaqTuareg-tifi <anchor 778 820> @T;
+# baseClass yar-tifi <anchor 734 1393> @T;
+# baseClass yash-tifi <anchor 636 1393> @T;
+# baseClass yash-tifi.rtl <anchor 376 1393> @T;
+# baseClass yash-tifi.v01 <anchor 562 1393> @T;
+# baseClass yass-tifi <anchor 835 1393> @T;
+# baseClass yatt-tifi <anchor 670 1393> @T;
+# baseClass yatt-tifi.rtl <anchor 618 1393> @T;
+# baseClass yatt-tifi.v01.rtl <anchor 643 1393> @T;
+# baseClass yay-tifi <anchor 590 1393> @T;
+# baseClass yay-tifi.rtl <anchor 642 1393> @T;
+# baseClass [yaz-tifi yazyatLig-tifi] <anchor 614 1393> @T;
+# baseClass [yaz-tifi.v01 yazyatLig-tifi.v01] <anchor 644 1393> @T;
+# baseClass yazTawellemet-tifi <anchor 557 1393> @T;
+# baseClass yazTawellemet-tifi.rtl <anchor 491 1393> @T;
+# baseClass yazhAhaggar-tifi <anchor 583 1393> @T;
+# baseClass yazhAhaggar-tifi.v01 <anchor 679 1393> @T;
+# baseClass yazhTuareg-tifi <anchor 825 1393> @T;
+# baseClass yazyatLig-tifi.rtl <anchor 974 1393> @T;
+# baseClass yi-tifi <anchor 575 1393> @T;
+# baseClass yi-tifi.rtl <anchor 580 1393> @T;
+# baseClass yiyatLig-tifi.rtl <anchor 848 1393> @T;
+# baseClass yo-tifi <anchor 778 850> @T;
+# baseClass yo-tifi.super <anchor 571 1596> @T;
+# baseClass yu-tifi <anchor 365 1057> @T;
+# baseClass yu-tifi.v01 <anchor 427 984> @T;
+#**********************************
+#  Language Systems
+#**********************************
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem tfng dflt;
+#**********************************
+#  GDEF Classes
+#**********************************
+table GDEF {
+    GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;
+
+#**********************************
+#  GSUB Lookups
+#**********************************
+# The following is a debugging tool so you can find out whether the app is rendering with OpenType or not.
+# The string "RenderingUnknown" will be rendered as "RenderingOpenType":
+lookup _FontCheck1_target {
+    lookupflag IgnoreMarks;
+    sub U n k n o w n by O;
+} _FontCheck1_target;
+
+lookup FontCheck1 {
+    lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g U' lookup _FontCheck1_target n' k' n' o' w' n';
+} FontCheck1;
+
+lookup _FontCheck2_target {
+    lookupflag IgnoreMarks;
+    sub O by O p e n T y p e;
+} _FontCheck2_target;
+
+lookup FontCheck2 {
+    lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g O' lookup _FontCheck2_target;
+} FontCheck2;
+
+# SIL vowels for Tawallamat
+lookup TfnSILvowels {
+    lookupflag 0;
+    sub ya-tifi circumflexcmb by yaSILa-tifi;
+    # SIL vowel A
+    sub ya-tifi brevecmb by yaSILschwa-tifi;
+    # SIL vowel schwa
+    sub yay-tifi circumflexcmb by yaySILe-tifi;
+    # SIL vowel E
+    sub yay-tifi dotbelowcmb by yaySILi-tifi;
+    # SIL vowel I
+    sub yo-tifi circumflexcmb by yoSILo-tifi;
+    # SIL vowel O
+    sub yu-tifi circumflexcmb by yuSILu-tifi;
+    # SIL vowel U
+} TfnSILvowels;
+
+lookup TfnCharacterVariant01 {
+    lookupflag 0;
+    sub ya-tifi by ya-tifi.v01;
+} TfnCharacterVariant01;
+
+lookup TfnCharacterVariant02 {
+    lookupflag 0;
+    sub yaf-tifi from [yaf-tifi.v01 yaf-tifi.v02];
+} TfnCharacterVariant02;
+
+# For ss02 only
+lookup TfnStylisticSet02 {
+    lookupflag 0;
+    sub yaf-tifi by yaf-tifi.v01;
+} TfnStylisticSet02;
+
+lookup TfnCharacterVariant03 {
+    lookupflag 0;
+    sub yaghh-tifi by yaghh-tifi.v01;
+} TfnCharacterVariant03;
+
+lookup TfnCharacterVariant04 {
+    lookupflag 0;
+    sub yagnTuareg-tifi by yagnTuareg-tifi.v01;
+} TfnCharacterVariant04;
+
+lookup TfnCharacterVariant05 {
+    lookupflag 0;
+    sub yu-tifi by yu-tifi.v01;
+} TfnCharacterVariant05;
+
+lookup TfnCharacterVariant06 {
+    lookupflag 0;
+    sub yaz-tifi by yaz-tifi.v01;
+} TfnCharacterVariant06;
+
+lookup TfnCharacterVariant07 {
+    lookupflag 0;
+    sub yazhAhaggar-tifi by yazhAhaggar-tifi.v01;
+} TfnCharacterVariant07;
+
+lookup TfnCharacterVariant08 {
+    lookupflag 0;
+    sub yab-tifi by yab-tifi.v01;
+} TfnCharacterVariant08;
+
+lookup TfnCharacterVariant09 {
+    lookupflag 0;
+    sub yag-tifi by yag-tifi.v01;
+} TfnCharacterVariant09;
+
+lookup TfnCharacterVariant10 {
+    lookupflag 0;
+    sub yaj-tifi by yaj-tifi.v01;
+} TfnCharacterVariant10;
+
+lookup TfnCharacterVariant11 {
+    lookupflag 0;
+    sub yah-tifi by yah-tifi.v01;
+} TfnCharacterVariant11;
+
+lookup TfnCharacterVariant12 {
+    lookupflag 0;
+    sub [yash-tifi yash-tifi.rtl] by yash-tifi.v01;
+} TfnCharacterVariant12;
+
+lookup TfnCharacterVariant13 {
+    lookupflag 0;
+    sub yatt-tifi by yatt-tifi.v01;
+    sub yatt-tifi.rtl by yatt-tifi.v01.rtl;
+} TfnCharacterVariant13;
+
+# Used for ss14 feature. Use cv02=2 for Character Variant feature. See lookup rule in lookup TfnCharacterVariant02.
+lookup TfnStylisticSet14 {
+    lookupflag 0;
+    sub yaf-tifi by yaf-tifi.v02;
+} TfnStylisticSet14;
+
+lookup TfnCharacterVariant15 {
+    lookupflag 0;
+    sub yadh-tifi by yadh-tifi.v01;
+} TfnCharacterVariant15;
+
+lookup TfnSlant_target {
+    #linked to feature cv19
+    lookupflag 0;
+    sub yan-tifi by yan-tifi.slant;
+    sub yal-tifi by yal-tifi.slant;
+    sub yan-tifi.raised by yan-tifi.slant.rtl;
+    sub yal-tifi.raised by yal-tifi.slant.rtl;
+} TfnSlant_target;
+
+lookup TfnCharacterVariant19 {
+    lookupflag 0;
+    sub @cno_slant [yan-tifi yal-tifi yan-tifi.raised yal-tifi.raised]' lookup TfnSlant_target;
+    # slanted YAL and YAN
+} TfnCharacterVariant19;
+
+lookup TfnCharacterVariant20 {
+    # from publications circa 1954
+    lookupflag 0;
+    sub comma by comma.deco;
+    sub exclam by exclam.deco;
+    sub period by period.deco;
+} TfnCharacterVariant20;
+
+# this lookup is used by Harfbuzz for right to left glyph substitution 
+#      when the string is preceded by a U+202E character
+lookup TfnRTLalt {
+    lookupflag RightToLeft;
+    sub yadd-tifi by yadd-tifi.rtl;
+    #uni2D39
+    sub yakTuareg-tifi by yakTuareg-tifi.rtl;
+    #uni2D3E
+    sub yi-tifi by yi-tifi.rtl;
+    #uni2D49
+    sub yam-tifi by yam-tifi.rtl;
+    #uni2D4E
+    sub yash-tifi by yash-tifi.rtl;
+    #uni2D5B
+    sub yatt-tifi by yatt-tifi.rtl;
+    #uni2D5F
+    sub yatt-tifi.v01 by yatt-tifi.v01.rtl;
+    #uni2D5F.v01
+    sub yay-tifi by yay-tifi.rtl;
+    #uni2D62
+    sub yazTawellemet-tifi by yazTawellemet-tifi.rtl;
+    #uni2D64
+    sub separator-tifi by separator-tifi.rtl;
+    #uni2D70
+    sub consonantjoiner-tifi by consonantjoiner-tifi.rtl;
+    #uni2D7F
+    sub yay-tifi.super by yay-tifi.super.rtl;
+    #uniE302
+    sub yi-tifi.super by yi-tifi.super.rtl;
+    #uniE303
+    sub yal-tifi.slant by yal-tifi.slant.rtl;
+    #uni2D4D
+    sub yan-tifi.slant by yan-tifi.slant.rtl;
+    #uni2D4F
+} TfnRTLalt;
+
+# this lookup is used by Harfbuzz for right to left ligatures
+# NB: Last character in ligature comes first in the rule.
+lookup TfnBiconsonants_RTL {
+    lookupflag RightToLeft;
+    # tri-consonant (Tawallammat Tamjaq)
+    # sub yat-tifi  yaf-tifi  consonantjoiner-tifi.rtl  yat-tifi  consonantjoiner-tifi.rtl by yanyafyatLig-tifi ; 
+    sub yat-tifi yab-tifi consonantjoiner-tifi.rtl by yabyatLig-tifi.rtl;
+    sub yat-tifi yah-tifi consonantjoiner-tifi.rtl by yahyatLig-tifi.rtl;
+    sub yat-tifi yar-tifi consonantjoiner-tifi.rtl by yaryatLig-tifi.rtl;
+    sub yat-tifi yas-tifi consonantjoiner-tifi.rtl by yasyatLig-tifi.rtl;
+    sub yat-tifi yam-tifi.rtl consonantjoiner-tifi.rtl by yamyatLig-tifi.rtl;
+    sub yat-tifi yaf-tifi consonantjoiner-tifi.rtl by yafyatLig-tifi.rtl;
+    sub yat-tifi yaf-tifi.v01 consonantjoiner-tifi.rtl by yafyatLig-tifi.v01.rtl;
+    sub yat-tifi yi-tifi.rtl consonantjoiner-tifi.rtl by yiyatLig-tifi.rtl;
+    sub yat-tifi yaghh-tifi consonantjoiner-tifi.rtl by yaghhyatLig-tifi.rtl;
+    sub yat-tifi yaghh-tifi.v01 consonantjoiner-tifi.rtl by yaghhyatLig-tifi.v01.rtl;
+    sub yat-tifi yaj-tifi consonantjoiner-tifi.rtl by yajyatLig-tifi.rtl;
+    sub yat-tifi yan-tifi consonantjoiner-tifi.rtl by yanyatLig-tifi.rtl;
+    sub yat-tifi yal-tifi consonantjoiner-tifi.rtl by yalyatLig-tifi.rtl;
+    sub yat-tifi yash-tifi.rtl consonantjoiner-tifi.rtl by yashyatLig-tifi.rtl;
+    sub yat-tifi yu-tifi consonantjoiner-tifi.rtl by yuyatLig-tifi.rtl;
+    sub yat-tifi yu-tifi.v01 consonantjoiner-tifi.rtl by yuyatLig-tifi.v02.rtl;
+    sub yat-tifi yazhTuareg-tifi consonantjoiner-tifi.rtl by yazhTuaregyatLig-tifi.rtl;
+    sub yat-tifi yaz-tifi.v01 consonantjoiner-tifi.rtl by yazyatLig-tifi.v01.rtl;
+    sub yat-tifi yaz-tifi consonantjoiner-tifi.rtl by yazyatLig-tifi.rtl;
+    sub yat-tifi yazhAhaggar-tifi consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.rtl;
+    sub yat-tifi yazhAhaggar-tifi.v01 consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.v01.rtl;
+    sub yakTuareg-tifi.rtl yar-tifi consonantjoiner-tifi.rtl by yaryakTuaregLig-tifi;
+    sub yakTuareg-tifi.rtl yas-tifi consonantjoiner-tifi.rtl by yasyakTuaregLig-tifi;
+    sub yakTuareg-tifi.rtl yan-tifi consonantjoiner-tifi.rtl by yanyakTuaregLig-tifi;
+    sub yakTuareg-tifi.rtl yash-tifi.rtl consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.rtl;
+    sub yakTuareg-tifi.rtl yash-tifi.v01 consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.v02;
+    sub yakTuareg-tifi.rtl yal-tifi consonantjoiner-tifi.rtl by yalyakTuaregLig-tifi;
+    sub yah-tifi yam-tifi.rtl consonantjoiner-tifi.rtl by yamyahLig-tifi;
+    sub yas-tifi yam-tifi.rtl consonantjoiner-tifi.rtl by yamyasLig-tifi.rtl;
+    sub yas-tifi yan-tifi consonantjoiner-tifi.rtl by yanyasLig-tifi.rtl;
+    sub yad-tifi yan-tifi consonantjoiner-tifi.rtl by yanyadLig-tifi;
+    sub yadh-tifi yan-tifi consonantjoiner-tifi.rtl by yanyadhLig-tifi;
+    sub yadd-tifi.rtl yan-tifi consonantjoiner-tifi.rtl by yanyaddLig-tifi;
+    sub yaf-tifi yan-tifi consonantjoiner-tifi.rtl by yanyafLig-tifi;
+    sub yaf-tifi.v01 yan-tifi consonantjoiner-tifi.rtl by yanyafLig-tifi.v01;
+    sub yaghTuareg-tifi yan-tifi consonantjoiner-tifi.rtl by yanyaghTuaregLig-tifi.rtl;
+    sub yazhTuareg-tifi yan-tifi consonantjoiner-tifi.rtl by yanyazhTuaregLig-tifi;
+    sub yaghh-tifi yan-tifi consonantjoiner-tifi.rtl by yanyaghhLig-tifi;
+    sub yaghh-tifi.v01 yan-tifi consonantjoiner-tifi.rtl by yanyaghhLig-tifi.v01;
+    sub yaj-tifi yan-tifi consonantjoiner-tifi.rtl by yanyajLig-tifi;
+    sub yash-tifi.rtl yan-tifi consonantjoiner-tifi.rtl by yanyashLig-tifi.rtl;
+    sub yazTawellemet-tifi.rtl yan-tifi consonantjoiner-tifi.rtl by yanyazTawellemetLig-tifi.rtl;
+    sub yan-tifi yar-tifi consonantjoiner-tifi.rtl by yaryanLig-tifi;
+    sub yan-tifi yas-tifi consonantjoiner-tifi.rtl by yasyanLig-tifi;
+    sub yan-tifi yash-tifi.rtl consonantjoiner-tifi.rtl by yashyanLig-tifi.rtl;
+    sub yan-tifi yash-tifi.v01 consonantjoiner-tifi.rtl by yashyanLig-tifi.v01;
+} TfnBiconsonants_RTL;
+
+# as of Jan. 2020 - this lookup is used by DirectWrite for right to left ligatures
+# NB: Right to left characters must be the listed in the cmap (using typetuner)
+#     for this to work
+lookup TfnBiconsonants_RTL_DW {
+    lookupflag 0;
+    # tri-consonant (Tawallammat Tamjaq)
+    sub yan-tifi consonantjoiner-tifi.rtl yaf-tifi consonantjoiner-tifi.rtl yat-tifi by yanyafyatLig-tifi;
+    sub yab-tifi consonantjoiner-tifi.rtl yat-tifi by yabyatLig-tifi.rtl;
+    sub yah-tifi consonantjoiner-tifi.rtl yat-tifi by yahyatLig-tifi.rtl;
+    sub yar-tifi consonantjoiner-tifi.rtl yat-tifi by yaryatLig-tifi.rtl;
+    sub yas-tifi consonantjoiner-tifi.rtl yat-tifi by yasyatLig-tifi.rtl;
+    sub yam-tifi.rtl consonantjoiner-tifi.rtl yat-tifi by yamyatLig-tifi.rtl;
+    sub yaf-tifi consonantjoiner-tifi.rtl yat-tifi by yafyatLig-tifi.rtl;
+    sub yaf-tifi.v01 consonantjoiner-tifi.rtl yat-tifi by yafyatLig-tifi.v01.rtl;
+    sub yi-tifi.rtl consonantjoiner-tifi.rtl yat-tifi by yiyatLig-tifi.rtl;
+    sub yaghh-tifi consonantjoiner-tifi.rtl yat-tifi by yaghhyatLig-tifi.rtl;
+    sub yaghh-tifi.v01 consonantjoiner-tifi.rtl yat-tifi by yaghhyatLig-tifi.v01.rtl;
+    sub yaj-tifi consonantjoiner-tifi.rtl yat-tifi by yajyatLig-tifi.rtl;
+    sub yan-tifi consonantjoiner-tifi.rtl yat-tifi by yanyatLig-tifi.rtl;
+    sub yal-tifi consonantjoiner-tifi.rtl yat-tifi by yalyatLig-tifi.rtl;
+    sub yash-tifi.rtl consonantjoiner-tifi.rtl yat-tifi by yashyatLig-tifi.rtl;
+    sub yu-tifi consonantjoiner-tifi.rtl yat-tifi by yuyatLig-tifi.rtl;
+    sub yu-tifi.v01 consonantjoiner-tifi.rtl yat-tifi by yuyatLig-tifi.v02.rtl;
+    sub yazhTuareg-tifi consonantjoiner-tifi.rtl yat-tifi by yazhTuaregyatLig-tifi.rtl;
+    sub yaz-tifi.v01 consonantjoiner-tifi.rtl yat-tifi by yazyatLig-tifi.v01.rtl;
+    sub yaz-tifi consonantjoiner-tifi.rtl yat-tifi by yazyatLig-tifi.rtl;
+    sub yazhAhaggar-tifi consonantjoiner-tifi.rtl yat-tifi by yazhAhaggaryatLig-tifi.rtl;
+    sub yazhAhaggar-tifi.v01 consonantjoiner-tifi.rtl yat-tifi by yazhAhaggaryatLig-tifi.v01.rtl;
+    sub yar-tifi consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yaryakTuaregLig-tifi;
+    sub yas-tifi consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yasyakTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yanyakTuaregLig-tifi;
+    sub yash-tifi.rtl consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yashyakTuaregLig-tifi.rtl;
+    sub yash-tifi.v01 consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yashyakTuaregLig-tifi.v02;
+    sub yal-tifi consonantjoiner-tifi.rtl yakTuareg-tifi.rtl by yalyakTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yas-tifi by yanyasLig-tifi.rtl;
+    sub yan-tifi consonantjoiner-tifi.rtl yad-tifi by yanyadLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yadh-tifi by yanyadhLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yadd-tifi.rtl by yanyaddLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yaf-tifi by yanyafLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yaf-tifi.v01 by yanyafLig-tifi.v01;
+    sub yan-tifi consonantjoiner-tifi.rtl yaghTuareg-tifi by yanyaghTuaregLig-tifi.rtl;
+    sub yan-tifi consonantjoiner-tifi.rtl yazhTuareg-tifi by yanyazhTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yaghh-tifi by yanyaghhLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yaghh-tifi.v01 by yanyaghhLig-tifi.v01;
+    sub yan-tifi consonantjoiner-tifi.rtl yaj-tifi by yanyajLig-tifi;
+    sub yan-tifi consonantjoiner-tifi.rtl yash-tifi.rtl by yanyashLig-tifi.rtl;
+    sub yan-tifi consonantjoiner-tifi.rtl yazTawellemet-tifi.rtl by yanyazTawellemetLig-tifi.rtl;
+    sub yam-tifi.rtl consonantjoiner-tifi.rtl yah-tifi by yamyahLig-tifi;
+    sub yam-tifi.rtl consonantjoiner-tifi.rtl yas-tifi by yamyasLig-tifi.rtl;
+    sub yar-tifi consonantjoiner-tifi.rtl yan-tifi by yaryanLig-tifi;
+    sub yas-tifi consonantjoiner-tifi.rtl yan-tifi by yasyanLig-tifi;
+    sub yash-tifi.rtl consonantjoiner-tifi.rtl yan-tifi by yashyanLig-tifi.rtl;
+    sub yash-tifi.v01 consonantjoiner-tifi.rtl yan-tifi by yashyanLig-tifi.v01;
+} TfnBiconsonants_RTL_DW;
+
+lookup TfnBiconsonants {
+    lookupflag 0;
+    sub yab-tifi consonantjoiner-tifi yat-tifi by yabyatLig-tifi;
+    sub yah-tifi consonantjoiner-tifi yat-tifi by yahyatLig-tifi;
+    sub yar-tifi consonantjoiner-tifi yakTuareg-tifi by yaryakTuaregLig-tifi;
+    sub yar-tifi consonantjoiner-tifi yat-tifi by yaryatLig-tifi;
+    sub yar-tifi consonantjoiner-tifi yan-tifi by yaryanLig-tifi;
+    sub yas-tifi consonantjoiner-tifi yakTuareg-tifi by yasyakTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yaghTuareg-tifi by yanyaghTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yadd-tifi by yanyaddLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yas-tifi by yanyasLig-tifi;
+    sub yas-tifi consonantjoiner-tifi yat-tifi by yasyatLig-tifi;
+    sub yas-tifi consonantjoiner-tifi yan-tifi by yasyanLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yad-tifi by yanyadLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yadh-tifi by yanyadhLig-tifi;
+    sub yam-tifi consonantjoiner-tifi yah-tifi by yamyahLig-tifi;
+    sub yam-tifi consonantjoiner-tifi yat-tifi by yamyatLig-tifi;
+    sub yam-tifi consonantjoiner-tifi yas-tifi by yamyasLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yaf-tifi by yanyafLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yaf-tifi.v01 by yanyafLig-tifi.v01;
+    sub yaf-tifi consonantjoiner-tifi yat-tifi by yafyatLig-tifi;
+    sub yaf-tifi.v01 consonantjoiner-tifi yat-tifi by yafyatLig-tifi.v01;
+    sub yi-tifi consonantjoiner-tifi yat-tifi by yiyatLig-tifi;
+    sub yaghh-tifi consonantjoiner-tifi yat-tifi by yaghhyatLig-tifi;
+    sub yaghh-tifi.v01 consonantjoiner-tifi yat-tifi by yaghhyatLig-tifi.v01;
+    sub yan-tifi consonantjoiner-tifi yaghh-tifi by yanyaghhLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yaghh-tifi.v01 by yanyaghhLig-tifi.v01;
+    sub yan-tifi consonantjoiner-tifi yaj-tifi by yanyajLig-tifi;
+    sub yaj-tifi consonantjoiner-tifi yat-tifi by yajyatLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yakTuareg-tifi by yanyakTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yat-tifi by yanyatLig-tifi;
+    sub yal-tifi consonantjoiner-tifi yakTuareg-tifi by yalyakTuaregLig-tifi;
+    sub yal-tifi consonantjoiner-tifi yat-tifi by yalyatLig-tifi;
+    sub yash-tifi consonantjoiner-tifi yakTuareg-tifi by yashyakTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yash-tifi by yanyashLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yash-tifi.v01 by yanyashLig-tifi.v01;
+    sub yan-tifi consonantjoiner-tifi yazhTuareg-tifi by yanyazhTuaregLig-tifi;
+    sub yan-tifi consonantjoiner-tifi yazTawellemet-tifi by yanyazTawellemetLig-tifi;
+    sub yash-tifi consonantjoiner-tifi yat-tifi by yashyatLig-tifi;
+    sub yash-tifi consonantjoiner-tifi yan-tifi by yashyanLig-tifi;
+    sub yash-tifi.v01 consonantjoiner-tifi yan-tifi by yashyanLig-tifi.v01;
+    sub yash-tifi.v01 consonantjoiner-tifi yakTuareg-tifi by yashyakTuaregLig-tifi.v02;
+    sub yu-tifi consonantjoiner-tifi yat-tifi by yuyatLig-tifi;
+    sub yu-tifi.v01 consonantjoiner-tifi yat-tifi by yuyatLig-tifi.v02;
+    sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuaregyatLig-tifi;
+    sub yaz-tifi consonantjoiner-tifi yat-tifi by yazyatLig-tifi;
+    sub yaz-tifi.v01 consonantjoiner-tifi yat-tifi by yazyatLig-tifi.v01;
+    sub yazhAhaggar-tifi consonantjoiner-tifi yat-tifi by yazhAhaggaryatLig-tifi;
+    sub yazhAhaggar-tifi.v01 consonantjoiner-tifi yat-tifi by yazhAhaggaryatLig-tifi.v01;
+    # tri-consonant (Tawallammat Tamjaq)
+    # sub yan-tifi  consonantjoiner-tifi yaf-tifi  consonantjoiner-tifi yat-tifi  by yanyafyatLig-tifi ;
+} TfnBiconsonants;
+
+# lookup TfnSlant_target { *changed to a feature - see cv19
+#   lookupflag 0 ;
+#     sub yan-tifi by yan-tifi.slant ;
+#     sub yal-tifi by yal-tifi.slant ;
+# } TfnSlant_target ;
+# 
+# lookup TfnSlant {
+#   lookupflag 0 ;
+#     sub @cno_slant [ yan-tifi yal-tifi ]' lookup TfnSlant_target ;
+# } TfnSlant;
+lookup TfnRaisedRTL_target {
+    lookupflag RightToLeft;
+    sub yan-tifi by yan-tifi.raised;
+    sub yal-tifi by yal-tifi.raised;
+} TfnRaisedRTL_target;
+
+lookup TfnRaisedRTL {
+    lookupflag RightToLeft;
+    ignore sub [yan-tifi yal-tifi]' [yan-tifi yal-tifi] [yan-tifi yal-tifi];
+    # prevent substitution of third in sequence
+    sub [yan-tifi yal-tifi]' lookup TfnRaisedRTL_target [yan-tifi yal-tifi];
+} TfnRaisedRTL;
+
+lookup TfnRaised_target {
+    lookupflag 0;
+    sub yan-tifi by yan-tifi.raised;
+    sub yal-tifi by yal-tifi.raised;
+} TfnRaised_target;
+
+lookup TfnRaised {
+    lookupflag 0;
+    sub [yan-tifi yal-tifi] [yan-tifi yal-tifi]' lookup TfnRaised_target;
+} TfnRaised;
+
+lookup TfnCharacterVariant31 {
+    lookupflag 0;
+    sub yabyatLig-tifi by yabyatLig-tifi.v01;
+    sub yabyatLig-tifi.rtl by yabyatLig-tifi.v01;
+    #  no RTL - v01
+} TfnCharacterVariant31;
+
+lookup TfnCharacterVariant32 {
+    lookupflag 0;
+    sub yaryatLig-tifi from [yaryatLig-tifi.v01 yaryatLig-tifi.v02];
+    sub yaryatLig-tifi.rtl from [yaryatLig-tifi.v01 yaryatLig-tifi.v02];
+    #  no RTL - v01, v02
+} TfnCharacterVariant32;
+
+lookup TfnCharacterVariant32_1 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yaryatLig-tifi by yaryatLig-tifi.v01;
+    sub yaryatLig-tifi.rtl by yaryatLig-tifi.v01;
+} TfnCharacterVariant32_1;
+
+lookup TfnCharacterVariant32_2 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yaryatLig-tifi by yaryatLig-tifi.v02;
+    sub yaryatLig-tifi.rtl by yaryatLig-tifi.v02;
+} TfnCharacterVariant32_2;
+
+lookup TfnCharacterVariant33 {
+    lookupflag 0;
+    sub yasyatLig-tifi from [yasyatLig-tifi.v01 yasyatLig-tifi.v02 yasyatLig-tifi.v03];
+    sub yasyatLig-tifi.rtl from [yasyatLig-tifi.v01.rtl yasyatLig-tifi.v02.rtl yasyatLig-tifi.v03.rtl];
+} TfnCharacterVariant33;
+
+lookup TfnCharacterVariant33_1 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yasyatLig-tifi by yasyatLig-tifi.v01;
+    sub yasyatLig-tifi.rtl by yasyatLig-tifi.v01.rtl;
+} TfnCharacterVariant33_1;
+
+lookup TfnCharacterVariant33_2 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yasyatLig-tifi by yasyatLig-tifi.v02;
+    sub yasyatLig-tifi.rtl by yasyatLig-tifi.v02.rtl;
+} TfnCharacterVariant33_2;
+
+lookup TfnCharacterVariant34 {
+    lookupflag 0;
+    sub yamyatLig-tifi from [yamyatLig-tifi.v01 yamyatLig-tifi.v02 yamyatLig-tifi.v03];
+    sub yamyatLig-tifi.rtl from [yamyatLig-tifi.v01.rtl yamyatLig-tifi.v02.rtl yamyatLig-tifi.v03.rtl];
+} TfnCharacterVariant34;
+
+lookup TfnCharacterVariant35 {
+    lookupflag 0;
+    sub yafyatLig-tifi from [yafyatLig-tifi.v02 yafyatLig-tifi.v03 yafyatLig-tifi.v04];
+    sub yafyatLig-tifi.rtl from [yafyatLig-tifi.v02.rtl yafyatLig-tifi.v03 yafyatLig-tifi.v04];
+    #  no RTL - v03 and v04
+} TfnCharacterVariant35;
+
+lookup TfnCharacterVariant36 {
+    lookupflag 0;
+    sub yanyakTuaregLig-tifi by yanyakTuaregLig-tifi.v01;
+} TfnCharacterVariant36;
+
+lookup TfnCharacterVariant37 {
+    lookupflag 0;
+    sub yanyatLig-tifi from [yanyatLig-tifi.v01 yanyatLig-tifi.v02];
+    sub yanyatLig-tifi.rtl from [yanyatLig-tifi.v01.rtl yanyatLig-tifi.v02];
+    #  no RTL - v02
+} TfnCharacterVariant37;
+
+lookup TfnCharacterVariant37_1 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yanyatLig-tifi by yanyatLig-tifi.v01;
+    sub yanyatLig-tifi.rtl by yanyatLig-tifi.v01.rtl;
+} TfnCharacterVariant37_1;
+
+lookup TfnCharacterVariant37_2 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yanyatLig-tifi by yanyatLig-tifi.v02;
+    sub yanyatLig-tifi.rtl by yanyatLig-tifi.v02;
+} TfnCharacterVariant37_2;
+
+lookup TfnCharacterVariant38 {
+    lookupflag 0;
+    sub yalyatLig-tifi from [yalyatLig-tifi.v01 yalyatLig-tifi.v02 yalyatLig-tifi.v03];
+    sub yalyatLig-tifi.rtl from [yalyatLig-tifi.v01 yalyatLig-tifi.v02 yalyatLig-tifi.v03];
+    #  no RTL - v01, v02, v03
+} TfnCharacterVariant38;
+
+lookup TfnCharacterVariant39 {
+    lookupflag 0;
+    sub yuyatLig-tifi from [yuyatLig-tifi.v01 yuyatLig-tifi.v03];
+    sub yuyatLig-tifi.rtl from [yuyatLig-tifi.v01.rtl yuyatLig-tifi.v03.rtl];
+} TfnCharacterVariant39;
+
+lookup TfnCharacterVariant40 {
+    lookupflag 0;
+    sub yazhTuaregyatLig-tifi from [yazhTuaregyatLig-tifi.v01 yazhTuaregyatLig-tifi.v02];
+    sub yazhTuaregyatLig-tifi.rtl from [yazhTuaregyatLig-tifi.v01.rtl yazhTuaregyatLig-tifi.v02];
+    #  no RTL - v02
+} TfnCharacterVariant40;
+
+lookup TfnCharacterVariant40_1 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yazhTuaregyatLig-tifi by yazhTuaregyatLig-tifi.v01;
+    sub yazhTuaregyatLig-tifi.rtl by yazhTuaregyatLig-tifi.v01.rtl;
+} TfnCharacterVariant40_1;
+
+lookup TfnCharacterVariant40_2 {
+    # for typetuner lookup only
+    lookupflag 0;
+    sub yazhTuaregyatLig-tifi by yazhTuaregyatLig-tifi.v02;
+    sub yazhTuaregyatLig-tifi.rtl by yazhTuaregyatLig-tifi.v02;
+} TfnCharacterVariant40_2;
+
+lookup TfnCharacterVariant41 {
+    lookupflag 0;
+    sub yanyadLig-tifi by yanyadLig-tifi.v01;
+} TfnCharacterVariant41;
+
+lookup TfnCharacterVariant42 {
+    lookupflag 0;
+    sub yanyafLig-tifi from [yanyafLig-tifi.v02 yanyafLig-tifi.v03];
+} TfnCharacterVariant42;
+
+lookup TfnCharacterVariant43 {
+    lookupflag 0;
+    sub yanyajLig-tifi by yanyajLig-tifi.v01;
+} TfnCharacterVariant43;
+
+lookup TfnCharacterVariant44 {
+    lookupflag 0;
+    sub yanyasLig-tifi by yanyasLig-tifi.v01;
+    sub yanyasLig-tifi.rtl by yanyasLig-tifi.v01.rtl;
+} TfnCharacterVariant44;
+
+lookup TfnCharacterVariant45 {
+    lookupflag 0;
+    sub yanyazhTuaregLig-tifi by yanyazhTuaregLig-tifi.v01;
+} TfnCharacterVariant45;
+
+lookup TfnCharacterVariant46 {
+    lookupflag 0;
+    sub yaryakTuaregLig-tifi by yaryakTuaregLig-tifi.v01;
+} TfnCharacterVariant46;
+
+lookup TfnCharacterVariant47 {
+    lookupflag 0;
+    sub yashyakTuaregLig-tifi from [yashyakTuaregLig-tifi.v01 yashyakTuaregLig-tifi.v03];
+    # v02 uses cv12=1
+    sub yashyakTuaregLig-tifi.rtl from [yashyakTuaregLig-tifi.v01.rtl yashyakTuaregLig-tifi.v03];
+    # v02 uses cv12=1
+} TfnCharacterVariant47;
+
+lookup TfnCharacterVariant48 {
+    lookupflag 0;
+    sub yashyatLig-tifi by yashyatLig-tifi.v01;
+    sub yashyatLig-tifi.rtl by yashyatLig-tifi.v01.rtl;
+} TfnCharacterVariant48;
+
+lookup TfnAllAlternates {
+    lookupflag 0;
+    sub ya-tifi from [ya-tifi.v01];
+    sub yabyatLig-tifi from [yabyatLig-tifi.v01];
+    sub yaghh-tifi from [yaghh-tifi.v01];
+    sub yaghhyatLig-tifi from [yaghhyatLig-tifi.v01];
+    sub yaf-tifi from [yaf-tifi.v01];
+    sub yafyatLig-tifi from [yafyatLig-tifi.v02 yafyatLig-tifi.v01];
+    sub yazhAhaggar-tifi from [yazhAhaggar-tifi.v01];
+    sub yazhAhaggaryatLig-tifi from [yazhAhaggaryatLig-tifi.v01];
+    sub yazhTuaregyatLig-tifi from [yazhTuaregyatLig-tifi.v01 yazhTuaregyatLig-tifi.v02];
+    sub yalyatLig-tifi from [yalyatLig-tifi.v01];
+    sub yamyatLig-tifi from [yamyatLig-tifi.v01];
+    sub yanyaghhLig-tifi from [yanyaghhLig-tifi.v01];
+    sub yanyafLig-tifi from [yanyafLig-tifi.v01];
+    sub yanyakTuaregLig-tifi from [yanyakTuaregLig-tifi.v01];
+    sub yanyatLig-tifi from [yanyatLig-tifi.v01 yanyatLig-tifi.v02];
+    sub yagnTuareg-tifi from [yagnTuareg-tifi.v01];
+    sub yu-tifi from [yu-tifi.v01];
+    sub yuyatLig-tifi from [yuyatLig-tifi.v01 yuyatLig-tifi.v02];
+    sub yaryatLig-tifi from [yaryatLig-tifi.v01 yaryatLig-tifi.v02];
+    sub yasyatLig-tifi from [yasyatLig-tifi.v01 yasyatLig-tifi.v02];
+    sub yaz-tifi from [yaz-tifi.v01];
+    sub yazyatLig-tifi from [yazyatLig-tifi.v01];
+} TfnAllAlternates;
+
+lookup TfnDiacriticSub {
+    lookupflag 0;
+    sub @cTakesTDia_base acutecomb' by TifConsLengthMark.alt;
+    sub @cTakesTDia_base tildecomb' by TifConsLengthMark;
+    sub @cTakesTDia_base dotaccentcmb' by TifVowelMark;
+    #backward compatibility with beta version
+    sub @cTakesTDia_base ringcmb' by TifVowelMark;
+} TfnDiacriticSub;
+
+#lookup LatnPunct {
+#  lookupflag 0 ;
+#    sub @cNoTif @cno_latin' by @c_latin ;
+#} LatnPunct;
+#**********************************
+#  GSUB Features
+#**********************************
+#feature aalt {  # Access All Alternates
+#    script DFLT;  # Default
+#        language dflt;  # Default
+#            lookup TfnAllAlternates;
+#    script tfng;  # Tifinagh
+#        language dflt;  # Default
+#            lookup TfnAllAlternates;
+#} aalt ;
+feature calt {
+    # Contextual Alternates
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnRaised;
+    lookup TfnDiacriticSub;
+    #            lookup LatnPunct;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnRaised;
+    lookup TfnDiacriticSub;
+    #            lookup LatnPunct;
+} calt;
+
+feature ccmp {
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup FontCheck1;
+    lookup FontCheck2;
+    script latn;
+    # Default
+    language dflt;
+    # Default
+    lookup FontCheck1;
+    lookup FontCheck2;
+} ccmp;
+
+feature cv01 {
+    # Character Variant 1
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YA";
+        };
+
+                ParamUILabelNameID {
+            name "empty circle";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant01;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant01;
+} cv01;
+
+feature cv02 {
+    # Character Variant 2
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAF";
+        };
+
+                ParamUILabelNameID {
+            name "I shape";
+        };
+
+                ParamUILabelNameID {
+            name "open top and bottom";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant02;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant02;
+} cv02;
+
+feature cv03 {
+    # Character Variant 3
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAGHH";
+        };
+
+                ParamUILabelNameID {
+            name "round bottom";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant03;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant03;
+} cv03;
+
+feature cv04 {
+    # Character Variant 4
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAGN";
+        };
+
+                ParamUILabelNameID {
+            name "lowered bottom stroke";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant04;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant04;
+} cv04;
+
+feature cv05 {
+    # Character Variant 5
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YU";
+        };
+
+                ParamUILabelNameID {
+            name "short strokes";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant05;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant05;
+} cv05;
+
+feature cv06 {
+    # Character Variant 6
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAZ";
+        };
+
+                ParamUILabelNameID {
+            name "squared";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant06;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant06;
+} cv06;
+
+feature cv07 {
+    # Character Variant 7
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate AHAGGAR YAZH";
+        };
+
+                ParamUILabelNameID {
+            name "squared";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant07;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant07;
+} cv07;
+
+feature cv08 {
+    # Character Variant 8
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAB";
+        };
+
+                ParamUILabelNameID {
+            name "rectangle style";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant08;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant08;
+} cv08;
+
+feature cv09 {
+    # Character Variant 9
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAG";
+        };
+
+                ParamUILabelNameID {
+            name "rounded top";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant09;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant09;
+} cv09;
+
+feature cv10 {
+    # Character Variant 10
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAJ";
+        };
+
+                ParamUILabelNameID {
+            name "lower dots";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant10;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant10;
+} cv10;
+
+feature cv11 {
+    # Character Variant 11
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAH";
+        };
+
+                ParamUILabelNameID {
+            name "rectangle style";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant11;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant11;
+} cv11;
+
+feature cv12 {
+    # Character Variant 12
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YASH";
+        };
+
+                ParamUILabelNameID {
+            name "8 shape";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant12;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant12;
+} cv12;
+
+feature cv13 {
+    # Character Variant 13
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YATT";
+        };
+
+                ParamUILabelNameID {
+            name "F shape";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant13;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant13;
+} cv13;
+
+# PLACEHOLDER
+# Use cv02=2 for equivalent Character Variant14 feature. See lookup rule in lookup TfnCharacterVariant02. Also used for ss14 feature.
+#feature cv14 {  # Character Variant 14
+#    cvParameters {
+#      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF" ; };
+#      ParamUILabelNameID { name 3 1 0x0409 "open top and bottom" ; };
+#    } ;
+#    script DFLT;  # Default
+#        language dflt;  # Default
+#            lookup TfnTfnStylisticSet14; # lookup for ss14
+#    script tfng;  # Tifinagh
+#        language dflt;  # Default
+#            lookup TfnTfnStylisticSet14; # lookup for ss14
+#} cv14 ;
+feature cv15 {
+    # Character Variant 15
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YADH";
+        };
+
+                ParamUILabelNameID {
+            name "rounded bottom";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant15;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant15;
+} cv15;
+
+feature cv19 {
+    # Character Variant 19
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAL and YAN";
+        };
+
+                ParamUILabelNameID {
+            name "slanted";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant19;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant19;
+} cv19;
+
+feature cv20 {
+    # Character Variant 20
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate punctuation";
+        };
+
+                ParamUILabelNameID {
+            name "comma exclam and period";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant20;
+    script latn;
+    # Latin
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant20;
+} cv20;
+
+feature cv31 {
+    # Character Variant 31
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAB YAT";
+        };
+
+                ParamUILabelNameID {
+            name "interior T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant31;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant31;
+} cv31;
+
+feature cv32 {
+    # Character Variant 32
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAR YAT";
+        };
+
+                ParamUILabelNameID {
+            name "large interior T";
+        };
+
+                ParamUILabelNameID {
+            name "small interior T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant32;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant32;
+} cv32;
+
+feature cv33 {
+    # Character Variant 33
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAS YAT";
+        };
+
+                ParamUILabelNameID {
+            name "large interior T lower dot";
+        };
+
+                ParamUILabelNameID {
+            name "small interior T";
+        };
+
+                ParamUILabelNameID {
+            name "large interior T upper dot";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant33;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant33;
+} cv33;
+
+feature cv34 {
+    # Character Variant 34
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAM YAT";
+        };
+
+                ParamUILabelNameID {
+            name "Mid exterior T";
+        };
+
+                ParamUILabelNameID {
+            name "Low interior T";
+        };
+
+                ParamUILabelNameID {
+            name "Center T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant34;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant34;
+} cv34;
+
+feature cv35 {
+    # Character Variant 35
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAF YAT";
+        };
+
+                ParamUILabelNameID {
+            name "middle T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant35;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant35;
+} cv35;
+
+feature cv36 {
+    # Character Variant 36
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN Tuareg YAK";
+        };
+
+                ParamUILabelNameID {
+            name "double cluster dots";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant36;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant36;
+} cv36;
+
+feature cv37 {
+    # Character Variant 37
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN YAT";
+        };
+
+                ParamUILabelNameID {
+            name "side bar";
+        };
+
+                ParamUILabelNameID {
+            name "top bar";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant37;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant37;
+} cv37;
+
+feature cv38 {
+    # Character Variant 38
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAL YAT";
+        };
+
+                ParamUILabelNameID {
+            name "internal T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant38;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant38;
+} cv38;
+
+feature cv39 {
+    # Character Variant 39
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YU YAT";
+        };
+
+                ParamUILabelNameID {
+            name "tall";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant39;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant39;
+} cv39;
+
+feature cv40 {
+    # Character Variant 40
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate Tuareg YAZH YAT";
+        };
+
+                ParamUILabelNameID {
+            name "mid-right T";
+        };
+
+                ParamUILabelNameID {
+            name "center T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant40;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant40;
+} cv40;
+
+feature cv41 {
+    # Character Variant 41
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN YAD";
+        };
+
+                ParamUILabelNameID {
+            name "up down pointers";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant41;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant41;
+} cv41;
+
+feature cv42 {
+    # Character Variant 42
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN YAF";
+        };
+
+                ParamUILabelNameID {
+            name "top and bottom bars";
+        };
+
+                ParamUILabelNameID {
+            name "no bars";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant42;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant42;
+} cv42;
+
+feature cv43 {
+    # Character Variant 43
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN YAJ";
+        };
+
+                ParamUILabelNameID {
+            name "top and bottom dots";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant43;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant43;
+} cv43;
+
+feature cv44 {
+    # Character Variant 44
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN YAS";
+        };
+
+                ParamUILabelNameID {
+            name "interior YAN";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant44;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant44;
+} cv44;
+
+feature cv45 {
+    # Character Variant 45
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAN Tuareg YAZH";
+        };
+
+                ParamUILabelNameID {
+            name "exterior circles";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant45;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant45;
+} cv45;
+
+feature cv46 {
+    # Character Variant 46
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YAR Tuareg YAK";
+        };
+
+                ParamUILabelNameID {
+            name "double cluster dots";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant46;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant46;
+} cv46;
+
+feature cv47 {
+    # Character Variant 47
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YASH Tuareg YAK";
+        };
+
+                ParamUILabelNameID {
+            name "double cluster dots";
+        };
+
+                ParamUILabelNameID {
+            name "8 shape, double cluster dots";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant47;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant47;
+} cv47;
+
+feature cv48 {
+    # Character Variant 48
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YASH YAT";
+        };
+
+                ParamUILabelNameID {
+            name "Internal T";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant48;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant48;
+} cv48;
+
+feature liga {
+    # Standard Ligatures
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnBiconsonants_RTL;
+    lookup TfnBiconsonants_RTL_DW;
+    lookup TfnBiconsonants;
+    lookup TfnSILvowels;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnBiconsonants_RTL;
+    lookup TfnBiconsonants_RTL_DW;
+    lookup TfnBiconsonants;
+    lookup TfnSILvowels;
+} liga;
+
+feature rtla {
+    # Right to Left Alternates
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnRTLalt;
+    lookup TfnRaisedRTL;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnRTLalt;
+    lookup TfnRaisedRTL;
+} rtla;
+
+feature ss01 {
+    # Stylistic Set 1
+        featureNames {
+        name "Alternate YA (empty circle)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant01;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant01;
+} ss01;
+
+feature ss02 {
+    # Stylistic Set 2
+        featureNames {
+        name "Alternate YAF (I shape)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnStylisticSet02;
+    # unique lookup for ss02
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnStylisticSet02;
+    # unique lookup for ss02
+} ss02;
+
+feature ss03 {
+    # Stylistic Set 3
+        featureNames {
+        name "Alternate YAGHH (round bottom)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant03;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant03;
+} ss03;
+
+feature ss04 {
+    # Stylistic Set 4
+        featureNames {
+        name "Alternate YAGN (lowered bottom stroke)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant04;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant04;
+} ss04;
+
+feature ss05 {
+    # Stylistic Set 5
+        featureNames {
+        name "Alternate YU (short strokes)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant05;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant05;
+} ss05;
+
+feature ss06 {
+    # Stylistic Set 6
+        featureNames {
+        name "Alternate YAZ (squared)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant06;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant06;
+} ss06;
+
+feature ss07 {
+    # Stylistic Set 7
+        featureNames {
+        name "Alternate AHAGGAR YAZH (squared)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant07;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant07;
+} ss07;
+
+feature ss08 {
+    # Stylistic Set 8
+        featureNames {
+        name "Alternate YAB (rectangle style)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant08;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant08;
+} ss08;
+
+feature ss09 {
+    # Stylistic Set 9
+        featureNames {
+        name "Alternate YAG (rounded top)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant09;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant09;
+} ss09;
+
+feature ss10 {
+    # Stylistic Set 10
+        featureNames {
+        name "Alternate YAJ (lower dots)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant10;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant10;
+} ss10;
+
+feature ss11 {
+    # Stylistic Set 11
+        featureNames {
+        name "Alternate YAH (rectangle style)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant11;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant11;
+} ss11;
+
+feature ss12 {
+    # Stylistic Set 12
+        featureNames {
+        name "Alternate YASH (8 shape)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant12;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant12;
+} ss12;
+
+feature ss13 {
+    # Stylistic Set 13
+        featureNames {
+        name "Alternate YATT (F shape)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant13;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant13;
+} ss13;
+
+feature ss14 {
+    # Stylistic Set 14
+        featureNames {
+        name "Alternate YAF (open top and bottom)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnStylisticSet14;
+    # unique lookup for ss14
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnStylisticSet14;
+    # unique lookup for ss14
+} ss14;
+
+feature ss15 {
+    # Stylistic Set 15
+        featureNames {
+        name "Alternate YADH (rounded bottom)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant15;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant15;
+} ss15;
+
+feature ss19 {
+    # Stylistic Set 19
+        featureNames {
+        name "Alternate YAL and YAN (slanted)";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant19;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant19;
+} ss19;
+
+feature ss20 {
+    # Stylistic Set 20
+        featureNames {
+        name "Alternate comma exclam and period";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant20;
+    script latn;
+    # Latin
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant20;
+} ss20;
+
+#**********************************
+#  GPOS Lookups
+#**********************************
+    #**********************************
+    #  GPOS Features
+    #**********************************
+    lookup base_aboveUC_base {
+        pos base A <anchor 599 1422> mark @_aboveUC;
+        pos base AE <anchor 1139 1422> mark @_aboveUC;
+        pos base B <anchor 631 1422> mark @_aboveUC;
+        pos base [C O Q] <anchor 721 1422> mark @_aboveUC;
+        pos base [D K] <anchor 671 1422> mark @_aboveUC;
+        pos base E <anchor 612 1422> mark @_aboveUC;
+        pos base Eng <anchor 764 1422> mark @_aboveUC;
+        pos base Ereversed <anchor 540 1422> mark @_aboveUC;
+        pos base F <anchor 610 1422> mark @_aboveUC;
+        pos base G <anchor 768 1422> mark @_aboveUC;
+        pos base H <anchor 707 1422> mark @_aboveUC;
+        pos base [I L] <anchor 318 1422> mark @_aboveUC;
+        pos base J <anchor 751 1422> mark @_aboveUC;
+        pos base M <anchor 802 1422> mark @_aboveUC;
+        pos base N <anchor 713 1422> mark @_aboveUC;
+        pos base OE <anchor 1116 1422> mark @_aboveUC;
+        pos base Oslash <anchor 736 1422> mark @_aboveUC;
+        pos base P <anchor 664 1422> mark @_aboveUC;
+        pos base R <anchor 652 1422> mark @_aboveUC;
+        pos base S <anchor 620 1422> mark @_aboveUC;
+        pos base T <anchor 582 1422> mark @_aboveUC;
+        pos base U <anchor 700 1422> mark @_aboveUC;
+        pos base V <anchor 584 1422> mark @_aboveUC;
+        pos base W <anchor 854 1422> mark @_aboveUC;
+        pos base [X Z] <anchor 597 1422> mark @_aboveUC;
+        pos base [Y uni0194] <anchor 550 1422> mark @_aboveUC;
+        pos base [b h] <anchor 658 1524> mark @_aboveUC;
+        pos base d <anchor 582 1524> mark @_aboveUC;
+        pos base eth <anchor 637 1524> mark @_aboveUC;
+        pos base [f florin] <anchor 506 1524> mark @_aboveUC;
+        pos base k <anchor 654 1524> mark @_aboveUC;
+        pos base l <anchor 299 1524> mark @_aboveUC;
+        pos base thorn <anchor 369 1524> mark @_aboveUC;
+    } base_aboveUC_base;
+
+    lookup base_aboveLC_base {
+        pos base a <anchor 582 1093> mark @_aboveLC;
+        pos base ae <anchor 857 1093> mark @_aboveLC;
+        pos base c <anchor 586 1093> mark @_aboveLC;
+        pos base circledotted <anchor 612 1093> mark @_aboveLC;
+        pos base dotlessi <anchor 291 1093> mark @_aboveLC;
+        pos base dotlessj <anchor 293 1093> mark @_aboveLC;
+        pos base e <anchor 565 1093> mark @_aboveLC;
+        pos base [eng n p] <anchor 658 1093> mark @_aboveLC;
+        pos base [eturned schwa] <anchor 540 1093> mark @_aboveLC;
+        pos base g <anchor 572 1093> mark @_aboveLC;
+        pos base gammalatin <anchor 544 1093> mark @_aboveLC;
+        pos base [i j] <anchor 289 1500> mark @_aboveLC;
+        pos base m <anchor 933 1093> mark @_aboveLC;
+        pos base [o oslash] <anchor 584 1093> mark @_aboveLC;
+        pos base oe <anchor 916 1093> mark @_aboveLC;
+        pos base q <anchor 616 1093> mark @_aboveLC;
+        pos base r <anchor 523 1093> mark @_aboveLC;
+        pos base s <anchor 489 1093> mark @_aboveLC;
+        pos base t <anchor 358 1386> mark @_aboveLC;
+        pos base u <anchor 599 1093> mark @_aboveLC;
+        pos base v <anchor 553 1093> mark @_aboveLC;
+        pos base w <anchor 816 1093> mark @_aboveLC;
+        pos base x <anchor 538 1093> mark @_aboveLC;
+        pos base y <anchor 561 1093> mark @_aboveLC;
+        pos base z <anchor 515 1093> mark @_aboveLC;
+    } base_aboveLC_base;
+
+    lookup base_baseLC_base {
+        pos base C <anchor 736 0> mark @_baseLC;
+        pos base S <anchor 588 0> mark @_baseLC;
+        pos base T <anchor 582 0> mark @_baseLC;
+        pos base c <anchor 553 0> mark @_baseLC;
+        pos base circledotted <anchor 612 0> mark @_baseLC;
+        pos base e <anchor 565 0> mark @_baseLC;
+        pos base s <anchor 460 0> mark @_baseLC;
+        pos base t <anchor 489 0> mark @_baseLC;
+        pos base u <anchor 531 0> mark @_baseLC;
+    } base_baseLC_base;
+
+    lookup base_belowLC_base {
+        pos base A <anchor 599 -46> mark @_belowLC;
+        pos base B <anchor 664 -46> mark @_belowLC;
+        pos base C <anchor 736 -46> mark @_belowLC;
+        pos base D <anchor 658 -46> mark @_belowLC;
+        pos base E <anchor 633 -46> mark @_belowLC;
+        pos base Eng <anchor 688 -46> mark @_belowLC;
+        pos base Ereversed <anchor 521 -46> mark @_belowLC;
+        pos base F <anchor 333 -46> mark @_belowLC;
+        pos base G <anchor 768 -46> mark @_belowLC;
+        pos base H <anchor 707 -46> mark @_belowLC;
+        pos base I <anchor 318 -46> mark @_belowLC;
+        pos base J <anchor 557 -46> mark @_belowLC;
+        pos base [K U] <anchor 700 -46> mark @_belowLC;
+        pos base [L circledotted] <anchor 612 -46> mark @_belowLC;
+        pos base M <anchor 806 -46> mark @_belowLC;
+        pos base N <anchor 726 -46> mark @_belowLC;
+        pos base O <anchor 721 -46> mark @_belowLC;
+        pos base Omega <anchor 745 -46> mark @_belowLC;
+        pos base P <anchor 337 -46> mark @_belowLC;
+        pos base R <anchor 690 -46> mark @_belowLC;
+        pos base S <anchor 588 -46> mark @_belowLC;
+        pos base T <anchor 582 -46> mark @_belowLC;
+        pos base V <anchor 580 -46> mark @_belowLC;
+        pos base W <anchor 854 -46> mark @_belowLC;
+        pos base X <anchor 576 -46> mark @_belowLC;
+        pos base [Y uni0194] <anchor 555 -46> mark @_belowLC;
+        pos base Z <anchor 595 -46> mark @_belowLC;
+        pos base a <anchor 540 -46> mark @_belowLC;
+        pos base ae <anchor 852 -46> mark @_belowLC;
+        pos base [b k] <anchor 616 -46> mark @_belowLC;
+        pos base [c v] <anchor 553 -46> mark @_belowLC;
+        pos base [d n] <anchor 603 -46> mark @_belowLC;
+        pos base [dotlessi i] <anchor 289 -46> mark @_belowLC;
+        pos base [dotlessj j] <anchor 173 -426> mark @_belowLC;
+        pos base e <anchor 565 -46> mark @_belowLC;
+        pos base eng <anchor 603 -426> mark @_belowLC;
+        pos base eth <anchor 569 -46> mark @_belowLC;
+        pos base [eturned schwa] <anchor 529 -46> mark @_belowLC;
+        pos base f <anchor 344 -46> mark @_belowLC;
+        pos base florin <anchor 223 -426> mark @_belowLC;
+        pos base g <anchor 527 -430> mark @_belowLC;
+        pos base gammalatin <anchor 544 -430> mark @_belowLC;
+        pos base h <anchor 624 -46> mark @_belowLC;
+        pos base l <anchor 341 -46> mark @_belowLC;
+        pos base [m oe] <anchor 916 -46> mark @_belowLC;
+        pos base [o oslash] <anchor 584 -46> mark @_belowLC;
+        pos base p <anchor 287 -392> mark @_belowLC;
+        pos base q <anchor 903 -392> mark @_belowLC;
+        pos base r <anchor 282 -46> mark @_belowLC;
+        pos base s <anchor 460 -46> mark @_belowLC;
+        pos base t <anchor 489 -46> mark @_belowLC;
+        pos base thorn <anchor 303 -426> mark @_belowLC;
+        pos base u <anchor 586 -46> mark @_belowLC;
+        pos base w <anchor 816 -46> mark @_belowLC;
+        pos base x <anchor 538 -46> mark @_belowLC;
+        pos base y <anchor 477 -403> mark @_belowLC;
+        pos base z <anchor 510 -46> mark @_belowLC;
+    } base_belowLC_base;
+
+    lookup base_ogonekLC_base {
+        pos base a <anchor 791 0> mark @_ogonekLC;
+        pos base circledotted <anchor 612 0> mark @_ogonekLC;
+        pos base [dotlessi i] <anchor 278 0> mark @_ogonekLC;
+        pos base e <anchor 751 0> mark @_ogonekLC;
+        pos base [eturned schwa] <anchor 529 0> mark @_ogonekLC;
+        pos base o <anchor 584 0> mark @_ogonekLC;
+        pos base u <anchor 867 0> mark @_ogonekLC;
+    } base_ogonekLC_base;
+
+    lookup base_T_base {
+        pos base [yab-tifi yamyahLig-tifi] <anchor 733 1393> mark @_T;
+        pos base yab-tifi.v01 <anchor 763 1393> mark @_T;
+        pos base yad-tifi <anchor 740 1393> mark @_T;
+        pos base [yadd-tifi yatt-tifi.v01] <anchor 653 1393> mark @_T;
+        pos base yadd-tifi.rtl <anchor 634 0> mark @_T;
+        pos base [yadh-tifi yadh-tifi.v01] <anchor 752 1393> mark @_T;
+        pos base [yadh-tifi.unused yat-tifi] <anchor 702 1393> mark @_T;
+        pos base yaf-tifi <anchor 924 1393> mark @_T;
+        pos base yaf-tifi.v01 <anchor 610 1393> mark @_T;
+        pos base yaf-tifi.v02 <anchor 674 1393> mark @_T;
+        pos base yag-tifi <anchor 576 1393> mark @_T;
+        pos base yag-tifi.v01 <anchor 567 1393> mark @_T;
+        pos base yaghAyer-tifi <anchor 703 1393> mark @_T;
+        pos base yaghTuareg-tifi <anchor 365 1233> mark @_T;
+        pos base yaghh-tifi <anchor 568 1393> mark @_T;
+        pos base yaghh-tifi.v01 <anchor 549 1393> mark @_T;
+        pos base yaghh-tifi.v01.unused <anchor 538 1393> mark @_T;
+        pos base [yagnTuareg-tifi yagnTuareg-tifi.v01] <anchor 591 1393> mark @_T;
+        pos base [yah-tifi yas-tifi] <anchor 736 1393> mark @_T;
+        pos base yah-tifi.v01 <anchor 778 1393> mark @_T;
+        pos base yahTuareg-tifi <anchor 364 1458> mark @_T;
+        pos base [yaj-tifi yaj-tifi.v01] <anchor 654 1393> mark @_T;
+        pos base yakTuareg-tifi <anchor 598 1100> mark @_T;
+        pos base [yakTuareg-tifi.orig yakTuareg-tifi.unused.001 yakTuareg-tifi.unused.002] <anchor 578 1100> mark @_T;
+        pos base yakTuareg-tifi.rtl <anchor 438 1100> mark @_T;
+        pos base yakhTuareg-tifi <anchor 681 1171> mark @_T;
+        pos base yal-tifi <anchor 619 1393> mark @_T;
+        pos base yal-tifi.raised <anchor 620 1393> mark @_T;
+        pos base yal-tifi.slant <anchor 602 1393> mark @_T;
+        pos base [yam-tifi yamyatLig-tifi.v03] <anchor 710 1393> mark @_T;
+        pos base yam-tifi.rtl <anchor 611 1393> mark @_T;
+        pos base yan-tifi <anchor 362 1393> mark @_T;
+        pos base yan-tifi.raised <anchor 298 1393> mark @_T;
+        pos base yan-tifi.slant.rtl <anchor 657 0> mark @_T;
+        pos base yangTuareg-tifi <anchor 379 1393> mark @_T;
+        pos base yaqTuareg-tifi <anchor 778 820> mark @_T;
+        pos base yar-tifi <anchor 734 1393> mark @_T;
+        pos base yash-tifi <anchor 636 1393> mark @_T;
+        pos base yash-tifi.rtl <anchor 376 1393> mark @_T;
+        pos base yash-tifi.v01 <anchor 562 1393> mark @_T;
+        pos base yass-tifi <anchor 835 1393> mark @_T;
+        pos base yatt-tifi <anchor 670 1393> mark @_T;
+        pos base yatt-tifi.rtl <anchor 618 1393> mark @_T;
+        pos base yatt-tifi.v01.rtl <anchor 643 1393> mark @_T;
+        pos base yay-tifi <anchor 590 1393> mark @_T;
+        pos base yay-tifi.rtl <anchor 642 1393> mark @_T;
+        pos base [yaz-tifi yazyatLig-tifi] <anchor 614 1393> mark @_T;
+        pos base [yaz-tifi.v01 yazyatLig-tifi.v01] <anchor 644 1393> mark @_T;
+        pos base yazTawellemet-tifi <anchor 557 1393> mark @_T;
+        pos base yazTawellemet-tifi.rtl <anchor 491 1393> mark @_T;
+        pos base yazhAhaggar-tifi <anchor 583 1393> mark @_T;
+        pos base yazhAhaggar-tifi.v01 <anchor 679 1393> mark @_T;
+        pos base yazhTuareg-tifi <anchor 825 1393> mark @_T;
+        pos base yazyatLig-tifi.rtl <anchor 974 1393> mark @_T;
+        pos base yi-tifi <anchor 575 1393> mark @_T;
+        pos base yi-tifi.rtl <anchor 580 1393> mark @_T;
+        pos base yiyatLig-tifi.rtl <anchor 848 1393> mark @_T;
+        pos base yo-tifi <anchor 778 850> mark @_T;
+        pos base yo-tifi.super <anchor 571 1596> mark @_T;
+        pos base yu-tifi <anchor 365 1057> mark @_T;
+        pos base yu-tifi.v01 <anchor 427 984> mark @_T;
+    } base_T_base;
+
+
+feature mark {
+    script DFLT;
+    language dflt;
+    lookup base_aboveUC_base;
+    lookup base_aboveLC_base;
+    lookup base_baseLC_base;
+    lookup base_belowLC_base;
+    lookup base_ogonekLC_base;
+    lookup base_T_base;
+    script tfng;
+    language dflt;
+    lookup base_T_base;
+} mark;
