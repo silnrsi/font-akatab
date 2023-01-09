@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2010-2022, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
+  <string>Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
   <integer>-711</integer>
   <key>familyName</key>
@@ -27,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://scripts.sil.org</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2010-2022, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
+  <string>Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Akatab Black: 2022</string>
+  <string>SIL International: Akatab Black: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.950</string>
   <key>openTypeOS2CodePageRanges</key>
