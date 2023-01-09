@@ -3,7 +3,7 @@ title: Akatab - Documentation
 fontversion: 3.000
 ---
 
-Thank you for your interest in the CAkatab fonts. This font family supports the broad variety of writing systems that use Latin and Cyrillic scripts. The design is optimized for high readability at a wide range of sizes and resolutions, making it ideal for new readers moving on from simple sans serif forms. 
+Thank you for your interest in the Akatab fonts. This font family supports the broad variety of writing systems that use Latin and Cyrillic scripts. The design is optimized for high readability at a wide range of sizes and resolutions, making it ideal for new readers moving on from simple sans serif forms. 
 
 This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Akatab SIL site](https://software.sil.org/akatab/).
 
