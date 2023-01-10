@@ -1177,5 +1177,13 @@
     <key>zerowidthjoiner</key>
     <string>uni200D</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>yaghh-tifi.v01.unused</string>
+    <string>yadh-tifi.unused</string>
+    <string>yakTuareg-tifi.orig</string>
+    <string>yakTuareg-tifi.unused.001</string>
+    <string>yakTuareg-tifi.unused.002</string>
+  </array>
 </dict>
 </plist>
