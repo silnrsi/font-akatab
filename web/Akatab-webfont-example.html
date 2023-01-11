@@ -12,7 +12,7 @@ of the license along with this Font Software. If this is not the case, go to
 -->
 <head>
     <meta charset="utf-8">
-    <title>Akatab - Webfont Test</title>
+    <title>Akatab - Webfont Example</title>
     <meta name="author" content="SIL Writing Systems Technology">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" href="Akatab-webfont-example.css">
@@ -21,721 +21,193 @@ of the license along with this Font Software. If this is not the case, go to
 <div class="container">
 <article class="article">
     <header>
-        <h1 class="title">Akatab - Webfont Test</h1>
-        <p>This is a test of the font family based on the local path references. The page demonstrates how to use the WOFF version of Akatab for web pages, using local copies of the .woff files in this archive. For more information on this technique - and how to use the normal TrueType version as a web font - see <a href="https://software.sil.org/fonts/webfonts/">Using SIL Fonts on Web Pages</a>.</p>
-		<p>The body of this document is styled using an external stylesheet, with Akatab set as the default font, and loaded directly as a WOFF file using the @font-face rule. To see specifically how these techniques are specified in the CSS and HTML, view the source to this page and the accompanying CSS file.</p>
+        <h1 class="title">Akatab - Webfont Example</h1>
+        <p>This is an example using the font in a web page. The page demonstrates how to use the woff2 version of Akatab for web pages, using local copies of the .woff2 files in this archive. For more information on this technique - and how to use the normal TrueType version as a web font - see <a href="https://software.sil.org/fonts/webfonts/">Using SIL Fonts on Web Pages</a>.</p>
+		<p>The body of this document is styled using an external stylesheet, with Akatab set as the default font, and loaded directly as a woff2 file using the @font-face rule. To see specifically how these techniques are specified in the CSS and HTML, view the source to this page and the accompanying CSS file.</p>
     </header>
-	
-    <h2 id="user-selectable-features">User-selectable features</h2>
-    <h3 id="stylistic-sets">Stylistic Sets</h3>
-	
-    <h4 id="variant-features">Alternate YA (empty circle)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴰ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss01'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss01&quot; 1">ⴰ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-	<h4 id="variant-features">Alternate YAF (I-shape)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴼ</span></td>
-    </tr>
-    <td>'ss02'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss02&quot; 1">ⴼ </span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAGHH (round bottom)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴴ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss03'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss03&quot; 1">ⴴ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAGN (lowered bottom stroke)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵐ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss04'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss04&quot; 1">ⵐ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YU (short strokes)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵓ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss05'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss05&quot; 1">ⵓ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAZ (squared)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵣ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss06'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss06&quot; 1">ⵣ</span></td>
-    </tr>
-    </tbody>
-    </table>
-    <h4 id="variant-features">Alternate YAZHH (squared)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵋ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss07'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss07&quot; 1">ⵋ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAB (rectangle style)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr"></span>ⴱ</td>
-    </tr>
-    <tr class="even">
-    <td>'ss08'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss08&quot; 1">ⴱ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAG (rounded top)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴳ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss09'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss09&quot; 1">ⴳ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAJ (lower dots)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴶ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss10'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss10&quot; 1">ⴶ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAH (rectangle style)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵀ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss11'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss11&quot; 1">ⵀ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YASH (8 shape)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵛ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss12'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss12&quot; 1">ⵛ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YATT (F shape)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵟ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss13'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss13&quot; 1">ⵟ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAF (open top and bottom)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴼ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss14'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss14&quot; 1">ⴼ</span></td>
-    </tr>
-    </tbody>
-    </table>
-		
-    <h4 id="variant-features">Alternate YADH (rounded bottom)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴸ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'ss15'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;ss15&quot; 1">ⴸ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-	
-    <h3 id="character-variants">Character Variants</h3>
-	
-    <h4 id="variant-features">Alternate YA (empty circle)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴰ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv01'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv01&quot; 1">ⴰ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-	<h4 id="variant-features">Alternate YAF (I-shape, open top and bottom)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴼ</span></td>
-    </tr>
-    <td>'cv02'=1</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv02&quot; 1">ⴼ </span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv02'=2</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv02&quot; 2">ⴼ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAGHH (round bottom)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴴ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv03'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv03&quot; 1">ⴴ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAGN (lowered bottom stroke)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵐ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv04'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv04&quot; 1">ⵐ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YU (short strokes)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵓ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv05'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv05&quot; 1">ⵓ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAZ (squared)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵣ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv06'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv06&quot; 1">ⵣ</span></td>
-    </tr>
-    </tbody>
-    </table>
-    <h4 id="variant-features">Alternate YAZHH (squared)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵋ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv07'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv07&quot; 1">ⵋ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAB (rectangle style)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr"></span>ⴱ</td>
-    </tr>
-    <tr class="even">
-    <td>'cv08'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv08&quot; 1">ⴱ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAG (rounded top)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴳ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv09'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv09&quot; 1">ⴳ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAJ (lower dots)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴶ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv10'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv10&quot; 1">ⴶ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YAH (rectangle style)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵀ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv11'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv11&quot; 1">ⵀ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YASH (8 shape)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵛ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv12'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv12&quot; 1">ⵛ</span></td>
-    </tr>
-    </tbody>
-    </table>
-	
-    <h4 id="variant-features">Alternate YATT (F shape)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⵟ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv13'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv13&quot; 1">ⵟ</span></td>
-    </tr>
-    </tbody>
-    </table>
-		
-    <h4 id="variant-features">Alternate YADH (rounded bottom)</h4>
-    <table>
-    <colgroup>
-    <col style="width: 3%" />
-    <col style="width: 96%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Feature</th>
-    <th>Test sequences</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>default</td>
-    <td><span class="lpr">ⴸ</span></td>
-    </tr>
-    <tr class="even">
-    <td>'cv15'</td>
-    <td><span class="lpr" style="font-feature-settings: &quot;cv15&quot; 1">ⴸ</span></td>
-    </tr>
-    </tbody>
-    </table>
-		
-    <h2 id="character-support">Character support</h2>
-    <p>(to be added)</p>
-    <h2 id="rendering-support">Rendering support</h2>
-    <p><span class="lpr" style="color:green;">RenderingUnknown</p>
-    <footer class="footer">
-        <p>This test is copyright © 2010-2023 SIL International.</p>
-    </footer>
-</article>
+
+<h1>Akatab Tifinagh</h1>
+<p><b>This page demonstrates how features in Akatab can be implemented in a web page.</b><br>
+(See the source file of this page and the corresponding .css file.)</p>
+<h2>Tifinagh characters</h2>
+<p><strong>Akatab  default Tifinagh characters </strong><br>
+ ⴰ ⴱ ⴳ ⴴ ⴶ ⴷ ⴸ ⴹ ⴼ ⴾ ⵀ ⵂ ⵆ ⵈ ⵉ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵓ ⵔ ⵗ ⵘ ⵙ ⵛ ⵜ ⵟ ⵢ ⵣ ⵤ ⵧ ⵰ &#x25cc;&#x2D7F; </p>
+
+<br>
+
+<strong>Akatab character variants (using cvxx feature)</strong>
+  <table>
+    <tr> 
+        <th>Char</th> 
+        <th>Var</th> 
+        <th>Character variant code</th>
+    </tr> 
+    <tr> 
+      <td>ⴰ<br>
+          ⴼ<br>
+          ⴴ<br>
+          ⵐ<br>
+          ⵓ<br>
+          ⵣ<br>
+          ⵋ<br>
+        </td> 
+        <td><span class=cv01>ⴰ</span><br>
+            <span class=cv02>ⴼ</span><br>
+            <span class=cv03>ⴴ</span><br>
+            <span class=cv04>ⵐ</span><br>
+            <span class=cv05>ⵓ</span><br>
+            <span class=cv06>ⵣ</span><br>
+            <span class=cv07>ⵋ</span><br>
+        </td> 
+        <td>cv01=1<br> 
+            cv02=1<br> 
+            cv03=1<br> 
+            cv04=1<br> 
+            cv05=1<br> 
+            cv06=1<br> 
+            cv07=1<br>
+        </td> 
+    </tr>  
+    <tr> 
+      <td>ⴱ⵿ⵜ<br>
+          ⵔ⵿ⵜ<br>
+          ⵔ⵿ⵜ<br>
+          ⵙ⵿ⵜ<br>
+          ⵙ⵿ⵜ<br>
+          ⵎ⵿ⵜ<br>
+          ⴼ⵿ⵜ<br>
+          ⵏ⵿ⴾ<br>
+          ⵏ⵿ⵜ<br>
+          ⵏ⵿ⵜ<br>
+          ⵍ⵿ⵜ<br>
+          ⵓ⵿ⵜ<br>
+          ⵌ⵿ⵜ<br>
+          ⵌ⵿ⵜ<br>
+        </td> 
+        <td><span class=cv31>ⴱ⵿ⵜ</span><br>
+            <span class=cv32>ⵔ⵿ⵜ</span><br>
+            <span class=cv32_2>ⵔ⵿ⵜ</span><br>
+            <span class=cv33>ⵙ⵿ⵜ</span><br>
+            <span class=cv33_2>ⵙ⵿ⵜ</span><br>
+            <span class=cv34>ⵎ⵿ⵜ</span><br>
+            <span class=cv35>ⴼ⵿ⵜ</span><br>
+            <span class=cv36>ⵏ⵿ⴾ</span><br>
+            <span class=cv37>ⵏ⵿ⵜ</span><br>
+            <span class=cv37_2>ⵏ⵿ⵜ</span><br>
+            <span class=cv38>ⵍ⵿ⵜ</span><br>
+            <span class=cv39>ⵓ⵿ⵜ</span><br>
+            <span class=cv40>ⵌ⵿ⵜ</span><br>
+            <span class=cv40_2>ⵌ⵿ⵜ</span><br>
+        </td> 
+        <td>cv31=1<br> 
+            cv32=1<br> 
+            cv32=2<br> 
+            cv33=1<br> 
+            cv33=2<br> 
+            cv34=1<br> 
+            cv35=1<br>
+            cv36=1<br> 
+            cv37=1<br> 
+            cv37=2<br> 
+            cv38=1<br> 
+            cv39=1<br> 
+            cv40=1<br> 
+            cv40=2<br>
+        </td> 
+    </tr> 
+  </table>
+  
+  
+
+<h2> Akatab tests </h2>
+
+<h3> Biconsonants (ligatures based on normal characters) </h3>
+
+<p> &#x2D31&#x2D7F&#x2D5C  BT </p>
+<p> &#x2D40&#x2D7F&#x2D5C  B(alt)T </p>
+<p> &#x2D54&#x2D7F&#x2D3E  RK </p>
+<p> &#x2D54&#x2D7F&#x2D5C  RT </p>
+<p> &#x2D59&#x2D7F&#x2D3E  SK </p>
+<p> &#x2D4F&#x2D7F&#x2D59  NS </p>
+<p> &#x2D59&#x2D7F&#x2D5C  ST </p>
+<p> &#x2D4F&#x2D7F&#x2D37  ND </p>
+<p> &#x2D4F&#x2D7F&#x2D38  NDH </p>
+<p> &#x2D4E&#x2D7F&#x2D5C  MT </p>
+<p> &#x2D4F&#x2D7F&#x2D3C  NF </p>
+<p> &#x2D3C&#x2D7F&#x2D5C  FT </p>
+<p> &#x2D49&#x2D7F&#x2D5C  YT </p>
+<p> &#x2D34&#x2D7F&#x2D5C  GHHT </p>
+<p> &#x2D4F&#x2D7F&#x2D34  NGHH </p>
+<p> &#x2D4F&#x2D7F&#x2D36  NJ </p>
+<p> &#x2D36&#x2D7F&#x2D5C  JT </p>
+<p> &#x2D4F&#x2D7F&#x2D3E  NK </p>
+<p> &#x2D4F&#x2D7F&#x2D5C  NT </p>
+<p> &#x2D4D&#x2D7F&#x2D3E  LK </p>
+<p> &#x2D4D&#x2D7F&#x2D5C  LT </p>
+<p> &#x2D5B&#x2D7F&#x2D3E  SHK </p>
+<p> &#x2D4F&#x2D7F&#x2D5B  NSH </p>
+<p> &#x2D5B&#x2D7F&#x2D5C  SHT </p>
+<p> &#x2D53&#x2D7F&#x2D5C  WT </p>
+<p> &#x2D4C&#x2D7F&#x2D5C  ZZT </p>
+<p> &#x2D63&#x2D7F&#x2D5C  ZT </p>
+<p> &#x2D4B&#x2D7F&#x2D5C  ZHT </p>
+
+
+<h3>BiconsonantsCV (ligatures based on character variants) </h3>
+
+<p> <span class=cv02> &#x2D4F&#x2D7F&#x2D3C </span>  NF - ligature using an alternate F (cv02) </p>
+<p> <span class=cv02> &#x2D3C&#x2D7F&#x2D5C </span>  FT - ligature using an alternate F (cv02) </p>
+<p> <span class=cv03> &#x2D34&#x2D7F&#x2D5C </span>  GHHT - ligature using an alternate GHH (cv03) </p>
+<p> <span class=cv03> &#x2D4F&#x2D7F&#x2D34 </span>  NGHH - ligature using an alternate GHH (cv03) </p>
+<p> <span class=cv05> &#x2D53&#x2D7F&#x2D5C </span>  WT - ligature using an alternate W (cv05) </p>
+<p> <span class=cv06> &#x2D63&#x2D7F&#x2D5C </span>  ZT - ligature using an alternate Z (cv06) </p>
+<p> <span class=cv07> &#x2D4B&#x2D7F&#x2D5C </span>  ZHT - ligature using an alternate ZH (cv07) </p>
+
+
+<h3> Experimenting with various syntaxes for character variant 2 </h3>
+<p><span class=cv02> &#x2D3C </span>  F(alt) - hex; class </p>
+<p><span class=cv02> ⴼ </span>  F(alt) - character; class </p>
+<p> <cv02> &#x2D3C </cv02>  F(alt) - hex; style cv02 </p>
+<p> <cv02>ⴼ</cv02>  F(alt) - character; style cv02 </p>
+<p> <ss02>ⴼ</ss02>  F(alt) - character; style ss02 (only works in OpenType apps) </p>
+
+<br>
+
+<h3>Akatab right-to-left test</h3>
+
+<p>
+<strong>This paragraph demonstrates left-to-right behaviour.</strong><br>
+ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ <br>
+Senatet tsokalén wr teǧǧehnet émi.
+</p>
+
+<p>
+<strong>The next two paragraphs demonstrate right-to-left behaviour.</strong><br>
+These paragraphs have two special characters to change the direction of the characters <em>and</em> the text<br>
+<ol type="1">
+  <li>U+202E (RIGHT-TO-LEFT OVERRIDE) for Tifinagh<br>
+    The following text will be right-to-left. Additionally, the directionality of characters is changed to right-to-left.
+  </li>
+  <li>U+202C (POP DIRECTIONAL FORMATTING) to revert direction for Latin<br>
+    The following text is formatted like the text before the last U+202E character. 
+  </li>
+</ol>
+
+<div class=right>
+<p>
+<strong>Right-to-left behaviour using typed (invisible) formatting characters.</strong><br>
+‮ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ‬‮<br>
+Senatet tsokalén wr teǧǧehnet émi.
+</p>‮
+
+<p>
+<strong>Right-to-left behaviour using hard-coded html formatting characters.</strong><br>
+(This can prevent accidental deletion of invisible characters.)<br>
+&#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ&#x202C‬<br>
+Senatet tsokalén wr teǧǧehnet émi.
+</p>‮
 </div>
-</body>
+
+<p><strong>End of tests</strong></p>
+</body> 
 </html>
