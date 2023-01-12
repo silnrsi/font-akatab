@@ -27,10 +27,32 @@ of the license along with this Font Software. If this is not the case, go to
     </header>
 
 <h1>Akatab Tifinagh</h1>
-<p><b>This page demonstrates how features in Akatab can be implemented in a web page.</b><br>
+<p><strong>This page demonstrates how features in Akatab can be implemented in a web page.</strong><br>
 (See the source file of this page and the corresponding .css file.)</p>
+
+<p><strong>Text in various weights</strong><br>
+    
+<p>
+  <span class="akatab-R normal"> ⵜⴾⴷ ⵜⴷⵔⴷ ⵙⵍⴷ ⵂⵏⵉⴷ </span>
+</p>
+<p>
+  <span class="akatab-M normal"> ⵜⴾⴷ ⵜⴷⵔⴷ ⵙⵍⴷ ⵂⵏⵉⴷ </span>
+</p>
+<p>
+  <span class="akatab-SB normal"> ⵜⴾⴷ ⵜⴷⵔⴷ ⵙⵍⴷ ⵂⵏⵉⴷ </span>
+</p>
+<p>
+  <span class="akatab-B normal"> ⵜⴾⴷ ⵜⴷⵔⴷ ⵙⵍⴷ ⵂⵏⵉⴷ </span>
+</p>
+<p>
+  <span class="akatab-EB normal"> ⵜⴾⴷ ⵜⴷⵔⴷ ⵙⵍⴷ ⵂⵏⵉⴷ </span>
+</p>
+<p>
+  <span class="akatab-BL normal"> ⵜⴾⴷ ⵜⴷⵔⴷ ⵙⵍⴷ ⵂⵏⵉⴷ </span>
+</p>
+
 <h2>Tifinagh characters</h2>
-<p><strong>Akatab  default Tifinagh characters </strong><br>
+<p><strong>Akatab default Tifinagh characters </strong><br>
  ⴰ ⴱ ⴳ ⴴ ⴶ ⴷ ⴸ ⴹ ⴼ ⴾ ⵀ ⵂ ⵆ ⵈ ⵉ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵓ ⵔ ⵗ ⵘ ⵙ ⵛ ⵜ ⵟ ⵢ ⵣ ⵤ ⵧ ⵰ &#x25cc;&#x2D7F; </p>
 
 <br>
@@ -45,27 +67,36 @@ of the license along with this Font Software. If this is not the case, go to
     <tr> 
       <td>ⴰ<br>
           ⴼ<br>
+          ⴼ<br>
           ⴴ<br>
           ⵐ<br>
           ⵓ<br>
           ⵣ<br>
           ⵋ<br>
+          ⴱ<br>
+          ⴳ<br>
         </td> 
         <td><span class=cv01>ⴰ</span><br>
             <span class=cv02>ⴼ</span><br>
+            <span class=cv02_2>ⴼ</span><br>
             <span class=cv03>ⴴ</span><br>
             <span class=cv04>ⵐ</span><br>
             <span class=cv05>ⵓ</span><br>
             <span class=cv06>ⵣ</span><br>
             <span class=cv07>ⵋ</span><br>
+            <span class=cv08>ⴱ</span><br>
+            <span class=cv09>ⴳ</span><br>
         </td> 
         <td>cv01=1<br> 
             cv02=1<br> 
+            cv02=2<br> 
             cv03=1<br> 
             cv04=1<br> 
             cv05=1<br> 
             cv06=1<br> 
             cv07=1<br>
+            cv08=1<br>
+            cv09=1<br>
         </td> 
     </tr>  
     <tr> 
@@ -153,6 +184,7 @@ of the license along with this Font Software. If this is not the case, go to
 <p> &#x2D4B&#x2D7F&#x2D5C  ZHT </p>
 
 
+
 <h3>BiconsonantsCV (ligatures based on character variants) </h3>
 
 <p> <span class=cv02> &#x2D4F&#x2D7F&#x2D3C </span>  NF - ligature using an alternate F (cv02) </p>
@@ -176,37 +208,28 @@ of the license along with this Font Software. If this is not the case, go to
 <h3>Akatab right-to-left test</h3>
 
 <p>
-<strong>This paragraph demonstrates left-to-right behaviour.</strong><br>
-ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ <br>
-Senatet tsokalén wr teǧǧehnet émi.
-</p>
-
+<strong>The following text demonstrates Tifinagh and Latin left-to-right behaviour.</strong><br>
 <p>
-<strong>The next two paragraphs demonstrate right-to-left behaviour.</strong><br>
-These paragraphs have two special characters to change the direction of the characters <em>and</em> the text<br>
+ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ Senatet tsokalén wr teǧǧehnet émi. ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ 
+</p>
+<p>
+<strong>The following text demonstrates Tifinagh right-to-left behaviour and reversing direction for Latin text.</strong><br>
+<p class=right>
+&#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ&#x202C‬ Senatet tsokalén wr teǧǧehnet émi. &#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ&#x202C‬ 
+</p>‮
+<!-- 
+Using hard-coded directional characters in the HTML code (as illustrated above) can prevent accidental deletion of invisible characters.
+-->
+<p style="font-size:16px; ">To get right-to-left behaviour and then reverse the direction, the above two paragraphs use two invisible formatting characters to change the direction of the characters and the text as follows:<br>
 <ol type="1">
-  <li>U+202E (RIGHT-TO-LEFT OVERRIDE) for Tifinagh<br>
-    The following text will be right-to-left. Additionally, the directionality of characters is changed to right-to-left.
+  <li style="font-size:16px; ">U+202E (RIGHT-TO-LEFT OVERRIDE) for right-to-left Tifinagh<br>
+    The text that follows will be right-to-left. Additionally, the directionality of characters is changed to right-to-left.
   </li>
-  <li>U+202C (POP DIRECTIONAL FORMATTING) to revert direction for Latin<br>
-    The following text is formatted like the text before the last U+202E character. 
+  <li style="font-size:16px; ">U+202C (POP DIRECTIONAL FORMATTING) to revert direction, e.g., for Latin text<br>
+    The text that follows reverts to the direction of the text before the previous U+202E character. 
   </li>
 </ol>
-
-<div class=right>
-<p>
-<strong>Right-to-left behaviour using typed (invisible) formatting characters.</strong><br>
-‮ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ‬‮<br>
-Senatet tsokalén wr teǧǧehnet émi.
 </p>‮
-
-<p>
-<strong>Right-to-left behaviour using hard-coded html formatting characters.</strong><br>
-(This can prevent accidental deletion of invisible characters.)<br>
-&#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ&#x202C‬<br>
-Senatet tsokalén wr teǧǧehnet émi.
-</p>‮
-</div>
 
 <p><strong>End of tests</strong></p>
 </body> 
