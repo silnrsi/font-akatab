@@ -14,7 +14,7 @@ The full range of weights is accessed in different ways depending on the applica
 
 ## Tifinagh:
 
-<p> This section demonstrates all of the Tifinagh Unicode characters in the font including those in a right-to left design. Alternate glyphs that are available through features are demonstrated in the [Features](features) document. At the end is a sample demonstrating Tifinagh shaping. </p>
+<p> This section demonstrates all of the Tifinagh Unicode characters in the font including those in a right-to-left design. Alternate glyphs that are available through features are demonstrated in the [Features](features) document. </p>
 
 ### Unicode characters
 
@@ -67,6 +67,28 @@ The full range of weights is accessed in different ways depending on the applica
 <p><span class='akatab-B normal'> ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴼ⵿ⵜ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
 
 <p style="text-align:right"><span class='akatab-B normal'> &#x202E; ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴼ⵿ⵜ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
+
+### Raised characters
+<p><span class="akatab-R normal"> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span></p>
+
+## Private-use (PUA) characters
+
+### Tifinagh superscripts
+<p style="font-size:13px; ">These superscript characters correspond to U+E300 – U+E304 respectively and are shown between Tifinagh characters for clarity. They are used as aids in literacy.</p>  
+<p><span class="akatab-R normal"> ⵏⵏ  ⵏⵏ  ⵏⵏ  ⵏⵏ  ⵏⵏ </span></p>
+
+## Special use ligatures and diacritic marks
+<p style="font-size:13px; ">These ligatures and diacritic marks are used as aids in literacy and linguistic research.</p>  
+
+### SIL vowels
+<p style="font-size:13px; ">Type the Tifinagh character followed by the appropriate combining circumflex (U+0302), breve (U+0306) or dot below (U+0323).</p>
+<p><span class="akatab-R normal"> ⴰ̂ ⴰ̆ ⵓ̂ ⵢ̂ ⵢ̣ ⵧ̂ </span></p>
+
+### Diacritics
+<p style="font-size:13px; ">Type any Tifinagh consonant followed by either a combining acute (U+0301), tilde (U+0303) or ring above (U+030A).</p> 
+<p><span class="akatab-R normal"> ⵗ́ ⴾ́ ⵈ́ ⵆ́ ⵂ́ ⴱ́ ⵀ́ ⵔ́ ⵙ́ ⴷ́ ⴸ́ ⴹ́ ⵎ́ ⵟ́ ⴼ́ ⵢ́ ⵉ́ ⴴ́ ⴶ́ ⵑ́ ⵏ́ ⵍ́ ⵐ́ ⵛ́ ⵜ́ ⵓ́ ⵌ́ ⵣ́ ⵋ́ </span></p> 
+<p><span class="akatab-R normal"> ⵗ̃ ⴾ̃ ⵈ̃ ⵆ̃ ⵂ̃ ⴱ̃ ⵀ̃ ⵔ̃ ⵙ̃ ⴷ̃ ⴸ̃ ⴹ̃ ⵎ̃ ⵟ̃ ⴼ̃ ⵢ̃ ⵉ̃ ⴴ̃ ⴶ̃ ⵑ̃ ⵏ̃ ⵍ̃ ⵐ̃ ⵛ̃ ⵜ̃ ⵓ̃ ⵌ̃ ⵣ̃ ⵋ̃ </span></p> 
+<p><span class="akatab-R normal"> ⵗ̇ ⴾ̇ ⵈ̇ ⵆ̇ ⵂ̇ ⴱ̇ ⵀ̇ ⵔ̇ ⵙ̇ ⴷ̇ ⴸ̇ ⴹ̇ ⵎ̇ ⵟ̇ ⴼ̇ ⵢ̇ ⵉ̇ ⴴ̇ ⴶ̇ ⵑ̇ ⵏ̇ ⵍ̇ ⵐ̇ ⵛ̇ ⵜ̇ ⵓ̇ ⵌ̇ ⵣ̇ ⵋ̇ </span></p>
 
 
 ## Latin, punctuation and other specials:

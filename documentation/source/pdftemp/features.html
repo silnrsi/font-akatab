@@ -14,11 +14,11 @@
     <header>
         <h1 class="title">Akatab - Font Features</h1>
     </header>
-    <p>Akatab is an OpenType-enabled font family that supports the Tifinagh script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.</p>
-    <p>These OpenType features are primarily specified using four-letter tags (e.g. 'cv17'), although some applications may provide a direct way to control certain common features such as ligatures. For more information on how to access OpenType features in specific environments and applications, see <a href="../../pdf/http://software.sil.org/fonts/features">Using Font Features</a>.</p>
-    <p>This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Akatab as a web font see <a href="../../pdf/../web/Akatab-webfont-example.html">Akatab Webfont Example</a>. For detailed information see <a href="../../pdf/http://software.sil.org/fonts/webfonts">Using SIL Fonts on Web Pages</a>.</p>
+    <p>Akatab is a Graphite and OpenType-enabled font family that supports the Tifinagh script. It includes a number of optional user-selected features that may be useful or required for particular uses or languages. This document lists all the user-selected features. These features are primarily specified using four-letter tags (e.g. 'cv17'). For more information on how to access OpenType features in specific environments and applications, see <a href="../../pdf/http://software.sil.org/fonts/features">Using Font Features</a>.</p>
+    <p>Akatab also provides for a number of common features such as ligature formation, contextual substitution and diacritic positioning. It also provides right-to-left rendering of text. Most applications will make use of these features when the proper sequence of characters are entered.</p>
+    <p>This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For detailed information see <a href="../../pdf/http://software.sil.org/fonts/webfonts">Using SIL Fonts on Web Pages</a>. For a more concise example of how to use Akatab as a web font see <a href="../../pdf/../web/Akatab-webfont-example.html">Akatab Webfont Example</a>.</p>
     <p><em>If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.</em></p>
-    <h2 id="complete-feature-list">Complete feature list</h2>
+    <h2 id="user-selected-feature-list">User-selected feature list</h2>
     <h3 id="character-variants">Character variants</h3>
     <h4 id="alternate-ya">Alternate YA</h4>
     <p><span class="affects">Affects: U+2D30</span></p>
@@ -1436,8 +1436,47 @@
     </tr>
     </tbody>
     </table>
-    <h3 id="rendering-support">Rendering support</h3>
-    <p><span class="akatab-R normal" style="color:green">RenderingUnknown</span></p>
+    <h2 id="common-features-list">Common features list</h2>
+    <p>
+    <p>The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and outputs the proper visual representation.<br></p>
+    <p>The sections below show the use of some formatting characters, noteably the TIFINAGH CONSONANT JOINER (U+2D7F) and RIGHT-TO-LEFT OVERRIDE (U+202E). A recommended keyboard for Tifinagh characters and these special characters can be downloaded at the <a href="../../pdf/https://keyman.com/keyboards/tuareg_tifinagh">Keyman Tuareg Tifinagh keyboard</a> web site.</p>
+    <h3 id="contextual-shaping">Contextual shaping</h3>
+    <p>
+    <p>Two Tifinagh characters TIFINAGH LETTER YAL (U+2D4D) and TIFINAGH LETTER YAN (U+2D4F) could cause ambiguity when they appear next to each other. To prevent uncertainty, the second character in the sequence is raised as in the example below:<br> <span class="akatab-R normal">ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span><br> If the user's preference is slanted bars, the user-selected features <em>cv19</em> or <em>ss19</em> can be used, as illustrated in the user-selected font features section above.</p>
+    <h3 id="ligature-formation">Ligature formation</h3>
+    <p>
+    Bi-consonant ligatures are formed after typing the character sequences shown in the examples below. Type the first character e.g. <span class="akatab-B"> ⴱ </span> (U+2D31), the TIFINAGH CONSONANT JOINER <span class="akatab-B"> ⵿  </span> (U+2D7F) and then the second character e.g. <span class="akatab-B"> ⵜ </span>, to get the <span class="akatab-B"> ⴱ⵿ⵜ </span> ligature.
+    </p>
+    <img src="../../assets/images/Akatab%20biconsonant%20ligature%20examples.png" alt="Akatab biconsonant ligature examples" class="fullsize" />
+    <figcaption>
+    Akatab bi-consonant ligature examples
+    </figcaption>
+    <h3 id="right-to-left-tifinagh">Right-to-left Tifinagh</h3>
+    <p>
+    Historically, Tifinagh did not have a fixed direction. Modern Tifinagh is commonly printed as left-to-right text and <a href="../../pdf/http://www.unicode.org/versions/Unicode15.0.0/ch19.pdf#G43184">The Unicode Standard: Tifinagh section</a> specifies its directionality as strong left to right while recognizing it can be bidirectional. Akatab has glyph and rendering support for writing in both directions. To get right-to-left behaviour and then reverse the direction, the user can use two invisible formatting characters to change the direction of the characters and the text as follows:<br>
+    <ol type="1">
+    <li>
+    U+202E (RIGHT-TO-LEFT OVERRIDE) for right-to-left Tifinagh<br> The text that follows will be right-to-left. Additionally, the directionality of characters is changed to right-to-left.
+    </li>
+    <li>
+    U+202C (POP DIRECTIONAL FORMATTING) to revert direction for Tifinagh text<br> The text that follows reverts to the direction of the text before the previous U+202E character.
+    </li>
+    </ol>
+    </p>
+    <p>‮</p>
+    <h4 id="akatab-examples">Akatab examples</h4>
+    <p>
+    <strong>The following text demonstrates Tifinagh left-to-right behaviour:</strong><br> <span class="akatab-R normal"> ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ </span>
+    </p>
+    <p>
+    <p><strong>The following text demonstrates Tifinagh right-to-left behaviour using the U+202E character:</strong><br> <span class="akatab-R normal" dir="rtl"> ‮ ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ </span></p>
+    <strong>The following text demonstrates both Tifinagh directional behaviours using the U+202E and U+202C characters:</strong><br> <span class="akatab-R normal" dir="rtl"> ‮ ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ ‬ ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ </span>
+    </p>
+    <p>‮ <!-- 
+    Using hard-coded directional characters in the HTML code (as illustrated above) can prevent accidental deletion of invisible characters.
+    --></p>
+    <h4 id="rendering-support">Rendering support</h4>
+    <p><span class="akatab-R" style="color:green">RenderingUnknown</span></p>
     <!-- PRODUCT SITE ONLY
     [font id='akatab' face='Akatab-Regular' bold='Akatab-Bold' size='150%']
     -->

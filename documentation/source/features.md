@@ -3,15 +3,15 @@ title: Akatab - Font Features
 fontversion: 3.000
 ---
 
-Akatab is an OpenType-enabled font family that supports the Tifinagh script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
+Akatab is a Graphite and OpenType-enabled font family that supports the Tifinagh script. It includes a number of optional user-selected features that may be useful or required for particular uses or languages. This document lists all the user-selected features. These features are primarily specified using four-letter tags (e.g. 'cv17'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](http://software.sil.org/fonts/features). 
 
-These OpenType features are primarily specified using four-letter tags (e.g. 'cv17'), although some applications may provide a direct way to control certain common features such as ligatures. For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](http://software.sil.org/fonts/features).
+Akatab also provides for a number of common features such as ligature formation, contextual substitution and diacritic positioning. It also provides right-to-left rendering of text. Most applications will make use of these features when the proper sequence of characters are entered.
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Akatab as a web font see [Akatab Webfont Example](../web/Akatab-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For detailed information see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts). For a more concise example of how to use Akatab as a web font see [Akatab Webfont Example](../web/Akatab-webfont-example.html).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## Complete feature list
+## User-selected feature list
 
 ### Character variants
 
@@ -491,8 +491,56 @@ Standard Latin | <span class='akatab-R normal'>! , .</span> | | `ss20=0`
 Decorative     | <span class='akatab-R normal' style='font-feature-settings: "ss20" 1'>! , .</span> | | `ss20=1`
 
 
-### Rendering support
-<span class='akatab-R normal' style='color:green'>RenderingUnknown</span> 
+## Common features list
+<p>The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and outputs the proper visual representation.<br>
+
+The sections below show the use of some formatting characters, noteably the TIFINAGH CONSONANT JOINER (U+2D7F) and RIGHT-TO-LEFT OVERRIDE (U+202E). A recommended keyboard for Tifinagh characters and these special characters can be downloaded at the [Keyman Tuareg Tifinagh keyboard](https://keyman.com/keyboards/tuareg_tifinagh) web site.
+
+### Contextual shaping
+<p>Two Tifinagh characters TIFINAGH LETTER YAL (U+2D4D) and TIFINAGH LETTER YAN (U+2D4F) could cause ambiguity when they appear next to each other. To prevent uncertainty, the second character in the sequence is raised as in the example below:<br>
+<span class='akatab-R normal'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span><br>
+If the user's preference is slanted bars, the user-selected features *cv19* or *ss19* can be used, as illustrated in the user-selected font features section above.
+
+
+### Ligature formation
+<p>Bi-consonant ligatures are formed after typing the character sequences shown in the examples below. Type the first character e.g. <span class='akatab-B'> ⴱ </span> (U+2D31), the TIFINAGH CONSONANT JOINER <span class='akatab-B'> &#x2D7F;&#x00A0; </span> (U+2D7F) and then the second character e.g. <span class='akatab-B'> ⵜ </span>, to get the <span class='akatab-B'> ⴱ⵿ⵜ </span> ligature.</p>
+
+![Akatab biconsonant ligature examples](assets/images/Akatab biconsonant ligature examples.png){.fullsize}
+<figcaption>Akatab bi-consonant ligature examples</figcaption>
+
+
+### Right-to-left Tifinagh
+<p>Historically, Tifinagh did not have a fixed direction. Modern Tifinagh is commonly printed as left-to-right text and [The Unicode Standard: Tifinagh section](http://www.unicode.org/versions/Unicode15.0.0/ch19.pdf#G43184) specifies its directionality as strong left to right while recognizing it can be bidirectional. Akatab has glyph and rendering support for writing in both directions. To get right-to-left behaviour and then reverse the direction, the user can use two invisible formatting characters to change the direction of the characters and the text as follows:<br>
+<ol type="1">
+  <li>U+202E (RIGHT-TO-LEFT OVERRIDE) for right-to-left Tifinagh<br>
+    The text that follows will be right-to-left. Additionally, the directionality of characters is changed to right-to-left.
+  </li>
+  <li>U+202C (POP DIRECTIONAL FORMATTING) to revert direction for Tifinagh text<br>
+    The text that follows reverts to the direction of the text before the previous U+202E character. 
+  </li>
+</ol>
+</p>‮
+
+#### Akatab examples
+
+<p>
+<strong>The following text demonstrates Tifinagh left-to-right behaviour:</strong><br>
+<span class='akatab-R normal'> ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ </span>
+</p>
+<p>
+<strong>The following text demonstrates Tifinagh right-to-left behaviour using the U+202E character:</strong><br>
+<span dir="rtl" class='akatab-R normal'> &#x202E; ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ </span>
+
+<strong>The following text demonstrates both Tifinagh directional behaviours using the U+202E and U+202C characters:</strong><br>
+<span dir="rtl" class='akatab-R normal'> &#x202E; ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ  &#x202C; ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ </span>
+</p>‮
+<!-- 
+Using hard-coded directional characters in the HTML code (as illustrated above) can prevent accidental deletion of invisible characters.
+-->
+
+
+#### Rendering support
+<span class='akatab-R' style='color:green'>RenderingUnknown</span> 
 
 
 <!-- PRODUCT SITE ONLY

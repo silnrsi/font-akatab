@@ -182,24 +182,20 @@ of the license along with this Font Software. If this is not the case, go to
 <h3>Akatab right-to-left example</h3>
 
 <p>
-<strong>The following text demonstrates Tifinagh and Latin left-to-right behaviour.</strong><br>
-<p>
-ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ Senatet tsokalén wr teǧǧehnet émi. ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ 
+<strong>The following text demonstrates Tifinagh left-to-right behaviour:</strong> ⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ 
 </p>
 <p>
-<strong>The following text demonstrates Tifinagh right-to-left behaviour and reversing direction for Latin text.</strong><br>
-<p class=right>
-&#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ&#x202C‬ Senatet tsokalén wr teǧǧehnet émi. &#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ&#x202C‬ 
+<strong>The following text demonstrates Tifinagh right-to-left behaviour:</strong> &#x202Eⵙⵏⵜⵜ ⵜⵙⴾⵍⵏ ⵓⵔ ⵜⴶⵂⵏⵜ ⵎⵉ 
 </p>‮
 <!-- 
 Using hard-coded directional characters in the HTML code (as illustrated above) can prevent accidental deletion of invisible characters.
 -->
-<p style="font-size:16px; ">To get right-to-left behaviour and then reverse the direction, the above two paragraphs use two invisible formatting characters to change the direction of the characters and the text as follows:<br>
+<p style="font-size:16px; ">To get right-to-left behaviour and then reverse the direction, the user can use two invisible formatting characters to change the direction of the characters and the text as follows:<br>
 <ol type="1">
   <li style="font-size:16px; ">U+202E (RIGHT-TO-LEFT OVERRIDE) for right-to-left Tifinagh<br>
     The text that follows will be right-to-left. Additionally, the directionality of characters is changed to right-to-left.
   </li>
-  <li style="font-size:16px; ">U+202C (POP DIRECTIONAL FORMATTING) to revert direction, e.g., for Latin text<br>
+  <li style="font-size:16px; ">U+202C (POP DIRECTIONAL FORMATTING) to revert direction for Tifinagh text<br>
     The text that follows reverts to the direction of the text before the previous U+202E character. 
   </li>
 </ol>
