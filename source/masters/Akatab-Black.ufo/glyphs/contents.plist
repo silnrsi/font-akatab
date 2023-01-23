@@ -32,8 +32,6 @@
   <string>C_.glif</string>
   <key>CGJ</key>
   <string>C_G_J_.glif</string>
-  <key>CR</key>
-  <string>C_R_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
   <key>D</key>
@@ -566,6 +564,8 @@
   <string>nine.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
+  <key>nonmarkingreturn</key>
+  <string>nonmarkingreturn.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
   <key>ntilde</key>
