@@ -1,5 +1,5 @@
 
-This font supports over 390 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://scripts.sil.org/SILPUAassignments) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
+This font supports over 390 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](http://www.unicode.org/versions/Unicode15.0.0/ch23.pdf#G19184) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
 
 Note: Inclusion of basic Latin repertoire is provided as a convenience but is not intended for extensive Latin script use. The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts in the [Source Sans Github repository](https://github.com/adobe-fonts/source-sans-pro). 
 
