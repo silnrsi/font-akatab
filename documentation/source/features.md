@@ -343,7 +343,7 @@ Standard   | <span class='akatab-R normal'>ⵛ⵿ⵜ</span> | <span class='akata
 Internal T | <span class='akatab-R normal' style='font-feature-settings: "cv48" 1'>ⵛ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv48" 1'> ‮ⵛ⵿ⵜ</span> | `cv48=1`
 
 
-### Stylistic sets (OpenType only)
+### Stylistic sets
 
 #### Alternate YA
 
@@ -537,11 +537,6 @@ If the user's preference is slanted bars, the user-selected features *cv19* or *
 <!-- 
 Using hard-coded directional characters in the HTML code (as illustrated above) can prevent accidental deletion of invisible characters.
 -->
-
-
-#### Rendering support
-<span class='akatab-R' style='color:green'>RenderingUnknown</span> 
-
 
 <!-- PRODUCT SITE ONLY
 [font id='akatab' face='Akatab-Regular' bold='Akatab-Bold' size='150%']

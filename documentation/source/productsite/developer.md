@@ -1,5 +1,5 @@
 
-## Welcome font developers!
+## Welcome, font developers!
 
 We welcome other developers who wish to get involved in supporting and enhancing these fonts or who want to modify them.
 
