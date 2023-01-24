@@ -3,7 +3,7 @@ title: Akatab - Character Set Support
 fontversion: 3.000
 ---
 
-This font supports over 390 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](http://www.unicode.org/versions/Unicode15.0.0/ch23.pdf#G19184) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
+This font supports over 390 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://www.unicode.org/versions/Unicode15.0.0/ch23.pdf#G19184) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
 
 Note: Inclusion of basic Latin repertoire is provided as a convenience but is not intended for extensive Latin script use. The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts in the [Source Sans Github repository](https://github.com/adobe-fonts/source-sans-pro). 
 
@@ -38,7 +38,7 @@ Specials|U+FFFC..U+FFFD
 
 ## Private-use (PUA) characters
 
-There are a number of private-use characters (not in Unicode) that are supported in this font. These conform to [SIL International’s corporate registry](http://scripts.sil.org/PUA_home) for usage of the Unicode private-use areas.
+There are a number of private-use characters (not in Unicode) that are supported in this font. These conform to [SIL International’s corporate registry](https://scripts.sil.org/PUA_home) for usage of the Unicode private-use areas.
 
 ### Tifinagh superscripts
 

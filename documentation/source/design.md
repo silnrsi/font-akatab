@@ -18,7 +18,7 @@ The full range of weights is accessed in different ways depending on the applica
 
 ## Tifinagh:
 
-<p> This section demonstrates all of the Tifinagh Unicode characters in the font including those in a right-to-left design. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. </p>
+<p> This section demonstrates all of the Tifinagh Unicode characters in the font, including those in a right-to-left design. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. </p>
 
 ### Unicode characters
 
