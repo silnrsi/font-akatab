@@ -7,7 +7,7 @@ Akatab is an OpenType-enabled font family that supports the Tifinagh script. It 
 
 Akatab also provides for a number of common features such as ligature formation, contextual substitution and diacritic positioning. It also provides right-to-left rendering of text. Most applications will make use of these features when the proper sequence of characters is entered.
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). For a more concise example of how to use Akatab as a web font, see [Akatab Webfont Example](../web/Akatab-webfont-example.html).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For detailed information, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). For a more concise example of how to use Akatab as a web font, see [Akatab Webfont Example](../web/Akatab-webfont-example.html).
 
 *If this document is not displaying correctly, a PDF version is also provided in the documentation/pdf folder of the release package.*
 

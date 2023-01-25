@@ -3,9 +3,9 @@ title: Akatab - Documentation
 fontversion: 3.000
 ---
 
-Thank you for your interest in the Akatab fonts. This font family supports the broad variety of writing systems that use Latin and Cyrillic scripts. The design is optimized for high readability at a wide range of sizes and resolutions, making it ideal for new readers moving on from simple sans serif forms. 
+Thank you for your interest in the Akatab fonts. This project is intended to provide a free and open font family for current languages and writing systems that use the Tifinagh script. It supports many of the Unicode characters for this script. It also includes a large set of ligatures useful for linguistics and literacy work. Smart font routines automatically produce these ligatures. In addition, user-selectable features are included to choose variant characters or ligatures. 
 
-This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Akatab SIL site](https://software.sil.org/akatab/).
+This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, is available from the [Akatab web page](https://software.sil.org/akatab/).
 
 - [About](about.md) — Information about this project and SIL International
 - [Resources](resources.md) — Help with installation and use
