@@ -1088,6 +1088,21 @@ feature liga {  # Standard Ligatures
             lookup TfnSILvowels;
 } liga ;
 
+feature rlig {  # Required Ligatures (for Microsoft Word)
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnBiconsonants_RTL;
+			lookup TfnBiconsonants_RTL_DW;
+            lookup TfnBiconsonants;
+            lookup TfnSILvowels;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnBiconsonants_RTL;
+			lookup TfnBiconsonants_RTL_DW;
+            lookup TfnBiconsonants;
+            lookup TfnSILvowels;
+} rlig ;
+
 feature rtla {  # Right to Left Alternates
     script DFLT;  # Default
         language dflt;  # Default
