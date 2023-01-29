@@ -32,7 +32,7 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 :------- | :--------------------------- | :--------------------------- | :-------
 Standard            | <span class='akatab-R normal'>ⴼ</span> | <span class='akatab-R normal'> ‮ⴼ</span> | `cv02=0`
 I-shape             | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'> ‮ⴼ</span> | `cv02=1`
-Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'> ‮ⴼ</span> | `cv02=2`
+Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'> ‮ⴼ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAGHH
 
@@ -214,7 +214,7 @@ Standard                      | <span class='akatab-R normal'>ⴼ⵿ⵜ</span> |
 Single bar, middle exterior T | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'> ‮ⴼ⵿ⵜ</span> | `cv02=1`
 Double bar, middle exterior T | <span class='akatab-R normal' style='font-feature-settings: "cv35" 1'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv35" 1'> ‮ⴼ⵿ⵜ</span> | `cv35=1`
 Single bar, middle interior T | <span class='akatab-R normal' style='font-feature-settings: "cv35" 2'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv35" 2'> ‮ⴼ⵿ⵜ</span> | `cv35=2`
-Open top & bottom, interior T | <span class='akatab-R normal' style='font-feature-settings: "cv35" 3'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv35" 3'> ‮ⴼ⵿ⵜ</span> | `cv35=3`
+Open top & bottom, interior T | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'> ‮ⴼ⵿ⵜ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAN TUAREG YAK
 
@@ -284,7 +284,7 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 :------- | :--------------------------- | :--------------------------- | :-------
 Standard            | <span class='akatab-R normal'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⴼ</span> | `cv42=0`
 Top and bottom bars | <span class='akatab-R normal' style='font-feature-settings: "cv42" 1'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv42" 1'> ‮ⵏ⵿ⴼ</span> | `cv42=1`
-No bars             | <span class='akatab-R normal' style='font-feature-settings: "cv42" 2'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv42" 2'> ‮ⵏ⵿ⴼ</span> | `cv42=2`
+No bars             | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'> ‮ⵏ⵿ⴼ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAN YAJ
 

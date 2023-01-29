@@ -3,7 +3,7 @@ Akatab is an OpenType-enabled font family that supports the Tifinagh script. It 
 
 Akatab also provides for a number of common features such as ligature formation, contextual substitution and diacritic positioning. It also provides right-to-left rendering of text. Most applications will make use of these features when the proper sequence of characters is entered.
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). For a more concise example of how to use Akatab as a web font, see [Akatab Webfont Example](../web/Akatab-webfont-example.html).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For detailed information, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). For a more concise example of how to use Akatab as a web font, see [Akatab Webfont Example](../web/Akatab-webfont-example.html).
 
 *If this document is not displaying correctly, a PDF version is also provided in the documentation/pdf folder of the release package.*
 
@@ -28,7 +28,7 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 :------- | :--------------------------- | :--------------------------- | :-------
 Standard            | <span class='akatab-R normal'>ⴼ</span> | <span class='akatab-R normal'> ‮ⴼ</span> | `cv02=0`
 I-shape             | <span class='akatab-cv02-1-R normal'>ⴼ</span> | <span class='akatab-cv02-1-R normal'> ‮ⴼ</span> | `cv02=1`
-Open top and bottom | <span class='akatab-cv02-2-R normal'>ⴼ</span> | <span class='akatab-cv02-2-R normal'> ‮ⴼ</span> | `cv02=2`
+Open top and bottom | <span class='akatab-cv14-1-R normal'>ⴼ</span> | <span class='akatab-cv14-1-R normal'> ‮ⴼ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAGHH
 
@@ -210,7 +210,7 @@ Standard                      | <span class='akatab-R normal'>ⴼ⵿ⵜ</span> |
 Single bar, middle exterior T | <span class='akatab-cv02-1-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv02-1-R normal'> ‮ⴼ⵿ⵜ</span> | `cv02=1`
 Double bar, middle exterior T | <span class='akatab-cv35-1-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv35-1-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=1`
 Single bar, middle interior T | <span class='akatab-cv35-2-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv35-2-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=2`
-Open top & bottom, interior T | <span class='akatab-cv35-3-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv35-3-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=3`
+Open top & bottom, interior T | <span class='akatab-cv14-1-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv14-1-R normal'> ‮ⴼ⵿ⵜ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAN TUAREG YAK
 
@@ -280,7 +280,7 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 :------- | :--------------------------- | :--------------------------- | :-------
 Standard            | <span class='akatab-R normal'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⴼ</span> | `cv42=0`
 Top and bottom bars | <span class='akatab-cv42-1-R normal'>ⵏ⵿ⴼ</span> | <span class='akatab-cv42-1-R normal'> ‮ⵏ⵿ⴼ</span> | `cv42=1`
-No bars             | <span class='akatab-cv42-2-R normal'>ⵏ⵿ⴼ</span> | <span class='akatab-cv42-2-R normal'> ‮ⵏ⵿ⴼ</span> | `cv42=2`
+No bars             | <span class='akatab-cv14-1-R normal'>ⵏ⵿ⴼ</span> | <span class='akatab-cv14-1-R normal'> ‮ⵏ⵿ⴼ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAN YAJ
 
@@ -539,8 +539,8 @@ Using hard-coded directional characters in the HTML code (as illustrated above) 
 [font id='akatab-cv01-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv01 1']
 [font id='akatab-cv02-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 1']
 [font id='akatab-cv02-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 1']
-[font id='akatab-cv02-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 2']
-[font id='akatab-cv02-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 2']
+[font id='akatab-cv14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv14 1']
+[font id='akatab-cv14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv14 1']
 [font id='akatab-cv03-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv03 1']
 [font id='akatab-cv03-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv03 1']
 [font id='akatab-cv04-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv04 1']
@@ -592,8 +592,8 @@ Using hard-coded directional characters in the HTML code (as illustrated above) 
 [font id='akatab-cv35-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv35 1']
 [font id='akatab-cv35-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv35 2']
 [font id='akatab-cv35-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv35 2']
-[font id='akatab-cv35-3' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv35 3']
-[font id='akatab-cv35-3' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv35 3']
+[font id='akatab-cv14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv14 1']
+[font id='akatab-cv14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv14 1']
 [font id='akatab-cv36-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv36 1']
 [font id='akatab-cv36-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv36 1']
 [font id='akatab-cv37-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv37 1']
@@ -620,8 +620,8 @@ Using hard-coded directional characters in the HTML code (as illustrated above) 
 [font id='akatab-cv41-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv41 1']
 [font id='akatab-cv42-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv42 1']
 [font id='akatab-cv42-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv42 1']
-[font id='akatab-cv42-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv42 2']
-[font id='akatab-cv42-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv42 2']
+[font id='akatab-cv14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv14 1']
+[font id='akatab-cv14-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv14 1']
 [font id='akatab-cv43-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv43 1']
 [font id='akatab-cv43-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv43 1']
 [font id='akatab-cv44-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv44 1']

@@ -2,8 +2,7 @@
 ### 15 Feb 2021 (SIL WSTech team) Akatab version 2.000
 - Added Akatab Bold
 - Changed design of all Latin glyphs to use Source Sans Pro
-- Added characters to support "Recommended characters for Non-Roman fonts" at
-  https://scriptsource.org/entry/gg5wm9hhd3
+- Added characters to support ["Recommended characters for Non-Roman fonts"](https://scriptsource.org/entry/gg5wm9hhd3)
 
 ### 27 May 2020 (SIL WSTech team) Akatab version 1.000 (production release)
 - Added TifLtrYo (U+2D67) and superscript vowel TifLtrYo.super (U+E304)

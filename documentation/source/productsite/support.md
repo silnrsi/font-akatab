@@ -7,11 +7,11 @@ Before requesting technical support, please **carefully read all the documentati
 
 ## Language Software Community
 
-For person-to-person support visit the [SIL Language Software Community](https://community.software.sil.org/c/silfonts), where font developers and users can help each other. These support discussions can also help others in the future.
+For person-to-person support, visit the [SIL Language Software Community](https://community.software.sil.org/c/silfonts), where font developers and users can help each other. These support discussions can also help others in the future.
 
 ## Reporting bugs and feature requests
 
-If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github Akatab project](https://github.com/silnrsi/font-akatab/issues) or contact us directly.
+If you have a bug to report or a suggestion for how we could improve the fonts, please create an issue in the [Github Akatab project](https://github.com/silnrsi/font-akatab/issues) or contact us directly.
 
 ## Contact form
 
