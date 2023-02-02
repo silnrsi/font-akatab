@@ -36,9 +36,9 @@ Variation Selectors|U+FE00..U+FE0F
 Arabic Presentation Forms-B|U+FEFF (zero-width no-break space)
 Specials|U+FFFC..U+FFFD
 
-## Private-use (PUA) characters
+## Private Use Area (PUA) characters
 
-There are a number of private-use characters (not in Unicode) that are supported in this font. These conform to [SIL International’s corporate registry](https://scripts.sil.org/PUA_home) for usage of the Unicode private-use areas.
+There are a number of private-use characters that are supported in this font. The Private Use Area is a range of codepoints that are reserved in the Unicode for private-use by software developers and end users who need a special set of characters for their own purposes.
 
 ### Tifinagh superscripts
 

@@ -71,7 +71,7 @@ The full range of weights is accessed in different ways depending on the applica
 ### Raised characters
 <p><span class="akatab-R normal"> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span></p>
 
-## Private-use (PUA) characters
+## Private Use Area (PUA) characters
 
 ### Tifinagh superscripts
 <p style="font-size:13px; ">These superscript characters correspond to U+E300 – U+E304 respectively and are shown between Tifinagh characters for clarity. They are used as aids in literacy.</p>  
@@ -151,7 +151,7 @@ Regular: <span class='akatab-R normal'> Ḅ ḅ Ḍ ḍ Ḥ ḥ Ḳ ḳ Ḷ ḷ 
 
 ### General Punctuation, Supplemental Punctuation, Superscripts and Subscripts:
 
-Regular: <span class='akatab-R normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201C; &#x201D; &#x201E; &#x201F; &#x2020; &#x2021; &#x2022; &#x2026; &#x2030; &#x2039; &#x203A; &#x2044; &#x2074</span>
+Regular: <span class='akatab-R normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201C; &#x201D; &#x201E; &#x201F; &#x2020; &#x2021; &#x2022; &#x2026; &#x2030; &#x2039; &#x203A; &#x2044; &#x2074; </span>
 
 **Bold:** <span class='akatab-B normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201C; &#x201D; &#x201E; &#x2020; &#x2021; &#x2022; &#x2026; &#x2027; &#x2030; &#x2039; &#x203A; &#x2044; &#x2074; </span>
 
