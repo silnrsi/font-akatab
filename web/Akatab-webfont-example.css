@@ -79,6 +79,13 @@ th {
   -webkit-font-feature-settings: "cv02" 1;
 }
 
+.cv02_2 { 
+   font-feature-settings: "cv02" 2;
+  -moz-font-feature-settings: "cv02" 2;
+  -ms-font-feature-settings: "cv02" 2;
+  -webkit-font-feature-settings: "cv02" 2;
+}
+
 /* enable character variant 3 */
 .cv03 { 
    font-feature-settings: "cv03" 1;
