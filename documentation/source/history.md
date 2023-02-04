@@ -3,6 +3,22 @@ title: Akatab - Version History
 fontversion: 3.000
 ---
 
+### 08 Feb 2023 (SIL WSTech team) Akatab version 3.000
+- Added 4 weights: Medium, SemiBold, ExtraBold, and Black
+- Added new features: 
+    - Character Variants: cv08-cv15, cv19, cv20, cv41-cv48 
+	- Required Contextual Alternates: rclt 
+	- Required Ligatures: rlig 
+	- Stylistic Sets: ss08-15, ss19, ss20
+- Added UI name strings for Character Variants and Stylistic Sets features
+- Added characters: 
+    - U+2D33 TIFINAGH LETTER YAG
+	- U+2D58 TIFINAGH LETTER AYER YAGH (Adrar yaj, Tuareg staggered five-points)
+	- U+2D64 TIFINAGH LETTER TAWELLEMET YAZ (harpoon yaz)
+- Added 8 variant characters and any right-to-left counterparts
+- Added 9 bi-consonant ligatures, 21 ligature variants and any right-to-left counterparts
+- Removed Graphite support
+
 ### 15 Feb 2021 (SIL WSTech team) Akatab version 2.000
 - Added Akatab Bold
 - Changed design of all Latin glyphs to use Source Sans Pro
