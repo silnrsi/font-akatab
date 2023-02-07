@@ -492,9 +492,9 @@ Decorative     | <span class='akatab-R normal' style='font-feature-settings: "ss
 
 
 ## Common features list
-<p>The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and outputs the proper visual representation.<br>
+<p>The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and produces the proper visual representation.<br>
 
-The sections below show the use of some formatting characters, noteably the TIFINAGH CONSONANT JOINER (U+2D7F) and RIGHT-TO-LEFT OVERRIDE (U+202E). A recommended keyboard for Tifinagh characters and these special characters can be downloaded at the [Keyman Tuareg Tifinagh keyboard](https://keyman.com/keyboards/tuareg_tifinagh) web site.
+The sections below show the use of some formatting characters, notably the TIFINAGH CONSONANT JOINER (U+2D7F) and RIGHT-TO-LEFT OVERRIDE (U+202E). A recommended keyboard for Tifinagh characters and these special characters can be downloaded at the [Keyman Tuareg Tifinagh keyboard](https://keyman.com/keyboards/tuareg_tifinagh) web site.
 
 ### Contextual shaping
 <p>Two Tifinagh characters, TIFINAGH LETTER YAL (U+2D4D) and TIFINAGH LETTER YAN (U+2D4F), could cause ambiguity when they appear next to each other. To prevent uncertainty, the second character in the sequence is raised as in the example below:<br>

@@ -38,7 +38,7 @@ Specials|U+FFFC..U+FFFD
 
 ## Private Use Area (PUA) characters
 
-There are a number of private-use characters that are supported in this font. The Private Use Area is a range of codepoints that are reserved in the Unicode for private-use by software developers and end users who need a special set of characters for their own purposes.
+There are a number of private-use characters that are supported in this font. The Private Use Area is a range of codepoints that are reserved in the Unicode for private use by software developers and end users who need a special set of characters for their own purposes.
 
 ### Tifinagh superscripts
 
