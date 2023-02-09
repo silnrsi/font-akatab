@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2023/02/08 20:03:16</string>
+  <string>2023/02/09 09:01:18</string>
   <key>openTypeHheaAscender</key>
   <integer>2093</integer>
   <key>openTypeHheaDescender</key>
@@ -85,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Akatab Black: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.955</string>
+  <string>Version 3.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -220,9 +220,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>2</integer>
+  <integer>3</integer>
   <key>versionMinor</key>
-  <integer>955</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>1024</integer>
 </dict>
