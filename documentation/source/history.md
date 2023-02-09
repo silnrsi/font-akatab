@@ -3,7 +3,7 @@ title: Akatab - Version History
 fontversion: 3.000
 ---
 
-### 08 Feb 2023 (SIL WSTech team) Akatab version 3.000
+### 09 Feb 2023 (SIL WSTech team) Akatab version 3.000
 - Added 4 weights: Medium, SemiBold, ExtraBold, and Black
 - Added new features: 
     - Character Variants: cv08-cv15, cv19, cv20, cv41-cv48 

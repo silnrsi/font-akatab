@@ -14,7 +14,7 @@ Six weights for this typeface family are included:
 - Akatab ExtraBold
 - Akatab Black
 
-The full range of weights is accessed in different ways depending on the application. See the [FAQ](faq.md) for details.
+The full range of weights is accessed in different ways depending on the application. See the [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/) for details.
 
 ## Tifinagh:
 
@@ -84,7 +84,7 @@ The full range of weights is accessed in different ways depending on the applica
 ## Special use ligatures and diacritic marks
 <p style="font-size:13px; ">These ligatures and diacritic marks are used as aids in literacy and linguistic research.</p>  
 
-### SIL vowels
+### SIL vowels (Niger)
 <p style="font-size:13px; ">Type the Tifinagh character followed by the appropriate combining circumflex (U+0302), breve (U+0306) or dot below (U+0323).</p>
 <p><span class="akatab-R normal"> ⴰ̂ ⴰ̆ ⵓ̂ ⵢ̂ ⵢ̣ ⵧ̂ </span></p>
 
