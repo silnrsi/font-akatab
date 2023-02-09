@@ -14,7 +14,7 @@ Six weights for this typeface family are included:
 - Akatab ExtraBold
 - Akatab Black
 
-The full range of weights is accessed in different ways depending on the application. See the [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/) for details.
+The full range of weights is accessed in different ways depending on the application. See [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/) for details.
 
 ## Tifinagh:
 
