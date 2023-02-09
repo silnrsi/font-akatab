@@ -2,9 +2,9 @@ README
 Akatab
 ======
 
-Akatab is a Unicode font for rendering Tifinagh characters in the Tamahaq and 
-Tamashek languages. This font uses state-of-the-art OpenType font 
-technology to provide accurate typography including the formation of 
+Akatab is a Unicode font for rendering Tifinagh characters in the Tamahaq, 
+Tamashek and Tawallammat languages. This font uses state-of-the-art OpenType 
+font technology to provide accurate typography including the formation of 
 bi-consonant ligatures. Variations of characters are included in the font to 
 meet personal and regional preferences. For more information about supported 
 Unicode ranges and languages, smart font features and how to use them, please 
