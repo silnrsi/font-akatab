@@ -15,7 +15,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - The full OFL-FAQ.txt is also included in the font package.
 
 #### *How do I access the full range of weights?*
-The full range of weights is accessed in different ways depending on the application. See the [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/) for details.
+The full range of weights is accessed in different ways depending on the application. See [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/) for details.
 
 #### *How do I access the Character Variants and Stylistic Sets features?*
 Help with application support for font features can be found here: [Using Font Features](https://software.sil.org/fonts/features/). Issues specific to popular applications are below.

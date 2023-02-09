@@ -209,7 +209,7 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 Standard                      | <span class='akatab-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=0`
 Single bar, middle exterior T | <span class='akatab-cv02-1-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv02-1-R normal'> ‮ⴼ⵿ⵜ</span> | `cv02=1`
 Double bar, middle exterior T | <span class='akatab-cv35-1-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv35-1-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=1`
-Single bar, middle interior T | <span class='akatab-cv35-2-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv35-2-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=2`
+Single bar, middle interior T | <span class='akatab-cv35-2-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv35-2-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=2 (or cv02=1)`
 Open top & bottom, interior T | <span class='akatab-cv14-1-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-cv14-1-R normal'> ‮ⴼ⵿ⵜ</span> | `cv14=1 (or cv02=2)`
 
 #### Alternate YAN TUAREG YAK
