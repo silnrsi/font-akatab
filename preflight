@@ -5,7 +5,7 @@
 set -e
 
 echo "-----Update version number..."
-psfsetversion source/masters/Akatab-Regular.ufo "3.000" -l source/logs/setversionR.log
+psfsetversion source/masters/Akatab-Regular.ufo "3.001" -l source/logs/setversionR.log
 
 echo "-----Check and normalize Regular & Black..."
 psfnormalize -p checkfix=fix source/masters/Akatab-Regular.ufo -l source/masters/logs/normReg.log &
