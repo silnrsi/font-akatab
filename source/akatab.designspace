@@ -33,9 +33,9 @@
         </source>
         <source familyname="Akatab" filename="masters/Akatab-Black.ufo" name="Akatab-Black" stylename="Black">
             <location>
-                <dimension name="weight" xvalue="800" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
+                <dimension name="weight" xvalue="800.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
     </sources>
@@ -63,9 +63,9 @@
                 postscriptfontname="Akatab-Medium"
                 filename="instances/Akatab-Medium.ufo">
             <location>
-                <dimension name="weight" xvalue="480" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
+                <dimension name="weight" xvalue="480.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info/>
             <kerning/>
@@ -78,9 +78,9 @@
                 postscriptfontname="Akatab-SemiBold"
                 filename="instances/Akatab-SemiBold.ufo">
             <location>
-                <dimension name="weight" xvalue="540" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
+                <dimension name="weight" xvalue="540.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info/>
             <kerning/>
@@ -93,9 +93,9 @@
                 postscriptfontname="Akatab-Bold"
                 filename="instances/Akatab-Bold.ufo">
             <location>
-                <dimension name="weight" xvalue="600" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
+                <dimension name="weight" xvalue="600.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info/>
             <kerning/>
@@ -108,9 +108,9 @@
                 postscriptfontname="Akatab-ExtraBold"
                 filename="instances/Akatab-ExtraBold.ufo">
             <location>
-                <dimension name="weight" xvalue="700" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
+                <dimension name="weight" xvalue="700.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info/>
             <kerning/>
@@ -123,9 +123,9 @@
                 postscriptfontname="Akatab-Black"
                 filename="instances/Akatab-Black.ufo">
             <location>
-                <dimension name="weight" xvalue="800" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
+                <dimension name="weight" xvalue="800.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info/>
             <kerning/>
