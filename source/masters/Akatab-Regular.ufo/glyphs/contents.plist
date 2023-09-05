@@ -88,6 +88,8 @@
   <string>K_dotbelow.glif</string>
   <key>L</key>
   <string>L_.glif</string>
+  <key>LabializationMark-tifi</key>
+  <string>L_abializationM_ark-tifi.glif</string>
   <key>Ldotbelow</key>
   <string>L_dotbelow.glif</string>
   <key>M</key>
@@ -824,6 +826,8 @@
   <string>y.glif</string>
   <key>ya-tifi</key>
   <string>ya-tifi.glif</string>
+  <key>ya-tifi.neo</key>
+  <string>ya-tifi.neo.glif</string>
   <key>ya-tifi.super</key>
   <string>ya-tifi.super.glif</string>
   <key>ya-tifi.v01</key>
@@ -832,16 +836,24 @@
   <string>yaS_I_L_a-tifi.glif</string>
   <key>yaSILschwa-tifi</key>
   <string>yaS_I_L_schwa-tifi.glif</string>
+  <key>yaa-tifi</key>
+  <string>yaa-tifi.glif</string>
   <key>yab-tifi</key>
   <string>yab-tifi.glif</string>
   <key>yab-tifi.v01</key>
   <string>yab-tifi.v01.glif</string>
+  <key>yabLabializationMarkLig-tifi</key>
+  <string>yabL_abializationM_arkL_ig-tifi.glif</string>
+  <key>yabh-tifi</key>
+  <string>yabh-tifi.glif</string>
   <key>yabyatLig-tifi</key>
   <string>yabyatL_ig-tifi.glif</string>
   <key>yabyatLig-tifi.rtl</key>
   <string>yabyatL_ig-tifi.rtl.glif</string>
   <key>yabyatLig-tifi.v01</key>
   <string>yabyatL_ig-tifi.v01.glif</string>
+  <key>yach-tifi</key>
+  <string>yach-tifi.glif</string>
   <key>yacute</key>
   <string>yacute.glif</string>
   <key>yad-tifi</key>
@@ -850,6 +862,8 @@
   <string>yadd-tifi.glif</string>
   <key>yadd-tifi.rtl</key>
   <string>yadd-tifi.rtl.glif</string>
+  <key>yaddh-tifi</key>
+  <string>yaddh-tifi.glif</string>
   <key>yadh-tifi</key>
   <string>yadh-tifi.glif</string>
   <key>yadh-tifi.unused</key>
@@ -858,6 +872,8 @@
   <string>yadh-tifi.v01.glif</string>
   <key>yaf-tifi</key>
   <string>yaf-tifi.glif</string>
+  <key>yaf-tifi.neo</key>
+  <string>yaf-tifi.neo.glif</string>
   <key>yaf-tifi.v01</key>
   <string>yaf-tifi.v01.glif</string>
   <key>yaf-tifi.v02</key>
@@ -882,8 +898,14 @@
   <string>yag-tifi.glif</string>
   <key>yag-tifi.v01</key>
   <string>yag-tifi.v01.glif</string>
+  <key>yagLabializationMarkLig-tifi</key>
+  <string>yagL_abializationM_arkL_ig-tifi.glif</string>
+  <key>yagh-tifi</key>
+  <string>yagh-tifi.glif</string>
   <key>yaghAyer-tifi</key>
   <string>yaghA_yer-tifi.glif</string>
+  <key>yaghLabializationMarkLig-tifi</key>
+  <string>yaghL_abializationM_arkL_ig-tifi.glif</string>
   <key>yaghTuareg-tifi</key>
   <string>yaghT_uareg-tifi.glif</string>
   <key>yaghh-tifi</key>
@@ -908,8 +930,12 @@
   <string>yah-tifi.glif</string>
   <key>yah-tifi.v01</key>
   <string>yah-tifi.v01.glif</string>
+  <key>yahBerberAcademy-tifi</key>
+  <string>yahB_erberA_cademy-tifi.glif</string>
   <key>yahTuareg-tifi</key>
   <string>yahT_uareg-tifi.glif</string>
+  <key>yahh-tifi</key>
+  <string>yahh-tifi.glif</string>
   <key>yahyatLig-tifi</key>
   <string>yahyatL_ig-tifi.glif</string>
   <key>yahyatLig-tifi.rtl</key>
@@ -918,10 +944,16 @@
   <string>yaj-tifi.glif</string>
   <key>yaj-tifi.v01</key>
   <string>yaj-tifi.v01.glif</string>
+  <key>yajBerberAcademy-tifi</key>
+  <string>yajB_erberA_cademy-tifi.glif</string>
   <key>yajyatLig-tifi</key>
   <string>yajyatL_ig-tifi.glif</string>
   <key>yajyatLig-tifi.rtl</key>
   <string>yajyatL_ig-tifi.rtl.glif</string>
+  <key>yak-tifi</key>
+  <string>yak-tifi.glif</string>
+  <key>yakLabializationMarkLig-tifi</key>
+  <string>yakL_abializationM_arkL_ig-tifi.glif</string>
   <key>yakTuareg-tifi</key>
   <string>yakT_uareg-tifi.glif</string>
   <key>yakTuareg-tifi.orig</key>
@@ -932,10 +964,18 @@
   <string>yakT_uareg-tifi.unused.001.glif</string>
   <key>yakTuareg-tifi.unused.002</key>
   <string>yakT_uareg-tifi.unused.002.glif</string>
+  <key>yakh-tifi</key>
+  <string>yakh-tifi.glif</string>
+  <key>yakhLabializationMarkLig-tifi</key>
+  <string>yakhL_abializationM_arkL_ig-tifi.glif</string>
   <key>yakhTuareg-tifi</key>
   <string>yakhT_uareg-tifi.glif</string>
+  <key>yakhh-tifi</key>
+  <string>yakhh-tifi.glif</string>
   <key>yal-tifi</key>
   <string>yal-tifi.glif</string>
+  <key>yal-tifi.neo</key>
+  <string>yal-tifi.neo.glif</string>
   <key>yal-tifi.raised</key>
   <string>yal-tifi.raised.glif</string>
   <key>yal-tifi.slant</key>
@@ -1056,10 +1096,18 @@
   <string>yanyazhT_uaregL_ig-tifi.glif</string>
   <key>yanyazhTuaregLig-tifi.v01</key>
   <string>yanyazhT_uaregL_ig-tifi.v01.glif</string>
+  <key>yap-tifi</key>
+  <string>yap-tifi.glif</string>
+  <key>yaq-tifi</key>
+  <string>yaq-tifi.glif</string>
+  <key>yaqLabializationMarkLig-tifi</key>
+  <string>yaqL_abializationM_arkL_ig-tifi.glif</string>
   <key>yaqTuareg-tifi</key>
   <string>yaqT_uareg-tifi.glif</string>
   <key>yar-tifi</key>
   <string>yar-tifi.glif</string>
+  <key>yarr-tifi</key>
+  <string>yarr-tifi.glif</string>
   <key>yaryakTuaregLig-tifi</key>
   <string>yaryakT_uaregL_ig-tifi.glif</string>
   <key>yaryakTuaregLig-tifi.v01</key>
@@ -1078,6 +1126,8 @@
   <string>yas-tifi.glif</string>
   <key>yash-tifi</key>
   <string>yash-tifi.glif</string>
+  <key>yash-tifi.neo</key>
+  <string>yash-tifi.neo.glif</string>
   <key>yash-tifi.rtl</key>
   <string>yash-tifi.rtl.glif</string>
   <key>yash-tifi.v01</key>
@@ -1110,6 +1160,8 @@
   <string>yashyatL_ig-tifi.v01.rtl.glif</string>
   <key>yass-tifi</key>
   <string>yass-tifi.glif</string>
+  <key>yass-tifi.neo</key>
+  <string>yass-tifi.neo.glif</string>
   <key>yasyakTuaregLig-tifi</key>
   <string>yasyakT_uaregL_ig-tifi.glif</string>
   <key>yasyanLig-tifi</key>
@@ -1132,6 +1184,10 @@
   <string>yasyatL_ig-tifi.v03.rtl.glif</string>
   <key>yat-tifi</key>
   <string>yat-tifi.glif</string>
+  <key>yat-tifi.neo</key>
+  <string>yat-tifi.neo.glif</string>
+  <key>yath-tifi</key>
+  <string>yath-tifi.glif</string>
   <key>yatt-tifi</key>
   <string>yatt-tifi.glif</string>
   <key>yatt-tifi.rtl</key>
@@ -1140,6 +1196,10 @@
   <string>yatt-tifi.v01.glif</string>
   <key>yatt-tifi.v01.rtl</key>
   <string>yatt-tifi.v01.rtl.glif</string>
+  <key>yav-tifi</key>
+  <string>yav-tifi.glif</string>
+  <key>yaw-tifi</key>
+  <string>yaw-tifi.glif</string>
   <key>yay-tifi</key>
   <string>yay-tifi.glif</string>
   <key>yay-tifi.rtl</key>
@@ -1160,6 +1220,8 @@
   <string>yazT_awellemet-tifi.glif</string>
   <key>yazTawellemet-tifi.rtl</key>
   <string>yazT_awellemet-tifi.rtl.glif</string>
+  <key>yazh-tifi</key>
+  <string>yazh-tifi.glif</string>
   <key>yazhAhaggar-tifi</key>
   <string>yazhA_haggar-tifi.glif</string>
   <key>yazhAhaggar-tifi.v01</key>
@@ -1192,12 +1254,18 @@
   <string>yazyatL_ig-tifi.v01.glif</string>
   <key>yazyatLig-tifi.v01.rtl</key>
   <string>yazyatL_ig-tifi.v01.rtl.glif</string>
+  <key>yazz-tifi</key>
+  <string>yazz-tifi.glif</string>
   <key>ydieresis</key>
   <string>ydieresis.glif</string>
   <key>ydotbelow</key>
   <string>ydotbelow.glif</string>
+  <key>ye-tifi</key>
+  <string>ye-tifi.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
+  <key>yey-tifi</key>
+  <string>yey-tifi.glif</string>
   <key>yi-tifi</key>
   <string>yi-tifi.glif</string>
   <key>yi-tifi.rtl</key>
@@ -1218,6 +1286,8 @@
   <string>yoS_I_L_o-tifi.glif</string>
   <key>yu-tifi</key>
   <string>yu-tifi.glif</string>
+  <key>yu-tifi.neo</key>
+  <string>yu-tifi.neo.glif</string>
   <key>yu-tifi.super</key>
   <string>yu-tifi.super.glif</string>
   <key>yu-tifi.v01</key>

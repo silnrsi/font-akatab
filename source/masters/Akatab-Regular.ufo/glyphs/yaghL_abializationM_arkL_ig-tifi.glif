@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yaghLabializationMarkLig-tifi" format="2">
+  <advance width="1178"/>
+  <anchor x="614" y="1393" name="T"/>
+  <outline>
+    <component base="yazhAhaggar-tifi.v01"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yajBerberAcademy-tifi" format="2">
+  <advance width="1153"/>
+  <unicode hex="2D35"/>
+  <anchor x="568" y="1393" name="T"/>
+  <outline>
+    <component base="yaghh-tifi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

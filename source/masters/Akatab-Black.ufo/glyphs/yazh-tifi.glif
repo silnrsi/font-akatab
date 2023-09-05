@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yazh-tifi" format="2">
+  <advance width="1213"/>
+  <unicode hex="2D4A"/>
+  <anchor x="610" y="1393" name="T"/>
+  <outline>
+    <component base="yaf-tifi.v01"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -405,19 +405,24 @@
     <string>circledotted</string>
     <string>ya-tifi</string>
     <string>ya-tifi.v01</string>
+    <string>ya-tifi.neo</string>
     <string>yab-tifi</string>
     <string>yab-tifi.v01</string>
     <string>yabyatLig-tifi</string>
     <string>yabyatLig-tifi.rtl</string>
     <string>yabyatLig-tifi.v01</string>
+    <string>yabLabializationMarkLig-tifi</string>
+    <string>yabh-tifi</string>
     <string>yag-tifi</string>
     <string>yag-tifi.v01</string>
+    <string>yagLabializationMarkLig-tifi</string>
     <string>yaghh-tifi</string>
     <string>yaghh-tifi.v01</string>
     <string>yaghhyatLig-tifi</string>
     <string>yaghhyatLig-tifi.rtl</string>
     <string>yaghhyatLig-tifi.v01</string>
     <string>yaghhyatLig-tifi.v01.rtl</string>
+    <string>yajBerberAcademy-tifi</string>
     <string>yaj-tifi</string>
     <string>yaj-tifi.v01</string>
     <string>yajyatLig-tifi</string>
@@ -428,9 +433,12 @@
     <string>yadh-tifi.v01</string>
     <string>yadd-tifi</string>
     <string>yadd-tifi.rtl</string>
+    <string>yaddh-tifi</string>
+    <string>yey-tifi</string>
     <string>yaf-tifi</string>
     <string>yaf-tifi.v01</string>
     <string>yaf-tifi.v02</string>
+    <string>yaf-tifi.neo</string>
     <string>yafyatLig-tifi</string>
     <string>yafyatLig-tifi.rtl</string>
     <string>yafyatLig-tifi.v01</string>
@@ -439,19 +447,30 @@
     <string>yafyatLig-tifi.v02.rtl</string>
     <string>yafyatLig-tifi.v03</string>
     <string>yafyatLig-tifi.v04</string>
+    <string>yak-tifi</string>
+    <string>yakLabializationMarkLig-tifi</string>
     <string>yakTuareg-tifi</string>
     <string>yakTuareg-tifi.rtl</string>
+    <string>yakhh-tifi</string>
     <string>yah-tifi</string>
     <string>yah-tifi.v01</string>
     <string>yahyatLig-tifi</string>
     <string>yahyatLig-tifi.rtl</string>
+    <string>yahBerberAcademy-tifi</string>
     <string>yahTuareg-tifi</string>
+    <string>yahh-tifi</string>
+    <string>yaa-tifi</string>
+    <string>yakh-tifi</string>
+    <string>yakhLabializationMarkLig-tifi</string>
     <string>yakhTuareg-tifi</string>
+    <string>yaq-tifi</string>
+    <string>yaqLabializationMarkLig-tifi</string>
     <string>yaqTuareg-tifi</string>
     <string>yi-tifi</string>
     <string>yi-tifi.rtl</string>
     <string>yiyatLig-tifi</string>
     <string>yiyatLig-tifi.rtl</string>
+    <string>yazh-tifi</string>
     <string>yazhAhaggar-tifi</string>
     <string>yazhAhaggar-tifi.v01</string>
     <string>yazhAhaggaryatLig-tifi</string>
@@ -465,6 +484,7 @@
     <string>yazhTuaregyatLig-tifi.v01.rtl</string>
     <string>yazhTuaregyatLig-tifi.v02</string>
     <string>yal-tifi</string>
+    <string>yal-tifi.neo</string>
     <string>yal-tifi.raised</string>
     <string>yal-tifi.slant</string>
     <string>yal-tifi.slant.rtl</string>
@@ -527,8 +547,10 @@
     <string>yagnTuareg-tifi</string>
     <string>yagnTuareg-tifi.v01</string>
     <string>yangTuareg-tifi</string>
+    <string>yap-tifi</string>
     <string>yu-tifi</string>
     <string>yu-tifi.v01</string>
+    <string>yu-tifi.neo</string>
     <string>yuyatLig-tifi</string>
     <string>yuyatLig-tifi.rtl</string>
     <string>yuyatLig-tifi.v01</string>
@@ -545,6 +567,9 @@
     <string>yaryatLig-tifi.rtl</string>
     <string>yaryatLig-tifi.v01</string>
     <string>yaryatLig-tifi.v02</string>
+    <string>yarr-tifi</string>
+    <string>yagh-tifi</string>
+    <string>yaghLabializationMarkLig-tifi</string>
     <string>yaghTuareg-tifi</string>
     <string>yaghAyer-tifi</string>
     <string>yas-tifi</string>
@@ -559,9 +584,11 @@
     <string>yasyatLig-tifi.v03</string>
     <string>yasyatLig-tifi.v03.rtl</string>
     <string>yass-tifi</string>
+    <string>yass-tifi.neo</string>
     <string>yash-tifi</string>
     <string>yash-tifi.rtl</string>
     <string>yash-tifi.v01</string>
+    <string>yash-tifi.neo</string>
     <string>yashyakTuaregLig-tifi</string>
     <string>yashyakTuaregLig-tifi.rtl</string>
     <string>yashyakTuaregLig-tifi.v01</string>
@@ -576,10 +603,15 @@
     <string>yashyatLig-tifi.v01</string>
     <string>yashyatLig-tifi.v01.rtl</string>
     <string>yat-tifi</string>
+    <string>yat-tifi.neo</string>
+    <string>yath-tifi</string>
+    <string>yach-tifi</string>
     <string>yatt-tifi</string>
     <string>yatt-tifi.rtl</string>
     <string>yatt-tifi.v01</string>
     <string>yatt-tifi.v01.rtl</string>
+    <string>yav-tifi</string>
+    <string>yaw-tifi</string>
     <string>yay-tifi</string>
     <string>yay-tifi.rtl</string>
     <string>yaz-tifi</string>
@@ -590,7 +622,10 @@
     <string>yazyatLig-tifi.v01.rtl</string>
     <string>yazTawellemet-tifi</string>
     <string>yazTawellemet-tifi.rtl</string>
+    <string>yazz-tifi</string>
+    <string>ye-tifi</string>
     <string>yo-tifi</string>
+    <string>LabializationMark-tifi</string>
     <string>separator-tifi</string>
     <string>separator-tifi.rtl</string>
     <string>consonantjoiner-tifi</string>
@@ -694,6 +729,8 @@
   <dict>
     <key>CGJ</key>
     <string>uni034F</string>
+    <key>LabializationMark-tifi</key>
+    <string>uni2D6F</string>
     <key>TifConsLengthMark</key>
     <string>uni0303.alt</string>
     <key>TifConsLengthMark.alt</key>
@@ -766,6 +803,8 @@
     <string>uni2060</string>
     <key>ya-tifi</key>
     <string>uni2D30</string>
+    <key>ya-tifi.neo</key>
+    <string>uni2D30.neo</string>
     <key>ya-tifi.super</key>
     <string>uniE300</string>
     <key>ya-tifi.v01</key>
@@ -774,16 +813,24 @@
     <string>uni2D30_uni0302</string>
     <key>yaSILschwa-tifi</key>
     <string>uni2D30_uni0306</string>
+    <key>yaa-tifi</key>
+    <string>uni2D44</string>
     <key>yab-tifi</key>
     <string>uni2D31</string>
     <key>yab-tifi.v01</key>
     <string>uni2D31.v01</string>
+    <key>yabLabializationMarkLig-tifi</key>
+    <string>uni2D31_uni2D6F</string>
+    <key>yabh-tifi</key>
+    <string>uni2D32</string>
     <key>yabyatLig-tifi</key>
     <string>uni2D31_uni2D7F_uni2D5C</string>
     <key>yabyatLig-tifi.rtl</key>
     <string>uni2D31_uni2D7F_uni2D5C.rtl</string>
     <key>yabyatLig-tifi.v01</key>
     <string>uni2D31_uni2D7F_uni2D5C.v01</string>
+    <key>yach-tifi</key>
+    <string>uni2D5E</string>
     <key>yad-tifi</key>
     <string>uni2D37</string>
     <key>yad-tifi.v01</key>
@@ -792,6 +839,8 @@
     <string>uni2D39</string>
     <key>yadd-tifi.rtl</key>
     <string>uni2D39.rtl</string>
+    <key>yaddh-tifi</key>
+    <string>uni2D3A</string>
     <key>yadh-tifi</key>
     <string>uni2D38</string>
     <key>yadh-tifi.unused</key>
@@ -800,6 +849,8 @@
     <string>uni2D38.v01</string>
     <key>yaf-tifi</key>
     <string>uni2D3C</string>
+    <key>yaf-tifi.neo</key>
+    <string>uni2D3C.neo</string>
     <key>yaf-tifi.v01</key>
     <string>uni2D3C.v01</string>
     <key>yaf-tifi.v02</key>
@@ -824,8 +875,14 @@
     <string>uni2D33</string>
     <key>yag-tifi.v01</key>
     <string>uni2D33.v01</string>
+    <key>yagLabializationMarkLig-tifi</key>
+    <string>uni2D33_uni2D6F</string>
+    <key>yagh-tifi</key>
+    <string>uni2D56</string>
     <key>yaghAyer-tifi</key>
     <string>uni2D58</string>
+    <key>yaghLabializationMarkLig-tifi</key>
+    <string>uni2D56_uni2D6F</string>
     <key>yaghTuareg-tifi</key>
     <string>uni2D57</string>
     <key>yaghh-tifi</key>
@@ -850,8 +907,12 @@
     <string>uni2D40</string>
     <key>yah-tifi.v01</key>
     <string>uni2D40.v01</string>
+    <key>yahBerberAcademy-tifi</key>
+    <string>uni2D41</string>
     <key>yahTuareg-tifi</key>
     <string>uni2D42</string>
+    <key>yahh-tifi</key>
+    <string>uni2D43</string>
     <key>yahyatLig-tifi</key>
     <string>uni2D40_uni2D7F_uni2D5C</string>
     <key>yahyatLig-tifi.rtl</key>
@@ -860,10 +921,16 @@
     <string>uni2D36</string>
     <key>yaj-tifi.v01</key>
     <string>uni2D36.v01</string>
+    <key>yajBerberAcademy-tifi</key>
+    <string>uni2D35</string>
     <key>yajyatLig-tifi</key>
     <string>uni2D36_uni2D7F_uni2D5C</string>
     <key>yajyatLig-tifi.rtl</key>
     <string>uni2D36_uni2D7F_uni2D5C.rtl</string>
+    <key>yak-tifi</key>
+    <string>uni2D3D</string>
+    <key>yakLabializationMarkLig-tifi</key>
+    <string>uni2D3D_uni2D6F</string>
     <key>yakTuareg-tifi</key>
     <string>uni2D3E</string>
     <key>yakTuareg-tifi.orig</key>
@@ -874,10 +941,18 @@
     <string>uni2D3E.unused.001</string>
     <key>yakTuareg-tifi.unused.002</key>
     <string>uni2D3E.unused.002</string>
+    <key>yakh-tifi</key>
+    <string>uni2D45</string>
+    <key>yakhLabializationMarkLig-tifi</key>
+    <string>uni2D45_uni2D6F</string>
     <key>yakhTuareg-tifi</key>
     <string>uni2D46</string>
+    <key>yakhh-tifi</key>
+    <string>uni2D3F</string>
     <key>yal-tifi</key>
     <string>uni2D4D</string>
+    <key>yal-tifi.neo</key>
+    <string>uni2D4D.neo</string>
     <key>yal-tifi.raised</key>
     <string>uni2D4D.raised</string>
     <key>yal-tifi.slant</key>
@@ -998,10 +1073,18 @@
     <string>uni2D4F_uni2D7F_uni2D4C</string>
     <key>yanyazhTuaregLig-tifi.v01</key>
     <string>uni2D4F_uni2D7F_uni2D4C.v01</string>
+    <key>yap-tifi</key>
+    <string>uni2D52</string>
+    <key>yaq-tifi</key>
+    <string>uni2D47</string>
+    <key>yaqLabializationMarkLig-tifi</key>
+    <string>uni2D47_uni2D6F</string>
     <key>yaqTuareg-tifi</key>
     <string>uni2D48</string>
     <key>yar-tifi</key>
     <string>uni2D54</string>
+    <key>yarr-tifi</key>
+    <string>uni2D55</string>
     <key>yaryakTuaregLig-tifi</key>
     <string>uni2D54_uni2D7F_uni2D3E</string>
     <key>yaryakTuaregLig-tifi.v01</key>
@@ -1020,6 +1103,8 @@
     <string>uni2D59</string>
     <key>yash-tifi</key>
     <string>uni2D5B</string>
+    <key>yash-tifi.neo</key>
+    <string>uni2D5B.neo</string>
     <key>yash-tifi.rtl</key>
     <string>uni2D5B.rtl</string>
     <key>yash-tifi.v01</key>
@@ -1052,6 +1137,8 @@
     <string>uni2D5B_uni2D7F_uni2D5C.v01.rtl</string>
     <key>yass-tifi</key>
     <string>uni2D5A</string>
+    <key>yass-tifi.neo</key>
+    <string>uni2D5A.neo</string>
     <key>yasyakTuaregLig-tifi</key>
     <string>uni2D59_uni2D7F_uni2D3E</string>
     <key>yasyanLig-tifi</key>
@@ -1074,6 +1161,10 @@
     <string>uni2D59_uni2D7F_uni2D5C.v03.rtl</string>
     <key>yat-tifi</key>
     <string>uni2D5C</string>
+    <key>yat-tifi.neo</key>
+    <string>uni2D5C.neo</string>
+    <key>yath-tifi</key>
+    <string>uni2D5D</string>
     <key>yatt-tifi</key>
     <string>uni2D5F</string>
     <key>yatt-tifi.rtl</key>
@@ -1082,6 +1173,10 @@
     <string>uni2D5F.v01</string>
     <key>yatt-tifi.v01.rtl</key>
     <string>uni2D5F.v01.rtl</string>
+    <key>yav-tifi</key>
+    <string>uni2D60</string>
+    <key>yaw-tifi</key>
+    <string>uni2D61</string>
     <key>yay-tifi</key>
     <string>uni2D62</string>
     <key>yay-tifi.rtl</key>
@@ -1102,6 +1197,8 @@
     <string>uni2D64</string>
     <key>yazTawellemet-tifi.rtl</key>
     <string>uni2D64.rtl</string>
+    <key>yazh-tifi</key>
+    <string>uni2D4A</string>
     <key>yazhAhaggar-tifi</key>
     <string>uni2D4B</string>
     <key>yazhAhaggar-tifi.v01</key>
@@ -1134,6 +1231,12 @@
     <string>uni2D63_uni2D7F_uni2D5C.v01</string>
     <key>yazyatLig-tifi.v01.rtl</key>
     <string>uni2D63_uni2D7F_uni2D5C.v01.rtl</string>
+    <key>yazz-tifi</key>
+    <string>uni2D65</string>
+    <key>ye-tifi</key>
+    <string>uni2D66</string>
+    <key>yey-tifi</key>
+    <string>uni2D3B</string>
     <key>yi-tifi</key>
     <string>uni2D49</string>
     <key>yi-tifi.rtl</key>
@@ -1154,6 +1257,8 @@
     <string>uni2D67_uni0302</string>
     <key>yu-tifi</key>
     <string>uni2D53</string>
+    <key>yu-tifi.neo</key>
+    <string>uni2D53.neo</string>
     <key>yu-tifi.super</key>
     <string>uniE301</string>
     <key>yu-tifi.v01</key>
