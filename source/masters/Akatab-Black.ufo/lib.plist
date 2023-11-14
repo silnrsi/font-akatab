@@ -12,19 +12,40 @@
   <integer>1</integer>
   <key>GSOffsetVertical</key>
   <integer>10</integer>
+  <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+  <array>
+    <dict>
+      <key>class</key>
+      <string>KernFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>ContextualMarkFeatureWriter</string>
+      <key>module</key>
+      <string>glyphsLib.featureWriters.markFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>GdefFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>CursFeatureWriter</string>
+    </dict>
+  </array>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3146</string>
+  <string>3151</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/yamyatLig-tifi.v02/yamyatLig-tifi.v02.rtl/yamyasLig-tifi/yamyatLig-tifi.v03/yamyatLig-tifi.v03.rtl</string>
-    <string>/yash-tifi/yash-tifi.rtl/yashyanLig-tifi/yashyanLig-tifi.rtl/yashyatLig-tifi.v01/yashyatLig-tifi.v01.rtl/yanyashLig-tifi/yanyashLig-tifi.rtl</string>
-    <string>/yam-tifi/yasyatLig-tifi.v03/yasyatLig-tifi.v01/yasyatLig-tifi.v01.rtl/yasyatLig-tifi.v03.rtl/space/yuyatLig-tifi.v03.rtl/space/yuyatLig-tifi.v03/space</string>
-    <string>/yashyanLig-tifi.v01/yashyatLig-tifi/yashyatLig-tifi.rtl/yatt-tifi/yatt-tifi.rtl</string>
-    <string>/yamyasLig-tifi/yamyasLig-tifi.rtl/space/yanyasLig-tifi.v01/yanyasLig-tifi.v01.rtl</string>
+    <string>/yag-tifi/yagLabializationMarkLig-tifi/yabLabializationMarkLig-tifi/yak-tifi/yakLabializationMarkLig-tifi/yaq-tifi/yaqLabializationMarkLig-tifi/yakh-tifi/yakhLabializationMarkLig-tifi/yagh-tifi/yaghLabializationMarkLig-tifi/yakhh-tifi</string>
+    <string>/ya-tifi.neo/yu-tifi.neo/yey-tifi/ya-tifi/ya-tifi.v01/ya-tifi.neo.001/yu-tifi.neo.001/yey-tifi.001/yaf-tifi/yaf-tifi.neo/yal-tifi.neo/yass-tifi.neo/yash-tifi.neo/yach-tifi/yat-tifi.neo</string>
+    <string>/yag-tifi/yaghh-tifi/yajBerberAcademy-tifi/yah-tifi/yabh-tifi/yahBerberAcademy-tifi/yaryanLig-tifi/yarr-tifi/yass-tifi.neo/yalyatLig-tifi.v03</string>
+    <string>/yadd-tifi.rtl/yaddh-tifi/yaf-tifi.v01/yazh-tifi/yat-tifi.neo/yaa-tifi/yagh-tifi/yaw-tifi</string>
+    <string>/yahh-tifi/yath-tifi/yakh-tifi/yag-tifi/yash-tifi.neo/yash-tifi/ya-tifi.neo/yap-tifi/space/space/yaghh-tifi.v01/yad-tifi/yav-tifi/yalyatLig-tifi.v03/yaz-tifi/yazz-tifi/yadh-tifi/ye-tifi/yi-tifi/yay-tifi/yay-tifi.rtl</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

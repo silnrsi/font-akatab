@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yabLabializationMarkLig-tifi" format="2">
-  <advance width="1454"/>
+  <advance width="2012"/>
   <anchor x="733" y="1393" name="T"/>
   <outline>
     <component base="yamyahLig-tifi"/>
+    <component base="LabializationMark-tifi" xOffset="1400"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

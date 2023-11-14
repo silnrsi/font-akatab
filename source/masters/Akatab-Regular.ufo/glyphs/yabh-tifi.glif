@@ -2,13 +2,14 @@
 <glyph name="yabh-tifi" format="2">
   <advance width="1454"/>
   <unicode hex="2D32"/>
+  <anchor x="729" y="1393" name="T"/>
   <outline>
     <component base="yaryatLig-tifi.v01"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

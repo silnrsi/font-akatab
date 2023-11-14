@@ -28,8 +28,14 @@
   <string>yaghhyatL_ig-tifi.v01.rtl.glif</string>
   <key>yah-tifi</key>
   <string>yah-tifi.glif</string>
+  <key>yahh-tifi</key>
+  <string>yahh-tifi.glif</string>
   <key>yahyatLig-tifi</key>
   <string>yahyatL_ig-tifi.glif</string>
+  <key>yak-tifi</key>
+  <string>yak-tifi.glif</string>
+  <key>yakhh-tifi</key>
+  <string>yakhh-tifi.glif</string>
   <key>yal-tifi.raised</key>
   <string>yal-tifi.raised.glif</string>
   <key>yal-tifi.slant.rtl</key>
@@ -42,6 +48,8 @@
   <string>yan-tifi.slant.glif</string>
   <key>yan-tifi.slant.rtl</key>
   <string>yan-tifi.slant.rtl.glif</string>
+  <key>yaq-tifi</key>
+  <string>yaq-tifi.glif</string>
   <key>yaryatLig-tifi.v01</key>
   <string>yaryatL_ig-tifi.v01.glif</string>
   <key>yashyanLig-tifi</key>
@@ -52,18 +60,24 @@
   <string>yasyatL_ig-tifi.v01.glif</string>
   <key>yasyatLig-tifi.v01.rtl</key>
   <string>yasyatL_ig-tifi.v01.rtl.glif</string>
+  <key>yaw-tifi</key>
+  <string>yaw-tifi.glif</string>
   <key>yay-tifi.rtl</key>
   <string>yay-tifi.rtl.glif</string>
   <key>yay-tifi.super</key>
   <string>yay-tifi.super.glif</string>
   <key>yay-tifi.super.rtl</key>
   <string>yay-tifi.super.rtl.glif</string>
+  <key>ye-tifi</key>
+  <string>ye-tifi.glif</string>
   <key>yi-tifi.rtl</key>
   <string>yi-tifi.rtl.glif</string>
   <key>yi-tifi.super.rtl</key>
   <string>yi-tifi.super.rtl.glif</string>
   <key>yiyatLig-tifi.rtl</key>
   <string>yiyatL_ig-tifi.rtl.glif</string>
+  <key>yu-tifi.neo</key>
+  <string>yu-tifi.neo.glif</string>
   <key>yu-tifi.super</key>
   <string>yu-tifi.super.glif</string>
 </dict>

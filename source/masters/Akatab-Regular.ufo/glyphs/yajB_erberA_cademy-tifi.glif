@@ -2,14 +2,47 @@
 <glyph name="yajBerberAcademy-tifi" format="2">
   <advance width="1093"/>
   <unicode hex="2D35"/>
-  <anchor x="538" y="1393" name="T"/>
+  <anchor x="555" y="1393" name="T"/>
   <outline>
-    <component base="yaghh-tifi"/>
+    <contour>
+      <point x="798" y="1253" type="curve"/>
+      <point x="317" y="1253" type="line"/>
+      <point x="326" y="1125"/>
+      <point x="993" y="365"/>
+      <point x="993" y="75" type="curve" smooth="yes"/>
+      <point x="993" y="24"/>
+      <point x="981" y="0"/>
+      <point x="925" y="0" type="curve" smooth="yes"/>
+      <point x="168" y="0" type="line" smooth="yes"/>
+      <point x="115" y="0"/>
+      <point x="100" y="26"/>
+      <point x="100" y="58" type="curve" smooth="yes"/>
+      <point x="100" y="442"/>
+      <point x="671" y="864"/>
+    </contour>
+    <contour>
+      <point x="178" y="1393" type="curve" smooth="yes"/>
+      <point x="915" y="1393" type="line" smooth="yes"/>
+      <point x="968" y="1393"/>
+      <point x="983" y="1367"/>
+      <point x="983" y="1325" type="curve" smooth="yes"/>
+      <point x="983" y="1046"/>
+      <point x="314" y="471"/>
+      <point x="272" y="140" type="curve"/>
+      <point x="449" y="140"/>
+      <point x="625" y="140"/>
+      <point x="802" y="140" type="curve"/>
+      <point x="750" y="367"/>
+      <point x="110" y="1081"/>
+      <point x="110" y="1318" type="curve" smooth="yes"/>
+      <point x="110" y="1369"/>
+      <point x="122" y="1393"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

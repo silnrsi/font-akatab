@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yadd-tifi.rtl" format="2">
   <advance width="1287"/>
-  <anchor x="634" y="0" name="T"/>
+  <anchor x="634" y="1393" name="T"/>
   <outline>
     <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1287" yOffset="1393"/>
     <component base="_HorizontalBarMedShort1.5" xScale="-1" yScale="-1" xOffset="989" yOffset="779"/>

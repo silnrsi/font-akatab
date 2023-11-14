@@ -36,8 +36,14 @@
   <string>yaghhyatL_ig-tifi.v01.rtl.glif</string>
   <key>yah-tifi</key>
   <string>yah-tifi.glif</string>
+  <key>yahh-tifi</key>
+  <string>yahh-tifi.glif</string>
   <key>yahyatLig-tifi</key>
   <string>yahyatL_ig-tifi.glif</string>
+  <key>yajBerberAcademy-tifi</key>
+  <string>yajB_erberA_cademy-tifi.glif</string>
+  <key>yakhh-tifi</key>
+  <string>yakhh-tifi.glif</string>
   <key>yal-tifi.raised</key>
   <string>yal-tifi.raised.glif</string>
   <key>yaryatLig-tifi.v01</key>
@@ -60,6 +66,8 @@
   <string>yi-tifi.super.rtl.glif</string>
   <key>yiyatLig-tifi.rtl</key>
   <string>yiyatL_ig-tifi.rtl.glif</string>
+  <key>yu-tifi.neo</key>
+  <string>yu-tifi.neo.glif</string>
   <key>yu-tifi.super</key>
   <string>yu-tifi.super.glif</string>
 </dict>

@@ -25,6 +25,8 @@
           <string>O</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
     </dict>
   </lib>
 </glyph>

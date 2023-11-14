@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yat-tifi.neo" format="2">
-  <advance width="1071"/>
+  <advance width="1147"/>
   <outline>
-    <component base="_VerticalBar" xOffset="-450"/>
-    <component base="_PlusMediumHorizontal" xOffset="320" yOffset="371"/>
+    <component base="_VerticalBar" xOffset="-169"/>
+    <contour>
+      <point x="1003" y="625" type="curve" smooth="yes"/>
+      <point x="1033" y="625"/>
+      <point x="1047" y="653"/>
+      <point x="1047" y="689" type="curve" smooth="yes"/>
+      <point x="1047" y="743"/>
+      <point x="1005" y="765"/>
+      <point x="957" y="768" type="curve" smooth="yes"/>
+      <point x="888" y="773"/>
+      <point x="857" y="773"/>
+      <point x="765" y="772" type="curve" smooth="yes"/>
+      <point x="685" y="771"/>
+      <point x="627" y="766"/>
+      <point x="547" y="766" type="curve" smooth="yes"/>
+      <point x="383" y="766"/>
+      <point x="266" y="762"/>
+      <point x="227" y="762" type="curve" smooth="yes"/>
+      <point x="179" y="762"/>
+      <point x="177" y="770"/>
+      <point x="144" y="770" type="curve" smooth="yes"/>
+      <point x="114" y="770"/>
+      <point x="100" y="742"/>
+      <point x="100" y="706" type="curve" smooth="yes"/>
+      <point x="100" y="652"/>
+      <point x="142" y="630"/>
+      <point x="190" y="627" type="curve" smooth="yes"/>
+      <point x="269" y="622"/>
+      <point x="438" y="623"/>
+      <point x="550" y="626" type="curve" smooth="yes"/>
+      <point x="629" y="627"/>
+      <point x="688" y="631"/>
+      <point x="768" y="631" type="curve" smooth="yes"/>
+      <point x="832" y="631"/>
+      <point x="881" y="633"/>
+      <point x="920" y="633" type="curve" smooth="yes"/>
+      <point x="968" y="633"/>
+      <point x="970" y="625"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

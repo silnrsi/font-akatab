@@ -828,6 +828,8 @@
   <string>ya-tifi.glif</string>
   <key>ya-tifi.neo</key>
   <string>ya-tifi.neo.glif</string>
+  <key>ya-tifi.neo.001</key>
+  <string>ya-tifi.neo.001.glif</string>
   <key>ya-tifi.super</key>
   <string>ya-tifi.super.glif</string>
   <key>ya-tifi.v01</key>
@@ -1266,6 +1268,8 @@
   <string>yen.glif</string>
   <key>yey-tifi</key>
   <string>yey-tifi.glif</string>
+  <key>yey-tifi.001</key>
+  <string>yey-tifi.001.glif</string>
   <key>yi-tifi</key>
   <string>yi-tifi.glif</string>
   <key>yi-tifi.rtl</key>
@@ -1288,6 +1292,8 @@
   <string>yu-tifi.glif</string>
   <key>yu-tifi.neo</key>
   <string>yu-tifi.neo.glif</string>
+  <key>yu-tifi.neo.001</key>
+  <string>yu-tifi.neo.001.glif</string>
   <key>yu-tifi.super</key>
   <string>yu-tifi.super.glif</string>
   <key>yu-tifi.v01</key>
