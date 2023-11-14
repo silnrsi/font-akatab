@@ -5,12 +5,12 @@
 %%%%% DESIGN GROUPS
 
 % SHAPES
-\patterngroup[name="straightright"]{ⵍⵑⵏⴼ}
-\patterngroup[name="straightleft"]{ⴼⵍⵎⵏⵑⴹⵟ}
-\patterngroup[name="rounded"]{ⴱⵀⵔⵙⵛ}
-\patterngroup[name="diagonal"]{ⴴⴷⴸⵉⵋⵢⵣ}
-\patterngroup[name="dots"]{ⴰ{yaSILa-tifi}{yaSILschwa-tifi}ⵓ̂ⵢ̂ⵢ̣ⵧ̂ⴶⴾⵂⵆⵈⵓⵗⵧ}
-\patterngroup[name="crossings"]{ⵌⵐⵚⵜ}
+\patterngroup[name="straightright"]{ⵍⵑⵏⴺⴼⵄⵊⵖⵡ}
+\patterngroup[name="straightleft"]{ⴼⵄⴽⴿⵇⵊⵍⵎⵏⵑⵖⴹⵟⵡ}
+\patterngroup[name="rounded"]{ⴱⴲⵀⵁⵒⵔⵕⵙⵚⵛⵞ}
+\patterngroup[name="diagonal"]{ⴳⴴⴵⴷⴸⵃⵅⵉⵋⵝⵠⵢⵣⵥⵦ}
+\patterngroup[name="dots"]{ⴰⴻⵓ̂ⵢ̂ⵢ̣ⵧ̂ⴶⴾⵂⵆⵈⵓⵗⵧⵯ}
+\patterngroup[name="crossings"]{ⵌⵐⵜ}
 
 %%%%% TESTS
 % HOBONOP for Tifinagh: ⵍⵙⴷⵙⵓⵙⵢⵙⴰⵙⵏⵙⵉⵙⵜⵙⵎ
