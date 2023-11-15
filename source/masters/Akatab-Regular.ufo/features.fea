@@ -347,6 +347,23 @@ lookup TfnSILvowels {
     # SIL vowel U
 } TfnSILvowels;
 
+# Ligatures with labialization mark for Neo-Tifinagh
+lookup TfnLabializationMarkLigs {
+    lookupflag 0;
+    sub yab-tifi LabializationMark-tifi by yabLabializationMarkLig-tifi;
+    # Neo-Tifinagh
+    sub yag-tifi LabializationMark-tifi by yagLabializationMarkLig-tifi;
+    # Neo-Tifinagh
+    sub yak-tifi LabializationMark-tifi by yakLabializationMarkLig-tifi;
+    # Neo-Tifinagh
+    sub yakh-tifi LabializationMark-tifi by yakhLabializationMarkLig-tifi;
+    # Neo-Tifinagh
+    sub yaq-tifi LabializationMark-tifi by yaqLabializationMarkLig-tifi;
+    # Neo-Tifinagh
+    sub yagh-tifi LabializationMark-tifi by yaghLabializationMarkLig-tifi;
+    # Neo-Tifinagh
+} TfnLabializationMarkLigs;
+
 lookup TfnCharacterVariant01 {
     lookupflag 0;
     sub ya-tifi by ya-tifi.v01;
@@ -429,6 +446,11 @@ lookup TfnCharacterVariant15 {
     lookupflag 0;
     sub yadh-tifi by yadh-tifi.v01;
 } TfnCharacterVariant15;
+
+lookup TfnCharacterVariant18 {
+    lookupflag 0;
+    sub @cno_neo by @c_neo;
+} TfnCharacterVariant18;
 
 lookup TfnSlant_target {
     #linked to feature cv19
@@ -1324,6 +1346,31 @@ feature cv15 {
     lookup TfnCharacterVariant15;
 } cv15;
 
+feature cv18 {
+    # Character Variant 18
+        cvParameters {
+                FeatUILabelNameID {
+            name "Neo-Tifinagh";
+        };
+
+                ParamUILabelNameID {
+            name "Neo-Tifinagh style";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant18;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant18;
+} cv18;
+
 feature cv19 {
     # Character Variant 19
         cvParameters {
@@ -1866,6 +1913,7 @@ feature liga {
     # Default
     language dflt;
     # Default
+    lookup TfnLabializationMarkLigs;
     lookup TfnBiconsonants_RTL;
     lookup TfnBiconsonants_RTL_DW;
     lookup TfnBiconsonants;
@@ -1875,6 +1923,7 @@ feature liga {
     # Tifinagh
     language dflt;
     # Default
+    lookup TfnLabializationMarkLigs;
     lookup TfnBiconsonants_RTL;
     lookup TfnBiconsonants_RTL_DW;
     lookup TfnBiconsonants;
@@ -1904,6 +1953,7 @@ feature rlig {
     # Default
     language dflt;
     # Default
+    lookup TfnLabializationMarkLigs;
     lookup TfnBiconsonants_RTL;
     lookup TfnBiconsonants_RTL_DW;
     lookup TfnBiconsonants;
@@ -1913,6 +1963,7 @@ feature rlig {
     # Tifinagh
     language dflt;
     # Default
+    lookup TfnLabializationMarkLigs;
     lookup TfnBiconsonants_RTL;
     lookup TfnBiconsonants_RTL_DW;
     lookup TfnBiconsonants;
@@ -2209,6 +2260,24 @@ feature ss15 {
     # Default
     lookup TfnCharacterVariant15;
 } ss15;
+
+feature ss18 {
+    # Stylistic Set 18
+        featureNames {
+        name "Neo-Tifinagh style";
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant18;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant18;
+} ss18;
 
 feature ss19 {
     # Stylistic Set 19

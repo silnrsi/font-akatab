@@ -40,3 +40,11 @@ v3
 ⵔ⵿ⵏ    RN
 ⵙ⵿ⵏ    SN
 ⵛ⵿ⵏ    SHN
+
+v4 Labialization mark ligatures
+ⴱⵯ
+ⴳⵯ
+ⴽⵯ
+ⵅⵯ
+ⵇⵯ
+ⵖⵯ

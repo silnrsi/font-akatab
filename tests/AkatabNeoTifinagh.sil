@@ -1,0 +1,40 @@
+\begin[class=fontproof]{document}
+\bidi-off
+
+
+%%%%% GROUPS
+
+% Characters
+\patterngroup[name="unichars"]{ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ  ⵯ ⵰ ⵿}
+\patterngroup[name="neotifchars"]{ⴰ ⴱ ⴳ ⴳⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⴽⵯ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵡ ⵢ ⵣ ⵥ}
+
+
+
+%%%%% DOCUMENT
+\setTestFont[features="+clig,+kern"]
+
+\proof[size="16"]{Testing Character Sets}
+
+%%% all chars
+\proof[size="12",color="blue"]{Unicode character set}
+
+%%% \set[parameter=harfbuzz.subshapers,value=ot]
+%%% \proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv01=0"]
+\proof[heading=Full character set]{ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ  ⵯ ⵰ ⵿}
+
+
+%%% neo-tifinagh chars using cv18
+\proof[size="12",color="blue"]{Neo-Tifinagh IRCAM character set}
+
+\proof[heading=No Neo-Tifinagh variants]{ⴰ ⴱ ⴳ ⴳⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⴽⵯ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵡ ⵢ ⵣ ⵥ}
+
+\setTestFont[features="+cv18-1"]
+\proof[heading=With Neo-Tifinagh variants (cv18)]{ⴰ ⴱ ⴳ ⴳⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⴽⵯ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵡ ⵢ ⵣ ⵥ}
+
+\proof[heading=UHDR Text With Neo-Tifinagh variants (cv18)]{ⴰⵔ ⴷ ⵜⵜⵍⴰⵍⴰⵏ ⵎⵉⴷⴷⵏ ⴳⴰⵏ ⵉⵍⴻⵍⵍⵉⵜⵏ ⵎⴳⴰⴷⴷⴰⵏ ⵖ ⵡⴰⴷⴷⵓⵔ ⴷ ⵉⵣⵔⴼⴰⵏ, ⵢⵉⵍⵉ ⴰⴽⵯ ⴷⴰⵔⵙⵏ ⵓⵏⵍⵍⵉ ⴷ ⵓⴼⵔⴰⴽ, ⵉⵍⵍⴰ ⴼⵍⵍⴰ ⵙⵏ ⴰⴷ ⵜⵜⵎⵢⴰⵡⴰⵙⵏ ⵏⴳⵔⴰⵜⵙⵏ ⵙ ⵜⴰⴳⵎⴰⵜ.}
+
+
+
+\end{document}
