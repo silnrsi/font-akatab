@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yaa-tifi" format="2">
-  <advance width="1311"/>
+  <advance width="1321"/>
   <unicode hex="2D44"/>
   <outline>
-    <component base="yagh-tifi" xScale="-1" yScale="-1" xOffset="1311" yOffset="1393"/>
+    <component base="yagh-tifi" xScale="-1" yScale="-1" xOffset="1316" yOffset="1393"/>
   </outline>
   <lib>
     <dict>

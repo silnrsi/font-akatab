@@ -12,6 +12,8 @@
   <string>separator-tifi.glif</string>
   <key>separator-tifi.rtl</key>
   <string>separator-tifi.rtl.glif</string>
+  <key>ya-tifi.neo</key>
+  <string>ya-tifi.neo.glif</string>
   <key>yab-tifi</key>
   <string>yab-tifi.glif</string>
   <key>yabyatLig-tifi</key>
@@ -34,6 +36,8 @@
   <string>yahyatL_ig-tifi.glif</string>
   <key>yak-tifi</key>
   <string>yak-tifi.glif</string>
+  <key>yakh-tifi</key>
+  <string>yakh-tifi.glif</string>
   <key>yakhh-tifi</key>
   <string>yakhh-tifi.glif</string>
   <key>yal-tifi.raised</key>
@@ -70,6 +74,8 @@
   <string>yay-tifi.super.rtl.glif</string>
   <key>ye-tifi</key>
   <string>ye-tifi.glif</string>
+  <key>yey-tifi</key>
+  <string>yey-tifi.glif</string>
   <key>yi-tifi.rtl</key>
   <string>yi-tifi.rtl.glif</string>
   <key>yi-tifi.super.rtl</key>
