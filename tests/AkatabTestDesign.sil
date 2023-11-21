@@ -9,7 +9,7 @@
 \patterngroup[name="straightleft"]{ⴼⵄⴽⴿⵇⵊⵍⵎⵏⵑⵖⴹⵟⵡ}
 \patterngroup[name="rounded"]{ⴱⴲⵀⵁⵒⵔⵕⵙⵚⵛⵞ}
 \patterngroup[name="diagonal"]{ⴳⴴⴵⴷⴸⵃⵅⵉⵋⵝⵠⵢⵣⵥⵦ}
-\patterngroup[name="dots"]{ⴰⴻⵓ̂ⵢ̂ⵢ̣ⵧ̂ⴶⴾⵂⵆⵈⵓⵗⵧⵯ}
+\patterngroup[name="dots"]{ⴰⵓⴻⴶⴾⵂⵆⵈⵗⵧⵯ}
 \patterngroup[name="crossings"]{ⵌⵐⵜ}
 
 %%%%% TESTS

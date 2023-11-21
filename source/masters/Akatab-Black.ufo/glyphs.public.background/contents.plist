@@ -16,8 +16,6 @@
   <string>_V_erticalB_arM_edL_ong.glif</string>
   <key>_VerticalBarSmall</key>
   <string>_V_erticalB_arS_mall.glif</string>
-  <key>separator-tifi</key>
-  <string>separator-tifi.glif</string>
   <key>separator-tifi.rtl</key>
   <string>separator-tifi.rtl.glif</string>
   <key>yab-tifi</key>
@@ -42,16 +40,12 @@
   <string>yahyatL_ig-tifi.glif</string>
   <key>yajBerberAcademy-tifi</key>
   <string>yajB_erberA_cademy-tifi.glif</string>
-  <key>yak-tifi</key>
-  <string>yak-tifi.glif</string>
   <key>yakh-tifi</key>
   <string>yakh-tifi.glif</string>
   <key>yakhh-tifi</key>
   <string>yakhh-tifi.glif</string>
   <key>yal-tifi.raised</key>
   <string>yal-tifi.raised.glif</string>
-  <key>yaq-tifi</key>
-  <string>yaq-tifi.glif</string>
   <key>yaryatLig-tifi.v01</key>
   <string>yaryatL_ig-tifi.v01.glif</string>
   <key>yashyanLig-tifi</key>
@@ -68,14 +62,10 @@
   <string>yay-tifi.super.rtl.glif</string>
   <key>yazyatLig-tifi.rtl</key>
   <string>yazyatL_ig-tifi.rtl.glif</string>
-  <key>ye-tifi</key>
-  <string>ye-tifi.glif</string>
   <key>yi-tifi.super.rtl</key>
   <string>yi-tifi.super.rtl.glif</string>
   <key>yiyatLig-tifi.rtl</key>
   <string>yiyatL_ig-tifi.rtl.glif</string>
-  <key>yu-tifi.neo</key>
-  <string>yu-tifi.neo.glif</string>
   <key>yu-tifi.super</key>
   <string>yu-tifi.super.glif</string>
 </dict>

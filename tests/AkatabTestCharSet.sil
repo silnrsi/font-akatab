@@ -4,11 +4,11 @@
 
 %%%%% TESTS
 
-\subsection{UNICODE HORIZONTAL CHARACTER CHART}
-\proof[size="20pt"]{ⴰ ⴱ ⴴ ⴶ ⴷ ⴸ ⴹ ⴼ ⴾ }
-\proof[size="20pt"]{ⵀ ⵂ ⵆ ⵈ ⵉ ⵋ ⵌ ⵍ ⵎ ⵏ }
-\proof[size="20pt"]{ⵐ ⵑ ⵓ ⵔ ⵗ ⵙ ⵚ ⵛ ⵜ ⵟ }
-\proof[size="20pt"]{ⵢ ⵣ ⵧ }
+\subsection{UNICODE 'HORIZONTAL' CHARACTER CHART}
+\proof[size="20pt"]{ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ}
+\proof[size="20pt"]{ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ }
+\proof[size="20pt"]{ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ }
+\proof[size="20pt"]{ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ}
 \proof[size="20pt"]{⵰ ⵿  }
 
 
