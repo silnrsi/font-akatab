@@ -230,7 +230,7 @@ markClass dotbelowcmb <anchor 0 -46> @_belowLC;
 markClass ogonekcmb <anchor 0 0> @_ogonekLC;
 
 # AP: T
-@T = [yab-tifi yabLabializationMarkLig-tifi yamyahLig-tifi yab-tifi.v01 yadd-tifi yah-tifi.v01 yabh-tifi yach-tifi yad-tifi yadd-tifi.rtl yaddh-tifi yatt-tifi.rtl yadh-tifi yadh-tifi.v01 yaf-tifi yass-tifi yazhTuareg-tifi yaf-tifi.v01 yazh-tifi yaf-tifi.v02 yaj-tifi yaj-tifi.v01 yag-tifi yajBerberAcademy-tifi yag-tifi.v01 yagh-tifi yaghAyer-tifi yaghTuareg-tifi yaghh-tifi yay-tifi yaghh-tifi.v01 yagnTuareg-tifi yagnTuareg-tifi.v01 yah-tifi yahBerberAcademy-tifi yarr-tifi yas-tifi yahTuareg-tifi yahh-tifi yak-tifi yash-tifi yakTuareg-tifi yakTuareg-tifi.rtl yakh-tifi yakhTuareg-tifi yakhh-tifi yal-tifi yal-tifi.raised yal-tifi.slant yam-tifi yamyatLig-tifi.v03 yatt-tifi yam-tifi.rtl yan-tifi yan-tifi.raised yan-tifi.slant.rtl yangTuareg-tifi yap-tifi yay-tifi.rtl yaq-tifi yaqTuareg-tifi yo-tifi yar-tifi yash-tifi.rtl yash-tifi.v01 yat-tifi yath-tifi yatt-tifi.v01 yatt-tifi.v01.rtl yav-tifi yaw-tifi yaz-tifi yaz-tifi.v01 yazyatLig-tifi yazyatLig-tifi.v01 yazTawellemet-tifi yazTawellemet-tifi.rtl yazhAhaggar-tifi yazhAhaggar-tifi.v01 yazyatLig-tifi.rtl yazz-tifi yi-tifi yi-tifi.rtl yiyatLig-tifi.rtl yo-tifi.super yu-tifi yu-tifi.v01];
+@T = [yab-tifi yabLabializationMarkLig-tifi yamyahLig-tifi yab-tifi.v01 yadd-tifi yah-tifi.v01 yabh-tifi yach-tifi yad-tifi yadd-tifi.rtl yaddh-tifi yatt-tifi.rtl yadh-tifi yadh-tifi.v01 yaf-tifi yass-tifi yazhTuareg-tifi yaf-tifi.v01 yazh-tifi yaf-tifi.v02 yaj-tifi yaj-tifi.v01 yag-tifi yajBerberAcademy-tifi yag-tifi.v01 yagh-tifi yaghAyer-tifi yaghTuareg-tifi yaghh-tifi yay-tifi yaghh-tifi.v01 yagnTuareg-tifi yagnTuareg-tifi.v01 yah-tifi yahBerberAcademy-tifi yarr-tifi yas-tifi yahTuareg-tifi yahh-tifi yak-tifi yash-tifi yashyatLig-tifi.v01 yakTuareg-tifi yakTuareg-tifi.rtl yakh-tifi yakhTuareg-tifi yakhh-tifi yal-tifi yal-tifi.raised yal-tifi.slant yam-tifi yamyatLig-tifi.v03 yatt-tifi yam-tifi.rtl yan-tifi yan-tifi.raised yan-tifi.slant.rtl yangTuareg-tifi yap-tifi yay-tifi.rtl yaq-tifi yaqTuareg-tifi yo-tifi yar-tifi yash-tifi.rtl yash-tifi.v01 yat-tifi yath-tifi yatt-tifi.v01 yatt-tifi.v01.rtl yav-tifi yaw-tifi yaz-tifi yaz-tifi.v01 yazyatLig-tifi yazyatLig-tifi.v01 yazTawellemet-tifi yazTawellemet-tifi.rtl yazhAhaggar-tifi yazhAhaggar-tifi.v01 yazyatLig-tifi.rtl yazz-tifi yi-tifi yi-tifi.rtl yiyatLig-tifi.rtl yo-tifi.super yu-tifi yu-tifi.v01];
 # baseClass [yab-tifi yabLabializationMarkLig-tifi yamyahLig-tifi] <anchor 733 1393> @T;
 # baseClass [yab-tifi.v01 yadd-tifi yah-tifi.v01] <anchor 653 1393> @T;
 # baseClass yabh-tifi <anchor 729 1393> @T;
@@ -252,7 +252,7 @@ markClass ogonekcmb <anchor 0 0> @_ogonekLC;
 # baseClass [yah-tifi yahBerberAcademy-tifi yarr-tifi yas-tifi] <anchor 736 1393> @T;
 # baseClass yahTuareg-tifi <anchor 344 1458> @T;
 # baseClass yahh-tifi <anchor 640 1393> @T;
-# baseClass [yak-tifi yash-tifi] <anchor 606 1393> @T;
+# baseClass [yak-tifi yash-tifi yashyatLig-tifi.v01] <anchor 606 1393> @T;
 # baseClass yakTuareg-tifi <anchor 578 1100> @T;
 # baseClass yakTuareg-tifi.rtl <anchor 407 1100> @T;
 # baseClass yakh-tifi <anchor 686 1393> @T;
@@ -2484,7 +2484,7 @@ feature ss20 {
         pos base [yah-tifi yahBerberAcademy-tifi yarr-tifi yas-tifi] <anchor 736 1393> mark @_T;
         pos base yahTuareg-tifi <anchor 344 1458> mark @_T;
         pos base yahh-tifi <anchor 640 1393> mark @_T;
-        pos base [yak-tifi yash-tifi] <anchor 606 1393> mark @_T;
+        pos base [yak-tifi yash-tifi yashyatLig-tifi.v01] <anchor 606 1393> mark @_T;
         pos base yakTuareg-tifi <anchor 578 1100> mark @_T;
         pos base yakTuareg-tifi.rtl <anchor 407 1100> mark @_T;
         pos base yakh-tifi <anchor 686 1393> mark @_T;

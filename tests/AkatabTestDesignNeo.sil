@@ -1,0 +1,25 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[features="+clig,+kern""+cv18-1",size="18pt"]
+
+%%%%% DESIGN GROUPS
+
+% SHAPES
+\patterngroup[name="straightright"]{ⵍⵑⵏⴺⴼⵄⵊⵖⵡ}
+\patterngroup[name="straightleft"]{ⴼⵄⴽⴿⵇⵊⵍⵎⵏⵑⵖⴹⵟⵡ}
+\patterngroup[name="rounded"]{ⴱⴲⵀⵁⵒⵔⵕⵙⵚⵛⵞ}
+\patterngroup[name="diagonal"]{ⴳⴴⴵⴷⴸⵃⵅⵉⵋⵝⵠⵢⵣⵥⵦ}
+\patterngroup[name="dots"]{ⴰⵓⴻⴶⴾⵂⵆⵈⵗⵧⵯ}
+\patterngroup[name="crossings"]{ⵌⵐⵜ}
+
+%%%%% TESTS
+% HOBONOP for Tifinagh: ⵍⵙⴷⵙⵓⵙⵢⵙⴰⵙⵏⵙⵉⵙⵜⵙⵎ
+\subsection{SIDEBEARING GROUPS (NEO): STRAIGHTRIGHT, STRAIGHTLEFT, ROUNDED, DIAGONAL, DOTS, CROSSINGS}
+\pattern[chars="@",reps="group_straightright",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_straightleft",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_rounded",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_diagonal",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_dots",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+\pattern[chars="@",reps="group_crossings",format="list"]{ⵍⵙⵙⵙ@ⴷ@ⵙ@ⵓ@ⵙ@ⵢ@ⵙ@ⴰ@ⵙ@ⵏ@ⵙ@ⵉ@ⵙ@ⵜ@ⵙ@ⵎ@ⵙⵙ}
+
+\end{document}
