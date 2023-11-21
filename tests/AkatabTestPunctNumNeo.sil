@@ -1,6 +1,6 @@
 \begin[class=fontproof]{document}
 \bidi-off
-\setTestFont[features="+clig,+kern",size="18pt"]
+\setTestFont[features="+clig,+kern,+cv18-1",size="18pt"]
 
 %%%%% GROUPS
 
