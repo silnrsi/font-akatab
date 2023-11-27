@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yakhLabializationMarkLig-tifi" format="2">
-  <advance width="1918"/>
+  <advance width="1938"/>
   <outline>
     <component base="yakh-tifi"/>
     <component base="LabializationMark-tifi" xOffset="1306"/>
