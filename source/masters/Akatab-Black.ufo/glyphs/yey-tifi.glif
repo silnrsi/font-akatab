@@ -4,7 +4,7 @@
   <unicode hex="2D3B"/>
   <outline>
     <component base="ya-tifi.neo" xOffset="83"/>
-    <component base="_HorizontalBarMed" xOffset="90" yOffset="622"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="635"/>
     <contour>
       <point x="584" y="1033" type="curve" smooth="yes"/>
       <point x="507" y="1033"/>
