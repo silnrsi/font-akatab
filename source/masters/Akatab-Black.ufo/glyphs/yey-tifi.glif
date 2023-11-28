@@ -1,76 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yey-tifi" format="2">
-  <advance width="1395"/>
+  <advance width="1175"/>
   <unicode hex="2D3B"/>
   <outline>
-    <component base="_HorizontalBar" xOffset="-45" yOffset="4"/>
+    <component base="ya-tifi.neo" xOffset="83"/>
+    <component base="_HorizontalBarMed" xOffset="90" yOffset="622"/>
     <contour>
-      <point x="646" y="870" type="curve" smooth="yes"/>
-      <point x="815" y="870"/>
-      <point x="996" y="983"/>
-      <point x="996" y="1162" type="curve" smooth="yes"/>
-      <point x="996" y="1281"/>
-      <point x="899" y="1420"/>
-      <point x="713" y="1420" type="curve" smooth="yes"/>
-      <point x="567" y="1420"/>
-      <point x="391" y="1373"/>
-      <point x="391" y="1113" type="curve" smooth="yes"/>
-      <point x="391" y="964"/>
-      <point x="514" y="870"/>
+      <point x="584" y="1033" type="curve" smooth="yes"/>
+      <point x="507" y="1033"/>
+      <point x="454" y="1076"/>
+      <point x="454" y="1162" type="curve" smooth="yes"/>
+      <point x="454" y="1222"/>
+      <point x="503" y="1257"/>
+      <point x="563" y="1257" type="curve" smooth="yes"/>
+      <point x="661" y="1257"/>
+      <point x="697" y="1197"/>
+      <point x="697" y="1134" type="curve" smooth="yes"/>
+      <point x="697" y="1068"/>
+      <point x="661" y="1033"/>
     </contour>
     <contour>
-      <point x="716" y="1028" type="curve" smooth="yes"/>
-      <point x="629" y="1028"/>
-      <point x="563" y="1071"/>
-      <point x="563" y="1167" type="curve" smooth="yes"/>
-      <point x="563" y="1183"/>
-      <point x="567" y="1197"/>
-      <point x="573" y="1211" type="curve"/>
-      <point x="589" y="1229"/>
-      <point x="615" y="1252"/>
-      <point x="652" y="1252" type="curve" smooth="yes"/>
-      <point x="760" y="1252"/>
-      <point x="806" y="1192"/>
-      <point x="806" y="1129" type="curve" smooth="yes"/>
-      <point x="806" y="1063"/>
-      <point x="783" y="1028"/>
-    </contour>
-    <contour>
-      <point x="713" y="131" type="curve" smooth="yes"/>
-      <point x="662" y="131"/>
-      <point x="622" y="158"/>
-      <point x="594" y="186" type="curve"/>
-      <point x="585" y="215"/>
-      <point x="581" y="240"/>
-      <point x="581" y="260" type="curve" smooth="yes"/>
-      <point x="581" y="313"/>
-      <point x="628" y="361"/>
-      <point x="693" y="361" type="curve" smooth="yes"/>
-      <point x="761" y="361"/>
-      <point x="816" y="305"/>
-      <point x="816" y="243" type="curve" smooth="yes"/>
-      <point x="816" y="170"/>
-      <point x="777" y="131"/>
-    </contour>
-    <contour>
-      <point x="652" y="-30" type="curve" smooth="yes"/>
-      <point x="867" y="-30"/>
-      <point x="996" y="122"/>
-      <point x="996" y="281" type="curve" smooth="yes"/>
-      <point x="996" y="420"/>
-      <point x="880" y="520"/>
-      <point x="726" y="520" type="curve" smooth="yes"/>
-      <point x="552" y="520"/>
-      <point x="388" y="380"/>
-      <point x="388" y="227" type="curve" smooth="yes"/>
-      <point x="388" y="85"/>
-      <point x="477" y="-30"/>
+      <point x="547" y="870" type="curve" smooth="yes"/>
+      <point x="716" y="870"/>
+      <point x="887" y="983"/>
+      <point x="887" y="1162" type="curve" smooth="yes"/>
+      <point x="887" y="1281"/>
+      <point x="790" y="1420"/>
+      <point x="604" y="1420" type="curve" smooth="yes"/>
+      <point x="458" y="1420"/>
+      <point x="282" y="1343"/>
+      <point x="282" y="1113" type="curve" smooth="yes"/>
+      <point x="282" y="964"/>
+      <point x="415" y="870"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPPPP</string>
+      <string>CCPP</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>
