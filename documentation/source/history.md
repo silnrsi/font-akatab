@@ -1,6 +1,6 @@
 ---
 title: Akatab - Version History
-fontversion: 3.000
+fontversion: 4.000
 ---
 
 ### 09 Feb 2023 (SIL WSTech team) Akatab version 3.000

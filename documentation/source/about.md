@@ -1,6 +1,6 @@
 ---
 title: Akatab - About
-fontversion: 3.000
+fontversion: 4.000
 ---
 
 ## About this project

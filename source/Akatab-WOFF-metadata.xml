@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Akatab.3.001" />
+  <uniqueid id="org.sil.fonts.Akatab.3.002" />
   <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
@@ -95,11 +95,11 @@
       and OFL-FAQ.txt files.
     </text>
   </description>
-  <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+  <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
-      Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
+      Copyright (c) 2010-2024, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
       
-      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
       
       
       -----------------------------------------------------------
@@ -144,7 +144,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).
+      Copyright (c) 2010-2024, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).
     </text>
   </copyright>
   <trademark>

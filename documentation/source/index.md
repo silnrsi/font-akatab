@@ -1,6 +1,6 @@
 ---
 title: Akatab - Documentation
-fontversion: 3.000
+fontversion: 4.000
 ---
 
 Thank you for your interest in the Akatab fonts. This project is intended to provide a free and open font family for current languages and writing systems that use the Tifinagh script. It supports many of the Unicode characters for this script. It also includes a large set of ligatures useful for linguistics and literacy work. Smart font routines automatically produce these ligatures. In addition, user-selectable features are included to choose variant characters or ligatures. 

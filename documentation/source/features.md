@@ -1,6 +1,6 @@
 ---
 title: Akatab - Font Features
-fontversion: 3.000
+fontversion: 4.000
 ---
 
 Akatab is an OpenType-enabled font family that supports the Tifinagh script. It includes a number of optional user-selected features that may be useful or required for particular uses or languages. This document lists all the user-selected features. These features are primarily specified using four-letter tags (e.g. 'cv17'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features). 

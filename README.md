@@ -4,7 +4,7 @@ Akatab is a Unicode font for rendering Tifinagh characters in the Tamahaq, Tamas
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Akatab/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Akatab&guest=1)  
 
-Akatab is released under under the [SIL Open Font License](http://scripts.sil.org/OFL).  
+Akatab is released under under the [SIL Open Font License](https://openfontlicense.org).  
 
 The Latin glyphs are based on the OFL-licensed [Source Sans Pro fonts](https://github.com/adobe-fonts/source-sans-pro). 
 
