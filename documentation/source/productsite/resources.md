@@ -17,12 +17,12 @@ See [Character set support](charset) for details of the Unicode characters suppo
 
 These fonts will work normally like any other fonts in most applications. These fonts include OpenType features for ligature formation, character and ligature (bi-consonant) variants and diacritic positioning. If the writing system requires these features, the the application/OS will need to support OpenType. For information on the specific features available in these fonts, see [Font features](features). 
 
-If special font features are to be activated, the application will need to provide a way to turn on the feature or choose the feature setting. Details of current application support, and specific techniques for activating features, are on the [Using Font Features](http://software.sil.org/fonts/features) help page.
+If special font features are to be activated, the application will need to provide a way to turn on the feature or choose the feature setting. Details of current application support, and specific techniques for activating features, are on the [Using Font Features](https://software.sil.org/fonts/features) help page.
 
 ## Web fonts
 
-Web font versions of these fonts (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages, see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+Web font versions of these fonts (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 ## Text conversion
 
-These fonts are encoded according to [The Unicode Standard](http://unicode.org). If you have text that uses a legacy, non-Unicode encoding, there are tools that can help you convert that text for use with Unicode fonts. See [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
+These fonts are encoded according to [The Unicode Standard](https://unicode.org). If you have text that uses a legacy, non-Unicode encoding, there are tools that can help you convert that text for use with Unicode fonts. See [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
