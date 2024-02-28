@@ -479,6 +479,7 @@
     <string>yahyatLig-tifi.rtl</string>
     <string>yahBerberAcademy-tifi</string>
     <string>yahTuareg-tifi</string>
+    <string>yahTuareg-tifi.v01</string>
     <string>yahh-tifi</string>
     <string>yaa-tifi</string>
     <string>yakh-tifi</string>
@@ -487,6 +488,7 @@
     <string>yaq-tifi</string>
     <string>yaqLabializationMarkLig-tifi</string>
     <string>yaqTuareg-tifi</string>
+    <string>yaqTuareg-tifi.v01</string>
     <string>yi-tifi</string>
     <string>yi-tifi.rtl</string>
     <string>yiyatLig-tifi</string>
@@ -592,6 +594,7 @@
     <string>yagh-tifi</string>
     <string>yaghLabializationMarkLig-tifi</string>
     <string>yaghTuareg-tifi</string>
+    <string>yaghTuareg-tifi.v01</string>
     <string>yaghAyer-tifi</string>
     <string>yas-tifi</string>
     <string>yasyakTuaregLig-tifi</string>
@@ -646,6 +649,7 @@
     <string>yazz-tifi</string>
     <string>ye-tifi</string>
     <string>yo-tifi</string>
+    <string>yo-tifi.v01</string>
     <string>LabializationMark-tifi</string>
     <string>separator-tifi</string>
     <string>separator-tifi.rtl</string>
@@ -906,6 +910,8 @@
     <string>uni2D56_uni2D6F</string>
     <key>yaghTuareg-tifi</key>
     <string>uni2D57</string>
+    <key>yaghTuareg-tifi.v01</key>
+    <string>uni2D57.v01</string>
     <key>yaghh-tifi</key>
     <string>uni2D34</string>
     <key>yaghh-tifi.v01</key>
@@ -932,6 +938,8 @@
     <string>uni2D41</string>
     <key>yahTuareg-tifi</key>
     <string>uni2D42</string>
+    <key>yahTuareg-tifi.v01</key>
+    <string>uni2D42.v01</string>
     <key>yahh-tifi</key>
     <string>uni2D43</string>
     <key>yahyatLig-tifi</key>
@@ -1102,6 +1110,8 @@
     <string>uni2D47_uni2D6F</string>
     <key>yaqTuareg-tifi</key>
     <string>uni2D48</string>
+    <key>yaqTuareg-tifi.v01</key>
+    <string>uni2D48.v01</string>
     <key>yar-tifi</key>
     <string>uni2D54</string>
     <key>yarr-tifi</key>
@@ -1274,6 +1284,8 @@
     <string>uni2D67</string>
     <key>yo-tifi.super</key>
     <string>uniE304</string>
+    <key>yo-tifi.v01</key>
+    <string>uni2D67.v01</string>
     <key>yoSILo-tifi</key>
     <string>uni2D67_uni0302</string>
     <key>yu-tifi</key>

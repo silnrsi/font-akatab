@@ -912,6 +912,8 @@
   <string>yaghL_abializationM_arkL_ig-tifi.glif</string>
   <key>yaghTuareg-tifi</key>
   <string>yaghT_uareg-tifi.glif</string>
+  <key>yaghTuareg-tifi.v01</key>
+  <string>yaghT_uareg-tifi.v01.glif</string>
   <key>yaghh-tifi</key>
   <string>yaghh-tifi.glif</string>
   <key>yaghh-tifi.v01</key>
@@ -938,6 +940,8 @@
   <string>yahB_erberA_cademy-tifi.glif</string>
   <key>yahTuareg-tifi</key>
   <string>yahT_uareg-tifi.glif</string>
+  <key>yahTuareg-tifi.v01</key>
+  <string>yahT_uareg-tifi.v01.glif</string>
   <key>yahh-tifi</key>
   <string>yahh-tifi.glif</string>
   <key>yahyatLig-tifi</key>
@@ -1108,6 +1112,8 @@
   <string>yaqL_abializationM_arkL_ig-tifi.glif</string>
   <key>yaqTuareg-tifi</key>
   <string>yaqT_uareg-tifi.glif</string>
+  <key>yaqTuareg-tifi.v01</key>
+  <string>yaqT_uareg-tifi.v01.glif</string>
   <key>yar-tifi</key>
   <string>yar-tifi.glif</string>
   <key>yarr-tifi</key>
@@ -1290,6 +1296,8 @@
   <string>yo-tifi.glif</string>
   <key>yo-tifi.super</key>
   <string>yo-tifi.super.glif</string>
+  <key>yo-tifi.v01</key>
+  <string>yo-tifi.v01.glif</string>
   <key>yoSILo-tifi</key>
   <string>yoS_I_L_o-tifi.glif</string>
   <key>yu-tifi</key>
