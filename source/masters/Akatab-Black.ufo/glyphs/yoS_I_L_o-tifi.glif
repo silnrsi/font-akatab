@@ -2,7 +2,7 @@
 <glyph name="yoSILo-tifi" format="2">
   <advance width="1138"/>
   <outline>
-    <component base="yo-tifi"/>
+    <component base="yo-tifi.v01"/>
     <contour>
       <point x="732" y="1408" type="curve" smooth="yes"/>
       <point x="691" y="1435"/>

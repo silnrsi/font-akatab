@@ -7,10 +7,4 @@
     <component base="yam-tifi" xScale="-1" yScale="-1" xOffset="1258" yOffset="1393"/>
     <component base="_HorizontalBarMedShort1.5" xScale="-1" yScale="-1" xOffset="960" yOffset="779"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

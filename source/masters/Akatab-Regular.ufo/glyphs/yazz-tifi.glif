@@ -7,10 +7,4 @@
     <component base="yaz-tifi"/>
     <component base="_HorizontalBarMedShort" xOffset="118" yOffset="621"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>
