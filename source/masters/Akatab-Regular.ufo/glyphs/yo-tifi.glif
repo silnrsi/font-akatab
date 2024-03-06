@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yo-tifi" format="2">
-  <advance width="1098"/>
+  <advance width="1320"/>
   <unicode hex="2D67"/>
-  <anchor x="758" y="820" name="T"/>
   <outline>
-    <component base="_Dot" xOffset="-320" yOffset="-11"/>
-    <component base="_Dot" xOffset="92" yOffset="-11"/>
+    <component base="_DotWide" xOffset="-315"/>
+    <component base="_DotWide" xOffset="209"/>
   </outline>
 </glyph>

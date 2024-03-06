@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yahTuareg-tifi.v01" format="2">
-  <advance width="726"/>
-  <anchor x="364" y="1458" name="T"/>
+  <advance width="836"/>
+  <anchor x="419" y="1458" name="T"/>
   <outline>
-    <component base="_Dot" xOffset="-300" yOffset="626"/>
-    <component base="_Dot" xOffset="-300" yOffset="204"/>
-    <component base="_Dot" xOffset="-300" yOffset="-229"/>
-    <component base="_Dot" xOffset="-300" yOffset="-652"/>
+    <component base="_DotWide" xOffset="-295" yOffset="638"/>
+    <component base="_DotWide" xOffset="-295" yOffset="-217"/>
+    <component base="_DotWide" xOffset="-295" yOffset="215"/>
+    <component base="_DotWide" xOffset="-295" yOffset="-639"/>
   </outline>
 </glyph>
