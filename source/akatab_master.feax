@@ -603,7 +603,7 @@ lookup TfnDiacriticSub {
 #            lookup TfnAllAlternates;
 #} aalt ;
 
-feature calt {  # Contextual Alternates; also see feature: rclt
+feature calt {  # Contextual Alternates
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnRaised;
@@ -1126,17 +1126,6 @@ feature liga {  # Standard Ligatures; also see feature: rlig
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
 } liga ;
-
-feature rclt {  # Required Contextual Alternates (similar to calt but for Microsoft Word)
-    script DFLT;  # Default
-        language dflt;  # Default
-            lookup TfnRaised;
-            lookup TfnDiacriticSub;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
-            lookup TfnRaised;
-            lookup TfnDiacriticSub;
-} rclt ;
 
 feature rlig {  # Required Ligatures (similar to liga but for Microsoft Word)
     script DFLT;  # Default
