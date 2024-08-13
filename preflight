@@ -5,7 +5,7 @@
 set -e
 
 echo "-----Update version number..."
-psfsetversion source/masters/Akatab-Regular.ufo "3.003" -l source/logs/setversionR.log
+psfsetversion source/masters/Akatab-Regular.ufo "3.004" -l source/logs/setversionR.log
 
 echo "-----Check and normalize Regular & Black..."
 psfnormalize -p checkfix=fix source/masters/Akatab-Regular.ufo -l source/masters/logs/normReg.log &
@@ -25,8 +25,8 @@ echo "-----Updating woff metadata file..."
 psfmakewoffmetadata -n Akatab -i org.sil.fonts -o source/Akatab-WOFF-metadata.xml source/masters/Akatab-Regular.ufo -l source/masters/logs/makewoff.log
 
 echo "Building internal fea..."
-psfmakefea -q -o source/masters/Akatab-Regular.ufo/features.fea -l source/logs/Akatab-Regular-psfmakefea.log -i source/akatab_master.feax -c source/akatab_classes.xml source/masters/Akatab-Regular.ufo &
-psfmakefea -q -o source/masters/Akatab-Black.ufo/features.fea    -l source/logs/Akatab-Black-psfmakefea.log    -i source/akatab_master.feax -c source/akatab_classes.xml source/masters/Akatab-Black.ufo    &
+makefea -q -o source/masters/Akatab-Regular.ufo/features.fea -l source/logs/Akatab-Regular-makefea.log -i source/akatab_master.feax -c source/akatab_classes.xml source/masters/Akatab-Regular.ufo &
+makefea -q -o source/masters/Akatab-Black.ufo/features.fea    -l source/logs/Akatab-Black-makefea.log    -i source/akatab_master.feax -c source/akatab_classes.xml source/masters/Akatab-Black.ufo    &
 wait
 
 echo "-----Preflight completed!"
