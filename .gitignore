@@ -4,17 +4,31 @@
 
 # smith
 .waf-*
+.smithpickle-*
 .lock-*
 results/**
 buildlinux2/**
 bin/**
+source/temp/*
+source/masters/temp/*
+source/backups/*
+.tmp/*
 
-# gdl and graide
+# temporary fontdocs files
+documentation/source/pdftemp/
+# documentation/source/productsite/
+web/*.woff*
+
+# graphite
 $_temp.gdl
 gdlerr.txt
 graide_dbg_output.json
 graide_image*.png
 dbg_*.txt
+
+# diffenator2
+.ninja_log
+build.ninja
 
 # general backup files
 *~
@@ -22,8 +36,7 @@ dbg_*.txt
 *.autosave
 *(Autosaved)*
 
-
-# macOS
+# OS X
 *.DS_STORE
 *__MACOSX
 .Spotlight-V100
@@ -48,7 +61,6 @@ Thumbs.db
 ehthumbs.db
 *.lnk
 
-
 # AFDKO
 current.fpr
 
@@ -56,7 +68,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-*.bash
+.idea/*
+.vscode/*
 
 # Shares
 .AppleDB
@@ -71,10 +84,9 @@ $RECYCLE.BIN/
 # Fontforge temporary backups
 *.sfd-*
 
-# Proprietary formats to keep out of git
+# Opaque formats to keep out of git
 *.fog
 *.vfc
-*.glyphs
 
 # generated releases
 *.zip
@@ -108,3 +120,5 @@ tmp/
 *$py.class
 __pycache__/
 
+# Glyphs.App
+*.glyphs
