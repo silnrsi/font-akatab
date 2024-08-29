@@ -131,17 +131,10 @@ lookup TfnCharacterVariant18 {
     sub @cno_neo by @c_neo ;
 } TfnCharacterVariant18;
 
-lookup TfnSlant_target { #linked to feature cv19
-  lookupflag 0 ;
-    sub yan-tifi by yan-tifi.slant ;
-    sub yal-tifi by yal-tifi.slant ;
-    sub yan-tifi.raised by yan-tifi.slant.rtl ;
-    sub yal-tifi.raised by yal-tifi.slant.rtl ;
-} TfnSlant_target ;
-
 lookup TfnCharacterVariant19 {
   lookupflag 0 ;
-    sub @cno_slant [ yan-tifi yal-tifi yan-tifi.raised yal-tifi.raised ]' lookup TfnSlant_target ; # slanted YAL and YAN
+    sub @cno_slant [ yan-tifi.raised yal-tifi.raised ]' by [ yan-tifi.slant.rtl yal-tifi.slant.rtl ] ; # RTL slanted YAL and YAN
+    sub @cno_slant [ yan-tifi yal-tifi ]'               by [ yan-tifi.slant yal-tifi.slant ] ;         # slanted YAL and YAN
 } TfnCharacterVariant19;
 
 lookup TfnCharacterVariant20 { # from publications circa 1954
@@ -151,8 +144,8 @@ lookup TfnCharacterVariant20 { # from publications circa 1954
     sub period by period.deco ;
 } TfnCharacterVariant20;
 
-# this lookup is used by Harfbuzz for right to left glyph substitution 
-#      when the string is preceded by a U+202E character
+# this lookup is used for right to left glyph substitution 
+# when the string is preceded by a U+202E character
 lookup TfnRTLalt {
   lookupflag RightToLeft ;
     sub yadd-tifi            by yadd-tifi.rtl ;            #uni2D39
@@ -172,65 +165,13 @@ lookup TfnRTLalt {
     sub yan-tifi.slant       by yan-tifi.slant.rtl ;       #uni2D4F
 } TfnRTLalt;
 
-# this lookup is used by Harfbuzz for right to left ligatures
-# NB: Last character in ligature comes first in the rule.
+# This lookup is used for right to left ligatures
+# NB: For DirectWrite, right to left characters must be the listed in the cmap 
+#     for this to work. One solution is to use TypeTuner. 
+@yan_sup = [yan-tifi yan-tifi.raised];
+@yal_sup = [yal-tifi yal-tifi.raised];
 lookup TfnBiconsonants_RTL {
   lookupflag RightToLeft ;
-    sub yat-tifi               yab-tifi              consonantjoiner-tifi.rtl by yabyatLig-tifi.rtl ;
-    sub yat-tifi               yah-tifi              consonantjoiner-tifi.rtl by yahyatLig-tifi.rtl ;
-    sub yat-tifi               yar-tifi              consonantjoiner-tifi.rtl by yaryatLig-tifi.rtl ;
-    sub yat-tifi               yas-tifi              consonantjoiner-tifi.rtl by yasyatLig-tifi.rtl ;
-    sub yat-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyatLig-tifi.rtl ;
-    sub yat-tifi               yaf-tifi              consonantjoiner-tifi.rtl by yafyatLig-tifi.rtl ;
-    sub yat-tifi               yaf-tifi.v01          consonantjoiner-tifi.rtl by yafyatLig-tifi.v01.rtl ;
-    sub yat-tifi               yaf-tifi.v02          consonantjoiner-tifi.rtl by yafyatLig-tifi.v04 ;
-    sub yat-tifi               yi-tifi.rtl           consonantjoiner-tifi.rtl by yiyatLig-tifi.rtl ;
-    sub yat-tifi               yaghh-tifi            consonantjoiner-tifi.rtl by yaghhyatLig-tifi.rtl ;
-    sub yat-tifi               yaghh-tifi.v01        consonantjoiner-tifi.rtl by yaghhyatLig-tifi.v01.rtl ;
-    sub yat-tifi               yaj-tifi              consonantjoiner-tifi.rtl by yajyatLig-tifi.rtl ;
-    sub yat-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyatLig-tifi.rtl ;
-    sub yat-tifi               yal-tifi              consonantjoiner-tifi.rtl by yalyatLig-tifi.rtl ;
-    sub yat-tifi               yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyatLig-tifi.rtl ;
-    sub yat-tifi               yu-tifi               consonantjoiner-tifi.rtl by yuyatLig-tifi.rtl ;
-    sub yat-tifi               yu-tifi.v01           consonantjoiner-tifi.rtl by yuyatLig-tifi.v02.rtl ;
-    sub yat-tifi               yazhTuareg-tifi       consonantjoiner-tifi.rtl by yazhTuaregyatLig-tifi.rtl ;
-    sub yat-tifi               yaz-tifi.v01          consonantjoiner-tifi.rtl by yazyatLig-tifi.v01.rtl ;
-    sub yat-tifi               yaz-tifi              consonantjoiner-tifi.rtl by yazyatLig-tifi.rtl ;
-    sub yat-tifi               yazhAhaggar-tifi      consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.rtl ;
-    sub yat-tifi               yazhAhaggar-tifi.v01  consonantjoiner-tifi.rtl by yazhAhaggaryatLig-tifi.v01.rtl ;
-    sub yakTuareg-tifi.rtl     yar-tifi              consonantjoiner-tifi.rtl by yaryakTuaregLig-tifi ;
-    sub yakTuareg-tifi.rtl     yas-tifi              consonantjoiner-tifi.rtl by yasyakTuaregLig-tifi ;
-    sub yakTuareg-tifi.rtl     yan-tifi              consonantjoiner-tifi.rtl by yanyakTuaregLig-tifi ;
-    sub yakTuareg-tifi.rtl     yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.rtl ;
-    sub yakTuareg-tifi.rtl     yash-tifi.v01         consonantjoiner-tifi.rtl by yashyakTuaregLig-tifi.v02 ;
-    sub yakTuareg-tifi.rtl     yal-tifi              consonantjoiner-tifi.rtl by yalyakTuaregLig-tifi ;
-    sub yah-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyahLig-tifi ;
-    sub yas-tifi               yam-tifi.rtl          consonantjoiner-tifi.rtl by yamyasLig-tifi.rtl ;
-    sub yas-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyasLig-tifi.rtl ;
-    sub yad-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyadLig-tifi ;
-    sub yadh-tifi              yan-tifi              consonantjoiner-tifi.rtl by yanyadhLig-tifi ;
-    sub yadd-tifi.rtl          yan-tifi              consonantjoiner-tifi.rtl by yanyaddLig-tifi ;
-    sub yaf-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyafLig-tifi ;
-    sub yaf-tifi.v01           yan-tifi              consonantjoiner-tifi.rtl by yanyafLig-tifi.v01 ;
-    sub yaf-tifi.v02           yan-tifi              consonantjoiner-tifi.rtl by yanyafLig-tifi.v03 ;
-    sub yaghTuareg-tifi        yan-tifi              consonantjoiner-tifi.rtl by yanyaghTuaregLig-tifi.rtl ;
-    sub yazhTuareg-tifi        yan-tifi              consonantjoiner-tifi.rtl by yanyazhTuaregLig-tifi ;
-    sub yaghh-tifi             yan-tifi              consonantjoiner-tifi.rtl by yanyaghhLig-tifi ;
-    sub yaghh-tifi.v01         yan-tifi              consonantjoiner-tifi.rtl by yanyaghhLig-tifi.v01 ;
-    sub yaj-tifi               yan-tifi              consonantjoiner-tifi.rtl by yanyajLig-tifi ;
-    sub yash-tifi.rtl          yan-tifi              consonantjoiner-tifi.rtl by yanyashLig-tifi.rtl ;
-    sub yazTawellemet-tifi.rtl yan-tifi              consonantjoiner-tifi.rtl by yanyazTawellemetLig-tifi.rtl ;
-    sub yan-tifi               yar-tifi              consonantjoiner-tifi.rtl by yaryanLig-tifi ;
-    sub yan-tifi               yas-tifi              consonantjoiner-tifi.rtl by yasyanLig-tifi ;
-    sub yan-tifi               yash-tifi.rtl         consonantjoiner-tifi.rtl by yashyanLig-tifi.rtl ;
-    sub yan-tifi               yash-tifi.v01         consonantjoiner-tifi.rtl by yashyanLig-tifi.v01 ;
-} TfnBiconsonants_RTL;
-
-# as of Jan. 2020 - this lookup is used by DirectWrite for right to left ligatures
-# NB: Right to left characters must be the listed in the cmap (using typetuner)
-#     for this to work
-lookup TfnBiconsonants_RTL_DW {
-  lookupflag 0 ;
     sub yab-tifi              consonantjoiner-tifi.rtl yat-tifi                by yabyatLig-tifi.rtl ;
     sub yah-tifi              consonantjoiner-tifi.rtl yat-tifi                by yahyatLig-tifi.rtl ;
     sub yar-tifi              consonantjoiner-tifi.rtl yat-tifi                by yaryatLig-tifi.rtl ;
@@ -243,8 +184,8 @@ lookup TfnBiconsonants_RTL_DW {
     sub yaghh-tifi            consonantjoiner-tifi.rtl yat-tifi                by yaghhyatLig-tifi.rtl ;
     sub yaghh-tifi.v01        consonantjoiner-tifi.rtl yat-tifi                by yaghhyatLig-tifi.v01.rtl ;
     sub yaj-tifi              consonantjoiner-tifi.rtl yat-tifi                by yajyatLig-tifi.rtl ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yat-tifi                by yanyatLig-tifi.rtl ;
-    sub yal-tifi              consonantjoiner-tifi.rtl yat-tifi                by yalyatLig-tifi.rtl ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yat-tifi                by yanyatLig-tifi.rtl ;
+    sub @yal_sup              consonantjoiner-tifi.rtl yat-tifi                by yalyatLig-tifi.rtl ;
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yat-tifi                by yashyatLig-tifi.rtl ;
     sub yu-tifi               consonantjoiner-tifi.rtl yat-tifi                by yuyatLig-tifi.rtl ;
     sub yu-tifi.v01           consonantjoiner-tifi.rtl yat-tifi                by yuyatLig-tifi.v02.rtl ;
@@ -255,31 +196,31 @@ lookup TfnBiconsonants_RTL_DW {
     sub yazhAhaggar-tifi.v01  consonantjoiner-tifi.rtl yat-tifi                by yazhAhaggaryatLig-tifi.v01.rtl ;
     sub yar-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yaryakTuaregLig-tifi ;
     sub yas-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yasyakTuaregLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yanyakTuaregLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yanyakTuaregLig-tifi ;
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yashyakTuaregLig-tifi.rtl ;
     sub yash-tifi.v01         consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yashyakTuaregLig-tifi.v02 ;
-    sub yal-tifi              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yalyakTuaregLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yas-tifi                by yanyasLig-tifi.rtl ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yad-tifi                by yanyadLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yadh-tifi               by yanyadhLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yadd-tifi.rtl           by yanyaddLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaf-tifi                by yanyafLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaf-tifi.v01            by yanyafLig-tifi.v01 ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaf-tifi.v02            by yanyafLig-tifi.v03 ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaghTuareg-tifi         by yanyaghTuaregLig-tifi.rtl ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yazhTuareg-tifi         by yanyazhTuaregLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaghh-tifi              by yanyaghhLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaghh-tifi.v01          by yanyaghhLig-tifi.v01 ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yaj-tifi                by yanyajLig-tifi ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yash-tifi.rtl           by yanyashLig-tifi.rtl ;
-    sub yan-tifi              consonantjoiner-tifi.rtl yazTawellemet-tifi.rtl  by yanyazTawellemetLig-tifi.rtl ;
+    sub @yal_sup              consonantjoiner-tifi.rtl yakTuareg-tifi.rtl      by yalyakTuaregLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yas-tifi                by yanyasLig-tifi.rtl ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yad-tifi                by yanyadLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yadh-tifi               by yanyadhLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yadd-tifi.rtl           by yanyaddLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaf-tifi                by yanyafLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaf-tifi.v01            by yanyafLig-tifi.v01 ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaf-tifi.v02            by yanyafLig-tifi.v03 ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaghTuareg-tifi         by yanyaghTuaregLig-tifi.rtl ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yazhTuareg-tifi         by yanyazhTuaregLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaghh-tifi              by yanyaghhLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaghh-tifi.v01          by yanyaghhLig-tifi.v01 ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yaj-tifi                by yanyajLig-tifi ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yash-tifi.rtl           by yanyashLig-tifi.rtl ;
+    sub @yan_sup              consonantjoiner-tifi.rtl yazTawellemet-tifi.rtl  by yanyazTawellemetLig-tifi.rtl ;
     sub yam-tifi.rtl          consonantjoiner-tifi.rtl yah-tifi                by yamyahLig-tifi ;
     sub yam-tifi.rtl          consonantjoiner-tifi.rtl yas-tifi                by yamyasLig-tifi.rtl ;
     sub yar-tifi              consonantjoiner-tifi.rtl yan-tifi                by yaryanLig-tifi ;
     sub yas-tifi              consonantjoiner-tifi.rtl yan-tifi                by yasyanLig-tifi ;
     sub yash-tifi.rtl         consonantjoiner-tifi.rtl yan-tifi                by yashyanLig-tifi.rtl ;
     sub yash-tifi.v01         consonantjoiner-tifi.rtl yan-tifi                by yashyanLig-tifi.v01 ;
-} TfnBiconsonants_RTL_DW;
+} TfnBiconsonants_RTL;
 
 lookup TfnBiconsonants {
   lookupflag 0 ;
@@ -314,8 +255,8 @@ lookup TfnBiconsonants {
     sub yaj-tifi              consonantjoiner-tifi yat-tifi            by yajyatLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yakTuareg-tifi      by yanyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yat-tifi            by yanyatLig-tifi ;
-    sub yal-tifi              consonantjoiner-tifi yakTuareg-tifi      by yalyakTuaregLig-tifi ;
-    sub yal-tifi              consonantjoiner-tifi yat-tifi            by yalyatLig-tifi ;
+    sub @yal_sup              consonantjoiner-tifi yakTuareg-tifi      by yalyakTuaregLig-tifi ;
+    sub @yal_sup              consonantjoiner-tifi yat-tifi            by yalyatLig-tifi ;
     sub yash-tifi             consonantjoiner-tifi yakTuareg-tifi      by yashyakTuaregLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yash-tifi           by yanyashLig-tifi ;
     sub yan-tifi              consonantjoiner-tifi yash-tifi.v01       by yanyashLig-tifi.v01 ;
@@ -341,27 +282,16 @@ lookup TfnTriconsonants {
     sub yanyafLig-tifi      consonantjoiner-tifi yat-tifi  by yanyafyatLig-tifi ;
 } TfnTriconsonants;
 
-# lookup TfnSlant_target { *changed to a feature - see cv19
-#   lookupflag 0 ;
-#     sub yan-tifi by yan-tifi.slant ;
-#     sub yal-tifi by yal-tifi.slant ;
-# } TfnSlant_target ;
-# 
-# lookup TfnSlant {
-#   lookupflag 0 ;
-#     sub @cno_slant [ yan-tifi yal-tifi ]' lookup TfnSlant_target ;
-# } TfnSlant;
-
 lookup TfnRaisedRTL_target {
-  lookupflag RightToLeft ;
-    sub yan-tifi by yan-tifi.raised ;
-    sub yal-tifi by yal-tifi.raised ;
-} TfnRaisedRTL_target ;
+    lookupflag RightToLeft;
+    sub yan-tifi by yan-tifi.raised;
+    sub yal-tifi by yal-tifi.raised;
+} TfnRaisedRTL_target;
 
 lookup TfnRaisedRTL {
-  lookupflag RightToLeft ;
-    ignore sub [ yan-tifi yal-tifi ]' [ yan-tifi yal-tifi ] [ yan-tifi yal-tifi ] ; # prevent substitution of third in sequence
-    sub [ yan-tifi yal-tifi ]' lookup TfnRaisedRTL_target [ yan-tifi yal-tifi ] ;
+    lookupflag RightToLeft;
+    ignore sub [yan-tifi yal-tifi]' [yan-tifi yal-tifi] [yan-tifi yal-tifi]; # prevent substitution of third in sequence
+    sub [yan-tifi yal-tifi] [yan-tifi yal-tifi]' lookup TfnRaisedRTL_target;
 } TfnRaisedRTL;
 
 lookup TfnRaised_target {
@@ -372,6 +302,7 @@ lookup TfnRaised_target {
 
 lookup TfnRaised {
   lookupflag 0 ;
+    ignore sub [ yan-tifi yal-tifi ]' [ yan-tifi yal-tifi ] [ yan-tifi yal-tifi ] ; # prevent substitution of third in sequence
     sub [ yan-tifi yal-tifi ] [ yan-tifi yal-tifi ]' lookup TfnRaised_target ;
 } TfnRaised;
 
@@ -583,11 +514,13 @@ lookup TfnDiacriticSub {
 feature calt {  # Contextual Alternates
     script DFLT;  # Default
         language dflt;  # Default
+#            lookup TfnRaisedRTL;
             lookup TfnRaised;
             lookup TfnDiacriticSub;
 #            lookup LatnPunct;
     script tfng;  # Tifinagh
         language dflt;  # Default
+#            lookup TfnRaisedRTL;
             lookup TfnRaised;
             lookup TfnDiacriticSub;
 #            lookup LatnPunct;
@@ -1079,7 +1012,6 @@ feature liga {  # Standard Ligatures; also see feature: rlig
         language dflt;  # Default
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
-			lookup TfnBiconsonants_RTL_DW;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
@@ -1087,18 +1019,27 @@ feature liga {  # Standard Ligatures; also see feature: rlig
         language dflt;  # Default
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
-			lookup TfnBiconsonants_RTL_DW;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
 } liga ;
+
+feature rclt {  # Required Contextual Alternates (similar to calt but for Microsoft Word)
+    script DFLT;  # Default
+        language dflt;  # Default
+            lookup TfnRaised;
+            lookup TfnDiacriticSub;
+    script tfng;  # Tifinagh
+        language dflt;  # Default
+            lookup TfnRaised;
+            lookup TfnDiacriticSub;
+} rclt ;
 
 feature rlig {  # Required Ligatures (similar to liga but for Microsoft Word)
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
-			lookup TfnBiconsonants_RTL_DW;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
@@ -1106,7 +1047,6 @@ feature rlig {  # Required Ligatures (similar to liga but for Microsoft Word)
         language dflt;  # Default
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
-			lookup TfnBiconsonants_RTL_DW;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
