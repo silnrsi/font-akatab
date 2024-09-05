@@ -52,14 +52,14 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 Standard              | <span class='akatab-R normal'>ⵐ</span> | <span class='akatab-R normal'> ‮ⵐ</span> | `cv04=0`
 Lowered bottom stroke | <span class='akatab-R normal' style='font-feature-settings: "cv04" 1'>ⵐ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv04" 1'> ‮ⵐ</span> | `cv04=1`
 
-#### Alternate YU
+#### Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ (short strokes)
 
-<span class='affects'>Affects: U+2D53</span>
+<span class='affects'>Affects: U+2D53 U+2D57 U+2D42 U+2D48</span>
 
 Feature  | Sample                       | Sample right-to-left         | Feature setting
 :------- | :--------------------------- | :--------------------------- | :-------
-Standard      | <span class='akatab-R normal'>ⵓ</span> | <span class='akatab-R normal'> ‮ⵓ</span> | `cv05=0`
-Short strokes | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'>ⵓ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'> ‮ⵓ</span> | `cv05=1`
+Standard      | <span class='akatab-R normal'>ⵓ ⵗ ⵂ ⵈ</span> | <span class='akatab-R normal'> ‮ⵓ ⵗ ⵂ ⵈ</span> | `cv05=0`
+Short strokes | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'>ⵓ ⵗ ⵂ ⵈ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'> ‮ⵓ ⵗ ⵂ ⵈ</span> | `cv05=1`
 
 #### Alternate YAZ
 
