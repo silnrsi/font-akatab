@@ -160,6 +160,15 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 Standard Latin | <span class='akatab-R normal'>! , .</span> | | `cv20=0`
 Decorative     | <span class='akatab-R normal' style='font-feature-settings: "cv20" 1'>! , .</span> | | `cv20=1`
 
+#### Alternate YO
+
+<span class='affects'>Affects: U+2D67</span>
+
+Feature  | Sample                       | Sample right-to-left         | Feature setting
+:------- | :--------------------------- | :--------------------------- | :-------
+Standard       | <span class='akatab-R normal'>ⵧ</span> |  | `cv21=0`
+Dots           | <span class='akatab-R normal' style='font-feature-settings: "cv21" 1'>ⵧ</span> |  | `cv21=1`
+
 
 ### Ligature variants
 

@@ -457,6 +457,13 @@ lookup TfnCharacterVariant20 {
     sub period by period.deco;
 } TfnCharacterVariant20;
 
+lookup TfnCharacterVariant21 {
+    # dot alternate
+    lookupflag 0;
+    sub yo-tifi by yo-tifi.v01;
+    # U+2D67
+} TfnCharacterVariant21;
+
 # this lookup is used for right to left glyph substitution 
 # when the string is preceded by a U+202E character
 lookup TfnRTLalt {
@@ -1323,6 +1330,31 @@ feature cv20 {
     # Default
     lookup TfnCharacterVariant20;
 } cv20;
+
+feature cv21 {
+    # Character Variant 21
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate YO";
+        };
+
+                ParamUILabelNameID {
+            name "dot alternate";
+        };
+
+    };
+
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant21;
+    script tfng;
+    # Tifinagh
+    language dflt;
+    # Default
+    lookup TfnCharacterVariant21;
+} cv21;
 
 feature cv31 {
     # Character Variant 31

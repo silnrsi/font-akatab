@@ -156,6 +156,15 @@ Feature  | Sample                       | Sample right-to-left         | Feature
 Standard Latin | <span class='akatab-R normal'>! , .</span> | | `cv20=0`
 Decorative     | <span class='akatab-cv20-1-R normal'>! , .</span> | | `cv20=1`
 
+#### Alternate YO
+
+<span class='affects'>Affects: U+2D67</span>
+
+Feature  | Sample                       | Sample right-to-left         | Feature setting
+:------- | :--------------------------- | :--------------------------- | :-------
+Standard       | <span class='akatab-R normal'>ⵧ</span> |  | `cv21=0`
+Dots           | <span class='akatab-cv21-1-R normal'>ⵧ</span> |  | `cv21=1`
+
 
 ### Ligature variants
 
@@ -568,6 +577,7 @@ Using hard-coded directional characters in the HTML code (as illustrated above) 
 [font id='akatab-cv19-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv19 1']
 [font id='akatab-cv19-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv19 1']
 [font id='akatab-cv20-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv20 1']
+[font id='akatab-cv21-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv21 1']
 [font id='akatab-cv31-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv31 1']
 [font id='akatab-cv31-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv31 1']
 [font id='akatab-cv32-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv32 1']
