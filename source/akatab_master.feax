@@ -1262,6 +1262,13 @@ feature ss20 {  # Stylistic Set 20
 #  GPOS Lookups
 #**********************************
 
+lookup kernLM {
+  lookupflag 0 ;
+    pos yaf-tifi.neo LabializationMark-tifi -100;
+    pos yal-tifi.neo LabializationMark-tifi -100;
+    pos yam-tifi     LabializationMark-tifi -100;
+} kernLM;
+
 do  for b = [aboveUC aboveLC baseLC belowLC ogonekLC T];
     let lk = "base_"+b+"_base";
     let bc = "@" + b;
@@ -1276,6 +1283,15 @@ do  for b = [aboveUC aboveLC baseLC belowLC ogonekLC T];
 #**********************************
 #  GPOS Features
 #**********************************
+
+feature kern {
+  script DFLT;
+    language dflt;
+      lookup kernLM;
+  script tfng;
+    language dflt;
+      lookup kernLM;
+} kern;
 
 feature mark {
   script DFLT;

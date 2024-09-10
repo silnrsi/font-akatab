@@ -2262,6 +2262,13 @@ feature ss20 {
 #**********************************
 #  GPOS Lookups
 #**********************************
+lookup kernLM {
+    lookupflag 0;
+    pos yaf-tifi.neo LabializationMark-tifi -100;
+    pos yal-tifi.neo LabializationMark-tifi -100;
+    pos yam-tifi LabializationMark-tifi -100;
+} kernLM;
+
     #**********************************
     #  GPOS Features
     #**********************************
@@ -2486,6 +2493,15 @@ feature ss20 {
         pos base yu-tifi.v01 <anchor 427 984> mark @_T;
     } base_T_base;
 
+
+feature kern {
+    script DFLT;
+    language dflt;
+    lookup kernLM;
+    script tfng;
+    language dflt;
+    lookup kernLM;
+} kern;
 
 feature mark {
     script DFLT;
