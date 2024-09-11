@@ -134,6 +134,8 @@
   <string>S_.glif</string>
   <key>Scaron</key>
   <string>S_caron.glif</string>
+  <key>Schwa</key>
+  <string>S_chwa.glif</string>
   <key>Sdotbelow</key>
   <string>S_dotbelow.glif</string>
   <key>T</key>
