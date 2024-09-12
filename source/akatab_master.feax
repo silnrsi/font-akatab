@@ -582,7 +582,7 @@ feature cv04 {  # Character Variant 4
 
 feature cv05 {  # Character Variant 5
     cvParameters {
-      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YU" ; };
+      FeatUILabelNameID  { name 3 1 0x0409 "Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ" ; };
       ParamUILabelNameID { name 3 1 0x0409 "short strokes" ; };
     } ;
     script DFLT;  # Default
@@ -1118,7 +1118,7 @@ feature ss04 {  # Stylistic Set 4
 } ss04 ;
 
 feature ss05 {  # Stylistic Set 5
-    featureNames { name 3 1 0x409 "Alternate YU (short strokes)" ; };
+    featureNames { name 3 1 0x409 "Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ (short strokes)" ; };
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnCharacterVariant05;

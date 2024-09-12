@@ -19,8 +19,8 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 <span class='affects'>Affects: U+2D30</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⴰ</span> | <span class='akatab-R normal'> ‮ⴰ</span> | `cv01=0`
 Circle   | <span class='akatab-R normal' style='font-feature-settings: "cv01" 1'>ⴰ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv01" 1'> ‮ⴰ</span> | `cv01=1`
 
@@ -28,18 +28,18 @@ Circle   | <span class='akatab-R normal' style='font-feature-settings: "cv01" 1'
 
 <span class='affects'>Affects: U+2D3C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⴼ</span> | <span class='akatab-R normal'> ‮ⴼ</span> | `cv02=0`
 I-shape             | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'> ‮ⴼ</span> | `cv02=1`
-Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'> ‮ⴼ</span> | `cv14=1 (or cv02=2)`
+Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'> ‮ⴼ</span> | `cv02=2`
 
 #### Alternate YAGHH
 
 <span class='affects'>Affects: U+2D34</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard     | <span class='akatab-R normal'>ⴴ</span> | <span class='akatab-R normal'> ‮ⴴ</span> | `cv03=0`
 Round bottom | <span class='akatab-R normal' style='font-feature-settings: "cv03" 1'>ⴴ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv03" 1'> ‮ⴴ</span> | `cv03=1`
 
@@ -47,8 +47,8 @@ Round bottom | <span class='akatab-R normal' style='font-feature-settings: "cv03
 
 <span class='affects'>Affects: U+2D50</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard              | <span class='akatab-R normal'>ⵐ</span> | <span class='akatab-R normal'> ‮ⵐ</span> | `cv04=0`
 Lowered bottom stroke | <span class='akatab-R normal' style='font-feature-settings: "cv04" 1'>ⵐ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv04" 1'> ‮ⵐ</span> | `cv04=1`
 
@@ -56,8 +56,8 @@ Lowered bottom stroke | <span class='akatab-R normal' style='font-feature-settin
 
 <span class='affects'>Affects: U+2D53 U+2D57 U+2D42 U+2D48</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard      | <span class='akatab-R normal'>ⵓ ⵗ ⵂ ⵈ</span> | <span class='akatab-R normal'> ‮ⵓ ⵗ ⵂ ⵈ</span> | `cv05=0`
 Short strokes | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'>ⵓ ⵗ ⵂ ⵈ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'> ‮ⵓ ⵗ ⵂ ⵈ</span> | `cv05=1`
 
@@ -65,8 +65,8 @@ Short strokes | <span class='akatab-R normal' style='font-feature-settings: "cv0
 
 <span class='affects'>Affects: U+2D63</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵣ</span> | <span class='akatab-R normal'> ‮ⵣ</span> | `cv06=0`
 Squared  | <span class='akatab-R normal' style='font-feature-settings: "cv06" 1'>ⵣ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv06" 1'> ‮ⵣ</span> | `cv06=1`
 
@@ -74,8 +74,8 @@ Squared  | <span class='akatab-R normal' style='font-feature-settings: "cv06" 1'
 
 <span class='affects'>Affects: U+2D4B</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵋ</span> | <span class='akatab-R normal'> ‮ⵋ</span> | `cv07=0`
 Squared  | <span class='akatab-R normal' style='font-feature-settings: "cv07" 1'>ⵋ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv07" 1'> ‮ⵋ</span> | `cv07=1`
 
@@ -83,8 +83,8 @@ Squared  | <span class='akatab-R normal' style='font-feature-settings: "cv07" 1'
 
 <span class='affects'>Affects: U+2D31</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard         | <span class='akatab-R normal'>ⴱ</span> | <span class='akatab-R normal'> ‮ⴱ</span> | `cv08=0`
 Rectangle style  | <span class='akatab-R normal' style='font-feature-settings: "cv08" 1'>ⴱ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv08" 1'> ‮ⴱ</span> | `cv08=1`
 
@@ -92,8 +92,8 @@ Rectangle style  | <span class='akatab-R normal' style='font-feature-settings: "
 
 <span class='affects'>Affects: U+2D33</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard    | <span class='akatab-R normal'>ⴳ</span> | <span class='akatab-R normal'> ‮ⴳ</span> | `cv09=0`
 Rounded top | <span class='akatab-R normal' style='font-feature-settings: "cv09" 1'>ⴳ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv09" 1'> ‮ⴳ</span> | `cv09=1`
 
@@ -101,8 +101,8 @@ Rounded top | <span class='akatab-R normal' style='font-feature-settings: "cv09"
 
 <span class='affects'>Affects: U+2D36</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard   | <span class='akatab-R normal'>ⴶ</span> | <span class='akatab-R normal'> ‮ⴶ</span> | `cv10=0`
 Lower dots | <span class='akatab-R normal' style='font-feature-settings: "cv10" 1'>ⴶ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv10" 1'> ‮ⴶ</span> | `cv10=1`
 
@@ -110,8 +110,8 @@ Lower dots | <span class='akatab-R normal' style='font-feature-settings: "cv10" 
 
 <span class='affects'>Affects: U+2D40</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard        | <span class='akatab-R normal'>ⵀ</span> | <span class='akatab-R normal'> ‮ⵀ</span> | `cv11=0`
 Rectangle style | <span class='akatab-R normal' style='font-feature-settings: "cv11" 1'>ⵀ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv11" 1'> ‮ⵀ</span> | `cv11=1`
 
@@ -119,8 +119,8 @@ Rectangle style | <span class='akatab-R normal' style='font-feature-settings: "c
 
 <span class='affects'>Affects: U+2D5B</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵛ</span> | <span class='akatab-R normal'> ‮ⵛ</span> | `cv12=0`
 8 shape  | <span class='akatab-R normal' style='font-feature-settings: "cv12" 1'>ⵛ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv12" 1'> ‮ⵛ</span> | `cv12=1`
 
@@ -128,8 +128,8 @@ Standard | <span class='akatab-R normal'>ⵛ</span> | <span class='akatab-R norm
 
 <span class='affects'>Affects: U+2D5F</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵟ</span> | <span class='akatab-R normal'> ‮ⵟ</span> | `cv13=0`
 F shape  | <span class='akatab-R normal' style='font-feature-settings: "cv13" 1'>ⵟ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv13" 1'> ‮ⵟ</span> | `cv13=1`
 
@@ -137,17 +137,26 @@ F shape  | <span class='akatab-R normal' style='font-feature-settings: "cv13" 1'
 
 <span class='affects'>Affects: U+2D38</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard       | <span class='akatab-R normal'>ⴸ</span> | <span class='akatab-R normal'> ‮ⴸ</span> | `cv15=0`
 Rounded bottom | <span class='akatab-R normal' style='font-feature-settings: "cv15" 1'>ⴸ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv15" 1'> ‮ⴸ</span> | `cv15=1`
+
+#### Neo-Tifinagh
+
+<span class='affects'>Affects: 2D30 2D3C 2D4D 2D53 2D5A 2D5B 2D5C </span>
+
+Feature                | Sample                       |                              | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
+Standard     | <span class='akatab-R normal'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `cv18=0`
+Neo-Tifinagh | <span class='akatab-R normal' style='font-feature-settings: "cv18" 1'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `cv18=1`
 
 #### Alternate YAL and YAL
 
 <span class='affects'>Affects: U+2D4D U+2D4F</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard| <span class='akatab-R normal'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | <span class='akatab-R normal'> ‮ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | `cv19=0`
 Slanted | <span class='akatab-R normal' style='font-feature-settings: "cv19" 1'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv19" 1'>  ‮ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | `cv19=1`
 
@@ -155,8 +164,8 @@ Slanted | <span class='akatab-R normal' style='font-feature-settings: "cv19" 1'>
 
 <span class='affects'>Affects: U+0021 U+002C U+002E</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       |                              | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard Latin | <span class='akatab-R normal'>! , .</span> | | `cv20=0`
 Decorative     | <span class='akatab-R normal' style='font-feature-settings: "cv20" 1'>! , .</span> | | `cv20=1`
 
@@ -164,8 +173,8 @@ Decorative     | <span class='akatab-R normal' style='font-feature-settings: "cv
 
 <span class='affects'>Affects: U+2D67</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard       | <span class='akatab-R normal'>ⵧ</span> |  | `cv21=0`
 Dots           | <span class='akatab-R normal' style='font-feature-settings: "cv21" 1'>ⵧ</span> |  | `cv21=1`
 
@@ -176,8 +185,8 @@ Dots           | <span class='akatab-R normal' style='font-feature-settings: "cv
 
 <span class='affects'>Affects: U+2D31 U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard   | <span class='akatab-R normal'>ⴱ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⴱ⵿ⵜ</span> | `cv31=0`
 Interior T | <span class='akatab-R normal' style='font-feature-settings: "cv31" 1'>ⴱ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv31" 1'> ‮ⴱ⵿ⵜ</span> | `cv31=1`
 
@@ -185,8 +194,8 @@ Interior T | <span class='akatab-R normal' style='font-feature-settings: "cv31" 
 
 <span class='affects'>Affects: U+2D54 U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard         | <span class='akatab-R normal'>ⵔ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵔ⵿ⵜ</span> | `cv32=0`
 Large interior T | <span class='akatab-R normal' style='font-feature-settings: "cv32" 1'>ⵔ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv32" 1'> ‮ⵔ⵿ⵜ</span> | `cv32=1`
 Small interior T | <span class='akatab-R normal' style='font-feature-settings: "cv32" 2'>ⵔ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv32" 2'> ‮ⵔ⵿ⵜ</span> | `cv32=2`
@@ -195,8 +204,8 @@ Small interior T | <span class='akatab-R normal' style='font-feature-settings: "
 
 <span class='affects'>Affects: U+2D59 U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard                   | <span class='akatab-R normal'>ⵙ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵙ⵿ⵜ</span> | `cv33=0`
 Large interior T lower dot | <span class='akatab-R normal' style='font-feature-settings: "cv33" 1'>ⵙ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv33" 1'> ‮ⵙ⵿ⵜ</span> | `cv33=1`
 Small interior T           | <span class='akatab-R normal' style='font-feature-settings: "cv33" 2'>ⵙ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv33" 2'> ‮ⵙ⵿ⵜ</span> | `cv33=2`
@@ -206,8 +215,8 @@ Large interior T upper dot | <span class='akatab-R normal' style='font-feature-s
 
 <span class='affects'>Affects: U+2D4E U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard       | <span class='akatab-R normal'>ⵎ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵎ⵿ⵜ</span> | `cv34=0`
 Mid exterior T | <span class='akatab-R normal' style='font-feature-settings: "cv34" 1'>ⵎ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv34" 1'> ‮ⵎ⵿ⵜ</span> | `cv34=1`
 Low interior T | <span class='akatab-R normal' style='font-feature-settings: "cv34" 2'>ⵎ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv34" 2'> ‮ⵎ⵿ⵜ</span> | `cv34=2`
@@ -217,20 +226,20 @@ Center T       | <span class='akatab-R normal' style='font-feature-settings: "cv
 
 <span class='affects'>Affects: U+2D3C U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
-Standard                      | <span class='akatab-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=0`
+Feature                  | Sample                       | Sample right-to-left         | Feature setting
+:----------------------- | :--------------------------- | :--------------------------- | :--------------
+Standard                 | <span class='akatab-R normal'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⴼ⵿ⵜ</span> | `cv35=0`
 Single bar, middle exterior T | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'> ‮ⴼ⵿ⵜ</span> | `cv02=1`
 Double bar, middle exterior T | <span class='akatab-R normal' style='font-feature-settings: "cv35" 1'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv35" 1'> ‮ⴼ⵿ⵜ</span> | `cv35=1`
-Single bar, middle interior T | <span class='akatab-R normal' style='font-feature-settings: "cv35" 2'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv35" 2'> ‮ⴼ⵿ⵜ</span> | `cv35=2 (or cv02=1)`
-Open top & bottom, interior T | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'> ‮ⴼ⵿ⵜ</span> | `cv14=1 (or cv02=2)`
+Single bar, middle interior T | <span class='akatab-R normal' style='font-feature-settings: "cv35" 2'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv35" 2'> ‮ⴼ⵿ⵜ</span> | `cv35=2`
+Open top & bottom, interior T | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'>ⴼ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'> ‮ⴼ⵿ⵜ</span> | `cv02=2`
 
 #### Alternate YAN TUAREG YAK
 
 <span class='affects'>Affects: U+2D4F U+2D3E</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                     | Sample right-to-left       | Feature setting
+:--------------------- | :------------------------- | :------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⵏ⵿ⴾ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⴾ</span> | `cv36=0`
 Double cluster dots | <span class='akatab-R normal' style='font-feature-settings: "cv36" 1'> ‮ⵏ⵿ⴾ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv36" 1'>ⵏ⵿ⴾ</span> | `cv36=1`
 
@@ -238,8 +247,8 @@ Double cluster dots | <span class='akatab-R normal' style='font-feature-settings
 
 <span class='affects'>Affects: U+2D4F U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵏ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⵜ</span> | `cv37=0`
 Side bar | <span class='akatab-R normal' style='font-feature-settings: "cv37" 1'>ⵏ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv37" 1'> ‮ⵏ⵿ⵜ</span> | `cv37=1`
 Top bar  | <span class='akatab-R normal' style='font-feature-settings: "cv37" 2'>ⵏ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv37" 2'> ‮ⵏ⵿ⵜ</span> | `cv37=2`
@@ -248,8 +257,8 @@ Top bar  | <span class='akatab-R normal' style='font-feature-settings: "cv37" 2'
 
 <span class='affects'>Affects: U+2D4D U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard   | <span class='akatab-R normal'>ⵍ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵍ⵿ⵜ</span> | `cv38=0`
 Internal T | <span class='akatab-R normal' style='font-feature-settings: "cv38" 1'>ⵍ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv38" 1'> ‮ⵍ⵿ⵜ</span> | `cv38=1`
 Middle bar | <span class='akatab-R normal' style='font-feature-settings: "cv38" 2'>ⵍ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv38" 2'> ‮ⵍ⵿ⵜ</span> | `cv38=2`
@@ -259,8 +268,8 @@ X shape    | <span class='akatab-R normal' style='font-feature-settings: "cv38" 
 
 <span class='affects'>Affects: U+2D53 U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard           | <span class='akatab-R normal'>ⵓ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵓ⵿ⵜ</span> | `cv39=0`
 Left short strokes | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'>ⵓ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv05" 1'> ‮ⵓ⵿ⵜ</span> | `cv05=1`
 Tall T, left dots  | <span class='akatab-R normal' style='font-feature-settings: "cv39" 1'>ⵓ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv39" 1'> ‮ⵓ⵿ⵜ</span> | `cv39=1`
@@ -270,8 +279,8 @@ Tall T, cross dots | <span class='akatab-R normal' style='font-feature-settings:
 
 <span class='affects'>Affects: U+2D4C U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard       | <span class='akatab-R normal'>ⵌ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵌ⵿ⵜ</span> | `cv40=0`
 Mid exterior T | <span class='akatab-R normal' style='font-feature-settings: "cv40" 1'>ⵌ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv40" 1'> ‮ⵌ⵿ⵜ</span> | `cv40=1`
 Center T       | <span class='akatab-R normal' style='font-feature-settings: "cv40" 2'>ⵌ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv40" 2'> ‮ⵌ⵿ⵜ</span> | `cv40=2`
@@ -280,8 +289,8 @@ Center T       | <span class='akatab-R normal' style='font-feature-settings: "cv
 
 <span class='affects'>Affects: U+2D4F U+2D37</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard         | <span class='akatab-R normal'>ⵏ⵿ⴷ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⴷ</span> | `cv41=0`
 Up down pointers | <span class='akatab-R normal' style='font-feature-settings: "cv41" 1'>ⵏ⵿ⴷ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv41" 1'> ‮ⵏ⵿ⴷ</span> | `cv41=1`
 
@@ -289,18 +298,18 @@ Up down pointers | <span class='akatab-R normal' style='font-feature-settings: "
 
 <span class='affects'>Affects: U+2D4F U+2D3C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⴼ</span> | `cv42=0`
 Top and bottom bars | <span class='akatab-R normal' style='font-feature-settings: "cv42" 1'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv42" 1'> ‮ⵏ⵿ⴼ</span> | `cv42=1`
-No bars             | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv14" 1'> ‮ⵏ⵿ⴼ</span> | `cv14=1 (or cv02=2)`
+No bars             | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'>ⵏ⵿ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'> ‮ⵏ⵿ⴼ</span> | `cv02=2`
 
 #### Alternate YAN YAJ
 
 <span class='affects'>Affects: U+2D4F U+2D36</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⵏ⵿ⴶ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⴶ</span> | `cv43=0`
 Top and bottom dots | <span class='akatab-R normal' style='font-feature-settings: "cv43" 1'>ⵏ⵿ⴶ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv43" 1'> ‮ⵏ⵿ⴶ</span> | `cv43=1`
 
@@ -308,8 +317,8 @@ Top and bottom dots | <span class='akatab-R normal' style='font-feature-settings
 
 <span class='affects'>Affects: U+2D4F U+2D59</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard     | <span class='akatab-R normal'>ⵏ⵿ⵙ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⵙ</span> | `cv44=0`
 Interior YAN | <span class='akatab-R normal' style='font-feature-settings: "cv44" 1'>ⵏ⵿ⵙ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv44" 1'> ‮ⵏ⵿ⵙ</span> | `cv44=1`
 
@@ -317,8 +326,8 @@ Interior YAN | <span class='akatab-R normal' style='font-feature-settings: "cv44
 
 <span class='affects'>Affects: U+2D4F U+2D4C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard         | <span class='akatab-R normal'>ⵏ⵿ⵌ</span> | <span class='akatab-R normal'> ‮ⵏ⵿ⵌ</span> | `cv45=0`
 Exterior circles | <span class='akatab-R normal' style='font-feature-settings: "cv45" 1'>ⵏ⵿ⵌ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv45" 1'> ‮ⵏ⵿ⵌ</span> | `cv45=1`
 
@@ -326,8 +335,8 @@ Exterior circles | <span class='akatab-R normal' style='font-feature-settings: "
 
 <span class='affects'>Affects: U+2D54 U+2D3E</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⵔ⵿ⴾ</span> | <span class='akatab-R normal'> ‮ⵔ⵿ⴾ</span> | `cv46=0`
 Double cluster dots | <span class='akatab-R normal' style='font-feature-settings: "cv46" 1'>ⵔ⵿ⴾ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv46" 1'> ‮ⵔ⵿ⴾ</span> | `cv46=1`
 
@@ -335,8 +344,8 @@ Double cluster dots | <span class='akatab-R normal' style='font-feature-settings
 
 <span class='affects'>Affects: U+2D5B U+2D3E</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:--- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⵛ⵿ⴾ</span> | <span class='akatab-R normal'> ‮ⵛ⵿ⴾ</span> | `cv47=0`
 Double cluster dots | <span class='akatab-R normal' style='font-feature-settings: "cv47" 1'>ⵛ⵿ⴾ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv47" 1'> ‮ⵛ⵿ⴾ</span> | `cv47=1`
 8 shape             | <span class='akatab-R normal' style='font-feature-settings: "cv12" 1'>ⵛ⵿ⴾ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv12" 1'> ‮ⵛ⵿ⴾ</span> | `cv12=1`
@@ -346,8 +355,8 @@ Double cluster dots | <span class='akatab-R normal' style='font-feature-settings
 
 <span class='affects'>Affects: U+2D5B U+2D5C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard   | <span class='akatab-R normal'>ⵛ⵿ⵜ</span> | <span class='akatab-R normal'> ‮ⵛ⵿ⵜ</span> | `cv48=0`
 Internal T | <span class='akatab-R normal' style='font-feature-settings: "cv48" 1'>ⵛ⵿ⵜ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv48" 1'> ‮ⵛ⵿ⵜ</span> | `cv48=1`
 
@@ -358,8 +367,8 @@ Internal T | <span class='akatab-R normal' style='font-feature-settings: "cv48" 
 
 <span class='affects'>Affects: U+2D30</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⴰ</span> | <span class='akatab-R normal'> ‮ⴰ</span> | `ss01=0`
 Circle   | <span class='akatab-R normal' style='font-feature-settings: "ss01" 1'>ⴰ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss01" 1'> ‮ⴰ</span> | `ss01=1`
 
@@ -367,8 +376,8 @@ Circle   | <span class='akatab-R normal' style='font-feature-settings: "ss01" 1'
 
 <span class='affects'>Affects: U+2D3C</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⴼ</span> | <span class='akatab-R normal'> ‮ⴼ</span> | `ss02=0`
 I-shape             | <span class='akatab-R normal' style='font-feature-settings: "ss02" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss02" 1'> ‮ⴼ</span> | `ss02=1`
 Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "ss14" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss14" 1'> ‮ⴼ</span> | `ss14=1`
@@ -377,8 +386,8 @@ Open top and bottom | <span class='akatab-R normal' style='font-feature-settings
 
 <span class='affects'>Affects: U+2D34</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard     | <span class='akatab-R normal'>ⴴ</span> | <span class='akatab-R normal'> ‮ⴴ</span> | `ss03=0`
 Round bottom | <span class='akatab-R normal' style='font-feature-settings: "ss03" 1'>ⴴ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss03" 1'> ‮ⴴ</span> | `ss03=1`
 
@@ -386,26 +395,26 @@ Round bottom | <span class='akatab-R normal' style='font-feature-settings: "ss03
 
 <span class='affects'>Affects: U+2D50</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard              | <span class='akatab-R normal'>ⵐ</span> | <span class='akatab-R normal'> ‮ⵐ</span> | `ss04=0`
 Lowered bottom stroke | <span class='akatab-R normal' style='font-feature-settings: "ss04" 1'>ⵐ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss04" 1'> ‮ⵐ</span> | `ss04=1`
 
-#### Alternate YU
+#### Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ (short strokes)
 
-<span class='affects'>Affects: U+2D53</span>
+<span class='affects'>Affects: U+2D53 U+2D57 U+2D42 U+2D48</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
-Standard      | <span class='akatab-R normal'>ⵓ</span> | <span class='akatab-R normal'> ‮ⵓ</span> | `ss05=0`
-Short strokes | <span class='akatab-R normal' style='font-feature-settings: "ss05" 1'>ⵓ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss05" 1'> ‮ⵓ</span> | `ss05=1`
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
+Standard      | <span class='akatab-R normal'>ⵓ ⵗ ⵂ ⵈ</span> | <span class='akatab-R normal'> ‮ⵓ ⵗ ⵂ ⵈ</span> | `ss05=0`
+Short strokes | <span class='akatab-R normal' style='font-feature-settings: "ss05" 1'>ⵓ ⵗ ⵂ ⵈ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss05" 1'> ‮ⵓ ⵗ ⵂ ⵈ</span> | `ss05=1`
 
 #### Alternate YAZ
 
 <span class='affects'>Affects: U+2D63</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵣ</span> | <span class='akatab-R normal'>ⵣ</span> | `ss06=0`
 Squared  | <span class='akatab-R normal' style='font-feature-settings: "ss06" 1'>ⵣ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss06" 1'>ⵣ</span> | `ss06=1`
 
@@ -413,8 +422,8 @@ Squared  | <span class='akatab-R normal' style='font-feature-settings: "ss06" 1'
 
 <span class='affects'>Affects: U+2D4B</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵋ</span> | <span class='akatab-R normal'> ‮ⵋ</span> | `ss07=0`
 Squared  | <span class='akatab-R normal' style='font-feature-settings: "ss07" 1'>ⵋ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss07" 1'> ‮ⵋ</span> | `ss07=1`
 
@@ -422,8 +431,8 @@ Squared  | <span class='akatab-R normal' style='font-feature-settings: "ss07" 1'
 
 <span class='affects'>Affects: U+2D31</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard         | <span class='akatab-R normal'>ⴱ</span> | <span class='akatab-R normal'> ‮ⴱ</span> | `ss08=0`
 Rectangle style  | <span class='akatab-R normal' style='font-feature-settings: "ss08" 1'>ⴱ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss08" 1'> ‮ⴱ</span> | `ss08=1`
 
@@ -431,8 +440,8 @@ Rectangle style  | <span class='akatab-R normal' style='font-feature-settings: "
 
 <span class='affects'>Affects: U+2D33</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard    | <span class='akatab-R normal'>ⴳ</span> | <span class='akatab-R normal'> ‮ⴳ</span> | `ss09=0`
 Rounded top | <span class='akatab-R normal' style='font-feature-settings: "ss09" 1'>ⴳ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss09" 1'> ‮ⴳ</span> | `ss09=1`
 
@@ -440,8 +449,8 @@ Rounded top | <span class='akatab-R normal' style='font-feature-settings: "ss09"
 
 <span class='affects'>Affects: U+2D36</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard   | <span class='akatab-R normal'>ⴶ</span> | <span class='akatab-R normal'> ‮ⴶ</span> | `ss10=0`
 Lower dots | <span class='akatab-R normal' style='font-feature-settings: "ss10" 1'>ⴶ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss10" 1'> ‮ⴶ</span> | `ss10=1`
 
@@ -449,8 +458,8 @@ Lower dots | <span class='akatab-R normal' style='font-feature-settings: "ss10" 
 
 <span class='affects'>Affects: U+2D40</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard        | <span class='akatab-R normal'>ⵀ</span> | <span class='akatab-R normal'> ‮ⵀ</span> | `ss11=0`
 Rectangle style | <span class='akatab-R normal' style='font-feature-settings: "ss11" 1'>ⵀ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss11" 1'> ‮ⵀ</span> | `ss11=1`
 
@@ -458,8 +467,8 @@ Rectangle style | <span class='akatab-R normal' style='font-feature-settings: "s
 
 <span class='affects'>Affects: U+2D5B</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵛ</span> | <span class='akatab-R normal'> ‮ⵛ</span> | `ss12=0`
 8 shape  | <span class='akatab-R normal' style='font-feature-settings: "ss12" 1'>ⵛ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss12" 1'> ‮ⵛ</span> | `ss12=1`
 
@@ -467,8 +476,8 @@ Standard | <span class='akatab-R normal'>ⵛ</span> | <span class='akatab-R norm
 
 <span class='affects'>Affects: U+2D5F</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard | <span class='akatab-R normal'>ⵟ</span> | <span class='akatab-R normal'> ‮ⵟ</span> | `ss13=0`
 F shape  | <span class='akatab-R normal' style='font-feature-settings: "ss13" 1'>ⵟ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss13" 1'> ‮ⵟ</span> | `ss13=1`
 
@@ -476,17 +485,26 @@ F shape  | <span class='akatab-R normal' style='font-feature-settings: "ss13" 1'
 
 <span class='affects'>Affects: U+2D38</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard       | <span class='akatab-R normal'>ⴸ</span> | <span class='akatab-R normal'> ‮ⴸ</span> | `ss15=0`
 Rounded bottom | <span class='akatab-R normal' style='font-feature-settings: "ss15" 1'>ⴸ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss15" 1'> ‮ⴸ</span> | `ss15=1`
+
+#### Neo-Tifinagh
+
+<span class='affects'>Affects: 2D30 2D3C 2D4D 2D53 2D5A 2D5B 2D5C </span>
+
+Feature                | Sample                       |                              | Feature setting
+:----------------- | :--------------------------- | :--------------------------- | :--------------
+Standard           | <span class='akatab-R normal'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `ss18=0`
+Neo-Tifinagh       | <span class='akatab-R normal' style='font-feature-settings: "ss18" 1'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `ss18=1`
 
 #### Alternate YAL and YAL
 
 <span class='affects'>Affects: U+2D4D U+2D4F</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard| <span class='akatab-R normal'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | <span class='akatab-R normal'> ‮ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | `ss19=0`
 Slanted | <span class='akatab-R normal' style='font-feature-settings: "ss19" 1'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | <span class='akatab-R normal' style='font-feature-settings: "ss19" 1'> ‮ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span> | `ss19=1`
 
@@ -494,8 +512,8 @@ Slanted | <span class='akatab-R normal' style='font-feature-settings: "ss19" 1'>
 
 <span class='affects'>Affects: U+0021 U+002C U+002E</span>
 
-Feature  | Sample                       | Sample right-to-left         | Feature setting
-:------- | :--------------------------- | :--------------------------- | :-------
+Feature                | Sample                       |                              | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard Latin | <span class='akatab-R normal'>! , .</span> | | `ss20=0`
 Decorative     | <span class='akatab-R normal' style='font-feature-settings: "ss20" 1'>! , .</span> | | `ss20=1`
 
@@ -515,7 +533,6 @@ If the user's preference is slanted bars, the user-selected features *cv19* or *
 <p>Bi-consonant ligatures are formed after typing the character sequences shown in the examples below. Type the first character, e.g. <span class='akatab-B'> ⴱ </span> (U+2D31), the TIFINAGH CONSONANT JOINER <span class='akatab-B'> &#x2D7F;&#x00A0; </span> (U+2D7F), and then the second character, e.g. <span class='akatab-B'> ⵜ </span>, to get the <span class='akatab-B'> ⴱ⵿ⵜ </span> ligature.</p>
 
 ![Akatab biconsonant ligature examples](assets/images/Akatab biconsonant ligature examples.png){.fullsize}
-<figcaption>Akatab bi-consonant ligature examples</figcaption>
 
 
 ### Right-to-left Tifinagh

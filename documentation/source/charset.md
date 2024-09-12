@@ -16,7 +16,7 @@ Unicode block | Akatab support
 C0 Controls and Basic Latin|U+0020..U+007F
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 Latin Extended-A|U+0102..U+0103, U+0114..U+0115, U+012C..U+012D, U+0131, U+014A..U+014B, U+014E..U+014F, U+0152..U+0153, U+0160..U+0161, U+016C..U+016D, U+0178, U+017D..U+017E
-Latin Extended-B|U+018E, U+0192, U+0194, U+01DD, U+0237
+Latin Extended-B|U+018E..U+018F, U+0192, U+0194, U+01DD, U+0237
 IPA Extensions|U+0259, U+0263
 Spacing Modifier Letters|U+02C6..U+02C7, U+02D0, U+02D8..U+02DD
 Combining Diacritical Marks|U+0300..U+0308, U+030A..U+030C, U+0323, U+0327..U+0328, U+034F
@@ -29,7 +29,7 @@ Letterlike Symbols|U+2122, U+2126
 Mathematical Operators|U+2202, U+2206, U+220F, U+2211..U+2212, U+2215, U+2219, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265
 Control Pictures|U+2423
 Geometric Shapes|U+25CA, U+25CC
-Tifinagh|U+2D30..U+2D31, U+2D33..U+2D34, U+2D36..U+2D39, U+2D3C, U+2D3E, U+2D40, U+2D42, U+2D46, U+2D48..U+2D49, U+2D4B..U+2D51, U+2D53..U+2D54, U+2D57..U+2D5C, U+2D5F, U+2D62..U+2D64, U+2D67, U+2D70, U+2D7F
+Tifinagh|U+2D30..U+2D67, U+2D70, U+2D7F
 PUA: Tifinagh superscripts|U+E300..U+E304
 Alphabetic Presentation Forms|U+FB00..U+FB02
 Variation Selectors|U+FE00..U+FE0F
