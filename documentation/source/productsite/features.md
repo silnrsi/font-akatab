@@ -28,7 +28,7 @@ Feature                | Sample                       | Sample right-to-left    
 :--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⴼ</span> | <span class='akatab-R normal'> ‮ⴼ</span> | `cv02=0`
 I-shape             | <span class='akatab-cv02-1-R normal'>ⴼ</span> | <span class='akatab-cv02-1-R normal'> ‮ⴼ</span> | `cv02=1`
-Open top and bottom | <span class='akatab-cv02-1-R normal'>ⴼ</span> | <span class='akatab-cv02-2-R normal'> ‮ⴼ</span> | `cv02=2`
+Open top and bottom | <span class='akatab-cv02-2-R normal'>ⴼ</span> | <span class='akatab-cv02-2-R normal'> ‮ⴼ</span> | `cv02=2`
 
 #### Alternate YAGHH
 
@@ -565,7 +565,7 @@ Using hard-coded directional characters in the HTML code (as illustrated above) 
 [font id='akatab-cv01-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv01 1']
 [font id='akatab-cv02-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 1']
 [font id='akatab-cv02-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 1']
-[font id='akatab-cv02-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 1']
+[font id='akatab-cv02-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 2']
 [font id='akatab-cv02-2' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv02 2']
 [font id='akatab-cv03-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv03 1']
 [font id='akatab-cv03-1' face='Akatab-Regular' bold='Akatab-Bold' size='150%' feats='cv03 1']

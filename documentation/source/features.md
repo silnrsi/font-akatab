@@ -32,7 +32,7 @@ Feature                | Sample                       | Sample right-to-left    
 :--------------------- | :--------------------------- | :--------------------------- | :--------------
 Standard            | <span class='akatab-R normal'>ⴼ</span> | <span class='akatab-R normal'> ‮ⴼ</span> | `cv02=0`
 I-shape             | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'> ‮ⴼ</span> | `cv02=1`
-Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "cv02" 1'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'> ‮ⴼ</span> | `cv02=2`
+Open top and bottom | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'>ⴼ</span> | <span class='akatab-R normal' style='font-feature-settings: "cv02" 2'> ‮ⴼ</span> | `cv02=2`
 
 #### Alternate YAGHH
 
