@@ -36,21 +36,22 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3246</string>
+  <string>3260</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/yag-tifi/yagLabializationMarkLig-tifi/yabLabializationMarkLig-tifi/yak-tifi/yakLabializationMarkLig-tifi/yaq-tifi/yaqLabializationMarkLig-tifi/yakh-tifi/yakhLabializationMarkLig-tifi/yagh-tifi/yaghLabializationMarkLig-tifi/yakhh-tifi</string>
-    <string>/yash-tifi/_VerticalOval/ya-tifi.neo/yu-tifi.neo/yey-tifi/yat-tifi.neo/ya-tifi.neo.001/yu-tifi.neo.001/yey-tifi.001/yaf-tifi/yaf-tifi.neo/yal-tifi/yal-tifi.neo/_VerticalOval/yash-tifi.neo/yach-tifi</string>
+    <string>/yash-tifi/_VerticalOval/ya-tifi.neo/yu-tifi.neo/yey-tifi/yat-tifi.neo/yaf-tifi/yaf-tifi.neo/yal-tifi/yal-tifi.neo/_VerticalOval/yash-tifi.neo/yach-tifi</string>
     <string>/yah-tifi/yabh-tifi/yahBerberAcademy-tifi/yaryanLig-tifi/yarr-tifi/yass-tifi.neo</string>
     <string>/yadd-tifi.rtl/yaddh-tifi/yaf-tifi.v01/yazh-tifi/yangTuareg-tifi/separator-tifi/yat-tifi.neo/yaa-tifi/yagh-tifi/yaw-tifi</string>
     <string>/yahh-tifi/yath-tifi/yakh-tifi/yag-tifi/yajBerberAcademy-tifi/yaghh-tifi/yash-tifi.neo/yash-tifi/ya-tifi.neo/yap-tifi 
 /yad-tifi/yav-tifi/yalyatLig-tifi.v03/yaz-tifi/yazz-tifi/yadh-tifi/ye-tifi/yi-tifi/yay-tifi/yay-tifi.rtl</string>
     <string>/yazhTuaregyatLig-tifi.v02/yanyashLig-tifi/yanyashLig-tifi.rtl/yaryatLig-tifi.v02/yasyatLig-tifi.v02/yash-tifi/yashyatLig-tifi.v01/yashyatLig-tifi.v01.rtl/yach-tifi/LabializationMark-tifi</string>
-    <string>/_Dot/_DotWide/ya-tifi.neo.001/ya-tifi.neo.002/yey-tifi.001/yey-tifi.002/yu-tifi.neo.001/yu-tifi.neo.002</string>
+    <string>/_Dot/_DotWide</string>
     <string>/_DotWide/_Dot/yaghTuareg-tifi/yaghTuareg-tifi.v01/yahTuareg-tifi/yahTuareg-tifi.v01/yaqTuareg-tifi/yaqTuareg-tifi.v01/yo-tifi.v01/yo-tifi</string>
     <string>/yazh-tifi/yabh-tifi</string>
+    <string>/schwa OE/Schwa G</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

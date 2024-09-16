@@ -982,7 +982,7 @@ feature cv05 {
     # Character Variant 5
         cvParameters {
                 FeatUILabelNameID {
-            name "Alternate YU";
+            name "Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ";
         };
 
                 ParamUILabelNameID {
@@ -1996,7 +1996,7 @@ feature ss04 {
 feature ss05 {
     # Stylistic Set 5
         featureNames {
-        name "Alternate YU (short strokes)";
+        name "Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ (short strokes)";
     };
 
     script DFLT;
