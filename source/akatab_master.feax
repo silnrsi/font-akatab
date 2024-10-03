@@ -3,9 +3,12 @@
 #  Language Systems
 #**********************************
 
-languagesystem DFLT dflt ;
-languagesystem latn dflt ;
-languagesystem tfng dflt ;
+languagesystem DFLT dflt;
+languagesystem tfng dflt;
+languagesystem tfng TAQ ;
+languagesystem tfng THV ;
+languagesystem tfng TTQ ;
+languagesystem latn dflt;
 
 
 #**********************************
@@ -20,6 +23,55 @@ GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 #**********************************
 #  GSUB Lookups
 #**********************************
+
+lookup locl_TAQ {
+  lookupflag 0 ;
+    sub yaf-tifi  by yaf-tifi.v01;  # U+2D3C cv02=1
+    sub yash-tifi by yash-tifi.v01; # U+2D5B cv12=1
+    sub yatt-tifi by yatt-tifi.v01; # U+2D5F cv13=1
+} locl_TAQ;
+
+lookup locl_TAQ_liga {
+  lookupflag 0 ;
+    sub yar-tifi consonantjoiner-tifi yat-tifi by yaryatLig-tifi.v01; # cv32=1
+    sub yas-tifi consonantjoiner-tifi yat-tifi by yasyatLig-tifi.v03; # cv33=3
+    sub yam-tifi consonantjoiner-tifi yat-tifi by yamyatLig-tifi.v02; # cv34=2
+    sub yaf-tifi consonantjoiner-tifi yat-tifi by yafyatLig-tifi.v03; # cv35=2
+    sub yan-tifi consonantjoiner-tifi yat-tifi by yanyatLig-tifi.v02; # cv37=2
+    sub yal-tifi consonantjoiner-tifi yat-tifi by yalyatLig-tifi.v02; # cv38=2
+    sub yu-tifi  consonantjoiner-tifi yat-tifi by yuyatLig-tifi.v03;  # cv39=2
+    sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuaregyatLig-tifi.v02; # cv40=2
+    sub yan-tifi consonantjoiner-tifi yaf-tifi by yanyafLig-tifi.v02; # cv42=1
+} locl_TAQ_liga;
+
+lookup locl_THV {
+  lookupflag 0 ;
+    sub yo-tifi by yo-tifi.v01; # cv21=1
+} locl_THV;
+
+lookup locl_TTQ {
+  lookupflag 0 ;
+    sub yaf-tifi by yaf-tifi.v02; # U+2D3C cv02=2
+} locl_TTQ;
+
+lookup locl_TTQ_liga {
+  lookupflag 0 ;
+    sub yar-tifi  consonantjoiner-tifi yat-tifi by yaryatLig-tifi.v02; # cv32=2
+    sub yas-tifi  consonantjoiner-tifi yat-tifi by yasyatLig-tifi.v02; # cv33=2
+    sub yam-tifi  consonantjoiner-tifi yat-tifi by yamyatLig-tifi.v03; # cv34=3
+    sub yan-tifi  consonantjoiner-tifi yakTuareg-tifi by yanyakTuaregLig-tifi.v01; # cv36=1
+    sub yan-tifi  consonantjoiner-tifi yat-tifi by yanyatLig-tifi.v01; # cv37=1
+    sub yal-tifi  consonantjoiner-tifi yat-tifi by yalyatLig-tifi.v03; # cv38=3
+    sub yan-tifi  consonantjoiner-tifi yaj-tifi by yanyajLig-tifi.v01; # cv43=1
+    sub yan-tifi  consonantjoiner-tifi yas-tifi by yanyasLig-tifi.v01; # cv44=1
+    sub yash-tifi consonantjoiner-tifi yat-tifi by yashyatLig-tifi.v01; # cv44=1
+} locl_TTQ_liga;
+
+lookup locl_TTQ_slant {
+  # use 'calt' feature
+  lookupflag 0 ;
+    sub @cno_slant [ yan-tifi yal-tifi ]' by [ yan-tifi.slant yal-tifi.slant ];
+} locl_TTQ_slant;
 
 # SIL vowels for Tawallamat
 lookup TfnSILvowels {
@@ -479,7 +531,7 @@ lookup TfnAllAlternates {
     sub yazhTuaregyatLig-tifi   from [ yazhTuaregyatLig-tifi.v01 yazhTuaregyatLig-tifi.v02 ] ;
     sub yalyatLig-tifi          from [ yalyatLig-tifi.v01 ] ;
     sub yamyatLig-tifi          from [ yamyatLig-tifi.v01 ] ;
-    sub yanyaghhLig-tifi         from [ yanyaghhLig-tifi.v01 ] ;
+    sub yanyaghhLig-tifi        from [ yanyaghhLig-tifi.v01 ] ;
     sub yanyafLig-tifi          from [ yanyafLig-tifi.v01 ] ;
     sub yanyakTuaregLig-tifi    from [ yanyakTuaregLig-tifi.v01 ] ;
     sub yanyatLig-tifi          from [ yanyatLig-tifi.v01 yanyatLig-tifi.v02 ] ;
@@ -519,12 +571,19 @@ feature calt {  # Contextual Alternates
         language dflt;  # Default
             lookup TfnRaised;
             lookup TfnDiacriticSub;
-#            lookup LatnPunct;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
+        language TTQ exclude_dflt;
+            lookup locl_TTQ_slant;
+        language dflt;
             lookup TfnRaised;
+        language TAQ ;
+        language THV ;
+#       NO language TTQ ;
             lookup TfnDiacriticSub;
-#            lookup LatnPunct;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } calt ;
 
 feature cv01 {  # Character Variant 1
@@ -536,8 +595,11 @@ feature cv01 {  # Character Variant 1
         language dflt;  # Default
             lookup TfnCharacterVariant01;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant01;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv01 ;
 
 feature cv02 {  # Character Variant 2
@@ -550,8 +612,11 @@ feature cv02 {  # Character Variant 2
         language dflt;  # Default
             lookup TfnCharacterVariant02;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant02;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv02 ;
 
 feature cv03 {  # Character Variant 3
@@ -563,8 +628,11 @@ feature cv03 {  # Character Variant 3
         language dflt;  # Default
             lookup TfnCharacterVariant03;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant03;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv03 ;
 
 feature cv04 {  # Character Variant 4
@@ -576,8 +644,11 @@ feature cv04 {  # Character Variant 4
         language dflt;  # Default
             lookup TfnCharacterVariant04;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant04;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv04 ;
 
 feature cv05 {  # Character Variant 5
@@ -589,8 +660,11 @@ feature cv05 {  # Character Variant 5
         language dflt;  # Default
             lookup TfnCharacterVariant05;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant05;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv05 ;
 
 feature cv06 {  # Character Variant 6
@@ -602,8 +676,11 @@ feature cv06 {  # Character Variant 6
         language dflt;  # Default
             lookup TfnCharacterVariant06;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant06;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv06 ;
 
 feature cv07 {  # Character Variant 7
@@ -615,8 +692,11 @@ feature cv07 {  # Character Variant 7
         language dflt;  # Default
             lookup TfnCharacterVariant07;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant07;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv07 ;
 
 feature cv08 {  # Character Variant 8
@@ -628,8 +708,11 @@ feature cv08 {  # Character Variant 8
         language dflt;  # Default
             lookup TfnCharacterVariant08;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant08;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv08 ;
 
 feature cv09 {  # Character Variant 9
@@ -641,8 +724,11 @@ feature cv09 {  # Character Variant 9
         language dflt;  # Default
             lookup TfnCharacterVariant09;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant09;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv09 ;
 
 feature cv10 {  # Character Variant 10
@@ -654,8 +740,11 @@ feature cv10 {  # Character Variant 10
         language dflt;  # Default
             lookup TfnCharacterVariant10;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant10;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv10 ;
 
 feature cv11 {  # Character Variant 11
@@ -667,8 +756,11 @@ feature cv11 {  # Character Variant 11
         language dflt;  # Default
             lookup TfnCharacterVariant11;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant11;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv11 ;
 
 feature cv12 {  # Character Variant 12
@@ -680,8 +772,11 @@ feature cv12 {  # Character Variant 12
         language dflt;  # Default
             lookup TfnCharacterVariant12;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant12;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv12 ;
 
 feature cv13 {  # Character Variant 13
@@ -693,8 +788,11 @@ feature cv13 {  # Character Variant 13
         language dflt;  # Default
             lookup TfnCharacterVariant13;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant13;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv13 ;
 
 
@@ -709,8 +807,11 @@ feature cv14 {  # Character Variant 14
         language dflt;  # Default
             lookup TfnStylisticSet14; # lookup for ss14
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnStylisticSet14; # lookup for ss14
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv14 ;
 
 feature cv15 {  # Character Variant 15
@@ -722,8 +823,11 @@ feature cv15 {  # Character Variant 15
         language dflt;  # Default
             lookup TfnCharacterVariant15;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant15;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv15 ;
 
 feature cv18 {  # Character Variant 18
@@ -750,6 +854,9 @@ feature cv19 {  # Character Variant 19
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant19;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv19 ;
 
 feature cv20 {  # Character Variant 20
@@ -776,6 +883,9 @@ feature cv21 {  # Character Variant 21
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant21;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv21 ;
 
 feature cv31 {  # Character Variant 31
@@ -789,6 +899,9 @@ feature cv31 {  # Character Variant 31
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant31;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv31 ;
 
 feature cv32 {  # Character Variant 32
@@ -803,6 +916,9 @@ feature cv32 {  # Character Variant 32
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant32;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv32 ;
 
 feature cv33 {  # Character Variant 33
@@ -818,6 +934,9 @@ feature cv33 {  # Character Variant 33
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant33;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv33 ;
 
 feature cv34 {  # Character Variant 34
@@ -833,6 +952,9 @@ feature cv34 {  # Character Variant 34
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant34;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv34 ;
 
 feature cv35 {  # Character Variant 35
@@ -846,6 +968,9 @@ feature cv35 {  # Character Variant 35
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant35;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv35 ;
 
 feature cv36 {  # Character Variant 36
@@ -859,6 +984,9 @@ feature cv36 {  # Character Variant 36
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant36;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv36 ;
 
 feature cv37 {  # Character Variant 37
@@ -873,6 +1001,9 @@ feature cv37 {  # Character Variant 37
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant37;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv37 ;
 
 feature cv38 {  # Character Variant 38
@@ -886,6 +1017,9 @@ feature cv38 {  # Character Variant 38
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant38;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv38 ;
 
 feature cv39 {  # Character Variant 39
@@ -899,6 +1033,9 @@ feature cv39 {  # Character Variant 39
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant39;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv39 ;
 
 feature cv40 {  # Character Variant 40
@@ -913,6 +1050,9 @@ feature cv40 {  # Character Variant 40
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant40;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv40 ;
 
 feature cv41 {  # Character Variant 41
@@ -926,6 +1066,9 @@ feature cv41 {  # Character Variant 41
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant41;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv41 ;
 
 feature cv42 {  # Character Variant 42
@@ -940,6 +1083,9 @@ feature cv42 {  # Character Variant 42
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant42;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv42 ;
 
 feature cv43 {  # Character Variant 43
@@ -953,6 +1099,9 @@ feature cv43 {  # Character Variant 43
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant43;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv43 ;
 
 feature cv44 {  # Character Variant 44
@@ -966,6 +1115,9 @@ feature cv44 {  # Character Variant 44
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant44;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv44 ;
 
 feature cv45 {  # Character Variant 45
@@ -979,6 +1131,9 @@ feature cv45 {  # Character Variant 45
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant45;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv45 ;
 
 feature cv46 {  # Character Variant 46
@@ -992,6 +1147,9 @@ feature cv46 {  # Character Variant 46
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant46;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv46 ;
 
 feature cv47 {  # Character Variant 47
@@ -1006,6 +1164,9 @@ feature cv47 {  # Character Variant 47
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant47;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv47 ;
 
 feature cv48 {  # Character Variant 48
@@ -1019,6 +1180,9 @@ feature cv48 {  # Character Variant 48
     script tfng;  # Tifinagh
         language dflt;  # Default
             lookup TfnCharacterVariant48;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } cv48 ;
 
 feature liga {  # Standard Ligatures; also see feature: rlig
@@ -1036,7 +1200,22 @@ feature liga {  # Standard Ligatures; also see feature: rlig
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } liga ;
+
+feature locl {
+    script tfng;  # Tifinagh
+        language TAQ ;  # Tamasheq
+            lookup locl_TAQ ;
+            lookup locl_TAQ_liga ;
+        language THV ;  # Tahaggart
+            lookup locl_THV ;
+        language TTQ ;  # Tawallammat
+            lookup locl_TTQ ;
+            lookup locl_TTQ_liga ;
+} locl ;
 
 feature rclt {  # Required Contextual Alternates (similar to calt but for Microsoft Word)
     script DFLT;  # Default
@@ -1044,8 +1223,14 @@ feature rclt {  # Required Contextual Alternates (similar to calt but for Micros
             lookup TfnRaised;
             lookup TfnDiacriticSub;
     script tfng;  # Tifinagh
+        language dflt;
+        language TTQ exclude_dflt;
+            lookup locl_TTQ_slant;
         language dflt;  # Default
             lookup TfnRaised;
+        language TAQ ;
+        language THV ;
+#       NO language TTQ ;
             lookup TfnDiacriticSub;
 } rclt ;
 
@@ -1058,12 +1243,15 @@ feature rlig {  # Required Ligatures (similar to liga but for Microsoft Word)
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } rlig ;
 
 feature rtla {  # Right to Left Alternates
@@ -1072,9 +1260,12 @@ feature rtla {  # Right to Left Alternates
             lookup TfnRTLalt;
             lookup TfnRaisedRTL;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnRTLalt;
             lookup TfnRaisedRTL;
+        language TAQ ;
+        language THV ;
+#       NO language TTQ ;
 } rtla ;
 
 feature ss01 {  # Stylistic Set 1
@@ -1083,8 +1274,11 @@ feature ss01 {  # Stylistic Set 1
         language dflt;  # Default
             lookup TfnCharacterVariant01;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant01;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss01 ;
 
 feature ss02 {  # Stylistic Set 2
@@ -1093,8 +1287,11 @@ feature ss02 {  # Stylistic Set 2
         language dflt;  # Default
             lookup TfnStylisticSet02; # unique lookup for ss02
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnStylisticSet02; # unique lookup for ss02
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss02 ;
 
 feature ss03 {  # Stylistic Set 3
@@ -1103,8 +1300,11 @@ feature ss03 {  # Stylistic Set 3
         language dflt;  # Default
             lookup TfnCharacterVariant03;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant03;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss03 ;
 
 feature ss04 {  # Stylistic Set 4
@@ -1113,8 +1313,11 @@ feature ss04 {  # Stylistic Set 4
         language dflt;  # Default
             lookup TfnCharacterVariant04;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant04;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss04 ;
 
 feature ss05 {  # Stylistic Set 5
@@ -1123,8 +1326,11 @@ feature ss05 {  # Stylistic Set 5
         language dflt;  # Default
             lookup TfnCharacterVariant05;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant05;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss05 ;
 
 feature ss06 {  # Stylistic Set 6
@@ -1133,8 +1339,11 @@ feature ss06 {  # Stylistic Set 6
         language dflt;  # Default
             lookup TfnCharacterVariant06;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant06;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss06 ;
 
 feature ss07 {  # Stylistic Set 7
@@ -1143,8 +1352,11 @@ feature ss07 {  # Stylistic Set 7
         language dflt;  # Default
             lookup TfnCharacterVariant07;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant07;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss07 ;
 
 feature ss08 {  # Stylistic Set 8
@@ -1153,8 +1365,11 @@ feature ss08 {  # Stylistic Set 8
         language dflt;  # Default
             lookup TfnCharacterVariant08;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant08;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss08 ;
 
 feature ss09 {  # Stylistic Set 9
@@ -1163,8 +1378,11 @@ feature ss09 {  # Stylistic Set 9
         language dflt;  # Default
             lookup TfnCharacterVariant09;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant09;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss09 ;
 
 feature ss10 {  # Stylistic Set 10
@@ -1173,8 +1391,11 @@ feature ss10 {  # Stylistic Set 10
         language dflt;  # Default
             lookup TfnCharacterVariant10;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant10;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss10 ;
 
 feature ss11 {  # Stylistic Set 11
@@ -1183,8 +1404,11 @@ feature ss11 {  # Stylistic Set 11
         language dflt;  # Default
             lookup TfnCharacterVariant11;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant11;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss11 ;
 
 feature ss12 {  # Stylistic Set 12
@@ -1193,8 +1417,11 @@ feature ss12 {  # Stylistic Set 12
         language dflt;  # Default
             lookup TfnCharacterVariant12;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant12;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss12 ;
 
 feature ss13 {  # Stylistic Set 13
@@ -1203,8 +1430,11 @@ feature ss13 {  # Stylistic Set 13
         language dflt;  # Default
             lookup TfnCharacterVariant13;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant13;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss13 ;
 
 feature ss14 {  # Stylistic Set 14
@@ -1213,8 +1443,11 @@ feature ss14 {  # Stylistic Set 14
         language dflt;  # Default
             lookup TfnStylisticSet14; # unique lookup for ss14
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnStylisticSet14; # unique lookup for ss14
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss14 ;
 
 feature ss15 {  # Stylistic Set 15
@@ -1223,8 +1456,11 @@ feature ss15 {  # Stylistic Set 15
         language dflt;  # Default
             lookup TfnCharacterVariant15;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant15;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss15 ;
 
 feature ss18 {  # Stylistic Set 18
@@ -1233,7 +1469,7 @@ feature ss18 {  # Stylistic Set 18
         language dflt;  # Default
             lookup TfnCharacterVariant18;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant18;
 } ss18 ;
 
@@ -1243,8 +1479,11 @@ feature ss19 {  # Stylistic Set 19
         language dflt;  # Default
             lookup TfnCharacterVariant19;
     script tfng;  # Tifinagh
-        language dflt;  # Default
+        language dflt;
             lookup TfnCharacterVariant19;
+        language TAQ ;
+        language THV ;
+        language TTQ ;
 } ss19 ;
 
 feature ss20 {  # Stylistic Set 20
