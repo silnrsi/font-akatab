@@ -147,7 +147,7 @@ Feature                | Sample                       |                         
 Standard     | <span class='akatab-R normal'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `cv18=0`
 Neo-Tifinagh | <span class='akatab-cv18-1-R normal'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `cv18=1`
 
-#### Alternate YAL and YAL
+#### Alternate YAN and YAL
 
 <span class='affects'>Affects: U+2D4D U+2D4F</span>
 
@@ -495,7 +495,7 @@ Feature                | Sample                       |                         
 Standard           | <span class='akatab-R normal'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `ss18=0`
 Neo-Tifinagh       | <span class='akatab-ss18-1-R normal'> ⴰ ⴼ ⵍ ⵓ ⵚ ⵛ ⵜ </span> | | `ss18=1`
 
-#### Alternate YAL and YAL
+#### Alternate YAN and YAL
 
 <span class='affects'>Affects: U+2D4D U+2D4F</span>
 
@@ -513,6 +513,39 @@ Feature                | Sample                       |                         
 Standard Latin | <span class='akatab-R normal'>! , .</span> | | `ss20=0`
 Decorative     | <span class='akatab-ss20-1-R normal'>! , .</span> | | `ss20=1`
 
+
+## Using language system tags
+
+<p>Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. LibreOffice and Microsoft Word 2016 support language-specific behavior for ???. Microsoft Word 2019, but not LibreOffice, supports language-specific behavior for ???. Neither application provides support for the ??? languages. Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior. In the past, it was not always possible to override language-specific behavior in cases where the language-specific variants were undesirable but, as of version ???, the font now supports this possibility.</p>
+
+### Language list
+
+#### Tamasheq (TAQ)
+
+<span class='affects'>Affects: U+2D30</span>
+
+Language                | Sample                       | Sample right-to-left         | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
+default | <span class='akatab-R normal'> ⴼ  ⵛ  ⵟ  ⴼ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⵛ  ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ </span> | <span class='akatab-R normal'> ‮ ⴼ  ⵛ  ⵟ  ⴼ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⵛ  ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ </span> | 
+Tamasheq| <span class='akatab-R normal' lang='taq'> ⴼ  ⵛ  ⵟ  ⴼ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⵛ  ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ </span> | <span class='akatab-R normal'  lang='taq'> ‮ ⴼ  ⵛ  ⵟ  ⴼ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⵛ  ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ </span> | `lang='taq'`
+
+#### Tahaggart (THV)
+
+<span class='affects'>Affects: U+2D30</span>
+
+Language                | Sample                       |                              | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
+default  | <span class='akatab-R normal'> ⵧ </span> | <span class='akatab-R normal'>  </span> | 
+Tahaggart| <span class='akatab-R normal' lang='thv'> ⵧ </span> | <span class='akatab-R normal'  lang='thv'>  </span> | `lang='thv'`
+
+#### Tawallammat (TTQ)
+
+<span class='affects'>Affects: U+2D30</span>
+
+Language                | Sample                       | Sample slant variants        | Feature setting
+:--------------------- | :--------------------------- | :--------------------------- | :--------------
+default    | <span class='akatab-R normal'> ⴼ  ⴼ⵿ⵜ  ⵍ⵿ⵜ  ⵎ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⴾ  ⵏ⵿ⵙ  ⵏ⵿ⵜ  ⵔ⵿ⵜ  ⵛ⵿ⵜ </span> | <span class='akatab-R normal'> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span> | 
+Tawallammat| <span class='akatab-R normal' lang='ttq'> ⴼ  ⴼ⵿ⵜ  ⵍ⵿ⵜ  ⵎ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⴾ  ⵏ⵿ⵙ  ⵏ⵿ⵜ  ⵔ⵿ⵜ  ⵛ⵿ⵜ </span> | <span class='akatab-R normal'  lang='ttq'> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span> | `lang='ttq'`
 
 ## Common features list
 <p>The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and produces the proper visual representation.<br>
