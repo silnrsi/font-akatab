@@ -120,4 +120,4 @@ E: https://scripts.sil.org/support
 W: https://scripts.sil.org/
 D: Font design, Graphite, OpenType, and TypeTuner code, and build support
 
-The Akatab fonts are maintained by SIL International.
+The Akatab fonts are maintained by SIL Global.

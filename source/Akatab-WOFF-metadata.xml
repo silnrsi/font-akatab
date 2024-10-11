@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Akatab.3.010" />
-  <vendor name="SIL International" url="https://scripts.sil.org" />
+  <uniqueid id="org.sil.fonts.Akatab.3.011" />
+  <vendor name="SIL Global" url="https://scripts.sil.org" />
   <credits>
     <credit
       name="Paul D. Hunt"
@@ -97,7 +97,7 @@
   </description>
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
-      Copyright (c) 2010-2024, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
+      Copyright (c) 2010-2024, SIL Global (https://scripts.sil.org), with Reserved Font Name "Akatab".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
       
@@ -144,10 +144,10 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2010-2024, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).
+      Copyright (c) 2010-2024, SIL Global (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).
     </text>
   </copyright>
   <trademark>
-    <text lang="en">Akatab is a trademark of SIL International.</text>
+    <text lang="en">Akatab is a trademark of SIL Global.</text>
   </trademark>
 </metadata>

@@ -174,6 +174,6 @@ Regular: <span class='akatab-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ 
 
 <p> For a complete list of Unicode characters included in Akatab, see [Character Set Support](charset.md). </p>
 
-SIL International is the creator of the Akatab fonts, and is the owner of all proprietary rights therein.
+SIL Global is the creator of the Akatab fonts, and is the owner of all proprietary rights therein.
 
-*Akatab* is a trademark of SIL International.
+*Akatab* is a trademark of SIL Global.

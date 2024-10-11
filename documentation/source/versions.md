@@ -17,7 +17,7 @@ This font package is also available in the [SIL software repository for Ubuntu](
 
 ## Previous versions
 
-Previous versions remain available from our [Akatab download page](https://software.sil.org/akatab#downloads)
+Previous versions remain available from our [Akatab download page](https://software.sil.org/akatab#downloads).
 
 ## Change history
 

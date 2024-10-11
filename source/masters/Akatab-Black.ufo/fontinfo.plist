@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>1393</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2010-2024, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
+  <string>Copyright (c) 2010-2024, SIL Global (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
   <integer>-711</integer>
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2024/10/03 14:20:44</string>
+  <string>2024/10/11 09:32:03</string>
   <key>openTypeHheaAscender</key>
   <integer>2093</integer>
   <key>openTypeHheaDescender</key>
@@ -23,11 +23,11 @@
   <key>openTypeNameDescription</key>
   <string>Unicode font with OpenType and Graphite support for the Tifinagh script</string>
   <key>openTypeNameDesigner</key>
-  <string>SIL International</string>
+  <string>SIL Global</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://scripts.sil.org</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2010-2024, SIL International (https://scripts.sil.org), with Reserved Font Name "Akatab".
+  <string>Copyright (c) 2010-2024, SIL Global (https://scripts.sil.org), with Reserved Font Name "Akatab".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
 
@@ -73,7 +73,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameLicenseURL</key>
   <string>https://openfontlicense.org</string>
   <key>openTypeNameManufacturer</key>
-  <string>SIL International</string>
+  <string>SIL Global</string>
   <key>openTypeNameManufacturerURL</key>
   <string>https://scripts.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
@@ -83,9 +83,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Akatab Black: 2024</string>
+  <string>SIL Global: Akatab Black: 2024</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.010</string>
+  <string>Version 3.011</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -216,13 +216,13 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Black</string>
   <key>trademark</key>
-  <string>Akatab is a trademark of SIL International.</string>
+  <string>Akatab is a trademark of SIL Global.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>10</integer>
+  <integer>11</integer>
   <key>xHeight</key>
   <integer>1024</integer>
 </dict>
