@@ -561,7 +561,7 @@ If the user's preference is slanted bars, the user-selected features *cv19* or *
 ### Ligature formation
 <p>Bi-consonant ligatures are formed after typing the character sequences shown in the examples below. Type the first character, e.g. <span class='akatab-B'> ⴱ </span> (U+2D31), the TIFINAGH CONSONANT JOINER <span class='akatab-B'> &#x2D7F;&#x00A0; </span> (U+2D7F), and then the second character, e.g. <span class='akatab-B'> ⵜ </span>, to get the <span class='akatab-B'> ⴱ⵿ⵜ </span> ligature.</p>
 
-![Akatab biconsonant ligature examples](assets/images/Akatab biconsonant ligature examples.png){.fullsize}
+![Akatab biconsonant ligature examples](../assets/images/Akatab biconsonant ligature examples.png){.fullsize}
 
 
 ### Right-to-left Tifinagh

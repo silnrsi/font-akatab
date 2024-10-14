@@ -19,5 +19,5 @@ If you have a bug to report or a suggestion for how we could improve the fonts, 
 
 ## Contact form
 
-If the documentation and community fail to answer your question or need further help using the fonts, please contact us using [the form on the Akatab web site](https://software.sil.org/akatab/#contact/).
+If the documentation and community fail to answer your question or need further help using the fonts, please contact us using [the form on the Akatab web site](https://software.sil.org/akatab/#contact).
 
