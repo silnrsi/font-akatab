@@ -26,9 +26,11 @@ GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 
 lookup locl_TAQ {
   lookupflag 0 ;
-    sub yaf-tifi  by yaf-tifi.v01;  # U+2D3C cv02=1
-    sub yash-tifi by yash-tifi.v01; # U+2D5B cv12=1
-    sub yatt-tifi by yatt-tifi.v01; # U+2D5F cv13=1
+    sub yaf-tifi      by yaf-tifi.v01;  # U+2D3C cv02=1
+    sub yash-tifi     by yash-tifi.v01; # U+2D5B cv12=1
+    sub yash-tifi.rtl by yash-tifi.v01; # U+2D5B cv12=1
+    sub yatt-tifi     by yatt-tifi.v01; # U+2D5F cv13=1
+    sub yatt-tifi.rtl by yatt-tifi.v01.rtl; # U+2D5F cv13=1
 } locl_TAQ;
 
 lookup locl_TAQ_liga {
@@ -42,6 +44,9 @@ lookup locl_TAQ_liga {
     sub yu-tifi  consonantjoiner-tifi yat-tifi by yuyatLig-tifi.v03;  # cv39=2
     sub yazhTuareg-tifi consonantjoiner-tifi yat-tifi by yazhTuaregyatLig-tifi.v02; # cv40=2
     sub yan-tifi consonantjoiner-tifi yaf-tifi by yanyafLig-tifi.v02; # cv42=1
+    # RTL ligatures
+    sub yan-tifi consonantjoiner-tifi.rtl yash-tifi.v01 by yanyashLig-tifi.v01 ; 
+    sub yas-tifi consonantjoiner-tifi.rtl yat-tifi      by yasyatLig-tifi.v03.rtl; 
 } locl_TAQ_liga;
 
 lookup locl_THV {
@@ -572,18 +577,14 @@ feature calt {  # Contextual Alternates
             lookup TfnRaised;
             lookup TfnDiacriticSub;
     script tfng;  # Tifinagh
-        language dflt;
         language TTQ exclude_dflt;
             lookup locl_TTQ_slant;
+            lookup TfnDiacriticSub;
         language dflt;
             lookup TfnRaised;
-        language TAQ ;
-        language THV ;
-#       NO language TTQ ;
             lookup TfnDiacriticSub;
         language TAQ ;
         language THV ;
-        language TTQ ;
 } calt ;
 
 feature cv01 {  # Character Variant 1
@@ -1217,7 +1218,7 @@ feature locl {
             lookup locl_TTQ_liga ;
 } locl ;
 
-feature rclt {  # Required Contextual Alternates (similar to calt but for Microsoft Word)
+feature rclt {  # Required Contextual Alternates (similar to calt but works for Microsoft Word)
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnRaised;
@@ -1226,15 +1227,15 @@ feature rclt {  # Required Contextual Alternates (similar to calt but for Micros
         language dflt;
         language TTQ exclude_dflt;
             lookup locl_TTQ_slant;
+            lookup TfnDiacriticSub;
         language dflt;  # Default
             lookup TfnRaised;
+            lookup TfnDiacriticSub;
         language TAQ ;
         language THV ;
-#       NO language TTQ ;
-            lookup TfnDiacriticSub;
 } rclt ;
 
-feature rlig {  # Required Ligatures (similar to liga but for Microsoft Word)
+feature rlig {  # Required Ligatures (similar to liga but works for Microsoft Word)
     script DFLT;  # Default
         language dflt;  # Default
             lookup TfnLabializationMarkLigs;
