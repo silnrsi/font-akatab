@@ -1329,6 +1329,26 @@
     <string>yakTuareg-tifi.orig</string>
     <string>yakTuareg-tifi.unused.001</string>
     <string>yakTuareg-tifi.unused.002</string>
+    <string>_AltIndicator</string>
+    <string>_Circle_Small</string>
+    <string>_Dot.001</string>
+    <string>_DotWideDiag</string>
+    <string>_HorizontalBarMedShort2</string>
+    <string>_Plus.rtl</string>
+    <string>_PlusHorizontal</string>
+    <string>_PlusLong</string>
+    <string>_PlusLong.rtl</string>
+    <string>_PlusMediumExtended</string>
+    <string>_PlusMediumExtended.rtl</string>
+    <string>_PlusSmall</string>
+    <string>_PlusVertical</string>
+    <string>_PlusVeryLong</string>
+    <string>_PlusVeryLong.rtl</string>
+    <string>_VerticalBarJoining</string>
+    <string>_VerticalBarMedLong</string>
+    <string>_VerticalBarMedium</string>
+    <string>_VerticalBarShortTop</string>
+    <string>_VerticalBarSmall</string>
   </array>
 </dict>
 </plist>
