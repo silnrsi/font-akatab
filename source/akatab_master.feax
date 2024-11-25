@@ -563,20 +563,20 @@ lookup TfnDiacriticSub {
 #**********************************
 
 #feature aalt {  # Access All Alternates
-#    script DFLT;  # Default
-#        language dflt;  # Default
+#    script DFLT;  
+#        language dflt;  
 #            lookup TfnAllAlternates;
-#    script tfng;  # Tifinagh
-#        language dflt;  # Default
+#    script tfng;  
+#        language dflt;  
 #            lookup TfnAllAlternates;
 #} aalt ;
 
 feature calt {  # Contextual Alternates
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnRaised;
             lookup TfnDiacriticSub;
-    script tfng;  # Tifinagh
+    script tfng;  
         language TTQ exclude_dflt;
             lookup locl_TTQ_slant;
             lookup TfnDiacriticSub;
@@ -592,10 +592,10 @@ feature cv01 {  # Character Variant 1
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YA" ; };
       ParamUILabelNameID { name 3 1 0x0409 "empty circle" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant01;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant01;
         language TAQ ;
@@ -609,10 +609,10 @@ feature cv02 {  # Character Variant 2
       ParamUILabelNameID { name 3 1 0x0409 "I shape" ; };
       ParamUILabelNameID { name 3 1 0x0409 "open top and bottom" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant02;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant02;
         language TAQ ;
@@ -625,10 +625,10 @@ feature cv03 {  # Character Variant 3
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAGHH" ; };
       ParamUILabelNameID { name 3 1 0x0409 "round bottom" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant03;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant03;
         language TAQ ;
@@ -641,10 +641,10 @@ feature cv04 {  # Character Variant 4
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAGN" ; };
       ParamUILabelNameID { name 3 1 0x0409 "lowered bottom stroke" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant04;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant04;
         language TAQ ;
@@ -657,10 +657,10 @@ feature cv05 {  # Character Variant 5
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ" ; };
       ParamUILabelNameID { name 3 1 0x0409 "short strokes" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant05;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant05;
         language TAQ ;
@@ -673,10 +673,10 @@ feature cv06 {  # Character Variant 6
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAZ" ; };
       ParamUILabelNameID { name 3 1 0x0409 "squared" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant06;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant06;
         language TAQ ;
@@ -689,10 +689,10 @@ feature cv07 {  # Character Variant 7
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate AHAGGAR YAZH" ; };
       ParamUILabelNameID { name 3 1 0x0409 "squared" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant07;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant07;
         language TAQ ;
@@ -705,10 +705,10 @@ feature cv08 {  # Character Variant 8
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAB" ; };
       ParamUILabelNameID { name 3 1 0x0409 "rectangle style" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant08;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant08;
         language TAQ ;
@@ -721,10 +721,10 @@ feature cv09 {  # Character Variant 9
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAG" ; };
       ParamUILabelNameID { name 3 1 0x0409 "rounded top" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant09;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant09;
         language TAQ ;
@@ -737,10 +737,10 @@ feature cv10 {  # Character Variant 10
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAJ" ; };
       ParamUILabelNameID { name 3 1 0x0409 "lower dots" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant10;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant10;
         language TAQ ;
@@ -753,10 +753,10 @@ feature cv11 {  # Character Variant 11
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAH" ; };
       ParamUILabelNameID { name 3 1 0x0409 "rectangle style" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant11;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant11;
         language TAQ ;
@@ -769,10 +769,10 @@ feature cv12 {  # Character Variant 12
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YASH" ; };
       ParamUILabelNameID { name 3 1 0x0409 "8 shape" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant12;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant12;
         language TAQ ;
@@ -785,10 +785,10 @@ feature cv13 {  # Character Variant 13
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YATT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "F shape" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant13;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant13;
         language TAQ ;
@@ -804,10 +804,10 @@ feature cv14 {  # Character Variant 14
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF" ; };
       ParamUILabelNameID { name 3 1 0x0409 "open top and bottom" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnStylisticSet14; # lookup for ss14
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnStylisticSet14; # lookup for ss14
         language TAQ ;
@@ -820,10 +820,10 @@ feature cv15 {  # Character Variant 15
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YADH" ; };
       ParamUILabelNameID { name 3 1 0x0409 "rounded bottom" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant15;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant15;
         language TAQ ;
@@ -836,11 +836,11 @@ feature cv18 {  # Character Variant 18
       FeatUILabelNameID  { name 3 1 0x0409 "Neo-Tifinagh" ; };
       ParamUILabelNameID { name 3 1 0x0409 "Neo-Tifinagh style" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant18;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant18;
 } cv18 ;
 
@@ -849,11 +849,11 @@ feature cv19 {  # Character Variant 19
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAL and YAN" ; };
       ParamUILabelNameID { name 3 1 0x0409 "slanted" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant19;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant19;
         language TAQ ;
         language THV ;
@@ -865,11 +865,11 @@ feature cv20 {  # Character Variant 20
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate punctuation" ; };
       ParamUILabelNameID { name 3 1 0x0409 "comma exclam and period" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant20;
     script latn;  # Latin
-        language dflt;  # Default
+        language dflt;  
             lookup TfnCharacterVariant20;
 } cv20 ;
 
@@ -878,11 +878,11 @@ feature cv21 {  # Character Variant 21
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YO" ; };
       ParamUILabelNameID { name 3 1 0x0409 "dot alternate" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant21;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant21;
         language TAQ ;
         language THV ;
@@ -894,11 +894,11 @@ feature cv31 {  # Character Variant 31
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAB YAT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "interior T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant31;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant31;
         language TAQ ;
         language THV ;
@@ -911,11 +911,11 @@ feature cv32 {  # Character Variant 32
       ParamUILabelNameID { name 3 1 0x0409 "large interior T" ; };
       ParamUILabelNameID { name 3 1 0x0409 "small interior T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant32;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant32;
         language TAQ ;
         language THV ;
@@ -929,11 +929,11 @@ feature cv33 {  # Character Variant 33
       ParamUILabelNameID { name 3 1 0x0409 "small interior T" ; };
       ParamUILabelNameID { name 3 1 0x0409 "large interior T upper dot" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant33;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant33;
         language TAQ ;
         language THV ;
@@ -947,11 +947,11 @@ feature cv34 {  # Character Variant 34
       ParamUILabelNameID { name 3 1 0x0409 "Low interior T" ; };
       ParamUILabelNameID { name 3 1 0x0409 "Center T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant34;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant34;
         language TAQ ;
         language THV ;
@@ -963,11 +963,11 @@ feature cv35 {  # Character Variant 35
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAF YAT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "middle T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant35;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant35;
         language TAQ ;
         language THV ;
@@ -979,11 +979,11 @@ feature cv36 {  # Character Variant 36
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN Tuareg YAK" ; };
       ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant36;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant36;
         language TAQ ;
         language THV ;
@@ -996,11 +996,11 @@ feature cv37 {  # Character Variant 37
       ParamUILabelNameID { name 3 1 0x0409 "side bar" ; };
       ParamUILabelNameID { name 3 1 0x0409 "top bar" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant37;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant37;
         language TAQ ;
         language THV ;
@@ -1012,11 +1012,11 @@ feature cv38 {  # Character Variant 38
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAL YAT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "internal T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant38;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant38;
         language TAQ ;
         language THV ;
@@ -1028,11 +1028,11 @@ feature cv39 {  # Character Variant 39
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YU YAT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "tall" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant39;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant39;
         language TAQ ;
         language THV ;
@@ -1045,11 +1045,11 @@ feature cv40 {  # Character Variant 40
       ParamUILabelNameID { name 3 1 0x0409 "mid-right T" ; };
       ParamUILabelNameID { name 3 1 0x0409 "center T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant40;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant40;
         language TAQ ;
         language THV ;
@@ -1061,11 +1061,11 @@ feature cv41 {  # Character Variant 41
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAD" ; };
       ParamUILabelNameID { name 3 1 0x0409 "up down pointers" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant41;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant41;
         language TAQ ;
         language THV ;
@@ -1078,11 +1078,11 @@ feature cv42 {  # Character Variant 42
       ParamUILabelNameID { name 3 1 0x0409 "top and bottom bars" ; };
       ParamUILabelNameID { name 3 1 0x0409 "no bars" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant42;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant42;
         language TAQ ;
         language THV ;
@@ -1094,11 +1094,11 @@ feature cv43 {  # Character Variant 43
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAJ" ; };
       ParamUILabelNameID { name 3 1 0x0409 "top and bottom dots" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant43;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant43;
         language TAQ ;
         language THV ;
@@ -1110,11 +1110,11 @@ feature cv44 {  # Character Variant 44
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN YAS" ; };
       ParamUILabelNameID { name 3 1 0x0409 "interior YAN" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant44;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant44;
         language TAQ ;
         language THV ;
@@ -1126,11 +1126,11 @@ feature cv45 {  # Character Variant 45
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAN Tuareg YAZH" ; };
       ParamUILabelNameID { name 3 1 0x0409 "exterior circles" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant45;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant45;
         language TAQ ;
         language THV ;
@@ -1142,11 +1142,11 @@ feature cv46 {  # Character Variant 46
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YAR Tuareg YAK" ; };
       ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant46;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant46;
         language TAQ ;
         language THV ;
@@ -1159,11 +1159,11 @@ feature cv47 {  # Character Variant 47
       ParamUILabelNameID { name 3 1 0x0409 "double cluster dots" ; };
       ParamUILabelNameID { name 3 1 0x0409 "8 shape, double cluster dots" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant47;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant47;
         language TAQ ;
         language THV ;
@@ -1175,11 +1175,11 @@ feature cv48 {  # Character Variant 48
       FeatUILabelNameID  { name 3 1 0x0409 "Alternate YASH YAT" ; };
       ParamUILabelNameID { name 3 1 0x0409 "Internal T" ; };
     } ;
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant48;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnCharacterVariant48;
         language TAQ ;
         language THV ;
@@ -1187,15 +1187,15 @@ feature cv48 {  # Character Variant 48
 } cv48 ;
 
 feature liga {  # Standard Ligatures; also see feature: rlig
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
-    script tfng;  # Tifinagh
-        language dflt;  # Default
+    script tfng;  
+        language dflt;  
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
             lookup TfnBiconsonants;
@@ -1207,7 +1207,7 @@ feature liga {  # Standard Ligatures; also see feature: rlig
 } liga ;
 
 feature locl {
-    script tfng;  # Tifinagh
+    script tfng;  
         language TAQ ;  # Tamasheq
             lookup locl_TAQ ;
             lookup locl_TAQ_liga ;
@@ -1219,16 +1219,15 @@ feature locl {
 } locl ;
 
 feature rclt {  # Required Contextual Alternates (similar to calt but works for Microsoft Word)
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnRaised;
             lookup TfnDiacriticSub;
-    script tfng;  # Tifinagh
-        language dflt;
+    script tfng;  
         language TTQ exclude_dflt;
             lookup locl_TTQ_slant;
             lookup TfnDiacriticSub;
-        language dflt;  # Default
+        language dflt;  
             lookup TfnRaised;
             lookup TfnDiacriticSub;
         language TAQ ;
@@ -1236,14 +1235,14 @@ feature rclt {  # Required Contextual Alternates (similar to calt but works for 
 } rclt ;
 
 feature rlig {  # Required Ligatures (similar to liga but works for Microsoft Word)
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
             lookup TfnBiconsonants;
             lookup TfnTriconsonants;
             lookup TfnSILvowels;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnLabializationMarkLigs;
             lookup TfnBiconsonants_RTL;
@@ -1256,11 +1255,11 @@ feature rlig {  # Required Ligatures (similar to liga but works for Microsoft Wo
 } rlig ;
 
 feature rtla {  # Right to Left Alternates
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnRTLalt;
             lookup TfnRaisedRTL;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnRTLalt;
             lookup TfnRaisedRTL;
@@ -1271,10 +1270,10 @@ feature rtla {  # Right to Left Alternates
 
 feature ss01 {  # Stylistic Set 1
     featureNames { name 3 1 0x409 "Alternate YA (empty circle)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant01;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant01;
         language TAQ ;
@@ -1284,10 +1283,10 @@ feature ss01 {  # Stylistic Set 1
 
 feature ss02 {  # Stylistic Set 2
     featureNames { name 3 1 0x409 "Alternate YAF (I shape)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnStylisticSet02; # unique lookup for ss02
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnStylisticSet02; # unique lookup for ss02
         language TAQ ;
@@ -1297,10 +1296,10 @@ feature ss02 {  # Stylistic Set 2
 
 feature ss03 {  # Stylistic Set 3
     featureNames { name 3 1 0x409 "Alternate YAGHH (round bottom)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant03;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant03;
         language TAQ ;
@@ -1310,10 +1309,10 @@ feature ss03 {  # Stylistic Set 3
 
 feature ss04 {  # Stylistic Set 4
     featureNames { name 3 1 0x409 "Alternate YAGN (lowered bottom stroke)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant04;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant04;
         language TAQ ;
@@ -1323,10 +1322,10 @@ feature ss04 {  # Stylistic Set 4
 
 feature ss05 {  # Stylistic Set 5
     featureNames { name 3 1 0x409 "Alternate YU (Tuareg YAW) Tuareg YAGH, YAH and YAQ (short strokes)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant05;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant05;
         language TAQ ;
@@ -1336,10 +1335,10 @@ feature ss05 {  # Stylistic Set 5
 
 feature ss06 {  # Stylistic Set 6
     featureNames { name 3 1 0x409 "Alternate YAZ (squared)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant06;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant06;
         language TAQ ;
@@ -1349,10 +1348,10 @@ feature ss06 {  # Stylistic Set 6
 
 feature ss07 {  # Stylistic Set 7
     featureNames { name 3 1 0x409 "Alternate AHAGGAR YAZH (squared)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant07;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant07;
         language TAQ ;
@@ -1362,10 +1361,10 @@ feature ss07 {  # Stylistic Set 7
 
 feature ss08 {  # Stylistic Set 8
     featureNames { name 3 1 0x409 "Alternate YAB (rectangle style)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant08;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant08;
         language TAQ ;
@@ -1375,10 +1374,10 @@ feature ss08 {  # Stylistic Set 8
 
 feature ss09 {  # Stylistic Set 9
     featureNames { name 3 1 0x409 "Alternate YAG (rounded top)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant09;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant09;
         language TAQ ;
@@ -1388,10 +1387,10 @@ feature ss09 {  # Stylistic Set 9
 
 feature ss10 {  # Stylistic Set 10
     featureNames { name 3 1 0x409 "Alternate YAJ (lower dots)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant10;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant10;
         language TAQ ;
@@ -1401,10 +1400,10 @@ feature ss10 {  # Stylistic Set 10
 
 feature ss11 {  # Stylistic Set 11
     featureNames { name 3 1 0x409 "Alternate YAH (rectangle style)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant11;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant11;
         language TAQ ;
@@ -1414,10 +1413,10 @@ feature ss11 {  # Stylistic Set 11
 
 feature ss12 {  # Stylistic Set 12
     featureNames { name 3 1 0x409 "Alternate YASH (8 shape)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant12;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant12;
         language TAQ ;
@@ -1427,10 +1426,10 @@ feature ss12 {  # Stylistic Set 12
 
 feature ss13 {  # Stylistic Set 13
     featureNames { name 3 1 0x409 "Alternate YATT (F shape)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant13;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant13;
         language TAQ ;
@@ -1440,10 +1439,10 @@ feature ss13 {  # Stylistic Set 13
 
 feature ss14 {  # Stylistic Set 14
     featureNames { name 3 1 0x409 "Alternate YAF (open top and bottom)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnStylisticSet14; # unique lookup for ss14
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnStylisticSet14; # unique lookup for ss14
         language TAQ ;
@@ -1453,10 +1452,10 @@ feature ss14 {  # Stylistic Set 14
 
 feature ss15 {  # Stylistic Set 15
     featureNames { name 3 1 0x409 "Alternate YADH (rounded bottom)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant15;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant15;
         language TAQ ;
@@ -1466,20 +1465,20 @@ feature ss15 {  # Stylistic Set 15
 
 feature ss18 {  # Stylistic Set 18
     featureNames { name 3 1 0x409 "Neo-Tifinagh style" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant18;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant18;
 } ss18 ;
 
 feature ss19 {  # Stylistic Set 19
     featureNames { name 3 1 0x409 "Alternate YAL and YAN (slanted)" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant19;
-    script tfng;  # Tifinagh
+    script tfng;  
         language dflt;
             lookup TfnCharacterVariant19;
         language TAQ ;
@@ -1489,11 +1488,11 @@ feature ss19 {  # Stylistic Set 19
 
 feature ss20 {  # Stylistic Set 20
     featureNames { name 3 1 0x409 "Alternate comma exclam and period" ; };
-    script DFLT;  # Default
-        language dflt;  # Default
+    script DFLT;  
+        language dflt;  
             lookup TfnCharacterVariant20;
     script latn;  # Latin
-        language dflt;  # Default
+        language dflt;  
             lookup TfnCharacterVariant20;
 } ss20 ;
 
