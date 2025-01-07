@@ -3,6 +3,44 @@ title: Akatab - Version History
 fontversion: 4.000
 ---
 
+### 24 Jan 2025	(SIL WSTech team) Akatab version 4.000
+- Added Tifinagh characters to complete the Unicode block: 
+    - U+2D32 TIFINAGH LETTER YABH
+    - U+2D35 TIFINAGH LETTER BERBER ACADEMY YAJ
+    - U+2D3A TIFINAGH LETTER YADDH
+    - U+2D3B TIFINAGH LETTER YEY
+    - U+2D3D TIFINAGH LETTER YAK
+    - U+2D3F TIFINAGH LETTER YAKHH
+    - U+2D41 TIFINAGH LETTER BERBER ACADEMY YAH
+    - U+2D43 TIFINAGH LETTER YAHH
+    - U+2D44 TIFINAGH LETTER YAA
+    - U+2D45 TIFINAGH LETTER YAKH
+    - U+2D47 TIFINAGH LETTER YAQ
+    - U+2D4A TIFINAGH LETTER YAZH
+    - U+2D52 TIFINAGH LETTER YAP
+    - U+2D55 TIFINAGH LETTER YARR
+    - U+2D56 TIFINAGH LETTER YAGH
+    - U+2D5D TIFINAGH LETTER YATH
+    - U+2D5E TIFINAGH LETTER YACH
+    - U+2D60 TIFINAGH LETTER YAV
+    - U+2D61 TIFINAGH LETTER YAW
+    - U+2D65 TIFINAGH LETTER YAZZ
+    - U+2D66 TIFINAGH LETTER YE
+    - U+2D6F TIFINAGH MODIFIER LETTER LABIALIZATION MARK
+- Added Neo-Tifinagh variants of existing encoded characters into the font: 
+    - TIFINAGH LETTER YA
+    - TIFINAGH LETTER YAF
+    - TIFINAGH LETTER YAL
+    - TIFINAGH LETTER YU
+    - TIFINAGH LETTER YASS
+    - TIFINAGH LETTER YASH
+    - TIFINAGH LETTER YAT 
+ - Added the capital Schwa to support case swapping with lowercase schwa
+    - U+018F LATIN CAPITAL LETTER SCHWA
+- Added cv18 and ss18 for Neo-Tifinagh characters
+- Added TAQ, THV and TTQ language tags
+- Added 'locl' features and lookups corresponding to language tags
+
 ### 09 Feb 2023 (SIL WSTech team) Akatab version 3.000
 - Added 4 weights: Medium, SemiBold, ExtraBold, and Black
 - Added new features: 
