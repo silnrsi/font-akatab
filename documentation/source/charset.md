@@ -3,7 +3,7 @@ title: Akatab - Character Set Support
 fontversion: 4.000
 ---
 
-This font supports over 390 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://www.unicode.org/versions/Unicode15.0.0/ch23.pdf#G19184) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
+This font supports over 400 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://www.unicode.org/versions/Unicode15.0.0/ch23.pdf#G19184) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
 
 Note: Inclusion of basic Latin repertoire is provided as a convenience but is not intended for extensive Latin script use. The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts in the [Source Sans Github repository](https://github.com/adobe-fonts/source-sans-pro). 
 
@@ -29,7 +29,7 @@ Letterlike Symbols|U+2122, U+2126
 Mathematical Operators|U+2202, U+2206, U+220F, U+2211..U+2212, U+2215, U+2219, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265
 Control Pictures|U+2423
 Geometric Shapes|U+25CA, U+25CC
-Tifinagh|U+2D30..U+2D67, U+2D70, U+2D7F
+Tifinagh|U+2D30..U+2D67, U+2D67, U+2D70, U+2D7F
 PUA: Tifinagh superscripts|U+E300..U+E304
 Alphabetic Presentation Forms|U+FB00..U+FB02
 Variation Selectors|U+FE00..U+FE0F

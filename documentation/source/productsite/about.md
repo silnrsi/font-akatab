@@ -1,7 +1,7 @@
 
 ## About this project
 
-This project is intended to provide a free and open font family for current languages and writing systems that use the Tifinagh script. It supports many of the Unicode characters for this script. It also includes a large set of ligatures useful for linguistics and literacy work. Smart font routines automatically produce these ligatures. In addition, user-selectable features are included to choose variant characters or ligatures.
+This project is intended to provide a free and open font family for current languages and writing systems that use the Tifinagh script. It supports all of the Unicode characters for this script. It also includes a large set of ligatures useful for linguistics and literacy work. Smart font routines automatically produce these ligatures. In addition, user-selectable features are included to choose variant characters or ligatures.
 
 For more information on the visual characteristics of the font family, see [Design](design). 
 
@@ -12,7 +12,7 @@ For variant glyphs and features supported in Akatab, see [Font Features](feature
 
 ## Future plans
 
-These fonts are actively maintained and improved, and recent changes to their development process will enable more frequent releases.
+These fonts are actively maintained and improved.
 
 The highest priorities for future additions and enhancements are mainly driven by:
 
