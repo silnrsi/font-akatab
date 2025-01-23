@@ -36,7 +36,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3260</string>
+  <string>3337</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -52,6 +52,7 @@
     <string>/_DotWide/_Dot/yaghTuareg-tifi/yaghTuareg-tifi.v01/yahTuareg-tifi/yahTuareg-tifi.v01/yaqTuareg-tifi/yaqTuareg-tifi.v01/yo-tifi.v01/yo-tifi</string>
     <string>/yazh-tifi/yabh-tifi</string>
     <string>/schwa OE/Schwa G</string>
+    <string>/.notdef Z/gravecmb.cap À/yaghhyatLig-tifi/yah-tifi.v01/_k/yalyakTuaregLig-tifi/yatt-tifi/uniFFFC</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
