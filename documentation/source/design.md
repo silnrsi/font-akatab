@@ -169,7 +169,7 @@ Regular: <span class='akatab-R normal'>&#x20AC;</span>
 
 Regular: <span class='akatab-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ ␣ ◊ ◌ </span>
 
-**Bold:** <span class='akatab-B normal'> ™ Ω ∂ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ ␣ ◊ ◌ </span>
+**Bold:** <span class='akatab-B normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ ␣ ◊ ◌ </span>
 
 
 <p> For a complete list of Unicode characters included in Akatab, see [Character Set Support](charset.md). </p>
