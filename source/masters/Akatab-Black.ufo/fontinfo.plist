@@ -9,7 +9,7 @@
   <key>copyright</key>
   <string>Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name "Source" (Latin glyphs).</string>
   <key>descender</key>
-  <integer>-711</integer>
+  <integer>-713</integer>
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
@@ -17,7 +17,7 @@
   <key>openTypeHheaAscender</key>
   <integer>2093</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-711</integer>
+  <integer>-713</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -133,7 +133,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2TypoAscender</key>
   <integer>2093</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-711</integer>
+  <integer>-713</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -170,7 +170,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinAscent</key>
   <integer>2093</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>711</integer>
+  <integer>713</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-33</integer>
