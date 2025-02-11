@@ -516,13 +516,13 @@ Decorative     | <span class='akatab-ss20-1-R normal'>! , .</span> | | `ss20=1`
 
 ## Using language system tags
 
-<p>Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. LibreOffice and Microsoft Word 2016 support language-specific behavior for ???. Microsoft Word 2019, but not LibreOffice, supports language-specific behavior for ???. Neither application provides support for the ??? languages. Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior. In the past, it was not always possible to override language-specific behavior in cases where the language-specific variants were undesirable but, as of version ???, the font now supports this possibility.</p>
+Accessing language-specific features is done by using the language tags built into the font. For web pages, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). In the following example, *class='akatab-R' lang='taq'* , the Akatab font is selected (as you have defined it) and the Tamasheq language is selected. Any alternate features defined for Tamasheq are displayed.
+
+Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. </p>
 
 ### Language list
 
 #### Tamasheq (TAQ)
-
-<span class='affects'>Affects: U+2D30</span>
 
 Language                | Sample                       | Sample right-to-left         | Feature setting
 :--------------------- | :--------------------------- | :--------------------------- | :--------------
@@ -531,8 +531,6 @@ Tamasheq| <span class='akatab-R normal' lang='taq'> ⴼ  ⵛ  ⵟ  ⴼ⵿ⵜ  �
 
 #### Tahaggart (THV)
 
-<span class='affects'>Affects: U+2D30</span>
-
 Language                | Sample                       |                              | Feature setting
 :--------------------- | :--------------------------- | :--------------------------- | :--------------
 default  | <span class='akatab-R normal'> ⵧ </span> | <span class='akatab-R normal'>  </span> | 
@@ -540,22 +538,20 @@ Tahaggart| <span class='akatab-R normal' lang='thv'> ⵧ </span> | <span class='
 
 #### Tawallammat (TTQ)
 
-<span class='affects'>Affects: U+2D30</span>
-
 Language                | Sample                       | Sample slant variants        | Feature setting
 :--------------------- | :--------------------------- | :--------------------------- | :--------------
 default    | <span class='akatab-R normal'> ⴼ  ⴼ⵿ⵜ  ⵍ⵿ⵜ  ⵎ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⴾ  ⵏ⵿ⵙ  ⵏ⵿ⵜ  ⵔ⵿ⵜ  ⵛ⵿ⵜ </span> | <span class='akatab-R normal'> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span> | 
 Tawallammat| <span class='akatab-R normal' lang='ttq'> ⴼ  ⴼ⵿ⵜ  ⵍ⵿ⵜ  ⵎ⵿ⵜ  ⵏ⵿ⴼ  ⵏ⵿ⴾ  ⵏ⵿ⵙ  ⵏ⵿ⵜ  ⵔ⵿ⵜ  ⵛ⵿ⵜ </span> | <span class='akatab-R normal'  lang='ttq'> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span> | `lang='ttq'`
 
 ## Common features list
-<p>The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and produces the proper visual representation.<br>
+The Akatab fonts contain logic that uses features to render certain glyphs and sequences properly. This logic processes the sequence of glyphs and produces the proper visual representation.
 
 The sections below show the use of some formatting characters, notably the TIFINAGH CONSONANT JOINER (U+2D7F) and RIGHT-TO-LEFT OVERRIDE (U+202E). A recommended keyboard for Tifinagh characters and these special characters can be downloaded at the [Keyman Tuareg Tifinagh keyboard](https://keyman.com/keyboards/tuareg_tifinagh) web site.
 
 ### Contextual shaping
 <p>Two Tifinagh characters, TIFINAGH LETTER YAL (U+2D4D) and TIFINAGH LETTER YAN (U+2D4F), could cause ambiguity when they appear next to each other. To prevent uncertainty, the second character in the sequence is raised as in the example below:<br>
 <span class='akatab-R normal'>ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ</span><br>
-If the user's preference is slanted bars, the user-selected features *cv19* or *ss19* can be used, as illustrated in the user-selected font features section above.
+If the user's preference is slanted bars, the user-selected features *cv19* or *ss19* can be used, as illustrated in the user-selected font features section above. </p>
 
 
 ### Ligature formation

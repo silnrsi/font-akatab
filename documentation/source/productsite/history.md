@@ -1,5 +1,5 @@
 
-### 24 Jan 2025	(SIL WSTech team) Akatab version 4.000
+### 11 Feb 2025	(SIL WSTech team) Akatab version 4.000
 - Added Tifinagh characters to complete the Unicode block: 
     - U+2D32 TIFINAGH LETTER YABH
     - U+2D35 TIFINAGH LETTER BERBER ACADEMY YAJ
@@ -33,7 +33,7 @@
     - TIFINAGH LETTER YAT 
  - Added the capital Schwa to support case swapping with lowercase schwa
     - U+018F LATIN CAPITAL LETTER SCHWA
-- Added cv18 and ss18 for Neo-Tifinagh characters
+- Added features cv18 and ss18 to access Neo-Tifinagh characters
 - Added TAQ, THV and TTQ language tags
 - Added 'locl' features and lookups corresponding to language tags
 

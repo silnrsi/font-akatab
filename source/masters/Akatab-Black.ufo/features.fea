@@ -365,10 +365,10 @@ lookup locl_TAQ_liga {
     sub yan-tifi consonantjoiner-tifi.rtl yash-tifi.v01 by yanyashLig-tifi.v01;
     sub yar-tifi consonantjoiner-tifi.rtl yat-tifi by yaryatLig-tifi.v01;
     sub yas-tifi consonantjoiner-tifi.rtl yat-tifi by yasyatLig-tifi.v03.rtl;
-    sub yam-tifi consonantjoiner-tifi.rtl yat-tifi by yamyatLig-tifi.v02.rtl;
     sub yan-tifi consonantjoiner-tifi.rtl yat-tifi by yanyatLig-tifi.v02;
     sub yal-tifi consonantjoiner-tifi.rtl yat-tifi by yalyatLig-tifi.v02;
     sub yu-tifi consonantjoiner-tifi.rtl yat-tifi by yuyatLig-tifi.v03.rtl;
+    sub yam-tifi.rtl consonantjoiner-tifi.rtl yat-tifi by yamyatLig-tifi.v02.rtl;
     sub yazhTuareg-tifi consonantjoiner-tifi.rtl yat-tifi by yazhTuaregyatLig-tifi.v02;
 } locl_TAQ_liga;
 
