@@ -3,7 +3,7 @@ title: Akatab - Version History
 fontversion: 4.000
 ---
 
-### 11 Feb 2025	(SIL WSTech team) Akatab version 4.000
+### 13 Feb 2025	(SIL WSTech team) Akatab version 4.000
 - Added Tifinagh characters to complete the Unicode block: 
     - U+2D32 TIFINAGH LETTER YABH
     - U+2D35 TIFINAGH LETTER BERBER ACADEMY YAJ

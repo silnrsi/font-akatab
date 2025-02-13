@@ -516,9 +516,9 @@ Decorative     | <span class='akatab-ss20-1-R normal'>! , .</span> | | `ss20=1`
 
 ## Using language system tags
 
-Accessing language-specific features is done by using the language tags built into the font. For web pages, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). In the following example, *class='akatab-R' lang='taq'* , the Akatab font is selected (as you have defined it) and the Tamasheq language is selected. Any alternate features defined for Tamasheq are displayed.
+Accessing language-specific font features is done by using the *language tags* built into the font (the tag is the unique three-letter code shown below after the language name). For web pages, see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts). In the following example, *class='akatab-R' lang='taq'*, the Akatab font is selected (as you have defined it in the CSS) and the Tamasheq language is selected. Any alternate features defined for Tamasheq are displayed.
 
-Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. </p>
+Unfortunately, the user interface (UI) needed to access the language-specific behavior is not yet present in many applications. </p>
 
 ### Language list
 
