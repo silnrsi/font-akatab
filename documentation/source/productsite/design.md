@@ -26,47 +26,47 @@ The full range of weights is accessed in different ways depending on the applica
 
 #### Medium:
 
-<p><span class='akatab-M normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p><span class='akatab-M normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
-<p style="text-align:right"><span class='akatab-M normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p style="text-align:right"><span class='akatab-M normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> &#x202E; ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
 #### SemiBold:
 
-<p><span class='akatab-SB normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p><span class='akatab-SB normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
-<p style="text-align:right"><span class='akatab-SB normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p style="text-align:right"><span class='akatab-SB normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> &#x202E; ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
 #### Bold:
 
-<p><span class='akatab-B normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p><span class='akatab-B normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
-<p style="text-align:right"><span class='akatab-B normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p style="text-align:right"><span class='akatab-B normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> &#x202E; ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
 #### ExtraBold:
 
-<p><span class='akatab-EB normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p><span class='akatab-EB normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
-<p style="text-align:right"><span class='akatab-EB normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p style="text-align:right"><span class='akatab-EB normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> &#x202E; ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
 #### Black:
 
-<p><span class='akatab-BL normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p><span class='akatab-BL normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
-<p style="text-align:right"><span class='akatab-BL normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+<p style="text-align:right"><span class='akatab-BL normal'> &#x202E; ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> &#x202E; ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
 
 ### Biconsonant ligatures
 
 #### Regular:
 
-<p><span class='akatab-R normal'> ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴼ⵿ⵜ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
+<p><span class='akatab-R normal'> ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴼ⵿ⵜ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ <br> ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
 
-<p style="text-align:right"><span class='akatab-R normal'> &#x202E; ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
+<p style="text-align:right"><span class='akatab-R normal'> &#x202E; ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ <br> &#x202E; ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
 
 #### Bold:
 
-<p><span class='akatab-B normal'> ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴼ⵿ⵜ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
+<p><span class='akatab-B normal'> ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴼ⵿ⵜ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ <br> ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
 
-<p style="text-align:right"><span class='akatab-B normal'> &#x202E; ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
+<p style="text-align:right"><span class='akatab-B normal'> &#x202E; ⴱ⵿ⵜ ⴴ⵿ⵜ ⴶ⵿ⵜ ⴼ⵿ⵜ ⵀ⵿ⵜ ⵉ⵿ⵜ ⵋ⵿ⵜ ⵌ⵿ⵜ ⵍ⵿ⴾ ⵍ⵿ⵜ ⵎ⵿ⵀ ⵎ⵿ⵙ ⵎ⵿ⵜ ⵏ⵿ⴴ ⵏ⵿ⴶ ⵏ⵿ⴷ ⵏ⵿ⴸ ⵏ⵿ⴹ ⵏ⵿ⴼ ⵏ⵿ⴾ ⵏ⵿ⵌ ⵏ⵿ⵗ ⵏ⵿ⵙ ⵏ⵿ⵛ ⵏ⵿ⵜ ⵏ⵿ⵤ ⵓ⵿ⵜ ⵔ⵿ⴾ ⵔ⵿ⵏ <br> &#x202E; ⵔ⵿ⵜ ⵙ⵿ⴾ ⵙ⵿ⵏ ⵙ⵿ⵜ ⵛ⵿ⴾ ⵛ⵿ⵏ ⵛ⵿ⵜ ⵣ⵿ⵜ </span></p>
 
 ### Raised characters
 <p><span class="akatab-R normal"> ⵏⵏⵏ ⵏⵍⵏ ⵍⵍⵍ ⵍⵏⵍ </span></p>
