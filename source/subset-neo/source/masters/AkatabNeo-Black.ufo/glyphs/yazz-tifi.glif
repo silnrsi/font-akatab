@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yazz-tifi" format="2">
+  <advance width="1238"/>
+  <unicode hex="2D65"/>
+  <anchor x="624" y="1393" name="T"/>
+  <outline>
+    <component base="yaz-tifi"/>
+    <component base="_HorizontalBarMedShort" xOffset="168" yOffset="630"/>
+  </outline>
+</glyph>

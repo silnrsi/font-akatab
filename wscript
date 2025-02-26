@@ -28,3 +28,31 @@ d = designspace('source/akatab.designspace',
         version = VERSION,
         )
 
+# Make Neo-Tifinagh subset package
+npackage = package(appname="AkatabNeo", 
+                   version = VERSION, 
+                   package_files = {
+                                    'README.txt': '/nul', 
+                                    'source/subset-neo/AkatabNeo*.ttf': '/',
+                                    'source/subset-neo/FONTLOG.txt': '/', 
+                                    'source/subset-neo/OFL.txt': '/', 
+                                    'source/subset-neo/OFL-FAQ.txt': '/', 
+                                    'source/subset-neo/README.txt': '/', 
+                                    'source/subset-neo/documentation/*.*': 'documentation/', 
+                                    'source/subset-neo/web/*.*': 'web/'
+                                   })
+d = designspace('source/subset-neo/source/akatab_neo.designspace',
+        target = process('source/subset-neo/${DS:FILENAME_BASE}.ttf',
+            cmd('psfchangettfglyphnames ../source/subset-neo/source/masters/AkatabNeo-Regular.ufo ${DEP} ${TGT}'),
+            cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}')),
+#        ap = '${DS:FILENAME_BASE}.xml',
+#        classes = 'source/akatab_classes.xml',
+#        opentype = fea('source/${DS:FILENAME_BASE}.fea',
+#            master = 'source/akatab_master.feax',
+#            mapfile = 'source/typetuner/${DS:FILENAME_BASE}.map'),
+        script = ['tfng'],
+        pdf = fret(params='-r -b'),
+        woff = woff('source/subset-neo/web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/subset-neo/source/AkatabNeo-WOFF-metadata.xml'),
+#        typetuner = typetuner('source/typetuner/akatab_feat_all.xml'),
+        version = VERSION,
+        )

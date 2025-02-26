@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i" format="2">
+  <advance width="580"/>
+  <unicode hex="0069"/>
+  <anchor x="289" y="1500" name="aboveLC"/>
+  <anchor x="289" y="-46" name="belowLC"/>
+  <anchor x="278" y="0" name="ogonekLC"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="dotaccentcmb" xOffset="291"/>
+  </outline>
+</glyph>

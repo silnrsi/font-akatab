@@ -1,0 +1,36 @@
+/*
+This file is from the SIL Fontdocs project (https://github.com/silnrsi/fontdocs).
+Copyright (c) 2021-2024 SIL Global (https://www.sil.org/). This Font Software is
+released under the MIT license (https://opensource.org/licenses/MIT).
+*/
+@font-face {
+    font-family: Akatab-R;
+    src: url("../../../results/Akatab-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Akatab-B;
+    src: url("../../../results/Akatab-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: Akatab-M;
+    src: url("../../../results/Akatab-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: Akatab-SB;
+    src: url("../../../results/Akatab-SemiBold.ttf") format("truetype");
+}@font-face {
+    font-family: Akatab-EB;
+    src: url("../../../results/Akatab-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: Akatab-BL;
+    src: url("../../../results/Akatab-Black.ttf") format("truetype");
+}
+
+.akatab-R  { font-family: Akatab-R; }
+.akatab-B  { font-family: Akatab-B; }
+.akatab-M  { font-family: Akatab-M; }
+.akatab-SB { font-family: Akatab-SB; }
+.akatab-EB { font-family: Akatab-EB; }
+.akatab-BL { font-family: Akatab-BL; }
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_VerticalBarShort" format="2">
+  <advance width="1470"/>
+  <outline>
+    <contour>
+      <point x="714" y="180" type="curve" smooth="yes"/>
+      <point x="800" y="180"/>
+      <point x="879" y="233"/>
+      <point x="898" y="299" type="curve" smooth="yes"/>
+      <point x="907" y="331"/>
+      <point x="907" y="448"/>
+      <point x="907" y="560" type="curve" smooth="yes"/>
+      <point x="907" y="640"/>
+      <point x="902" y="740"/>
+      <point x="902" y="820" type="curve" smooth="yes"/>
+      <point x="902" y="914"/>
+      <point x="903" y="963"/>
+      <point x="903" y="1002" type="curve" smooth="yes"/>
+      <point x="903" y="1070"/>
+      <point x="913" y="1071"/>
+      <point x="913" y="1124" type="curve" smooth="yes"/>
+      <point x="913" y="1184"/>
+      <point x="853" y="1200"/>
+      <point x="775" y="1200" type="curve" smooth="yes"/>
+      <point x="689" y="1200"/>
+      <point x="610" y="1147"/>
+      <point x="591" y="1081" type="curve" smooth="yes"/>
+      <point x="582" y="1049"/>
+      <point x="582" y="932"/>
+      <point x="582" y="820" type="curve" smooth="yes"/>
+      <point x="582" y="740"/>
+      <point x="587" y="640"/>
+      <point x="587" y="560" type="curve" smooth="yes"/>
+      <point x="587" y="466"/>
+      <point x="586" y="417"/>
+      <point x="586" y="378" type="curve" smooth="yes"/>
+      <point x="586" y="310"/>
+      <point x="576" y="309"/>
+      <point x="576" y="256" type="curve" smooth="yes"/>
+      <point x="576" y="196"/>
+      <point x="636" y="180"/>
+    </contour>
+  </outline>
+</glyph>
