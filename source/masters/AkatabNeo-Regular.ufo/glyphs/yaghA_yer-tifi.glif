@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yaghAyer-tifi" format="2">
+  <advance width="1367"/>
+  <unicode hex="2D58"/>
+  <anchor x="689" y="1393" name="T"/>
+  <outline>
+    <component base="_Dot" xOffset="-320" yOffset="366"/>
+    <component base="_Dot" xOffset="-320" yOffset="-415"/>
+    <component base="_Dot" xOffset="361" yOffset="366"/>
+    <component base="_Dot" xOffset="361" yOffset="-415"/>
+    <component base="_Dot" xOffset="22" yOffset="-23"/>
+  </outline>
+</glyph>

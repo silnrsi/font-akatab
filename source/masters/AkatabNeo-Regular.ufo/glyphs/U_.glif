@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U" format="2">
+  <advance width="1359"/>
+  <unicode hex="0055"/>
+  <anchor x="677" y="1433" name="aboveUC"/>
+  <anchor x="677" y="-46" name="belowLC"/>
+  <anchor x="1106" y="1408" name="hornLC"/>
+  <anchor x="677" y="0" name="ogonekUC"/>
+  <outline>
+    <contour>
+      <point x="679" y="-25" type="curve" smooth="yes"/>
+      <point x="956" y="-25"/>
+      <point x="1173" y="122"/>
+      <point x="1173" y="565" type="curve" smooth="yes"/>
+      <point x="1173" y="1386" type="line"/>
+      <point x="1015" y="1386" type="line"/>
+      <point x="1015" y="563" type="line" smooth="yes"/>
+      <point x="1015" y="225"/>
+      <point x="865" y="120"/>
+      <point x="679" y="120" type="curve" smooth="yes"/>
+      <point x="496" y="120"/>
+      <point x="350" y="225"/>
+      <point x="350" y="563" type="curve" smooth="yes"/>
+      <point x="350" y="1386" type="line"/>
+      <point x="185" y="1386" type="line"/>
+      <point x="185" y="565" type="line" smooth="yes"/>
+      <point x="185" y="122"/>
+      <point x="403" y="-25"/>
+    </contour>
+  </outline>
+</glyph>
