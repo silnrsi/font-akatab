@@ -1,0 +1,35 @@
+/*
+This file is from the SIL Fontdocs project (https://github.com/silnrsi/fontdocs).
+Copyright (c) 2021-2025 SIL Global (https://www.sil.org/). This Font Software is
+released under the MIT license (https://opensource.org/licenses/MIT).
+*/
+@font-face {
+    font-family: Tirra-R;
+    src: url("../../../web/Tirra-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: Tirra-B;
+    src: url("../../../web/Tirra-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: Tirra-M;
+    src: url("../../../web/Tirra-Medium.woff2") format("woff2");
+}
+@font-face {
+    font-family: Tirra-SB;
+    src: url("../../../web/Tirra-SemiBold.woff2") format("woff2");
+}@font-face {
+    font-family: Tirra-EB;
+    src: url("../../../web/Tirra-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+    font-family: Tirra-BL;
+    src: url("../../../web/Tirra-Black.woff2") format("woff2");
+}
+
+.tirra-R  { font-family: Tirra-R; }
+.tirra-B  { font-family: Tirra-B; }
+.tirra-M  { font-family: Tirra-M; }
+.tirra-SB { font-family: Tirra-SB; }
+.tirra-EB { font-family: Tirra-EB; }
+.tirra-BL { font-family: Tirra-BL; }

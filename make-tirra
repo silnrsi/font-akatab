@@ -1,0 +1,22 @@
+#!/bin/sh
+
+
+# Stop on any errors
+set -e
+
+echo "-----Creating subset UFOs..."
+psfsubset -i source/glyph_data.csv --header glyph_name --filter in_neo source/masters/Akatab-Regular.ufo source/masters/Tirra-Regular.ufo &
+wait
+psfsubset -i source/glyph_data.csv --header glyph_name --filter in_neo source/masters/Akatab-Black.ufo source/masters/Tirra-Black.ufo &
+wait
+
+echo "-----Updating family name metadata in subset fonts..."
+perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Regular.ufo/fontinfo.plist
+perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Regular.ufo/lib.plist
+perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/fontinfo.plist
+perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/lib.plist
+
+echo "-----Updating WOFF metadata..."
+psfmakewoffmetadata -n Tirra -i "org.sil.fonts" -f FONTLOG_tirra.txt -o source/Tirra-WOFF-metadata.xml source/masters/Tirra-Regular.ufo
+
+echo "-----Subsetting completed!"

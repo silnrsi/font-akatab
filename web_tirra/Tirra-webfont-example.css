@@ -1,0 +1,62 @@
+/*
+Tirra-webfont-example.css
+This file is Copyright (c) 2010-2025 SIL International (http://www.sil.org/).
+Released under the MIT license.
+*/
+@font-face {
+    font-family: Tirra-R;
+    src: url("Tirra-Regular.woff2") format("woff2"); /* use Tirra in current folder */
+}
+@font-face {
+    font-family: Tirra-B;
+    src: url("Tirra-Bold.woff2") format("woff2"); /* use Tirra in current folder */
+}
+@font-face {
+    font-family: Tirra-M;
+    src: url("Tirra-Medium.woff2") format("woff2"); /* use Tirra in current folder */
+}
+@font-face {
+    font-family: Tirra-SB;
+    src: url("Tirra-SemiBold.woff2") format("woff2"); /* use Tirra in current folder */
+}@font-face {
+    font-family: Tirra-EB;
+    src: url("Tirra-ExtraBold.woff2") format("woff2"); /* use Tirra in current folder */
+}
+@font-face {
+    font-family: Tirra-BL;
+    src: url("Tirra-Black.woff2") format("woff2"); /* use Tirra in current folder */
+}
+
+.tirra-R  { font-family: Tirra-R; }
+.tirra-B  { font-family: Tirra-B; }
+.tirra-M  { font-family: Tirra-M; }
+.tirra-SB { font-family: Tirra-SB; }
+.tirra-EB { font-family: Tirra-EB; }
+.tirra-BL { font-family: Tirra-BL; }
+
+
+/* use Tirra Regular */
+@font-face {
+  font-family: 'tirra_regularW';
+  src:	url('Tirra-Regular.woff2') format('woff2'); /* use Tirra in current folder */
+}
+
+/* set body font */
+body {
+  font-family: 'Tirra-R', serif; 
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+
+
