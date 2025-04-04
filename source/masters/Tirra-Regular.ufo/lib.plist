@@ -489,6 +489,7 @@
     <string>yo-tifi</string>
     <string>LabializationMark-tifi</string>
     <string>separator-tifi</string>
+    <string>consonantjoiner-tifi</string>
     <string>uniFE00</string>
     <string>uniFE01</string>
     <string>uniFE02</string>
@@ -566,6 +567,8 @@
     <string>uni034F</string>
     <key>LabializationMark-tifi</key>
     <string>uni2D6F</string>
+    <key>consonantjoiner-tifi</key>
+    <string>uni2D7F</string>
     <key>dotlessj</key>
     <string>uni0237</string>
     <key>emquad</key>
@@ -625,7 +628,7 @@
     <key>wordjoiner</key>
     <string>uni2060</string>
     <key>ya-tifi.neo</key>
-    <string>uni2D30.neo</string>
+    <string>uni2D30</string>
     <key>yaa-tifi</key>
     <string>uni2D44</string>
     <key>yab-tifi</key>
@@ -643,7 +646,7 @@
     <key>yadh-tifi</key>
     <string>uni2D38</string>
     <key>yaf-tifi.neo</key>
-    <string>uni2D3C.neo</string>
+    <string>uni2D3C</string>
     <key>yag-tifi</key>
     <string>uni2D33</string>
     <key>yagLabializationMarkLig-tifi</key>
@@ -687,7 +690,7 @@
     <key>yakhh-tifi</key>
     <string>uni2D3F</string>
     <key>yal-tifi.neo</key>
-    <string>uni2D4D.neo</string>
+    <string>uni2D4D</string>
     <key>yam-tifi</key>
     <string>uni2D4E</string>
     <key>yan-tifi</key>
@@ -709,11 +712,11 @@
     <key>yas-tifi</key>
     <string>uni2D59</string>
     <key>yash-tifi.neo</key>
-    <string>uni2D5B.neo</string>
+    <string>uni2D5B</string>
     <key>yass-tifi.neo</key>
-    <string>uni2D5A.neo</string>
+    <string>uni2D5A</string>
     <key>yat-tifi.neo</key>
-    <string>uni2D5C.neo</string>
+    <string>uni2D5C</string>
     <key>yath-tifi</key>
     <string>uni2D5D</string>
     <key>yatt-tifi</key>
@@ -745,7 +748,7 @@
     <key>yo-tifi</key>
     <string>uni2D67</string>
     <key>yu-tifi.neo</key>
-    <string>uni2D53.neo</string>
+    <string>uni2D53</string>
     <key>zerowidthjoiner</key>
     <string>uni200D</string>
   </dict>

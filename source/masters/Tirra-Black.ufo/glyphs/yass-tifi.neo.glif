@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yass-tifi.neo" format="2">
   <advance width="1454"/>
+  <unicode hex="2D5A"/>
   <outline>
     <component base="_VerticalOval" xOffset="-8"/>
     <contour>

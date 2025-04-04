@@ -16,6 +16,14 @@ perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Regular.ufo/lib.plist
 perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/fontinfo.plist
 perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/lib.plist
 
+echo "-----Updating .neo glyphs with Unicode values..."
+psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Regular.ufo 
+psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Black.ufo 
+
+echo "-----Updating final production names..."
+psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Regular.ufo 
+psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Black.ufo 
+
 echo "-----Updating WOFF metadata..."
 psfmakewoffmetadata -n Tirra -i "org.sil.fonts" -f FONTLOG_tirra.txt -o source/Tirra-WOFF-metadata.xml source/masters/Tirra-Regular.ufo
 

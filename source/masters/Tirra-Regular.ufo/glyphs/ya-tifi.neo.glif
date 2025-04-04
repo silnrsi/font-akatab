@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya-tifi.neo" format="2">
   <advance width="938"/>
+  <unicode hex="2D30"/>
   <outline>
     <contour>
       <point x="484" y="119" type="curve" smooth="yes"/>

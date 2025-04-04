@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yat-tifi.neo" format="2">
   <advance width="1147"/>
+  <unicode hex="2D5C"/>
   <outline>
     <component base="_VerticalBar" xOffset="-169"/>
     <contour>

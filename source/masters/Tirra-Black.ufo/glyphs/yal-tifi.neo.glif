@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yal-tifi.neo" format="2">
   <advance width="1229"/>
+  <unicode hex="2D4D"/>
   <outline>
     <component base="_VerticalBar" xOffset="129"/>
     <component base="_VerticalBar" xOffset="-385"/>
