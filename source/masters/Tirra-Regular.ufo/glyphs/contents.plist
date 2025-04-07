@@ -814,6 +814,8 @@
   <string>yaa-tifi.glif</string>
   <key>yab-tifi</key>
   <string>yab-tifi.glif</string>
+  <key>yabLabializationMarkLig-tifi</key>
+  <string>yabL_abializationM_arkL_ig-tifi.glif</string>
   <key>yabh-tifi</key>
   <string>yabh-tifi.glif</string>
   <key>yach-tifi</key>
@@ -876,6 +878,8 @@
   <string>yal-tifi.neo.glif</string>
   <key>yam-tifi</key>
   <string>yam-tifi.glif</string>
+  <key>yamyahLig-tifi</key>
+  <string>yamyahL_ig-tifi.glif</string>
   <key>yan-tifi</key>
   <string>yan-tifi.glif</string>
   <key>yangTuareg-tifi</key>

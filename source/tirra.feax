@@ -1,0 +1,103 @@
+
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem DFLT dflt;
+languagesystem tfng dflt;
+languagesystem latn dflt;
+
+
+#**********************************
+#  GDEF Classes
+#**********************************
+
+table GDEF {
+GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;
+
+
+#**********************************
+#  GSUB Lookups
+#**********************************
+
+# Ligatures with labialization mark for Neo-Tifinagh
+lookup TfnLabializationMarkLigs {
+  lookupflag 0 ;
+    sub yab-tifi   LabializationMark-tifi by yabLabializationMarkLig-tifi ;
+    sub yag-tifi   LabializationMark-tifi by yagLabializationMarkLig-tifi ;
+    sub yak-tifi   LabializationMark-tifi by yakLabializationMarkLig-tifi ;
+    sub yakh-tifi  LabializationMark-tifi by yakhLabializationMarkLig-tifi ;
+    sub yaq-tifi   LabializationMark-tifi by yaqLabializationMarkLig-tifi ;
+    sub yagh-tifi  LabializationMark-tifi by yaghLabializationMarkLig-tifi ;
+} TfnLabializationMarkLigs;
+
+
+#**********************************
+#  GSUB Features
+#**********************************
+
+feature liga {  # Standard Ligatures; also see feature: rlig
+    script DFLT;  
+        language dflt;  
+            lookup TfnLabializationMarkLigs;
+    script tfng;  
+        language dflt;  
+            lookup TfnLabializationMarkLigs;
+} liga ;
+
+feature rlig {  # Required Ligatures (similar to liga but works for Microsoft Word)
+    script DFLT;  
+        language dflt;  
+            lookup TfnLabializationMarkLigs;
+    script tfng;  
+        language dflt;
+            lookup TfnLabializationMarkLigs;
+} rlig ;
+
+#**********************************
+#  GPOS Lookups
+#**********************************
+
+lookup kernLM {
+  lookupflag 0 ;
+    pos yaf-tifi.neo LabializationMark-tifi -100;
+    pos yal-tifi.neo LabializationMark-tifi -100;
+    pos yam-tifi     LabializationMark-tifi -100;
+} kernLM;
+
+do  for b = [aboveUC aboveLC baseLC belowLC ogonekLC];
+    let lk = "base_"+b+"_base";
+    let bc = "@" + b;
+    let mc = "@_" + b;
+    {
+        lookup $lk {
+            pos base $bc mark $mc;
+        } $lk;
+    }
+
+
+#**********************************
+#  GPOS Features
+#**********************************
+
+feature kern {
+  script DFLT;
+    language dflt;
+      lookup kernLM;
+  script tfng;
+    language dflt;
+      lookup kernLM;
+} kern;
+
+feature mark {
+  script DFLT;
+    language dflt;
+      lookup base_aboveUC_base;
+      lookup base_aboveLC_base;
+      lookup base_baseLC_base;
+      lookup base_belowLC_base;
+      lookup base_ogonekLC_base;
+} mark;
+
+

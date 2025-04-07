@@ -430,6 +430,7 @@
     <string>circledotted</string>
     <string>ya-tifi.neo</string>
     <string>yab-tifi</string>
+    <string>yabLabializationMarkLig-tifi</string>
     <string>yabh-tifi</string>
     <string>yag-tifi</string>
     <string>yagLabializationMarkLig-tifi</string>
@@ -463,6 +464,7 @@
     <string>yazhTuareg-tifi</string>
     <string>yal-tifi.neo</string>
     <string>yam-tifi</string>
+    <string>yamyahLig-tifi</string>
     <string>yan-tifi</string>
     <string>yagnTuareg-tifi</string>
     <string>yangTuareg-tifi</string>
@@ -635,6 +637,8 @@
     <string>uni2D44</string>
     <key>yab-tifi</key>
     <string>uni2D31</string>
+    <key>yabLabializationMarkLig-tifi</key>
+    <string>uni2D31_uni2D6F</string>
     <key>yabh-tifi</key>
     <string>uni2D32</string>
     <key>yach-tifi</key>
