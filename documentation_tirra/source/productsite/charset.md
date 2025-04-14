@@ -1,5 +1,5 @@
 
-This font supports over 400 characters from [The Unicode Standard](https://unicode.org/) as well as a number of [Private Use Area (PUA)](https://www.unicode.org/versions/Unicode15.0.0/ch23.pdf#G19184) characters. In total, over 600 glyphs are included, supporting stylistic alternates for a number of characters as well as a large number of ligated sequences. 
+This font supports over 400 characters from [The Unicode Standard](https://unicode.org/). It also includes a number of ligated sequences involving the Labialization Mark. 
 
 Note: Inclusion of basic Latin repertoire is provided as a convenience but is not intended for extensive Latin script use. The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts in the [Source Sans Github repository](https://github.com/adobe-fonts/source-sans-pro). 
 
@@ -7,7 +7,7 @@ Note: Inclusion of basic Latin repertoire is provided as a convenience but is no
 
 The following character ranges are supported by this font:
 
-Unicode block | Akatab support
+Unicode block | Tirra support
 ------------- | ---------------
 C0 Controls and Basic Latin|U+0020..U+007F
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
@@ -25,21 +25,8 @@ Letterlike Symbols|U+2122, U+2126
 Mathematical Operators|U+2202, U+2206, U+220F, U+2211..U+2212, U+2215, U+2219, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265
 Control Pictures|U+2423
 Geometric Shapes|U+25CA, U+25CC
-Tifinagh|U+2D30..U+2D67, U+2D67, U+2D70, U+2D7F
-PUA: Tifinagh superscripts|U+E300..U+E304
+Tifinagh|U+2D30..U+2D67, U+2D6F, U+2D70, U+2D7F
 Alphabetic Presentation Forms|U+FB00..U+FB02
 Variation Selectors|U+FE00..U+FE0F
 Arabic Presentation Forms-B|U+FEFF (zero-width no-break space)
 Specials|U+FFFC..U+FFFD
-
-## Private Use Area (PUA) characters
-
-There are a number of private-use characters that are supported in this font. The Private Use Area is a range of codepoints that are reserved in the Unicode for private use by software developers and end users who need a special set of characters for their own purposes.
-
-### Tifinagh superscripts
-
-- U+E300  TIFINAGH SUPERSCRIPT YA
-- U+E301  TIFINAGH SUPERSCRIPT YU
-- U+E302  TIFINAGH SUPERSCRIPT YAY
-- U+E303  TIFINAGH SUPERSCRIPT YI
-- U+E304  TIFINAGH SUPERSCRIPT YO

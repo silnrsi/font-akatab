@@ -21,9 +21,6 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
 #### *How do I access the full range of weights?*
 The full range of weights is accessed in different ways depending on the application. See [Using Axis-Based Font Families](https://software.sil.org/fonts/axis-based-fonts/) for details.
 
-#### *How do I access the Character Variants and Stylistic Sets features?*
-Help with application support for font features can be found here: [Using Font Features](https://software.sil.org/fonts/features/). Issues specific to popular applications are below.
-
 #### *Why do some features not work in Microsoft Word?*
 <p>Ligature formation may not automatically work in Word 2016 or earlier. To enable ligatures, go to <strong>Format / Font / Advanced / OpenType features</strong> and change *None* to one of the other settings. It may also be necessary to choose <strong>Use Contextual Alternates</strong>. You can also select <strong>Stylistic Sets</strong> and other features here. Unfortunately, right to left characters do not render properly in Word. For right to left behaviour in a word processor, we recommend [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/).</p>
 

@@ -9,7 +9,7 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 ## Building the fonts from source code
 
-The full source code for our Akatab fonts is available on Github:
+The full source code for our Tirra fonts is available on Github:
 
 - [Akatab Github repository](https://github.com/silnrsi/font-akatab)
 
@@ -23,11 +23,6 @@ Full instructions for setting up the tools and building SIL fonts are available 
 
 We warmly welcome contributions to the fonts, such as new glyphs, enhanced smart font code, or bug fixes. The [brief overview of contributing changes](https://silnrsi.github.io/silfontdev/en-US/Contributing_Changes.html) is a good place to begin. The next step is to contact us by responding to an existing issue or creating an issue in the Github repository and expressing your interest. We can then work together to plan and integrate your contributions.
 
-Here are a few examples of contributions that would be welcomed:
-
-- Variant characters
-- Bi-consonant ligatures
-
 Because we want to be able to guarantee a high level of quality for our fonts, we will review submissions carefully. Contributions will need to cover all the weights and styles of the family. Please don’t be discouraged if we do not include a submission due to quality or incompleteness, or if we ask you to make specific revisions. 
 
-To enable us to accept contributions in a way that honors your contribution and respects your copyright while preserving long-term flexibility for open source licensing, you would also need to agree to the **SIL International Contributor License Agreement for Font Software (v1.0)** prior to sending us your contribution. To read more about this requirement and find out how to submit the required form, please visit the [CLA information page](https://software.sil.org/fontcla).
+To enable us to accept contributions in a way that honors your contribution and respects your copyright while preserving long-term flexibility for open source licensing, you would also need to agree to the **SIL Global Contributor License Agreement for Font Software (v1.1)** prior to sending us your contribution. To read more about this requirement and find out how to submit the required form, please visit the [CLA information page](https://software.sil.org/fontcla).

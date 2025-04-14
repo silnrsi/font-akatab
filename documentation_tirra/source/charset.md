@@ -29,7 +29,7 @@ Letterlike Symbols|U+2122, U+2126
 Mathematical Operators|U+2202, U+2206, U+220F, U+2211..U+2212, U+2215, U+2219, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265
 Control Pictures|U+2423
 Geometric Shapes|U+25CA, U+25CC
-Tifinagh|U+2D30..U+2D67, U+2D67, U+2D70, U+2D7F
+Tifinagh|U+2D30..U+2D67, U+2D6F, U+2D70, U+2D7F
 Alphabetic Presentation Forms|U+FB00..U+FB02
 Variation Selectors|U+FE00..U+FE0F
 Arabic Presentation Forms-B|U+FEFF (zero-width no-break space)

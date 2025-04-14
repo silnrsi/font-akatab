@@ -5,9 +5,7 @@ This project is intended to provide a free and open font family for current lang
 
 For more information on the visual characteristics of the font family, see [Design](design). 
 
-For a complete list of characters included in Akatab, see [Character Set Support](charset). 
-
-For variant glyphs and features supported in Akatab, see [Font Features](features).
+For a complete list of characters included in Tirra, see [Character Set Support](charset).
 
 
 ## Future plans
