@@ -3,7 +3,7 @@
   <advance width="2200"/>
   <anchor x="733" y="1393" name="T"/>
   <outline>
-    <component base="yamyahLig-tifi"/>
+    <component base="yab-tifi"/>
     <component base="LabializationMark-tifi" xOffset="1440"/>
   </outline>
 </glyph>

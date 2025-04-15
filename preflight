@@ -5,7 +5,7 @@
 set -e
 
 echo "-----Update version number..."
-psfsetversion source/masters/Akatab-Regular.ufo "4.001" -l source/logs/setversionR.log
+psfsetversion source/masters/Akatab-Regular.ufo "4.002" -l source/logs/setversionR.log
 
 echo "-----Check and normalize Regular & Black..."
 psfnormalize -p checkfix=fix source/masters/Akatab-Regular.ufo -l source/masters/logs/normReg.log &
@@ -28,5 +28,8 @@ echo "Building internal fea..."
 makefea -q -o source/masters/Akatab-Regular.ufo/features.fea -l source/logs/Akatab-Regular-makefea.log -i source/akatab_master.feax -c source/akatab_classes.xml source/masters/Akatab-Regular.ufo &
 makefea -q -o source/masters/Akatab-Black.ufo/features.fea    -l source/logs/Akatab-Black-makefea.log    -i source/akatab_master.feax -c source/akatab_classes.xml source/masters/Akatab-Black.ufo    &
 wait
+
+echo "-----Starting Tirra subsets and preflight commands..."
+./preflighttirra
 
 echo "-----Preflight completed!"
