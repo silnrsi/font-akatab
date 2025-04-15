@@ -31,11 +31,11 @@ designspace('source/akatab.designspace',
         )
 
 # Make Tirra Neo-Tifinagh subset package
-tpackage = package(appname="Tirra", docdir = {"documentation_tirra": "documentation", "web_tirra": "web"},
-    package_files = {
-                     'FONTLOG_tirra.txt': 'FONTLOG.txt', 
-                     'README_tirra.txt': 'README.txt',
-                    })
+tpackage = package(appname="Tirra", docdir = {"documentation_tirra": "documentation", "web_tirra": "web"})
+#    package_files = {
+#                     'FONTLOG_tirra.txt': 'FONTLOG.txt', 
+#                     'README_tirra.txt': 'README.txt',
+#                    })
 designspace('source/tirra.designspace',
         params = '-c ^_',
         target = process('${DS:FILENAME_BASE}.ttf',

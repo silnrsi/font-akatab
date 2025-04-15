@@ -16,6 +16,13 @@ perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Regular.ufo/lib.plist
 perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/fontinfo.plist
 perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/lib.plist
 
+echo "-----Subsetting completed!"
+
+echo "-----Check and normalize Regular & Black..."
+psfnormalize -p checkfix=fix source/masters/Tirra-Regular.ufo -l source/masters/logs/Tirra-Regular_norm.log &
+psfnormalize -p checkfix=fix source/masters/Tirra-Black.ufo -l source/masters/logs/Tirra-Black_norm.log &
+wait
+
 echo "-----Updating .neo glyphs with Unicode values..."
 psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Regular.ufo 
 psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Black.ufo 
@@ -24,7 +31,15 @@ echo "-----Updating final production names..."
 psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Regular.ufo 
 psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Black.ufo 
 
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters source/tirra.designspace -l source/logs/sync-tirra.log
+
 echo "-----Updating WOFF metadata..."
 psfmakewoffmetadata -n Tirra -i "org.sil.fonts" -f FONTLOG_tirra.txt -o source/Tirra-WOFF-metadata.xml source/masters/Tirra-Regular.ufo
 
-echo "-----Subsetting completed!"
+echo "Building internal fea..."
+makefea -q -o source/masters/Tirra-Regular.ufo/features.fea -l source/logs/Tirra-Regular-makefea.log -i source/tirra.feax source/masters/Tirra-Regular.ufo &
+makefea -q -o source/masters/Tirra-Black.ufo/features.fea    -l source/logs/Tirra-Black-makefea.log    -i source/tirra.feax source/masters/Tirra-Black.ufo   &
+wait
+
+echo "-----Preflight for Tirra completed!"
