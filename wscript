@@ -36,6 +36,9 @@ tpackage = package(appname="Tirra", docdir = {"documentation_tirra": "documentat
 #                     'FONTLOG_tirra.txt': 'FONTLOG.txt', 
 #                     'README_tirra.txt': 'README.txt',
 #                    })
+
+getufoinfo('source/masters/Akatab-Regular.ufo', tpackage)
+
 designspace('source/tirra.designspace',
         params = '-c ^_',
         target = process('${DS:FILENAME_BASE}.ttf',
