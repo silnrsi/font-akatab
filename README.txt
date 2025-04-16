@@ -1,5 +1,5 @@
 README 
-Akatab
+Akatab and Tirra
 ======
 
 Akatab is a Unicode font for rendering Tifinagh characters in the Tamahaq, 
@@ -10,7 +10,10 @@ meet personal and regional preferences. For more information about supported
 Unicode ranges and languages, smart font features and how to use them, please 
 see the documentation folder.
 
-Akatab is released under under the SIL Open Font License 
+Tirra is a Unicode font for the Tifinagh script. It is a subset of Akatab 
+specifically for languages using Neo-Tifinagh. 
+
+Akatab and Tirra are released under the SIL Open Font License 
 (https://openfontlicense.org).  
 
 The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts 
@@ -29,8 +32,7 @@ TIPS
 As this font is distributed at no cost, we are unable to provide a commercial 
 level of personal technical support. The font has, however, been through some 
 testing on various platforms to be sure it works in most situations. In 
-particular, it has been tested and shown to work on Windows 10. Graphite 
-capabilities have been tested on Graphite-supported platforms.
+particular, it has been tested and shown to work on Windows 10 and 11. 
 
 Many problems can be solved, or at least explained, through an understanding 
 of the encoding and use of the fonts. Here are some basic hints:

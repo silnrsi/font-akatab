@@ -1,10 +1,10 @@
 FONTLOG
-Akatab
+Akatab and Tirra
 ======
 
-This file provides detailed information on the Akatab family of fonts.
-This information should be distributed along with the Akatab fonts and
-any derivative works.
+This file provides detailed information on the Akatab and Tirra font families. 
+This information should be distributed along with the Akatab and/or Tirra fonts 
+and any derivative works.
 
 
 Basic Font Information
@@ -26,6 +26,18 @@ Six weights for this typeface family are included:
      * Akatab ExtraBold
 	 * Akatab Black
 
+Tirra is a TrueType font for the Tifinagh script. It is a subset of 
+Akatab specifically for languages using Neo-Tifinagh. 
+
+Six weights for this typeface family are included:
+
+     * Tirra Regular
+     * Tirra Medium
+     * Tirra SemiBold
+     * Tirra Bold
+     * Tirra ExtraBold
+	 * Tirra Black
+
 The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts
 (https://github.com/adobe-fonts/source-sans-pro). 
 
@@ -34,6 +46,10 @@ For detailed documentation see the contents of the 'documentation' folder.
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+
+31 May 2025	(SIL WSTech team) Akatab and Tirra version 4.100
+- Fixed a composite reference for the ligature of YAB and LABIALIZATION MARK
+- Added the Tirra font family, a Neo-Tifinagh subset of the Akatab fonts
 
 17 Feb 2025	(SIL WSTech team) Akatab version 4.000
 - Added Tifinagh characters to complete the Unicode block: 
@@ -117,10 +133,10 @@ ChangeLog
 Information
 -----------
 
-The release of Akatab under the OFL license provides a means for people to 
-make their own modified version of Akatab (using a different name). For 
-information on what you're allowed to change or modify, consult the OFL.txt 
-and OFL-FAQ.txt files. 
+The release of Akatab and Tirra under the OFL license provides a means for 
+people to make their own modified version of Akatab or Tirra fonts (using a 
+different name). For information on what you're allowed to change or modify, 
+consult the OFL.txt and OFL-FAQ.txt files. 
 
 Information for Contributors
 ----------------------------
@@ -154,8 +170,8 @@ N: Andrew Savage
 D: Research, design guidance, and user testing
 
 N: SIL font designers and engineers
-E: https://scripts.sil.org/support
-W: https://scripts.sil.org/
-D: Font design, Graphite, OpenType, and TypeTuner code, and build support
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
+D: Font design, Graphite, OpenType, and build support
 
-The Akatab fonts are maintained by SIL Global.
+The Akatab and Tirra fonts are maintained by SIL Global.

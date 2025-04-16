@@ -1,5 +1,5 @@
 Copyright (c) 2010-2025, SIL Global (https://www.sil.org/),
-with Reserved Font Name "Akatab".
+with Reserved Font Names "Akatab" and "Tirra".
 Copyright (c) 2010-2019 Adobe (http://www.adobe.com/),
 with Reserved Font Name "Source" (Latin glyphs).
 

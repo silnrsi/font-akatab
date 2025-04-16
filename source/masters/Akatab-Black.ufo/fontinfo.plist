@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Akatab</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/04/15 14:57:59</string>
+  <string>2025/04/16 14:38:29</string>
   <key>openTypeHheaAscender</key>
   <integer>2093</integer>
   <key>openTypeHheaDescender</key>
@@ -21,7 +21,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Unicode font with OpenType and Graphite support for the Tifinagh script</string>
+  <string>Unicode font with OpenType support for the Tifinagh script</string>
   <key>openTypeNameDesigner</key>
   <string>SIL Global</string>
   <key>openTypeNameDesignerURL</key>

@@ -21,7 +21,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Unicode font with OpenType and Graphite support for the Tifinagh script</string>
+  <string>Unicode font with OpenType support for the Tifinagh script</string>
   <key>openTypeNameDesigner</key>
   <string>SIL Global</string>
   <key>openTypeNameDesignerURL</key>

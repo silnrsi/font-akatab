@@ -32,10 +32,6 @@ designspace('source/akatab.designspace',
 
 # Make Tirra Neo-Tifinagh subset package
 tpackage = package(appname="Tirra", docdir = {"documentation_tirra": "documentation", "web_tirra": "web"})
-#    package_files = {
-#                     'FONTLOG_tirra.txt': 'FONTLOG.txt', 
-#                     'README_tirra.txt': 'README.txt',
-#                    })
 
 getufoinfo('source/masters/Akatab-Regular.ufo', tpackage)
 

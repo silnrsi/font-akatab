@@ -35,7 +35,7 @@ echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters source/tirra.designspace -l source/logs/sync-tirra.log
 
 echo "-----Updating WOFF metadata..."
-psfmakewoffmetadata -n Tirra -i "org.sil.fonts" -f FONTLOG_tirra.txt -o source/Tirra-WOFF-metadata.xml source/masters/Tirra-Regular.ufo
+psfmakewoffmetadata -n Tirra -i "org.sil.fonts" -f FONTLOG.txt -o source/Tirra-WOFF-metadata.xml source/masters/Tirra-Regular.ufo
 
 echo "Building internal fea..."
 makefea -q -o source/masters/Tirra-Regular.ufo/features.fea -l source/logs/Tirra-Regular-makefea.log -i source/tirra.feax source/masters/Tirra-Regular.ufo &
