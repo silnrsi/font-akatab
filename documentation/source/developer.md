@@ -1,6 +1,6 @@
 ---
 title: Akatab - Developer information
-fontversion: 4.000
+fontversion: 4.100
 ---
 
 ## Welcome, font developers!

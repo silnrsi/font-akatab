@@ -97,4 +97,4 @@ python3 documentation_tirra/source/makepsmd.py documentation_tirra/source/suppor
 # python3 documentation_tirra/source/makepsmd.py documentation_tirra/source/markdowntest.md documentation_tirra/source/productsite/markdowntest.md -q
 echo "     Markdown source for other Product Site pages is in separate repo"
 
-echo "-----Completed!"
+echo "-----Tirra completed!"

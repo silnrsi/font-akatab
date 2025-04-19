@@ -1,4 +1,8 @@
 
+### 31 May 2025	(SIL WSTech team) Akatab and Tirra version 4.100
+- Fixed a composite reference for the ligature of YAB and LABIALIZATION MARK
+- Added the Tirra font family, a Neo-Tifinagh subset of the Akatab fonts
+
 ### 17 Feb 2025	(SIL WSTech team) Akatab version 4.000
 - Added Tifinagh characters to complete the Unicode block: 
     - U+2D32 TIFINAGH LETTER YABH

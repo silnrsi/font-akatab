@@ -3,7 +3,7 @@ title: Tirra - Design and Type Sample
 fontversion: 4.100
 ---
 
-Tirra (“writing”) is designed to reflect a handwriting style and even the “writing in sand” effect. 
+Tirra (“writing”) is designed to reflect a handwriting style. 
 
 Six weights for this typeface family are included:
 
@@ -18,9 +18,9 @@ The full range of weights is accessed in different ways depending on the applica
 
 ## Tifinagh:
 
-<p> This section demonstrates all of the Tifinagh Unicode characters in the font. </p>
-
 ### Unicode characters
+
+<p> This section demonstrates all of the Tifinagh Unicode characters in the font. </p>
 
 #### Regular:
 
@@ -45,6 +45,18 @@ The full range of weights is accessed in different ways depending on the applica
 #### Black:
 
 <p><span class='tirra-BL normal'> ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ <br> ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰ &#x25cc;&#x2D7F; </span></p>
+
+### Ligatures
+
+<p> This section demonstrates common Neo-Tifinagh ligatures. </p>
+
+#### Regular:
+
+<p><span class='tirra-R normal'> ⴱⵯ ⴳⵯ ⴽⵯ ⵅⵯ ⵇⵯ ⵖⵯ </span></p>
+
+#### Bold:
+
+<p><span class='tirra-B normal'> ⴱⵯ ⴳⵯ ⴽⵯ ⵅⵯ ⵇⵯ ⵖⵯ </span></p>
 
 ## Latin, punctuation and other specials:
 

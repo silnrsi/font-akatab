@@ -1,6 +1,6 @@
 ---
 title: Akatab - Design and Type Sample
-fontversion: 4.000
+fontversion: 4.100
 ---
 
 Akatab (“writing”) is designed to reflect a handwriting style and even the “writing in sand” effect. 

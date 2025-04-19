@@ -1,6 +1,6 @@
 ---
 title: Akatab - Resources
-fontversion: 4.000
+fontversion: 4.100
 ---
 
 ## Requirements
@@ -19,7 +19,7 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 ## Rendering and application support
 
-These fonts will work normally like any other fonts in most applications. These fonts include OpenType features for ligature formation, character and ligature (bi-consonant) variants and diacritic positioning. If the writing system requires these features, the the application/OS will need to support OpenType. For information on the specific features available in these fonts, see [Font features](features.md). 
+These fonts will work normally like any other fonts in most applications. These fonts include OpenType features for ligature formation, character and ligature (bi-consonant) variants and diacritic positioning. If the writing system requires these features, the application/OS will need to support OpenType. For information on the specific features available in these fonts, see [Font features](features.md). 
 
 If special font features are to be activated, the application will need to provide a way to turn on the feature or choose the feature setting. Details of current application support, and specific techniques for activating features, are on the [Using Font Features](https://software.sil.org/fonts/features) help page.
 

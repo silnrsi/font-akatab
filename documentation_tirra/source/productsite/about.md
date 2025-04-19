@@ -1,7 +1,7 @@
 
 ## About this project
 
-This project is intended to provide a free and open font family for current languages and writing systems that use the Tifinagh script. It supports all of the Unicode characters for this script. It also includes a large set of ligatures useful for linguistics and literacy work. Smart font routines automatically produce these ligatures. In addition, user-selectable features are included to choose variant characters or ligatures.
+This project is intended to provide a free and open font family for current languages that use the Neo-Tifinagh alphabet. It supports all of the Unicode characters for the Tifinagh script. It also includes a set of common Neo-Tifinagh ligatures that combine certain base characters with the Labialization Mark. Smart font routines automatically produce these ligatures. 
 
 For more information on the visual characteristics of the font family, see [Design](design). 
 

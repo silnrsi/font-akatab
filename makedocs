@@ -97,4 +97,9 @@ python3 documentation/source/makepsmd.py documentation/source/support.md documen
 # python3 documentation/source/makepsmd.py documentation/source/markdowntest.md documentation/source/productsite/markdowntest.md -q
 echo "     Markdown source for other Product Site pages is in separate repo"
 
+echo "-----Akatab completed!"
+
+echo "-----Building Tirra documentation-----"
+./makedocs-tirra 
+
 echo "-----Completed!"
