@@ -24,12 +24,14 @@ psfnormalize -p checkfix=fix source/masters/Tirra-Black.ufo -l source/masters/lo
 wait
 
 echo "-----Updating .neo glyphs with Unicode values..."
-psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Regular.ufo 
-psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Black.ufo 
+psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Regular.ufo -p backup=False
+psfsetunicodes -i source/tirra-setunicodes.csv source/masters/Tirra-Black.ufo -p backup=False
+
+echo "-----Updating Unicode Range values..."
+psfsetkeys --plist fontinfo -k openTypeOS2UnicodeRanges -v "-60" source/masters/Tirra-Regular.ufo -p backup=False 
 
 echo "-----Updating final production names..."
-psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Regular.ufo 
-psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Black.ufo 
+psfsetpsnames -i source/tirra-glyph_data.csv source/masters/Tirra-Regular.ufo -p backup=False 
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters source/tirra.designspace -l source/logs/sync-tirra.log
