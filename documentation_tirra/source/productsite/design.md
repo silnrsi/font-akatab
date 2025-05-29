@@ -54,6 +54,13 @@ The full range of weights is accessed in different ways depending on the applica
 
 <p><span class='tirra-B normal'> ⴱⵯ ⴳⵯ ⴽⵯ ⵅⵯ ⵇⵯ ⵖⵯ </span></p>
 
+### Type sample
+<p>Amazigh UDHR #26.1:</p>
+
+<p><span class='tirra-B normal'>ⴰⵎⴰⴳⵔⴰⴷ 26</span><br>
+<span class='tirra-R normal'>1. ⴽⵓ ⵢⴰⵏ ⴷⴰⵔⵙ ⵓⵣⵔⴼ ⵏ ⵓⵙⴳⵎⵉ. ⴰⵙⴳⵎⵉ ⴰⴷ ⵢⵉⵍⵉ ⴰⴱⵍⴰ ⴰⵇⴰⵕⵉⴹ ⵉ ⵓⵙⵙⵍⵎⴷ ⴰⴼⴳⴳⴰⴳ ⴷ ⵓⵎⵣⴰⵡⴰⵔⵓ. ⴰⵙⵙⵍⵎⴷ ⴰⵎⵣⵡⴰⵔⵓ ⵉⴳⴰ ⵓⵛⵛⵉⵍ. ⴰⵙⵙⵍⵎⴰⴷ ⴰⵜⵉⵇⵏⵉ ⴷ ⵓⵣⵣⵓⵍⴰⵏ ⴰⴷ ⵉⵙⵙⵡⵓ ⴽⵓ ⵢⴰⵏ : ⴰⴷⴼ ⵙ ⵜⵖⵓⵔⵉⵡⵉⵏ ⵜⵉⵎⴰⵊⵊⵢⴰⵍⵉⵏ ⴰⴷ ⵢⴰⵏⴼ ⵉ ⴽⵓ ⵢⴰⵏ, ⵉⵙⵏⵏⴷ ⵅⴼ ⵜⵣⵎⵎⴰⵔ.</span></p>
+
+
 ## Latin, punctuation and other specials:
 
 <p> This section demonstrates all of the Latin, punctuation and other special *visible* characters in the font. It is organized by Unicode block. *Note: Inclusion of basic Latin repertoire is provided as a convenience but is not intended for extensive Latin script use.* </p>
