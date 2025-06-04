@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Tirra</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/06/04 17:13:56</string>
+  <string>2025/06/04 18:07:52</string>
   <key>openTypeHheaAscender</key>
   <integer>2093</integer>
   <key>openTypeHheaDescender</key>
@@ -85,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Tirra Black: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 4.002</string>
+  <string>Version 4.090</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -221,7 +221,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>4</integer>
   <key>versionMinor</key>
-  <integer>2</integer>
+  <integer>90</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
