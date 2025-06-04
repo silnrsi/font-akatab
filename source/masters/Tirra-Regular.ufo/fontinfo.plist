@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Tirra</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/05/12 08:49:38</string>
+  <string>2025/06/04 17:13:55</string>
   <key>openTypeHheaAscender</key>
   <integer>2093</integer>
   <key>openTypeHheaDescender</key>
@@ -222,6 +222,46 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>4</integer>
   <key>versionMinor</key>
   <integer>2</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Paul D. Hunt</string>
+        <key>role</key>
+        <string>Font design (Latin glyphs)</string>
+        <key>url</key>
+        <string>https://fonts.adobe.com/fonts/source-sans</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Andrew Savage</string>
+        <key>role</key>
+        <string>Research, design guidance, and user testing</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>SIL font designers and engineers</string>
+        <key>role</key>
+        <string>Font design, Graphite, OpenType, and build support</string>
+        <key>url</key>
+        <string>https://software.sil.org/wstech/</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Tirra is a TrueType font for the Tifinagh script with smart font capabilities added using state-of-the-art font technologies.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://software.sil.org/tirra/</string>
+  </dict>
   <key>xHeight</key>
   <integer>1024</integer>
 </dict>

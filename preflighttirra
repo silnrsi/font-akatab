@@ -16,6 +16,9 @@ perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Regular.ufo/lib.plist
 perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/fontinfo.plist
 perl -i -pe 's/Akatab/Tirra/g' source/masters/Tirra-Black.ufo/lib.plist
 
+perl -i -pe 's/akatab/tirra/g' source/masters/Tirra-Regular.ufo/fontinfo.plist
+perl -i -pe 's/akatab/tirra/g' source/masters/Tirra-Black.ufo/fontinfo.plist
+
 echo "-----Subsetting completed!"
 
 echo "-----Check and normalize Regular & Black..."
