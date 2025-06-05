@@ -11,7 +11,9 @@ Unicode ranges and languages, smart font features and how to use them, please
 see the documentation folder.
 
 Tirra is a Unicode font for the Tifinagh script. It is a subset of Akatab 
-specifically for languages using Neo-Tifinagh. 
+specifically for languages using Neo-Tifinagh. It also includes a set of common 
+Neo-Tifinagh ligatures that combine certain base characters with the 
+Labialization Mark. Smart font routines automatically produce these ligatures.
 
 Akatab and Tirra are released under the SIL Open Font License 
 (https://openfontlicense.org).  
